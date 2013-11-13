@@ -1,0 +1,5266 @@
+﻿namespace NShared
+{
+	:protected 1
+	ATransitionBetweenTwoStatusesCanBeLimitedToASet "A transition between two statuses can be limited to a set of users and groups."
+	{
+		// e1404a66
+
+		// Shared by:
+		// 71ad3694 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/ATransitionBetweenTwoStatusesCanBeLimitedToA
+		// 1cfb43cf - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/ATransitionBetweenTwoStatusesCanBeLimitedToA
+		:00_Current "A transition between two statuses can be limited to a set of users and groups."
+	}
+	Action "Action"
+	{
+		// 4cbfc667
+
+		// Shared by:
+		// 7aadeeec - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NPaint/Action
+		// c60b552a - NLocalize/NClient/NGui/NVersionControl/NVersionHistory/Action
+		:00_Current "Action"
+	}
+	ActivityName "Activity name"
+	{
+		// 2fe4c897
+
+		// Shared by:
+		// ad07bee0 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/ActivityName
+		// 27d33bcc - NLocalize/NDatabaseFunctions/NDB/NGeneral/ActivityName
+		:00_Current "Activity name"
+	}
+	AddFiles "Add Files"
+	{
+		// a0f60fe5
+
+		// Shared by:
+		// 83d02e6e - NLocalize/NClient/NGui/NActivityDetailsWindow/NConversionPopup/AddFiles
+		// 56d10e30 - NLocalize/NClient/NGui/NActivityDetailsWindow/NFileAttachments/AddFiles
+		// d1f41582 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/AddFiles
+		// cadf9cc8 - NLocalize/NClient/NGui/NGantt/NQA/NCommands/AddFiles
+		// 42e32913 - NLocalize/NClient/NGui/NVersionControl/AddFiles
+		:00_Current "Add Files"
+	}
+	AddResouces "Add users"
+	{
+		// 7e26261b
+
+		// Shared by:
+		// eb32e05f - NLocalize/NClient/NGui/NGantt/NManageLocalizations/TranslationPermissionsAddResources
+		// fd1e272a - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/NCreateEditProfile/ProfileResourcesAddResources
+		:00_Current "Add users"
+	}
+	AddResources "Add users"
+	{
+		// 42f3194d
+
+		// Shared by:
+		// e961f112 - NLocalize/NClient/NGui/NGantt/NCommands/NTaskRelated/AddResources
+		// 7f7c6c06 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/AddResources
+		// ff2f8c49 - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/NCreateRule/AddResources
+		// a14690bb - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/AddResources
+		// e3b48c5b - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/NAssignToResources/AddResources
+		// 55c81ecf - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/PopupAssignAddResources
+		// 8b4b51ec - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/PopupEmailNotificationsAddResources
+		// f5d60dc7 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/AddResources
+		// aa05ef02 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/AddResources
+		// d33b5f2f - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/AddResources
+		// 3b2f597e - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/CanSelectThisPipelineKanbanAllocateTo
+		// c15b407e - NLocalize/NClient/NGui/NGantt/NReports/AddResources
+		:00_Current "Add users"
+	}
+	Administrators "Administrators"
+	{
+		// 7b74ff7d
+
+		// Shared by:
+		// b21c0761 - NLocalize/NClient/NGui/NResourceProjectPicker/Administrators
+		// 9f53d30b - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Administrators
+		:00_Current "Administrators"
+	}
+	Advanced "Advanced"
+	{
+		// ccde185f
+
+		// Shared by:
+		// 4c373f4c - NLocalize/NClient/NGui/NAdministration/Advanced
+		// 6736b025 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/Advanced
+		:00_Current "Advanced"
+	}
+	AfterDate "After date"
+	{
+		// b0bc4ab9
+
+		// Shared by:
+		// 78a7fd93 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/AfterDate
+		// 9627db3f - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/AfterDate
+		// 6b11356e - NLocalize/NDatabaseFunctions/NFind/AfterDate
+		:00_Current "After date"
+	}
+	AgileRelated "Agile related"
+	{
+		// b7a036ec
+
+		// Shared by:
+		// a30dfea9 - NLocalize/NClient/NGui/NGlobal/NTrendsCreateNewCustomTrendType/AgileRelated
+		// 22550f34 - NLocalize/NClient/NGui/NGlobalTrends/AgileRelated
+		:00_Current "Agile related"
+	}
+	AgileTheyAreUserStories "General - Flagged as User story"
+	{
+		// 7161e145
+
+		// Shared by:
+		// 2f7ca8e5 - NLocalize/NClient/NGui/NGantt/NFilterWindow/AgileTheyAreUserStories
+		// 5c729ee4 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/AgileTheyAreUserStories
+		:00_Current "General - Flagged as User story"
+	}
+	AllImmediateSubItems "All immediate sub items"
+	{
+		// 48b26d9d
+
+		// Shared by:
+		// 9926de63 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/AllImmediateSubItems
+		// 75f21d32 - NLocalize/NDatabaseFunctions/NFind/AllImmediateSubItems
+		:00_Current "All immediate sub items"
+	}
+	AllLeafSubItems "All leaf sub items"
+	{
+		// 9ffd4fc6
+
+		// Shared by:
+		// b6d0accc - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/AllLeafSubItems
+		// f1c6ae3b - NLocalize/NDatabaseFunctions/NFind/AllLeafSubItems
+		:00_Current "All leaf sub items"
+	}
+	AllPreviousSubProjects "All previous sub projects"
+	{
+		// ba4911f3
+
+		// Shared by:
+		// f99ccc39 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/AllPreviousSubProjects
+		// 3632fac8 - NLocalize/NDatabaseFunctions/NFind/AllPreviousSubProjects
+		:00_Current "All previous sub projects"
+	}
+	AllProjectMembers "All project members"
+	{
+		// 123c06c4
+
+		// Shared by:
+		// 6e342b9d - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/AllProjectMembers
+		// 1cfc1575 - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/AllProjectMembers
+		// 20e83c9c - NLocalize/NClient/NGui/NGantt/NPreControlClasses/AllProjectMembers
+		// 38d3e9f7 - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/AllProjectMembers
+		// 6470b229 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NPaint/AllProjectMembers
+		// e6b45514 - NLocalize/NClient/NGui/NGantt/NResourceGroupsSelection/AllProjectMembers
+		// 443aebc1 - NLocalize/NClient/NGui/NGantt/NSFB/AllProjectMembers
+		// 96a2424c - NLocalize/NClient/NGui/NMain/NSharedResourceGroups/AllProjectMembers
+		// fbd6d679 - NLocalize/NDatabaseFunctions/NFind/AllProjectMembers
+		:00_Current "All project members"
+	}
+	AllSubItems "All sub items"
+	{
+		// d3ebff6e
+
+		// Shared by:
+		// c27dc974 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/AllSubItems
+		// 77266b63 - NLocalize/NDatabaseFunctions/NFind/AllSubItems
+		:00_Current "All sub items"
+	}
+	AllocatedTo "Allocated to"
+	{
+		// 4233b655
+
+		// Shared by:
+		// ba4bf5a7 - NLocalize/NClient/NGui/NGantt/NActionHistory/AllocatedTo
+		// 9d7a2402 - NLocalize/NClient/NGui/NGantt/NCommands/NTaskRelated/AllocateToSprintAllocatedTo
+		:00_Current "Allocated to"
+	}
+	Allocation "Allocation"
+	{
+		// 0201a3af
+
+		// Shared by:
+		// c011bf88 - NLocalize/NClient/NGui/NGantt/NAddMoreResources/Allocation
+		// 7d05c63f - NLocalize/NClient/NGui/NResourceAllocationView/Allocation
+		:00_Current "Allocation"
+	}
+	AlsoShowingIdealDaysBurndown "Also showing estimated days burndown"
+	{
+		// d33d39d6
+
+		// Shared by:
+		// 7fd2efab - NLocalize/NClient/NGui/NGantt/NAgile/NAgileCommands/AlsoShowingIdealDaysBurndown
+		// cd5c17e7 - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/AlsoShowingIdealDaysBurndown
+		:00_Current "Also showing estimated days burndown"
+	}
+	AlsoShowingPointsBurndown "Also showing Points burndown"
+	{
+		// 8882b063
+
+		// Shared by:
+		// 7e872e58 - NLocalize/NClient/NGui/NGantt/NAgile/NAgileCommands/AlsoShowingPointsBurndown
+		// ab7ae014 - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/AlsoShowingPointsBurndown
+		:00_Current "Also showing Points burndown"
+	}
+	AlsoShowingWorkRemainingBurndown "Also showing Work remaining burndown"
+	{
+		// b09a04e3
+
+		// Shared by:
+		// 7a109d38 - NLocalize/NClient/NGui/NGantt/NAgile/NAgileCommands/AlsoShowingWorkRemainingBurndown
+		// 3c2b8374 - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/AlsoShowingWorkRemainingBurndown
+		:00_Current "Also showing Work remaining burndown"
+	}
+	And " and "
+	{
+		// bec3b1fc
+
+		// Shared by:
+		// 68cdf5a4 - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/BurndownchartAndMoreDataInChart
+		// 65053d51 - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/And
+		:00_Current " and "
+	}
+	And2 "and"
+	{
+		// 9739f1ae
+
+		// Shared by:
+		// 127e1a1b - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/And
+		// c62afa98 - NLocalize/NClient/NGui/NGantt/NQA/NTopWindow/And
+		:00_Current "and"
+	}
+	AnyImmediateSubItem "Any immediate sub item"
+	{
+		// 15612e39
+
+		// Shared by:
+		// f1079e3f - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/AnyImmediateSubItem
+		// d0eebf2e - NLocalize/NDatabaseFunctions/NFind/AnyImmediateSubItem
+		:00_Current "Any immediate sub item"
+	}
+	AnyLeafSubItem "Any leaf sub item"
+	{
+		// 183101e2
+
+		// Shared by:
+		// 37e9d628 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/AnyLeafSubItem
+		// e45de5b7 - NLocalize/NDatabaseFunctions/NFind/AnyLeafSubItem
+		:00_Current "Any leaf sub item"
+	}
+	AnyPreviousSubProject "Any previous sub project"
+	{
+		// b8126f8f
+
+		// Shared by:
+		// 1714f915 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/AnyPreviousSubProject
+		// 8d4811c4 - NLocalize/NDatabaseFunctions/NFind/AnyPreviousSubProject
+		:00_Current "Any previous sub project"
+	}
+	AnySubItem "Any sub item"
+	{
+		// a8eb3d0a
+
+		// Shared by:
+		// 3bc8de50 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/AnySubItem
+		// addd7e5f - NLocalize/NDatabaseFunctions/NFind/AnySubItem
+		:00_Current "Any sub item"
+	}
+	Archived "Archived"
+	{
+		// d6b7a56f
+
+		// Shared by:
+		// 37edd601 - NLocalize/NClient/NGui/NGantt/NActionHistory/Archived
+		// 8068210f - NLocalize/NClient/NGui/NGantt/NFilterWindow/Archived
+		// 90ee8de4 - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/Archived
+		:00_Current "Archived"
+	}
+	AreYouSureYouWantToContinueWithoutUpgradingYour "Are you sure you want to continue without upgrading your licence?"
+	{
+		// 86ffd060
+
+		// Shared by:
+		// f0e622b5 - NLocalize/NClient/NGui/NLicenseInformationPopup/AreYouSureYouWantToContinueWithoutUpgrading
+		// aa2578a3 - NLocalize/NClient/NGui/NUpgradeLicense/AreYouSureYouWantToContinueWithoutUpgrading
+		:00_Current "Are you sure you want to continue without upgrading your licence?"
+	}
+	AreYouSureYouWantToDeleteTheCurrentWorkflowAnd "Are you sure you want to delete the current workflow and replace with the default workflow?"
+	{
+		// 4804b29c
+
+		// Shared by:
+		// 666700fe - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/AreYouSureYouWantToDeleteTheCurrentWorkflowAnd
+		// 2b4d1ee2 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/AreYouSureYouWantToDeleteTheCurrentWorkflowAnd
+		:00_Current "Are you sure you want to delete the current workflow and replace with the default workflow?"
+	}
+	AreYouSureYouWantToDeleteThisRule "Are you sure you want to delete this rule?"
+	{
+		// df98f35a
+
+		// Shared by:
+		// 7a5bf340 - NLocalize/NClient/NGui/NCustomize/NTimesheets/NATR/AreYouSureYouWantToDeleteThisRule
+		// c8fedc8d - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/AreYouSureYouWantToDeleteThisRule
+		:00_Current "Are you sure you want to delete this rule?"
+	}
+	AssignToResourcesGroups " Assign to users/groups"
+	{
+		// cc4a790c
+
+		// Shared by:
+		// d9b7afba - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/AssignToResourcesGroups
+		// 18c95895 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/AssignToResourcesGroups
+		:00_Current " Assign to users/groups"
+	}
+	Assigned "Assigned"
+	{
+		// 491549f7
+
+		// Shared by:
+		// feaa3a65 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/Assigned
+		// 5b5cd3e7 - NLocalize/NDatabaseFunctions/NUsersProjects/Assigned
+		:00_Current "Assigned"
+	}
+	AttachDocuments "Attach documents"
+	{
+		// 2e6803b0
+
+		// Shared by:
+		// 07dfa122 - NLocalize/NClient/NGui/NActivityDetailsWindow/AttachDocuments
+		// 13829f9b - NLocalize/NClient/NGui/NActivityDetailsWindow/NFileAttachments/AttachDocuments
+		// 4e117548 - NLocalize/NClient/NGui/NActivityDetailsWindow/NModifications/AttachDocuments
+		// 00f280a1 - NLocalize/NClient/NGui/NActivityDetailsWindow/NSelectItems/AttachDocuments
+		// c32df6ad - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/AttachDocuments
+		:00_Current "Attach documents"
+	}
+	AutoAssignedTo "Auto assigned to"
+	{
+		// a712cc73
+
+		// Shared by:
+		// 2b3bb16c - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/AutoAssignedTo
+		// 72e5b88c - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/PopupAssignAutoAssignTo
+		:00_Current "Auto assigned to"
+	}
+	AvailableResources "Available users"
+	{
+		// d69d5fc5
+
+		// Shared by:
+		// b2cc70f3 - NLocalize/NClient/NGui/NGantt/NCommentsCC/AvailableResources
+		// 947c0e41 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/AvailableResources
+		:00_Current "Available users"
+	}
+	BacklogItem "Backlog item"
+	{
+		// a62eeb4b
+
+		// Shared by:
+		// 98b32d47 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/BacklogItem
+		// d3122336 - NLocalize/NClient/NGui/NGantt/NObjects/NPlanned/BacklogItem
+		// 49695740 - NLocalize/NDatabaseFunctions/NFind/BacklogItem
+		// 09e756cd - NLocalize/NDatabaseFunctions/NUsersProjects/BacklogItem2
+		:00_Current "Backlog item"
+	}
+	BeforeDate "Before date"
+	{
+		// 7045705a
+
+		// Shared by:
+		// 35a77e74 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/BeforeDate
+		// 032311a0 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/BeforeDate
+		// 7537b1af - NLocalize/NDatabaseFunctions/NFind/BeforeDate
+		:00_Current "Before date"
+	}
+	Blocked "Blocked"
+	{
+		// 4653671d
+
+		// Shared by:
+		// b812eebd - NLocalize/NClient/NGui/NGantt/NFilterWindow/Blocked
+		// f4c5f265 - NLocalize/NClient/NGui/NGlobalTrends/Blocked
+		// 27d9730d - NLocalize/NDatabaseFunctions/NUsersProjects/Blocked
+		:00_Current "Blocked"
+	}
+	Blue "Blue"
+	{
+		// 973a77f1
+
+		// Shared by:
+		// b6711db7 - NLocalize/NClient/NGui/NGantt/NEditScreenshot/Blue
+		// 1f0230fc - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/Blue
+		:00_Current "Blue"
+	}
+	BlueBox "Blue box"
+	{
+		// 46c065da
+
+		// Shared by:
+		// a7701092 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/BlueBox
+		// 0293e0f3 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/BlueBox
+		// d0220088 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/BlueBox
+		// 326b5363 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/BlueBox
+		:00_Current "Blue box"
+	}
+	BlueCircle "Blue circle"
+	{
+		// 0880ce63
+
+		// Shared by:
+		// bc6d1e1b - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/BlueCircle
+		// daf41edc - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/BlueCircle
+		:00_Current "Blue circle"
+	}
+	BlueFace "Blue face"
+	{
+		// 1ecf14c0
+
+		// Shared by:
+		// 95741678 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/BlueFace
+		// 5511f2f9 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/BlueFace
+		:00_Current "Blue face"
+	}
+	Both "Both"
+	{
+		// 973a8496
+
+		// Shared by:
+		// aaa1e867 - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/NCreateEditProfile/Both
+		// 7221bb92 - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/NCreateRule/Both
+		// 343c6e04 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/Both
+		// bbd436bf - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/Both
+		// 38559f10 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/Both
+		// 3261754b - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/Both
+		// 646acec4 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NSelectColumns/Both
+		:00_Current "Both"
+	}
+	BoundToX "(Bound to {0})"
+	{
+		// 0670e51c
+		// 0 text - Default name of sprint type or custom name
+
+		// Shared by:
+		// ca154345 - NLocalize/NClient/NGui/NActivityDetailsWindow/NDynamicProperties/BoundToSprint
+		// c14d2df9 - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/BoundToSprint
+		:00_Current "(Bound to {0})"
+	}
+	Box "Box ?"
+	{
+		// bec3b672
+
+		// Shared by:
+		// 819ac52a - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/Box
+		// 23cb8d0b - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/Box
+		:00_Current "Box ?"
+	}
+	Budgeted "Budgeted"
+	{
+		// ac2906ad
+
+		// Shared by:
+		// 3f224076 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Budgeted
+		// 3704ccca - NLocalize/NClient/NGui/NGantt/NDataImport/NProjectHistory/Budgeted
+		:00_Current "Budgeted"
+	}
+	BudgetedWork "Budgeted work"
+	{
+		// 11a83170
+
+		// Shared by:
+		// 8cc85b02 - NLocalize/NClient/NGui/NGantt/NActionHistory/BudgetedWork
+		// 7c5d09b8 - NLocalize/NClient/NGui/NGlobalTrends/BudgetedWork
+		// 0996a4a5 - NLocalize/NDatabaseFunctions/NDB/NGeneral/BudgetedWork
+		:00_Current "Budgeted work"
+	}
+	Bug "Bug"
+	{
+		// bec3b727
+
+		// Shared by:
+		// c893bd23 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/Bug
+		// fbaf3412 - NLocalize/NClient/NGui/NGantt/NObjects/NPlanned/Bug
+		// 63fffe1c - NLocalize/NDatabaseFunctions/NFind/Bug
+		// 74c14b17 - NLocalize/NDatabaseFunctions/NUsersProjects/Bug
+		// a41b1504 - NLocalize/NServer/NDatabase/NContextMessageServices/Bug
+		:00_Current "Bug"
+	}
+	BugPriority "Bug priority"
+	{
+		// 9e881da9
+
+		// Shared by:
+		// 8801d6ec - NLocalize/NClient/NGui/NGantt/NColumns/BugPriority
+		// 222a7e3e - NLocalize/NDatabaseFunctions/NDB/NGeneral/BugPriority
+		:00_Current "Bug priority"
+	}
+	BugStatus "Status"
+	{
+		// ea96accb
+
+		// Shared by:
+		// dcb71fb4 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/BugStatus
+		// 8ffcc330 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NPaint/BugStatus
+		// 301245a8 - NLocalize/NClient/NGui/NGlobal/NTrendsCreateNewCustomTrendType/BugStatus
+		// ffd92a13 - NLocalize/NClient/NGui/NGlobalTrends/BugStatus
+		// 538de420 - NLocalize/NDatabaseFunctions/NDB/NGeneral/BugStatus
+		// 45cf74bb - NLocalize/NDatabaseFunctions/NUsersProjects/BugStatus
+		:00_Current "Status"
+	}
+	CCNewCommentsTo "CC new comments to"
+	{
+		// 84069d42
+
+		// Shared by:
+		// 9a714005 - NLocalize/NClient/NGui/NGantt/NColumns/CCNewCommentsTo
+		// 15032530 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/CCNewCommentsTo2
+		// dc614057 - NLocalize/NDatabaseFunctions/NDB/NGeneral/CCNewCommentsTo
+		:00_Current "CC new comments to"
+	}
+	CalendarHasBeenChangedAndScheduleAdjustedAccordingly "Calendar has been changed and schedule adjusted accordingly"
+	{
+		// c00b88a6
+
+		// Shared by:
+		// f3f87840 - NLocalize/NClient/NGui/NGantt/NTreeObject/CalendarHasBeenChangedAndScheduleAdjusted
+		// 33fc5d44 - NLocalize/NClient/NGui/NGantt/NUndoRedo/NClasses/CalendarHasBeenChangedAndScheduleAdjusted
+		:00_Current "Calendar has been changed and schedule adjusted accordingly"
+	}
+	Cancel "Cancel"
+	{
+		// 5142818f
+
+		// Shared by:
+		// 114c97e4 - NLocalize/NAOWin/NAOMultiEditDialog/Cancel
+		// c2642e70 - NLocalize/NClient/NGui/NGantt/NReport/NMailTo/Cancel
+		:00_Current "Cancel"
+	}
+	Cancel2 "Cancel"
+	{
+		// 7992b3a1
+
+		// Shared by:
+		// 771c3ee1 - NLocalize/NClient/NGui/NActivityDetailsWindow/NCommentsManagement/Cancel
+		// 58c169d8 - NLocalize/NClient/NGui/NActivityDetailsWindow/NConversionPopup/Cancel
+		// 96a08130 - NLocalize/NClient/NGui/NCommentEditor/Cancel
+		// 71c53aa4 - NLocalize/NClient/NGui/NCreateCustomAgileNameTemplate/Cancel
+		// b4708d81 - NLocalize/NClient/NGui/NCreateProject/Cancel
+		// 15458b51 - NLocalize/NClient/NGui/NCustomize/NTimesheets/Cancel
+		// 41ba4935 - NLocalize/NClient/NGui/NCustomize/NTimesheets/NATR/Cancel
+		// e4eb6dd9 - NLocalize/NClient/NGui/NCustomize/NTimesheets/NRules/Cancel
+		// ac0ebbd4 - NLocalize/NClient/NGui/NEmailConfig/Cancel
+		// 6fd498e8 - NLocalize/NClient/NGui/NGantt/NAddMoreResources/Cancel
+		// 9d4e17cf - NLocalize/NClient/NGui/NGantt/NCalender/Cancel
+		// 7c907d8a - NLocalize/NClient/NGui/NGantt/NCalenderImport/Cancel
+		// f173ddbd - NLocalize/NClient/NGui/NGantt/NCommentsCC/Cancel
+		// c0cbb547 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/Cancel
+		// 52957b21 - NLocalize/NClient/NGui/NGantt/NCustomize/NDialog/Cancel
+		// cae0c408 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/Cancel
+		// e2967d88 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/Cancel
+		// 5e7d0be9 - NLocalize/NClient/NGui/NGantt/NHistorySaveOccurence/Cancel
+		// ddd079d8 - NLocalize/NClient/NGui/NGantt/NLinkActivitiesByNumber/Cancel
+		// 22b6abb1 - NLocalize/NClient/NGui/NGantt/NLinkMultipleMilestonesTo/Cancel
+		// dc121da0 - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/NCreateEditProfile/Cancel
+		// 8c99b079 - NLocalize/NClient/NGui/NGantt/NMessageCopies/Cancel
+		// 5c4133dc - NLocalize/NClient/NGui/NGantt/NMessageMilestoneWarning/Cancel
+		// 280d910d - NLocalize/NClient/NGui/NGantt/NMessageOccurence/Cancel
+		// fbdb6786 - NLocalize/NClient/NGui/NGantt/NMessageScheduleUpdate/Cancel
+		// b12f0e47 - NLocalize/NClient/NGui/NGantt/NMessageSettings/Cancel
+		// 87002a21 - NLocalize/NClient/NGui/NGantt/NMyWorkGuide/NShowAllItems/Cancel
+		// 7beb04b5 - NLocalize/NClient/NGui/NGantt/NOptionsWindow/Cancel
+		// e7dc3cd1 - NLocalize/NClient/NGui/NGantt/NPrint/NFitToPages/Cancel
+		// c48196a2 - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/Cancel
+		// 82d3678b - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/NCreateRule/Cancel
+		// 36647e7d - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/Cancel
+		// c366421d - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/NAssignToResources/Cancel
+		// 031161f8 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/Cancel
+		// a58e2289 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/Cancel
+		// 648ed6c8 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowReference/Cancel
+		// 51e87384 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/Cancel
+		// 2bae0f3d - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NSelectColumns/Cancel
+		// df61a1df - NLocalize/NClient/NGui/NGantt/NResourceGroupsSelection/Cancel
+		// 2c84a692 - NLocalize/NClient/NGui/NGantt/NTimeReporting/NTimeClock/Cancel
+		// 72779fa2 - NLocalize/NClient/NGui/NGlobal/NTrendsCreateCustomTrendType/Cancel
+		// 2f987f8c - NLocalize/NClient/NGui/NGlobal/NTrendsCreateNewCustomTrendType/Cancel
+		// 2a00f96a - NLocalize/NClient/NGui/NMain/NLocalizationErrorConsoleOptions/Cancel
+		// d36565f7 - NLocalize/NClient/NGui/NName/Cancel
+		// 0886b26a - NLocalize/NClient/NGui/NNameMultiline/Cancel
+		// c9d48aaa - NLocalize/NClient/NGui/NNamePassword/Cancel
+		// df796ca7 - NLocalize/NClient/NGui/NProjectIC/NSettings/Cancel
+		// fa61e573 - NLocalize/NClient/NGui/NResourceProjectPicker/Cancel
+		// da7bf9ee - NLocalize/NClient/NGui/NServerAdmin/NDataBaseEdit/Cancel
+		// 1edc0049 - NLocalize/NClient/NGui/NServerAdmin/NDatabaseState/Cancel
+		// 08c5a71d - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Cancel
+		// 055131d6 - NLocalize/NClient/NGui/NVersionControl/NAddFiles/Cancel
+		// b5dcaae6 - NLocalize/NClient/NGui/NVersionControl/NOptions/Cancel
+		// 7f3ece6f - NLocalize/NClient/NGui/NVersionControl/NProgress/Cancel
+		// 177dc37c - NLocalize/NClient/NGui/NVersionControl/NReadComments/Cancel
+		// 6a7f78f0 - NLocalize/NClient/NLogin/NGui/NClientLoginOptions/Cancel
+		// e7ff56a2 - NLocalize/NClient/NLogin/NGui/NLicenseInformationPopupLogin/Cancel
+		:00_Current "Cancel"
+	}
+	Category "Category"
+	{
+		// ba0d7ac7
+
+		// Shared by:
+		// 1b43ab59 - NLocalize/NClient/NGui/NGantt/NActionHistory/Category
+		// 91c102ea - NLocalize/NClient/NGui/NGantt/NColumns/Category
+		// 5b7c9e43 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/Category
+		// 50a09b7c - NLocalize/NDatabaseFunctions/NDB/NGeneral/Category
+		:00_Current "Category"
+	}
+	Check "Done"
+	{
+		// 7e991927
+
+		// Shared by:
+		// 536eb5df - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/Check
+		// 44f0fa00 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/Check
+		// bbd83055 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/Check
+		// 36691070 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/Check
+		:00_Current "Done"
+	}
+	CheckedOutByX "Checked out by {0}"
+	{
+		// f61d899b
+		// 0 text - User name
+
+		// Shared by:
+		// 8de09958 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/CheckedOutByX
+		// 42585ae2 - NLocalize/NClient/NGui/NGantt/NManageLocalizations/CheckedOutByX
+		// f9cc3f5f - NLocalize/NClient/NGui/NVersionControl/NFunctions/CheckedOutByX
+		:00_Current "Checked out by {0}"
+	}
+	CheckingInTranslations "Checking in translations"
+	{
+		// ccf9355e
+
+		// Shared by:
+		// 2b29d40d - NLocalize/NClient/NGui/NVersionControl/NProgress/TranslationCheckIn
+		// 1b46973b - NLocalize/NClient/NPMCContext/NVersionControl/TranslationCheckIn
+		:00_Current "Checking in translations"
+	}
+	CheckingOutTranslations "Checking out translations"
+	{
+		// 0719ed3f
+
+		// Shared by:
+		// 9064708e - NLocalize/NClient/NGui/NVersionControl/NProgress/TranslationCheckOut
+		// 8419997c - NLocalize/NClient/NPMCContext/NVersionControl/TranslationCheckOut
+		:00_Current "Checking out translations"
+	}
+	ClickHereToCloseTheReportAndRestoreTheView "Close"
+	{
+		// 5c9d4e7c
+
+		// Shared by:
+		// 0740b9bb - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/ClickHereToCloseTheReportAndRestoreTheView
+		// cffebf98 - NLocalize/NClient/NGui/NGantt/NQA/NTopWindow/ClickHereToCloseTheReportAndRestoreTheView
+		:00_Current "Close"
+	}
+	ClickHereToSelectResourcesOrGroups "Click here to select users or groups"
+	{
+		// edfc08d2
+
+		// Shared by:
+		// cb3ba4cc - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/ClickHereToSelectResourcesOrGroups
+		// e98ddc47 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/ClickHereToSelectResourcesOrGroups
+		:00_Current "Click here to select users or groups"
+	}
+	ClickToSelect "-- Click to select --"
+	{
+		// 75ee9712
+
+		// Shared by:
+		// 57dd8c1c - NLocalize/NClient/NGui/NCustomize/NTimesheets/NRules/ClickToSelect
+		// b9b9698e - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/NCreateRule/ClickToSelect
+		:00_Current "-- Click to select --"
+	}
+	ClickToSelect2 "Click to select"
+	{
+		// 33c17984
+
+		// Shared by:
+		// 74d08472 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/ClickToSelect2
+		// 5c06187c - NLocalize/NClient/NGui/NGantt/NViewRender/NWall/ClickToSelect
+		:00_Current "Click to select"
+	}
+	Close "Close"
+	{
+		// 7e9b773f
+
+		// Shared by:
+		// 55e196f4 - NLocalize/NAOWin/NAOMultiEditDialog/Close
+		// 84a6d5c5 - NLocalize/NClient/NGui/NGantt/NEditScreenshot/Close
+		// 75657761 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/Close
+		// 5cb7b4c5 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/Close
+		// 1c687e47 - NLocalize/NClient/NGui/NGantt/NScreenshotMonitor/Close
+		// 8b3413ce - NLocalize/NClient/NGui/NMain/NLocalizationErrorConsole/Close
+		:00_Current "Close"
+	}
+	Close2 "Close"
+	{
+		// 520a5f51
+
+		// Shared by:
+		// 5049fa68 - NLocalize/NClient/NGui/NActivityDetailsWindow/NConversionPopup/Close
+		// 7cba65ec - NLocalize/NClient/NGui/NComments/Close
+		// 71120032 - NLocalize/NClient/NGui/NEmailStatus/Close
+		// 22132111 - NLocalize/NClient/NGui/NGantt/NActionHistory/Close
+		// 9a50ed6b - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/Close
+		// 85fd19fc - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/Close
+		// 4d9496df - NLocalize/NClient/NGui/NGantt/NFilterWindow/Close
+		// be68337f - NLocalize/NClient/NGui/NGantt/NGeneralInfoPopup/Close
+		// f9be2a67 - NLocalize/NClient/NGui/NGantt/NGhostResourceModePopup/Close
+		// 948c660a - NLocalize/NClient/NGui/NGantt/NManageGhostResources/Close
+		// a178f186 - NLocalize/NClient/NGui/NGantt/NManageLocalizations/Close
+		// 4e6ea068 - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/Close
+		// c663d4ce - NLocalize/NClient/NGui/NGantt/NQAWorkflowInfoPopup/Close
+		// 0c1cc390 - NLocalize/NClient/NGui/NGantt/NReports/Close
+		// 1a5d3f04 - NLocalize/NClient/NGui/NGantt/NSprintResourceUsageDetails/Close
+		// e8b613e4 - NLocalize/NClient/NGui/NGantt/NSprintWorkRemainingHistoryPopup/Close
+		// 3f5101aa - NLocalize/NClient/NGui/NGantt/NTimeReporting/Close
+		// 3b955f92 - NLocalize/NClient/NGui/NGantt/NTimeReporting/NViewOnTask/Close
+		// d3065c83 - NLocalize/NClient/NGui/NLicenseInformationPopup/Close
+		// 7b0cd95c - NLocalize/NClient/NGui/NProjectPeriodReport/Close
+		// 3ce5dfad - NLocalize/NClient/NGui/NResourcePeriodReport/Close
+		// 28ed1ff1 - NLocalize/NClient/NGui/NUpgradeLicense/Close
+		// fe21904b - NLocalize/NClient/NGui/NVersionControl/NFind/Close
+		// 7f1f67b9 - NLocalize/NClient/NGui/NVersionControl/NResponse/Close
+		// 5b7eb9a2 - NLocalize/NClient/NGui/NVersionControl/NVersionHistory/Close
+		:00_Current "Close"
+	}
+	Closed "Closed"
+	{
+		// 520a5f83
+
+		// Shared by:
+		// 372c5c71 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/Closed
+		// f406ad73 - NLocalize/NDatabaseFunctions/NUsersProjects/Closed
+		:00_Current "Closed"
+	}
+	ColumnName "Column name"
+	{
+		// 4d936198
+
+		// Shared by:
+		// b0049e29 - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/NCreateEditProfile/ColumnName
+		// 694a1646 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NSelectColumns/ColumnName
+		:00_Current "Column name"
+	}
+	Comment "Comment"
+	{
+		// 9a2e503c
+
+		// Shared by:
+		// b70302fa - NLocalize/NClient/NGui/NGantt/NDataExport/Comment
+		// 14b48c2a - NLocalize/NClient/NGui/NResourcePeriodReport/Comment
+		// 4216278a - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Comment
+		:00_Current "Comment"
+	}
+	CommentNew "Comment (new)"
+	{
+		// bf6e9006
+
+		// Shared by:
+		// 2e0153f4 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/CommentNew
+		// a2361e00 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/CommentNew
+		// a4f6747b - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/CommentNew
+		:00_Current "Comment (new)"
+	}
+	Comments "Comments"
+	{
+		// dff8582f
+
+		// Shared by:
+		// 4100f6d8 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/Comments
+		// 6831a2c6 - NLocalize/NClient/NGui/NGantt/NTimeReporting/NSyncAndCom/Comments
+		// da62a3b2 - NLocalize/NClient/NGui/NVersionControl/NVersionHistory/Comments
+		// 768b78e4 - NLocalize/NDatabaseFunctions/NDB/NGeneral/Comments
+		:00_Current "Comments"
+	}
+	Completed "Completed"
+	{
+		// e67c92a6
+
+		// Shared by:
+		// 6e78d578 - NLocalize/NClient/NGui/NGantt/NActionHistory/Completed
+		// c63c8246 - NLocalize/NClient/NGui/NGantt/NFilterWindow/Completed
+		// fbbf0fee - NLocalize/NClient/NGui/NGlobalTrends/Completed
+		// 41b55a96 - NLocalize/NDatabaseFunctions/NUsersProjects/Completed
+		:00_Current "Completed"
+	}
+	Condition "Condition"
+	{
+		// 174aaa90
+
+		// Shared by:
+		// e69e3d8c - NLocalize/NClient/NGui/NGantt/NFloatingSelection/Condition
+		// d19f9545 - NLocalize/NDatabaseFunctions/NFind/Condition
+		:00_Current "Condition"
+	}
+	Confidence "Confidence"
+	{
+		// 9970b737
+
+		// Shared by:
+		// 20f55449 - NLocalize/NClient/NGui/NGantt/NActionHistory/Confidence
+		// 2c26d41a - NLocalize/NClient/NGui/NGantt/NColumns/Confidence
+		// 5336a9b3 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/Confidence
+		// 8e5f6bb4 - NLocalize/NClient/NGui/NGlobal/NTrendsCreateNewCustomTrendType/Confidence
+		// 5702dd7f - NLocalize/NClient/NGui/NGlobalTrends/Confidence
+		// 214ed92c - NLocalize/NDatabaseFunctions/NDB/NGeneral/Confidence
+		// 5bc27d27 - NLocalize/NDatabaseFunctions/NUsersProjects/Confidence
+		:00_Current "Confidence"
+	}
+	ConfirmNewPassword "Confirm new password"
+	{
+		// 8508d094
+
+		// Shared by:
+		// 2b8da819 - NLocalize/NClient/NGui/NGantt/NCommands/NTaskRelated/ConfirmNewPassword
+		// 674d7c0d - NLocalize/NClient/NGui/NUsers/ConfirmNewPassword
+		:00_Current "Confirm new password"
+	}
+	Connect "Connect"
+	{
+		// 9a40f3b3
+
+		// Shared by:
+		// c098a394 - NLocalize/NClient/NLogin/NGui/NClientMain/Connect
+		// 77dd99f6 - NLocalize/NClient/NLogin/NGui/NClientMain/ConnectTitle
+		:00_Current "Connect"
+	}
+	Contains "Contains"
+	{
+		// e2c9e4c8
+
+		// Shared by:
+		// 7c3da462 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/Contains
+		// 7d227c8e - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/Contains
+		// b221ccdd - NLocalize/NDatabaseFunctions/NFind/Contains
+		:00_Current "Contains"
+	}
+	ContainsCaseSensitive "Contains (case sensitive)"
+	{
+		// d39668fe
+
+		// Shared by:
+		// 7f8b32d8 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/ContainsCaseSensitive
+		// a8cc0b33 - NLocalize/NDatabaseFunctions/NFind/ContainsCaseSensitive
+		:00_Current "Contains (case sensitive)"
+	}
+	ConvertGhostResources "Convert ghost users"
+	{
+		// 743f3eca
+
+		// Shared by:
+		// 39b01b9d - NLocalize/NClient/NGui/NGantt/NActivateGhostResources/ConvertGhostResources
+		// 3e7341f2 - NLocalize/NClient/NGui/NGantt/NGhostResourceModePopup/ConvertGhostResources
+		:00_Current "Convert ghost users"
+	}
+	ConvertQAAccounts "Convert QA accounts"
+	{
+		// edda3f7c
+
+		// Shared by:
+		// baafaacf - NLocalize/NClient/NGui/NGantt/NActivateGhostResources/ConvertQAAccounts
+		// 067aeea4 - NLocalize/NClient/NGui/NGantt/NGhostResourceModePopup/ConvertQAAccounts
+		:00_Current "Convert QA accounts"
+	}
+	CopyAsHyperlink "Copy as hyperlink"
+	{
+		// ec735f8e
+
+		// Shared by:
+		// a2ca7bb9 - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/CopyAsHyperlink
+		// 1e85106b - NLocalize/NClient/NGui/NVersionControl/NCommands/CopyAsHyperlink
+		:00_Current "Copy as hyperlink"
+	}
+	CreateCustomTemplate "Create custom template"
+	{
+		// 8207e294
+
+		// Shared by:
+		// 61365c69 - NLocalize/NClient/NGui/NCreateCustomAgileNameTemplate/CreateCustomTemplate
+		// 48f2ee06 - NLocalize/NClient/NGui/NCreateProject/CreateCustomTemplate
+		:00_Current "Create custom template"
+	}
+	CreateNewPreset "Create new preset"
+	{
+		// 26cfba3a
+
+		// Shared by:
+		// f49f8b49 - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/NCreateEditProfile/CreateNewProfile
+		// f5f4e2e3 - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/ToolbarCreateNew
+		:00_Current "Create new preset"
+	}
+	CreateNewResource "Create new user"
+	{
+		// 29de662f
+
+		// Shared by:
+		// 7203ffe5 - NLocalize/NClient/NGui/NMiscDialogs/CreateNewResource
+		// 860f0688 - NLocalize/NClient/NGui/NUsers/CreateNewResource
+		:00_Current "Create new user"
+	}
+	CreatePipelineKanban "Create Pipeline / Kanban"
+	{
+		// 38ce13de
+
+		// Shared by:
+		// 547b4c8a - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/CreatePipelineKanban
+		// 3a4b6996 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/CreatePipelineKanban
+		:00_Current "Create Pipeline / Kanban"
+	}
+	CreateRule "Create rule"
+	{
+		// 4162e9b5
+
+		// Shared by:
+		// 1cdceaff - NLocalize/NClient/NGui/NCustomize/NTimesheets/NRules/CreateRule
+		// b97c5048 - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/CreateRule
+		:00_Current "Create rule"
+	}
+	CreatedBy "Created by"
+	{
+		// 2103455c
+
+		// Shared by:
+		// 8b708bbd - NLocalize/NClient/NGui/NActivityDetailsWindow/NDynamicProperties/CreatedBy
+		// 699ff188 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/CreatedBy
+		// 4b70a58f - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/CreatedBy
+		// ec04522d - NLocalize/NClient/NGui/NGantt/NReports/CreatedBy
+		:00_Current "Created by"
+	}
+	CreatingDirectories "Creating directories"
+	{
+		// 81ce9313
+
+		// Shared by:
+		// 7298cbf3 - NLocalize/NClient/NGui/NVersionControl/NProgress/CreatingDirectories
+		// 664df4e1 - NLocalize/NClient/NPMCContext/NVersionControl/CreatingDirectories
+		:00_Current "Creating directories"
+	}
+	CreatingTranslation "Creating translation"
+	{
+		// 4a044625
+
+		// Shared by:
+		// 4013498c - NLocalize/NClient/NGui/NVersionControl/NProgress/TranslationCreate
+		// 94ed5efa - NLocalize/NClient/NPMCContext/NVersionControl/TranslationCreate
+		:00_Current "Creating translation"
+	}
+	CustomProjectColumns "Custom project columns"
+	{
+		// 1603369c
+
+		// Shared by:
+		// da276b59 - NLocalize/NClient/NGui/NGlobal/NTrendsCreateNewCustomTrendType/CustomProjectColumns
+		// b70fd6e4 - NLocalize/NClient/NGui/NGlobalTrends/CustomProjectColumns
+		:00_Current "Custom project columns"
+	}
+	CustomReportQuery "Custom report query"
+	{
+		// 2f55e056
+
+		// Shared by:
+		// c4457362 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/CustomReportQuery2
+		// 487496dc - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/CustomReportQuery
+		:00_Current "Custom report query"
+	}
+	CustomTrendTypes "Custom trend types"
+	{
+		// 8bbde616
+
+		// Shared by:
+		// 3651f7e9 - NLocalize/NClient/NGui/NGlobal/NTrendsCreateCustomTrendType/CustomTrendTypes
+		// 7a35a25e - NLocalize/NClient/NGui/NGlobalTrends/CustomTrendTypes
+		:00_Current "Custom trend types"
+	}
+	CustomiseTimesheets "Customise timesheets"
+	{
+		// 73f3b100
+
+		// Shared by:
+		// 8d890602 - NLocalize/NClient/NGui/NCustomize/NTimesheets/CustomiseTimesheets
+		// 29e62311 - NLocalize/NClient/NGui/NProjects/CustomiseTimesheets
+		// 9ecdcb99 - NLocalize/NClient/NGui/NUsers/CustomiseTimesheets
+		:00_Current "Customise timesheets"
+	}
+	DataMustBeFilledIn "Data must be filled in"
+	{
+		// 46cd2cda
+
+		// Shared by:
+		// 3d23fec8 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/DataMustBeFilledIn
+		// d3e6f2c3 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/DataMustBeFilledIn
+		// 4c5814d4 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/DataMustBeFilledIn
+		// d4d8b64f - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/DataMustBeFilledIn
+		:00_Current "Data must be filled in"
+	}
+	DatabaseID "Database ID"
+	{
+		// 36d2056b
+
+		// Shared by:
+		// c988224e - NLocalize/NClient/NGui/NGantt/NColumns/DatabaseID
+		// beb02760 - NLocalize/NDatabaseFunctions/NDB/NGeneral/DatabaseID
+		:00_Current "Database ID"
+	}
+	Databases "Databases"
+	{
+		// 66827c71
+
+		// Shared by:
+		// 1346df1a - NLocalize/NClient/NGui/NServerAdmin/NMain/Databases
+		// f9a39bb5 - NLocalize/NClient/NGui/NServerAdmin/NServerAdmin/Databases
+		:00_Current "Databases"
+	}
+	Date "Date"
+	{
+		// 973b61c7
+
+		// Shared by:
+		// 26e0f8de - NLocalize/NClient/NGui/NGantt/NTimeReporting/NSyncAndCom/Date
+		// 47a00bba - NLocalize/NClient/NGui/NGantt/NTimeReporting/NViewOnTask/Date
+		// ac837475 - NLocalize/NClient/NGui/NResourcePeriodReport/Date
+		// e3be63ca - NLocalize/NClient/NGui/NVersionControl/NVersionHistory/Date
+		:00_Current "Date"
+	}
+	Days "days"
+	{
+		// 973b627a
+
+		// Shared by:
+		// bbd514a3 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/Days
+		// 67a7e6e9 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/MaxDays
+		:00_Current "days"
+	}
+	DefaultAutomaticBackup "Default Automatic Backup"
+	{
+		// e50110eb
+
+		// Shared by:
+		// 3fbace82 - NLocalize/NDatabaseFunctions/DefauAutomaticBackup
+		// 9a8c3361 - NLocalize/NServer/NServer/NContext/DefauAutomaticBackup
+		:00_Current "Default Automatic Backup"
+	}
+	DefaultAutomaticFullBackup "Default Automatic Full Backup"
+	{
+		// fd04f83e
+
+		// Shared by:
+		// 7301a955 - NLocalize/NDatabaseFunctions/DefauAutomaticFullBackup
+		// efa865b4 - NLocalize/NServer/NServer/NContext/DefauAutomaticFullBackup
+		:00_Current "Default Automatic Full Backup"
+	}
+	DefaultAutomaticIntegrityCheck "Default Automatic Integrity Check"
+	{
+		// 69def8d2
+
+		// Shared by:
+		// 026c5d69 - NLocalize/NDatabaseFunctions/DefauAutomaticIntegrityCheck
+		// b2c83148 - NLocalize/NServer/NServer/NContext/DefauAutomaticIntegrityCheck
+		:00_Current "Default Automatic Integrity Check"
+	}
+	Delete "Delete"
+	{
+		// 53defddc
+
+		// Shared by:
+		// c67d3165 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Delete
+		// e6433988 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/Delete
+		// d26bc103 - NLocalize/NClient/NGui/NGantt/NManageLocalizations/Delete
+		// b0cd9468 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/Delete
+		// 23e9023e - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/Delete
+		// 9189d44d - NLocalize/NClient/NGui/NGantt/NReports/Delete
+		// 11dd04cc - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/Delete
+		// f582ec22 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/Delete
+		// ab4ce5e4 - NLocalize/NClient/NGui/NGantt/NScreenshotMonitor/Delete
+		// 0b62236a - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Delete
+		:00_Current "Delete"
+	}
+	DeleteConnection "Delete connection"
+	{
+		// 978d7a4c
+
+		// Shared by:
+		// b6e2afd8 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/DeleteConnection
+		// 9e34ed3c - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/DeleteConnection
+		:00_Current "Delete connection"
+	}
+	DeleteDel "Delete (Del)"
+	{
+		// ba53af11
+
+		// Shared by:
+		// 0884f033 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/DeleteDel
+		// 9fbf3f97 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/DeleteDel
+		:00_Current "Delete (Del)"
+	}
+	DeleteThisAndUpdateItems "Delete this and update items..."
+	{
+		// de5786cc
+
+		// Shared by:
+		// 0ac328b3 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NApplyWindow/DeleteThisAndUpdateItems
+		// 63283f45 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NApplyWindow/DeleteThisAndUpdateItems2
+		:00_Current "Delete this and update items..."
+	}
+	Deleted "Deleted"
+	{
+		// cfbeb9c0
+
+		// Shared by:
+		// c5bd9aab - NLocalize/NClient/NGui/NActivityDetailsWindow/NFileAttachments/Deleted
+		// 3613ffbd - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/Deleted
+		// 417e4160 - NLocalize/NClient/NGui/NGantt/NFilterWindow/Deleted
+		// b144c5b0 - NLocalize/NDatabaseFunctions/NUsersProjects/Deleted
+		:00_Current "Deleted"
+	}
+	DeletedPipeline "Deleted pipeline"
+	{
+		// 6c9462b6
+
+		// Shared by:
+		// 0e7a56f1 - NLocalize/NClient/NGui/NGantt/NInteraction/NMouseOverObject/DeletedPipeline
+		// 710c958b - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/DeletedPipeline
+		:00_Current "Deleted pipeline"
+	}
+	DeletingFiles "Deleting files"
+	{
+		// 60123588
+
+		// Shared by:
+		// bf5b4668 - NLocalize/NClient/NGui/NVersionControl/NProgress/DeletingFiles
+		// a4d7d4d6 - NLocalize/NClient/NPMCContext/NVersionControl/DeletingFiles
+		:00_Current "Deleting files"
+	}
+	DeletingTranslations "Deleting translations"
+	{
+		// 299f7f37
+
+		// Shared by:
+		// 41811b4b - NLocalize/NClient/NGui/NVersionControl/NProgress/TranslationDelete
+		// 965b30b9 - NLocalize/NClient/NPMCContext/NVersionControl/TranslationDelete
+		:00_Current "Deleting translations"
+	}
+	Description "Description"
+	{
+		// 6763bf6d
+
+		// Shared by:
+		// 223c220e - NLocalize/NClient/NGui/NActivityDetailsWindow/NDynamicProperties/Description
+		// df7bfebf - NLocalize/NClient/NGui/NGantt/NActionHistory/Description
+		// 636c9096 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Description
+		// e2b5bbea - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/Description
+		// 01ee4570 - NLocalize/NClient/NGui/NGantt/NQA/NCommands/Description
+		// f74d5a00 - NLocalize/NClient/NGui/NGantt/NTimeReporting/NViewOnTask/Description
+		// b82f834a - NLocalize/NClient/NGui/NProjectPeriodReport/Description
+		// f162425b - NLocalize/NClient/NGui/NResourcePeriodReport/Description
+		// c65ca367 - NLocalize/NClient/NGui/NVersionControl/NResponse/Description
+		// eb062002 - NLocalize/NDatabaseFunctions/NDB/NGeneral/Description
+		// 0a9e2b62 - NLocalize/NDatabaseFunctions/NFind/Description
+		:00_Current "Description"
+	}
+	DetailedAccessAndRestrictionRules "Detailed access and restriction rules"
+	{
+		// ea87694b
+
+		// Shared by:
+		// d3ed527e - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/DetailedAccessAndRestrictionRules
+		// 6c75d35a - NLocalize/NClient/NGui/NGantt/NQAWorkflowInfoPopup/DetailedAccessAndRestrictionRules
+		:00_Current "Detailed access and restriction rules"
+	}
+	DetailedDescription "Detailed description"
+	{
+		// fbad8949
+
+		// Shared by:
+		// f40afcea - NLocalize/NClient/NGui/NActivityDetailsWindow/NDynamicProperties/DetailedDescription
+		// fb70fa9b - NLocalize/NClient/NGui/NGantt/NActionHistory/DetailedDescription
+		// f3a64907 - NLocalize/NClient/NGui/NGantt/NDataExport/DetailedDescription
+		// bcde98f7 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/DetailedDescription
+		// 2c000c52 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/DetailedDescription
+		// b2957083 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/DetailedDescription
+		// 781daede - NLocalize/NDatabaseFunctions/NDB/NGeneral/DetailedDescription
+		:00_Current "Detailed description"
+	}
+	DetailedDescription2 "Detailed description:"
+	{
+		// 715eb29b
+
+		// Shared by:
+		// 13fd1e9e - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/DetailedDescription
+		// d6647195 - NLocalize/NClient/NGui/NGantt/NPrintPage/DetailedDescription
+		:00_Current "Detailed description:"
+	}
+	DiscardFileChanges "Discard file changes"
+	{
+		// e7b2919c
+
+		// Shared by:
+		// 7aa4e463 - NLocalize/NClient/NGui/NVersionControl/NAddFiles/DiscardFileChanges
+		// 8d1f7159 - NLocalize/NClient/NGui/NVersionControl/NCommands/DiscardFileChanges
+		:00_Current "Discard file changes"
+	}
+	DiscardingChangesFromTranslations "Discarding changes from translations"
+	{
+		// bf5d34b0
+
+		// Shared by:
+		// 622ecfb0 - NLocalize/NClient/NGui/NVersionControl/NProgress/TranslationRevert
+		// b708e51e - NLocalize/NClient/NPMCContext/NVersionControl/TranslationRevert
+		:00_Current "Discarding changes from translations"
+	}
+	Disconnect "Disconnect"
+	{
+		// a7a3c673
+
+		// Shared by:
+		// 6fd2c2ff - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/Disconnect
+		// bbfd2bd5 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/Disconnect
+		// b22bc563 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/Disconnect
+		// 3a8167b9 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/Disconnect
+		:00_Current "Disconnect"
+	}
+	DoYouAlsoWantToDeleteTheFilesAttachedToThisItem "Do you also want to delete the files attached to this item?\n"\
+	                                                "\n"\
+	                                                "Choose 'No' to just remove them."
+	{
+		// c33f7af4
+
+		// Shared by:
+		// cf795850 - NLocalize/NClient/NGui/NActivityDetailsWindow/NFileAttachments/DoYouAlsoWantToDeleteTheFilesAttachedToThis
+		// d8a3be62 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/DoYouAlsoWantToDeleteTheFilesAttachedToThis
+		:00_Current "Do you also want to delete the files attached to this item?\n"\
+		            "\n"\
+		            "Choose 'No' to just remove them."
+	}
+	DocumentName "Document name"
+	{
+		// a3a62b69
+
+		// Shared by:
+		// b01d5734 - NLocalize/NClient/NGui/NActivityDetailsWindow/NFileAttachments/DocumentName
+		// 8937b786 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/DocumentName
+		:00_Current "Document name"
+	}
+	DownloadingFiles "Downloading files"
+	{
+		// d9a84932
+
+		// Shared by:
+		// e9922e12 - NLocalize/NClient/NGui/NVersionControl/NProgress/DownloadingFiles
+		// fba84dc0 - NLocalize/NClient/NPMCContext/NVersionControl/DownloadingFiles
+		:00_Current "Downloading files"
+	}
+	DownloadingReport "Downloading report..."
+	{
+		// 2a69515b
+
+		// Shared by:
+		// 014f4e2e - NLocalize/NClient/NGui/NGantt/NTimeReporting/NViewOnTask/DownloadingReport
+		// b7c1c6f8 - NLocalize/NClient/NGui/NProjectPeriodReport/DownloadingReport
+		:00_Current "Downloading report..."
+	}
+	Duplicate "Duplicate"
+	{
+		// c1e66384
+
+		// Shared by:
+		// 8a0acf2d - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/DupliacePipelineWorkflow
+		// 0d2b9c3c - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/Duplicate
+		// aff5a94b - NLocalize/NClient/NGui/NGantt/NManageLocalizations/Duplicate
+		// 8ce77055 - NLocalize/NClient/NGui/NGantt/NReports/Duplicate
+		:00_Current "Duplicate"
+	}
+	Duration "Duration"
+	{
+		// a4f0626f
+
+		// Shared by:
+		// 37e99c38 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Duration
+		// 3b838324 - NLocalize/NDatabaseFunctions/NDB/NGeneral/Duration
+		:00_Current "Duration"
+	}
+	EMail "E-mail"
+	{
+		// 7eae6bb1
+
+		// Shared by:
+		// d150d087 - NLocalize/NClient/NGui/NMiscDialogs/Email
+		// 5ef68aaa - NLocalize/NClient/NGui/NUsers/Email
+		:00_Current "E-mail"
+	}
+	EMailNotificationsTo "E-mail notifications to"
+	{
+		// dabf770e
+
+		// Shared by:
+		// dd5f449c - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/EmailNotificationsTo
+		// 48419bad - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/PopupEmailNotificationsToTitle
+		:00_Current "E-mail notifications to"
+	}
+	Earned "Earned"
+	{
+		// 55ef3318
+
+		// Shared by:
+		// c88d66a1 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Earned
+		// 37f8cdf5 - NLocalize/NClient/NGui/NGantt/NDataImport/NProjectHistory/Earned
+		:00_Current "Earned"
+	}
+	EarnedValue "Earned value"
+	{
+		// 98ae2915
+
+		// Shared by:
+		// 0885185d - NLocalize/NClient/NGui/NGlobalTrends/EarnedValue
+		// 1c5089aa - NLocalize/NDatabaseFunctions/NDB/NGeneral/EarnedValue
+		:00_Current "Earned value"
+	}
+	Edit "Edit"
+	{
+		// 973bf98f
+
+		// Shared by:
+		// 61c55a3b - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/Edit
+		// 5965b8ac - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/Edit
+		// 363b7d1b - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/Edit
+		// 1ad57d71 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/Edit
+		:00_Current "Edit"
+	}
+	Edit2 "Edit"
+	{
+		// 7ebb2ba1
+
+		// Shared by:
+		// cc223b98 - NLocalize/NClient/NGui/NActivityDetailsWindow/NConversionPopup/Edit
+		// 04239cf0 - NLocalize/NClient/NGui/NCommentEditor/Edit
+		:00_Current "Edit"
+	}
+	EditCustomTemplate "Edit custom template"
+	{
+		// 49044f86
+
+		// Shared by:
+		// 6d30501b - NLocalize/NClient/NGui/NCreateCustomAgileNameTemplate/EditCustomTemplate
+		// fe71d678 - NLocalize/NClient/NGui/NCreateProject/EditCustomTemplate
+		:00_Current "Edit custom template"
+	}
+	EditFile "Edit file"
+	{
+		// 60d4588f
+
+		// Shared by:
+		// 02c171bd - NLocalize/NClient/NGui/NVersionControl/EditFile
+		// 2529f80c - NLocalize/NClient/NGui/NVersionControl/NCommands/EditFile
+		:00_Current "Edit file"
+	}
+	EditPreset "Edit preset"
+	{
+		// ff3f9d82
+
+		// Shared by:
+		// 987a00f1 - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/NCreateEditProfile/EditProfile
+		// 09965eab - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/ToolbarEdit
+		:00_Current "Edit preset"
+	}
+	EditProject "Edit project"
+	{
+		// e7e351a6
+
+		// Shared by:
+		// 5510a4d8 - NLocalize/NClient/NGui/NCreateProject/EditProject
+		// be3142b7 - NLocalize/NClient/NGui/NProjects/EditProject
+		:00_Current "Edit project"
+	}
+	EditResource "Edit user"
+	{
+		// ddd43b77
+
+		// Shared by:
+		// 30cf6b6d - NLocalize/NClient/NGui/NMiscDialogs/EditResource
+		// 048006a3 - NLocalize/NClient/NGui/NUsers/EditResources
+		:00_Current "Edit user"
+	}
+	EditRule "Edit rule"
+	{
+		// 60db2027
+
+		// Shared by:
+		// a033c5fa - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/EditRule
+		// 3a3d7523 - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/NCreateRule/EditRule
+		:00_Current "Edit rule"
+	}
+	EditWorkflowStatus "Edit workflow status"
+	{
+		// abe3930e
+
+		// Shared by:
+		// a23a64fc - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/EditWorkflowStatus
+		// 38fd58f7 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/EditWorkflowStatus
+		:00_Current "Edit workflow status"
+	}
+	EitherYouHaveToBeAMainProjectManagerOrHaveASub "Either you have to be a main manager or have a sub project/item delegated to you."
+	{
+		// 09935a5d
+
+		// Shared by:
+		// ec6e9463 - NLocalize/NClient/NGui/NGantt/NCommands/NInsert/EitherYouHaveToBeAMainProjectManagerOrHaveASub
+		// 4eb401eb - NLocalize/NClient/NGui/NGantt/NCommands/NPaste/EitherYouHaveToBeAMainProjectManagerOrHaveASub
+		:00_Current "Either you have to be a main manager or have a sub project/item delegated to you."
+	}
+	EndToEnd "end to end"
+	{
+		// 54c3bf7a
+
+		// Shared by:
+		// 7c870605 - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/EndToEnd
+		// 3cb0ee03 - NLocalize/NClient/NGui/NGantt/NLinkActivitiesByNumber/EndToEnd
+		:00_Current "end to end"
+	}
+	EndToStart "end to start"
+	{
+		// 95b229b1
+
+		// Shared by:
+		// bb613efc - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/EndToStart
+		// 2da51e7a - NLocalize/NClient/NGui/NGantt/NLinkActivitiesByNumber/EndToStart
+		:00_Current "end to start"
+	}
+	EndsWith "Ends with"
+	{
+		// 56e827ef
+
+		// Shared by:
+		// f05be789 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/EndsWith
+		// 26401004 - NLocalize/NDatabaseFunctions/NFind/EndsWith
+		:00_Current "Ends with"
+	}
+	EndsWithCaseSensitive "Ends with (case sensitive)"
+	{
+		// 5e525385
+
+		// Shared by:
+		// 0a471d5f - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/EndsWithCaseSensitive
+		// 3387f5ba - NLocalize/NDatabaseFunctions/NFind/EndsWithCaseSensitive
+		:00_Current "Ends with (case sensitive)"
+	}
+	Error "Error"
+	{
+		// 7ec2fed3
+
+		// Shared by:
+		// 25577cf5 - NLocalize/NServer/NPMSWin32/NInitialConfigGUI/Error
+		// c767dea6 - NLocalize/NServer/NPMSWin32/NServiceMain/Error
+		:00_Current "Error"
+	}
+	ErrorInReportQuery "Error in report query: "
+	{
+		// 36a63edc
+
+		// Shared by:
+		// c0f33d1b - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/ErrorInReportQuery
+		// fe379bf8 - NLocalize/NClient/NGui/NGantt/NQA/NTopWindow/ErrorInReportQuery
+		:00_Current "Error in report query: "
+	}
+	EstimatedIdealDays "Estimated days"
+	{
+		// 656de159
+
+		// Shared by:
+		// b2ff706b - NLocalize/NClient/NGui/NGantt/NActionHistory/EstimatedIdealDays
+		// 34d8313c - NLocalize/NClient/NGui/NGantt/NColumns/EstimatedIdealDays
+		// 70f5284e - NLocalize/NDatabaseFunctions/NDB/NGeneral/EstimatedIdealDays
+		:00_Current "Estimated days"
+	}
+	Everyone "Everyone"
+	{
+		// c10fdbb6
+
+		// Shared by:
+		// 2f97c89a - NLocalize/NClient/NGui/NResourceProjectPicker/Everyone
+		// 65f29cc4 - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Everyone
+		:00_Current "Everyone"
+	}
+	ExactMatch "Exact match"
+	{
+		// eba5c02b
+
+		// Shared by:
+		// a56bb2a7 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/ExactMatch
+		// b107ce45 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/ExactMatch
+		:00_Current "Exact match"
+	}
+	Export "Export"
+	{
+		// 578e53eb
+
+		// Shared by:
+		// d61b1712 - NLocalize/NClient/NGui/NGantt/NManageLocalizations/Export
+		// 653f9189 - NLocalize/NClient/NGui/NGantt/NWindowMainToolbarCommands/ExportData
+		:00_Current "Export"
+	}
+	ExportThisViewAsXML "Export this view as XML"
+	{
+		// d8bb9b83
+
+		// Shared by:
+		// 98822f25 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/ExportThisViewAsXML
+		// 8eae0d94 - NLocalize/NClient/NGui/NProjects/ExportThisViewAsXML
+		// 0395b61c - NLocalize/NClient/NGui/NUsers/ExportThisViewAsXML
+		:00_Current "Export this view as XML"
+	}
+	FailedToCreateTheDatabaseOnTheServerMakeSureThat "Failed to create the database on the server. \n"\
+	                                                 "\n"\
+	                                                 "Make sure that the database file and transaction log file are located on a valid volume.\n"\
+	                                                 "Also make sure that the service has write access right to the directories in question."
+	{
+		// a392fabe
+
+		// Shared by:
+		// 68ffee6f - NLocalize/NClient/NGui/NServerAdmin/NDataBaseEdit/FailedToCreateTheDatabaseOnTheServer
+		// b434032e - NLocalize/NServer/NPMSWin32/NServiceMain/FailedToCreateTheDatabase
+		:00_Current "Failed to create the database on the server. \n"\
+		            "\n"\
+		            "Make sure that the database file and transaction log file are located on a valid volume.\n"\
+		            "Also make sure that the service has write access right to the directories in question."
+	}
+	FailedToReadTemporaryScreenshot "Failed to read temporary screenshot"
+	{
+		// 984edd0e
+
+		// Shared by:
+		// 8cc7d977 - NLocalize/NClient/NGui/NActivityDetailsWindow/NConversionPopup/FailedToReadTemporaryScreenshot
+		// fa1f5291 - NLocalize/NClient/NGui/NGantt/NQA/NCommands/FailedToReadTemporaryScreenshot
+		:00_Current "Failed to read temporary screenshot"
+	}
+	FileDeletedOrWithRestrictedAccess "(file deleted or with restricted access)"
+	{
+		// 1f08d148
+
+		// Shared by:
+		// 3b0809f3 - NLocalize/NClient/NGui/NActivityDetailsWindow/NFileAttachments/FileDeletedOrWithRestrictedAccess
+		// 9f8e5185 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/FileDeletedOrWithRestrictedAccess
+		:00_Current "(file deleted or with restricted access)"
+	}
+	Find "Find"
+	{
+		// 973c9bca
+
+		// Shared by:
+		// 8b897b3e - NLocalize/NClient/NGui/NGantt/NCommands/Find
+		// d4765913 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Find
+		:00_Current "Find"
+	}
+	FindByKeywords "Find by keywords"
+	{
+		// 0197f2bd
+
+		// Shared by:
+		// 39cac339 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/FindByKeywords
+		// 1879a97c - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/FindByKeywords
+		// 812f21d9 - NLocalize/NClient/NGui/NGantt/NQA/NTopWindow/FindByKeywords
+		:00_Current "Find by keywords"
+	}
+	FindFiles "Find files"
+	{
+		// e8b5a9fd
+
+		// Shared by:
+		// c845e8eb - NLocalize/NClient/NGui/NVersionControl/FindFiles
+		// 37bf391a - NLocalize/NClient/NGui/NVersionControl/NCommands/FindFiles
+		:00_Current "Find files"
+	}
+	Finish "Finish"
+	{
+		// 58d2daca
+
+		// Shared by:
+		// cb710e53 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Finish
+		// 6b4c4a3f - NLocalize/NDatabaseFunctions/NDB/NGeneral/Finish
+		:00_Current "Finish"
+	}
+	Finish2 "Finish"
+	{
+		// 732e343c
+
+		// Shared by:
+		// 22d8bbfc - NLocalize/NClient/NGui/NAddProjectMembers/Finish
+		// da354bfd - NLocalize/NClient/NGui/NGantt/NActivateGhostResources/Finish
+		:00_Current "Finish"
+	}
+	Friday "Friday"
+	{
+		// 5972e1e8
+
+		// Shared by:
+		// 0ebe6163 - NLocalize/NAOCC/NAOTime/Friday
+		// c96089ed - NLocalize/NClient/NGui/NGantt/NCommands/NTaskRelated/Friday
+		// 66ad6c42 - NLocalize/NClient/NGui/NGantt/NHistorySaveOccurence/Friday
+		// 303df166 - NLocalize/NClient/NGui/NGantt/NMessageOccurence/Friday
+		// ca948ec9 - NLocalize/NClient/NGui/NGantt/NReport/NMailTo/Friday
+		:00_Current "Friday"
+	}
+	FromClipboard "From clipboard"
+	{
+		// 3aa395cd
+
+		// Shared by:
+		// 301331f6 - NLocalize/NClient/NGui/NActivityDetailsWindow/NConversionPopup/FromClipboard
+		// 5dd3964e - NLocalize/NClient/NGui/NCommentEditor/FromClipboard
+		:00_Current "From clipboard"
+	}
+	FromDisk "From disk"
+	{
+		// 9044b068
+
+		// Shared by:
+		// 731ecef1 - NLocalize/NClient/NGui/NActivityDetailsWindow/NConversionPopup/FromDisk
+		// a5211c49 - NLocalize/NClient/NGui/NCommentEditor/FromDisk
+		// c142b605 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/FromDisk
+		:00_Current "From disk"
+	}
+	FromTodayToXDaysInTheFuture "From today to X days in the future"
+	{
+		// 268b2e5d
+
+		// Shared by:
+		// 004a73b7 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/FromTodayToXDaysInTheFuture
+		// 99c0e452 - NLocalize/NDatabaseFunctions/NFind/FromTodayToXDaysInTheFuture
+		:00_Current "From today to X days in the future"
+	}
+	FromTodayToXHoursInTheFuture "From today to X hours in the future"
+	{
+		// 94b0aa3d
+
+		// Shared by:
+		// a6589ad7 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/FromTodayToXHoursInTheFuture
+		// 6e9d1ed2 - NLocalize/NDatabaseFunctions/NFind/FromTodayToXHoursInTheFuture
+		:00_Current "From today to X hours in the future"
+	}
+	FromTodayToXMinutesInTheFuture "From today to X minutes in the future"
+	{
+		// f26e9791
+
+		// Shared by:
+		// 0dd516ab - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/FromTodayToXMinutesInTheFuture
+		// f94a8566 - NLocalize/NDatabaseFunctions/NFind/FromTodayToXMinutesInTheFuture
+		:00_Current "From today to X minutes in the future"
+	}
+	FromTodayToXMonthsInTheFuture "From today to X months in the future"
+	{
+		// 59e16e85
+
+		// Shared by:
+		// a087725f - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/FromTodayToXMonthsInTheFuture
+		// 715c75ba - NLocalize/NDatabaseFunctions/NFind/FromTodayToXMonthsInTheFuture
+		:00_Current "From today to X months in the future"
+	}
+	FromTodayToXWeeksInTheFuture "From today to X weeks in the future"
+	{
+		// 0b66bc4b
+
+		// Shared by:
+		// 1d0eace5 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/FromTodayToXWeeksInTheFuture
+		// e55330e0 - NLocalize/NDatabaseFunctions/NFind/FromTodayToXWeeksInTheFuture
+		:00_Current "From today to X weeks in the future"
+	}
+	FromTodayToXYearsInTheFuture "From today to X years in the future"
+	{
+		// 62696410
+
+		// Shared by:
+		// 741154aa - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/FromTodayToXYearsInTheFuture
+		// 3c55d8a5 - NLocalize/NDatabaseFunctions/NFind/FromTodayToXYearsInTheFuture
+		:00_Current "From today to X years in the future"
+	}
+	FromWithinHansoft "From within Hansoft"
+	{
+		// 3e212603
+
+		// Shared by:
+		// 5ce4aeac - NLocalize/NClient/NGui/NActivityDetailsWindow/NConversionPopup/FromWithinHansoft
+		// 826f7f04 - NLocalize/NClient/NGui/NCommentEditor/FromWithinHansoft
+		// 1c2fcc40 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/FromWithinHansoft
+		:00_Current "From within Hansoft"
+	}
+	FromXDaysInThePastToToday "From X days in the past to today"
+	{
+		// 77c538da
+
+		// Shared by:
+		// 425f5fb4 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/FromXDaysInThePastToToday
+		// 56baed8f - NLocalize/NDatabaseFunctions/NFind/FromXDaysInThePastToToday
+		:00_Current "From X days in the past to today"
+	}
+	FromXHoursInThePastToToday "From X hours in the past to today"
+	{
+		// 76325c3a
+
+		// Shared by:
+		// 94115e54 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/FromXHoursInThePastToToday
+		// 33dea78f - NLocalize/NDatabaseFunctions/NFind/FromXHoursInThePastToToday
+		:00_Current "From X hours in the past to today"
+	}
+	FromXMinutesInThePastToToday "From X minutes in the past to today"
+	{
+		// 8d80850e
+
+		// Shared by:
+		// 9f2875a8 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/FromXMinutesInThePastToToday
+		// 676cf9a3 - NLocalize/NDatabaseFunctions/NFind/FromXMinutesInThePastToToday
+		:00_Current "From X minutes in the past to today"
+	}
+	FromXMonthsInThePastToToday "From X months in the past to today"
+	{
+		// 5477b902
+
+		// Shared by:
+		// 2e36fe5c - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/FromXMonthsInThePastToToday
+		// c7ad6ef7 - NLocalize/NDatabaseFunctions/NFind/FromXMonthsInThePastToToday
+		:00_Current "From X months in the past to today"
+	}
+	FromXToX "From {0} to {1}"
+	{
+		// 904f4e10
+		// 0 text - Formatted date
+		// 1 text - Formatted date
+
+		// Shared by:
+		// 38ed570d - NLocalize/NClient/NGui/NProjectPeriodReport/FromXToX
+		// 94cd505d - NLocalize/NClient/NGui/NResourcePeriodReport/NExport/FromXToX
+		:00_Current "From {0} to {1}"
+	}
+	FromXWeeksInThePastToToday "From X weeks in the past to today"
+	{
+		// ac2be708
+
+		// Shared by:
+		// ca0ae922 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/FromXWeeksInThePastToToday
+		// 69d8325d - NLocalize/NDatabaseFunctions/NFind/FromXWeeksInThePastToToday
+		:00_Current "From X weeks in the past to today"
+	}
+	FromXYearsInThePastToToday "From X years in the past to today"
+	{
+		// 0d7731ed
+
+		// Shared by:
+		// 2b563407 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/FromXYearsInThePastToToday
+		// cb237d42 - NLocalize/NDatabaseFunctions/NFind/FromXYearsInThePastToToday
+		:00_Current "From X years in the past to today"
+	}
+	GeneralPipelineTasksThatCanStartNow "General - Pipeline tasks that can start now"
+	{
+		// fd199228
+
+		// Shared by:
+		// 6f896533 - NLocalize/NClient/NGui/NGantt/NFilterWindow/PipelineTasksTheyCanStartNow
+		// d053f292 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/PipelineTasksTheyCanStartNow
+		:00_Current "General - Pipeline tasks that can start now"
+	}
+	GeneralTheyAreArchived "General - Archived"
+	{
+		// b0b1891f
+
+		// Shared by:
+		// ecc1dcbf - NLocalize/NClient/NGui/NGantt/NFilterWindow/GeneralTheyAreArchived
+		// 79c18ede - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/GeneralTheyAreArchived
+		:00_Current "General - Archived"
+	}
+	GeneralTheyAreNotAssigned "General - Not assigned"
+	{
+		// 7d264a98
+
+		// Shared by:
+		// 2d117a38 - NLocalize/NClient/NGui/NGantt/NFilterWindow/GeneralTheyAreNotAssigned
+		// 6f5cebf7 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/GeneralTheyAreNotAssigned
+		:00_Current "General - Not assigned"
+	}
+	GhostResource "Ghost user"
+	{
+		// d9e7b8b6
+
+		// Shared by:
+		// a39b324b - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/GhostResource
+		// 1346733e - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedTimeDraw/GhostResource
+		// 98c83f98 - NLocalize/NClient/NGui/NGantt/NObjects/NResourceAllocationBlock/GhostResource
+		:00_Current "Ghost user"
+	}
+	GhostResourceMode "Ghost user mode"
+	{
+		// 840d425b
+
+		// Shared by:
+		// 9cadf183 - NLocalize/NClient/NGui/NGantt/NGhostResourceModePopup/GhostResourceMode
+		// 89c9743f - NLocalize/NClient/NGui/NGantt/NWindowMainToolbarCommands/GhostResourceMode
+		:00_Current "Ghost user mode"
+	}
+	GhostResourceName "Ghost user name"
+	{
+		// 840d9457
+
+		// Shared by:
+		// 4d300ba2 - NLocalize/NClient/NGui/NGantt/NManageGhostResources/GhostResourceName
+		// cc332e0d - NLocalize/NClient/NGui/NMiscDialogs/GhostResourceName
+		:00_Current "Ghost user name"
+	}
+	GoBack "Back"
+	{
+		// 5b7c51b0
+
+		// Shared by:
+		// 5354d606 - NLocalize/NClient/NLogin/NGui/NLogin/GoBack
+		// 4078b0b1 - NLocalize/NClient/NLogin/NGui/NPasswordExpired/GoBack
+		// f68c4606 - NLocalize/NClient/NLogin/NGui/NServerAdminLogin/GoBack
+		:00_Current "Back"
+	}
+	GoToTheDocumentInTheDocumentsTabInHansoft "Go to the document in the 'Documents' tab in Hansoft"
+	{
+		// 2747da4d
+
+		// Shared by:
+		// da1e8df8 - NLocalize/NClient/NGui/NActivityDetailsWindow/NFileAttachments/GoToTheDocumentInTheDocumentsTabInHansoft
+		// 56f4478a - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/GoToTheDocumentInTheDocumentsTabInHansoft
+		:00_Current "Go to the document in the 'Documents' tab in Hansoft"
+	}
+	GoldFace "Gold face"
+	{
+		// 8df66d3e
+
+		// Shared by:
+		// 049b6ef6 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/GoldFace
+		// c4394b77 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/GoldFace
+		:00_Current "Gold face"
+	}
+	GreaterThan "Greater than"
+	{
+		// 8563dbde
+
+		// Shared by:
+		// f707ad38 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/GreaterThan
+		// 289e47d3 - NLocalize/NDatabaseFunctions/NFind/GreaterThan
+		:00_Current "Greater than"
+	}
+	GreaterThanCaseSensitive "Greater than (case sensitive)"
+	{
+		// 35eeb3d4
+
+		// Shared by:
+		// 3c12676e - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/GreaterThanCaseSensitive
+		// 53f625e9 - NLocalize/NDatabaseFunctions/NFind/GreaterThanCaseSensitive
+		:00_Current "Greater than (case sensitive)"
+	}
+	GreaterThanEqual "Greater than equal"
+	{
+		// 3ffe86d6
+
+		// Shared by:
+		// 879d4070 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/GreaterThanEqual
+		// caf3b3eb - NLocalize/NDatabaseFunctions/NFind/GreaterThanEqual
+		:00_Current "Greater than equal"
+	}
+	GreaterThanEqualCaseSensitive "Greater than equal (case sensitive)"
+	{
+		// e74571cc
+
+		// Shared by:
+		// 2deb75a6 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/GreaterThanEqualCaseSensitive
+		// fec07901 - NLocalize/NDatabaseFunctions/NFind/GreaterThanEqualCaseSensitive
+		:00_Current "Greater than equal (case sensitive)"
+	}
+	Green "Green"
+	{
+		// 7ee6f73a
+
+		// Shared by:
+		// 84f255c0 - NLocalize/NClient/NGui/NGantt/NEditScreenshot/Green
+		// ffa5d1a5 - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/Green
+		:00_Current "Green"
+	}
+	GreenBox "Green box"
+	{
+		// 64b88c83
+
+		// Shared by:
+		// db5d8e3b - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/GreenBox
+		// 9afb6abc - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/GreenBox
+		// 1a4d7cf1 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/GreenBox
+		// c5c12b2c - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/GreenBox
+		:00_Current "Green box"
+	}
+	GreenCircle "Green circle"
+	{
+		// 18abe06c
+
+		// Shared by:
+		// 4a222724 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/GreenCircle
+		// 39894005 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/GreenCircle
+		:00_Current "Green circle"
+	}
+	GreyFace "Grey face"
+	{
+		// 660d09af
+
+		// Shared by:
+		// dcb20b67 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/GreyFace
+		// 9c4fe7e8 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/GreyFace
+		:00_Current "Grey face"
+	}
+	GreyGroup "Grey group"
+	{
+		// 27c9e00d
+
+		// Shared by:
+		// 730f18c5 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/GreyGroup
+		// 26688566 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/GreyGroup
+		:00_Current "Grey group"
+	}
+	Group "Group"
+	{
+		// 7ee723d6
+
+		// Shared by:
+		// 53bcc08e - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/Group
+		// 453f04af - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/Group
+		:00_Current "Group"
+	}
+	H "0h"
+	{
+		// 8bcfc0f1
+
+		// Shared by:
+		// 6505b4f5 - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/_0h
+		// 0b2bf9ec - NLocalize/NClient/NGui/NGantt/NPrintPage/_0h
+		:00_Current "0h"
+	}
+	HansoftProjectManagerClient "Hansoft Client"
+	{
+		// e185798d
+
+		// Shared by:
+		// 85998b45 - NLocalize/NClient/NDllInterfaceImp/HansoftProjectManagerClient
+		// 50944019 - NLocalize/NClient/NGui/NMain/HansoftProjectManagerClient
+		// 329bdc76 - NLocalize/NClient/NGui/NServerAdmin/NMain/HansoftProjectManagerClient
+		// 97846ac4 - NLocalize/NClient/NLogin/NContext/NLoginApp/HansoftProjectManagerClient
+		:00_Current "Hansoft Client"
+	}
+	HansoftProjectManagerError "Hansoft Error"
+	{
+		// a9e5dcd8
+
+		// Shared by:
+		// 84bf1a63 - NLocalize/NClient/NGui/NPMCContext/NVisual/HansoftError
+		// 9e113cbd - NLocalize/NClient/NLogin/NContext/NLoginApp/HansoftError
+		:00_Current "Hansoft Error"
+	}
+	HansoftProjectManagerInformation "Hansoft Information"
+	{
+		// 55d06214
+
+		// Shared by:
+		// 9bc25bdf - NLocalize/NClient/NGui/NPMCContext/NVisual/HansoftInformation
+		// 369f59b9 - NLocalize/NClient/NLogin/NContext/NLoginApp/HansoftInformation
+		:00_Current "Hansoft Information"
+	}
+	HansoftProjectManagerWarning "Hansoft Warning"
+	{
+		// fcc061a4
+
+		// Shared by:
+		// f2df2def - NLocalize/NClient/NGui/NPMCContext/NVisual/HansoftWarning
+		// a9434ec9 - NLocalize/NClient/NLogin/NContext/NLoginApp/HansoftWarning
+		:00_Current "Hansoft Warning"
+	}
+	HansoftProjectServerAdministratorOffline "Hansoft Server Administrator - Offline"
+	{
+		// 51ff99ae
+
+		// Shared by:
+		// 3fb143ce - NLocalize/NClient/NLogin/NGui/NClientMain/AdminStatusConnectTip
+		// cfa85029 - NLocalize/NClient/NLogin/NGui/NClientMain/AdminStatusLostConnection
+		:00_Current "Hansoft Server Administrator - Offline"
+	}
+	Hierarchy "Hierarchy"
+	{
+		// 3f780128
+
+		// Shared by:
+		// 43f760eb - NLocalize/NClient/NGui/NGantt/NAgile/NBacklogPopup/HierarchyView
+		// dca011f1 - NLocalize/NClient/NGui/NProjectConnection/HierarchyView
+		:00_Current "Hierarchy"
+	}
+	HighPriority "High priority"
+	{
+		// 866f7c2b
+
+		// Shared by:
+		// 40dd20a2 - NLocalize/NDatabaseFunctions/HighPriority
+		// 244a7e1b - NLocalize/NDatabaseFunctions/NUsersProjects/HighPriority
+		:00_Current "High priority"
+	}
+	Hours "hours"
+	{
+		// 7ef7b05a
+
+		// Shared by:
+		// 6626a2a1 - NLocalize/NClient/NGui/NGantt/NObjects/ShortBurndownUnitFromModeWorkHours
+		// 15b5773c - NLocalize/NClient/NPMCContext/NCustomize/NTimesheets/Hours
+		:00_Current "hours"
+	}
+	Hours2 "hours"
+	{
+		// 5dedbbcc
+
+		// Shared by:
+		// bc36c788 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/Hours
+		// 36c7a7a3 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/Hours
+		// 5cf4c2a9 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/MaxHours
+		:00_Current "hours"
+	}
+	Hyperlink "Hyperlink"
+	{
+		// 35334bdf
+
+		// Shared by:
+		// bd2f8eb1 - NLocalize/NClient/NGui/NGantt/NActionHistory/Hyperlink
+		// 0357d862 - NLocalize/NClient/NGui/NGantt/NColumns/Hyperlink
+		// d684a7b8 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/Hyperlink
+		// 9e2a8334 - NLocalize/NDatabaseFunctions/NDB/NGeneral/Hyperlink
+		:00_Current "Hyperlink"
+	}
+	ID "ID"
+	{
+		// 05c7df76
+
+		// Shared by:
+		// c74cc959 - NLocalize/NClient/NGui/NGantt/NColumns/ID
+		// a9afb67f - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/ID
+		// 1a51dc6b - NLocalize/NDatabaseFunctions/NDB/NGeneral/ID
+		:00_Current "ID"
+	}
+	Icon "Icon"
+	{
+		// 973e2792
+
+		// Shared by:
+		// b4f70d4a - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/Icon
+		// 9d40d14b - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/Icon
+		// 34401100 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/Icon
+		// bbd7d9bb - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/Icon
+		:00_Current "Icon"
+	}
+	IdealDays "Estimated days"
+	{
+		// efb164d9
+
+		// Shared by:
+		// 5ded40cd - NLocalize/NClient/NGui/NGantt/NObjects/BurndownUnitFromModeIdealDays
+		// a3ca528a - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/IdealDays
+		:00_Current "Estimated days"
+	}
+	IdealDays2 "estimated days"
+	{
+		// e5de002b
+
+		// Shared by:
+		// e98038ab - NLocalize/NClient/NGui/NGantt/NObjects/BurndownChartModeIdealDays
+		// e2ef2c7d - NLocalize/NClient/NGui/NGantt/NObjects/ShortBurndownUnitFromModeIdealDays
+		:00_Current "estimated days"
+	}
+	IfYouWantERPIntegrationSuchAsPayrollsOrFinance "If you want ERP integration such as payrolls or finance or you wish to do sheet calculations, save as XML"
+	{
+		// 5aa8d02c
+
+		// Shared by:
+		// 7746d1df - NLocalize/NClient/NGui/NGantt/NTimeReporting/NViewOnTask/IfYouWantERPIntegrationSuchAsPayrollsOrFinance
+		// d0ee96e9 - NLocalize/NClient/NGui/NProjectPeriodReport/IfYouWantERPIntegrationSuchAsPayrollsOrFinance
+		// 81c7cc5a - NLocalize/NClient/NGui/NResourcePeriodReport/IfYouWantERPIntegrationSuchAsPayrollsOrFinance
+		:00_Current "If you want ERP integration such as payrolls or finance or you wish to do sheet calculations, save as XML"
+	}
+	IfYouWantToPrintEditOrUseTheReportsInYourWordProcessor "If you want to print, edit or use the reports in your word processor, save as HTML"
+	{
+		// e9c633e5
+
+		// Shared by:
+		// 4c9a8cb8 - NLocalize/NClient/NGui/NGantt/NTimeReporting/NViewOnTask/IfYouWantToPrintEditOrUseTheReportsInYourWord
+		// ea78d882 - NLocalize/NClient/NGui/NProjectPeriodReport/IfYouWantToPrintEditOrUseTheReportsInYourWord
+		// ff58a3d3 - NLocalize/NClient/NGui/NResourcePeriodReport/IfYouWantToPrintEditOrUseTheReportsInYourWord
+		:00_Current "If you want to print, edit or use the reports in your word processor, save as HTML"
+	}
+	ImmediatePreviousSubProject "Immediate previous sub project"
+	{
+		// 851d97d6
+
+		// Shared by:
+		// d31eaddc - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/ImmediatePreviousSubProject
+		// f8534dcb - NLocalize/NDatabaseFunctions/NFind/ImmediatePreviousSubProject
+		:00_Current "Immediate previous sub project"
+	}
+	ImportExistingDatabase "Import existing database"
+	{
+		// bbafe7e4
+
+		// Shared by:
+		// 37b43e43 - NLocalize/NClient/NGui/NServerAdmin/NDataBaseEdit/ImportExistingDatabase
+		// 207ab5a8 - NLocalize/NClient/NGui/NServerAdmin/NServerAdmin/ImportExistingDatabase
+		:00_Current "Import existing database"
+	}
+	InDateRange "In date range"
+	{
+		// 79ac9bcb
+
+		// Shared by:
+		// eb506d25 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/InDateRange
+		// 1ce707c0 - NLocalize/NDatabaseFunctions/NFind/InDateRange
+		:00_Current "In date range"
+	}
+	InProgress "In progress"
+	{
+		// 3773cdb5
+
+		// Shared by:
+		// 0f31b155 - NLocalize/NClient/NGui/NGantt/NFilterWindow/InProgress
+		// f505f3fd - NLocalize/NClient/NGui/NGlobalTrends/InProgress
+		// f9c593a5 - NLocalize/NDatabaseFunctions/NUsersProjects/InProgress
+		:00_Current "In progress"
+	}
+	InRange "In range"
+	{
+		// 63c78f4d
+
+		// Shared by:
+		// 0394c3a7 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/InRange
+		// 4b0848c2 - NLocalize/NDatabaseFunctions/NFind/InRange
+		:00_Current "In range"
+	}
+	IncludeConsultancyFees "Include consultancy fees"
+	{
+		// 401d0643
+
+		// Shared by:
+		// 1de84b20 - NLocalize/NClient/NGui/NProjectPeriodReport/IncludeConsuancyFees
+		// f6558d51 - NLocalize/NClient/NGui/NResourcePeriodReport/IncludeConsuancyFees
+		:00_Current "Include consultancy fees"
+	}
+	IncludeInternalCost "Include internal cost"
+	{
+		// 88220343
+
+		// Shared by:
+		// cd6e5420 - NLocalize/NClient/NGui/NProjectPeriodReport/IncludeInternalCost
+		// ad339431 - NLocalize/NClient/NGui/NResourcePeriodReport/IncludeInternalCost
+		:00_Current "Include internal cost"
+	}
+	IncludeNonProjectTimeDetails "Include non-project time details"
+	{
+		// 9facde84
+
+		// Shared by:
+		// 27b6bc21 - NLocalize/NClient/NGui/NProjectPeriodReport/IncludeNonprojectTimeDetails
+		// 7e179f52 - NLocalize/NClient/NGui/NResourcePeriodReport/IncludeNonprojectTimeDetails
+		:00_Current "Include non-project time details"
+	}
+	IncludeProjectTimeDetails "Include project time details"
+	{
+		// 6f516259
+
+		// Shared by:
+		// 24a024f6 - NLocalize/NClient/NGui/NProjectPeriodReport/IncludeProjectTimeDetails
+		// aff36dc7 - NLocalize/NClient/NGui/NResourcePeriodReport/IncludeProjectTimeDetails
+		:00_Current "Include project time details"
+	}
+	Information "Information"
+	{
+		// 579bd44f
+
+		// Shared by:
+		// 77c70778 - NLocalize/NClient/NGui/NGantt/NViewRender/NDragAndTooltips/Information
+		// f5f6c8f6 - NLocalize/NClient/NGui/NVersionControl/NAddFiles/Information
+		:00_Current "Information"
+	}
+	InsertAPageBreakForEveryNewResource "Insert a page break for every new user"
+	{
+		// 61120b25
+
+		// Shared by:
+		// 9b167602 - NLocalize/NClient/NGui/NProjectPeriodReport/InsertAPageBreakForEveryNewResource
+		// 9dd3b813 - NLocalize/NClient/NGui/NResourcePeriodReport/InsertAPageBreakForEveryNewResource
+		:00_Current "Insert a page break for every new user"
+	}
+	InsertImage "Insert Image"
+	{
+		// 15f91721
+
+		// Shared by:
+		// 5351950a - NLocalize/NClient/NGui/NActivityDetailsWindow/NConversionPopup/InsertImage
+		// 887d0362 - NLocalize/NClient/NGui/NCommentEditor/InsertImage
+		:00_Current "Insert Image"
+	}
+	IntegrationSettings "Integration settings"
+	{
+		// 83b3f35e
+
+		// Shared by:
+		// c65f0068 - NLocalize/NClient/NGui/NPerforceIntegration/NCustomSettings/IntegrationSettings
+		// 39a6656f - NLocalize/NClient/NGui/NProjects/IntegrationSettings
+		:00_Current "Integration settings"
+	}
+	Item "Item"
+	{
+		// 973e6e98
+
+		// Shared by:
+		// 0cee8088 - NLocalize/NDatabaseFunctions/NUsersProjects/Item
+		// 27818815 - NLocalize/NServer/NDatabase/NContextMessageServices/Item
+		:00_Current "Item"
+	}
+	ItemName "Item name"
+	{
+		// d7b06b39
+
+		// Shared by:
+		// 6aa9a502 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/ItemName
+		// d47b1f20 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NApplyWindow/ItemName
+		// d55cd8de - NLocalize/NClient/NGui/NGantt/NSprintResourceUsageDetails/ItemName
+		// 997001be - NLocalize/NClient/NGui/NGantt/NSprintWorkRemainingHistoryPopup/ItemName
+		// 6e438bee - NLocalize/NDatabaseFunctions/NDB/NGeneral/ItemName
+		:00_Current "Item name"
+	}
+	ItemStatus "Status"
+	{
+		// 927374fc
+
+		// Shared by:
+		// 252991df - NLocalize/NClient/NGui/NGantt/NColumns/ItemStatus
+		// 87622979 - NLocalize/NClient/NGui/NGlobal/NTrendsCreateNewCustomTrendType/ItemStatus
+		// 50059b44 - NLocalize/NClient/NGui/NGlobalTrends/ItemStatus
+		// 1a5196f1 - NLocalize/NDatabaseFunctions/NDB/NGeneral/ItemStatus
+		// 54c53aec - NLocalize/NDatabaseFunctions/NUsersProjects/ItemStatus
+		:00_Current "Status"
+	}
+	ItemType "Item type"
+	{
+		// d7b41bfa
+
+		// Shared by:
+		// 79233f76 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/ItemType
+		// 6e473caf - NLocalize/NDatabaseFunctions/NDB/NGeneral/ItemType
+		// e9fba5ea - NLocalize/NDatabaseFunctions/NUsersProjects/ItemType
+		:00_Current "Item type"
+	}
+	Items "Items"
+	{
+		// 7f0c420b
+
+		// Shared by:
+		// 923f9964 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/Items
+		// aabe91fb - NLocalize/NDatabaseFunctions/NUsersProjects/Items
+		:00_Current "Items"
+	}
+	ItemsWithThisKeyword "(Items with this keyword)"
+	{
+		// 1531cac4
+
+		// Shared by:
+		// c5760840 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/ItemsWithThisKeyword
+		// 1a67c15e - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/ItemsWithThisKeyword
+		// 65a63b8a - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/ItemsWithThisKeyword
+		:00_Current "(Items with this keyword)"
+	}
+	LastCommentedOn "Last commented on"
+	{
+		// e9a2f136
+
+		// Shared by:
+		// 000d93f9 - NLocalize/NClient/NGui/NGantt/NColumns/LastCommentedOn
+		// 41fd944b - NLocalize/NDatabaseFunctions/NDB/NGeneral/LastCommentedOn
+		:00_Current "Last commented on"
+	}
+	LastModified "Last modified"
+	{
+		// 0dda379e
+
+		// Shared by:
+		// f36bc3bb - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/LastModified
+		// a5ec37cc - NLocalize/NClient/NGui/NVersionControl/LastModified
+		:00_Current "Last modified"
+	}
+	LastReadComments "Last read comments"
+	{
+		// 5a3f657f
+
+		// Shared by:
+		// 000d93f9 - NLocalize/NClient/NGui/NGantt/NColumns/LastReadComments
+		// 41fd944b - NLocalize/NDatabaseFunctions/NDB/NGeneral/LastCommentedOn
+		:00_Current "Last read comments"
+	}
+	LastUpdatedOn "Last updated on"
+	{
+		// 47986241
+
+		// Shared by:
+		// 76657844 - NLocalize/NClient/NGui/NGantt/NColumns/LastUpdatedOn
+		// 3d553c16 - NLocalize/NDatabaseFunctions/NDB/NGeneral/LastUpdatedOn
+		:00_Current "Last updated on"
+	}
+	LessThan "Less than"
+	{
+		// 3ae48ceb
+
+		// Shared by:
+		// d4584c85 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/LessThan
+		// 0a3c7500 - NLocalize/NDatabaseFunctions/NFind/LessThan
+		:00_Current "Less than"
+	}
+	LessThanCaseSensitive "Less than (case sensitive)"
+	{
+		// 4589f201
+
+		// Shared by:
+		// f17ebbdb - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/LessThanCaseSensitive
+		// 1abf9436 - NLocalize/NDatabaseFunctions/NFind/LessThanCaseSensitive
+		:00_Current "Less than (case sensitive)"
+	}
+	LessThanEqual "Less than equal"
+	{
+		// 64e8e803
+
+		// Shared by:
+		// cec677dd - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/LessThanEqual
+		// c06e2538 - NLocalize/NDatabaseFunctions/NFind/LessThanEqual
+		:00_Current "Less than equal"
+	}
+	LessThanEqualCaseSensitive "Less than equal (case sensitive)"
+	{
+		// f88f9419
+
+		// Shared by:
+		// 166e9633 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/LessThanEqualCaseSensitive
+		// b63bdf6e - NLocalize/NDatabaseFunctions/NFind/LessThanEqualCaseSensitive
+		:00_Current "Less than equal (case sensitive)"
+	}
+	LicenceInformation "Licence information"
+	{
+		// b9d5c2e2
+
+		// Shared by:
+		// 910caeb6 - NLocalize/NClient/NGui/NLicenseInformationPopup/LicenseInformation
+		// 37786485 - NLocalize/NClient/NLogin/NGui/NLicenseInformationPopupLogin/LicenseInformation
+		:00_Current "Licence information"
+	}
+	LightGreyGroup "Light grey group"
+	{
+		// 284b4ac5
+
+		// Shared by:
+		// 94c8b67d - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/LightGreyGroup
+		// ac742fbe - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/LightGreyGroup
+		:00_Current "Light grey group"
+	}
+	LinkedToTaskItemBug "Linked to item"
+	{
+		// 1e508163
+
+		// Shared by:
+		// 1e13f2b5 - NLocalize/NClient/NGui/NGantt/NActionHistory/LinkedToTaskItemBug
+		// db04cda6 - NLocalize/NClient/NGui/NGantt/NColumns/LinkedToTaskItemBug
+		// 9ac0a6f8 - NLocalize/NDatabaseFunctions/NDB/NGeneral/LinkedToTaskItemBug
+		:00_Current "Linked to item"
+	}
+	LogOut "Sign out"
+	{
+		// 673a1ca3
+
+		// Shared by:
+		// e05f03af - NLocalize/NClient/NGui/NMain/LogOut
+		// 8abc57ec - NLocalize/NClient/NGui/NServerAdmin/NMain/LogOut
+		:00_Current "Sign out"
+	}
+	LoggedInResource "(Logged in user)"
+	{
+		// a624521a
+
+		// Shared by:
+		// b64d3196 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/LoggedInResource
+		// 31197f2f - NLocalize/NDatabaseFunctions/NFind/LoggedInResource
+		:00_Current "(Logged in user)"
+	}
+	Login "Sign in"
+	{
+		// 7f3fd5a2
+
+		// Shared by:
+		// b54e2738 - NLocalize/NClient/NLogin/NGui/NLogin/Login
+		// b80b041a - NLocalize/NClient/NLogin/NGui/NLogin/LoginTitle
+		// 17579738 - NLocalize/NClient/NLogin/NGui/NServerAdminLogin/Login
+		:00_Current "Sign in"
+	}
+	LowPriority "Low priority"
+	{
+		// 03aedb7d
+
+		// Shared by:
+		// 6e2e4d14 - NLocalize/NDatabaseFunctions/LowPriority
+		// 10395f6d - NLocalize/NDatabaseFunctions/NUsersProjects/LowPriority
+		:00_Current "Low priority"
+	}
+	Magenta "Magenta"
+	{
+		// 7adba7e6
+
+		// Shared by:
+		// 3138bfec - NLocalize/NClient/NGui/NGantt/NEditScreenshot/Magenta
+		// 26bac911 - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/Magenta
+		:00_Current "Magenta"
+	}
+	MagentaBox "Magenta box"
+	{
+		// ad0d8daf
+
+		// Shared by:
+		// 60f9dd67 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/MagentaBox
+		// 7f80de28 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/MagentaBox
+		// 1ba0519d - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/MagentaBox
+		// 72b87a98 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/MagentaBox
+		:00_Current "Magenta box"
+	}
+	MagentaCircle "Magenta circle"
+	{
+		// fd856218
+
+		// Shared by:
+		// 65a836d0 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/MagentaCircle
+		// cb390bf1 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/MagentaCircle
+		:00_Current "Magenta circle"
+	}
+	MakeATimesheetReport "Make a timesheet report"
+	{
+		// a7a6212c
+
+		// Shared by:
+		// 1be6d55d - NLocalize/NClient/NGui/NProjects/MakeATimesheetReport
+		// 2dc38ee5 - NLocalize/NClient/NGui/NUsers/MakeATimesheetReport
+		:00_Current "Make a timesheet report"
+	}
+	MaximisesTheFindWindow "Maximises the find window"
+	{
+		// 14793113
+
+		// Shared by:
+		// a5fd8dda - NLocalize/NClient/NGui/NGantt/NFilterWindow/MaximizesTheFindWindow
+		// 47693661 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NApplyWindow/MaximizesTheFindWindow
+		:00_Current "Maximises the find window"
+	}
+	Medium "Medium"
+	{
+		// 68d919aa
+
+		// Shared by:
+		// 01734175 - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/Medium
+		// 0ad5679a - NLocalize/NDatabaseFunctions/NUsersProjects/Medium
+		:00_Current "Medium"
+	}
+	MediumPriority "Medium priority"
+	{
+		// cc8d532c
+
+		// Shared by:
+		// d8f5f163 - NLocalize/NDatabaseFunctions/MediumPriority
+		// 4d30911c - NLocalize/NDatabaseFunctions/NUsersProjects/MediumPriority
+		:00_Current "Medium priority"
+	}
+	MilestonesTheyAreFutureMilestones "([NHelpers::PluralizeCapitalize(2,$0)]) They are future [NHelpers::Pluralize(2,$0)]"
+	{
+		// 1981071c
+		// 0 text - Default name of milestone type or custom name
+
+		// Shared by:
+		// 2af1d6bc - NLocalize/NClient/NGui/NGantt/NFilterWindow/MilestonesTheyAreFutureMilestones
+		// 5ef6977b - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/MilestonesTheyAreFutureMilestones
+		:00_Current "([NHelpers::PluralizeCapitalize(2,$0)]) They are future [NHelpers::Pluralize(2,$0)]"
+	}
+	MilestonesTheyAreMilestones "([NHelpers::PluralizeCapitalize(2,$0)]) They are [NHelpers::PluralizeCapitalize(2,$0)]"
+	{
+		// efcf4f21
+		// 0 text - Default name of milestone type or custom name
+
+		// Shared by:
+		// 4744e6c1 - NLocalize/NClient/NGui/NGantt/NFilterWindow/MilestonesTheyAreMilestones
+		// 4a33c440 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/MilestonesTheyAreMilestones
+		:00_Current "([NHelpers::PluralizeCapitalize(2,$0)]) They are [NHelpers::PluralizeCapitalize(2,$0)]"
+	}
+	MilestonesTheyArePastMilestones "([NHelpers::PluralizeCapitalize(2,$0)]) They are past [NHelpers::Pluralize(2,$0)]"
+	{
+		// 418f8e59
+		// 0 text - Default name of milestone type or custom name
+
+		// Shared by:
+		// 0347f5f9 - NLocalize/NClient/NGui/NGantt/NFilterWindow/MilestonesTheyArePastMilestones
+		// 75577af8 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/MilestonesTheyArePastMilestones
+		:00_Current "([NHelpers::PluralizeCapitalize(2,$0)]) They are past [NHelpers::Pluralize(2,$0)]"
+	}
+	MinimisesTheFindWindow "Minimises the find window"
+	{
+		// a3593551
+
+		// Shared by:
+		// 34dd9218 - NLocalize/NClient/NGui/NGantt/NFilterWindow/MinimizesTheFindWindow
+		// d6493a9f - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NApplyWindow/MinimizesTheFindWindow
+		:00_Current "Minimises the find window"
+	}
+	Monday "Monday"
+	{
+		// 699372b1
+
+		// Shared by:
+		// 1edef22c - NLocalize/NAOCC/NAOTime/Monday
+		// d9811ab6 - NLocalize/NClient/NGui/NGantt/NCommands/NTaskRelated/Monday
+		// 76cdfd0b - NLocalize/NClient/NGui/NGantt/NHistorySaveOccurence/Monday
+		// 405e822f - NLocalize/NClient/NGui/NGantt/NMessageOccurence/Monday
+		// dab51f92 - NLocalize/NClient/NGui/NGantt/NReport/NMailTo/Monday
+		:00_Current "Monday"
+	}
+	Monday2 "Monday"
+	{
+		// 9c01c903
+
+		// Shared by:
+		// fd3c5efb - NLocalize/NClient/NGui/NCustomize/NTimesheets/NRules/Monday
+		// b59f08f1 - NLocalize/NClient/NGui/NGantt/NCalender/Monday
+		:00_Current "Monday"
+	}
+	More "More"
+	{
+		// 97408c7c
+
+		// Shared by:
+		// 9b82f995 - NLocalize/NClient/NGui/NGantt/NAddMoreResources/More
+		// da03f98e - NLocalize/NClient/NGui/NGantt/NCustomize/NDialog/More
+		:00_Current "More"
+	}
+	More2 "More.."
+	{
+		// 7f521c2e
+
+		// Shared by:
+		// d47a49c5 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/More
+		// 61c9ed28 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/More
+		// 1ada105e - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/More
+		// 50683142 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/More
+		// 1928fead - NLocalize/NClient/NGui/NProjects/More
+		// bd13a835 - NLocalize/NClient/NGui/NUsers/More
+		:00_Current "More.."
+	}
+	More3 "More.."
+	{
+		// 7f521c2f
+
+		// Shared by:
+		// eda459e3 - NLocalize/NClient/NGui/NGantt/NManageLocalizations/More
+		// 36b112ad - NLocalize/NClient/NGui/NGantt/NReports/More
+		:00_Current "More.."
+	}
+	MovedToDeletedProjects "Moved to deleted projects"
+	{
+		// e59b6a68
+
+		// Shared by:
+		// 235c2176 - NLocalize/NClient/NPMCContext/NVersionControl/MovedToDeletedProjects
+		// 212ed163 - NLocalize/NServer/NDatabase/NVersionControlContext/MovedToDeletedProjects
+		:00_Current "Moved to deleted projects"
+	}
+	MyPersonalOptionsCtrlO "My personal options..."
+	{
+		// 13f6b623
+
+		// Shared by:
+		// cb8b73b0 - NLocalize/NClient/NGui/NProjects/MyPersonalOptions
+		// dbdf5a38 - NLocalize/NClient/NGui/NUsers/MyPersonalOptions
+		:00_Current "My personal options..."
+	}
+	MyTrends "My trends"
+	{
+		// e25a893f
+
+		// Shared by:
+		// 5f1e7d87 - NLocalize/NClient/NGui/NGlobalTrends/MyTrends
+		// 71928865 - NLocalize/NClient/NGui/NGlobalTrends/NDrawAndInteraction/MyTrends
+		:00_Current "My trends"
+	}
+	Name "Name"
+	{
+		// 9740dcaa
+
+		// Shared by:
+		// b69f626b - NLocalize/NClient/NGui/NActivityDetailsWindow/NDynamicProperties/Name
+		// bd13f863 - NLocalize/NClient/NGui/NUsers/Name
+		// dd0146b8 - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Name
+		// 9988cf31 - NLocalize/NClient/NGui/NVersionControl/NAddFiles/Name
+		// 47648ed8 - NLocalize/NClient/NGui/NVersionControl/Name
+		:00_Current "Name"
+	}
+	NavigationMenu "Navigation Menu"
+	{
+		// 1f53080e
+
+		// Shared by:
+		// 7f552db0 - NLocalize/NClient/NGui/NAdministration/NavigationPaneMinimized
+		// 1959376b - NLocalize/NClient/NGui/NGantt/NAgile/NBacklogPopup/NavigationPaneMinimized
+		// dd7f67f1 - NLocalize/NClient/NGui/NProjectConnection/NavigationPaneMinimized
+		// a19482f3 - NLocalize/NClient/NGui/NResourceAllocationView/NavigationPaneMinimized
+		:00_Current "Navigation Menu"
+	}
+	Never "Never"
+	{
+		// 7f5eca29
+
+		// Shared by:
+		// c89ddeea - NLocalize/NClient/NGui/NGantt/NReport/NMailTo/Never
+		// 621988b6 - NLocalize/NClient/NGui/NShares/Never
+		:00_Current "Never"
+	}
+	New "New"
+	{
+		// bec3e833
+
+		// Shared by:
+		// 09575be1 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/New
+		// 74c17c23 - NLocalize/NDatabaseFunctions/NUsersProjects/New
+		:00_Current "New"
+	}
+	NewPassword "New password"
+	{
+		// e0ff6146
+
+		// Shared by:
+		// 3b5fd46b - NLocalize/NClient/NGui/NGantt/NCommands/NTaskRelated/NewPassword
+		// 8878f2df - NLocalize/NClient/NGui/NUsers/NewPassword
+		:00_Current "New password"
+	}
+	NewScheduledTask "New scheduled task"
+	{
+		// bc88df17
+
+		// Shared by:
+		// 1acda9db - NLocalize/NClient/NGui/NServerAdmin/NServerAdmin/NewScheduledTask
+		// 8591e70e - NLocalize/NDatabaseFunctions/NewScheduledTask
+		:00_Current "New scheduled task"
+	}
+	No "No"
+	{
+		// 05c7e046
+
+		// Shared by:
+		// 1ee2141b - NLocalize/NAOWin/NAOMultiEditDialog/No
+		// 75b21bd7 - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/NCreateEditProfile/No
+		// ee3d2842 - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/NCreateRule/No
+		// f0c49634 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/No
+		// 54ccf42f - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/No
+		// 7e861440 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/No
+		// 45a11fbb - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/No
+		// bc63c6f4 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NSelectColumns/No
+		// 08aa6ed4 - NLocalize/NClient/NGui/NVersionControl/NAccessRights/No
+		// a693850d - NLocalize/NClient/NGui/NVersionControl/NAddFiles/No
+		// 876ab636 - NLocalize/NDatabaseFunctions/NUsersProjects/No
+		:00_Current "No"
+	}
+	No2 "No"
+	{
+		// bec3e938
+
+		// Shared by:
+		// 309801c7 - NLocalize/NClient/NGui/NActivityDetailsWindow/NDynamicProperties/No
+		// 68779b0f - NLocalize/NClient/NGui/NAdminProfileResource/No
+		// 38bad0fe - NLocalize/NClient/NGui/NGantt/NMessageSettings/No
+		// 9f0bd94f - NLocalize/NClient/NGui/NGantt/NViewRender/NDragAndTooltips/No
+		// d73dec7b - NLocalize/NClient/NGui/NMessageBox/No
+		// 31dc1237 - NLocalize/NClient/NGui/NProjects/No
+		:00_Current "No"
+	}
+	NoCategorySet "(No category set)"
+	{
+		// 4135c890
+
+		// Shared by:
+		// 205b2462 - NLocalize/NClient/NGui/NGantt/NActionHistory/NoCategorySet
+		// 9a710880 - NLocalize/NDatabaseFunctions/NUsersProjects/NoCategorySet
+		:00_Current "(No category set)"
+	}
+	NoConfidenceSet "(No confidence set)"
+	{
+		// b7df8a40
+
+		// Shared by:
+		// f5cb2292 - NLocalize/NClient/NGui/NGantt/NActionHistory/NoConfidenceSet
+		// 4cea8630 - NLocalize/NDatabaseFunctions/NUsersProjects/NoConfidenceSet
+		:00_Current "(No confidence set)"
+	}
+	NoGroup "(No group)"
+	{
+		// e64232b3
+
+		// Shared by:
+		// 253bac2a - NLocalize/NClient/NGui/NGantt/NReportFunctions/NoGroup
+		// 62615263 - NLocalize/NClient/NGui/NGantt/NResourceAllocation/NoGroup
+		:00_Current "(No group)"
+	}
+	NoItemStatusSet "(No status set)"
+	{
+		// 91b12de5
+
+		// Shared by:
+		// cf9cc637 - NLocalize/NClient/NGui/NGantt/NActionHistory/NoItemStatusSet
+		// 26bc29d5 - NLocalize/NDatabaseFunctions/NUsersProjects/NoItemStatusSet
+		:00_Current "(No status set)"
+	}
+	NoName "(No name)"
+	{
+		// 6bd703e7
+
+		// Shared by:
+		// b714a919 - NLocalize/NClient/NGui/NActivityDetailsWindow/NoName
+		// 7e43e7f9 - NLocalize/NClient/NGui/NGantt/NActionHistory/NoName
+		// 5f6cfe44 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/NoName
+		// 19f41787 - NLocalize/NClient/NGui/NGantt/NFilterWindow/NoName
+		// e6ef1863 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/NoName
+		// 4d1031c2 - NLocalize/NClient/NGui/NGantt/NInteraction/NMouseOverObject/NoName
+		// 04712bb2 - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/NoName
+		// 4961dcf2 - NLocalize/NClient/NGui/NGantt/NObjects/NPlanned/NoName
+		// 42df4b1c - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/NoName
+		// 6612e86e - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedWorkflowRelated/NoName
+		// 251680b3 - NLocalize/NClient/NGui/NGantt/NPrintPage/NoName
+		// f2c5920e - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NApplyWindow/NoName
+		// 7fd1c44c - NLocalize/NClient/NGui/NGantt/NSprintResourceUsageDetails/NoName
+		// 1945352c - NLocalize/NClient/NGui/NGantt/NSprintWorkRemainingHistoryPopup/NoName
+		// 89125970 - NLocalize/NClient/NGui/NGantt/NViewRender/NDragAndTooltips/NoName
+		// ae3fedc8 - NLocalize/NClient/NGui/NGantt/NWallFunctions/NAutoGroups/NoName
+		// 7c03c332 - NLocalize/NClient/NGui/NGantt/NWallFunctions/NoName
+		// fe7be2bc - NLocalize/NDatabaseFunctions/NFind/NoName
+		// 00b054b2 - NLocalize/NDatabaseFunctions/NTaskTreeCache/NoName
+		// b87d17a1 - NLocalize/NDatabaseFunctions/NTasks/NoName
+		// 194670a4 - NLocalize/NServer/NDatabase/NContextMessageServices/NoName
+		:00_Current "(No name)"
+	}
+	NoPrioritySet "(No priority set)"
+	{
+		// c5bdef54
+
+		// Shared by:
+		// a4e34b26 - NLocalize/NClient/NGui/NGantt/NActionHistory/NoPrioritySet
+		// 1ef92f44 - NLocalize/NDatabaseFunctions/NUsersProjects/NoPrioritySet
+		:00_Current "(No priority set)"
+	}
+	NoResourceSet "(Not assigned)"
+	{
+		// 2378f0fa
+
+		// Shared by:
+		// f5f47fdb - NLocalize/NClient/NGui/NActivityDetailsWindow/NDynamicProperties/NoResourceSet
+		// 029e4ccc - NLocalize/NClient/NGui/NGantt/NActionHistory/NoResourceSet
+		// ed2c6a8f - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/NoResourceSet
+		// b0710717 - NLocalize/NServer/NDatabase/NContextMessageServices/NoResourceSet
+		:00_Current "(Not assigned)"
+	}
+	NoRiskSet "(No risk set)"
+	{
+		// b99e526b
+
+		// Shared by:
+		// 419a953d - NLocalize/NClient/NGui/NGantt/NActionHistory/NoRiskSet
+		// 14d71a5b - NLocalize/NDatabaseFunctions/NUsersProjects/NoRiskSet
+		:00_Current "(No risk set)"
+	}
+	NoSeveritySet "(No severity set)"
+	{
+		// d10a1cad
+
+		// Shared by:
+		// b02f787f - NLocalize/NClient/NGui/NGantt/NActionHistory/NoSeveritySet
+		// 2a455c9d - NLocalize/NDatabaseFunctions/NUsersProjects/NoSeveritySet
+		:00_Current "(No severity set)"
+	}
+	NonProjectTime "Non-project time"
+	{
+		// ea16a85a
+
+		// Shared by:
+		// a1ff6337 - NLocalize/NClient/NGui/NProjectPeriodReport/NonprojectTime
+		// 0eb714a8 - NLocalize/NClient/NGui/NResourcePeriodReport/NonprojectTime
+		:00_Current "Non-project time"
+	}
+	None "None"
+	{
+		// 97411859
+
+		// Shared by:
+		// 05b40e4e - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/None
+		// 0cf12a49 - NLocalize/NDatabaseFunctions/NUsersProjects/None
+		:00_Current "None"
+	}
+	Normal "Normal"
+	{
+		// 6beaf312
+
+		// Shared by:
+		// 5b8f40e5 - NLocalize/NClient/NGui/NGantt/NOptionsWindow/NAppearance/Normal
+		// 0de74102 - NLocalize/NDatabaseFunctions/NUsersProjects/Normal
+		:00_Current "Normal"
+	}
+	NotAllDocumentAttachmentsCouldBeRemovedBecause "Not all document attachments could be removed because only people in the project view with full permissions have the right to remove all attachments.\n"\
+	                                               "\n"\
+	                                               "You can only remove attachments you have added."
+	{
+		// 9794e8d6
+
+		// Shared by:
+		// 9a759f61 - NLocalize/NClient/NGui/NActivityDetailsWindow/NFileAttachments/NotAllDocumentAttachmentsCouldBeRemovedBecause
+		// 43582433 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/NotAllDocumentAttachmentsCouldBeRemovedBecause
+		:00_Current "Not all document attachments could be removed because only people in the project view with full permissions have the right to remove all attachments.\n"\
+		            "\n"\
+		            "You can only remove attachments you have added."
+	}
+	NotDone "Not done"
+	{
+		// e9574700
+
+		// Shared by:
+		// 5b16cea0 - NLocalize/NClient/NGui/NGantt/NFilterWindow/NotDone
+		// 97c9d248 - NLocalize/NClient/NGui/NGlobalTrends/NotDone
+		// cadd52f0 - NLocalize/NDatabaseFunctions/NUsersProjects/NotDone
+		:00_Current "Not done"
+	}
+	NotSet "(Not set)"
+	{
+		// 6beb9dc6
+
+		// Shared by:
+		// 7e5881d8 - NLocalize/NClient/NGui/NGantt/NActionHistory/NotSet
+		// 497676d1 - NLocalize/NClient/NGui/NGantt/NObjects/NPlanned/NotSet
+		// 42f3e4fb - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/NotSet
+		// 252b1a92 - NLocalize/NClient/NGui/NGantt/NPrintPage/NotSet
+		// fe907c9b - NLocalize/NDatabaseFunctions/NFind/NotSet
+		:00_Current "(Not set)"
+	}
+	NotSet2 "Not set"
+	{
+		// e95f56b8
+
+		// Shared by:
+		// 510d9ab4 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/NotSet
+		// 1dba7e2f - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/NotSet
+		:00_Current "Not set"
+	}
+	NothingWasFoundInThisPeriod "Nothing was found in this period..."
+	{
+		// 35a8bfb9
+
+		// Shared by:
+		// 79b29d96 - NLocalize/NClient/NGui/NProjectPeriodReport/NothingWasFoundInThisPeriod
+		// 26fb5ea7 - NLocalize/NClient/NGui/NResourcePeriodReport/NothingWasFoundInThisPeriod
+		:00_Current "Nothing was found in this period..."
+	}
+	NotificationsTo "Notifications to"
+	{
+		// 9cc46fe6
+
+		// Shared by:
+		// ffb4d894 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/NotificationsTo
+		// 4528d825 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/PopupEmailNotificationsNotificationsTo
+		:00_Current "Notifications to"
+	}
+	Offline "Offline"
+	{
+		// 206b94ac
+
+		// Shared by:
+		// a134eaa6 - NLocalize/NClient/NGui/NServerAdmin/NDatabaseState/Offline
+		// e89241c5 - NLocalize/NClient/NGui/NUsers/Offline
+		:00_Current "Offline"
+	}
+	Ok "Ok"
+	{
+		// 05c7e063
+
+		// Shared by:
+		// 1ee21438 - NLocalize/NAOWin/NAOMultiEditDialog/Ok
+		// 247c44c4 - NLocalize/NClient/NGui/NGantt/NReport/NMailTo/Ok
+		:00_Current "Ok"
+	}
+	Ok2 "Ok"
+	{
+		// bec3ecf5
+
+		// Shared by:
+		// c4f756f8 - NLocalize/NClient/NGui/NCreateCustomAgileNameTemplate/Ok
+		// cdb9c355 - NLocalize/NClient/NGui/NCreateProject/Ok
+		// c031c509 - NLocalize/NClient/NGui/NCustomize/NTimesheets/NATR/Ok
+		// 70e237ad - NLocalize/NClient/NGui/NCustomize/NTimesheets/NRules/Ok
+		// 58985925 - NLocalize/NClient/NGui/NCustomize/NTimesheets/Ok
+		// e3cfc028 - NLocalize/NClient/NGui/NEmailConfig/Ok
+		// e82a333c - NLocalize/NClient/NGui/NGantt/NAddMoreResources/Ok
+		// e90256a3 - NLocalize/NClient/NGui/NGantt/NCalender/Ok
+		// 46b916de - NLocalize/NClient/NGui/NGantt/NCalenderImport/Ok
+		// 2e865591 - NLocalize/NClient/NGui/NGantt/NCommentsCC/Ok
+		// be1bf81b - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/Ok
+		// a448e0f5 - NLocalize/NClient/NGui/NGantt/NCustomize/NDialog/Ok
+		// 7572c7dc - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/Ok
+		// 4a9dce5c - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/Ok
+		// 7a7116df - NLocalize/NClient/NGui/NGantt/NFloatingSelection/Ok
+		// 78b74dbd - NLocalize/NClient/NGui/NGantt/NHistorySaveOccurence/Ok
+		// f6fb1c2c - NLocalize/NClient/NGui/NGantt/NLinkActivitiesByNumber/Ok
+		// e8c84985 - NLocalize/NClient/NGui/NGantt/NLinkMultipleMilestonesTo/Ok
+		// 75b21bf4 - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/NCreateEditProfile/Ok
+		// 9f982a4d - NLocalize/NClient/NGui/NGantt/NMessageCopies/Ok
+		// beb77430 - NLocalize/NClient/NGui/NGantt/NMessageMilestoneWarning/Ok
+		// 5a2ae0e1 - NLocalize/NClient/NGui/NGantt/NMessageOccurence/Ok
+		// 488662da - NLocalize/NClient/NGui/NGantt/NMessageScheduleUpdate/Ok
+		// 38bad11b - NLocalize/NClient/NGui/NGantt/NMessageSettings/Ok
+		// 48b40ff5 - NLocalize/NClient/NGui/NGantt/NMyWorkGuide/NShowAllItems/Ok
+		// 5450c089 - NLocalize/NClient/NGui/NGantt/NOptionsWindow/Ok
+		// c4924aa5 - NLocalize/NClient/NGui/NGantt/NPrint/NFitToPages/Ok
+		// ee3d285f - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/NCreateRule/Ok
+		// ab9963f6 - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/Ok
+		// 8d3589f1 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/NAssignToResources/Ok
+		// f0c49651 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/Ok
+		// 54ccf44c - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/Ok
+		// 7e86145d - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/Ok
+		// 88b0811c - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowReference/Ok
+		// 45a11fd8 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/Ok
+		// bc63c711 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NSelectColumns/Ok
+		// cd4358b3 - NLocalize/NClient/NGui/NGantt/NResourceGroupsSelection/Ok
+		// ca31fbe6 - NLocalize/NClient/NGui/NGantt/NTimeReporting/NTimeClock/Ok
+		// 25f2ecf6 - NLocalize/NClient/NGui/NGlobal/NTrendsCreateCustomTrendType/Ok
+		// 265c67e0 - NLocalize/NClient/NGui/NGlobal/NTrendsCreateNewCustomTrendType/Ok
+		// f286a2be - NLocalize/NClient/NGui/NMain/NLocalizationErrorConsoleOptions/Ok
+		// 2198d0cb - NLocalize/NClient/NGui/NName/Ok
+		// e917dbbe - NLocalize/NClient/NGui/NNameMultiline/Ok
+		// c6c393fe - NLocalize/NClient/NGui/NNamePassword/Ok
+		// a2d4ff7b - NLocalize/NClient/NGui/NProjectIC/NSettings/Ok
+		// e2a8f247 - NLocalize/NClient/NGui/NResourceProjectPicker/Ok
+		// f92e0142 - NLocalize/NClient/NGui/NServerAdmin/NDataBaseEdit/Ok
+		// e60b121d - NLocalize/NClient/NGui/NServerAdmin/NDatabaseState/Ok
+		// 08aa6ef1 - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Ok
+		// a693852a - NLocalize/NClient/NGui/NVersionControl/NAddFiles/Ok
+		// f4acf63a - NLocalize/NClient/NGui/NVersionControl/NOptions/Ok
+		// e3dd33d0 - NLocalize/NClient/NGui/NVersionControl/NReadComments/Ok
+		// 11964f44 - NLocalize/NClient/NLogin/NGui/NClientLoginOptions/Ok
+		:00_Current "Ok"
+	}
+	OldVersion "Old version"
+	{
+		// 59f4630e
+
+		// Shared by:
+		// 6d770669 - NLocalize/NClient/NGui/NGantt/NInteraction/NMouseOverObject/OldVersion
+		// 7d873cc3 - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/OldVersion
+		:00_Current "Old version"
+	}
+	OnDate "On date"
+	{
+		// 6e149924
+
+		// Shared by:
+		// c07faa3e - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/OnDate
+		// 0fb8876a - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/OnDate
+		// 00b977f9 - NLocalize/NDatabaseFunctions/NFind/OnDate
+		:00_Current "On date"
+	}
+	OnOrAfterDate "On or after date"
+	{
+		// 6d699577
+
+		// Shared by:
+		// d7472551 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/OnOrAfterDate
+		// 4795f8fd - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/OnOrAfterDate
+		// c8eed2ac - NLocalize/NDatabaseFunctions/NFind/OnOrAfterDate
+		:00_Current "On or after date"
+	}
+	OnOrBeforeDate "On or before date"
+	{
+		// c29c12d8
+
+		// Shared by:
+		// 682b9df2 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/OnOrBeforeDate
+		// e254e71e - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/OnOrBeforeDate
+		// 8ec8f6ad - NLocalize/NDatabaseFunctions/NFind/OnOrBeforeDate
+		:00_Current "On or before date"
+	}
+	OnXX "{0} - {1} - "
+	{
+		// 97419d96
+		// 0 text - Formatted date
+		// 1 text - Formatted time
+
+		// Shared by:
+		// d287de68 - NLocalize/NClient/NGui/NActivityDetailsWindow/NCommentsManagement/OnXX
+		// e3553bf8 - NLocalize/NClient/NGui/NContext/NTaskComments/OnXX
+		// 05b4938b - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/OnXX
+		// 70a37762 - NLocalize/NClient/NGui/NGantt/NPrintPage/OnXX
+		:00_Current "{0} - {1} - "
+	}
+	OnXXXWrote "On {0} - {1} {2} wrote:"
+	{
+		// a98fabff
+		// 0 text - date
+		// 1 text - time
+		// 2 text - user name
+
+		// Shared by:
+		// b48560dd - NLocalize/NClient/NGui/NActivityDetailsWindow/NConversionPopup/OnDateUserWrote
+		// b0850161 - NLocalize/NClient/NGui/NComments/OnDateUserWrote
+		// 4496fb6e - NLocalize/NDatabaseFunctions/NTasks/OnDateUserWrote
+		:00_Current "On {0} - {1} {2} wrote:"
+	}
+	OpenFolderAndGoToTheFileOnMyComputer "Open folder and go to the file on my computer"
+	{
+		// ef9018b6
+
+		// Shared by:
+		// 1e421581 - NLocalize/NClient/NGui/NActivityDetailsWindow/NFileAttachments/OpenFolderAndGoToTheFileOnMyComputer
+		// a4470bd3 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/OpenFolderAndGoToTheFileOnMyComputer
+		:00_Current "Open folder and go to the file on my computer"
+	}
+	Options "Options"
+	{
+		// 38baf675
+
+		// Shared by:
+		// b51f8c42 - NLocalize/NClient/NGui/NShares/Options
+		// 309a4aac - NLocalize/NClient/NGui/NVersionControl/NOptions/Options
+		// 7bb2a1e3 - NLocalize/NClient/NGui/NVersionControl/Options
+		:00_Current "Options"
+	}
+	Options2 "Options"
+	{
+		// 5019c547
+
+		// Shared by:
+		// 5f12a656 - NLocalize/NClient/NLogin/NGui/NClientMain/Options
+		// 2ba4058b - NLocalize/NClient/NLogin/NGui/NLogin/Options
+		// 35c9758b - NLocalize/NClient/NLogin/NGui/NServerAdminLogin/Options
+		:00_Current "Options"
+	}
+	Orange "Orange"
+	{
+		// 6e6d17c5
+
+		// Shared by:
+		// 35e4470b - NLocalize/NClient/NGui/NGantt/NEditScreenshot/Orange
+		// 07073f90 - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/Orange
+		:00_Current "Orange"
+	}
+	OrangeBox "Orange box"
+	{
+		// 8056e52e
+
+		// Shared by:
+		// cb9c1de6 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/OrangeBox
+		// 7ef58a87 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/OrangeBox
+		// e889e35c - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/OrangeBox
+		// 027358f7 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/OrangeBox
+		:00_Current "Orange box"
+	}
+	OrangeCircle "Orange circle"
+	{
+		// 2828fd37
+
+		// Shared by:
+		// 88681aef - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/OrangeCircle
+		// 64b24ff0 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/OrangeCircle
+		:00_Current "Orange circle"
+	}
+	OrangeFace "Orange face"
+	{
+		// 8b357e94
+
+		// Shared by:
+		// 3f21ce4c - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/OrangeFace
+		// 5da8cf0d - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/OrangeFace
+		:00_Current "Orange face"
+	}
+	OriginallyCreatedBy "Originally created by"
+	{
+		// 9368b376
+
+		// Shared by:
+		// 501cffb9 - NLocalize/NClient/NGui/NGantt/NColumns/OriginallyCreatedBy
+		// 0fd8d90b - NLocalize/NDatabaseFunctions/NDB/NGeneral/OriginallyCreatedBy
+		:00_Current "Originally created by"
+	}
+	OriginallyReportedBy "Originally reported by"
+	{
+		// abb59303
+
+		// Shared by:
+		// fef367a6 - NLocalize/NClient/NGui/NGantt/NColumns/OriginallyReportedBy
+		// b62a6b38 - NLocalize/NDatabaseFunctions/NDB/NGeneral/OriginallyReportedBy
+		:00_Current "Originally reported by"
+	}
+	Password "Password"
+	{
+		// b8163e9c
+
+		// Shared by:
+		// 758f4abb - NLocalize/NClient/NGui/NServerAdmin/NDataBaseEdit/Password
+		// 520a53d6 - NLocalize/NClient/NGui/NServerAdmin/NDatabaseState/Password
+		// 482e8560 - NLocalize/NClient/NGui/NServerAdmin/NServerAdmin/Password
+		:00_Current "Password"
+	}
+	PasswordForLoadingTheDatabaseUsuallyBlank "Password for loading the database (usually blank) "
+	{
+		// 5188f7ce
+
+		// Shared by:
+		// f32bc3cd - NLocalize/NClient/NGui/NServerAdmin/NDataBaseEdit/PasswordForLoadingTheDatabaseUsuallyBlank
+		// aa831c48 - NLocalize/NClient/NGui/NServerAdmin/NDatabaseState/PasswordForLoadingTheDatabaseUsuallyBlank
+		:00_Current "Password for loading the database (usually blank) "
+	}
+	PasswordNeverExpires "Password never expires"
+	{
+		// 59d2efbc
+
+		// Shared by:
+		// 4021b5b2 - NLocalize/NClient/NGui/NMiscDialogs/PasswordNeverExpires
+		// dff05d75 - NLocalize/NClient/NGui/NUsers/PasswordNeverExpires
+		:00_Current "Password never expires"
+	}
+	PastMilestones "Past [NHelpers::Pluralize(2,$0)]"
+	{
+		// 6ca25d24
+		// 0 text - Default name of milestone type or custom name
+
+		// Shared by:
+		// f1e910c4 - NLocalize/NClient/NGui/NGantt/NFilterWindow/PastMilestones
+		// 838413e3 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/PastMilestones
+		:00_Current "Past [NHelpers::Pluralize(2,$0)]"
+	}
+	Pipeline "Pipeline"
+	{
+		// 17e5317f
+
+		// Shared by:
+		// 791b6211 - NLocalize/NClient/NGui/NGantt/NActionHistory/Pipeline
+		// 8e8a3337 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/Pipeline
+		// b95454fb - NLocalize/NClient/NGui/NGantt/NFloatingSelection/Pipeline
+		:00_Current "Pipeline"
+	}
+	PipelineKanbanOrWorkflow "Pipeline, Kanban or Workflow"
+	{
+		// cf2a9306
+
+		// Shared by:
+		// d30f84f7 - NLocalize/NClient/NGui/NGantt/NActionHistory/PipelineKanbanWorkflow
+		// 5a092e82 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/PipelineKanbanOrWorkflow
+		:00_Current "Pipeline, Kanban or Workflow"
+	}
+	PipelinesKanbansAndWorkflows "Pipelines, Kanbans and Workflows"
+	{
+		// 7a23d5d1
+
+		// Shared by:
+		// 6f24fa7d - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/PipelinesKanbansAndWorkflows
+		// 530235e9 - NLocalize/NClient/NGui/NGantt/NWindowMainToolbarCommands/MenuMoreSubMenuPipelinesKanbansWorkflows
+		:00_Current "Pipelines, Kanbans and Workflows"
+	}
+	PleaseReviewAndEditThePipelinesAndWorkflowsInstead "Please review and edit the pipelines and workflows instead."
+	{
+		// fd51de01
+
+		// Shared by:
+		// 6495213b - NLocalize/NClient/NGui/NGantt/NSelect/PleaseReviewAndEditThePipelinesAndWorkflows
+		// 50b54c41 - NLocalize/NClient/NGui/NGantt/NTreeObject/NIndent/PleaseReviewAndEditThePipelinesAndWorkflows
+		:00_Current "Please review and edit the pipelines and workflows instead."
+	}
+	PleaseReviewAndEditThePipelinesKanbansAndWorkflows "Please review and edit the pipelines, kanbans and workflows instead."
+	{
+		// 883d02d7
+
+		// Shared by:
+		// 26193c93 - NLocalize/NClient/NGui/NGantt/NCommands/NProxies/PleaseReviewAndEditThePipelines
+		// 4ddae9b9 - NLocalize/NClient/NGui/NGantt/NInteraction/NDragInitiate/PleaseReviewAndEditThePopelinesKanbansAndWorkflowsInstead
+		// be7e214f - NLocalize/NClient/NGui/NGantt/NTreeObject/NDelete/PleaseReviewAndEditInstead
+		:00_Current "Please review and edit the pipelines, kanbans and workflows instead."
+	}
+	PleaseReviewThePipelineForMoreInformation "Please review the pipeline for more information."
+	{
+		// 52a97c4c
+
+		// Shared by:
+		// 2fefbf2f - NLocalize/NClient/NGui/NActivityDetailsWindow/NCompletingItems/PleaseReviewThePipelineForMoreInformation
+		// c53a4aca - NLocalize/NClient/NGui/NGantt/NItemProperties/PleaseReviewThePipelineForMoreInformation
+		:00_Current "Please review the pipeline for more information."
+	}
+	PleaseSelectAnIconFromTheList "Please select an icon from the list!"
+	{
+		// 78d7978c
+
+		// Shared by:
+		// e0bcdc44 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/PleaseSelectAnIconFromTheList
+		// 9d6dd365 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/PleaseSelectAnIconFromTheList
+		// d8ac39d5 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/PleaseSelectAnIconFromTheList
+		:00_Current "Please select an icon from the list!"
+	}
+	PleaseWaitUntilTheDocumentListHasFinishedUpdating "Please wait until the document list has finished updating"
+	{
+		// 67eadd42
+
+		// Shared by:
+		// 86fef6d1 - NLocalize/NClient/NGui/NActivityDetailsWindow/NFileAttachments/PleaseWaitUntilTheDocumentListHasFinished
+		// 03d4b063 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/PleaseWaitUntilTheDocumentListHasFinished
+		// 573fb869 - NLocalize/NClient/NGui/NGantt/NQA/NCommands/PleaseWaitUntilTheDocumentListHasFinished
+		// 7708ba14 - NLocalize/NClient/NGui/NVersionControl/PleaseWaitUntilTheDocumentListHasFinished
+		:00_Current "Please wait until the document list has finished updating"
+	}
+	Points "Points"
+	{
+		// 70905ba6
+
+		// Shared by:
+		// 82fd3fb8 - NLocalize/NClient/NGui/NGantt/NActionHistory/Points
+		// dc6d7f09 - NLocalize/NClient/NGui/NGantt/NColumns/Points
+		// 05f49c1a - NLocalize/NClient/NGui/NGantt/NObjects/BurndownUnitFromModePoints
+		// 1913bef7 - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/Points
+		// 8309cb1b - NLocalize/NDatabaseFunctions/NDB/NGeneral/Points
+		// 128ca996 - NLocalize/NDatabaseFunctions/NUsersProjects/Points
+		:00_Current "Points"
+	}
+	Points2 "points"
+	{
+		// 829bd098
+
+		// Shared by:
+		// 1e7170b8 - NLocalize/NClient/NGui/NGantt/NObjects/BurndownChartModePoints
+		// 52e6a5ca - NLocalize/NClient/NGui/NGantt/NObjects/ShortBurndownUnitFromModePoints
+		:00_Current "points"
+	}
+	Port "Port"
+	{
+		// 974231ae
+
+		// Shared by:
+		// 1ec0052f - NLocalize/NClient/NLogin/NGui/NClientMain/Port
+		// 5b8fdf6c - NLocalize/NClient/NLogin/NGui/NNewLoginLayout/Port
+		:00_Current "Port"
+	}
+	PostComment "Post comment"
+	{
+		// 6c58a7c2
+
+		// Shared by:
+		// c0178854 - NLocalize/NClient/NGui/NActivityDetailsWindow/NCommentsManagement/PostComment
+		// dedc9403 - NLocalize/NClient/NGui/NCommentEditor/PostComment
+		:00_Current "Post comment"
+	}
+	Predecessor "Predecessor"
+	{
+		// 723dcb08
+
+		// Shared by:
+		// 6e469c31 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Predecessor
+		// f5e02b9d - NLocalize/NDatabaseFunctions/NDB/NGeneral/Predecessor
+		:00_Current "Predecessor"
+	}
+	Prioritised "Prioritised"
+	{
+		// 62c1b0b7
+
+		// Shared by:
+		// ad7e21fa - NLocalize/NClient/NGui/NGantt/NAgile/NBacklogPopup/PrioritisedView
+		// 13172c80 - NLocalize/NClient/NGui/NProjectConnection/PrioritisedView
+		:00_Current "Prioritised"
+	}
+	Priority "Priority"
+	{
+		// bd15780b
+
+		// Shared by:
+		// 5f0d1e1d - NLocalize/NClient/NGui/NGantt/NCustomize/NDialog/Priority
+		// 5e849b87 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/Priority
+		// bac1e5b0 - NLocalize/NClient/NGui/NGantt/NSprintResourceUsageDetails/Priority
+		// cf5d01fb - NLocalize/NDatabaseFunctions/NUsersProjects/Priority
+		:00_Current "Priority"
+	}
+	PriorityTag "Priority tag"
+	{
+		// 62c9f267
+
+		// Shared by:
+		// dae231b9 - NLocalize/NClient/NGui/NGantt/NActionHistory/PriorityTag
+		// f58f3684 - NLocalize/NClient/NGui/NGlobal/NTrendsCreateNewCustomTrendType/PriorityTag
+		// d2a0e1af - NLocalize/NClient/NGui/NGlobalTrends/PriorityTag
+		// e66c52fc - NLocalize/NDatabaseFunctions/NDB/NGeneral/PriorityTag
+		:00_Current "Priority tag"
+	}
+	Project "Project"
+	{
+		// 8a056a60
+
+		// Shared by:
+		// eab51518 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/Project
+		// 45d8e579 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/Project
+		// 68200e5c - NLocalize/NClient/NGui/NGantt/NFloatingSelection/Project
+		// ebacc875 - NLocalize/NDatabaseFunctions/NDB/NGeneral/Project
+		// 6b8b7650 - NLocalize/NDatabaseFunctions/NUsersProjects/Project
+		:00_Current "Project"
+	}
+	ProjectHistory "Project history"
+	{
+		// f0eb43f2
+
+		// Shared by:
+		// ed579efa - NLocalize/NClient/NGui/NGantt/NHistoryPopup/ProjectHistory
+		// d90e2056 - NLocalize/NClient/NGui/NGantt/NWindowMainToolbarCommands/ProjectHistory
+		:00_Current "Project history"
+	}
+	ProjectName "Project name"
+	{
+		// 89a00b01
+
+		// Shared by:
+		// f6cd5e33 - NLocalize/NClient/NGui/NCreateProject/ProjectName
+		// 5fedfc12 - NLocalize/NClient/NGui/NProjects/ProjectName
+		:00_Current "Project name"
+	}
+	Projects "Projects"
+	{
+		// cab2b6d3
+
+		// Shared by:
+		// 4a0bddc0 - NLocalize/NClient/NGui/NAdministration/Projects
+		// 8d11511d - NLocalize/NClient/NGui/NResourceAllocationView/ShowAllProjects
+		// 6c9fd001 - NLocalize/NClient/NGui/NVersionControl/Projects
+		:00_Current "Projects"
+	}
+	ProjectsAtX "Projects at {0}"
+	{
+		// 89b3cdc0
+		// 0 text - Database name
+
+		// Shared by:
+		// 71917d67 - NLocalize/NClient/NGui/NProjects/CurrentListOfProjectsInX
+		// 6001bed1 - NLocalize/NClient/NGui/NProjects/ProjectsAtX
+		:00_Current "Projects at {0}"
+	}
+	QARelated "QA related"
+	{
+		// 9967277c
+
+		// Shared by:
+		// dee2c059 - NLocalize/NClient/NGui/NGlobal/NTrendsCreateNewCustomTrendType/QARelated
+		// aea9a4c4 - NLocalize/NClient/NGui/NGlobalTrends/QARelated
+		:00_Current "QA related"
+	}
+	ReOpen "Re-open"
+	{
+		// 74777c92
+
+		// Shared by:
+		// 59ab05a0 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/Reopen
+		// 168556a2 - NLocalize/NDatabaseFunctions/NUsersProjects/Reopen
+		:00_Current "Re-open"
+	}
+	Read "Read"
+	{
+		// 97431da5
+
+		// Shared by:
+		// 596cdcc2 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/Read
+		// dd0387b3 - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Read
+		:00_Current "Read"
+	}
+	ReadingFileX "Reading file {0}"
+	{
+		// 473cd67b
+		// 0 text - Filename
+
+		// Shared by:
+		// a250bd1f - NLocalize/NClient/NGui/NGantt/NDataImport/NMSP/ReadingFileX
+		// 9b0c3407 - NLocalize/NClient/NGui/NGantt/NDataImport/NTTP/ReadingFileX
+		:00_Current "Reading file {0}"
+	}
+	Red "Red"
+	{
+		// bec3f924
+
+		// Shared by:
+		// cf39fe2a - NLocalize/NClient/NGui/NGantt/NEditScreenshot/Red
+		// caa33ccf - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/Red
+		:00_Current "Red"
+	}
+	RedBox "Red box"
+	{
+		// 74823e2d
+
+		// Shared by:
+		// e40b71e5 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/RedBox
+		// 05d63a26 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/RedBox
+		// 59a43b1b - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/RedBox
+		// 26511e96 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/RedBox
+		:00_Current "Red box"
+	}
+	RedCircle "Not done"
+	{
+		// 614129d6
+
+		// Shared by:
+		// ac86628e - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/RedCircle
+		// 5fdfcf2f - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/RedCircle
+		// c9742804 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/RedCircle
+		// e35d9d9f - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/RedCircle
+		:00_Current "Not done"
+	}
+	Redo "Redo"
+	{
+		// 97431e13
+
+		// Shared by:
+		// d47cdb5c - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Redo
+		// b679c3d9 - NLocalize/NClient/NGui/NGantt/NEditScreenshot/Redo
+		// 1adca1f5 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/Redo
+		// 506ac2d9 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/Redo
+		:00_Current "Redo"
+	}
+	RedoLastActionCtrlY "Redo last action"
+	{
+		// 07e09db3
+
+		// Shared by:
+		// c7a73155 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/RedoLastActionCtrlY
+		// e3870db9 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/RedoLastActionCtrlY
+		:00_Current "Redo last action"
+	}
+	Remove "Remove"
+	{
+		// 7487edd7
+
+		// Shared by:
+		// 931a0530 - NLocalize/NClient/NGui/NGantt/NAddMoreResources/Remove
+		// e7262160 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Remove
+		// 681de834 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/Remove
+		:00_Current "Remove"
+	}
+	Remove2 "Remove"
+	{
+		// 0585a8e9
+
+		// Shared by:
+		// d2d31129 - NLocalize/NClient/NGui/NGantt/NTimeReporting/NInterfaceFunctions/Remove
+		// 2c0b1365 - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Remove
+		:00_Current "Remove"
+	}
+	RemoveResouces "Remove users"
+	{
+		// 34d3b840
+
+		// Shared by:
+		// 705b35e4 - NLocalize/NClient/NGui/NGantt/NManageLocalizations/TranslationPermissionsRemoveResources
+		// e5380ccf - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/NCreateEditProfile/ProfileResourcesRemoveResources
+		:00_Current "Remove users"
+	}
+	RemoveResources "Remove users"
+	{
+		// cf52f012
+
+		// Shared by:
+		// 7d526db7 - NLocalize/NClient/NGui/NGantt/NCommands/NTaskRelated/RemoveResources
+		// d898742b - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/RemoveResources
+		// 311c518e - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/NCreateRule/RemoveResources
+		// 838b3060 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/NAssignToResources/RemoveResources
+		// 324358c0 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/RemoveResources
+		// 710d1e54 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/PopupAssignRemoveResources
+		// 77b75851 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/PopupEmailNotificationsRemoveResources
+		// b5044a4c - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/RemoveResources
+		// 2a54e5a7 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/RemoveResources
+		// b24c327f - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/CanSelectThisPipelineKanbanRemoveResources
+		// 00ed02b4 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/RemoveResources
+		// aa3895a3 - NLocalize/NClient/NGui/NGantt/NReports/RemoveResources
+		:00_Current "Remove users"
+	}
+	Rename "Rename"
+	{
+		// 74883d81
+
+		// Shared by:
+		// e4117139 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/Rename
+		// f87580be - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/RenamePipelineWorkflow
+		// f31500a8 - NLocalize/NClient/NGui/NGantt/NManageLocalizations/Rename
+		// b23313f2 - NLocalize/NClient/NGui/NGantt/NReports/Rename
+		// cbf62589 - NLocalize/NClient/NGui/NGantt/NScreenshotMonitor/Rename
+		// 2c0b630f - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Rename
+		:00_Current "Rename"
+	}
+	RenamingTranslation "Renaming translation"
+	{
+		// 42657a09
+
+		// Shared by:
+		// 622a5af0 - NLocalize/NClient/NGui/NVersionControl/NProgress/TranslationRename
+		// b704705e - NLocalize/NClient/NPMCContext/NVersionControl/TranslationRename
+		:00_Current "Renaming translation"
+	}
+	ReplyTo "Reply to"
+	{
+		// 05ba5818
+
+		// Shared by:
+		// fd164981 - NLocalize/NClient/NGui/NActivityDetailsWindow/NConversionPopup/ReplyTo
+		// f6d84bd9 - NLocalize/NClient/NGui/NCommentEditor/ReplyTo
+		:00_Current "Reply to"
+	}
+	ReplyTo2 "Reply to"
+	{
+		// bd055b4a
+
+		// Shared by:
+		// e6cbbfaa - NLocalize/NClient/NGui/NActivityDetailsWindow/NCommentsManagement/ReplyTo
+		// d1e1c72b - NLocalize/NClient/NGui/NCommentEditor/ReplyTo2
+		:00_Current "Reply to"
+	}
+	ReportConfiguration "Report configuration:"
+	{
+		// 32c2ff9d
+
+		// Shared by:
+		// 780f507a - NLocalize/NClient/NGui/NProjectPeriodReport/ReportConfiguration
+		// 57d4908b - NLocalize/NClient/NGui/NResourcePeriodReport/ReportConfiguration
+		:00_Current "Report configuration:"
+	}
+	ReportEnd "Report end:"
+	{
+		// 6442747c
+
+		// Shared by:
+		// 20a19d19 - NLocalize/NClient/NGui/NProjectPeriodReport/ReportEnd
+		// 994763ea - NLocalize/NClient/NGui/NResourcePeriodReport/ReportEnd
+		:00_Current "Report end:"
+	}
+	ReportNewBug "Report new bug"
+	{
+		// 6949178d
+
+		// Shared by:
+		// e66c0dd6 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/ReportNewBug
+		// f9915d6f - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/ReportNewBug
+		// 0724197d - NLocalize/NDatabaseFunctions/NUsersProjects/ReportNewBug
+		:00_Current "Report new bug"
+	}
+	ReportPreview "Report preview"
+	{
+		// 498a2aa7
+
+		// Shared by:
+		// fc5659c4 - NLocalize/NClient/NGui/NProjectPeriodReport/ReportPreview
+		// 4d352115 - NLocalize/NClient/NGui/NResourcePeriodReport/ReportPreview
+		:00_Current "Report preview"
+	}
+	ReportStart "Report start:"
+	{
+		// 7fb22733
+
+		// Shared by:
+		// d07deb10 - NLocalize/NClient/NGui/NProjectPeriodReport/ReportStart
+		// 09b0aa21 - NLocalize/NClient/NGui/NResourcePeriodReport/ReportStart
+		:00_Current "Report start:"
+	}
+	ReportTimeOn "Report time on"
+	{
+		// 778b8191
+
+		// Shared by:
+		// f4ae77da - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/ReportTimeOn
+		// c555159c - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/ReportTimeOn
+		:00_Current "Report time on"
+	}
+	Reports "Reports"
+	{
+		// 05bbe398
+
+		// Shared by:
+		// f8c18829 - NLocalize/NClient/NGui/NGantt/NReports/Reports
+		// 9fbb91a2 - NLocalize/NClient/NGui/NPerforceIntegration/NCustomSettings/Reports
+		:00_Current "Reports"
+	}
+	ResourceGroup "User group"
+	{
+		// f4b070be
+
+		// Shared by:
+		// 994d21ba - NLocalize/NClient/NGui/NGantt/NFloatingSelection/ResourceGroup
+		// 0a5cfa89 - NLocalize/NClient/NGui/NGantt/NManageGhostResources/ResourceGroup
+		// c3bb7a96 - NLocalize/NClient/NGui/NGantt/NPreControlClasses/ResourceGroup
+		:00_Current "User group"
+	}
+	ResourceGroupS "User group(s)"
+	{
+		// 8abe88d1
+
+		// Shared by:
+		// c16590d5 - NLocalize/NClient/NGui/NResourceProjectPicker/ResourceGroups
+		// 7b6e5fea - NLocalize/NClient/NGui/NUsers/ResourceGroups
+		:00_Current "User group(s)"
+	}
+	ResourceGroups "User groups"
+	{
+		// 8abe88f1
+
+		// Shared by:
+		// 760a9339 - NLocalize/NClient/NGui/NGlobalTrends/ResourceGroups
+		// 89458e67 - NLocalize/NClient/NGui/NMiscDialogs/ResourceGroups
+		:00_Current "User groups"
+	}
+	ResourceName "User name"
+	{
+		// d1202c92
+
+		// Shared by:
+		// 53a6a2ab - NLocalize/NClient/NGui/NGantt/NAddMoreResources/ResourceName
+		// 4e4322db - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/ResourceName
+		// e9dbeb76 - NLocalize/NClient/NGui/NResourceProjectPicker/ResourceName
+		// c90e9fc7 - NLocalize/NDatabaseFunctions/NDB/NGeneral/ResourceName
+		:00_Current "User name"
+	}
+	ResourceTag "Assign tag"
+	{
+		// c084f40d
+
+		// Shared by:
+		// a9fead50 - NLocalize/NClient/NGui/NGantt/NColumns/ResourceTag
+		// 442754a2 - NLocalize/NDatabaseFunctions/NDB/NGeneral/ResourceTag
+		:00_Current "Assign tag"
+	}
+	Resources "Users"
+	{
+		// 4b66da04
+
+		// Shared by:
+		// b5e4de91 - NLocalize/NClient/NGui/NAdministration/Resources
+		// 279ba257 - NLocalize/NClient/NGui/NGantt/NActivateGhostResources/Resources
+		// 3d874ced - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Resources
+		// fc83ef72 - NLocalize/NClient/NGui/NGantt/NCommentsCC/Resources
+		// ecb835dd - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/Resources
+		// 2addd854 - NLocalize/NClient/NGui/NGantt/NResourceGroupsSelection/Resources
+		// 5998bd8e - NLocalize/NClient/NGui/NResourceAllocationView/ShowAllResources
+		// b45e1159 - NLocalize/NDatabaseFunctions/NDB/NGeneral/Resources
+		// a69fa1f4 - NLocalize/NDatabaseFunctions/NUsersProjects/Resources
+		:00_Current "Users"
+	}
+	ResourcesAtX "Users at {0}"
+	{
+		// d133ef51
+		// 0 text - Database name
+
+		// Shared by:
+		// 17b95a20 - NLocalize/NClient/NGui/NUsers/CurrentListOfResourcesInX
+		// 67dfb40a - NLocalize/NClient/NGui/NUsers/ResourcesAtX
+		:00_Current "Users at {0}"
+	}
+	Restore "Restore"
+	{
+		// 05f4dded
+
+		// Shared by:
+		// b4fd5c31 - NLocalize/NClient/NGui/NServerAdmin/NServerAdmin/Restore
+		// addcb53b - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Restore
+		:00_Current "Restore"
+	}
+	RestoringFiles "Restoring files"
+	{
+		// 932b3879
+
+		// Shared by:
+		// db966559 - NLocalize/NClient/NGui/NVersionControl/NProgress/RestoringFiles
+		// 70a4c187 - NLocalize/NClient/NPMCContext/NVersionControl/RestoringFiles
+		:00_Current "Restoring files"
+	}
+	Risk "Risk"
+	{
+		// 97433102
+
+		// Shared by:
+		// 4ea3e894 - NLocalize/NClient/NGui/NGantt/NActionHistory/Risk
+		// cdaa1fa5 - NLocalize/NClient/NGui/NGantt/NColumns/Risk
+		// db13f67e - NLocalize/NClient/NGui/NGantt/NFloatingSelection/Risk
+		// 2f178bbf - NLocalize/NClient/NGui/NGlobal/NTrendsCreateNewCustomTrendType/Risk
+		// a2e8414a - NLocalize/NClient/NGui/NGlobalTrends/Risk
+		// f6403f37 - NLocalize/NDatabaseFunctions/NDB/NGeneral/Risk
+		// 0cf342f2 - NLocalize/NDatabaseFunctions/NUsersProjects/Risk
+		:00_Current "Risk"
+	}
+	RollingBackFile "Rolling back file"
+	{
+		// 5717f671
+
+		// Shared by:
+		// ace8bf51 - NLocalize/NClient/NGui/NVersionControl/NProgress/RollingBackFile
+		// e3c2a13f - NLocalize/NClient/NPMCContext/NVersionControl/RollingBackFile
+		:00_Current "Rolling back file"
+	}
+	RollingBackTranslation "Rolling back translation"
+	{
+		// 76b1f2c0
+
+		// Shared by:
+		// 9409e6c2 - NLocalize/NClient/NGui/NVersionControl/NProgress/TranslationRollback
+		// 87ad8390 - NLocalize/NClient/NPMCContext/NVersionControl/TranslationRollBack
+		:00_Current "Rolling back translation"
+	}
+	Saturday "Saturday"
+	{
+		// 7f522816
+
+		// Shared by:
+		// b57b7251 - NLocalize/NAOCC/NAOTime/Saturday
+		// a149e55b - NLocalize/NClient/NGui/NGantt/NCommands/NTaskRelated/Saturday
+		// c558b0f0 - NLocalize/NClient/NGui/NGantt/NHistorySaveOccurence/Saturday
+		// 351f0f14 - NLocalize/NClient/NGui/NGantt/NMessageOccurence/Saturday
+		// bf929137 - NLocalize/NClient/NGui/NGantt/NReport/NMailTo/Saturday
+		:00_Current "Saturday"
+	}
+	Save "Save"
+	{
+		// 97439bb8
+
+		// Shared by:
+		// 1add1f9a - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/Save
+		// 506b407e - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/Save
+		:00_Current "Save"
+	}
+	SaveAs "Save as"
+	{
+		// 7699728c
+
+		// Shared by:
+		// 307a6217 - NLocalize/NClient/NGui/NActivityDetailsWindow/NFileAttachments/SaveAs
+		// 6a2f6ce9 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/SaveAs
+		:00_Current "Save as"
+	}
+	SaveReportAs "Save report as.."
+	{
+		// 554adbc8
+
+		// Shared by:
+		// e267c8bb - NLocalize/NClient/NGui/NGantt/NTimeReporting/NViewOnTask/SaveReportAs
+		// bf8f1b45 - NLocalize/NClient/NGui/NProjectPeriodReport/SaveReportAs
+		// 1f19bc76 - NLocalize/NClient/NGui/NResourcePeriodReport/SaveReportAs
+		:00_Current "Save report as.."
+	}
+	SaveReportAsHTML "Save report as HTML"
+	{
+		// 738c6a9d
+
+		// Shared by:
+		// ee6c9910 - NLocalize/NClient/NGui/NGantt/NTimeReporting/NViewOnTask/SaveReportAsHTML
+		// dcae209a - NLocalize/NClient/NGui/NProjectPeriodReport/SaveReportAsHTML
+		// 5617f24b - NLocalize/NClient/NGui/NResourcePeriodReport/SaveReportAsHTML
+		:00_Current "Save report as HTML"
+	}
+	SaveReportAsXML "Save report as XML"
+	{
+		// 41902759
+
+		// Shared by:
+		// 8b1ad36c - NLocalize/NClient/NGui/NGantt/NTimeReporting/NViewOnTask/SaveReportAsXML
+		// d82491b6 - NLocalize/NClient/NGui/NProjectPeriodReport/SaveReportAsXML
+		// dbd27147 - NLocalize/NClient/NGui/NResourcePeriodReport/SaveReportAsXML
+		:00_Current "Save report as XML"
+	}
+	ScheduledOverdueTasksThatAreAssigned "Scheduled overdue tasks that are assigned"
+	{
+		// 42db6851
+
+		// Shared by:
+		// 902593f1 - NLocalize/NClient/NGui/NGantt/NFilterWindow/ScheduledOverdueTasksThatAreAssigned
+		// df5b1050 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/ScheduledOverdueTasksThatAreAssigned
+		:00_Current "Scheduled overdue tasks that are assigned"
+	}
+	ScheduledTask "Scheduled task"
+	{
+		// be0d822d
+
+		// Shared by:
+		// d9c7d6ba - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/InsertTask
+		// 62aa3329 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/ScheduledTask
+		// b09e60d8 - NLocalize/NClient/NGui/NGantt/NObjects/NPlanned/ScheduledTask
+		// 1992bf62 - NLocalize/NDatabaseFunctions/NFind/ScheduledTask
+		// 1748c21d - NLocalize/NDatabaseFunctions/NUsersProjects/ScheduledTask
+		:00_Current "Scheduled task"
+	}
+	ScheduledTheyAreCompleted "Scheduled - Completed"
+	{
+		// 2abd73c9
+
+		// Shared by:
+		// 1ffc622f - NLocalize/NClient/NGui/NGantt/NFilterWindow/ScheduledTasksTheyAreCompleted
+		// dd9fc34e - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/ScheduledTasksTheyAreCompleted
+		:00_Current "Scheduled - Completed"
+	}
+	ScheduledTheyAreInProgress "Scheduled - In progress"
+	{
+		// 03d0d338
+
+		// Shared by:
+		// a0ed8e5e - NLocalize/NClient/NGui/NGantt/NFilterWindow/ScheduledTasksTheyAreInProgress
+		// 12fd135d - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/ScheduledTasksTheyAreInProgress
+		:00_Current "Scheduled - In progress"
+	}
+	ScheduledTheyAreIncomplete "Scheduled - Incomplete"
+	{
+		// a1ba2abc
+
+		// Shared by:
+		// 3ed6e5e2 - NLocalize/NClient/NGui/NGantt/NFilterWindow/ScheduledTasksTheyAreIncomplete
+		// b0e66ae1 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/ScheduledTasksTheyAreIncomplete
+		:00_Current "Scheduled - Incomplete"
+	}
+	ScheduledTheyAreOverdue "Scheduled - Overdue"
+	{
+		// b8ef7886
+
+		// Shared by:
+		// acb3956c - NLocalize/NClient/NGui/NGantt/NFilterWindow/ScheduledTasksTheyAreOverdue
+		// 0d7e22cb - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/ScheduledTasksTheyAreOverdue
+		:00_Current "Scheduled - Overdue"
+	}
+	ScheduledTheyHaveNotStartedYet "Scheduled - Not started yet"
+	{
+		// a08a79b2
+
+		// Shared by:
+		// a63c57d8 - NLocalize/NClient/NGui/NGantt/NFilterWindow/ScheduledTasksTheyHaveNotStartedYet
+		// ee744457 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/ScheduledTasksTheyHaveNotStartedYet
+		:00_Current "Scheduled - Not started yet"
+	}
+	SelectCondition "Select condition:"
+	{
+		// 5c5a8c30
+
+		// Shared by:
+		// 9ae76c2c - NLocalize/NClient/NGui/NGantt/NFloatingSelection/SelectCondition
+		// 2f4acbfc - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/SelectCondition2
+		:00_Current "Select condition:"
+	}
+	SelectNoStatus "None"
+	{
+		// 966d1eca
+
+		// Shared by:
+		// 6d578d58 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/NAssignToResources/SelectNoStatus
+		// d77c29b8 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/SelectNoStatus
+		:00_Current "None"
+	}
+	SelectVisibleReportColumns "Select visible report columns"
+	{
+		// 9ef5d854
+
+		// Shared by:
+		// 7a89459a - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/SelectVisibleReportColumns
+		// 69ac2902 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NSelectColumns/SelectVisibleReportColumns
+		:00_Current "Select visible report columns"
+	}
+	SelectWorkflowX "Select workflow {0}"
+	{
+		// ba15dd9c
+		// 0 text - Name of workflow
+
+		// Shared by:
+		// b1b3f864 - NLocalize/NClient/NGui/NGantt/NFilterWindow/SelectWorkflow
+		// f8a2bd98 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/SelectWorkflowX
+		:00_Current "Select workflow {0}"
+	}
+	SettingPermissionsForTranslations "Setting permissions for translations"
+	{
+		// b7215b4c
+
+		// Shared by:
+		// 87bb4347 - NLocalize/NClient/NGui/NVersionControl/NProgress/TranslationSetAccessRights
+		// 4137cece - NLocalize/NClient/NPMCContext/NVersionControl/TranslationSetPermissions
+		:00_Current "Setting permissions for translations"
+	}
+	Severity "Severity"
+	{
+		// b6c3fc04
+
+		// Shared by:
+		// 17fa2c96 - NLocalize/NClient/NGui/NGantt/NActionHistory/Severity
+		// 8e778427 - NLocalize/NClient/NGui/NGantt/NColumns/Severity
+		// 58331f80 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/Severity
+		// 82916d41 - NLocalize/NClient/NGui/NGlobal/NTrendsCreateNewCustomTrendType/Severity
+		// 3387f04c - NLocalize/NClient/NGui/NGlobalTrends/Severity
+		// 4d571cb9 - NLocalize/NDatabaseFunctions/NDB/NGeneral/Severity
+		// c90b85f4 - NLocalize/NDatabaseFunctions/NUsersProjects/Severity
+		:00_Current "Severity"
+	}
+	SeverityA "Severity A"
+	{
+		// 8f437cc5
+
+		// Shared by:
+		// a485fa0d - NLocalize/NClient/NGui/NGlobalTrends/SeverityA
+		// ea7c44b5 - NLocalize/NDatabaseFunctions/NUsersProjects/SeverityA
+		:00_Current "Severity A"
+	}
+	SeverityB "Severity B"
+	{
+		// 8f437cc6
+
+		// Shared by:
+		// a485fa0e - NLocalize/NClient/NGui/NGlobalTrends/SeverityB
+		// ea7c44b6 - NLocalize/NDatabaseFunctions/NUsersProjects/SeverityB
+		:00_Current "Severity B"
+	}
+	SeverityC "Severity C"
+	{
+		// 8f437cc7
+
+		// Shared by:
+		// a485fa0f - NLocalize/NClient/NGui/NGlobalTrends/SeverityC
+		// ea7c44b7 - NLocalize/NDatabaseFunctions/NUsersProjects/SeverityC
+		:00_Current "Severity C"
+	}
+	SeverityD "Severity D"
+	{
+		// 8f437cc8
+
+		// Shared by:
+		// a485fa10 - NLocalize/NClient/NGui/NGlobalTrends/SeverityD
+		// ea7c44b8 - NLocalize/NDatabaseFunctions/NUsersProjects/SeverityD
+		:00_Current "Severity D"
+	}
+	ShowAll "Show all"
+	{
+		// 59a71343
+
+		// Shared by:
+		// 3ab87ad5 - NLocalize/NClient/NGui/NActivityDetailsWindow/NCommentsManagement/ShowAll
+		// 4ac50704 - NLocalize/NClient/NGui/NCommentEditor/ShowAll
+		:00_Current "Show all"
+	}
+	ShowAllComments "Show all comments"
+	{
+		// 0586b5e9
+
+		// Shared by:
+		// e8078f7b - NLocalize/NClient/NGui/NActivityDetailsWindow/NCommentsManagement/ShowAllComments
+		// 4bd4301c - NLocalize/NClient/NGui/NCommentEditor/ShowAllComments2
+		:00_Current "Show all comments"
+	}
+	ShowXX "Show {0} {1}"
+	{
+		// 771496da
+		// 0 text - Default name of sprint type or custom name
+		// 1 text - Default name of burndown chart type or custom name
+
+		// Shared by:
+		// e9b2ca63 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/ShowXX
+		// 0faebea5 - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/ShowXX
+		:00_Current "Show {0} {1}"
+	}
+	Size "Size"
+	{
+		// 9743be44
+
+		// Shared by:
+		// 998bb0cb - NLocalize/NClient/NGui/NVersionControl/NAddFiles/Size
+		// 47677072 - NLocalize/NClient/NGui/NVersionControl/Size
+		:00_Current "Size"
+	}
+	SpreadsheetX "Spreadsheet {0}"
+	{
+		// a6e9e699
+		// 0 text - .xlsx file extension
+
+		// Shared by:
+		// 712f6727 - NLocalize/NClient/NGui/NGantt/NCommands/NImportExport/SpreadsheetX
+		// 34dc2b00 - NLocalize/NClient/NGui/NGantt/NManageLocalizations/SpreadsheetX
+		:00_Current "Spreadsheet {0}"
+	}
+	Sprint "Sprint"
+	{
+		// 77a6c769
+
+		// Shared by:
+		// f2bedbe5 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/Sprint
+		// 5531a074 - NLocalize/NClient/NGui/NGantt/NObjects/NPlanned/Sprint
+		// 0a4ba63e - NLocalize/NDatabaseFunctions/NFind/Sprint
+		// 4e05c0ab - NLocalize/NDatabaseFunctions/NUsersProjects/Sprint2
+		:00_Current "Sprint"
+	}
+	Start "Start"
+	{
+		// 7fc126b7
+
+		// Shared by:
+		// 64328d20 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Start
+		// be5ffb8c - NLocalize/NDatabaseFunctions/NDB/NGeneral/Start
+		:00_Current "Start"
+	}
+	StartToEnd "start to end"
+	{
+		// d5770d91
+
+		// Shared by:
+		// fb2622dc - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/StartToEnd
+		// 6d6a025a - NLocalize/NClient/NGui/NGantt/NLinkActivitiesByNumber/StartToEnd
+		:00_Current "start to end"
+	}
+	StartToStart "start to start"
+	{
+		// 10715988
+
+		// Shared by:
+		// 5e3aed93 - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/StartToStart
+		// 70f4a491 - NLocalize/NClient/NGui/NGantt/NLinkActivitiesByNumber/StartToStart
+		:00_Current "start to start"
+	}
+	StartsWith "Starts with"
+	{
+		// d79b7606
+
+		// Shared by:
+		// 9cfd8420 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/StartsWith
+		// dc8db75b - NLocalize/NDatabaseFunctions/NFind/StartsWith
+		:00_Current "Starts with"
+	}
+	StartsWithCaseSensitive "Starts with (case sensitive)"
+	{
+		// 0e398efc
+
+		// Shared by:
+		// 8a883756 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/StartsWithCaseSensitive
+		// 07609271 - NLocalize/NDatabaseFunctions/NFind/StartsWithCaseSensitive
+		:00_Current "Starts with (case sensitive)"
+	}
+	Static "Static"
+	{
+		// 77e60511
+
+		// Shared by:
+		// b33d33fb - NLocalize/NClient/NGui/NGantt/NMessageCopies/Static
+		// 4eb1148f - NLocalize/NClient/NGui/NGantt/NMessageOccurence/Static
+		// 227eeb08 - NLocalize/NClient/NGui/NGantt/NMessageScheduleUpdate/Static
+		:00_Current "Static"
+	}
+	Status "Status"
+	{
+		// 77e606ad
+
+		// Shared by:
+		// 6b7c010a - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/Status
+		// f2fe1b29 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/Status
+		// a5d42f32 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NPaint/Status
+		// 5eeef4a6 - NLocalize/NClient/NGui/NUsers/Status
+		// bfbefc5b - NLocalize/NClient/NGui/NVersionControl/Status
+		:00_Current "Status"
+	}
+	StatusCleared "Status cleared"
+	{
+		// 3565fa7d
+
+		// Shared by:
+		// daab462a - NLocalize/NClient/NGui/NComments/StatusCleared
+		// 148b564f - NLocalize/NClient/NGui/NGantt/NActionHistory/StatusCleared
+		:00_Current "Status cleared"
+	}
+	Step "Step"
+	{
+		// 9743ea65
+
+		// Shared by:
+		// 3445d3d3 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/Step
+		// bbdd9c8e - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/Step
+		:00_Current "Step"
+	}
+	StepsToReproduce "Steps to reproduce"
+	{
+		// 88925304
+
+		// Shared by:
+		// db868245 - NLocalize/NClient/NGui/NActivityDetailsWindow/NDynamicProperties/StepsToReproduce
+		// 90fd9eb6 - NLocalize/NClient/NGui/NActivityDetailsWindow/StepsToReproduce
+		// 83f0f596 - NLocalize/NClient/NGui/NGantt/NActionHistory/StepsToReproduce
+		// aca6fb82 - NLocalize/NClient/NGui/NGantt/NDataExport/StepsToReproduce
+		// 498fd172 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/StepsToReproduce
+		// 257f8aad - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/StepsToReproduce
+		// 246ef47e - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/StepsToReproduce
+		// ec4158b9 - NLocalize/NDatabaseFunctions/NDB/NGeneral/StepsToReproduce
+		:00_Current "Steps to reproduce"
+	}
+	SubProject "Sub project"
+	{
+		// fa354f0a
+
+		// Shared by:
+		// b3fb4186 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/SubProject
+		// e44bb595 - NLocalize/NClient/NGui/NGantt/NObjects/NPlanned/SubProject
+		// ff27905f - NLocalize/NDatabaseFunctions/NFind/SubProject
+		// bc8714fa - NLocalize/NDatabaseFunctions/NUsersProjects/SubProject
+		:00_Current "Sub project"
+	}
+	SubProjectPath "Sub project path"
+	{
+		// a3274e57
+
+		// Shared by:
+		// ab9724ba - NLocalize/NClient/NGui/NGantt/NColumns/SubProjectPath
+		// a85bbf55 - NLocalize/NClient/NGui/NGantt/NDataExport/SubProjectPath
+		// 89a61122 - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/SubProjectPath
+		// 5afaa3bc - NLocalize/NClient/NGui/NGantt/NSprintResourceUsageDetails/SubProjectPath
+		// 15c0f49c - NLocalize/NClient/NGui/NGantt/NSprintWorkRemainingHistoryPopup/SubProjectPath
+		// 507f62cc - NLocalize/NDatabaseFunctions/NDB/NGeneral/SubProjectPath
+		:00_Current "Sub project path"
+	}
+	SubmittingObjects "Submitting objects..."
+	{
+		// 2ddcb279
+
+		// Shared by:
+		// 6dde5f9d - NLocalize/NClient/NGui/NGantt/NDataImport/NMSP/SubmittingObjects
+		// 71606785 - NLocalize/NClient/NGui/NGantt/NDataImport/NTTP/SubmittingObjects
+		:00_Current "Submitting objects..."
+	}
+	Successor "Successor"
+	{
+		// 973e2f23
+
+		// Shared by:
+		// 895ea20c - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Successor
+		// 00356678 - NLocalize/NDatabaseFunctions/NDB/NGeneral/Successor
+		:00_Current "Successor"
+	}
+	Sunday "Sunday"
+	{
+		// 77fef97d
+
+		// Shared by:
+		// 2d4a78f8 - NLocalize/NAOCC/NAOTime/Sunday
+		// e7eca182 - NLocalize/NClient/NGui/NGantt/NCommands/NTaskRelated/Sunday
+		// 853983d7 - NLocalize/NClient/NGui/NGantt/NHistorySaveOccurence/Sunday
+		// 4eca08fb - NLocalize/NClient/NGui/NGantt/NMessageOccurence/Sunday
+		// e920a65e - NLocalize/NClient/NGui/NGantt/NReport/NMailTo/Sunday
+		:00_Current "Sunday"
+	}
+	Task "Task"
+	{
+		// 974427bc
+
+		// Shared by:
+		// b32d2d02 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NPaint/PipelineKanbanTask
+		// 27874139 - NLocalize/NServer/NDatabase/NContextMessageServices/Task
+		:00_Current "Task"
+	}
+	Task2 "task"
+	{
+		// 7fc91f6e
+
+		// Shared by:
+		// 4dfe04f6 - NLocalize/NDatabaseFunctions/NTasks/Task
+		// 0cf439ac - NLocalize/NDatabaseFunctions/NUsersProjects/Task
+		:00_Current "task"
+	}
+	Tasks "tasks"
+	{
+		// 7fc91faf
+
+		// Shared by:
+		// 1b553cf3 - NLocalize/NClient/NGui/NServerAdmin/NServerAdmin/Tasks
+		// 6532f7e4 - NLocalize/NDatabaseFunctions/NFind/Tasks
+		:00_Current "tasks"
+	}
+	TasksItemsThatAreNotAssigned "Tasks/items that are not assigned"
+	{
+		// fb1846b9
+
+		// Shared by:
+		// 4140d259 - NLocalize/NClient/NGui/NGantt/NFilterWindow/TasksItemsThatAreNotAssigned
+		// a20b5fb8 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/TasksItemsThatAreNotAssigned
+		:00_Current "Tasks/items that are not assigned"
+	}
+	TasksItemsThatAreOngoing "Tasks/items that are ongoing"
+	{
+		// 31dbd8ab
+
+		// Shared by:
+		// b34f944b - NLocalize/NClient/NGui/NGantt/NFilterWindow/TasksItemsThatAreOngoing
+		// 7f044a2a - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/TasksItemsThatAreOngoing
+		:00_Current "Tasks/items that are ongoing"
+	}
+	TasksThatAreArchived "Tasks that are archived"
+	{
+		// dc6612de
+
+		// Shared by:
+		// ec0a2eef - NLocalize/NClient/NGui/NGantt/NFilterWindow/ScheduledTasksThatAreArchived
+		// 6626682e - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/ScheduledTasksThatAreArchived
+		:00_Current "Tasks that are archived"
+	}
+	TasksThatAreCompletedAndAssigned "Tasks that are completed and assigned"
+	{
+		// 84b37256
+
+		// Shared by:
+		// d4b12fe7 - NLocalize/NClient/NGui/NGantt/NFilterWindow/ScheduledTasksThatAreCompletedAndAssigned
+		// 0a4e3fa6 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/ScheduledTasksThatAreCompletedAndAssigned
+		:00_Current "Tasks that are completed and assigned"
+	}
+	TasksThatAreInProgressAndAssigned "Tasks that are in progress and assigned"
+	{
+		// 5ff3c3e5
+
+		// Shared by:
+		// afa93396 - NLocalize/NClient/NGui/NGantt/NFilterWindow/ScheduledTasksThatAreInProgressAndAssigned
+		// 98e83b35 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/ScheduledTasksThatAreInProgressAndAssigned
+		:00_Current "Tasks that are in progress and assigned"
+	}
+	TasksThatAreIncompleteAndAssigned "Tasks that are incomplete and assigned"
+	{
+		// cc74e0e9
+
+		// Shared by:
+		// 1c2a509a - NLocalize/NClient/NGui/NGantt/NFilterWindow/ScheduledTasksThatAreIncompleteAndAssigned
+		// 05695839 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/ScheduledTasksThatAreIncompleteAndAssigned
+		:00_Current "Tasks that are incomplete and assigned"
+	}
+	TasksThatHaveNotStartedYetAndAreAssigned "Tasks that have not started yet and are assigned"
+	{
+		// 5bc1ea17
+
+		// Shared by:
+		// 45b20d3a - NLocalize/NClient/NGui/NGantt/NFilterWindow/ScheduledTasksThatHaveNotStartedYetAndAre
+		// 7b4f1cf9 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/ScheduledTasksThatHaveNotStartedYetAndAre
+		:00_Current "Tasks that have not started yet and are assigned"
+	}
+	Text "Text"
+	{
+		// 9744396e
+
+		// Shared by:
+		// 694d89a7 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/Text
+		// b67adf34 - NLocalize/NClient/NGui/NGantt/NEditScreenshot/Text
+		:00_Current "Text"
+	}
+	TextEditorOptions "Text editor options"
+	{
+		// 99dea721
+
+		// Shared by:
+		// 8a579230 - NLocalize/NClient/NGui/NMain/NLocalizationErrorConsole/TextEditorOptions
+		// c075a01c - NLocalize/NClient/NGui/NMain/NLocalizationErrorConsoleOptions/TextEditorOptions
+		:00_Current "Text editor options"
+	}
+	TheCommentEditHasBeenPosted "The comment edit has been posted"
+	{
+		// ea6f1b08
+
+		// Shared by:
+		// 6030df9a - NLocalize/NClient/NGui/NActivityDetailsWindow/NCommentsManagement/TheCommentEditHasBeenPosted
+		// e3704af1 - NLocalize/NClient/NGui/NActivityDetailsWindow/NConversionPopup/TheCommentEditHasBeenPosted
+		// d5e07b2a - NLocalize/NClient/NGui/NContext/NTaskComments/TheCommentEditHasBeenPosted
+		:00_Current "The comment edit has been posted"
+	}
+	TheCommentHasBeenDeleted "The comment has been deleted"
+	{
+		// 9b51c14a
+
+		// Shared by:
+		// 90dd7f1c - NLocalize/NClient/NGui/NActivityDetailsWindow/NCommentsManagement/TheCommentHasBeenDeleted
+		// 887844ac - NLocalize/NClient/NGui/NContext/NTaskComments/TheCommentHasBeenDeleted
+		:00_Current "The comment has been deleted"
+	}
+	TheCommentHasBeenDeletedBecauseItWasEmpty "The comment has been deleted because it was empty"
+	{
+		// e5f78a19
+
+		// Shared by:
+		// a83ce62b - NLocalize/NClient/NGui/NActivityDetailsWindow/NCommentsManagement/TheCommentHasBeenDeletedBecauseItWasEmpty
+		// fbcd7dbb - NLocalize/NClient/NGui/NContext/NTaskComments/TheCommentHasBeenDeletedBecauseItWasEmpty
+		:00_Current "The comment has been deleted because it was empty"
+	}
+	TheCommentHasBeenPosted "The comment has been posted"
+	{
+		// 76c12d42
+
+		// Shared by:
+		// c40378d4 - NLocalize/NClient/NGui/NActivityDetailsWindow/NCommentsManagement/TheCommentHasBeenPosted
+		// 1d3cd0ab - NLocalize/NClient/NGui/NActivityDetailsWindow/NConversionPopup/TheCommentHasBeenPosted
+		:00_Current "The comment has been posted"
+	}
+	TheDatabaseFileNameYouHaveChosenIsAlreadyUsedBy "The database file name you have chosen is already used by another database on the server.\n"\
+	                                                "Please choose another one."
+	{
+		// a38153ab
+
+		// Shared by:
+		// 6265922f - NLocalize/NClient/NGui/NServerAdmin/NDataBaseEdit/TheDatabaseFileNameYouHaveChosenIsAlreadyUsed
+		// 3c5a8455 - NLocalize/NServer/NPMSWin32/NServiceMain/TheDatabaseFilenameIsAlreadyInUse
+		:00_Current "The database file name you have chosen is already used by another database on the server.\n"\
+		            "Please choose another one."
+	}
+	TheDatabaseWasDeleted "The database was deleted."
+	{
+		// d46ab581
+
+		// Shared by:
+		// 1dfe3c00 - NLocalize/NClient/NGui/NServerAdmin/NDataBaseEdit/TheDatabaseWasDeleted
+		// ac25f8fb - NLocalize/NClient/NGui/NServerAdmin/NDatabaseState/TheDatabaseWasDeleted
+		:00_Current "The database was deleted."
+	}
+	TheDateYouHaveEnteredIsInvalidYouMustWriteTheDateX "The date you have entered is invalid. You must write the date in this way: {0} or change the date format."
+	{
+		// 4efb8a5b
+		// 0 text - Formatted date
+
+		// Shared by:
+		// 49f392e3 - NLocalize/NClient/NGui/NGantt/NItemProperties/TheDateYouHaveEnteredIsInvalidYouMustWriteThe
+		// 31bacb98 - NLocalize/NClient/NGui/NGantt/NWindowPopupCallbackMessages/TheDateYouHaveEnteredIsInvalidYouMustWriteThe
+		:00_Current "The date you have entered is invalid. You must write the date in this way: {0} or change the date format."
+	}
+	TheNameOfTheItemMustBeAtLeast2CharactersLong "The name of the item must be at least 2 characters long!"
+	{
+		// 2b9bf350
+
+		// Shared by:
+		// 9a39ea09 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/TheNameOfTheItemMustBeAtLeast2CharactersLong
+		// 26102279 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/TheNameOfTheItemMustBeAtLeast2CharactersLong
+		:00_Current "The name of the item must be at least 2 characters long!"
+	}
+	ThePreviousPipelineTaskMustBeCompletedBeforeCompleting "The previous pipeline task must be completed before completing the selected ones."
+	{
+		// 53498aa2
+
+		// Shared by:
+		// d0513753 - NLocalize/NClient/NGui/NActivityDetailsWindow/NCompletingItems/ThePreviousPipelineTaskMustBeCompletedBefore
+		// 25e8e10e - NLocalize/NClient/NGui/NGantt/NItemProperties/ThePreviousPipelineTaskMustBeCompletedBefore
+		:00_Current "The previous pipeline task must be completed before completing the selected ones."
+	}
+	TheProgramWillNotCloseIfYouContinueItWillBeMiminized "The program will not close if you continue, it will be minimised to the system tray.\n"\
+	                                                     "If you want to quit you have to log out first.\n"\
+	                                                     "\n"\
+	                                                     "If you don't want to see this dialog again press cancel."
+	{
+		// e92f8354
+
+		// Shared by:
+		// 1c9288ba - NLocalize/NClient/NGui/NMain/TheProgramWillNotCloseIfYouContinueItWillBe
+		// 4b793f17 - NLocalize/NClient/NGui/NServerAdmin/NMain/TheProgramWillNotCloseIfYouContinueItWillBe
+		:00_Current "The program will not close if you continue, it will be minimised to the system tray.\n"\
+		            "If you want to quit you have to log out first.\n"\
+		            "\n"\
+		            "If you don't want to see this dialog again press cancel."
+	}
+	TheTransactionLogFileAlreadyExistsYouHaveToDelete "The transaction log file already exists. \n"\
+	                                                  "You have to delete it manually if you want to use it for a new database."
+	{
+		// 32832feb
+
+		// Shared by:
+		// eba56dd3 - NLocalize/NClient/NGui/NServerAdmin/NDataBaseEdit/TheTransactionLogFileAlreadyExists
+		// 138755a7 - NLocalize/NServer/NPMSWin32/NServiceMain/TheTransactionLogFileAlreadyExists
+		:00_Current "The transaction log file already exists. \n"\
+		            "You have to delete it manually if you want to use it for a new database."
+	}
+	TheTransactionLogFileNameYouHaveChosenIsAlready "The transaction log file name you have chosen is already used by another database on the server.\n"\
+	                                                "Please choose another one."
+	{
+		// 3123c6b2
+
+		// Shared by:
+		// 589dfa2f - NLocalize/NClient/NGui/NServerAdmin/NDataBaseEdit/TheTransactionLogFileNameYouHaveChosenIs
+		// 6c5d4041 - NLocalize/NClient/NGui/NServerAdmin/NDataBaseEdit/TheTransactionLogFileNameYouHaveChosenIs2
+		:00_Current "The transaction log file name you have chosen is already used by another database on the server.\n"\
+		            "Please choose another one."
+	}
+	ThereIsNothingToRedo "There is nothing to redo"
+	{
+		// 065ec0a1
+
+		// Shared by:
+		// 5193efea - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/ThereIsNothingToRedo
+		// 7d4ef743 - NLocalize/NClient/NGui/NGantt/NUndoRedo/ThereIsNothingToRedo
+		:00_Current "There is nothing to redo"
+	}
+	ThereIsNothingToUndo "There is nothing to undo"
+	{
+		// 06608c0d
+
+		// Shared by:
+		// 5195bb56 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/ThereIsNothingToUndo
+		// 7d50c2af - NLocalize/NClient/NGui/NGantt/NUndoRedo/ThereIsNothingToUndo
+		:00_Current "There is nothing to undo"
+	}
+	ThisActionCannotBePerformedNowBecauseHansoftIs "This action cannot be performed now because Hansoft is waiting for data from the server"
+	{
+		// 2effc6a8
+
+		// Shared by:
+		// 56e68261 - NLocalize/NClient/NGui/NGantt/NTreeObject/NDelete/ThisActionCannotBePerformedNowBecauseHansoftIs
+		// e5ded8ac - NLocalize/NClient/NGui/NGantt/NUndoRedo/NCanDoUndoRedo/ThisActionCannotBePerformedNowBecauseHansoftIs
+		:00_Current "This action cannot be performed now because Hansoft is waiting for data from the server"
+	}
+	ThisItemHasNotBeenAssignedAIDYetFromTheServerThe "This item has not been assigned a ID yet from the server.\n"\
+	                                                 "\n"\
+	                                                 "The ID is needed to store the files properly. Please wait and try again later."
+	{
+		// 72625dd2
+
+		// Shared by:
+		// eb93117c - NLocalize/NClient/NGui/NActivityDetailsWindow/NFileAttachments/ThisItemHasNotBeenAssignedAIDYetFromTheServer
+		// e8ef440e - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/ThisItemHasNotBeenAssignedAIDYetFromTheServer
+		// 8b0adf14 - NLocalize/NClient/NGui/NGantt/NQA/NCommands/ThisItemHasNotBeenAssignedAIDYetFromTheServer
+		:00_Current "This item has not been assigned a ID yet from the server.\n"\
+		            "\n"\
+		            "The ID is needed to store the files properly. Please wait and try again later."
+	}
+	ThisTimeReportRowIsLinkedToTheTaskX "This time report row is linked to the task '{0}'"
+	{
+		// 520bf106
+		// 0 text - Name of task
+
+		// Shared by:
+		// 72dd4d98 - NLocalize/NClient/NGui/NGantt/NTimeReporting/NInterfaceFunctions/ThisTimeReportRowIsLinkedToTheTaskX
+		// 2aa764b5 - NLocalize/NClient/NGui/NGantt/NTimeReporting/NReadWrite/ThisTimeReportRowIsLinkedToTheTaskX
+		// a3c1d0b1 - NLocalize/NClient/NGui/NGantt/NTimeReporting/ThisTimeReportRowIsLinkedToTheTaskX
+		:00_Current "This time report row is linked to the task '{0}'"
+	}
+	Thursday "Thursday"
+	{
+		// 888b11bd
+
+		// Shared by:
+		// beb45bf8 - NLocalize/NAOCC/NAOTime/Thursday
+		// aa82cf02 - NLocalize/NClient/NGui/NGantt/NCommands/NTaskRelated/Thursday
+		// ce919a97 - NLocalize/NClient/NGui/NGantt/NHistorySaveOccurence/Thursday
+		// 3e57f8bb - NLocalize/NClient/NGui/NGantt/NMessageOccurence/Thursday
+		// c8cb7ade - NLocalize/NClient/NGui/NGantt/NReport/NMailTo/Thursday
+		:00_Current "Thursday"
+	}
+	Thursday2 "Thursday"
+	{
+		// 99ed498f
+
+		// Shared by:
+		// aa203887 - NLocalize/NClient/NGui/NCustomize/NTimesheets/NRules/Thursday
+		// 05d537fd - NLocalize/NClient/NGui/NGantt/NCalender/Thursday
+		:00_Current "Thursday"
+	}
+	Time "Time"
+	{
+		// 974448f8
+
+		// Shared by:
+		// 39c3ff8b - NLocalize/NClient/NGui/NEmailStatus/Time
+		// 0cf45ae8 - NLocalize/NDatabaseFunctions/NUsersProjects/Time
+		:00_Current "Time"
+	}
+	ToAllocateResourcesToThisTransitionClickHere "To allocate users to this transition click here:"
+	{
+		// 8d55acfc
+
+		// Shared by:
+		// a39c0976 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/ToAllocateResourcesToThisTransitionClickHere
+		// 4eea16b1 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/ToAllocateResourcesToThisTransitionClickHere
+		:00_Current "To allocate users to this transition click here:"
+	}
+	ToBeDeleted "To be deleted"
+	{
+		// 93aecbea
+
+		// Shared by:
+		// 0385bb32 - NLocalize/NClient/NGui/NGlobalTrends/ToBeDeleted
+		// a0394fda - NLocalize/NDatabaseFunctions/NUsersProjects/ToBeDeleted
+		:00_Current "To be deleted"
+	}
+	ToEMailNotifyAResourceGroupClickHere "To e-mail notify a user/group click here:"
+	{
+		// 55fa1b6d
+
+		// Shared by:
+		// 054ebcfb - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/ToEmailNotifyAResourceGroupClickHere
+		// eb82bfec - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/PopupEmailNotificationsToEmailNotify
+		:00_Current "To e-mail notify a user/group click here:"
+	}
+	ToRemoveEMailNotificationClickHere "To remove e-mail notification click here:"
+	{
+		// 535d9f73
+
+		// Shared by:
+		// 20d0ed81 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/ToRemoveEmailNotificationClickHere
+		// 459522fa - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/PopupEmailNotificationsToRemoveEmailNotify
+		:00_Current "To remove e-mail notification click here:"
+	}
+	ToRemoveResourcesFromThisTransitionClickHere "To remove users from this transition click here:"
+	{
+		// b95c9cf6
+
+		// Shared by:
+		// cfa2f970 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/ToRemoveResourcesFromThisTransitionClickHere
+		// 7af106ab - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/ToRemoveResourcesFromThisTransitionClickHere
+		:00_Current "To remove users from this transition click here:"
+	}
+	Total "Total"
+	{
+		// 7fd0cfed
+
+		// Shared by:
+		// 46dc8d1e - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/Total
+		// 042949e4 - NLocalize/NClient/NGui/NGantt/NTimeReporting/NSyncAndCom/Total
+		// d621c072 - NLocalize/NClient/NGui/NGantt/NTimeReporting/NViewOnTask/Total2
+		// 7c42320a - NLocalize/NClient/NGui/NProjectPeriodReport/Total
+		:00_Current "Total"
+	}
+	Transition "Transition"
+	{
+		// bbc9fad4
+
+		// Shared by:
+		// d0236036 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/Transition
+		// 0df2ddd9 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NPaint/Transition
+		:00_Current "Transition"
+	}
+	TransitionResources "Transition users"
+	{
+		// de13e9af
+
+		// Shared by:
+		// 94fbd0e9 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/TransitionResources
+		// 2d90a1c4 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/TransitionResources
+		:00_Current "Transition users"
+	}
+	TransitionResourcesAndGroups "Transition users and groups"
+	{
+		// 9c5130a2
+
+		// Shared by:
+		// 7a71d91c - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/TransitionResourcesAndGroups
+		// 047ad057 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/TransitionResourcesAndGroups
+		:00_Current "Transition users and groups"
+	}
+	Tuesday "Tuesday"
+	{
+		// c43dcd28
+
+		// Shared by:
+		// 22f93c03 - NLocalize/NAOCC/NAOTime/Tuesday
+		// 31e075cd - NLocalize/NClient/NGui/NGantt/NCommands/NTaskRelated/Tuesday
+		// 78c9a2c2 - NLocalize/NClient/NGui/NGantt/NHistorySaveOccurence/Tuesday
+		// 746acc66 - NLocalize/NClient/NGui/NGantt/NMessageOccurence/Tuesday
+		// 59951629 - NLocalize/NClient/NGui/NGantt/NReport/NMailTo/Tuesday
+		:00_Current "Tuesday"
+	}
+	Tuesday2 "Tuesday"
+	{
+		// 4bf7725a
+
+		// Shared by:
+		// cd0442b2 - NLocalize/NClient/NGui/NCustomize/NTimesheets/NRules/Tuesday
+		// 91bc2b68 - NLocalize/NClient/NGui/NGantt/NCalender/Tuesday
+		:00_Current "Tuesday"
+	}
+	Type "Type"
+	{
+		// 97448d6b
+
+		// Shared by:
+		// 536ab43d - NLocalize/NClient/NGui/NGantt/NTimeReporting/NInterfaceFunctions/Type
+		// 47683f99 - NLocalize/NClient/NGui/NVersionControl/Type
+		:00_Current "Type"
+	}
+	TypeOfChange "Type of change"
+	{
+		// 0d6457a6
+
+		// Shared by:
+		// 88848138 - NLocalize/NClient/NGui/NGantt/NActionHistory/TypeOfChange
+		// 3a65a8ab - NLocalize/NClient/NGui/NGantt/NSprintWorkRemainingHistoryPopup/TypeOfChange
+		:00_Current "Type of change"
+	}
+	Undo "Undo"
+	{
+		// 9744e97f
+
+		// Shared by:
+		// d47ea6c8 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Undo
+		// b67b8f45 - NLocalize/NClient/NGui/NGantt/NEditScreenshot/Undo
+		// 1ade6d61 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/Undo
+		// 506c8e45 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/Undo
+		:00_Current "Undo"
+	}
+	UndoLastActionCtrlZ "Undo last action"
+	{
+		// 793703a0
+
+		// Shared by:
+		// 38fd9742 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/UndoLastActionCtrlZ
+		// 54dd73a6 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/UndoLastActionCtrlZ
+		:00_Current "Undo last action"
+	}
+	UnitQuantity "Unit & quantity"
+	{
+		// dbfb7908
+
+		// Shared by:
+		// 463fb885 - NLocalize/NClient/NGui/NProjectPeriodReport/UnitQuantity
+		// a5ca59b6 - NLocalize/NClient/NGui/NResourcePeriodReport/UnitQuantity
+		:00_Current "Unit & quantity"
+	}
+	Unknown "Unknown"
+	{
+		// 014df439
+
+		// Shared by:
+		// e25f5bcb - NLocalize/NClient/NGui/NActivityDetailsWindow/NCommentsManagement/Unknown
+		// 2e4ad55d - NLocalize/NClient/NGui/NActivityDetailsWindow/NCommentsManagement/Unknown2
+		// 8f5a8f5b - NLocalize/NClient/NGui/NContext/NTaskComments/Unknown
+		// b95f220e - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/Unknown
+		// e27d0a85 - NLocalize/NClient/NGui/NGantt/NPrintPage/Unknown
+		// a11b2893 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/Unknown
+		// 57632e23 - NLocalize/NClient/NGui/NGantt/NViewRender/NWall/Unknown
+		// c974a152 - NLocalize/NClient/NGui/NUsers/Unknown
+		// 13d9b107 - NLocalize/NClient/NPMCContext/NVersionControl/Unknown
+		// 92d8aae2 - NLocalize/NClient/NPMCObjectActivity/Unknown
+		// e2b67f33 - NLocalize/NDatabaseFunctions/NTasks/Unknown
+		// 2d499d8c - NLocalize/NServer/NDatabase/NComContext/Unknown
+		:00_Current "Unknown"
+	}
+	Unnamed "(unnamed)"
+	{
+		// 017d11f1
+
+		// Shared by:
+		// 0759cc47 - NLocalize/NClient/NDesignContext/Unamed
+		// ad5c331c - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/Unnamed
+		// c623189a - NLocalize/NClient/NGui/NGantt/NViewRender/NDragAndTooltips/Unnamed
+		:00_Current "(unnamed)"
+	}
+	UpgradeChangeServerLicence "Upgrade/change server licence"
+	{
+		// 2c2d8861
+
+		// Shared by:
+		// f3b13e56 - NLocalize/NClient/NGui/NServerAdmin/NLicensServerInfo/UpgradeChangeServerLicense
+		// 7fe41663 - NLocalize/NClient/NGui/NUpgradeLicense/UpgradeChangeServerLicense
+		:00_Current "Upgrade/change server licence"
+	}
+	UpgradeLicence "Upgrade licence"
+	{
+		// dceeee64
+
+		// Shared by:
+		// c2fce4a7 - NLocalize/NClient/NGui/NGantt/NActivateGhostResources/UpgradeLicense
+		// 4f3a0238 - NLocalize/NClient/NGui/NLicenseInformationPopup/UpgradeLicense
+		:00_Current "Upgrade licence"
+	}
+	UserStories "User stories"
+	{
+		// bb7534b1
+
+		// Shared by:
+		// 8aef8c51 - NLocalize/NClient/NGui/NGantt/NFilterWindow/UserStories
+		// 2f9e90fd - NLocalize/NClient/NGui/NGantt/NPrintPage/UserStories
+		:00_Current "User stories"
+	}
+	UserStory "User story"
+	{
+		// 63600509
+
+		// Shared by:
+		// cdcd4b6a - NLocalize/NClient/NGui/NActivityDetailsWindow/NDynamicProperties/UserStory
+		// eb5c47db - NLocalize/NClient/NGui/NGantt/NActionHistory/UserStory
+		// 082c5f47 - NLocalize/NClient/NGui/NGantt/NDataExport/UserStory
+		// cb930337 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/UserStory
+		// e57c78d2 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/UserStory
+		// b010bbc3 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/UserStory
+		// 6292aede - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/UserStory
+		// cc573c5e - NLocalize/NDatabaseFunctions/NDB/NGeneral/UserStory
+		:00_Current "User story"
+	}
+	UserStory2 "User story:"
+	{
+		// cf60a65b
+
+		// Shared by:
+		// 6473fc1e - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/UserStory
+		// 4cadde55 - NLocalize/NClient/NGui/NGantt/NPrintPage/UserStory
+		:00_Current "User story:"
+	}
+	Value "value"
+	{
+		// 7fed3426
+
+		// Shared by:
+		// 645e9a8f - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Value
+		// ad906763 - NLocalize/NClient/NGui/NGantt/NDataImport/NProjectHistory/Value
+		:00_Current "value"
+	}
+	Verified "Verified"
+	{
+		// 7276a397
+
+		// Shared by:
+		// 280b9405 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/Verified
+		// 84be2d87 - NLocalize/NDatabaseFunctions/NUsersProjects/Verified
+		:00_Current "Verified"
+	}
+	ViewMilestones "View [NHelpers::Pluralize(2,$0)]"
+	{
+		// 2de30767
+		// 0 text - Default name of milestone type or custom name
+
+		// Shared by:
+		// b329bb07 - NLocalize/NClient/NGui/NGantt/NFilterWindow/ViewMilestones
+		// 44c4be26 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/ViewMilestones
+		:00_Current "View [NHelpers::Pluralize(2,$0)]"
+	}
+	VisibleYesNo "Visible yes/no"
+	{
+		// 9c93a865
+
+		// Shared by:
+		// 60464d36 - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/NCreateEditProfile/VisibleYesNo
+		// 80ca4093 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NSelectColumns/VisibleYesNo
+		:00_Current "Visible yes/no"
+	}
+	Wall "Board"
+	{
+		// 9745cbf9
+
+		// Shared by:
+		// 406ba73c - NLocalize/NClient/NGui/NGantt/NAgile/NBacklogPopup/WallView
+		// 717a1c82 - NLocalize/NClient/NGui/NProjectConnection/WallView
+		:00_Current "Board"
+	}
+	Warning "Warning"
+	{
+		// 7d6dee5f
+
+		// Shared by:
+		// 4213f508 - NLocalize/NClient/NGui/NGantt/NViewRender/NDragAndTooltips/Warning
+		// d8bbcd10 - NLocalize/NClient/NPMCContext/NMainGui/Warning
+		:00_Current "Warning"
+	}
+	Wednesday "Wednesday"
+	{
+		// 0bb55f2d
+
+		// Shared by:
+		// 0707f0c8 - NLocalize/NAOCC/NAOTime/Wednesday
+		// 6ca4c512 - NLocalize/NClient/NGui/NGantt/NCommands/NTaskRelated/Wednesday
+		// 128d0347 - NLocalize/NClient/NGui/NGantt/NHistorySaveOccurence/Wednesday
+		// 7b1f25eb - NLocalize/NClient/NGui/NGantt/NMessageOccurence/Wednesday
+		// 5402ec6e - NLocalize/NClient/NGui/NGantt/NReport/NMailTo/Wednesday
+		:00_Current "Wednesday"
+	}
+	Wednesday2 "Wednesday"
+	{
+		// 826144ff
+
+		// Shared by:
+		// 5fef5f37 - NLocalize/NClient/NGui/NCustomize/NTimesheets/NRules/Wednesday
+		// 32444d6d - NLocalize/NClient/NGui/NGantt/NCalender/Wednesday
+		:00_Current "Wednesday"
+	}
+	WhiteBox "White box"
+	{
+		// 316e9db3
+
+		// Shared by:
+		// a8139f6b - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/WhiteBox
+		// 67b17bec - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/WhiteBox
+		// e7038e21 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/WhiteBox
+		// 92773c5c - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/WhiteBox
+		:00_Current "White box"
+	}
+	Work "work"
+	{
+		// 9746084c
+
+		// Shared by:
+		// d47fc595 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Work
+		// fd8147e9 - NLocalize/NClient/NGui/NGantt/NDataImport/NProjectHistory/Work
+		:00_Current "work"
+	}
+	WorkRemaining "Work remaining"
+	{
+		// e401bbe6
+
+		// Shared by:
+		// c32717b8 - NLocalize/NClient/NGui/NGantt/NActionHistory/WorkRemaining
+		// 12ced1e9 - NLocalize/NClient/NGui/NGantt/NColumns/WorkRemaining
+		// 05837b4f - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/WorkRemaining
+		// b14c1a17 - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/WorkRemaining
+		// 105d78ab - NLocalize/NClient/NGui/NGantt/NSprintResourceUsageDetails/WorkRemaining
+		// a5519d2e - NLocalize/NClient/NGui/NGlobalTrends/WorkRemaining
+		// d9be95bb - NLocalize/NDatabaseFunctions/NDB/NGeneral/WorkRemaining
+		:00_Current "Work remaining"
+	}
+	WorkX " (work {0}%)"
+	{
+		// 80071224
+		// 0 integer - Allocation percent
+
+		// Shared by:
+		// f7bdea00 - NLocalize/NClient/NGui/NGantt/NObjects/NPlanned/WorkXPercent
+		// 8223cfaa - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/WorkXPercent
+		:00_Current " (work {0}%)"
+	}
+	Workflow "Workflow"
+	{
+		// 60a31724
+
+		// Shared by:
+		// c1d947b6 - NLocalize/NClient/NGui/NGantt/NActionHistory/Workflow
+		// d74818dc - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/Workflow
+		// 1d04edd0 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/Workflow
+		// 02123aa0 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/Workflow
+		:00_Current "Workflow"
+	}
+	WorkflowStatus "Workflow status"
+	{
+		// 278f5688
+
+		// Shared by:
+		// 757e17d5 - NLocalize/NClient/NGui/NComments/WorkflowStatus
+		// eb602c9a - NLocalize/NClient/NGui/NGantt/NActionHistory/WorkflowStatus
+		:00_Current "Workflow status"
+	}
+	WorkflowStatusChange "Workflow status change"
+	{
+		// f002c56e
+
+		// Shared by:
+		// 86d5f977 - NLocalize/NClient/NGui/NActivityDetailsWindow/NConversionPopup/WorkflowStatusChange
+		// 47828c7b - NLocalize/NClient/NGui/NComments/WorkflowStatusChange
+		:00_Current "Workflow status change"
+	}
+	X "{0,cc}"
+	{
+		// 8bcfc101
+		// 0 text - Custom name of Product Backlog
+
+		// Shared by:
+		// 8f5fd845 - NLocalize/NClient/NGui/NGantt/NAgile/NBacklogPopup/ProductBacklog
+		// 385047fc - NLocalize/NClient/NGui/NGantt/NSync/ProductBacklog
+		:00_Current "{0,cc}"
+	}
+	X2 "{0,cc}"
+	{
+		// 05c7e153
+		// 0 text - Default name of backlog or user defined name
+
+		// Shared by:
+		// ab60d70b - NLocalize/NClient/NGui/NActivityDetailsWindow/NDynamicProperties/SprintName
+		// 82237571 - NLocalize/NClient/NGui/NGantt/NObjects/NBlock/BacklogName
+		// 1a5ab5a9 - NLocalize/NClient/NGui/NGantt/NPrintPage/BacklogName
+		// 160848a5 - NLocalize/NClient/NGui/NGlobalTrends/BacklogName
+		:00_Current "{0,cc}"
+	}
+	X3 "{0,cc}"
+	{
+		// 05c7e154
+		// 0 text - Default name of sprint type or custom name
+
+		// Shared by:
+		// cb08a82a - NLocalize/NClient/NGui/NGantt/NFilterWindow/SprintName
+		// 16dd9e3f - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/SprintName
+		// f22595a4 - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedReference/SprintName
+		// 75784c12 - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedTimeDraw/SprintName
+		:00_Current "{0,cc}"
+	}
+	X4 "{0}"
+	{
+		// 05c7e155
+		// 0 integer - The number of hours
+
+		// Shared by:
+		// 38454035 - NLocalize/NDatabaseFunctions/NFind/DurationHours
+		// 19c0127a - NLocalize/NDatabaseFunctions/NFind/GeneralHour
+		// 3f86f91b - NLocalize/NDatabaseFunctions/NFind/WorkRemaining
+		:00_Current "{0}"
+	}
+	XChangedNegativelyInX "{0,cc} changed negatively in {1}"
+	{
+		// 915c2b92
+		// 0 text - Unit name of burndown mode: hours, points, days
+		// 1 text - Sprint custom name
+
+		// Shared by:
+		// 141c86ba - NLocalize/NClient/NGui/NGantt/NAgile/NAgileCommands/WorkChangedNegativelyInSprint
+		// 12cab676 - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/WorkChangedNegativelyInSprint
+		:00_Current "{0,cc} changed negatively in {1}"
+	}
+	XChangedPositivelyInX "{0,cc} changed positively in {1}"
+	{
+		// 7a48ec72
+		// 0 text - Unit name of burndown mode: hours, points, days
+		// 1 text - Sprint custom name
+
+		// Shared by:
+		// d68509d5 - NLocalize/NClient/NGui/NGantt/NAgile/NAgileCommands/WorkChangedPositivlyInSprint
+		// 240e3211 - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/WorkChangedPositivlyInSprint
+		:00_Current "{0,cc} changed positively in {1}"
+	}
+	XCreatedInX "{0,cc} created in {1}"
+	{
+		// a97c3508
+		// 0 text - Unit name of burndown mode: hours, points, days
+		// 1 text - Sprint custom name
+
+		// Shared by:
+		// 4fe7c1f0 - NLocalize/NClient/NGui/NGantt/NAgile/NAgileCommands/WorkCreatedInSprint
+		// d457d6ac - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/WorkCreatedInSprint
+		:00_Current "{0,cc} created in {1}"
+	}
+	XD "{0,fe1,fn2}d"
+	{
+		// 05c7e165
+		// 0 decimal - Estimated effort number
+
+		// Shared by:
+		// 336676f9 - NLocalize/NClient/NGui/NGantt/NObjects/NBlock/XD
+		// 6505998c - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/XD2
+		:00_Current "{0,fe1,fn2}d"
+	}
+	XD2 "{0}d"
+	{
+		// bec40e37
+		// 0 integer - Duration in days
+
+		// Shared by:
+		// 6505998d - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/XD3
+		// 0b2bde83 - NLocalize/NClient/NGui/NGantt/NPrintPage/XD2
+		:00_Current "{0}d"
+	}
+	XDeletedInX "{0} deleted in {1}"
+	{
+		// 6ceace47
+		// 0 text - Unit name of burndown mode: hours, points, days
+		// 1 text - Sprint custom name
+
+		// Shared by:
+		// e052fa8f - NLocalize/NClient/NGui/NGantt/NAgile/NAgileCommands/WorkDeletedInSprint
+		// 64c30f4b - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/WorkDeletedInSprint
+		:00_Current "{0} deleted in {1}"
+	}
+	XFromOperatingSystem "{0} (From operating system)"
+	{
+		// 99948123
+		// 0 text - The name of the language set in the operating system
+
+		// Shared by:
+		// 65809b47 - NLocalize/NClient/NGui/NGantt/NOptionsWindow/NAppearance/XOperatingSystemDefault
+		// 9ee75295 - NLocalize/NClient/NLogin/NGui/NClientLoginOptions/XOperatingSystemDefault
+		:00_Current "{0} (From operating system)"
+	}
+	XH "{0}h"
+	{
+		// 05c7e169
+		// 0 integer - The number of hours
+
+		// Shared by:
+		// da6bc451 - NLocalize/NDatabaseFunctions/NFind/DurationHoursWithUnit
+		// 10230b96 - NLocalize/NDatabaseFunctions/NFind/GeneralHourWithUnit
+		// abb30337 - NLocalize/NDatabaseFunctions/NFind/WorkRemainingWithUnit
+		:00_Current "{0}h"
+	}
+	XHistory "{0,cc} history"
+	{
+		// 7e5fbb73
+		// 0 text - Default name of backlog type or custom name
+
+		// Shared by:
+		// e186707b - NLocalize/NClient/NGui/NGantt/NHistoryPopup/XHistory
+		// 553e1cd7 - NLocalize/NClient/NGui/NGantt/NWindowMainToolbarCommands/XHistory
+		:00_Current "{0,cc} history"
+	}
+	XMLFilesX "XML files {0}"
+	{
+		// c58661a5
+		// 0 text - .xml file extension
+
+		// Shared by:
+		// f022fcf3 - NLocalize/NClient/NGui/NGantt/NCommands/NImportExport/XMLFilesX
+		// 320cb8fe - NLocalize/NClient/NGui/NUsers/XMLFilesX
+		:00_Current "XML files {0}"
+	}
+	XNHelpersPluralize0Hour "{0,fe0,fn2} [NHelpers::Pluralize($0,'hour')]"
+	{
+		// 18ad5f68
+		// 0 decimal - Number of hours
+
+		// Shared by:
+		// dfd28c66 - NLocalize/NClient/NGui/NGantt/NObjects/NBlock/XHours
+		// 94760d37 - NLocalize/NClient/NGui/NGantt/NSprintResourceUsageDetails/XHours
+		:00_Current "{0,fe0,fn2} [NHelpers::Pluralize($0,'hour')]"
+	}
+	XNHelpersPluralize0Point "{0} [NHelpers::Pluralize($0,'point')]"
+	{
+		// 2ee9dd54
+		// 0 integer - Number of points
+
+		// Shared by:
+		// 0290ed70 - NLocalize/NClient/NGui/NGantt/NActionHistory/XPoints
+		// ecc6b932 - NLocalize/NClient/NGui/NGantt/NObjects/NBlock/XPoints
+		// 316d8189 - NLocalize/NClient/NGui/NGantt/NObjects/NPlanned/XPoints
+		// 5a98b4f3 - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/XPoints
+		// 83b69d6a - NLocalize/NClient/NGui/NGantt/NPrintPage/XPoints
+		:00_Current "{0} [NHelpers::Pluralize($0,'point')]"
+	}
+	XPriority "{0,cc} priority"
+	{
+		// 49856183
+		// 0 text - Default name of sprint or backlog type or custom name
+
+		// Shared by:
+		// 17a9ee06 - NLocalize/NClient/NGui/NGantt/NColumns/XPriority
+		// 2a71c9d5 - NLocalize/NClient/NGui/NGantt/NCustomize/NDialog/XPriority
+		:00_Current "{0,cc} priority"
+	}
+	XTasks "{0} tasks"
+	{
+		// 814cbc27
+		// 0 text - Vacation text
+
+		// Shared by:
+		// 2f69cfc7 - NLocalize/NClient/NGui/NGantt/NFilterWindow/XTasks
+		// 2bdf23e6 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/XTasks
+		:00_Current "{0} tasks"
+	}
+	XX "({0}) {1}"
+	{
+		// 05c7e179
+		// 0 text - Project name
+		// 1 text - Subject
+
+		// Shared by:
+		// 0f4c94db - NLocalize/NServer/NDatabase/NContextMessageServices/ProjectSpecificEmailSubject
+		// bfa9803d - NLocalize/NServer/NDatabase/NContextMessageServicesPR/ProjectSpecificEmailSubject
+		:00_Current "({0}) {1}"
+	}
+	XX2 "{0} ({1})"
+	{
+		// bec410cb
+		// 0 text - country name
+		// 1 text - list of regions in the country where the calendar applies
+
+		// Shared by:
+		// b6a241bc - NLocalize/NClient/NPMCContext/NCalender/FullCalendarName
+		// 73bd810e - NLocalize/NDatabaseFunctions/FullCalendarName
+		:00_Current "{0} ({1})"
+	}
+	XXWrote "{0}{1}:"
+	{
+		// b38373aa
+		// 0 text - Formatted date
+		// 1 text - User name
+
+		// Shared by:
+		// 9494db3c - NLocalize/NClient/NGui/NActivityDetailsWindow/NCommentsManagement/XXWrote
+		// 41900ecc - NLocalize/NClient/NGui/NContext/NTaskComments/XXWrote
+		// 94b289f6 - NLocalize/NClient/NGui/NGantt/NPrintPage/XXWrote
+		:00_Current "{0}{1}:"
+	}
+	Yellow "Yellow"
+	{
+		// 84db7045
+
+		// Shared by:
+		// 4c529f8b - NLocalize/NClient/NGui/NGantt/NEditScreenshot/Yellow
+		// 1d759810 - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/Yellow
+		:00_Current "Yellow"
+	}
+	YellowBox "Yellow box"
+	{
+		// 588c6dae
+
+		// Shared by:
+		// a3d1a666 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/YellowBox
+		// 572b1307 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/YellowBox
+		// c0bf6bdc - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/YellowBox
+		// daa8e177 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/YellowBox
+		:00_Current "Yellow box"
+	}
+	YellowCircle "Yellow circle"
+	{
+		// 5b17b5b7
+
+		// Shared by:
+		// bb56d36f - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/YellowCircle
+		// 97a10870 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/YellowCircle
+		:00_Current "Yellow circle"
+	}
+	Yes "Yes"
+	{
+		// bec416fa
+
+		// Shared by:
+		// fb24c56f - NLocalize/NAOWin/NAOMultiEditDialog/Yes
+		// 2bf5c4ab - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/NCreateEditProfile/Yes
+		// b5e25e76 - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/NCreateRule/Yes
+		// 09578aa8 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/Yes
+		// ee6ba803 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/Yes
+		// 4f48ca34 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/Yes
+		// f9c5450f - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/Yes
+		// 48dcd368 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NSelectColumns/Yes
+		// 1df87748 - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Yes
+		// 790454a1 - NLocalize/NClient/NGui/NVersionControl/NAddFiles/Yes
+		:00_Current "Yes"
+	}
+	Yes2 "Yes"
+	{
+		// 9746f66c
+
+		// Shared by:
+		// 4398689b - NLocalize/NClient/NGui/NActivityDetailsWindow/NDynamicProperties/Yes
+		// 776b2ae3 - NLocalize/NClient/NGui/NAdminProfileResource/Yes
+		// 50151eb2 - NLocalize/NClient/NGui/NGantt/NMessageSettings/Yes
+		// 80873123 - NLocalize/NClient/NGui/NGantt/NViewRender/NDragAndTooltips/Yes
+		// befba9cf - NLocalize/NClient/NGui/NMessageBox/Yes
+		// 6d5e870b - NLocalize/NClient/NGui/NProjects/Yes
+		// 74c1aaea - NLocalize/NDatabaseFunctions/NUsersProjects/Yes
+		:00_Current "Yes"
+	}
+	YesNo "Yes/No"
+	{
+		// 8025c7f7
+
+		// Shared by:
+		// b7f3de73 - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/NCreateRule/YesNo
+		// bd64df25 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditBugState/YesNo
+		// 37f5bf40 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/YesNo
+		// 44a431b1 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditTransition/YesNo
+		// 802acf4c - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/YesNo
+		:00_Current "Yes/No"
+	}
+	YouAreNotAllowedToPrioritiseThisXYouMustBeAMemberX "You are not allowed to prioritise this {0}. You must be a member of the {1} or have delegated rights."
+	{
+		// 43bef832
+		// 0 text - Default name of sprint type or custom name
+		// 1 text - Default name of sprint type or custom name
+
+		// Shared by:
+		// 59bb1e76 - NLocalize/NClient/NGui/NGantt/NInteraction/NDragInitiate/YouAreNotAllowedToPrioritiseThisXYouMustBeA
+		// 487459f0 - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedAgileRelated/YouAreNotAllowedToPrioritiseThisXYouMustBeA
+		:00_Current "You are not allowed to prioritise this {0}. You must be a member of the {1} or have delegated rights."
+	}
+	YouAreNotAllowedToWorkOnTheVirtualWallInThisXYouX "You are not allowed to work on the virtual board in this {0}. You must be a member of the {1} or have delegated rights."
+	{
+		// 998e67ee
+		// 0 text - Default name of sprint type or custom name
+		// 1 text - Default name of sprint type or custom name
+
+		// Shared by:
+		// cbe1088e - NLocalize/NClient/NGui/NGantt/NAgile/NAgileCommands/YouAreNotAllowedToWorkOnTheVirtualWallInThisX
+		// 6fd95f5f - NLocalize/NClient/NGui/NGantt/NCommands/NInsert/YouAreNotAllowedToWorkOnTheVirtualWallInThisX
+		:00_Current "You are not allowed to work on the virtual board in this {0}. You must be a member of the {1} or have delegated rights."
+	}
+	YouCannotChangeViewWhenAReportIsActive "You cannot change view when a report is active"
+	{
+		// 7f416871
+
+		// Shared by:
+		// fc10f879 - NLocalize/NClient/NGui/NGantt/NAgile/NBacklogPopup/YouCannotChangeViewWhenAReportIsActive
+		// 3a62fc3f - NLocalize/NClient/NGui/NProjectConnection/YouCannotChangeViewWhenAReportIsActive
+		:00_Current "You cannot change view when a report is active"
+	}
+	YouCannotCreateDeleteIndentOrInOtherWaysChange "You cannot create, delete, indent or in other ways change the disposition in report mode"
+	{
+		// c57fd1b6
+
+		// Shared by:
+		// f0a465c4 - NLocalize/NClient/NGui/NGantt/NCommands/NImportExport/YouCannotCreateDeleteIndentOrInOtherWaysChange
+		// a85b0bbc - NLocalize/NClient/NGui/NGantt/NCommands/NInsert/YouCannotCreateDeleteIndentOrInOtherWaysChange
+		// 0aa07944 - NLocalize/NClient/NGui/NGantt/NCommands/NPaste/YouCannotCreateDeleteIndentOrInOtherWaysChange
+		// ed668d6f - NLocalize/NClient/NGui/NGantt/NTreeObject/NDelete/YouCannotCreateDeleteIndentOrInOtherWaysChange
+		// a27b497e - NLocalize/NClient/NGui/NGantt/NTreeObject/NIndent/YouCannotCreateDeleteIndentOrInOtherWaysChange
+		:00_Current "You cannot create, delete, indent or in other ways change the disposition in report mode"
+	}
+	YouCannotMoveItemsWhenAReportIsActiveCloseTheReport "You cannot move items when a report is active. Close the report and try again."
+	{
+		// 12c4129c
+
+		// Shared by:
+		// 3fd484d5 - NLocalize/NClient/NGui/NGantt/NAgile/NAgileCommands/YouCannotMoveItemsWhenAReportIsActiveCloseThe
+		// 0075d1b4 - NLocalize/NClient/NGui/NGantt/NInteraction/NDragInitiate/YouCannotMoveItemsWhenAReportIsActiveCloseThe
+		:00_Current "You cannot move items when a report is active. Close the report and try again."
+	}
+	YouCannotOrDoNotHavePermissionToCommentOnThisItem "You cannot or do not have permission to comment"
+	{
+		// b38b66f5
+
+		// Shared by:
+		// 2c5c3678 - NLocalize/NClient/NGui/NActivityDetailsWindow/NCommentsManagement/YouCannotOrDoNotHavePermissionToCommentOnThis
+		// fc51218f - NLocalize/NClient/NGui/NActivityDetailsWindow/NConversionPopup/YouCannotOrDoNotHavePermissionToCommentOnThis
+		// ddcce5e7 - NLocalize/NClient/NGui/NCommentEditor/YouCannotOrDoNotHavePermissionToCommentOnThis
+		:00_Current "You cannot or do not have permission to comment"
+	}
+	YouCannotSetItemStatusOnSomeOfTheSelectedItemsX "You cannot set status on some of the selected items because they have sub items in the {0}"
+	{
+		// 8a4cbbb2
+		// 0 text - Default name of backlog type or custom name
+
+		// Shared by:
+		// b69840dd - NLocalize/NClient/NGui/NActivityDetailsWindow/NCompletingItems/YouCannotSetItemStatusOnSomeOfTheSelectedItems
+		// d0c14558 - NLocalize/NClient/NGui/NGantt/NItemProperties/YouCannotSetItemStatusOnSomeOfTheSelectedItems
+		:00_Current "You cannot set status on some of the selected items because they have sub items in the {0}"
+	}
+	YouCannotSetItemStatusWhenYouAreInGhostResource "You cannot set status when you are in ghost user mode"
+	{
+		// 2e611093
+
+		// Shared by:
+		// 0d211df3 - NLocalize/NClient/NGui/NGantt/NCustomize/NColumnsHandling/YouCannotSetItemStatusWhenYouAreInGhost
+		// 6a07a5d3 - NLocalize/NClient/NGui/NGantt/NWallFunctions/NInteraction/YouCannotSetItemStatusWhenYouAreInGhost
+		:00_Current "You cannot set status when you are in ghost user mode"
+	}
+	YouDoNotHaveAnyPermissionToReportNewBugsPlease "You do not have any permission to report new bugs. Please check the bug workflow."
+	{
+		// aa97cdb3
+
+		// Shared by:
+		// efb87541 - NLocalize/NClient/NGui/NGantt/NCommands/NPaste/YouDoNotHaveAnyPermissionToReportNewBugsPlease
+		// 3bea04d6 - NLocalize/NClient/NGui/NGantt/NQA/NCommands/YouDoNotHaveAnyPermissionToReportNewBugsPlease
+		:00_Current "You do not have any permission to report new bugs. Please check the bug workflow."
+	}
+	YouDoNotHavePermissionToDropFilesOnThisItem "You do not have permission to drop files on this item"
+	{
+		// 3e0955a6
+
+		// Shared by:
+		// 015ba011 - NLocalize/NClient/NGui/NActivityDetailsWindow/NFileAttachments/YouDoNotHavePermissionToDropFilesOnThisItem
+		// 0a860623 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/YouDoNotHavePermissionToDropFilesOnThisItem
+		:00_Current "You do not have permission to drop files on this item"
+	}
+	YouHavenNotSpecifiedACompareDiffToolGoToDocument "You have not specified an app for comparing files.\n"\
+	                                                 "\n"\
+	                                                 "Go to the Documents section of your personal options to specify an app."
+	{
+		// 63452b4c
+
+		// Shared by:
+		// b3ae79ea - NLocalize/NClient/NGui/NVersionControl/NCommands/YouHaveNotSpecifiedACompareTool
+		// 289a6f30 - NLocalize/NClient/NGui/NVersionControl/NVersionHistory/YouHaveNotSpecifiedACompareTool
+		:00_Current "You have not specified an app for comparing files.\n"\
+		            "\n"\
+		            "Go to the Documents section of your personal options to specify an app."
+	}
+	YouMustSelectAResourceBeforeClosingTheSelection "You must select a person before closing the selection"
+	{
+		// a885c541
+
+		// Shared by:
+		// 5cbb55f1 - NLocalize/NClient/NGui/NGantt/NAddMoreResources/YouMustSelectAResource
+		// 8b653914 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/YouMustSelectAResource
+		:00_Current "You must select a person before closing the selection"
+	}
+	YouWereDisconnectedFromTheServerThisWindowWill "You were disconnected from the server, this window will now close"
+	{
+		// 01e97780
+
+		// Shared by:
+		// d2d69adf - NLocalize/NClient/NGui/NServerAdmin/NDataBaseEdit/YouWereDisconnectedFromTheServerThisWindowWill
+		// 1d6f783a - NLocalize/NClient/NGui/NServerAdmin/NDatabaseState/YouWereDisconnectedFromTheServerThisWindowWill
+		:00_Current "You were disconnected from the server, this window will now close"
+	}
+}

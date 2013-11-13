@@ -1,0 +1,2517 @@
+﻿namespace NCommands
+// Message balloons for QA section
+{
+	AddFiles NLocalize/NShared/AddFiles
+	{
+		// cadf9cc8
+		:00_Current "Add Files"
+	}
+	AddingRemovingEditingDocuments "Adding, removing, editing documents"
+	{
+		// 2bce2e90
+		:00_Current "Adding, removing, editing documents"
+	}
+	CustomColumnOrDropListItemDeleted "< Custom column or drop list item deleted >"
+	{
+		// c3215bed
+		:00_Current "< Custom column or drop list item deleted >"
+	}
+	CustomisingExtraColumns "Customising extra columns"
+	{
+		// ec825486
+		:00_Current "Customising extra columns"
+	}
+	CustomisingWorkflow "Customising workflow"
+	{
+		// c0a618fc
+		:00_Current "Customising workflow"
+	}
+	DeletingBugs "Deleting bugs"
+	{
+		// df3eadc9
+		:00_Current "Deleting bugs"
+	}
+	Description NLocalize/NShared/Description
+	{
+		// 01ee4570
+		:00_Current "Description"
+	}
+	EditReportTemplates "Report editing (other peoples)"
+	{
+		// 1562163d
+		:00_Current "Report editing (other peoples)"
+	}
+	EditingComments "Editing comments"
+	{
+		// 9c408c96
+		:00_Current "Editing comments"
+	}
+	EditingDataInColumnX "Editing data in column {0}"
+	{
+		// d085ad27
+		// 0 text - Column name
+		:00_Current "Editing data in column {0}"
+	}
+	EditingDetailedDescription "Editing detailed description"
+	{
+		// 9bd7cf50
+		:00_Current "Editing detailed description"
+	}
+	EditingStepsToReproduce "Editing steps to reproduce"
+	{
+		// 31dffe6b
+		:00_Current "Editing steps to reproduce"
+	}
+	EmailSettings "E-mail settings"
+	{
+		// 6eba4185
+		:00_Current "E-mail settings"
+	}
+	ExportingDataXMLXLSEtc "Exporting data (XML/XLS etc.)"
+	{
+		// 2c5a704a
+		:00_Current "Exporting data (XML/XLS etc.)"
+	}
+	FailedToReadTemporaryScreenshot NLocalize/NShared/FailedToReadTemporaryScreenshot
+	{
+		// fa1f5291
+		:00_Current "Failed to read temporary screenshot"
+	}
+	FailedToWriteTemporaryScreenshotFileToX "Failed to write temporary screenshot file to {0}."
+	{
+		// 5e2a2f9b
+		// 0 text - File path to screenshot file
+		:00_Current "Failed to write temporary screenshot file to {0}."
+	}
+	ImportingDataXML "Importing data (XML)"
+	{
+		// c52e2550
+		:00_Current "Importing data (XML)"
+	}
+	NotMyWork " (not To do list)"
+	{
+		// 19072fe6
+		:00_Current " (not To do list)"
+	}
+	OverridingWorkflow "Overriding workflow"
+	{
+		// 69481620
+		:00_Current "Overriding workflow"
+	}
+	PleaseWaitUntilTheDocumentListHasFinished NLocalize/NShared/PleaseWaitUntilTheDocumentListHasFinishedUpdating
+	{
+		// 573fb869
+		:00_Current "Please wait until the document list has finished updating"
+	}
+	RuleNotValidColumnPartHasBeenDeleted "< Rule not valid (column/part has been deleted >"
+	{
+		// 9aff4817
+		:00_Current "< Rule not valid (column/part has been deleted >"
+	}
+	SharingReportTemplates "Report sharing"
+	{
+		// 511489c3
+		:00_Current "Report sharing"
+	}
+	ThereIsARuleRestrictingYouFromX "There is a rule restricting you from '{0}'"
+	{
+		// 4aaba950
+		// 0 text - Name of access rule that restricts user
+		:00_Current "There is a rule restricting you from '{0}'"
+	}
+	ThisItemHasNotBeenAssignedAIDYetFromTheServer NLocalize/NShared/ThisItemHasNotBeenAssignedAIDYetFromTheServerThe
+	{
+		// 8b0adf14
+		:00_Current "This item has not been assigned a ID yet from the server.\n"\
+		            "\n"\
+		            "The ID is needed to store the files properly. Please wait and try again later."
+	}
+	UndoRedoHasBeenResetDueToDetailedRestriction "Undo/redo has been reset due to detailed restriction rules being added that affects you"
+	{
+		// d0014a78
+		:00_Current "Undo/redo has been reset due to detailed restriction rules being added that affects you"
+	}
+	UsingTheScreenshotTool "Using the screenshot tool"
+	{
+		// 4fbdfe8f
+		:00_Current "Using the screenshot tool"
+	}
+	YouDoNotHaveAnyPermissionToReportNewBugsPlease NLocalize/NShared/YouDoNotHaveAnyPermissionToReportNewBugsPlease
+	{
+		// 3bea04d6
+		:00_Current "You do not have any permission to report new bugs. Please check the bug workflow."
+	}
+}
+namespace NDetailedAccessAndRestrictionRules
+// Detailed access and restriction rules dialog
+// QA sections, More..>Customisations and settings>Detailed access and restriction rules
+{
+	Affecting "Affecting"
+	{
+		// a4855c43
+		:00_Current "Affecting"
+	}
+	AllProjectMembers NLocalize/NShared/AllProjectMembers
+	{
+		// 38d3e9f7
+		:00_Current "All project members"
+	}
+	AreYouSureYouWantToDeleteThisRule NLocalize/NShared/AreYouSureYouWantToDeleteThisRule
+	{
+		// c8fedc8d
+		:00_Current "Are you sure you want to delete this rule?"
+	}
+	Cancel NLocalize/NShared/Cancel2
+	{
+		// c48196a2
+		:00_Current "Cancel"
+	}
+	CreateRule NLocalize/NShared/CreateRule
+	{
+		// b97c5048
+		:00_Current "Create rule"
+	}
+	CreateRulesThatGiveOrRestrictAccessToColumns "Create rules that give or restrict access to columns, deletion, comments, documents etc."
+	{
+		// 37837bbe
+		:00_Current "Create rules that give or restrict access to columns, deletion, comments, documents etc."
+	}
+	CreatedBy NLocalize/NShared/CreatedBy
+	{
+		// 4b70a58f
+		:00_Current "Created by"
+	}
+	DeleteRule "Delete rule"
+	{
+		// 7ceae987
+		:00_Current "Delete rule"
+	}
+	DetailedAccessAndRestrictionRules NLocalize/NShared/DetailedAccessAndRestrictionRules
+	{
+		// d3ed527e
+		:00_Current "Detailed access and restriction rules"
+	}
+	EditRule NLocalize/NShared/EditRule
+	{
+		// a033c5fa
+		:00_Current "Edit rule"
+	}
+	GiveAccessTo "Give access to "
+	{
+		// af7a657c
+		:00_Current "Give access to "
+	}
+	HideBugsFromResourcesBySelectingDropListItem "Hide bugs from users by selecting drop list item "
+	{
+		// 8671bd6f
+		:00_Current "Hide bugs from users by selecting drop list item "
+	}
+	Ok NLocalize/NShared/Ok2
+	{
+		// ab9963f6
+		:00_Current "Ok"
+	}
+	ResourceDeleted "< User deleted >"
+	{
+		// 91de5b1b
+		:00_Current "< User deleted >"
+	}
+	RestrictAccessFrom "Restrict access from "
+	{
+		// 1effa7d2
+		:00_Current "Restrict access from "
+	}
+	RuleDescription "Rule description"
+	{
+		// c35e5e78
+		:00_Current "Rule description"
+	}
+	RulesAreAppliedGloballyForThisProjectAnd "Rules are applied globally for this project and affects both Quality Assurance and To do list."
+	{
+		// ba82e85d
+		:00_Current "Rules are applied globally for this project and affects both Quality Assurance and To do list."
+	}
+	namespace NCreateRule
+    // Create new rule dialog
+    // QA sections, More..>Customisations and settings>Detailed access and restriction rules, Create new rule
+	{
+		AddResources NLocalize/NShared/AddResources
+		{
+			// ff2f8c49
+			:00_Current "Add users"
+		}
+		Both NLocalize/NShared/Both
+		{
+			// 7221bb92
+			:00_Current "Both"
+		}
+		Cancel NLocalize/NShared/Cancel2
+		{
+			// 82d3678b
+			:00_Current "Cancel"
+		}
+		ClickHereToSelectResourcesOrGroups "Click here to select users or groups"
+		{
+			// d4b240ce
+			:00_Current "Click here to select users or groups"
+		}
+		ClickToSelect NLocalize/NShared/ClickToSelect
+		{
+			// b9b9698e
+			:00_Current "-- Click to select --"
+		}
+		ColumnsAndOtherPartsOfHansoftAffectedByThis "Columns and other parts of Hansoft affected by this rule:"
+		{
+			// 229d0c32
+			:00_Current "Columns and other parts of Hansoft affected by this rule:"
+		}
+		CreateNewRule "Create new rule"
+		{
+			// c997815b
+			:00_Current "Create new rule"
+		}
+		DataPartOfHansoft "Data / part of Hansoft"
+		{
+			// e7cf141e
+			:00_Current "Data / part of Hansoft"
+		}
+		DropListColumnItemThatWillHideBugsFrom "Drop list column item that will hide bugs from users:"
+		{
+			// b9b1b77b
+			:00_Current "Drop list column item that will hide bugs from users:"
+		}
+		EditRule NLocalize/NShared/EditRule
+		{
+			// 3a3d7523
+			:00_Current "Edit rule"
+		}
+		GiveAccessTo "Give access to.."
+		{
+			// 87a98125
+			:00_Current "Give access to.."
+		}
+		HideBugsFrom "Hide bugs from.."
+		{
+			// cff21064
+			:00_Current "Hide bugs from.."
+		}
+		No NLocalize/NShared/No
+		{
+			// ee3d2842
+			:00_Current "No"
+		}
+		NoCustomColumnDropListsHaveBeenCreated "< No custom column drop lists have been created >"
+		{
+			// 01947de5
+			:00_Current "< No custom column drop lists have been created >"
+		}
+		Ok NLocalize/NShared/Ok2
+		{
+			// ee3d285f
+			:00_Current "Ok"
+		}
+		PleaseSelectTheResourceOrGroupsAffectedByThis "Please select the user or groups affected by this rule."
+		{
+			// 08d35c6e
+			:00_Current "Please select the user or groups affected by this rule."
+		}
+		RemoveResources NLocalize/NShared/RemoveResources
+		{
+			// 311c518e
+			:00_Current "Remove users"
+		}
+		ResourceOrGroupsAffectedByThisRule "User or groups affected by this rule"
+		{
+			// b75ef84b
+			:00_Current "User or groups affected by this rule"
+		}
+		RestrictAccessFrom "Restrict access from.."
+		{
+			// 54091e3b
+			:00_Current "Restrict access from.."
+		}
+		RuleAffecting "Rule affecting"
+		{
+			// a64bed24
+			:00_Current "Rule affecting"
+		}
+		RuleType "Rule type:"
+		{
+			// 5c2481ff
+			:00_Current "Rule type:"
+		}
+		SelectACustomDropListItem "Select a custom drop list item"
+		{
+			// 593b6ca1
+			:00_Current "Select a custom drop list item"
+		}
+		ThisRuleWillAffectTheseResourcesAndGroups "This rule will affect these users and groups:"
+		{
+			// 7d2943bd
+			:00_Current "This rule will affect these users and groups:"
+		}
+		ToAddResourcesToThisRuleClickHere "To add users to this rule click here:"
+		{
+			// 283f8649
+			:00_Current "To add users to this rule click here:"
+		}
+		ToRemoveResourcesFromThisRuleClickHere "To remove users from this rule click here:"
+		{
+			// 2c46cfdf
+			:00_Current "To remove users from this rule click here:"
+		}
+		Yes NLocalize/NShared/Yes
+		{
+			// b5e25e76
+			:00_Current "Yes"
+		}
+		YesNo NLocalize/NShared/YesNo
+		{
+			// b7f3de73
+			:00_Current "Yes/No"
+		}
+		YouMustHaveALeastOneResourceOrGroup "You must have a least one user or group"
+		{
+			// da511701
+			:00_Current "You must have a least one user or group"
+		}
+		YouMustSelectATypeForThisRule "You must select a type for this rule"
+		{
+			// f1324925
+			:00_Current "You must select a type for this rule"
+		}
+		YouMustSelectAValidCustomColumnDropListItem "You must select a valid custom column drop list item"
+		{
+			// 462d6825
+			:00_Current "You must select a valid custom column drop list item"
+		}
+		YouMustSelectAtLeastSomeDataOrPartsInHansoft "You must select at least some data or parts in Hansoft"
+		{
+			// b244c9fc
+			:00_Current "You must select at least some data or parts in Hansoft"
+		}
+	}
+}
+namespace NTopWindow
+// Labels shown in top part of QA section
+{
+	AllBugsInThisProject "All bugs in this project"
+	{
+		// 031f2fd5
+		:00_Current "All bugs in this project"
+	}
+	And NLocalize/NShared/And2
+	{
+		// c62afa98
+		:00_Current "and"
+	}
+	AssignedToMe "Assigned to me"
+	{
+		// c0c017e8
+		:00_Current "Assigned to me"
+	}
+	BrowseThroughBugStatusesAndMore "Browse through statuses and more.."
+	{
+		// 92e40a78
+		:00_Current "Browse through statuses and more.."
+	}
+	BugStatus "Status {0}"
+	{
+		// ecd0fa67
+		// 0 text
+		:00_Current "Status {0}"
+	}
+	ClickHereToCloseTheReportAndRestoreTheView NLocalize/NShared/ClickHereToCloseTheReportAndRestoreTheView
+	{
+		// cffebf98
+		:00_Current "Close"
+	}
+	ConditionWithXFound "{0} ({1})"
+	{
+		// d6a0781c
+		// 0 text
+		// 1 integer
+		:00_Current "{0} ({1})"
+	}
+	ErrorInReportQuery NLocalize/NShared/ErrorInReportQuery
+	{
+		// fe379bf8
+		:00_Current "Error in report query: "
+	}
+	FindAndEditBugsRelatedToThisProject "Find and edit bugs related to this project"
+	{
+		// 327853c3
+		:00_Current "Find and edit bugs related to this project"
+	}
+	FindByKeywords NLocalize/NShared/FindByKeywords
+	{
+		// 812f21d9
+		:00_Current "Find by keywords"
+	}
+	ReportX "Report '{0}'"
+	{
+		// 8a8e1a19
+		// 0 text - Name of report (text shown when report is active)
+		:00_Current "Report '{0}'"
+	}
+	ReportedByMe "Reported by me"
+	{
+		// 594a3257
+		:00_Current "Reported by me"
+	}
+	ViewBugs "View {0} bugs"
+	{
+		// a80f5d51
+		// 0 text
+		:00_Current "View {0} bugs"
+	}
+	ViewBugsAssignedToMe "View bugs assigned to me"
+	{
+		// dd2bd994
+		:00_Current "View bugs assigned to me"
+	}
+	ViewBugsReportedByMe "View bugs reported by me"
+	{
+		// 75b5f403
+		:00_Current "View bugs reported by me"
+	}
+}
+namespace NViewSetup
+{
+	PleaseWaitUntilAllChangesHasBeenSentToThe "Please wait until all changes have been sent to the project server"
+	{
+		// ff1ca847
+		:00_Current "Please wait until all changes have been sent to the project server"
+	}
+}
+namespace NWorkflow
+// Customise bug workflow for Agile Project dialog
+// QA section, More..>Customisations and settings>Customise bug workflow
+{
+	Delete NLocalize/NShared/Delete
+	{
+		// b0cd9468
+		:00_Current "Delete"
+	}
+	DeleteConnection NLocalize/NShared/DeleteConnection
+	{
+		// b6e2afd8
+		:00_Current "Delete connection"
+	}
+	Disconnect NLocalize/NShared/Disconnect
+	{
+		// 6fd2c2ff
+		:00_Current "Disconnect"
+	}
+	DoYouWantToSaveYourChangesAndUpdateItemsBefore "Do you want to save your changes and update items before closing?\n"\
+	                                               "\n"\
+	                                               "If you choose to save you cannot undo the action later."
+	{
+		// 1f4074e4
+		:00_Current "Do you want to save your changes and update items before closing?\n"\
+		            "\n"\
+		            "If you choose to save you cannot undo the action later."
+	}
+	DoYouWantToSaveYourChangesBeforeClosingIfYou "Do you want to save your changes before closing?\n"\
+	                                             "\n"\
+	                                             "If you choose to save you cannot undo the action later."
+	{
+		// 8ed8d6c7
+		:00_Current "Do you want to save your changes before closing?\n"\
+		            "\n"\
+		            "If you choose to save you cannot undo the action later."
+	}
+	Edit NLocalize/NShared/Edit
+	{
+		// 363b7d1b
+		:00_Current "Edit"
+	}
+	InAPipelineYouAreNotAllowedToConnectXToXIfX "In a pipeline you are not allowed to connect '{0}' to '{1}' if '{2}' already is connected to '{3}'."
+	{
+		// 5cfeda78
+		// 0 text - Name of first pipeline step (cannot connect pipeline steps, no loops allowed)
+		// 1 text - Name of second pipeline step
+		// 2 text - Name of first pipeline step
+		// 3 text - Name of second pipeline step
+		:00_Current "In a pipeline you are not allowed to connect '{0}' to '{1}' if '{2}' already is connected to '{3}'."
+	}
+	ItemStatusX "* Status: {0}"
+	{
+		// aef0a2e0
+		// 0 text - Name of status that will be auto set when this workflow status is reached (in workflow status in edit workflow window)
+		:00_Current "* Status: {0}"
+	}
+	ScheduledDurationXD "* Scheduled duration: {0,fe2}d"
+	{
+		// 687e4b08
+		// 0 decimal - Scheduled duration that will be auto set when this pipeline task is reached (in pipeline task in edit pipeline window)
+		:00_Current "* Scheduled duration: {0,fe2}d"
+	}
+	ThisIsTheEntryPointOfTheWorkflowAndMustBe "This is the entry point of the workflow and must be connected to a status, not a transition."
+	{
+		// 5175685a
+		:00_Current "This is the entry point of the workflow and must be connected to a status, not a transition."
+	}
+	ThisIsTheEntryPointOfTheWorkflowPipelineAndCan "This is the entry point of the workflow/pipeline and can only be connect to one status/task."
+	{
+		// a47cddb2
+		:00_Current "This is the entry point of the workflow/pipeline and can only be connect to one status/task."
+	}
+	ThisIsTheEntryPointOfTheWorkflowPipelineAndYou "This is the entry point of the workflow/pipeline and you cannot connect anything to it (just from it)."
+	{
+		// a47d3d1d
+		:00_Current "This is the entry point of the workflow/pipeline and you cannot connect anything to it (just from it)."
+	}
+	WorkRemainingXH "* Work remaining: {0,fe0,fn2}h"
+	{
+		// 1adf0d12
+		// 0 decimal - Work remaining that will be auto set when this pipeline task is reached (in pipeline task in edit pipeline window)
+		:00_Current "* Work remaining: {0,fe0,fn2}h"
+	}
+	namespace NApplyWindow
+	{
+		DeleteDoNotUpdateAnyItems "Do not update any items"
+		{
+			// d1ca0cd4
+			:00_Current "Do not update any items"
+		}
+		DeleteThisAndUpdateItems NLocalize/NShared/DeleteThisAndUpdateItems
+		{
+			// 0ac328b3
+			:00_Current "Delete this and update items..."
+		}
+		DeleteThisAndUpdateItems2 NLocalize/NShared/DeleteThisAndUpdateItems
+		{
+			// 63283f45
+			:00_Current "Delete this and update items..."
+		}
+		DeleteUpdateAllExistingItems "Update all existing items after deletion"
+		{
+			// d0b5ad8c
+			:00_Current "Update all existing items after deletion"
+		}
+		DeleteUpdateItemsSelected "Update items selected in the project after deletion"
+		{
+			// 415bbaf1
+			:00_Current "Update items selected in the project after deletion"
+		}
+		ItemName NLocalize/NShared/ItemName
+		{
+			// d47b1f20
+			:00_Current "Item name"
+		}
+		MaximizesTheFindWindow NLocalize/NShared/MaximisesTheFindWindow
+		{
+			// 47693661
+			:00_Current "Maximises the find window"
+		}
+		MinimizesTheFindWindow NLocalize/NShared/MinimisesTheFindWindow
+		{
+			// d6493a9f
+			:00_Current "Minimises the find window"
+		}
+		NoName NLocalize/NShared/NoName
+		{
+			// f2c5920e
+			:00_Current "(No name)"
+		}
+		OnlyUseThisOnNewItems "Only use this on new items"
+		{
+			// 238b70c0
+			:00_Current "Only use this on new items"
+		}
+		PopupDeleteItemQuestion "Are you sure you want to delete this pipeline / kanban?\n"\
+		                        "\n"\
+		                        "This operation cannot be undone."
+		{
+			// e5e0a19e
+			:00_Current "Are you sure you want to delete this pipeline / kanban?\n"\
+			            "\n"\
+			            "This operation cannot be undone."
+		}
+
+		PopupSaveThisAndUpdateItemsQuestion "Are you sure you want to update all existing items?\n"\
+		                                    "\n"\
+		                                    "This action cannot be undone.\n"\
+		                                    "\n"\
+		                                    "Please notice that User assignments, Work remaining, Scheduling connections and Scheduled duration will not be updated on existing pipeline tasks."
+		{
+			// 58ff145b
+			:00_Current "Are you sure you want to update all existing items?\n"\
+			            "\n"\
+			            "This action cannot be undone.\n"\
+			            "\n"\
+			            "Please notice that User assignments, Work remaining, Scheduling connections and Scheduled duration will not be updated on existing pipeline tasks."
+		}
+		PopupSaveThisAndUpdateItemsQuestionSelected "Are you sure you want to update selected items?\n"\
+		                                            "\n"\
+		                                            "This action cannot be undone.\n"\
+		                                            "\n"\
+		                                            "Please notice that User assignments, Work remaining, Scheduling connections and Scheduled duration will not be updated on existing pipeline tasks."
+		{
+			// 046a4fa4
+			:00_Current "Are you sure you want to update selected items?\n"\
+			            "\n"\
+			            "This action cannot be undone.\n"\
+			            "\n"\
+			            "Please notice that User assignments, Work remaining, Scheduling connections and Scheduled duration will not be updated on existing pipeline tasks."
+		}
+		PopupSaveThisAndUpdateItemsTitle "Save this and update items"
+		{
+			// a9c096e5
+			:00_Current "Save this and update items"
+		}
+		PreviewOfUpdatedItems "Preview of items which will be updated (double click to locate):"
+		{
+			// 74046190
+			:00_Current "Preview of items which will be updated (double click to locate):"
+		}
+		SaveThisAndUpdateItems "Save this and update items..."
+		{
+			// 9c9d3fcf
+			:00_Current "Save this and update items..."
+		}
+		SaveThisAndUpdateItems2 "Save this and update items..."
+		{
+			// 304539e1
+			:00_Current "Save this and update items..."
+		}
+		UpdateAllExistingItems "Update all existing items"
+		{
+			// 371745b9
+			:00_Current "Update all existing items"
+		}
+		UpdateOnlyItemsSelectedInProject "Update only items selected in the project"
+		{
+			// 0fe5442e
+			:00_Current "Update only items selected in the project"
+		}
+		UsePipelineAndUpdatedItemsWindowIsMinimized "Use pipeline and updated items window is minimised"
+		{
+			// 493e9389
+			:00_Current "Use pipeline and updated items window is minimised"
+		}
+	}
+	namespace NEditBugState
+    // Edit bug status dialog
+    // QA section, More..>Customisations and settings>Customise bug workflow, Edit
+	{
+		AddResources NLocalize/NShared/AddResources
+		{
+			// a14690bb
+			:00_Current "Add users"
+		}
+		AdditionalOptions "Additional options:"
+		{
+			// e19b395c
+			:00_Current "Additional options:"
+		}
+		AllowReassigningInMyWork "Allow reassigning in To do list (overrides rules)"
+		{
+			// f25e3e10
+			:00_Current "Allow reassigning in To do list (overrides rules)"
+		}
+		AssignToResourcesGroups NLocalize/NShared/AssignToResourcesGroups
+		{
+			// d9b7afba
+			:00_Current " Assign to users/groups"
+		}
+		AssignToTheseResources "Assign to:"
+		{
+			// d4f40593
+			:00_Current "Assign to:"
+		}
+		Assigned NLocalize/NShared/Assigned
+		{
+			// feaa3a65
+			:00_Current "Assigned"
+		}
+		BlueBox NLocalize/NShared/BlueBox
+		{
+			// d0220088
+			:00_Current "Blue box"
+		}
+		Both NLocalize/NShared/Both
+		{
+			// 343c6e04
+			:00_Current "Both"
+		}
+		Cancel NLocalize/NShared/Cancel2
+		{
+			// 36647e7d
+			:00_Current "Cancel"
+		}
+		CannotSetNoResourceWhenSelectingAResourceIn "Cannot set 'Not assigned' when assigning to someone in this status"
+		{
+			// 47d1753b
+			:00_Current "Cannot set 'Not assigned' when assigning to someone in this status"
+		}
+		Check NLocalize/NShared/Check
+		{
+			// bbd83055
+			:00_Current "Done"
+		}
+		ClickToSelect " Click to select"
+		{
+			// 9eb0fc40
+			:00_Current " Click to select"
+		}
+		ClickToSelect2 NLocalize/NShared/ClickToSelect2
+		{
+			// 74d08472
+			:00_Current "Click to select"
+		}
+		ClickToSelectIcon " Click to select icon"
+		{
+			// 4b7ed7c9
+			:00_Current " Click to select icon"
+		}
+		Closed NLocalize/NShared/Closed
+		{
+			// 372c5c71
+			:00_Current "Closed"
+		}
+		CommentNew NLocalize/NShared/CommentNew
+		{
+			// 2e0153f4
+			:00_Current "Comment (new)"
+		}
+		DataMustBeFilledIn NLocalize/NShared/DataMustBeFilledIn
+		{
+			// 3d23fec8
+			:00_Current "Data must be filled in"
+		}
+		DetailedDescription NLocalize/NShared/DetailedDescription
+		{
+			// bcde98f7
+			:00_Current "Detailed description"
+		}
+		EditBugStatus "Edit status"
+		{
+			// 604de2bf
+			:00_Current "Edit status"
+		}
+		EditWorkflowStatus NLocalize/NShared/EditWorkflowStatus
+		{
+			// a23a64fc
+			:00_Current "Edit workflow status"
+		}
+		EmailNotificationsTo NLocalize/NShared/EMailNotificationsTo
+		{
+			// dd5f449c
+			:00_Current "E-mail notifications to"
+		}
+		Fixed "Fixed"
+		{
+			// bc0f5747
+			:00_Current "Fixed"
+		}
+		GreenBox NLocalize/NShared/GreenBox
+		{
+			// 1a4d7cf1
+			:00_Current "Green box"
+		}
+		HideInMyWork "Hide in To do list (use in end of workflow for clean up)"
+		{
+			// 90cdf671
+			:00_Current "Hide in To do list (use in end of workflow for clean up)"
+		}
+		Hours NLocalize/NShared/Hours2
+		{
+			// bc36c788
+			:00_Current "hours"
+		}
+		Icon NLocalize/NShared/Icon
+		{
+			// 34401100
+			:00_Current "Icon"
+		}
+		IncludingOriginalCreatorReporter "Including original creator/reporter"
+		{
+			// afc0ec0c
+			:00_Current "Including original creator/reporter"
+		}
+		MagentaBox NLocalize/NShared/MagentaBox
+		{
+			// 1ba0519d
+			:00_Current "Magenta box"
+		}
+		MandatoryDataFields "Mandatory data fields:"
+		{
+			// 9e2e3917
+			:00_Current "Mandatory data fields:"
+		}
+		NameAndIcon "Name and icon:"
+		{
+			// 3a302b34
+			:00_Current "Name and icon:"
+		}
+		New NLocalize/NShared/New
+		{
+			// 09575be1
+			:00_Current "New"
+		}
+		No NLocalize/NShared/No
+		{
+			// f0c49634
+			:00_Current "No"
+		}
+		NotSet NLocalize/NShared/NotSet2
+		{
+			// 510d9ab4
+			:00_Current "Not set"
+		}
+		NotificationsTo NLocalize/NShared/NotificationsTo
+		{
+			// ffb4d894
+			:00_Current "Notifications to"
+		}
+		Ok NLocalize/NShared/Ok2
+		{
+			// f0c49651
+			:00_Current "Ok"
+		}
+		OrangeBox NLocalize/NShared/OrangeBox
+		{
+			// e889e35c
+			:00_Current "Orange box"
+		}
+		ProgressBox "Progress box"
+		{
+			// f326e315
+			:00_Current "Progress box"
+		}
+		RedBox NLocalize/NShared/RedBox
+		{
+			// 59a43b1b
+			:00_Current "Red box"
+		}
+		RedCircle NLocalize/NShared/RedCircle
+		{
+			// c9742804
+			:00_Current "Not done"
+		}
+		RemoveResources NLocalize/NShared/RemoveResources
+		{
+			// 324358c0
+			:00_Current "Remove users"
+		}
+		Reopen NLocalize/NShared/ReOpen
+		{
+			// 59ab05a0
+			:00_Current "Re-open"
+		}
+		SelectNoStatus NLocalize/NShared/SelectNoStatus
+		{
+			// d77c29b8
+			:00_Current "None"
+		}
+		SendEmailNotificationsTo "Send e-mail notifications to:"
+		{
+			// 5b3540c6
+			:00_Current "Send e-mail notifications to:"
+		}
+		SetItemStatusOnThisItemTo "Set status on the item to:"
+		{
+			// 5dfc72bd
+			:00_Current "Set status on the item to:"
+		}
+		SetTheItemToCompletedOnScheduledOrAgileItems "Set the item to Completed on scheduled or agile items"
+		{
+			// 4a63a126
+			:00_Current "Set the item to Completed on scheduled or agile items"
+		}
+		SetWorkRemainingOnTheBugTo "Set work remaining on the bug to:"
+		{
+			// 46cb7a1f
+			:00_Current "Set work remaining on the bug to:"
+		}
+		SetWorkRemainingOnTheItemTo "Set work remaining on the item to:"
+		{
+			// 307c1070
+			:00_Current "Set work remaining on the item to:"
+		}
+		Step NLocalize/NShared/Step
+		{
+			// 3445d3d3
+			:00_Current "Step"
+		}
+		StepsToReproduce NLocalize/NShared/StepsToReproduce
+		{
+			// 498fd172
+			:00_Current "Steps to reproduce"
+		}
+		TheNameOfTheStatusMustBeAtLeast2CharactersLong "The name of the status must be at least 2 characters long!"
+		{
+			// 4cbea5d3
+			:00_Current "The name of the status must be at least 2 characters long!"
+		}
+		ThisStatusIsUnpublishedItCannotBeFoundWhen "This status is unpublished, it cannot be found when searching all bugs"
+		{
+			// 33dda3a7
+			:00_Current "This status is unpublished, it cannot be found when searching all bugs"
+		}
+		ToEmailNotifyAResourceGroupClickHere NLocalize/NShared/ToEMailNotifyAResourceGroupClickHere
+		{
+			// 054ebcfb
+			:00_Current "To e-mail notify a user/group click here:"
+		}
+		ToRemoveEmailNotificationClickHere NLocalize/NShared/ToRemoveEMailNotificationClickHere
+		{
+			// 20d0ed81
+			:00_Current "To remove e-mail notification click here:"
+		}
+		UserStory NLocalize/NShared/UserStory
+		{
+			// cb930337
+			:00_Current "User story"
+		}
+		Verified NLocalize/NShared/Verified
+		{
+			// 280b9405
+			:00_Current "Verified"
+		}
+		WhenABugReachesThisStatusExtraEmail "When a bug reaches this status extra e-mail notifications can be sent out to a set of users/groups."
+		{
+			// dc39e94b
+			:00_Current "When a bug reaches this status extra e-mail notifications can be sent out to a set of users/groups."
+		}
+		WhenAssignedToSomeoneGoTo "When assigned to someone go to:"
+		{
+			// 308c6f29
+			:00_Current "When assigned to someone go to:"
+		}
+		WhenItemStatusChangesGoTo "When status changes to:"
+		{
+			// 7242172e
+			:00_Current "When status changes to:"
+		}
+		WhenReachingThisStatus "When reaching this status:"
+		{
+			// 5a665226
+			:00_Current "When reaching this status:"
+		}
+		WhenSetToBlockedGoTo "Blocked go to:"
+		{
+			// 1136a9c5
+			:00_Current "Blocked go to:"
+		}
+		WhenSetToCompletedGoTo "Completed go to:"
+		{
+			// cede218e
+			:00_Current "Completed go to:"
+		}
+		WhenSetToInProgressGoTo "In Progress go to:"
+		{
+			// 80857dfd
+			:00_Current "In Progress go to:"
+		}
+		WhenSetToNotDoneGoTo "Not Done go to:"
+		{
+			// 511dc328
+			:00_Current "Not Done go to:"
+		}
+		WhenSetToToBeDeletedGoTo "To Be Deleted go to:"
+		{
+			// 01affc92
+			:00_Current "To Be Deleted go to:"
+		}
+		WhiteBox NLocalize/NShared/WhiteBox
+		{
+			// e7038e21
+			:00_Current "White box"
+		}
+		X " {0}"
+		{
+			// b1f6712f
+			// 0 text - Name of workflow status or status
+			:00_Current " {0}"
+		}
+		YellowBox NLocalize/NShared/YellowBox
+		{
+			// c0bf6bdc
+			:00_Current "Yellow box"
+		}
+		Yes NLocalize/NShared/Yes
+		{
+			// 09578aa8
+			:00_Current "Yes"
+		}
+		YesNo NLocalize/NShared/YesNo
+		{
+			// bd64df25
+			:00_Current "Yes/No"
+		}
+		namespace NAssignToResources
+        // Assign to users dialog
+        // QA section, More..>Customisations and settings>Customise bug workflow, Edit, Assign to users
+		{
+			AddResources NLocalize/NShared/AddResources
+			{
+				// e3b48c5b
+				:00_Current "Add users"
+			}
+			AssignToOriginalReporterCreator "Assign to original reporter/creator"
+			{
+				// 0821a5b7
+				:00_Current "Assign to original reporter/creator"
+			}
+			AssignToResources "Assign to"
+			{
+				// 548faf1a
+				:00_Current "Assign to"
+			}
+			AssignToResourcesAndGroups "Assign to users and groups"
+			{
+				// 5f453e6d
+				:00_Current "Assign to users and groups"
+			}
+			AssignToResourcesThatWasAssignedInThisWorkflow "Assign to them who were assigned in workflow status:"
+			{
+				// 8bbdbc0e
+				:00_Current "Assign to them who were assigned in workflow status:"
+			}
+			AssignToTheseResourcesAndGroups "Assign to:"
+			{
+				// ca2c04a6
+				:00_Current "Assign to:"
+			}
+			AutoAssignTo "Auto assign to"
+			{
+				// 00d22618
+				:00_Current "Auto assign to"
+			}
+			Cancel NLocalize/NShared/Cancel2
+			{
+				// c366421d
+				:00_Current "Cancel"
+			}
+			Ok NLocalize/NShared/Ok2
+			{
+				// 8d3589f1
+				:00_Current "Ok"
+			}
+			RemoveAllResources "Remove all"
+			{
+				// b32c5539
+				:00_Current "Remove all"
+			}
+			RemoveResources NLocalize/NShared/RemoveResources
+			{
+				// 838b3060
+				:00_Current "Remove users"
+			}
+			SelectAWorkflowStatus " Select a workflow status"
+			{
+				// d82cfa17
+				:00_Current " Select a workflow status"
+			}
+			SelectNoStatus NLocalize/NShared/SelectNoStatus
+			{
+				// 6d578d58
+				:00_Current "None"
+			}
+			SelectResourcesAndGroups " Select users and groups"
+			{
+				// 6e447e45
+				:00_Current " Select users and groups"
+			}
+			ToAddResourcesToTheItemBugClickHere "To add users to the item/bug click here:"
+			{
+				// d816c8b9
+				:00_Current "To add users to the item/bug click here:"
+			}
+			ToRemoveResourcesFromTheItemBugClickHere "To remove users from the item/bug click here:"
+			{
+				// 93c3030f
+				:00_Current "To remove users from the item/bug click here:"
+			}
+			WhenThisWorkflowStatusIsSetOnAnItemBugTheItem "When this workflow status is set on an item/bug the item/bug itself can be assigned to users and groups."
+			{
+				// 6f4c7631
+				:00_Current "When this workflow status is set on an item/bug the item/bug itself can be assigned to users and groups."
+			}
+		}
+	}
+	namespace NEditPipelineStatus
+    // Edit workflow status dialog
+    // More..>Pipelines, Kanbans and Workflows, Pipelines, Kanbans and Workflows..., Edit Pipeline or Kanban, Edit Pipeline status
+	{
+		AdditionalOptions "When task can start:"
+		{
+			// 3b8219f7
+			:00_Current "When task can start:"
+		}
+		ApplyAndusePipelineKanbanWorkflow "Apply and use pipeline, kanban or workflow type:"
+		{
+			// 0b3a5634
+			:00_Current "Apply and use pipeline, kanban or workflow type:"
+		}
+		AssignResourcesGroupsToThisStatus "Assign users/groups to this status:"
+		{
+			// 81098e91
+			:00_Current "Assign users/groups to this status:"
+		}
+		AssignToResources "Assign to:"
+		{
+			// ebda5015
+			:00_Current "Assign to:"
+		}
+		AssignToResourcesGroups NLocalize/NShared/AssignToResourcesGroups
+		{
+			// 18c95895
+			:00_Current " Assign to users/groups"
+		}
+		AssignToTheResourceWhoSelectedTheWorkflow "Assign to the user who selected the workflow"
+		{
+			// 582bda16
+			:00_Current "Assign to the user who selected the workflow"
+		}
+		BeforeProceedingFromThisWorkflowStatusToThe "Before proceeding from this workflow status to the next, this data must be filled in:"
+		{
+			// 075ce9b4
+			:00_Current "Before proceeding from this workflow status to the next, this data must be filled in:"
+		}
+		BlueBox NLocalize/NShared/BlueBox
+		{
+			// 326b5363
+			:00_Current "Blue box"
+		}
+		Both NLocalize/NShared/Both
+		{
+			// bbd436bf
+			:00_Current "Both"
+		}
+		BrokenDownPipelineTasksAreCompleted "Tasks are completed sequentially instead of parallel"
+		{
+			// afc714bc
+			:00_Current "Tasks are completed sequentially instead of parallel"
+		}
+		BrokenDownTasks "Broken down tasks:"
+		{
+			// 4d20ccf1
+			:00_Current "Broken down tasks:"
+		}
+		Cancel NLocalize/NShared/Cancel2
+		{
+			// 031161f8
+			:00_Current "Cancel"
+		}
+		Check NLocalize/NShared/Check
+		{
+			// 36691070
+			:00_Current "Done"
+		}
+		Comments NLocalize/NShared/Comments
+		{
+			// 4100f6d8
+			:00_Current "Comments"
+		}
+		DataMustBeFilledIn NLocalize/NShared/DataMustBeFilledIn
+		{
+			// d3e6f2c3
+			:00_Current "Data must be filled in"
+		}
+		Days NLocalize/NShared/Days
+		{
+			// bbd514a3
+			:00_Current "days"
+		}
+		DetailedDescription NLocalize/NShared/DetailedDescription
+		{
+			// 2c000c52
+			:00_Current "Detailed description"
+		}
+		DurationForScheduledTasks "Duration for Scheduled tasks:"
+		{
+			// 9aac69d6
+			:00_Current "Duration for Scheduled tasks:"
+		}
+		DurationForScheduledTasksMustBeLargerThanZero "Duration for scheduled tasks must be larger than zero!"
+		{
+			// 9342262e
+			:00_Current "Duration for scheduled tasks must be larger than zero!"
+		}
+		EditPipelineKanbanTask "Edit Pipeline / Kanban task"
+		{
+			// 5edab6ec
+			:00_Current "Edit Pipeline / Kanban task"
+		}
+		EditWorkflowStatus NLocalize/NShared/EditWorkflowStatus
+		{
+			// 38fd58f7
+			:00_Current "Edit workflow status"
+		}
+		EmailNotificationsTo "..."
+		{
+			// 30af2357
+			:00_Current "..."
+		}
+		ExtraEmailNotificationWhenReachingThisStatus "Extra e-mail notification when reaching this status:"
+		{
+			// 33b6bdb4
+			:00_Current "Extra e-mail notification when reaching this status:"
+		}
+		GreenBox NLocalize/NShared/GreenBox
+		{
+			// c5c12b2c
+			:00_Current "Green box"
+		}
+		Hours NLocalize/NShared/Hours2
+		{
+			// 36c7a7a3
+			:00_Current "hours"
+		}
+		Icon NLocalize/NShared/Icon
+		{
+			// bbd7d9bb
+			:00_Current "Icon"
+		}
+		KanbanOptions "Kanban options:"
+		{
+			// e3c936a9
+			:00_Current "Kanban options:"
+		}
+		LetResourcesBreakDownThisPipelineTaskIntoSub "Can be broken down into sub pipeline tasks"
+		{
+			// dc5aab94
+			:00_Current "Can be broken down into sub pipeline tasks"
+		}
+		LetResourcesSelectAndRunAWorkflowOnThis "Can select a workflow on this pipeline task"
+		{
+			// 9a61864b
+			:00_Current "Can select a workflow on this pipeline task"
+		}
+		MagentaBox NLocalize/NShared/MagentaBox
+		{
+			// 72b87a98
+			:00_Current "Magenta box"
+		}
+		MaxDays NLocalize/NShared/Days
+		{
+			// 67a7e6e9
+			:00_Current "days"
+		}
+		MaxDurationForThisTaskSlashTaktTime "Max duration for this task / Takt time:"
+		{
+			// ef98dc4e
+			:00_Current "Max duration for this task / Takt time:"
+		}
+		MaxHours NLocalize/NShared/Hours2
+		{
+			// 5cf4c2a9
+			:00_Current "hours"
+		}
+		MaxItems "items"
+		{
+			// 5d09545a
+			:00_Current "items"
+		}
+		MaxWorkInProgressMustBe "Maximum Work In Progress (WIP) items must be zero or larger than zero!"
+		{
+			// 8e6ed3f7
+			:00_Current "Maximum Work In Progress (WIP) items must be zero or larger than zero!"
+		}
+		MaxWorkInProgressWIPItems "Max Work In Progress (WIP) items:"
+		{
+			// 90705b19
+			:00_Current "Max Work In Progress (WIP) items:"
+		}
+		No NLocalize/NShared/No
+		{
+			// 54ccf42f
+			:00_Current "No"
+		}
+		NotSet NLocalize/NShared/NotSet2
+		{
+			// 1dba7e2f
+			:00_Current "Not set"
+		}
+		Ok NLocalize/NShared/Ok2
+		{
+			// 54ccf44c
+			:00_Current "Ok"
+		}
+		OnThisPipelineTask "Break down options:"
+		{
+			// b40ece30
+			:00_Current "Break down options:"
+		}
+		OnlyRunThisWorkflow "Only run this workflow:"
+		{
+			// c31a2e9c
+			:00_Current "Only run this workflow:"
+		}
+		OrangeBox NLocalize/NShared/OrangeBox
+		{
+			// 027358f7
+			:00_Current "Orange box"
+		}
+		PipelineTaskName "Task name:"
+		{
+			// 299845fc
+			:00_Current "Task name:"
+		}
+		PleaseSelectAnIconFromTheList NLocalize/NShared/PleaseSelectAnIconFromTheList
+		{
+			// d8ac39d5
+			:00_Current "Please select an icon from the list!"
+		}
+		PopupAssignAddResources NLocalize/NShared/AddResources
+		{
+			// 55c81ecf
+			:00_Current "Add users"
+		}
+		PopupAssignAutoAssignTo NLocalize/NShared/AutoAssignedTo
+		{
+			// 72e5b88c
+			:00_Current "Auto assigned to"
+		}
+		PopupAssignRemoveResources NLocalize/NShared/RemoveResources
+		{
+			// 710d1e54
+			:00_Current "Remove users"
+		}
+		PopupAssignTitleResourcesGroups "Auto assign task to users and groups"
+		{
+			// 019ad488
+			:00_Current "Auto assign task to users and groups"
+		}
+		PopupAssignToAutoAssign "To auto assign users to this task click here:"
+		{
+			// 4ae720cc
+			:00_Current "To auto assign users to this task click here:"
+		}
+		PopupAssignToRemoveAutoAssign "To remove auto assign from this task click here:"
+		{
+			// a6df385a
+			:00_Current "To remove auto assign from this task click here:"
+		}
+		PopupAssignWhenThisTaskIsCreated "When this task is created it can be auto assigned to users and groups."
+		{
+			// 35ef295c
+			:00_Current "When this task is created it can be auto assigned to users and groups."
+		}
+		PopupEmailNotificationsAddResources NLocalize/NShared/AddResources
+		{
+			// 8b4b51ec
+			:00_Current "Add users"
+		}
+		PopupEmailNotificationsDescription "When a pipeline / kanban task can start, extra e-mail notifications can be sent out to users and groups."
+		{
+			// f537e02c
+			:00_Current "When a pipeline / kanban task can start, extra e-mail notifications can be sent out to users and groups."
+		}
+		PopupEmailNotificationsNotificationsTo NLocalize/NShared/NotificationsTo
+		{
+			// 4528d825
+			:00_Current "Notifications to"
+		}
+		PopupEmailNotificationsRemoveResources NLocalize/NShared/RemoveResources
+		{
+			// 77b75851
+			:00_Current "Remove users"
+		}
+		PopupEmailNotificationsToEmailNotify NLocalize/NShared/ToEMailNotifyAResourceGroupClickHere
+		{
+			// eb82bfec
+			:00_Current "To e-mail notify a user/group click here:"
+		}
+		PopupEmailNotificationsToRemoveEmailNotify NLocalize/NShared/ToRemoveEMailNotificationClickHere
+		{
+			// 459522fa
+			:00_Current "To remove e-mail notification click here:"
+		}
+		PopupEmailNotificationsToTitle NLocalize/NShared/EMailNotificationsTo
+		{
+			// 48419bad
+			:00_Current "E-mail notifications to"
+		}
+		Progress "Progress"
+		{
+			// 2b8c3547
+			:00_Current "Progress"
+		}
+		RedBox NLocalize/NShared/RedBox
+		{
+			// 26511e96
+			:00_Current "Red box"
+		}
+		RedCircle NLocalize/NShared/RedCircle
+		{
+			// e35d9d9f
+			:00_Current "Not done"
+		}
+		SelectPipelineKanbanOrWorkflow "Select pipeline or workflow"
+		{
+			// 5e44ec0f
+			:00_Current "Select pipeline or workflow"
+		}
+		SelectWorkflow "Select workflow"
+		{
+			// 76267e2d
+			:00_Current "Select workflow"
+		}
+		SetWorkRemainingOnThisStatus "Set work remaining on this status"
+		{
+			// 7956faf4
+			:00_Current "Set work remaining on this status"
+		}
+		StatusIcon "Status icon:"
+		{
+			// 39883d9f
+			:00_Current "Status icon:"
+		}
+		StatusName "Status name:"
+		{
+			// 398af2b7
+			:00_Current "Status name:"
+		}
+		Step NLocalize/NShared/Step
+		{
+			// bbdd9c8e
+			:00_Current "Step"
+		}
+		StepsToReproduce NLocalize/NShared/StepsToReproduce
+		{
+			// 257f8aad
+			:00_Current "Steps to reproduce"
+		}
+		TaktTimeDaysMustBe "Takt time Days must be zero or larger than zero!"
+		{
+			// 57443f96
+			:00_Current "Takt time Days must be zero or larger than zero!"
+		}
+		TaktTimeHoursMustBe "Takt time Hours must be zero or larger than zero!"
+		{
+			// df9a7ef6
+			:00_Current "Takt time Hours must be zero or larger than zero!"
+		}
+		TheNameOfTheItemMustBeAtLeast2CharactersLong NLocalize/NShared/TheNameOfTheItemMustBeAtLeast2CharactersLong
+		{
+			// 26102279
+			:00_Current "The name of the item must be at least 2 characters long!"
+		}
+		ThisPipelineTaskIsLockedForFurtherBreakDownOr "Locked for break down or workflow selection"
+		{
+			// 9ebaac66
+			:00_Current "Locked for break down or workflow selection"
+		}
+		UserStory NLocalize/NShared/UserStory
+		{
+			// e57c78d2
+			:00_Current "User story"
+		}
+		WhenThisPipelineTaskIsCreated "When created new:"
+		{
+			// a9677f99
+			:00_Current "When created new:"
+		}
+		WhiteBox NLocalize/NShared/WhiteBox
+		{
+			// 92773c5c
+			:00_Current "White box"
+		}
+		WorkRemainingForAgileItems "Work remaining for Agile items:"
+		{
+			// a8df6cba
+			:00_Current "Work remaining for Agile items:"
+		}
+		WorkflowOrPipeline "Apply workflow or pipeline:"
+		{
+			// fd541ea4
+			:00_Current "Apply workflow or pipeline:"
+		}
+		X " {0}"
+		{
+			// 311d7bca
+			// 0 text - Name of pipeline
+			:00_Current " {0}"
+		}
+		YellowBox NLocalize/NShared/YellowBox
+		{
+			// daa8e177
+			:00_Current "Yellow box"
+		}
+		Yes NLocalize/NShared/Yes
+		{
+			// ee6ba803
+			:00_Current "Yes"
+		}
+		YesNo NLocalize/NShared/YesNo
+		{
+			// 37f5bf40
+			:00_Current "Yes/No"
+		}
+	}
+
+	namespace NEditTransition
+    // Edit transisition dialog
+    // QA section, More..>Customisations and settings>Customise bug workflow, Edit, edit transition
+	{
+		ATransitionBetweenTwoStatusesCanBeLimitedToA NLocalize/NShared/ATransitionBetweenTwoStatusesCanBeLimitedToASet
+		{
+			// 71ad3694
+			:00_Current "A transition between two statuses can be limited to a set of users and groups."
+		}
+		ActionsEnabledOnPreviousStatus "Actions enabled on previous status:"
+		{
+			// 39f5b5bd
+			:00_Current "Actions enabled on previous status:"
+		}
+		AddResources NLocalize/NShared/AddResources
+		{
+			// f5d60dc7
+			:00_Current "Add users"
+		}
+		Both NLocalize/NShared/Both
+		{
+			// 38559f10
+			:00_Current "Both"
+		}
+		CanDeleteBugs "Can delete bugs"
+		{
+			// 3ea177d9
+			:00_Current "Can delete bugs"
+		}
+		Cancel NLocalize/NShared/Cancel2
+		{
+			// a58e2289
+			:00_Current "Cancel"
+		}
+		ClickHereToSelectResourcesOrGroups NLocalize/NShared/ClickHereToSelectResourcesOrGroups
+		{
+			// cb3ba4cc
+			:00_Current "Click here to select users or groups"
+		}
+		CommentNew NLocalize/NShared/CommentNew
+		{
+			// a2361e00
+			:00_Current "Comment (new)"
+		}
+		DataMustBeFilledIn NLocalize/NShared/DataMustBeFilledIn
+		{
+			// 4c5814d4
+			:00_Current "Data must be filled in"
+		}
+		DetailedDescription NLocalize/NShared/DetailedDescription
+		{
+			// b2957083
+			:00_Current "Detailed description"
+		}
+		EditTransition "Edit transition"
+		{
+			// 9ecadf54
+			:00_Current "Edit transition"
+		}
+		EnableAction "Enable action"
+		{
+			// fe75a1a8
+			:00_Current "Enable action"
+		}
+		MandatoryDataFields "Mandatory Data fields:"
+		{
+			// 93e510a3
+			:00_Current "Mandatory Data fields:"
+		}
+		No NLocalize/NShared/No
+		{
+			// 7e861440
+			:00_Current "No"
+		}
+		Ok NLocalize/NShared/Ok2
+		{
+			// 7e86145d
+			:00_Current "Ok"
+		}
+		RemoveResources NLocalize/NShared/RemoveResources
+		{
+			// b5044a4c
+			:00_Current "Remove users"
+		}
+		ResourcesAllowedThrough "Users allowed through:"
+		{
+			// 2f1710e7
+			:00_Current "Users allowed through:"
+		}
+		ResourcesCanEditMandatoryDataFields "Users can edit mandatory data fields on previous status"
+		{
+			// 8bccd836
+			:00_Current "Users can edit mandatory data fields on previous status"
+		}
+		StepsToReproduce NLocalize/NShared/StepsToReproduce
+		{
+			// 246ef47e
+			:00_Current "Steps to reproduce"
+		}
+		ToAllocateResourcesToThisTransitionClickHere NLocalize/NShared/ToAllocateResourcesToThisTransitionClickHere
+		{
+			// a39c0976
+			:00_Current "To allocate users to this transition click here:"
+		}
+		ToRemoveResourcesFromThisTransitionClickHere NLocalize/NShared/ToRemoveResourcesFromThisTransitionClickHere
+		{
+			// cfa2f970
+			:00_Current "To remove users from this transition click here:"
+		}
+		TransitionResources NLocalize/NShared/TransitionResources
+		{
+			// 94fbd0e9
+			:00_Current "Transition users"
+		}
+		TransitionResourcesAndGroups NLocalize/NShared/TransitionResourcesAndGroups
+		{
+			// 7a71d91c
+			:00_Current "Transition users and groups"
+		}
+		UserStory NLocalize/NShared/UserStory
+		{
+			// b010bbc3
+			:00_Current "User story"
+		}
+		Yes NLocalize/NShared/Yes
+		{
+			// 4f48ca34
+			:00_Current "Yes"
+		}
+		YesNo NLocalize/NShared/YesNo
+		{
+			// 44a431b1
+			:00_Current "Yes/No"
+		}
+	}
+	namespace NEditWorkflowReference
+	{
+		Cancel NLocalize/NShared/Cancel2
+		{
+			// 648ed6c8
+			:00_Current "Cancel"
+		}
+		ClickHereToSelectAPipelineKanban "Select a pipeline / kanban"
+		{
+			// 74c95d51
+			:00_Current "Select a pipeline / kanban"
+		}
+		ClickHereToSelectAWorkflow " Select a workflow or pipeline"
+		{
+			// b235b6eb
+			:00_Current " Select a workflow or pipeline"
+		}
+		CustomNameForThisPipelineReference "Custom name:"
+		{
+			// 52b5d1a2
+			:00_Current "Custom name:"
+		}
+		DefauWorkflowForNewItems "Default pipeline, kanban or workflow for new items"
+		{
+			// 51d016f5
+			:00_Current "Default pipeline, kanban or workflow for new items"
+		}
+		EditReference "Edit Reference"
+		{
+			// f438ddd7
+			:00_Current "Edit Reference"
+		}
+		Ok NLocalize/NShared/Ok2
+		{
+			// 88b0811c
+			:00_Current "Ok"
+		}
+		Reference "Reference:"
+		{
+			// 59a86891
+			:00_Current "Reference:"
+		}
+		SelectAReferenceFromTheList "Select a reference from the list. It will act as a sub pipeline / kanban to the pipeline / kanban you are editing."
+		{
+			// 9d0ff163
+			:00_Current "Select a reference from the list. It will act as a sub pipeline / kanban to the pipeline / kanban you are editing."
+		}
+		SelectAWorkflowFromTheListSubItemsWillHaveThe "Select a workflow or pipeline from the list. Sub items will have the workflow or pipeline when they are created."
+		{
+			// 58d33eb8
+			:00_Current "Select a workflow or pipeline from the list. Sub items will have the workflow or pipeline when they are created."
+		}
+		X " {0}"
+		{
+			// dd5aae9a
+			// 0 text - Name of a pipeline
+			:00_Current " {0}"
+		}
+	}
+	namespace NEditWorkflowTransition
+    // Edit workflow transistion dialog
+    // More..>Pipelines, Kanbans and Workflows, Pipelines, Kanbans and Workflows..., Edit workflow, Edit workflow transition
+	{
+		ATransitionBetweenTwoStatusesCanBeLimitedToA NLocalize/NShared/ATransitionBetweenTwoStatusesCanBeLimitedToASet
+		{
+			// 1cfb43cf
+			:00_Current "A transition between two statuses can be limited to a set of users and groups."
+		}
+		AddResources NLocalize/NShared/AddResources
+		{
+			// aa05ef02
+			:00_Current "Add users"
+		}
+		BeforeProceedingToTheNextWorkflowStatusThrough "Before proceeding to the next workflow status through this transition, this data must be filled in:"
+		{
+			// eebafc94
+			:00_Current "Before proceeding to the next workflow status through this transition, this data must be filled in:"
+		}
+		Both NLocalize/NShared/Both
+		{
+			// 3261754b
+			:00_Current "Both"
+		}
+		Cancel NLocalize/NShared/Cancel2
+		{
+			// 51e87384
+			:00_Current "Cancel"
+		}
+		ClickHereToSelectResourcesOrGroups NLocalize/NShared/ClickHereToSelectResourcesOrGroups
+		{
+			// e98ddc47
+			:00_Current "Click here to select users or groups"
+		}
+		CommentNew NLocalize/NShared/CommentNew
+		{
+			// a4f6747b
+			:00_Current "Comment (new)"
+		}
+		DataMustBeFilledIn NLocalize/NShared/DataMustBeFilledIn
+		{
+			// d4d8b64f
+			:00_Current "Data must be filled in"
+		}
+		EditWorkflowTransition "Edit workflow transition"
+		{
+			// e5760baa
+			:00_Current "Edit workflow transition"
+		}
+		No NLocalize/NShared/No
+		{
+			// 45a11fbb
+			:00_Current "No"
+		}
+		Ok NLocalize/NShared/Ok2
+		{
+			// 45a11fd8
+			:00_Current "Ok"
+		}
+		RemoveResources NLocalize/NShared/RemoveResources
+		{
+			// 2a54e5a7
+			:00_Current "Remove users"
+		}
+		TheseResourcesCanTransitionFromThePrevious "These users can transition from the previous workflow status to the next:"
+		{
+			// 6c53bbc1
+			:00_Current "These users can transition from the previous workflow status to the next:"
+		}
+		ToAllocateResourcesToThisTransitionClickHere NLocalize/NShared/ToAllocateResourcesToThisTransitionClickHere
+		{
+			// 4eea16b1
+			:00_Current "To allocate users to this transition click here:"
+		}
+		ToRemoveResourcesFromThisTransitionClickHere NLocalize/NShared/ToRemoveResourcesFromThisTransitionClickHere
+		{
+			// 7af106ab
+			:00_Current "To remove users from this transition click here:"
+		}
+		TransitionResources NLocalize/NShared/TransitionResources
+		{
+			// 2d90a1c4
+			:00_Current "Transition users"
+		}
+		TransitionResourcesAndGroups NLocalize/NShared/TransitionResourcesAndGroups
+		{
+			// 047ad057
+			:00_Current "Transition users and groups"
+		}
+		UserStory NLocalize/NShared/UserStory
+		{
+			// 6292aede
+			:00_Current "User story"
+		}
+		Yes NLocalize/NShared/Yes
+		{
+			// f9c5450f
+			:00_Current "Yes"
+		}
+		YesNo NLocalize/NShared/YesNo
+		{
+			// 802acf4c
+			:00_Current "Yes/No"
+		}
+	}
+	namespace NFunctions
+    // Labels and messages for QA workflow, workflows, pipelines and Kanbans
+	{
+		AddResources NLocalize/NShared/AddResources
+		{
+			// d33b5f2f
+			:00_Current "Add users"
+		}
+		AreYouSureYouWantToDeleteTheCurrentWorkflowAnd NLocalize/NShared/AreYouSureYouWantToDeleteTheCurrentWorkflowAnd
+		{
+			// 666700fe
+			:00_Current "Are you sure you want to delete the current workflow and replace with the default workflow?"
+		}
+		AreYouSureYouWantToDeleteTheSelectedStatusTask "Are you sure you want to delete the selected status/task?"
+		{
+			// 5b9a39ad
+			:00_Current "Are you sure you want to delete the selected status/task?"
+		}
+		AreYouSureYouWantToDeleteTheSelectedTransition "Are you sure you want to delete the selected transition?"
+		{
+			// a380e3a1
+			:00_Current "Are you sure you want to delete the selected transition?"
+		}
+		AreYouSureYouWantToDeleteTheSelectedWorkflow "Are you sure you want to delete the selected workflow reference?"
+		{
+			// ffff68b1
+			:00_Current "Are you sure you want to delete the selected workflow reference?"
+		}
+		AreYouSureYouWantToImportThisExampleYour "Are you sure you want to import this example?\n"\
+		                                         "\n"\
+		                                         "Your current workflow will be deleted."
+		{
+			// 383f34c7
+			:00_Current "Are you sure you want to import this example?\n"\
+			            "\n"\
+			            "Your current workflow will be deleted."
+		}
+		AreYouSureYouWantToImportThisExampleYour2 "Are you sure you want to import this example?\n"\
+		                                          "\n"\
+		                                          "Your current pipeline will be deleted."
+		{
+			// 4025cdd9
+			:00_Current "Are you sure you want to import this example?\n"\
+			            "\n"\
+			            "Your current pipeline will be deleted."
+		}
+		BeingAbleToSelectThisWorklowCanBeLimitedToASet "Being able to select this workflow can be limited to a set of users and groups."
+		{
+			// 8aa63885
+			:00_Current "Being able to select this workflow can be limited to a set of users and groups."
+		}
+		BugWorkflowForX "Bug workflow for {0}"
+		{
+			// ce0caa23
+			// 0 text - Project name (header for show bug workflow window)
+			:00_Current "Bug workflow for {0}"
+		}
+		CanChangeWorkflowStatus "Can change workflow status"
+		{
+			// a10467a2
+			:00_Current "Can change workflow status"
+		}
+		CanReportBugs "Can report bugs"
+		{
+			// b077b76a
+			:00_Current "Can report bugs"
+		}
+		CanReportNewBugs "Can report new bugs"
+		{
+			// cd1b6f14
+			:00_Current "Can report new bugs"
+		}
+		CanSelectThisPipelineKanbanAllocateTo NLocalize/NShared/AddResources
+		{
+			// 3b2f597e
+			:00_Current "Add users"
+		}
+		CanSelectThisPipelineKanbanBeingAbleToSelect "Being able to select this pipeline / kanban can be limited to a set of users and groups."
+		{
+			// 09ac38d2
+			:00_Current "Being able to select this pipeline / kanban can be limited to a set of users and groups."
+		}
+		CanSelectThisPipelineKanbanCanSelectPipeline "Can select pipeline / kanban"
+		{
+			// fa35c19e
+			:00_Current "Can select pipeline / kanban"
+		}
+		CanSelectThisPipelineKanbanRemoveResources NLocalize/NShared/RemoveResources
+		{
+			// b24c327f
+			:00_Current "Remove users"
+		}
+		CanSelectThisPipelineKanbanTitle "Can select this pipeline / kanban"
+		{
+			// 28636d38
+			:00_Current "Can select this pipeline / kanban"
+		}
+		CanSelectThisPipelineKanbanToAllow "To allow users to select this pipeline / kanban  click here:"
+		{
+			// d957d9d8
+			:00_Current "To allow users to select this pipeline / kanban  click here:"
+		}
+		CanSelectThisPipelineKanbanToRemove "To remove permission to select this pipeline / kanban  click here:"
+		{
+			// 2b7ca8a7
+			:00_Current "To remove permission to select this pipeline / kanban  click here:"
+		}
+		CanSelectThisWorkflow "Can select this workflow"
+		{
+			// bb8baf70
+			:00_Current "Can select this workflow"
+		}
+		CanSelectWorkflow "Can select workflow"
+		{
+			// bd0958b8
+			:00_Current "Can select workflow"
+		}
+		Close NLocalize/NShared/Close
+		{
+			// 75657761
+			:00_Current "Close"
+		}
+		CreateBugStatus "Create status"
+		{
+			// de2f8281
+			:00_Current "Create status"
+		}
+		CreateReference "Create reference"
+		{
+			// 3eb9c7ae
+			:00_Current "Create reference"
+		}
+		CreateTask "Create task"
+		{
+			// 55bd13b2
+			:00_Current "Create task"
+		}
+		CreateTransition "Create transition"
+		{
+			// 227d874a
+			:00_Current "Create transition"
+		}
+		CreateWorkflowStatus "Create workflow status"
+		{
+			// 9d802dfe
+			:00_Current "Create workflow status"
+		}
+		CustomiseBugWorkflowForX "Customise bug workflow for {0}"
+		{
+			// c4aa97df
+			// 0 text - Project name (header for edit bug workflow window)
+			:00_Current "Customise bug workflow for {0}"
+		}
+		DefauPipelineKanban "Default Pipeline / Kanban"
+		{
+			// 20337db1
+			:00_Current "Default Pipeline / Kanban"
+		}
+		DefauWorkflow "Default workflow"
+		{
+			// 0a270f4b
+			:00_Current "Default workflow"
+		}
+		Delete NLocalize/NShared/Delete
+		{
+			// 23e9023e
+			:00_Current "Delete"
+		}
+		DeleteDel NLocalize/NShared/DeleteDel
+		{
+			// 0884f033
+			:00_Current "Delete (Del)"
+		}
+		DeletePipelineKanbanX "Delete Pipeline / Kanban {0}"
+		{
+			// 9fab87f7
+			// 0 text - Name of Pipeline/Kanban to delete
+			:00_Current "Delete Pipeline / Kanban {0}"
+		}
+		DeletedPipelineKanbanX "Deleted Pipeline / Kanban {0}"
+		{
+			// e2ec239b
+			// 0 text - Name of deleted Pipeline/Kanban
+			:00_Current "Deleted Pipeline / Kanban {0}"
+		}
+		Disconnect NLocalize/NShared/Disconnect
+		{
+			// bbfd2bd5
+			:00_Current "Disconnect"
+		}
+		Edit NLocalize/NShared/Edit
+		{
+			// 1ad57d71
+			:00_Current "Edit"
+		}
+		EditEnter "Edit (Enter)"
+		{
+			// c981736f
+			:00_Current "Edit (Enter)"
+		}
+		EditPipelineKanbanX "Edit Pipeline / Kanban {0}"
+		{
+			// b8e12eca
+			// 0 text - Name of Pipeline/Kanban to edit
+			:00_Current "Edit Pipeline / Kanban {0}"
+		}
+		EditWorkflowAccessRights "Edit workflow access rights"
+		{
+			// 7362e30f
+			:00_Current "Edit workflow access rights"
+		}
+		EditWorkflowX "Edit workflow {0}"
+		{
+			// 5b4bcee4
+			// 0 text - Name of workflow to edit
+			:00_Current "Edit workflow {0}"
+		}
+		ExampleWorkflows "Example workflows"
+		{
+			// c3f5e8c5
+			:00_Current "Example workflows"
+		}
+		ExportThisViewAsXML NLocalize/NShared/ExportThisViewAsXML
+		{
+			// 98822f25
+			:00_Current "Export this view as XML"
+		}
+		ImportToThisViewFromXML "Import to this view from XML"
+		{
+			// bd654ac1
+			:00_Current "Import to this view from XML"
+		}
+		More NLocalize/NShared/More2
+		{
+			// 1ada105e
+			:00_Current "More.."
+		}
+		OldVersionOfPipelineKanbanX "Old version of Pipeline / Kanban {0}"
+		{
+			// 186725de
+			// 0 text - Name of old version Pipeline/Kanban
+			:00_Current "Old version of Pipeline / Kanban {0}"
+		}
+		PipelineKanbanMenuExamplePipelineKanbanAsset "Example Asset - {0}"
+		{
+			// 5f4a6aee
+			// 0 text - Name of example pipeline (in edit pipeline window, more menu)
+			:00_Current "Example Asset - {0}"
+		}
+
+		PipelineKanbanMenuExamples "Examples"
+		{
+			// 5dd47980
+			:00_Current "Examples"
+		}
+		PipelineKanbanSettingsSettingsForThisPipeline "Settings for this pipeline / kanban"
+		{
+			// d4438603
+			:00_Current "Settings for this pipeline / kanban"
+		}
+		PipelineKanbanX "Pipeline / Kanban {0}"
+		{
+			// 1bd8e084
+			// 0 text - Name of Pipeline/Kanban
+			:00_Current "Pipeline / Kanban {0}"
+		}
+		Redo NLocalize/NShared/Redo
+		{
+			// 1adca1f5
+			:00_Current "Redo"
+		}
+		RedoLastActionCtrlY NLocalize/NShared/RedoLastActionCtrlY
+		{
+			// c7a73155
+			:00_Current "Redo last action"
+		}
+		RemoveResources NLocalize/NShared/RemoveResources
+		{
+			// 00ed02b4
+			:00_Current "Remove users"
+		}
+		ReportNewBug NLocalize/NShared/ReportNewBug
+		{
+			// f9915d6f
+			:00_Current "Report new bug"
+		}
+		ReportingNewBugsCanBeLimitedToASetOfResources "Reporting new bugs can be limited to a set of users and groups."
+		{
+			// 261e2ea1
+			:00_Current "Reporting new bugs can be limited to a set of users and groups."
+		}
+		Save NLocalize/NShared/Save
+		{
+			// 1add1f9a
+			:00_Current "Save"
+		}
+		SettingsForPipeline "Settings for {0}"
+		{
+			// 84334a59
+			// 0 text - Name of pipeline
+			:00_Current "Settings for {0}"
+		}
+		SettingsTitle "Settings"
+		{
+			// a58cf6be
+			:00_Current "Settings"
+		}
+		ShowAdvancedStatistics "Show advanced statistics"
+		{
+			// 21d8c18d
+			:00_Current "Show advanced statistics"
+		}
+		ShowBasicStatistics "Show basic statistics"
+		{
+			// 04c0c559
+			:00_Current "Show basic statistics"
+		}
+		ShowNoStatistics "Show no statistics"
+		{
+			// 355efff4
+			:00_Current "Show no statistics"
+		}
+		ShowStatistics "Show statistics"
+		{
+			// 37c0e237
+			:00_Current "Show statistics"
+		}
+		TasksMustBeCompleted "Tasks must be completed in sequential order"
+		{
+			// 9ed34ffe
+			:00_Current "Tasks must be completed in sequential order"
+		}
+		TheseResourcesCanChangeWorkflowStatusOnItems "These users can change workflow status on items without being delegated."
+		{
+			// ff959c55
+			:00_Current "These users can change workflow status on items without being delegated."
+		}
+		ToAllowResourcesToReportBugsClickHere "To allow users to report bugs click here:"
+		{
+			// 18562242
+			:00_Current "To allow users to report bugs click here:"
+		}
+		ToAllowResourcesToSelectThisWorkflowClickHere "To allow users to select this workflow click here:"
+		{
+			// 6fc8af08
+			:00_Current "To allow users to select this workflow click here:"
+		}
+		ToRemovePermissionToReportBugsClickHere "To remove permission to report bugs click here:"
+		{
+			// 3dca36df
+			:00_Current "To remove permission to report bugs click here:"
+		}
+		ToRemovePermissionToSelectThisWorkflowClick "To remove permission to select this workflow click here:"
+		{
+			// b18bb021
+			:00_Current "To remove permission to select this workflow click here:"
+		}
+		Transition NLocalize/NShared/Transition
+		{
+			// d0236036
+			:00_Current "Transition"
+		}
+		Undo NLocalize/NShared/Undo
+		{
+			// 1ade6d61
+			:00_Current "Undo"
+		}
+		UndoLastActionCtrlZ NLocalize/NShared/UndoLastActionCtrlZ
+		{
+			// 38fd9742
+			:00_Current "Undo last action"
+		}
+		UnnamedBugStatus "(Unnamed status)"
+		{
+			// a96f8b15
+			:00_Current "(Unnamed status)"
+		}
+		UnnamedTask "(Unnamed task)"
+		{
+			// 5c5c6fc6
+			:00_Current "(Unnamed task)"
+		}
+		UnnamedWorkflowStatus "(Unnamed workflow status)"
+		{
+			// 7340b312
+			:00_Current "(Unnamed workflow status)"
+		}
+		WorkflowX "Workflow {0}"
+		{
+			// c3373d1e
+			// 0 text - Name of workflow
+			:00_Current "Workflow {0}"
+		}
+		XMLFilesX "XML files {0}"
+		{
+			// 13b7a2c7
+			// 0 text - .xml extension (shown in XML save as dialog)
+			:00_Current "XML files {0}"
+		}
+		YouCannotDeleteTheEntryPointOfTheWorkflow "You cannot delete the entry point of the workflow."
+		{
+			// 72f7344c
+			:00_Current "You cannot delete the entry point of the workflow."
+		}
+		namespace NExampleItemNames
+	}
+	namespace NPaint
+    // Statistics on workflow statuses
+    // More..>Pipelines, Kanbans and Workflows, Pipelines, Kanbans and Workflows..., Edit workflow
+	{
+		Action NLocalize/NShared/Action
+		{
+			// 7aadeeec
+			:00_Current "Action"
+		}
+		AllProjectMembers NLocalize/NShared/AllProjectMembers
+		{
+			// 6470b229
+			:00_Current "All project members"
+		}
+		AssignTo "Assign to:"
+		{
+			// ab2fa596
+			:00_Current "Assign to:"
+		}
+		AssignToOriginalCreator "Assign to original creator"
+		{
+			// 22a9613b
+			:00_Current "Assign to original creator"
+		}
+		AssignToOriginalReporter "Assign to original reporter"
+		{
+			// 81a0fd3e
+			:00_Current "Assign to original reporter"
+		}
+		AssignToResourcesThatWasAssignedIn "Assign to users that was assigned in {0}"
+		{
+			// 64f48d32
+			// 0 text - Name of workflow status
+			:00_Current "Assign to users that was assigned in {0}"
+		}
+
+		AutoAssignTo "Auto assign to:"
+		{
+			// dffe6b4f
+			:00_Current "Auto assign to:"
+		}
+		AverageNumberOfTimesTasksHaveBeenSetTo "Average number of times tasks have been set to completed: {0,fe2}"
+		{
+			// e498a2fc
+			// 0 decimal - Statistics number shown in workflow status when show statistics is enabled
+			:00_Current "Average number of times tasks have been set to completed: {0,fe2}"
+		}
+
+		AverageTimeUntilStatusChange "Average time until status change: {0} d {1} h {2} m"
+		{
+			// 03b04ace
+			// 0 integer - Number of days. Statistics number shown in workflow status when show statistics is enabled
+			// 1 integer - Number of hours. Statistics number shown in workflow status when show statistics is enabled
+			// 2 integer - Number of minutes. Statistics number shown in workflow status when show statistics is enabled
+			:00_Current "Average time until status change: {0} d {1} h {2} m"
+		}
+
+		AverageTimeUntilTaskIsMarkedAsDone "Average time until task is marked as done: {0} d {1} h {2} m"
+		{
+			// eb578dc1
+			// 0 integer - Number of days. Statistics number shown in workflow status when show statistics is enabled
+			// 1 integer - Number of hours. Statistics number shown in workflow status when show statistics is enabled
+			// 2 integer - Number of minutes. Statistics number shown in workflow status when show statistics is enabled
+			:00_Current "Average time until task is marked as done: {0} d {1} h {2} m"
+		}
+
+		AverageTimeUntilThisTypeIsMarkedAsCompleted "Average time until this type are marked as completed: {0} d {1} h {2} m"
+		{
+			// 5751479f
+			// 0 integer - Number of days. Statistics number shown in workflow status when show statistics is enabled
+			// 1 integer - Number of hours. Statistics number shown in workflow status when show statistics is enabled
+			// 2 integer - Number of minutes. Statistics number shown in workflow status when show statistics is enabled
+			:00_Current "Average time until this type are marked as completed: {0} d {1} h {2} m"
+		}
+
+		AverageTotalTimeBugsSpentInStatus "Average total time bugs spent in status: {0} d {1} h {2} m"
+		{
+			// 7b993192
+			// 0 integer - Number of days. Statistics number shown in workflow status when show statistics is enabled
+			// 1 integer - Number of hours. Statistics number shown in workflow status when show statistics is enabled
+			// 2 integer - Number of minutes. Statistics number shown in workflow status when show statistics is enabled
+			:00_Current "Average total time bugs spent in status: {0} d {1} h {2} m"
+		}
+
+		AverageTotalTimeItemsSpentInStatus "Average total time items spent in status: {0} d {1} h {2} m"
+		{
+			// ecbab523
+			// 0 integer - Number of days. Statistics number shown in workflow status when show statistics is enabled
+			// 1 integer - Number of hours. Statistics number shown in workflow status when show statistics is enabled
+			// 2 integer - Number of minutes. Statistics number shown in workflow status when show statistics is enabled
+			:00_Current "Average total time items spent in status: {0} d {1} h {2} m"
+		}
+
+		AverageTotalTimeTasksHaveBeenInProgress "Average total time tasks have been in progress: {0} d {1} h {2} m"
+		{
+			// 3131c28c
+			// 0 integer - Number of days. Statistics number shown in workflow status when show statistics is enabled
+			// 1 integer - Number of hours. Statistics number shown in workflow status when show statistics is enabled
+			// 2 integer - Number of minutes. Statistics number shown in workflow status when show statistics is enabled
+			:00_Current "Average total time tasks have been in progress: {0} d {1} h {2} m"
+		}
+
+		AverageTotalTimeThisTypeHasBeenInProgress "Average total time this type have been in progress: {0} d {1} h {2} m"
+		{
+			// 7a725018
+			// 0 integer - Number of days. Statistics number shown in workflow status when show statistics is enabled
+			// 1 integer - Number of hours. Statistics number shown in workflow status when show statistics is enabled
+			// 2 integer - Number of minutes. Statistics number shown in workflow status when show statistics is enabled
+			:00_Current "Average total time this type have been in progress: {0} d {1} h {2} m"
+		}
+
+		BugStatus NLocalize/NShared/BugStatus
+		{
+			// 8ffcc330
+			:00_Current "Status"
+		}
+		CanReportNewBugs "Can report new bugs:"
+		{
+			// 1d295af7
+			:00_Current "Can report new bugs:"
+		}
+		CanSelectInColumnDropDown "Can select in column drop down:"
+		{
+			// 05853352
+			:00_Current "Can select in column drop down:"
+		}
+		CanSelectInDropDown "Can select in drop down:"
+		{
+			// 262b1ce4
+			:00_Current "Can select in drop down:"
+		}
+		GoToStatusWhenAssigned "Go to status {0} when assigned"
+		{
+			// 1ccad00b
+			// 0 text - Name of workflow status
+			:00_Current "Go to status {0} when assigned"
+		}
+
+		GoToStatusWhenItemIsSetToStatus "Go to status {0} when items are set to {1}"
+		{
+			// 482d8afb
+			// 0 text - Name of workflow status
+			// 1 text - Name of status
+			:00_Current "Go to status {0} when items are set to {1}"
+		}
+
+		HiddenInMyWork "Hidden in To do list"
+		{
+			// c2a9147a
+			:00_Current "Hidden in To do list"
+		}
+		LetResourcesBreakDownTask "Let users break down task"
+		{
+			// b7dd103e
+			:00_Current "Let users break down task"
+		}
+		LetResourcesReassignInMyWork "Let users reassign in To do list"
+		{
+			// c2f3f7ea
+			:00_Current "Let users reassign in To do list"
+		}
+		LetResourcesRunAWorkflow "Let users run a workflow"
+		{
+			// 72e3bcdf
+			:00_Current "Let users run a workflow"
+		}
+		MaxDuration "Max duration: {0} [NHelpers::Pluralize($0,'day')] {1} [NHelpers::Pluralize($1,'hour')]"
+		{
+			// 44143ffa
+			// 0 integer - Max duration number of days (shown in pipeline task)
+			// 1 integer - Max duration number of hours
+			:00_Current "Max duration: {0} [NHelpers::Pluralize($0,'day')] {1} [NHelpers::Pluralize($1,'hour')]"
+		}
+
+		MaxWIP "Max WIP: {0} [NHelpers::Pluralize($0,'item')]"
+		{
+			// 96898564
+			// 0 integer - Number of max WiP Kanban items
+			:00_Current "Max WIP: {0} [NHelpers::Pluralize($0,'item')]"
+		}
+
+		NoPipelineKanbanReferenceSelected "(No reference selected)"
+		{
+			// 97fb9fa4
+			:00_Current "(No reference selected)"
+		}
+		NumberOfItemsOfThisTypeHasBeenCompleted "{0} of this type have been completed"
+		{
+			// e646cef0
+			// 0 integer - Number of completed items
+			:00_Current "{0} of this type have been completed"
+		}
+
+		NumberOfItemsOfThisTypeHasBeenCompletedNumber "{0} of this type have been completed {1} [NHelpers::Pluralize($1,'time')]"
+		{
+			// 48b74a99
+			// 0 integer - Number of completed items
+			// 1 integer - Number of times they have been completed
+			:00_Current "{0} of this type have been completed {1} [NHelpers::Pluralize($1,'time')]"
+		}
+
+		NumberOfUniqueBugsPassedStatusNumberOfTimes "{0} unique [NHelpers::Pluralize($0,'bug')] passed status {1} [NHelpers::Pluralize($1,'time')]"
+		{
+			// 13f9a7d8
+			// 0 integer - Number of unique bugs
+			// 1 integer - Number of times they passed status
+			:00_Current "{0} unique [NHelpers::Pluralize($0,'bug')] passed status {1} [NHelpers::Pluralize($1,'time')]"
+		}
+
+		NumberOfUniqueItemsPassedStatusNumberOfTimes "{0} unique [NHelpers::Pluralize($0,'item')] passed status {1} [NHelpers::Pluralize($1,'time')]"
+		{
+			// 96a14dc9
+			// 0 integer - Number of unique items
+			// 1 integer - Number of times they passed status
+			:00_Current "{0} unique [NHelpers::Pluralize($0,'item')] passed status {1} [NHelpers::Pluralize($1,'time')]"
+		}
+
+		PipelineKanbanReference "Pipeline / Kanban reference"
+		{
+			// 8dbe32fe
+			:00_Current "Pipeline / Kanban reference"
+		}
+		PipelineKanbanStart "Pipeline / Kanban Start"
+		{
+			// 18cad4bd
+			:00_Current "Pipeline / Kanban Start"
+		}
+		PipelineKanbanTask NLocalize/NShared/Task
+		{
+			// b32d2d02
+			:00_Current "Task"
+		}
+		RemoveAssignedResources "Remove assigned users"
+		{
+			// ceed1765
+			:00_Current "Remove assigned users"
+		}
+		ResourcesCanEditSomeDataOnPreviousStatus "Users can edit some data on previous status"
+		{
+			// 1bfd63cd
+			:00_Current "Users can edit some data on previous status"
+		}
+		ResourcesGroupsAllowed "Users/groups allowed:"
+		{
+			// 82c894d1
+			:00_Current "Users/groups allowed:"
+		}
+		ResourcesMustFillInSomeData "Users must fill in some data"
+		{
+			// c6eaed7e
+			:00_Current "Users must fill in some data"
+		}
+		Status NLocalize/NShared/Status
+		{
+			// a5d42f32
+			:00_Current "Status"
+		}
+		Transition NLocalize/NShared/Transition
+		{
+			// 0df2ddd9
+			:00_Current "Transition"
+		}
+	}
+}
+

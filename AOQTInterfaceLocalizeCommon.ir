@@ -1,0 +1,214 @@
+﻿namespace NCommonDialogs
+{
+	ClearSelection "Clear selection"
+	{
+		// 9131914b
+		:00_Current "Clear selection"
+	}
+	PerformingTask "Performing task"
+	{
+		// 1e4d92aa
+		:00_Current "Performing task"
+	}
+}
+
+namespace NFloatingSelection
+{
+	FindByKeywords "Find by keywords"
+	{
+		// fb5c5200
+		:00_Current "Find by keywords"
+	}
+	Ok "Ok"
+	{
+		// 97650326
+		:00_Current "Ok"
+	}
+}
+
+namespace NTaggedTextEdit
+{
+	Address "Address:" // Temp
+	{
+		// 2239626f
+		:00_Current "Address:"
+	}
+	Bold "Bold"
+	{
+		// cd0ab02a
+		:00_Current "Bold"
+	}
+	BulletList "Bulleted List"
+	{
+		// ae10d06d
+		:00_Current "Bulleted List"
+	}
+	ClearFormatting "Clear Formatting"
+	{
+		// c4b4608b
+		:00_Current "Clear Formatting"
+	}
+	Code "Code"
+	{
+		// cd0b3b84
+		:00_Current "Code"
+	}
+	Colour "Colour"
+	{
+		// 3cccc99d
+		:00_Current "Colour"
+	}
+	CopyImage "Copy Image"
+	{
+		// 4ff98007
+		:00_Current "Copy Image"
+	}
+	EditHyperlink "Edit Hyperlink..."
+	{
+		// 99847d45
+		:00_Current "Edit Hyperlink..."
+	}
+	EditImage "Edit Image"
+	{
+		// eb9cc7f2
+		:00_Current "Edit Image"
+	}
+	HighlightColor "Highlight Colour"
+	{
+		// 4a8c02c0
+		:00_Current "Highlight Colour"
+	}
+	Hyperlink "Hyperlink..."
+	{
+		// a5385c7f
+		:00_Current "Hyperlink..."
+	}
+	ImageFilesX "Image files {0}"
+	{
+		// ed7e29d7
+		// 0 text - Image file extensions
+		:00_Current "Image files {0}"
+	}
+	InsertImage "Insert Image"
+	{
+		// 9b84cfc1
+		:00_Current "Insert Image"
+	}
+	Italic "Italic"
+	{
+		// 4b20215f
+		:00_Current "Italic"
+	}
+	NumberedList "Numbered List"
+	{
+		// d809a8b7
+		:00_Current "Numbered List"
+	}
+	OpenImage "Open Image"
+	{
+		// 49a745be
+		:00_Current "Open Image"
+	}
+	RemoveHyperlink "Remove Hyperlink"
+	{
+		// 19166a8d
+		:00_Current "Remove Hyperlink"
+	}
+	SetHyperlink "Set Hyperlink"
+	{
+		// 9ae4afeb
+		:00_Current "Set Hyperlink"
+	}
+	TextToDisplay "Text to display:"
+	{
+		// 4b2189c7
+		:00_Current "Text to display:"
+	}
+	Underline "Underline"
+	{
+		// ccfb1acf
+		:00_Current "Underline"
+	}
+	YouMustEnterAURL "You must enter a URL for the hyperlink."
+	{
+		// f0562e61
+		:00_Current "You must enter a URL for the hyperlink."
+	}
+	namespace NColors
+	{
+		Automatic "Automatic"
+		{
+			// f173d1df
+			:00_Current "Automatic"
+		}
+		Black "Black"
+		{
+			// c3104d75
+			:00_Current "Black"
+		}
+		Blue "Blue"
+		{
+			// b855d660
+			:00_Current "Blue"
+		}
+		Brown "Brown"
+		{
+			// c313d5e0
+			:00_Current "Brown"
+		}
+		Cyan "Cyan"
+		{
+			// b8569783
+			:00_Current "Cyan"
+		}
+		Green "Green"
+		{
+			// c36e2389
+			:00_Current "Green"
+		}
+		Magenta "Magenta"
+		{
+			// fddf23f5
+			:00_Current "Magenta"
+		}
+		Orange "Orange"
+		{
+			// 43d9cdf4
+			:00_Current "Orange"
+		}
+		Pink "Pink"
+		{
+			// b85d760a
+			:00_Current "Pink"
+		}
+		Red "Red"
+		{
+			// 43a5c5b3
+			:00_Current "Red"
+		}
+		White "White"
+		{
+			// c48a42b9
+			:00_Current "White"
+		}
+		Yellow "Yellow"
+		{
+			// 5a482674
+			:00_Current "Yellow"
+		}
+	}
+}
+
+namespace NPinButton
+{
+	TooltipNotOnTop "Set window to not be on top"
+	{
+		// a28848c1
+		:00_Current "Set window to not be on top"
+	}
+	TooltipOnTop "Set window on top"
+	{
+		// 03b26b90
+		:00_Current "Set window on top"
+	}
+}

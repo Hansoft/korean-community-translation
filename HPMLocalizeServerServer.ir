@@ -1,0 +1,1109 @@
+﻿namespace NServer
+{
+	namespace NContext
+	// Database operations log file messages for 
+	{
+		AllDatabasesFrozen "All databases frozen"
+		{
+			// bb5dd914
+			:00_Current "All databases frozen"
+		}
+		AllDatabasesUnfrozen "All databases unfrozen"
+		{
+			// 98a17ed7
+			:00_Current "All databases unfrozen"
+		}
+		BackupOfAllLoadedDatabasesFinished "Backup of all loaded databases finished."
+		{
+			// 276fd91e
+			:00_Current "Backup of all loaded databases finished."
+		}
+		BrokenServerSuccessfullyShutDown "Broken server successfully shut down."
+		{
+			// 71c3fcb8
+			:00_Current "Broken server successfully shut down."
+		}
+		BusyReasonBackingUpDatabase "The database '{0}' was busy backing up the database when shutting down server."
+		{
+			// e8acf593
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy backing up the database when shutting down server."
+		}
+		BusyReasonBackingUpTheTransactionLog "The database '{0}' was busy backing up the transaction log when shutting down server."
+		{
+			// bb7a4fc7
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy backing up the transaction log when shutting down server."
+		}
+		BusyReasonCheckingTheDatabase "The database '{0}' was busy checking the database when shutting down server."
+		{
+			// 252a159c
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy checking the database when shutting down server."
+		}
+		BusyReasonDumpingInitialDatabase "The database '{0}' was busy dumping the initial database when shutting down server."
+		{
+			// 7ef265dd
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy dumping the initial database when shutting down server."
+		}
+		BusyReasonFixingABrokenDatabase "The database '{0}' was busy fixing a broken database when shutting down server."
+		{
+			// f99c22a6
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy fixing a broken database when shutting down server."
+		}
+		BusyReasonLoadingDatabase "The database '{0}' was busy loading the database when shutting down server."
+		{
+			// e9c6729d
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy loading the database when shutting down server."
+		}
+		BusyReasonMovingNewDatabase "The database '{0}' was busy moving new database when shutting down server."
+		{
+			// 2af48799
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy moving new database when shutting down server."
+		}
+		BusyReasonMovingNewFixedDatabase "The database '{0}' was busy moving new fixed database when shutting down server."
+		{
+			// a2b7d909
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy moving new fixed database when shutting down server."
+		}
+		BusyReasonMovingOldBrokenDatabase "The database '{0}' was busy moving old broken database when shutting down server."
+		{
+			// db55cf0f
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy moving old broken database when shutting down server."
+		}
+		BusyReasonMovingOldDatabase "The database '{0}' was busy moving old database when shutting down server."
+		{
+			// 275ed1ae
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy moving old database when shutting down server."
+		}
+		BusyReasonNone "The database '{0}' was busy when shutting down server."
+		{
+			// 0fa9fc5a
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy when shutting down server."
+		}
+		BusyReasonProcessingTransactionLog "The database '{0}' was busy processing the transaction log when shutting down server."
+		{
+			// eafe124f
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy processing the transaction log when shutting down server."
+		}
+		BusyReasonRestoringDatabase "The database '{0}' was busy restoring the database when shutting down server."
+		{
+			// 8841dc1c
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy restoring the database when shutting down server."
+		}
+		BusyReasonRestoringTheTransactionLog "The database '{0}' was busy restoring the transaction log when shutting down server."
+		{
+			// c999a070
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy restoring the transaction log when shutting down server."
+		}
+		BusyReasonSamplingStatistics "The database '{0}' was busy sampling statistics when shutting down server."
+		{
+			// ca583b30
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy sampling statistics when shutting down server."
+		}
+		BusyReasonSavingProjectHistory "The database '{0}' was busy saving project history when shutting down server."
+		{
+			// fe5741bb
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy saving project history when shutting down server."
+		}
+		BusyReasonSendingEmailNotifications "The database '{0}' was busy sending email notifications when shutting down server."
+		{
+			// 5a2c2e54
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy sending email notifications when shutting down server."
+		}
+		BusyReasonUpgradingTheDatabaseVersion "The database '{0}' was busy upgrading the database version when shutting down server."
+		{
+			// 61977a07
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' was busy upgrading the database version when shutting down server."
+		}
+		ChangedSSLSettings "The SSL settings for the server have been changed."
+		{
+			// b081ca6c
+			:00_Current "The SSL settings for the server have been changed."
+		}
+		CommaList2 "{0}, {1}"
+		{
+			// bfea501a
+			// 0 any - Firsst entry
+			// 1 any - Second entry
+			:00_Current "{0}, {1}"
+		}
+		DatabaseBusyShutdownMessage "{0}.\r\n"\
+		                            "\r\n"\
+		                            "Have waited {1,fe1} seconds for it to respond.\r\n"\
+		                            "\r\n"\
+		                            "You should stop the service with 'HPMServer -StopService' to stop this from happening."
+		{
+			// 335991d8
+			// 0 text - The busy reason evaluated in BusyReasonX IDs.
+			// 1 decimal - The number of seconds waiting for database to respond
+			:00_Current "{0}.\r\n"\
+			            "\r\n"\
+			            "Have waited {1,fe1} seconds for it to respond.\r\n"\
+			            "\r\n"\
+			            "You should stop the service with 'HPMServer -StopService' to stop this from happening."
+		}
+		DatabaseXMiB "Database ({0,fe1} MiB)"
+		{
+			// 43251444
+			// 0 decimal - Size of database in MiB
+			:00_Current "Database ({0,fe1} MiB)"
+		}
+		DefauAutomaticBackup NLocalize/NShared/DefaultAutomaticBackup
+		{
+			// 9a8c3361
+			:00_Current "Default Automatic Backup"
+		}
+		DefauAutomaticFullBackup NLocalize/NShared/DefaultAutomaticFullBackup
+		{
+			// efa865b4
+			:00_Current "Default Automatic Full Backup"
+		}
+		DefauAutomaticIntegrityCheck NLocalize/NShared/DefaultAutomaticIntegrityCheck
+		{
+			// b2c83148
+			:00_Current "Default Automatic Integrity Check"
+		}
+		DefauServerName "Default Server Name"
+		{
+			// d9c16e7c
+			:00_Current "Default Server Name"
+		}
+		FailedToChangeTheServerLicenseMightNotBeAn "Failed to change the server licence. (Might not be an error)."
+		{
+			// 470aca48
+			:00_Current "Failed to change the server licence. (Might not be an error)."
+		}
+		FailedToListenOnPortXAnotherServiceMightBe "Failed to listen on port {0}. Another service might be listening on the same port. Will retry every 10 seconds. The error was:\r\n"\
+		                                           "{1}"
+		{
+			// 4e4a2352
+			// 0 integer - The port number hansoft tries to listen on
+			// 1 text - The error message
+			:00_Current "Failed to listen on port {0}. Another service might be listening on the same port. Will retry every 10 seconds. The error was:\r\n"\
+			            "{1}"
+		}
+		FailedToLoadDatabaseXTheErrorWasX "Failed to load database {0}. The error was: {1}"
+		{
+			// 88ca0782
+			// 0 text - The name of the database that is being loaded
+			// 1 text - The error message
+			:00_Current "Failed to load database {0}. The error was: {1}"
+		}
+		FailedToLoadSeverStateYouShouldMakeSureYou "Failed to load sever state. You should make sure you change the default password from \"hpmadm\" to another one. The error was: {0}"
+		{
+			// 9ac756b3
+			// 0 text - Error message
+			:00_Current "Failed to load sever state. You should make sure you change the default password from \"hpmadm\" to another one. The error was: {0}"
+		}
+		FailedToRegisterFileNotification "Failed to register file notification."
+		{
+			// d305dd33
+			:00_Current "Failed to register file notification."
+		}
+		ForSupportPleaseContactSupportHansoftse "For support please contact support@hansoft.com"
+		{
+			// e47ad5b1
+			:00_Current "For support please contact support@hansoft.com"
+		}
+		FreezingDatabase "    Freezing: {0}"
+		{
+			// b232a5ee
+			// 0 text - The name of the database being frozen
+			:00_Current "    Freezing: {0}"
+		}
+		FreezingDatabasesBeforeSVC "Freezing databases before shadow volume copy"
+		{
+			// 1b6b4320
+			:00_Current "Freezing databases before shadow volume copy"
+		}
+		HansoftGeneratedCertificateHasExpired "The server is using an expired self signed public certificate that was generated by Hansoft. A new certificate will be generated for the server to use."
+		{
+			// 29332431
+			:00_Current "The server is using an expired self signed public certificate that was generated by Hansoft. A new certificate will be generated for the server to use."
+		}
+		InvalidServerSSLSettingsX	"The SSL settings for the server are invalid. The error was: {0}\r\n"\
+		                         	"The server is unable to accept connections."
+		{
+			// 4f7e1838
+			// 0 text - Error message
+			:00_Current "The SSL settings for the server are invalid. The error was: {0}\r\n"\
+			            "The server is unable to accept connections."
+		}
+		Message "Message:"
+		{
+			// 600f3164
+			:00_Current "Message:"
+		}
+		OneOrMoreDatabasesWasBusyForMoreThanXSeconds "One or more databases was busy for more than {0} seconds when shutting down server. Because Windows would soon have forced the service process to terminate a crash log was created."
+		{
+			// b864a637
+			// 0 decimal - The number of seconds the database waas busy in shutdown sequence
+			:00_Current "One or more databases was busy for more than {0} seconds when shutting down server. Because Windows would soon have forced the service process to terminate a crash log was created."
+		}
+		Origin "Origin:"
+		{
+			// d9ed6f27
+			:00_Current "Origin:"
+		}
+		PausingServer "Pausing server"
+		{
+			// 985def4d
+			:00_Current "Pausing server"
+		}
+		PerformingBackupOfAllLoadedDatabases "Performing backup of all loaded databases."
+		{
+			// bc6ded8d
+			:00_Current "Performing backup of all loaded databases."
+		}
+		ResumingServer "Resuming server"
+		{
+			// 1916be60
+			:00_Current "Resuming server"
+		}
+		ServerIsListeningOnPortX "Server is listening on port {0}"
+		{
+			// 055c95f9
+			// 0 integer - The port number the server is listening on
+			:00_Current "Server is listening on port {0}"
+		}
+		ServerIsShuttingDown "Server is shutting down."
+		{
+			// 7bc78980
+			:00_Current "Server is shutting down."
+		}
+		ServerPaused "Server paused"
+		{
+			// 4c81a478
+			:00_Current "Server paused"
+		}
+		ServerPreviouslyfailedToListen "Server previously failed to listen on port {0} but is now successfully listening."
+		{
+			// 591e8f0f
+			// 0 integer - The port number the server is listening on
+			:00_Current "Server previously failed to listen on port {0} but is now successfully listening."
+		}
+		ServerResumed "Server resumed"
+		{
+			// 7fdc59cb
+			:00_Current "Server resumed"
+		}
+		ServerStartingX "Server starting {0}"
+		{
+			// c49b387a
+			// 0 text - The server version
+			:00_Current "Server starting {0}"
+		}
+		ServerSuccessfullyShutDown "Server successfully shut down."
+		{
+			// 5d2f8c97
+			:00_Current "Server successfully shut down."
+		}
+		SuccessfullyLoadedServerState "Successfully loaded server state."
+		{
+			// e177ff05
+			:00_Current "Successfully loaded server state."
+		}
+		SuccessfullyLoadedServerStateFromBackedUp "Successfully loaded server state from backed up server state."
+		{
+			// 2530eb18
+			:00_Current "Successfully loaded server state from backed up server state."
+		}
+		TestEmailNotification "Test e-mail notification."
+		{
+			// d97b320e
+			:00_Current "Test e-mail notification."
+		}
+		TheDatabaseXCouldNotBePutOnlineBecauseOfLow "The database '{0}' could not be put online because of low disk space (less than 256 MiB). Space was low for: {1}."
+		{
+			// 2ae7d139
+			// 0 text - The name of the database to set online
+			// 1 text - Size of database
+			:00_Current "The database '{0}' could not be put online because of low disk space (less than 256 MiB). Space was low for: {1}."
+		}
+		TheDatabaseXHasLessThan256MiBOfSpaceInIts "The database '{0}' has less than 256 MiB of space in its backup location ({1,fe1} MiB), please make sure that there is enough backup space for backups to be successful."
+		{
+			// 54f72ac8
+			// 0 text - The name of the database
+			// 1 decimal - Size in MiB of free space in backup locaction for database
+			:00_Current "The database '{0}' has less than 256 MiB of space in its backup location ({1,fe1} MiB), please make sure that there is enough backup space for backups to be successful."
+		}
+		TheDatabaseXIsUnableToAccessItsBackupLocationX "The database '{0}' is unable to access its backup location ('{1}'). Please make sure that the backup location is accessible for backups to be successful."
+		{
+			// 8bd8beac
+			// 0 text - The name of the database
+			// 1 text - The backup location of the database
+			:00_Current "The database '{0}' is unable to access its backup location ('{1}'). Please make sure that the backup location is accessible for backups to be successful."
+		}
+		TheDatabaseXThatWasPreviouslyOutOfSpaceInIts "The database '{0}' that was previously out of space in its backup location now has more than 256 MiB of space available there. Backups might still take more than 256 MiB if they include document management data, so please make sure that you have enough space available in the backup location."
+		{
+			// abddfceb
+			// 0 text - The name of the database
+			:00_Current "The database '{0}' that was previously out of space in its backup location now has more than 256 MiB of space available there. Backups might still take more than 256 MiB if they include document management data, so please make sure that you have enough space available in the backup location."
+		}
+		TheDatabaseXWasPreviouslyUnableToAccessIts "The database '{0}' was previously unable to access its backup location ('{1}'). The access has now been restored."
+		{
+			// e9917cd6
+			// 0 text - The name of the database
+			// 1 text - The backup location of the database
+			:00_Current "The database '{0}' was previously unable to access its backup location ('{1}'). The access has now been restored."
+		}
+		TheDatabaseXWasTakenOfflineBecauseOfLowDisk "The database '{0}' was taken offline because of low disk space (less than 256 MiB). Space was low for: {1}."
+		{
+			// efd1f758
+			// 0 text - The name of the database
+			// 1 text - Size in MiB of free space in backup locaction for database
+			:00_Current "The database '{0}' was taken offline because of low disk space (less than 256 MiB). Space was low for: {1}."
+		}
+		TheHansoftServiceIsCurrentlyBeingShutDown "The Hansoft service is currently being shut down ungracefully. \r\n"\
+		                                          "\r\n"\
+		                                          "This could cause data loss because Windows will forcefully stop the service after a timeout. If shutdown takes longer than {0} seconds a crash log will be created.\r\n"\
+		                                          "\r\n"\
+		                                          "You should stop the service with 'HPMServer -StopService' to stop this from happening."
+		{
+			// ad785b49
+			// 0 decimal - The number of seconds to wait before a crash log is created
+			:00_Current "The Hansoft service is currently being shut down ungracefully. \r\n"\
+			            "\r\n"\
+			            "This could cause data loss because Windows will forcefully stop the service after a timeout. If shutdown takes longer than {0} seconds a crash log will be created.\r\n"\
+			            "\r\n"\
+			            "You should stop the service with 'HPMServer -StopService' to stop this from happening."
+		}
+		TheServerCertificateExpiresIn7Days "The server's public certificate will expire in under seven days."
+		{
+			// 7ce7ab19
+			:00_Current "The server's public certificate will expire in under seven days."
+		}
+		TheServerCertificateHasExpired "The server's public certificate has expired."
+		{
+			// 6ed85367
+			:00_Current "The server's public certificate has expired."
+		}
+		TheServerDoesnHaveAStateSavedTheDefauWasLoaded "The server doesn't have a state saved, the default was loaded. You should make sure you change the default password from \"hpmadm\" to another one."
+		{
+			// 63dc2563
+			:00_Current "The server doesn't have a state saved, the default was loaded. You should make sure you change the default password from \"hpmadm\" to another one."
+		}
+		TheServerHasDetectedThatCrashDumpsAreAvailable "The server has detected that there are crash dumps available to be sent to Hansoft support.\r\n"\
+		                                               "\r\n"\
+		                                               "These can be sent with 'HPMServer -UploadDumps <Email address>', where the email address is the address that you want Hansoft support to contact you at."
+		{
+			// 9e2e5739
+			:00_Current "The server has detected that there are crash dumps available to be sent to Hansoft support.\r\n"\
+			            "\r\n"\
+			            "These can be sent with 'HPMServer -UploadDumps <Email address>', where the email address is the address that you want Hansoft support to contact you at."
+		}
+		TheServerHasDetectedThatTheHansoftServiceWas "The server has detected that the Hansoft service was shut down ungracefully or the server crashed.\r\n"\
+		                                             "\r\n"\
+		                                             "Data could have been lost. Please check log file for potential errors and send any crash dumps to support@hansoft.com.\r\n"\
+		                                             "\r\n"\
+		                                             "You should stop the service with 'HPMServer -StopService' to stop this from happening."
+		{
+			// b046af96
+			:00_Current "The server has detected that the Hansoft service was shut down ungracefully or the server crashed.\r\n"\
+			            "\r\n"\
+			            "Data could have been lost. Please check log file for potential errors and send any crash dumps to support@hansoft.com.\r\n"\
+			            "\r\n"\
+			            "You should stop the service with 'HPMServer -StopService' to stop this from happening."
+		}
+		TheServerIsUsingAnExpiredCertificate "The server is using an expired public certificate."
+		{
+			// b493271c
+			:00_Current "The server is using an expired public certificate."
+		}
+		TheWasHansoftServerWasUnableToGainWriteAccess "The Hansoft server was unable to gain write access to its running file. This could be caused by another server already running from the same folder.\r\n"\
+		                                              "\r\n"\
+		                                              "Aborting startup."
+		{
+			// 00b1e8b6
+			:00_Current "The Hansoft server was unable to gain write access to its running file. This could be caused by another server already running from the same folder.\r\n"\
+			            "\r\n"\
+			            "Aborting startup."
+		}
+
+		TransactionLogXMiB "Transaction log ({0,fe1} MiB)"
+		{
+			// 65d1f897
+			// 0 decimal - The transaction log location free space in MiB
+			:00_Current "Transaction log ({0,fe1} MiB)"
+		}
+		Unfreezing "    Unfreezing: {0}"
+		{
+			// aa649f7c
+			// 0 text - The name of the database being frozen
+			:00_Current "    Unfreezing: {0}"
+		}
+		UnfreezingDatabasesAfterSVC "Unfreezing databases after shadow volume copy"
+		{
+			// e43ab742
+			:00_Current "Unfreezing databases after shadow volume copy"
+		}
+		UpdateTranslationsFail "Failed to update server translation files from databases. The error reported was: {0}"
+		{
+			// 1014e140
+			// 0 text - The error message returned from the file system
+			:00_Current "Failed to update server translation files from databases. The error reported was: {0}"
+		}
+		UpdateTranslationsFailResolved "The server was previously unable to update server translation files. This error has now been resolved."
+		{
+			// 82a96604
+			:00_Current "The server was previously unable to update server translation files. This error has now been resolved."
+		}
+		UsingSelfSignedCertificate	"The server is using a self signed public certificate and private key that was generated by Hansoft. This could be caused by no public certificate or private key files being found in the Cert and Private directories or multiple files being located in these directories."
+		{
+			// 39508b0c
+			:00_Current "The server is using a self signed public certificate and private key that was generated by Hansoft. This could be caused by no public certificate or private key files being found in the Cert and Private directories or multiple files being located in these directories."
+		}
+	}
+
+	namespace NInitialConfig
+	namespace NLicenseServerHandler
+	// License server operations log file messages
+	{
+		FailedToChangeTheServerLicenseMightNotBeAn "Failed to change the server licence. (Might not be an error)."
+		{
+			// 85e8b7db
+			:00_Current "Failed to change the server licence. (Might not be an error)."
+		}
+		ServerLicenseHasExpired "Server licence has expired"
+		{
+			// 75ae0939
+			:00_Current "Server licence has expired"
+		}
+		ServerLicenseWillExpireIn10Days "Server licence will expire in 10 days"
+		{
+			// 8ca0e4fa
+			:00_Current "Server licence will expire in 10 days"
+		}
+		ServerLicenseWillExpireIn24Hours "Server licence will expire in 24 hours"
+		{
+			// 775c621f
+			:00_Current "Server licence will expire in 24 hours"
+		}
+		ServerLicenseWillExpireIn5Days "Server licence will expire in 5 days"
+		{
+			// 0496c7ae
+			:00_Current "Server licence will expire in 5 days"
+		}
+		SuccessfullyChangeTheServerLicense "Successfully changed the server licence."
+		{
+			// d8e154b8
+			:00_Current "Successfully changed the server licence."
+		}
+		TheLicenseOnYourServerHasExpired "The licence on your server has expired."
+		{
+			// 9e8d6326
+			:00_Current "The licence on your server has expired."
+		}
+		TheLicenseOnYourServerWillExpireIn10Days "The licence on your server will expire in 10 days."
+		{
+			// 3efddbe7
+			:00_Current "The licence on your server will expire in 10 days."
+		}
+		TheLicenseOnYourServerWillExpireIn24Hours "The licence on your server will expire in 24 hours."
+		{
+			// 755836ac
+			:00_Current "The licence on your server will expire in 24 hours."
+		}
+		TheLicenseOnYourServerWillExpireIn5Days "The licence on your server will expire in 5 days."
+		{
+			// 388a14fb
+			:00_Current "The licence on your server will expire in 5 days."
+		}
+		TheServerHasBeenUnableToConnectToTheLicense "The server has been unable to connect to the licence server for 24 hours."
+		{
+			// 52a0f32b
+			:00_Current "The server has been unable to connect to the licence server for 24 hours."
+		}
+		TheServerHasBeenUnableToConnectToTheLicense2 "The server has been unable to connect to the licence server for 24 hours"
+		{
+			// a6bf58bd
+			:00_Current "The server has been unable to connect to the licence server for 24 hours"
+		}
+	}
+
+	namespace NConnection
+	// Incoming package error and pre authentication error log file messages
+	{
+		ConnectionAttemptIgnored "Connection attempt ignored because client tried to request non-existent sync executable: {0}"
+		{
+			// 72f7d601
+			// 0 text - The executable requsted
+			:00_Current "Connection attempt ignored because client tried to request non-existent sync executable: {0}"
+		}
+		ConnectionAttemptIgnoredInvalidPath "Connection attempt ignored because file name contained invalid characters: {0}"
+		{
+			// 5b9fa6f5
+			// 0 text - File name
+			:00_Current "Connection attempt ignored because file name contained invalid characters: {0}"
+		}
+		ConnectionAttemptIgnoredNoSyncContext "Connection attempt ignored because no sync context was found for {0} {1} {2}[$3!=0,' (SDK)']"
+		{
+			// 61abd560
+			// 0 text - Operating system platform (e.g. Windows, OSX 10.7, OSX 10.8 etc)
+			// 1 text - Processor architechture (e.g. x64 x86 etc)
+			// 2 text - Architechture suffix (e.g. Beta, alpha, testing etc)
+			// 3 integer - Set to 1if this connection attempt is made from a SDK
+			:00_Current "Connection attempt ignored because no sync context was found for {0} {1} {2}[$3!=0,' (SDK)']"
+		}
+		FailedToProcessIncomingPacketTheErrorWasX "Failed to process incoming packet. The error was: {0}"
+		{
+			// ec8cd5cb
+			// 0 text - The error message
+			:00_Current "Failed to process incoming packet. The error was: {0}"
+		}
+		InsecureConnectionAcceptedFromOutOfDateClient "An insecure connection was accepted by the server from an out of date client"
+		{
+			// 8fc8cc2f
+			:00_Current "An insecure connection was accepted by the server from an out of date client"
+		}
+		InsecureConnectionAcceptedFromOutOfDateSDK "An insecure connection was accepted by the server from an out of date SDK"
+		{
+			// d89717b2
+			:00_Current "An insecure connection was accepted by the server from an out of date SDK"
+		}
+		InsecureConnectionRefusedFromOutOfDateClient "An insecure connection was refused by the server from an out of date client"
+		{
+			// 95109884
+			:00_Current "An insecure connection was refused by the server from an out of date client"
+		}
+		InsecureConnectionRefusedFromOutOfDateSDK "An insecure connection was refused by the server from an out of date SDK"
+		{
+			// 3e213c27
+			:00_Current "An insecure connection was refused by the server from an out of date SDK"
+		}
+		InsecureConnectionRefusedFromOutOfDateShare "An insecure connection was refused by the server from an out of date share"
+		{
+			// 4b750c38
+			:00_Current "An insecure connection was refused by the server from an out of date share"
+		}
+		NotConnected "Not connected"
+		{
+			// f407af6e
+			:00_Current "Not connected"
+		}
+		PreauthenticationConnectionWasClosedBroken "Pre-authentication connection was closed. Broken connection (corrupted data arrived)."
+		{
+			// d6532447
+			:00_Current "Pre-authentication connection was closed. Broken connection (corrupted data arrived)."
+		}
+		PreauthenticationConnectionWasClosedTheReason "Pre-authentication connection was closed. The reason was: {0}"
+		{
+			// 6768b3ef
+			// 0 text - The error message
+			:00_Current "Pre-authentication connection was closed. The reason was: {0}"
+		}
+		PreauthenticationConnectionWasClosedUnknown "Pre-authentication connection was closed. Unknown reason."
+		{
+			// 4daefc36
+			:00_Current "Pre-authentication connection was closed. Unknown reason."
+		}
+		SSLHandshakeFailedConnectionWasClosedTheReason "SSL handshake failed and the connection was closed. The reason was: {0}"
+		{
+			// 0b3e7fc6
+			// 0 text - The error message
+			:00_Current "SSL handshake failed and the connection was closed. The reason was: {0}"
+		}
+		SSLHandshakeWasNotCompletedBeforeClientCommunication "The SSL handshake had not been completed when the client attempting to send data. The connection was closed."
+		{
+			// 025d8a84
+			:00_Current "The SSL handshake had not been completed when the client attempting to send data. The connection was closed."
+		}
+	}
+}
+namespace NPMSWin32
+{
+	namespace NWaitForBackupWindow
+	{
+		Cancel "Cancel"
+		{
+			// 35225e76
+			:00_Current "Cancel"
+		}
+		HansoftProjectServer "Hansoft Project Server"
+		{
+			// c6558c11
+			:00_Current "Hansoft Project Server"
+		}
+		PerformingBackupsDescription "The server is performing backups and is waiting for them to finish. You should wait for the server to finish all backups before trying to stop the service or restart the computer, otherwise the database might become corrupt."
+		{
+			// 30a9d7b6
+			:00_Current "The server is performing backups and is waiting for them to finish. You should wait for the server to finish all backups before trying to stop the service or restart the computer, otherwise the database might become corrupt."
+		}
+		WaitingForServerToFinishBackup "Waiting for server to finish backups."
+		{
+			// cf3c521b
+			:00_Current "Waiting for server to finish backups."
+		}
+	}
+	namespace NInitialConfigGUI
+	{
+		Back "< Back"
+		{
+			// 9c4688bc
+			:00_Current "< Back"
+		}
+		Cancel "Cancel"
+		{
+			// ca66c3f1
+			:00_Current "Cancel"
+		}
+		CompanyProjects "Company projects"
+		{
+			// 4a3dc34c
+			:00_Current "Company projects"
+		}
+		ConfigurationFileSyntax "CreateConfig: Creates a initial configuration from a text file.\n"\
+		                        "The file can contain the following key-value pairs:\n"\
+		                        "\n"\
+		                        "ServerName \"<ServerName>\"\t\tOptional. (Default is \"{0}\")\n"\
+		                        "ServerPassword \"<Password>\"\t\tRequired. Password for server administrator\n"\
+		                        "ServerPort <Port>\t\t\tOptional. (Default is {1})\n"\
+		                        "ServiceName \"<ServiceName>\"\t\tOptional. (Default is \"{2}\")\n"\
+		                        "DatabaseHostname \"<Hostname>\"\t\tOptional. (Default is \"{3}\")\n"\
+		                        "DatabaseName \"<Name>\"\t\t\tOptional. (Default is \"{4}\")\n"\
+		                        "DatabasePassword \"<Password>\"\t\tRequired. Password for database administrator\n"\
+		                        "\n"\
+		                        "To configure the server email functionality the file should also contain the following pairs:\n"\
+		                        "Email_OutgoingServer \"<Hostname>\"\tOutgoing email server hostname\n"\
+		                        "Email_OutgoingPort <Port>\t\tPort number (Default is 25)\n"\
+		                        "Email_FromName \"<Name>\"\t\t\tSender name\n"\
+		                        "Email_FromEmail \"<Address>\"\t\tSender address\n"\
+		                        "Email_Subject \"<Subject>\"\t\tSubject of email\n"\
+		                        "Email_SendTo \"<Addresses>\"\t\tRecipients. Seperate multiple entries by comma, semicolon or space\n"\
+		                        "Email_Authentication <0/1>\t\tAuthentication: 0 = Disable, 1 = Enable (Default is 0)\n"\
+		                        "Email_UserName \"<Username>\"\t\tEmail username\n"\
+		                        "Email_Password \"<Password>\"\t\tEmail password\n"\
+		                        "Email_SecurityProtocol <0/1/2>\t\tProtocol: 0 = None, 1 = SSL, 2 = TLS (Default is 0)\n"\
+		                        "Email_EmailLog <0/1>\t\t\tLog outgoing emails: 0 = Disable, 1 = Enable (Default is 0)\n"\
+		                        "Email_SendTestEmail <0/1>\t\tSend test email when starting up: 0 = Disable, 1 = Enable (Default is 0)\n"\
+		                        ""
+		{
+			// 796dcfca
+			// 0 text - The default server name
+			// 1 integer - The default port number
+			// 2 text - The default service name
+			// 3 text - The default hostname
+			// 4 text - The default database name
+
+			// Translation note: First column is syntax and should not be translated
+			:00_Current "CreateConfig: Creates a initial configuration from a text file.\n"\
+			            "The file can contain the following key-value pairs:\n"\
+			            "\n"\
+			            "ServerName \"<ServerName>\"\t\tOptional. (Default is \"{0}\")\n"\
+			            "ServerPassword \"<Password>\"\t\tRequired. Password for server administrator\n"\
+			            "ServerPort <Port>\t\t\tOptional. (Default is {1})\n"\
+			            "ServiceName \"<ServiceName>\"\t\tOptional. (Default is \"{2}\")\n"\
+			            "DatabaseHostname \"<Hostname>\"\t\tOptional. (Default is \"{3}\")\n"\
+			            "DatabaseName \"<Name>\"\t\t\tOptional. (Default is \"{4}\")\n"\
+			            "DatabasePassword \"<Password>\"\t\tRequired. Password for database administrator\n"\
+			            "\n"\
+			            "To configure the server email functionality the file should also contain the following pairs:\n"\
+			            "Email_OutgoingServer \"<Hostname>\"\tOutgoing email server hostname\n"\
+			            "Email_OutgoingPort <Port>\t\tPort number (Default is 25)\n"\
+			            "Email_FromName \"<Name>\"\t\t\tSender name\n"\
+			            "Email_FromEmail \"<Address>\"\t\tSender address\n"\
+			            "Email_Subject \"<Subject>\"\t\tSubject of email\n"\
+			            "Email_SendTo \"<Addresses>\"\t\tRecipients. Seperate multiple entries by comma, semicolon or space\n"\
+			            "Email_Authentication <0/1>\t\tAuthentication: 0 = Disable, 1 = Enable (Default is 0)\n"\
+			            "Email_UserName \"<Username>\"\t\tEmail username\n"\
+			            "Email_Password \"<Password>\"\t\tEmail password\n"\
+			            "Email_SecurityProtocol <0/1/2>\t\tProtocol: 0 = None, 1 = SSL, 2 = TLS (Default is 0)\n"\
+			            "Email_EmailLog <0/1>\t\t\tLog outgoing emails: 0 = Disable, 1 = Enable (Default is 0)\n"\
+			            "Email_SendTestEmail <0/1>\t\tSend test email when starting up: 0 = Disable, 1 = Enable (Default is 0)\n"\
+			            ""
+		}
+		ConfirmDatabaseAdministrationPassword "Confirm database administration password"
+		{
+			// baaa13c7
+			:00_Current "Confirm database administration password"
+		}
+		ConfirmServerAdministrationPassword "Confirm server administration password"
+		{
+			// c8d13109
+			:00_Current "Confirm server administration password"
+		}
+		ConfirmServerAdministratorPassword "Confirm server administration password"
+		{
+			// 6805eb64
+			:00_Current "Confirm server administration password"
+		}
+		DatabaseAdministrationPassword "Database administration password"
+		{
+			// 5d9a6579
+			:00_Current "Database administration password"
+		}
+		DatabaseName "Database name"
+		{
+			// f30557c1
+			:00_Current "Database name"
+		}
+		Error NLocalize/NShared/Error
+		{
+			// 25577cf5
+			:00_Current "Error"
+		}
+		Finish "Finish"
+		{
+			// d1f71d2c
+			:00_Current "Finish"
+		}
+		HansoftProjectManagerInitialSetup "Hansoft initial setup"
+		{
+			// 89e3788b
+			:00_Current "Hansoft initial setup"
+		}
+		HansoftProjectManagerResetAdminPassword "Hansoft reset admin password"
+		{
+			// c3e73f0f
+			:00_Current "Hansoft reset admin password"
+		}
+		Install "Install"
+		{
+			// 03d37b22
+			:00_Current "Install"
+		}
+		InvalidPort "Invalid port. \n"\
+		            "Make sure that you type in a valid port."
+		{
+			// 8570e677
+			:00_Current "Invalid port. \n"\
+			            "Make sure that you type in a valid port."
+		}
+		MyCompany "My Company"
+		{
+			// c5aabd68
+			:00_Current "My Company"
+		}
+		Next "Next >"
+		{
+			// 9c4d310a
+			:00_Current "Next >"
+		}
+		NoConfigFileSpecified "No server config file specified."
+		{
+			// 76ade34a
+			:00_Current "No server config file specified."
+		}
+		NoConfigurationExists "No configuration exists. Please run initial config instead."
+		{
+			// c9a423e0
+			:00_Current "No configuration exists. Please run initial config instead."
+		}
+		Ok "Ok"
+		{
+			// 55b641c5
+			:00_Current "Ok"
+		}
+		ResetAdminPassword "Reset admin password"
+		{
+			// 4794cfaa
+			:00_Current "Reset admin password"
+		}
+		ServerAdministrationPassword "Server administration password"
+		{
+			// ffbd6e3b
+			:00_Current "Server administration password"
+		}
+		ServerAdministratorPassword "Server administration password"
+		{
+			// 42e64a56
+			:00_Current "Server administration password"
+		}
+		ServerListenPort "Server listen port"
+		{
+			// de990136
+			:00_Current "Server listen port"
+		}
+		ServerName "Server name"
+		{
+			// e1e70403
+			:00_Current "Server name"
+		}
+		ThePasswordsDoNotMatch "The passwords do not match. \n"\
+		                       "Make sure that you type both passwords exactly the same."
+		{
+			// 58039c23
+			:00_Current "The passwords do not match. \n"\
+			            "Make sure that you type both passwords exactly the same."
+		}
+		ThisWizardWillHelpYou "This wizard will help you configure your server.\r\n"\
+		                      "\r\n"\
+		                      "Click Next to continue."
+		{
+			// f2c72472
+			:00_Current "This wizard will help you configure your server.\r\n"\
+			            "\r\n"\
+			            "Click Next to continue."
+		}
+
+		ThisWizardWillHelpYouAlready "This wizard will help you configure your server.\r\n"\
+		                             "\r\n"\
+		                             "Setup has detected that your server is already configured.\r\n"\
+		                             "\r\n"\
+		                             "To keep the current configuration click Cancel.\n"\
+		                             "\n"\
+		                             "To reset the servers configuration click Next to continue."
+		{
+			// 33e5f6d4
+			:00_Current "This wizard will help you configure your server.\r\n"\
+			            "\r\n"\
+			            "Setup has detected that your server is already configured.\r\n"\
+			            "\r\n"\
+			            "To keep the current configuration click Cancel.\n"\
+			            "\n"\
+			            "To reset the servers configuration click Next to continue."
+		}
+
+		WelcomeInitialSetup "Welcome to Hansoft initial setup"
+		{
+			// cb89f032
+			:00_Current "Welcome to Hansoft initial setup"
+		}
+		YouHaveToChooseAPassword "You have to choose a password. \n"\
+		                         "Without a password anyone can change settings for your project server."
+		{
+			// ede0b044
+			:00_Current "You have to choose a password. \n"\
+			            "Without a password anyone can change settings for your project server."
+		}
+		YourDatabaseNameMustHaveAtLeastOneCharacter "Your database name must have at lease one character."
+		{
+			// bc610d5a
+			:00_Current "Your database name must have at lease one character."
+		}
+		YourServerIsAlreadyConfigured "Your server is already configured. Do you want to keep your current configuration?"
+		{
+			// 6236a0b5
+			:00_Current "Your server is already configured. Do you want to keep your current configuration?"
+		}
+		YourServerNameHasToBeAtLeaseOneCharacter "Your server name has to be at least one character."
+		{
+			// 81aa0726
+			:00_Current "Your server name has to be at least one character."
+		}
+	}
+	namespace NServiceMain
+	{
+		AddingService "Adding service."
+		{
+			// 88919994
+			:00_Current "Adding service."
+		}
+		BackupWasCompletedSuccessfully "Backup was completed successfully."
+		{
+			// 91e7131f
+			:00_Current "Backup was completed successfully."
+		}
+		Error NLocalize/NShared/Error
+		{
+			// c767dea6
+			:00_Current "Error"
+		}
+		FailedToAddService "Failed to add service. Make sure that the service is not running and that no service manager is open.\n"\
+		                   "Would you like to try again?"
+		{
+			// e647cc3e
+			:00_Current "Failed to add service. Make sure that the service is not running and that no service manager is open.\n"\
+			            "Would you like to try again?"
+		}
+		FailedToCreateNotificationDir "Failed to create notifications directory: {0}"
+		{
+			// 77d4b59e
+			// 0 text
+			:00_Current "Failed to create notifications directory: {0}"
+		}
+		FailedToCreateTheDatabase NLocalize/NShared/FailedToCreateTheDatabaseOnTheServerMakeSureThat
+		{
+			// b434032e
+			:00_Current "Failed to create the database on the server. \n"\
+			            "\n"\
+			            "Make sure that the database file and transaction log file are located on a valid volume.\n"\
+			            "Also make sure that the service has write access right to the directories in question."
+		}
+		FailedToDeleteService "Failed to delete service. Make sure that the service is not running and that no service manager is open.\n"\
+		                      "Would you like to try again?"
+		{
+			// 5d1d1048
+			:00_Current "Failed to delete service. Make sure that the service is not running and that no service manager is open.\n"\
+			            "Would you like to try again?"
+		}
+		FailedToRunAsProgramNoRights "Failed to run as program. You do not have the required permissions to run in the program directory."
+		{
+			// d7322133
+			:00_Current "Failed to run as program. You do not have the required permissions to run in the program directory."
+		}
+		FailedToStartService "Failed to start service."
+		{
+			// cbd98563
+			:00_Current "Failed to start service."
+		}
+		FailedToStartServiceForBackup "Failed to start service for backup."
+		{
+			// 707e6920
+			:00_Current "Failed to start service for backup."
+		}
+		FailedToStopService "Failed to stop service."
+		{
+			// 8d109ffb
+			:00_Current "Failed to stop service."
+		}
+		FailedToWriteBackupNotificationFile "Failed to write backup notification file: {0}"
+		{
+			// e8a0384c
+			// 0 text - Error text
+			:00_Current "Failed to write backup notification file: {0}"
+		}
+		FailedToWriteGracefulStopFile "Failed to write graceful stop notification file: {0}"
+		{
+			// 4d93c91e
+			// 0 text
+			:00_Current "Failed to write graceful stop notification file: {0}"
+		}
+		HansoftProjectServerVersion "Hansoft Project Server Version"
+		{
+			// 9bbfaa83
+			:00_Current "Hansoft Project Server Version"
+		}
+		HansoftProjectServerXXX "Hansoft Project Server {0,nfh}.{1,nfh,sj4,sf0} {2}"
+		{
+			// e2b19f45
+			// 0 integer
+			// 1 integer
+			// 2 text
+			:00_Current "Hansoft Project Server {0,nfh}.{1,nfh,sj4,sf0} {2}"
+		}
+		NoSuchService "No service was found."
+		{
+			// eb19d65d
+			:00_Current "No service was found."
+		}
+		PasswordSuccessfullyChanged "Password successfully changed"
+		{
+			// c0a0513e
+			:00_Current "Password successfully changed"
+		}
+		PerformingBackupOfAllDatabases "Performing a backup of all databases."
+		{
+			// 45f92e81
+			:00_Current "Performing a backup of all databases."
+		}
+		RemovingService "Removing service."
+		{
+			// d1bf10d4
+			:00_Current "Removing service."
+		}
+		RemovingTheServiceWasAborted "Removing the service was aborted because backups are still running."
+		{
+			// be8c9581
+			:00_Current "Removing the service was aborted because backups are still running."
+		}
+		ServiceAdded "Service added."
+		{
+			// 54b1f59f
+			:00_Current "Service added."
+		}
+		ServiceDescription "Runs and manages Hansoft databases."
+		{
+			// 62b23571
+			:00_Current "Runs and manages Hansoft databases."
+		}
+		ServiceDisplayName "Hansoft Project Server[$0!='',' ['{0}']']"
+		{
+			// 923b7ba4
+			// 0 text - Service name if not default, check if this is empty and act accordingly
+			:00_Current "Hansoft Project Server[$0!='',' ['{0}']']"
+		}
+		ServiceRemoved "Service removed."
+		{
+			// 68a1bd1f
+			:00_Current "Service removed."
+		}
+		ServiceStarted "Service started."
+		{
+			// d7c1d1e4
+			:00_Current "Service started."
+		}
+		ServiceStopped "Service stopped."
+		{
+			// d8bdff2c
+			:00_Current "Service stopped."
+		}
+		StartingService "Starting service."
+		{
+			// bd761a99
+			:00_Current "Starting service."
+		}
+		StoppingAndRemovingService "Stopping and removing service."
+		{
+			// 9dbd555b
+			:00_Current "Stopping and removing service."
+		}
+		StoppingAndRemovingServiceSuc "Service was successfully stopped and removed."
+		{
+			// 4f6c8c06
+			:00_Current "Service was successfully stopped and removed."
+		}
+		StoppingService "Stopping service."
+		{
+			// 9d4f0fe1
+			:00_Current "Stopping service."
+		}
+		StoppingTheServiceWasAborted "Stopping the service was aborted because backups are still running."
+		{
+			// 9625e1ae
+			:00_Current "Stopping the service was aborted because backups are still running."
+		}
+		TheDatabaseFileAlreadyExists "The database file already exists. \n"\
+		                             "You have to delete it manually if you want to use it for a new database."
+		{
+			// d2363bf4
+			:00_Current "The database file already exists. \n"\
+			            "You have to delete it manually if you want to use it for a new database."
+		}
+		TheDatabaseFilenameIsAlreadyInUse NLocalize/NShared/TheDatabaseFileNameYouHaveChosenIsAlreadyUsedBy
+		{
+			// 3c5a8455
+			:00_Current "The database file name you have chosen is already used by another database on the server.\n"\
+			            "Please choose another one."
+		}
+		TheDatabaseNameAlreadyExists "The database name already exists on the server, please choose another one."
+		{
+			// aaa38ab5
+			:00_Current "The database name already exists on the server, please choose another one."
+		}
+		TheTransactionLogFileAlreadyExists NLocalize/NShared/TheTransactionLogFileAlreadyExistsYouHaveToDelete
+		{
+			// 138755a7
+			:00_Current "The transaction log file already exists. \n"\
+			            "You have to delete it manually if you want to use it for a new database."
+		}
+		TheTransactionLogFileIsAlreadyInUse "The transaction log file name you have chosen is already used by another database on the server.\n"\
+		                                    "Please choose another one."
+		{
+			// b66180e7
+			:00_Current "The transaction log file name you have chosen is already used by another database on the server.\n"\
+			            "Please choose another one."
+		}
+		UnknownEscapeSequenceInString "Unknown escape sequence in string."
+		{
+			// 3bb333c4
+			:00_Current "Unknown escape sequence in string."
+		}
+	}
+}

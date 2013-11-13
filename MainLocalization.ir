@@ -1,0 +1,56 @@
+﻿CustomID "Community translation first draft"
+DefaultFont Verdana,8
+Digest 27b076e57f5456cb1edbbf089c9d7ad6
+Extends
+{
+	CustomID ""
+	LanguageID 0x0809
+}
+LanguageID 0x0412
+namespace NLocalize
+{
+	Include HPMLocalizeCommonHelpers.ir
+	Include HPMLocalizeCommon.ir
+	Include HPMLocalizeShared.ir
+	Include HPMLocalizeHolidays.ir
+
+	namespace NAOCC
+	{
+		Include AOCCLocalizeCommon.ir
+	}
+	namespace NAOQT
+	{
+		namespace NInterop
+		{
+			Include AOQTInteropLocalizeCommon.ir
+		}
+		namespace NInterface
+		{
+			Include AOQTInterfaceLocalizeCommon.ir
+		}
+	}
+	namespace NClient
+	{
+		Include HPMLocalizeClientCommon.ir
+		Include HPMLocalizeClientLoggedInCommon.ir
+		namespace NLogin
+		{
+			Include HPMLocalizeClientLoginCommon.ir
+			namespace NGui
+			{
+				Include HPMLocalizeClientLoginGUI.ir
+			}
+		}
+
+		namespace NGui
+		{
+			Include HPMLocalizeClientLoggedInGUI.ir
+		}
+	}
+	namespace NServer
+	{
+		Include HPMLocalizeServerCommon.ir
+		Include HPMLocalizeServerDatabase.ir
+		Include HPMLocalizeServerServer.ir
+	}
+}

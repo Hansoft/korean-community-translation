@@ -1,0 +1,665 @@
+﻿namespace NCollation
+{
+	CollationFilePath "Collations/DefaultCollation.col" // This is the path to the collation file. It should not be translated.
+	{
+		// e6a6fefc
+		:00_Current "Collations/DefaultCollation.col"
+	}
+}
+namespace NAOSSL
+{
+	XComma "{0}"
+	{
+		// 620b080c
+		// 0 text - Error message
+		:00_Current "{0}"
+	}
+	XHTML "<ul><li>{0}</li>"
+	{
+		// ada58514
+		// 0 text - Error message
+		:00_Current "<ul><li>{0}</li>"
+	}
+	XHTMLEnd "{0}</ul>"
+	{
+		// 507f90ab
+		// 0 text - Error message
+		:00_Current "{0}</ul>"
+	}
+
+	XXComma	"{0}, {1}"
+	{
+		// d14d4344
+		// 0 text - Error message
+		// 1 text - Error message
+		:00_Current "{0}, {1}"
+	}
+
+	XXHTML	"{0}<li>{1}</li>"
+	{
+		// 6371394c
+		// 0 text - Error message
+		// 1 text - Error message
+		:00_Current "{0}<li>{1}</li>"
+	}
+
+	namespace NErrors
+	{
+		AKIDIssuerSerialMisMatch "Authority and issuer serial number mismatch"
+		{
+			// 5c66bc2b
+			:00_Current "Authority and issuer serial number mismatch"
+		}
+		AKIDSKIDMisMatch "Authority and subject key identifier mismatch"
+		{
+			// b503699b
+			:00_Current "Authority and subject key identifier mismatch"
+		}
+		CRLHasExpired "CRL has expired"
+		{
+			// a6cd8ccf
+			:00_Current "CRL has expired"
+		}
+		CRLNotYetValid "CRL not yet valid"
+		{
+			// 14418395
+			:00_Current "CRL not yet valid"
+		}
+		CRLPathValidationError "CRL path validation error"
+		{
+			// ffb68224
+			:00_Current "CRL path validation error"
+		}
+		CRLSignatureFailure "CRL signature failure"
+		{
+			// 388658bc
+			:00_Current "CRL signature failure"
+		}
+		CertChainTooLong "Certificate chain too long"
+		{
+			// 220afc74
+			:00_Current "Certificate chain too long"
+		}
+		CertIsRevoked "Certificate is revoked"
+		{
+			// 97998d9b
+			:00_Current "Certificate is revoked"
+		}
+		CertRejected "Certificate rejected (the root CA is marked to reject the specified purpose)"
+		{
+			// ba03e415
+			:00_Current "Certificate rejected (the root CA is marked to reject the specified purpose)"
+		}
+		CertUntrusted "Certificate untrusted (the root CA is not marked as trusted for the specified purpose)"
+		{
+			// c7a5125d
+			:00_Current "Certificate untrusted (the root CA is not marked as trusted for the specified purpose)"
+		}
+		CertificateHasExpired "Certificate has expired (notAfter date is before the current time)"
+		{
+			// a3da0891
+			:00_Current "Certificate has expired (notAfter date is before the current time)"
+		}
+		CertificateNotYetValid "Certificate is not yet valid (notBefore date is after current time)"
+		{
+			// b2dd7797
+			:00_Current "Certificate is not yet valid (notBefore date is after current time)"
+		}
+		CertificatePrivateKeyMisMatch "Public & Private key mismatch error."
+		{
+			// cbf88c5e
+			:00_Current "Public & Private key mismatch error."
+		}
+		CertificateSignatureFailure "Certificate signature failure"
+		{
+			// 5f651dfe
+			:00_Current "Certificate signature failure"
+		}
+		DepthZeroSelfSignedCert "The certificate is self signed and cannot be found in the list of trusted certificates"
+		{
+			// 0d8aa228
+			:00_Current "The certificate is self signed and cannot be found in the list of trusted certificates"
+		}
+		DifferentCRLScope "Different CRL scope"
+		{
+			// e10b7c33
+			:00_Current "Different CRL scope"
+		}
+		ErrorInCRLLastUpdateField "Format error in CRL lastUpdate field"
+		{
+			// b28ff63e
+			:00_Current "Format error in CRL lastUpdate field"
+		}
+		ErrorInCRLNextUpdateField "Format error in CRL nextUpdate field"
+		{
+			// 72fae7c9
+			:00_Current "Format error in CRL nextUpdate field"
+		}
+		ErrorInCertNotAfterField "Format error in certificate notAfter field"
+		{
+			// a163ecb7
+			:00_Current "Format error in certificate notAfter field"
+		}
+		ErrorInCertNotBeforeField "Format error in certificate notBefore field"
+		{
+			// 70d07178
+			:00_Current "Format error in certificate notBefore field"
+		}
+		ExcludedViolation "Excluded subtree violation"
+		{
+			// 341a5984
+			:00_Current "Excluded subtree violation"
+		}
+		HostnameMisMatch "Hostname mismatch (valid hostnames in certificate: {0})"
+		{
+			// d0078516
+			// 0 text - list of valid hostnames from certificate.
+			:00_Current "Hostname mismatch (valid hostnames in certificate: {0})"
+		}
+		InvalidCRLData "Invalid certificate revocation list"
+		{
+			// a401c403
+			:00_Current "Invalid certificate revocation list"
+		}
+		InvalidCRLPath "Invalid certificate revocation list path"
+		{
+			// a4085896
+			:00_Current "Invalid certificate revocation list path"
+		}
+		InvalidCertCA "Invalid certificate authority"
+		{
+			// c094477a
+			:00_Current "Invalid certificate authority"
+		}
+		InvalidCertificateAuthorityData "Invalid certificate authority certificate"
+		{
+			// fd707c4e
+			:00_Current "Invalid certificate authority certificate"
+		}
+		InvalidCertificateAuthorityLocation "Invalid certificate authority certificate location"
+		{
+			// 6f29a38d
+			:00_Current "Invalid certificate authority certificate location"
+		}
+		InvalidExtension "Invalid or inconsistent certificate extension"
+		{
+			// fb3fea05
+			:00_Current "Invalid or inconsistent certificate extension"
+		}
+		InvalidNonCA "Invalid non certificate authority"
+		{
+			// 1de83617
+			:00_Current "Invalid non certificate authority"
+		}
+		InvalidPolicyExtension "Invalid or inconsistent certificate policy extension"
+		{
+			// ae218115
+			:00_Current "Invalid or inconsistent certificate policy extension"
+		}
+		InvalidPrivateKey "Invalid private key"
+		{
+			// ac4ce12c
+			:00_Current "Invalid private key"
+		}
+		InvalidPublicCertificate "Invalid public certificate"	
+		{
+			// f62efe6a
+			:00_Current "Invalid public certificate"
+		}
+		InvalidPurpose "Unsupported certificate purpose"
+		{
+			// e1236716
+			:00_Current "Unsupported certificate purpose"
+		}
+		KeyUsageNoCertSign "Key usage does not include certificate signing"
+		{
+			// 55943b5b
+			:00_Current "Key usage does not include certificate signing"
+		}
+		KeyUsageNoDigitalSignature "Key usage - no digital signature"
+		{
+			// 3b47c78c
+			:00_Current "Key usage - no digital signature"
+		}
+		NoCRLSignature "No CRL signature"
+		{
+			// ba14a911
+			:00_Current "No CRL signature"
+		}
+		NoExplicitPolicy "The verification flags were set to require an explicit policy but none was present"
+		{
+			// abb402f0
+			:00_Current "The verification flags were set to require an explicit policy but none was present"
+		}
+		OutOfMemory "Out of memory"
+		{
+			// bfff6b87
+			:00_Current "Out of memory"
+		}
+		PathLengthExceeded "Path length exceeded"
+		{
+			// ff30b4c7
+			:00_Current "Path length exceeded"
+		}
+		PermittedViolation "Permitted subtree violation"
+		{
+			// 02311604
+			:00_Current "Permitted subtree violation"
+		}
+		ProxyCertsNotAllowed "Proxy certificate are not allowed"
+		{
+			// 52a3f63d
+			:00_Current "Proxy certificate are not allowed"
+		}
+		ProxyPathLengthExceeded "Proxy path length exceeded"
+		{
+			// dff47589
+			:00_Current "Proxy path length exceeded"
+		}
+		SelfSignedCertInChain "Self signed certificate in chain"
+		{
+			// 04834f2d
+			:00_Current "Self signed certificate in chain"
+		}
+		SubjectIssuerMisMatch "Subject issuer mismatch"
+		{
+			// 4a5dc662
+			:00_Current "Subject issuer mismatch"
+		}
+		SubtreeMinMax "Name constraints minimum and maximum not supported"
+		{
+			// 80f384c5
+			:00_Current "Name constraints minimum and maximum not supported"
+		}
+		UnableToDecodeIssuerPublicKey "Unable to decode issuer public key"
+		{
+			// 245e0b02
+			:00_Current "Unable to decode issuer public key"
+		}
+		UnableToDecryptCRLSignature "Unable to decrypt CRL signature"
+		{
+			// 43f09e49
+			:00_Current "Unable to decrypt CRL signature"
+		}
+		UnableToDecryptCertificateSignature "Unable to decrypt certificate signature"
+		{
+			// cca24ecb
+			:00_Current "Unable to decrypt certificate signature"
+		}
+		UnableToGetCRL "Unable to get CRL"
+		{
+			// 799356bc
+			:00_Current "Unable to get CRL"
+		}
+		UnableToGetCRLIssuer "Unable to get CRL issuer"
+		{
+			// 66ab1a57
+			:00_Current "Unable to get CRL issuer"
+		}
+		UnableToGetIssuerCert "Unable to get issuer certificate"
+		{
+			// 708c80c4
+			:00_Current "Unable to get issuer certificate"
+		}
+		UnableToGetIssuerCertLocally "Unable to get issuer certificate locally"
+		{
+			// 8c50a7d4
+			:00_Current "Unable to get issuer certificate locally"
+		}
+		UnableToVerifyLeafSignature "Unable to verify leaf signature (the chain contains only one certificate and it is not self signed)"
+		{
+			// 2a20e03a
+			:00_Current "Unable to verify leaf signature (the chain contains only one certificate and it is not self signed)"
+		}
+		UnhandledCRLExtension "Unhandled critical CRL extension"
+		{
+			// a523be12
+			:00_Current "Unhandled critical CRL extension"
+		}
+		UnhandledCriticalExtension "Unhandled critical extension"
+		{
+			// f0d6b11c
+			:00_Current "Unhandled critical extension"
+		}
+		UnknownError "Unknown error"
+
+		{
+			// 38555e3b
+			:00_Current "Unknown error"
+		}
+		UnnestedResource "Unnested resource"
+		{
+			// ae44074f
+			:00_Current "Unnested resource"
+		}
+		UnsupportedConstraintSyntax "Unsupported or invalid name constraint syntax"
+		{
+			// b9da5776
+			:00_Current "Unsupported or invalid name constraint syntax"
+		}
+		UnsupportedConstraintType "Unsupported or invalid name constraint type"
+		{
+			// 14dc13d1
+			:00_Current "Unsupported or invalid name constraint type"
+		}
+		UnsupportedExtensionFeature "Unsupported extension feature"
+		{
+			// 2a54fcf3
+			:00_Current "Unsupported extension feature"
+		}
+		UnsupportedNameSyntax "Unsupported or invalid name syntax"
+		{
+			// 464eb6b2
+			:00_Current "Unsupported or invalid name syntax"
+		}
+	}
+}
+namespace NAOTime
+// Day and month strings used in formatted dates
+{
+	Apr "Apr"
+	{
+		// 639beba7
+		:00_Current "Apr"
+	}
+	April "April"
+	{
+		// ba457f5c
+		:00_Current "April"
+	}
+	Aug "Aug"
+	{
+		// 639bec41
+		:00_Current "Aug"
+	}
+	August "August"
+	{
+		// 034a119d
+		:00_Current "August"
+	}
+	Dec "Dec"
+	{
+		// 639bf6f0
+		:00_Current "Dec"
+	}
+	December "December"
+	{
+		// e8bceb7b
+		:00_Current "December"
+	}
+	Feb "Feb"
+	{
+		// 639bff71
+		:00_Current "Feb"
+	}
+	February "February"
+	{
+		// bfdb0ba4
+		:00_Current "February"
+	}
+	Fri "Fri"
+	{
+		// 639c0125
+		:00_Current "Fri"
+	}
+	FriOne "f"
+	{
+		// 0ebe09a7
+		:00_Current "f"
+	}
+	Friday "Friday"
+	{
+		// 0ebe6163
+		:00_Current "Friday"
+	}
+	Jan "Jan"
+	{
+		// 639c0ffd
+		:00_Current "Jan"
+	}
+	January "January"
+	{
+		// f32f9a9e
+		:00_Current "January"
+	}
+	Jul "Jul"
+	{
+		// 639c128f
+		:00_Current "Jul"
+	}
+	July "July"
+	{
+		// d71e64e8
+		:00_Current "July"
+	}
+	Jun "Jun"
+	{
+		// 639c1291
+		:00_Current "Jun"
+	}
+	June "June"
+	{
+		// d71e6516
+		:00_Current "June"
+	}
+	Mar "Mar"
+	{
+		// 639c1cc4
+		:00_Current "Mar"
+	}
+	March "March"
+	{
+		// bb166aef
+		:00_Current "March"
+	}
+	May "May"
+	{
+		// 639c1ccb
+		:00_Current "May"
+	}
+	MayShort "May"
+	{
+		// 352db43b
+		:00_Current "May"
+	}
+	Mon "Mon"
+	{
+		// 639c1e8e
+		:00_Current "Mon"
+	}
+	MonOne "m"
+	{
+		// 1ede9a70
+		:00_Current "m"
+	}
+	Monday "Monday"
+	{
+		// 1edef22c
+		:00_Current "Monday"
+	}
+	MonthDay "{0} {1}"
+	{
+		// 5388b768
+		// 0 text - Month
+		// 1 text - Day
+		:00_Current "{0} {1}"
+	}
+	MonthDayYear "{0} {1} - {2}"
+	{
+		// ce98b3b9
+		// 0 text - Month
+		// 1 text - Day
+		// 2 text - Year
+		:00_Current "{0} {1} - {2}"
+	}
+	NoDay ""
+	{
+		// bb2f6cdf
+		:00_Current ""
+	}
+	NoMonth ""
+	{
+		// 45688b07
+		:00_Current ""
+	}
+	Nov "Nov"
+	{
+		// 639c22d7
+		:00_Current "Nov"
+	}
+	November "November"
+	{
+		// 51679fc2
+		:00_Current "November"
+	}
+	Oct "Oct"
+	{
+		// 639c258a
+		:00_Current "Oct"
+	}
+	October "October"
+	{
+		// 792666f2
+		:00_Current "October"
+	}
+	Sat "Sat"
+	{
+		// 639c364c
+		:00_Current "Sat"
+	}
+	SatOne "s"
+	{
+		// 2be3816e
+		:00_Current "s"
+	}
+	Saturday "Saturday"
+	{
+		// b57b7251
+		:00_Current "Saturday"
+	}
+	Sep "Sep"
+	{
+		// 639c36cc
+		:00_Current "Sep"
+	}
+	September "September"
+	{
+		// decca74b
+		:00_Current "September"
+	}
+	Sun "Sun"
+	{
+		// 639c38da
+		:00_Current "Sun"
+	}
+	SunOne "s"
+	{
+		// 2d4a213c
+		:00_Current "s"
+	}
+	Sunday "Sunday"
+	{
+		// 2d4a78f8
+		:00_Current "Sunday"
+	}
+	Thu "Thu"
+	{
+		// 639c3b75
+		:00_Current "Thu"
+	}
+	ThuOne "t"
+	{
+		// 2eb7e1f7
+		:00_Current "t"
+	}
+	Thursday "Thursday"
+	{
+		// beb45bf8
+		:00_Current "Thursday"
+	}
+	TranslationDefinedDisplayDateFormat "{0}-{1,sj2,sf0}-{2,sj2,sf0}[NHelpers::Ignore($3)][NHelpers::Ignore($4)][NHelpers::Ignore($5)]"
+	{
+		// 75bb32ff
+		// 0 integer - Year
+		// 1 integer - Month
+		// 2 integer - Day of month
+		// 3 text - Short month name
+		// 4 text - Short day of week name
+		// 5 integer - Two digit year
+		:00_Current "{0}-{1,sj2,sf0}-{2,sj2,sf0}[NHelpers::Ignore($3)][NHelpers::Ignore($4)][NHelpers::Ignore($5)]"
+	}
+	TranslationDefinedParseDateFormat "{0}-{1}-{2}[NHelpers::Ignore($3)][NHelpers::Ignore($4)][NHelpers::Ignore($5)]"
+	{
+		// 8bf31fe4
+		// 0 integer - Year
+		// 1 integer - Month
+		// 2 integer - Day of month
+		// 3 text - Short month name
+		// 4 text - Short day of week name
+		// 5 integer - Two digit year
+		:00_Current "{0}-{1}-{2}[NHelpers::Ignore($3)][NHelpers::Ignore($4)][NHelpers::Ignore($5)]"
+	}
+	Tue "Tue"
+	{
+		// 639c3d12
+		:00_Current "Tue"
+	}
+	TueOne "t"
+	{
+		// 2f9a5a74
+		:00_Current "t"
+	}
+	Tuesday "Tuesday"
+	{
+		// 22f93c03
+		:00_Current "Tuesday"
+	}
+	Wed "Wed"
+	{
+		// 639c47c4
+		:00_Current "Wed"
+	}
+	WedOne "w"
+	{
+		// 3577bfe6
+		:00_Current "w"
+	}
+	Wednesday "Wednesday"
+	{
+		// 0707f0c8
+		:00_Current "Wednesday"
+	}
+}
+namespace NDeadlockDetector
+{
+	ContinueWaiting "Continue waiting"
+	{
+		// e0e0a8ae
+		:00_Current "Continue waiting"
+	}
+	CreateErrorReport "Create error report"
+	{
+		// 1aa39270
+		:00_Current "Create error report"
+	}
+	XIsNotRespondingMessage "{0} is not responding. This might be temporary.\n"\
+	                        "\n"\
+	                        "Would you like to continue waiting for {0} to respond?\n"\
+	                        "\n"\
+	                        "To report this problem to Hansoft, please press 'Create error report' to create an error report."
+	{
+		// a0f18839
+		// 0 text - The name of the application
+		:00_Current "{0} is not responding. This might be temporary.\n"\
+		            "\n"\
+		            "Would you like to continue waiting for {0} to respond?\n"\
+		            "\n"\
+		            "To report this problem to Hansoft, please press 'Create error report' to create an error report."
+	}
+	XIsNotRespondingTitle "{0} is not responding"
+	{
+		// 31c853b6
+		// 0 text - The name of the application
+		:00_Current "{0} is not responding"
+	}
+}

@@ -1,0 +1,157 @@
+﻿namespace NDialogButtonBox
+{
+	Abort "Abort"
+	{
+		// 46ce31ef
+		:00_Current "Abort"
+	}
+	Apply "Apply"
+	{
+		// 46d5e2bd
+		:00_Current "Apply"
+	}
+	Cancel "Cancel"
+	{
+		// 252bdadd
+		:00_Current "Cancel"
+	}
+	Close "Close"
+	{
+		// 46f7decd
+		:00_Current "Close"
+	}
+	CloseWithoutSaving "Close without Saving"
+	{
+		// 0a522b29
+		:00_Current "Close without Saving"
+	}
+	Discard "Discard"
+	{
+		// 2aa522f1
+		:00_Current "Discard"
+	}
+	DontSave "Don't Save"
+	{
+		// 42a8d01b
+		:00_Current "Don't Save"
+	}
+	Ignore "Ignore"
+	{
+		// 3397965b
+		:00_Current "Ignore"
+	}
+	No "No"
+	{
+		// 188cc294
+		:00_Current "No"
+	}
+	NoToAll "No to All"
+	{
+		// 383f8a50
+		:00_Current "No to All"
+	}
+	OK "OK"
+	{
+		// 188cc291
+		:00_Current "OK"
+	}
+	Open "Open"
+	{
+		// 6ec855a9
+		:00_Current "Open"
+	}
+	Reset "Reset"
+	{
+		// 480386fa
+		:00_Current "Reset"
+	}
+	RestoreDefaults "Restore Defaults"
+	{
+		// 45ae2c13
+		:00_Current "Restore Defaults"
+	}
+	Retry "Retry"
+	{
+		// 48038ced
+		:00_Current "Retry"
+	}
+	Save "Save"
+	{
+		// 6eca4986
+		:00_Current "Save"
+	}
+	SaveAll "Save All"
+	{
+		// 9adc469f
+		:00_Current "Save All"
+	}
+	Yes "Yes"
+	{
+		// 2a254308
+		:00_Current "Yes"
+	}
+	YesToAll "Yes to All"
+	{
+		// abbe7344
+		:00_Current "Yes to All"
+	}
+}
+namespace NTextControl
+{
+	CmdClickToFollowLinkX "{0}\n"\
+	                      "⌘+Click to follow link"
+	{
+		// 71b2a11e
+		// 0 text - Link address
+		:00_Current "{0}\n"\
+		            "⌘+Click to follow link"
+	}
+	Copy "Copy"
+	{
+		// 6e803563
+		:00_Current "Copy"
+	}
+	CopyLinkLocation "Copy Link Location"
+	{
+		// a722fcea
+		:00_Current "Copy Link Location"
+	}
+	CtrlClickToFollowLinkX "{0}\n"\
+	                       "Ctrl+Click to follow link"
+	{
+		// d32cf2df
+		// 0 text - Link address
+		:00_Current "{0}\n"\
+		            "Ctrl+Click to follow link"
+	}
+	Cut "Cut"
+	{
+		// 7f784074
+		:00_Current "Cut"
+	}
+	Delete "Delete"
+	{
+		// 1100d67b
+		:00_Current "Delete"
+	}
+	Paste "Paste"
+	{
+		// 3f6a7f85
+		:00_Current "Paste"
+	}
+	Redo "Redo"
+	{
+		// 6e8842f2
+		:00_Current "Redo"
+	}
+	SelectAll "Select All"
+	{
+		// b8bce3a1
+		:00_Current "Select All"
+	}
+	Undo "Undo"
+	{
+		// 6e8a0e5e
+		:00_Current "Undo"
+	}
+}

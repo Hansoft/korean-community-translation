@@ -1,0 +1,1092 @@
+﻿namespace NAgilePriority
+// Custom priority column, Customise project dialog
+// More..>Customisations and settings>Customise project, Priority tab
+{
+	CustomDropListColumnToUseInsteadOfThePre "Custom drop list column to use instead of the predefined iteration priority:"
+	{
+		// 93f23a1e
+		:00_Current "Custom drop list column to use instead of the predefined iteration priority:"
+	}
+	LetTeamMembersChangeXPriorityInMyWork "Let team members change {0} priority in To do list"
+	{
+		// 53de1ca6
+		// 0 text - Default name of sprint type or custom name
+		:00_Current "Let team members change {0} priority in To do list"
+	}
+	NoPrioritColumnSelected "< No priority column selected >"
+	{
+		// 0de6b32c
+		:00_Current "< No priority column selected >"
+	}
+	PleaseNoteThatTheCustomDropListColumnXHasBeen "Please note that the custom drop list column '{0}' will be removed in the project view when it is used as a priority column in the {1}.\n"\
+	                                              "\n"\
+	                                              "The project view and the {1} cannot share the same priority column.\n"\
+	                                              "\n"\
+	                                              "Do you want to continue?"
+	{
+		// 6f0c7cb9
+		// 0 text - Column name
+		// 1 text - Default name of backlog type or custom name
+		:00_Current "Please note that the custom drop list column '{0}' will be removed in the project view when it is used as a priority column in the {1}.\n"\
+		            "\n"\
+		            "The project view and the {1} cannot share the same priority column.\n"\
+		            "\n"\
+		            "Do you want to continue?"
+	}
+	PleaseNoteThatTheCustomDropListColumnXHasBeen2 "Please note that the custom drop list column '{0}' will be removed in the {1} when it is used as a priority column in the project view.\n"\
+	                                               "\n"\
+	                                               "The {1} and the project view cannot share the same priority column.\n"\
+	                                               "\n"\
+	                                               "Do you want to continue?"
+	{
+		// 509c140b
+		// 0 text - Column name
+		// 1 text - Default name of backlog type or custom name
+		:00_Current "Please note that the custom drop list column '{0}' will be removed in the {1} when it is used as a priority column in the project view.\n"\
+		            "\n"\
+		            "The {1} and the project view cannot share the same priority column.\n"\
+		            "\n"\
+		            "Do you want to continue?"
+	}
+	SelectACustomDropListColumnToUseInsteadOfThe "Column to use for {0,cc} priority:"
+	{
+		// f625a6f8
+		// 0 text - Default name of sprint or backlog type or custom name
+		:00_Current "Column to use for {0,cc} priority:"
+	}
+	TheSelectedColumnIsAlreadyUsedInTheProjectView "The selected column is or will be used in the project view as a priority column and cannot be used in the {0,cc}.\n"\
+	                                               "\n"\
+	                                               "Create a new priority column and use it here in the {0,cc}."
+	{
+		// a70a5d40
+		// 0 text - Default name of backlog type or custom name
+		:00_Current "The selected column is or will be used in the project view as a priority column and cannot be used in the {0,cc}.\n"\
+		            "\n"\
+		            "Create a new priority column and use it here in the {0,cc}."
+	}
+	TheSelectedColumnIsAlreadyUsedInTheXAsA "The selected column is or will be used in the {0,cc} as a priority column and cannot be used in the project view.\n"\
+	                                        "\n"\
+	                                        "Create a new priority column and use it here in the project view."
+	{
+		// cd556ebb
+		// 0 text - Default name of backlog type or custom name
+		:00_Current "The selected column is or will be used in the {0,cc} as a priority column and cannot be used in the project view.\n"\
+		            "\n"\
+		            "Create a new priority column and use it here in the project view."
+	}
+	UsePredefinedXPriority "< Use predefined '{0,cc} priority' column >"
+	{
+		// cfb0d4cc
+		// 0 text - Default name of sprint or backlog type or custom name
+		:00_Current "< Use predefined '{0,cc} priority' column >"
+	}
+	UseTheOrderInItemsInAHierarchyAsPriority "< Use the hierarchy order as priority >"
+	{
+		// b166435f
+		:00_Current "< Use the hierarchy order as priority >"
+	}
+}
+namespace NAgileSetup
+// Custom priority column, Customise project dialog
+// More..>Customisations and settings>Customise project, Agile tab
+{
+	DefauLenhInDaysWhenCreatingASprint "Default length in days when creating a sprint:"
+	{
+		// ac2903b2
+		:00_Current "Default length in days when creating a sprint:"
+	}
+	DefauLenhInDaysWhenCreatingAX "Length in days when creating a {0}"
+	{
+		// b96febaa
+		// 0 text - Default name of sprint type or custom name
+		:00_Current "Length in days when creating a {0}"
+	}
+	General "Agile general"
+	{
+		// 65d29d5c
+		:00_Current "Agile general"
+	}
+	IdealEstimateHoursPerDay "Hours per day:"
+	{
+		// e9b84aef
+		:00_Current "Hours per day:"
+	}
+	IdealEstimateMethod "Estimate display format:"
+	{
+		// 5a59051a
+		:00_Current "Estimate display format:"
+	}
+	IdealEstimateUseDays "Show as days"
+	{
+		// 2cd06197
+		:00_Current "Show as days"
+	}
+	IdealEstimateUseHours "Show days as hours"
+	{
+		// c72c9317
+		:00_Current "Show days as hours"
+	}
+	IdealEstimation "Estimated days"
+	{
+		// 06eb67fa
+		:00_Current "Estimated days"
+	}
+	NewlyCreatedXHaveNoMembers "A newly created {0} should have no members"
+	{
+		// a32475e9
+		// 0 text - Default name of sprint type or custom name
+		:00_Current "A newly created {0} should have no members"
+	}
+	NoPrediction "No prediction"
+	{
+		// cecb046c
+		:00_Current "No prediction"
+	}
+	PriorityInMyWork "Priority in To do list"
+	{
+		// 338760c0
+		:00_Current "Priority in To do list"
+	}
+	ScheduledAssignedUsers "Users who have tasks assigned to themselves in the project view can edit them"
+	{
+		// 3214adcf
+		:00_Current "Users who have tasks assigned to themselves in the project view can edit them"
+	}
+	ScheduledEditPermission "Editing permissions"
+	{
+		// fa13865e
+		:00_Current "Editing permissions"
+	}
+	ScheduledTasksSettings "Scheduled tasks"
+	{
+		// 5f7cf6e6
+		:00_Current "Scheduled tasks"
+	}
+	SelectSprintPredictionSettingsForThisProject "Sprint prediction settings:"
+	{
+		// 2ae77276
+		:00_Current "Sprint prediction settings:"
+	}
+	SelectXPredictionMethodForThisProject "{0,cc} prediction"
+	{
+		// 8cfb1b9e
+		// 0 text - Default name of sprint type or custom name
+		:00_Current "{0,cc} prediction"
+	}
+	UserStories "User stories"
+	{
+		// 6372dc86
+		:00_Current "User stories"
+	}
+	WhenAXIsCreatedItShouldByDefauBeFlaggedAsAUser "When a {0} is created it should be flagged as a user story"
+	{
+		// 748811ae
+		// 0 text - Default name of backlog item type or custom name
+		:00_Current "When a {0} is created it should be flagged as a user story"
+	}
+	_10DaysWeightedAverage "10 days weighted average"
+	{
+		// 2e22e53b
+		:00_Current "10 days weighted average"
+	}
+	_14DaysWeightedAverage "14 days weighted average"
+	{
+		// 5ebf9ebf
+		:00_Current "14 days weighted average"
+	}
+	_3DaysWeightedAverage "3 days weighted average"
+	{
+		// a9331a0d
+		:00_Current "3 days weighted average"
+	}
+	_5DaysWeightedAverage "5 days weighted average"
+	{
+		// 418176cf
+		:00_Current "5 days weighted average"
+	}
+	_7DaysWeightedAverage "7 days weighted average"
+	{
+		// d9cfd391
+		:00_Current "7 days weighted average"
+	}
+}
+namespace NColumnsHandling
+// Item operations messages and some Sprint labels
+{
+	ClickInsertOnTheMainToolbarOrDragItemsHereFrom "Click 'Insert..' on the main toolbar or drag items here from the {0}"
+	{
+		// f5a12abb
+		// 0 text - Default name of backlog type or custom name
+		:00_Current "Click 'Insert..' on the main toolbar or drag items here from the {0}"
+	}
+	SelectADate "Select a date..."
+	{
+		// 42281c90
+		:00_Current "Select a date..."
+	}
+	ThisItemIsBrokenDown "You cannot change data on this column and item because it is broken down in the project view"
+	{
+		// 4da6d44d
+		:00_Current "You cannot change data on this column and item because it is broken down in the project view"
+	}
+	ThisItemIsBrokenDownInBacklog "You cannot change data on this column and item because it is broken down in the {0}"
+	{
+		// 7d8cbc37
+		// 0 text - Custom name of product backlog
+		:00_Current "You cannot change data on this column and item because it is broken down in the {0}"
+	}
+	YouCanOnlySetEstimatedIdealDaysOnAScheduled "You can only set estimated days on a scheduled task, {0} or a {1} that does not have sub items"
+	{
+		// 0a632c6d
+		// 0 text - Default name of backlog item type or custom name
+		// 1 text - Default name of sprint backlog item type or custom name
+		:00_Current "You can only set estimated days on a scheduled task, {0} or a {1} that does not have sub items"
+	}
+	YouCanOnlySetPointsOnAXOrAXThatDoesNotHaveSub "You can only set points on a {0} or a {1} or scheduled task that does not have sub items"
+	{
+		// b95f9c36
+		// 0 text - Default name of backlog item type or custom name
+		// 1 text - Default name of sprint backlog item type or custom name
+		:00_Current "You can only set points on a {0} or a {1} or scheduled task that does not have sub items"
+	}
+	YouCanOnlySetPriorityOnAXOrAXThatDoesNotHave "You can only set priority on a {0} or a {1} that does not have sub items"
+	{
+		// f2a43b31
+		// 0 text - Default name of backlog item type or custom name
+		// 1 text - Default name of task type or custom name
+		:00_Current "You can only set priority on a {0} or a {1} that does not have sub items"
+	}
+	YouCanOnlySetStatusOnAXOrAXThatDoesNotHaveSub "You can only set status on a {0}, {1} or a {2} that does not have sub items"
+	{
+		// a3cca9fd
+		// 0 text - Default name of backlog item type or custom name
+		// 1 text - Default name of sprint backlog item type or custom name
+		// 2 text - Default name of task type or custom name
+		:00_Current "You can only set status on a {0}, {1} or a {2} that does not have sub items"
+	}
+	YouCannotChangeInGhostResourceMode "You cannot change pipeline, kanban or workflow or change status when you are in ghost user mode"
+	{
+		// c044f820
+		:00_Current "You cannot change pipeline, kanban or workflow or change status when you are in ghost user mode"
+	}
+	YouCannotChangeReleaseMilestoneTagOnATaskItem "You cannot change {0} tag on a task/item in To do list"
+	{
+		// 7ac57244
+		// 0 text - Default name of milestone type or custom name
+		:00_Current "You cannot change {0} tag on a task/item in To do list"
+	}
+	YouCannotEditDataInACustomNumericColumnOnASub "You cannot edit data in a custom numeric column on a sub project"
+	{
+		// ea199e0d
+		:00_Current "You cannot edit data in a custom numeric column on a sub project"
+	}
+	YouCannotSelectWorkflowStatusOnThisItem "You cannot select a pipeline, kanban, workflow, or workflow status on this item"
+	{
+		// ba29a474
+		:00_Current "You cannot select a pipeline, kanban, workflow, or workflow status on this item"
+	}
+	YouCannotSetItemStatusOnThisXBecauseItHasSub "You cannot set status on this {0} because it has sub items in the {1}"
+	{
+		// 1cd17038
+		// 0 text - Default name of backlog item type or custom name
+		// 1 text - Default name of backlog type or custom name
+		:00_Current "You cannot set status on this {0} because it has sub items in the {1}"
+	}
+	YouCannotSetItemStatusWhenYouAreInGhost NLocalize/NShared/YouCannotSetItemStatusWhenYouAreInGhostResource
+	{
+		// 0d211df3
+		:00_Current "You cannot set status when you are in ghost user mode"
+	}
+	YouDoNotHavePermissionToEditDataInThisColumn "You do not have permission to edit data in this column"
+	{
+		// 076f147f
+		:00_Current "You do not have permission to edit data in this column"
+	}
+}
+namespace NDialog
+// Custom priority column, Customise project dialog
+// More..>Customisations and settings>Customise project
+{
+	Agile "Agile and Scheduling"
+	{
+		// 19a57d3d
+		:00_Current "Agile and Scheduling"
+	}
+	AutoRefresh "Auto refresh"
+	{
+		// c3de8923
+		:00_Current "Auto refresh"
+	}
+	BugPriorityInToDoList "Priority in To do list"
+	{
+		// 5fb68004
+		:00_Current "Priority in To do list"
+	}
+	Cancel NLocalize/NShared/Cancel2
+	{
+		// 52957b21
+		:00_Current "Cancel"
+	}
+	CustomiseProject "Customise project"
+	{
+		// fd4b1dee
+		:00_Current "Customise project"
+	}
+	ExtraColumns "Columns"
+	{
+		// a44285c0
+		:00_Current "Columns"
+	}
+	FindingBugsAndAutoRefresh "Finding bugs"
+	{
+		// b7e72ae6
+		:00_Current "Finding bugs"
+	}
+	More NLocalize/NShared/More
+	{
+		// da03f98e
+		:00_Current "More"
+	}
+	MoreCustomisation "More"
+	{
+		// bf166a80
+		:00_Current "More"
+	}
+	Ok NLocalize/NShared/Ok2
+	{
+		// a448e0f5
+		:00_Current "Ok"
+	}
+	Priority NLocalize/NShared/Priority
+	{
+		// 5f0d1e1d
+		:00_Current "Priority"
+	}
+	XPriority "Agile {0} priority"
+	{
+		// 2a71c9d5
+		// 0 text - Default name of sprint or backlog type or custom name
+		:00_Current "Agile {0} priority"
+	}
+}
+namespace NFindingBugs
+// QA section, Customise project dialog
+// Quality assurance, More..>Customisations and settings>Customise extra columns, finding bugs etc.., Finding bugs and auto refresh tab
+{
+	AllowAllBugsToBeListedInAllBugsInThisProject "Allow all bugs to be listed in 'All bugs in this project' when no keyword or condition is set"
+	{
+		// f86834fa
+		:00_Current "Allow all bugs to be listed in 'All bugs in this project' when no keyword or condition is set"
+	}
+	AutomaticallyRefreshTheQualityAssuranceView "Automatically refresh the quality assurance view after one minute of inactivity"
+	{
+		// 7cbe750d
+		:00_Current "Automatically refresh the quality assurance view after one minute of inactivity"
+	}
+	CheckTheBoxBelowIfYouWishHansoftTo "Check the box below if you wish Hansoft to automatically refresh following one minute of inactivity by the user. Refreshing the view means that Hansoft will find bugs in accordance with the current keywords and conditions set by the user."
+	{
+		// 4eeb46b9
+		:00_Current "Check the box below if you wish Hansoft to automatically refresh following one minute of inactivity by the user. Refreshing the view means that Hansoft will find bugs in accordance with the current keywords and conditions set by the user."
+	}
+	ColumnToUse "Column to use"
+	{
+		// e0bb6619
+		:00_Current "Column to use"
+	}
+	InLargeQualityAssuranceProjectsTheNumberOfBugs "In large quality assurance projects the number of bugs can reach tens of thousands. In 'All bugs in this project' all bugs are listed by default when no specific keyword or condition is set. You can prevent all bugs being shown by unchecking this box:"
+	{
+		// e53c3f25
+		:00_Current "In large quality assurance projects the number of bugs can reach tens of thousands. In 'All bugs in this project' all bugs are listed by default when no specific keyword or condition is set. You can prevent all bugs being shown by unchecking this box:"
+	}
+	PriorityInToDoList "Priority in To do list"
+	{
+		// 54439666
+		:00_Current "Priority in To do list"
+	}
+	YouCanDecideOnBugsSorted "You can decide on how bugs are sorted in the users To do list by selecting a priority column here"
+	{
+		// a131db27
+		:00_Current "You can decide on how bugs are sorted in the users To do list by selecting a priority column here"
+	}
+}
+namespace NPathSetup
+// Custom priority column, Customise project dialog
+// More..>Customisations and settings>Customise project, More tab
+{
+	Comments "Comments"
+	{
+		// 95ffbd6f
+		:00_Current "Comments"
+	}
+	IWantAllProjectMembersToBeAbleToCommentOnAll "I want all project members to be able to comment on all items"
+	{
+		// f40e8351
+		:00_Current "I want all project members to be able to comment on all items"
+	}
+	OnScheduledActivitiesAndItemsYouCanShowASub "On scheduled activities and items you can show a sub project/item path when the sub project/item itself is not visible. This will affect To do list, Find, Find all and Limited Visibility. For example, an assigned task may be displayed just 'Task A' in My work but with sub project/item path turned on it can be displayed as \n"\
+	                                            "'Sub project A: Task B'."
+	{
+		// 86d2d71c
+		:00_Current "On scheduled activities and items you can show a sub project/item path when the sub project/item itself is not visible. This will affect To do list, Find, Find all and Limited Visibility. For example, an assigned task may be displayed just 'Task A' in My work but with sub project/item path turned on it can be displayed as \n"\
+		            "'Sub project A: Task B'."
+	}
+	SelectSubProjectItemPathDepth "Select sub project/item path depth:"
+	{
+		// a2417c5b
+		:00_Current "Select sub project/item path depth:"
+	}
+	ShowAPathOfDepthFive "Show a path of depth five"
+	{
+		// 46edf60c
+		:00_Current "Show a path of depth five"
+	}
+	ShowAPathOfDepthFour "Show a path of depth four"
+	{
+		// 46ee0f7e
+		:00_Current "Show a path of depth four"
+	}
+	ShowAPathOfDepthOne "Show a path of depth one"
+	{
+		// f2a283a4
+		:00_Current "Show a path of depth one"
+	}
+	ShowAPathOfDepthThree "Show a path of depth three"
+	{
+		// 25a9719a
+		:00_Current "Show a path of depth three"
+	}
+	ShowAPathOfDepthTwo "Show a path of depth two"
+	{
+		// f2a29a1c
+		:00_Current "Show a path of depth two"
+	}
+	ShowNoPath "Show no path"
+	{
+		// cac850b4
+		:00_Current "Show no path"
+	}
+	ShowWholePath "Show whole path"
+	{
+		// 6f7758b6
+		:00_Current "Show whole path"
+	}
+	SubProjectPath "Sub project path"
+	{
+		// 7af5a397
+		:00_Current "Sub project path"
+	}
+	YouCanOverridePermissionSettingsIeDelegationX "You can override permission settings (i.e., delegation, {0} settings and membership). In this way everyone can make a comment in the project view and in the main {1}."
+	{
+		// aa371e94
+		// 0 text - Default name of sprint type or custom name
+		// 1 text - Default name of backlog type or custom name
+		:00_Current "You can override permission settings (i.e., delegation, {0} settings and membership). In this way everyone can make a comment in the project view and in the main {1}."
+	}
+}
+namespace NProjectColumns
+// Customise columns dialog
+// Right click column names, Customise project columns  
+{
+	ActivateColumn "Activate column"
+	{
+		// d0b54e02
+		:00_Current "Activate column"
+	}
+	ActivatedColumns "Activated columns"
+	{
+		// 131be119
+		:00_Current "Activated columns"
+	}
+	AreYouSureYouWantToDeleteTheSelectedColumnAnd "Are you sure you want to delete selected columns and all data related to the columns?"
+	{
+		// c30d776f
+		:00_Current "Are you sure you want to delete selected columns and all data related to the columns?"
+	}
+	AvailableColumns "Available columns"
+	{
+		// b50dd145
+		:00_Current "Available columns"
+	}
+	CreateColumn "Create column"
+	{
+		// a5390f05
+		:00_Current "Create column"
+	}
+	DeactivateColumn "Deactivate column"
+	{
+		// d255dbcb
+		:00_Current "Deactivate column"
+	}
+	DeleteColumn "Delete column"
+	{
+		// feb2f404
+		:00_Current "Delete column"
+	}
+	DoYouWantToCreateTheActiveCustomColumnsInTheX "Do you want to create the active custom column(s) in the {0} as well?"
+	{
+		// bd0027ad
+		// 0 text - Default name of backlog type or custom name or text "main project view"
+		:00_Current "Do you want to create the active custom column(s) in the {0} as well?"
+	}
+	EditColumn "Edit column"
+	{
+		// d46ae377
+		:00_Current "Edit column"
+	}
+	ItIsNotRecommendedThatYouActivatePointsOrIdeal "It is not recommended that you activate points or estimated days in the project view.\n"\
+	                                               "\n"\
+	                                               "Instead it is recommended that you use points and estimated days in the {0} when creating user stories/features, use the project view to break down those user stories/features into tasks.\n"\
+	                                               "\n"\
+	                                               "Do you still want to activate this column?"
+	{
+		// 8f0166ac
+		// 0 text - Default name of backlog type or custom name
+		:00_Current "It is not recommended that you activate points or estimated days in the project view.\n"\
+		            "\n"\
+		            "Instead it is recommended that you use points and estimated days in the {0} when creating user stories/features, use the project view to break down those user stories/features into tasks.\n"\
+		            "\n"\
+		            "Do you still want to activate this column?"
+	}
+	MainProjectView "main project view"
+	{
+		// 916cb5fa
+		:00_Current "main project view"
+	}
+	YouCanAddExtraColumnsThatCanBeUsedFor "You can add extra columns that can be used for additional data on each item:"
+	{
+		// 3832c542
+		:00_Current "You can add extra columns that can be used for additional data on each item:"
+	}
+	YouCanCreateDeleteOrEditExtraColumnsHere "You can create, delete or edit extra columns here:"
+	{
+		// 683929e9
+		:00_Current "You can create, delete or edit extra columns here:"
+	}
+	YouCanOnlyDeleteACustomCreatedColumn "You can only delete a custom created column!"
+	{
+		// fa7f7d89
+		:00_Current "You can only delete a custom created column!"
+	}
+	YouCanOnlyEditACustomCreatedColumn "You can only edit a custom created column!"
+	{
+		// 1d4709fc
+		:00_Current "You can only edit a custom created column!"
+	}
+	namespace NCreateColumn
+    // Create custom column dialog
+    // Right click column names, Customise project columns, Create column
+	{
+		AColumnWithThatIdentifierHashButDifferentName "A column with that identifier (hash) but different name exists in a project, please type another name!"
+		{
+			// 724ff6e8
+			:00_Current "A column with that identifier (hash) but different name exists in a project, please type another name!"
+		}
+		AColumnWithThatNameAlreadyExists "A column with that name already exists!"
+		{
+			// 64fbd8c1
+			:00_Current "A column with that name already exists!"
+		}
+		AColumnWithThatNameAndTypeAlreadyExists "A column with that name and type already exists!"
+		{
+			// 8ad533f6
+			:00_Current "A column with that name and type already exists!"
+		}
+		AccumulatedTime "Time spent (0.5h 5.0h 150h)"
+		{
+			// 433ea539
+			:00_Current "Time spent (0.5h 5.0h 150h)"
+		}
+		AllProjectMembers NLocalize/NShared/AllProjectMembers
+		{
+			// 6e342b9d
+			:00_Current "All project members"
+		}
+		AreYouSureYouWantToDeleteThisItem "Are you sure you want to delete this item?"
+		{
+			// 4a04b5aa
+			:00_Current "Are you sure you want to delete this item?"
+		}
+		CanBeAccessedBy "Can be accessed by"
+		{
+			// 1e16b871
+			:00_Current "Can be accessed by"
+		}
+		Cancel NLocalize/NShared/Cancel2
+		{
+			// cae0c408
+			:00_Current "Cancel"
+		}
+		CreateCustomColumn "Create custom column"
+		{
+			// e9fd53df
+			:00_Current "Create custom column"
+		}
+		CreateItem "Create item"
+		{
+			// 0cdacc25
+			:00_Current "Create item"
+		}
+		DateTimeX "Date and time ({0})"
+		{
+			// 102f6d27
+			// 0 text - Formatted date
+			:00_Current "Date and time ({0})"
+		}
+		DateX "Date ({0})"
+		{
+			// 91daf258
+			// 0 text - Formatted date
+			:00_Current "Date ({0})"
+		}
+		DeleteItem "Delete item"
+		{
+			// d0496564
+			:00_Current "Delete item"
+		}
+		DropList "Drop list single choice"
+		{
+			// 123477f3
+			:00_Current "Drop list single choice"
+		}
+		DropListConfiguration "Drop list configuration"
+		{
+			// 1dd2c7cb
+			:00_Current "Drop list configuration"
+		}
+		DropListMulti "Drop list multiple choices"
+		{
+			// 651fc9be
+			:00_Current "Drop list multiple choices"
+		}
+		EditCustomColumn "Edit custom column"
+		{
+			// cc638a11
+			:00_Current "Edit custom column"
+		}
+		EditItem "Edit item"
+		{
+			// bb0ef057
+			:00_Current "Edit item"
+		}
+		Hyperlink NLocalize/NShared/Hyperlink
+		{
+			// d684a7b8
+			:00_Current "Hyperlink"
+		}
+		Items NLocalize/NShared/Items
+		{
+			// 923f9964
+			:00_Current "Items"
+		}
+		MainProjectManagersOnly "Main managers only"
+		{
+			// 05d87c0e
+			:00_Current "Main managers only"
+		}
+		MembersWithDelegatedRights "Members with delegated rights and main managers"
+		{
+			// d3f8f7d9
+			:00_Current "Members with delegated rights and main managers"
+		}
+		MoveDown "Move down"
+		{
+			// 891f0371
+			:00_Current "Move down"
+		}
+		MoveUp "Move up"
+		{
+			// e3361ade
+			:00_Current "Move up"
+		}
+		MuilineTextEditedInActivityDetailsWindow "Multi-line text (edited in activity details window)"
+		{
+			// 786a4e2b
+			:00_Current "Multi-line text (edited in activity details window)"
+		}
+		Name "Name"
+		{
+			// 694a2ce3
+			:00_Current "Name"
+		}
+		Number123 "Number (1, 2, 3)"
+		{
+			// f190dfa1
+			:00_Current "Number (1, 2, 3)"
+		}
+		NumberWithDecimals102030 "Number with decimals (1.0, 2.0, 3.0)"
+		{
+			// abec7aef
+			:00_Current "Number with decimals (1.0, 2.0, 3.0)"
+		}
+		Ok NLocalize/NShared/Ok2
+		{
+			// 4a9dce5c
+			:00_Current "Ok"
+		}
+		Options "Options"
+		{
+			// e621880e
+			:00_Current "Options"
+		}
+		OptionsDateTime "Fill in current date and time when inserting new items"
+		{
+			// f42f37bb
+			:00_Current "Fill in current date and time when inserting new items"
+		}
+		ReadOnlyOverriedAllOtherRules "Read only (overrides all other rules)"
+		{
+			// 6d393546
+			:00_Current "Read only (overrides all other rules)"
+		}
+		Resources "People"
+		{
+			// ecb835dd
+			:00_Current "People"
+		}
+		Sort "Sort"
+		{
+			// 694d270a
+			:00_Current "Sort"
+		}
+		Text NLocalize/NShared/Text
+		{
+			// 694d89a7
+			:00_Current "Text"
+		}
+		TheNameOfTheColumnMustBeAtLeast3CharactersLong "The name of the column must be at least 3 characters long"
+		{
+			// 19b5f9e9
+			:00_Current "The name of the column must be at least 3 characters long"
+		}
+		Type "Type"
+		{
+			// 694ddda4
+			:00_Current "Type"
+		}
+		UnitNameHoursDaysEtc "Unit name (hours etc.)"
+		{
+			// ca04ac41
+			:00_Current "Unit name (hours etc.)"
+		}
+		namespace NCreateItem
+        // Used for Create custom dialog, special types 
+		{
+			AddResources NLocalize/NShared/AddResources
+			{
+				// 7f7c6c06
+				:00_Current "Add users"
+			}
+			AssignedBug "Assigned bug"
+			{
+				// 7662a26e
+				:00_Current "Assigned bug"
+			}
+			AutoAssignToResourcesGroups " Auto assign to"
+			{
+				// 0e8364be
+				:00_Current " Auto assign to"
+			}
+			AutoAssignToResourcesGroups2 "Auto assign to"
+			{
+				// deeffcb0
+				:00_Current "Auto assign to"
+			}
+			AutoAssignToResourcesGroupsWhenSelectingThis "When selected"
+			{
+				// f8d15de6
+				:00_Current "When selected"
+			}
+			AutoAssignedTo NLocalize/NShared/AutoAssignedTo
+			{
+				// 2b3bb16c
+				:00_Current "Auto assigned to"
+			}
+			BlueBox NLocalize/NShared/BlueBox
+			{
+				// 0293e0f3
+				:00_Current "Blue box"
+			}
+			BlueCircle NLocalize/NShared/BlueCircle
+			{
+				// daf41edc
+				:00_Current "Blue circle"
+			}
+			BlueFace NLocalize/NShared/BlueFace
+			{
+				// 5511f2f9
+				:00_Current "Blue face"
+			}
+			Box NLocalize/NShared/Box
+			{
+				// 23cb8d0b
+				:00_Current "Box ?"
+			}
+			BoxNo "Box No"
+			{
+				// 44e30648
+				:00_Current "Box No"
+			}
+			BoxYes "Box Yes"
+			{
+				// e143fd3c
+				:00_Current "Box Yes"
+			}
+			Cancel NLocalize/NShared/Cancel2
+			{
+				// e2967d88
+				:00_Current "Cancel"
+			}
+			Check NLocalize/NShared/Check
+			{
+				// 44f0fa00
+				:00_Current "Done"
+			}
+			ClosedBug "Closed bug"
+			{
+				// c0c9a23a
+				:00_Current "Closed bug"
+			}
+			CreateItem "Create item"
+			{
+				// 13d145a5
+				:00_Current "Create item"
+			}
+			DeletedResource "Deleted user"
+			{
+				// 222e20c1
+				:00_Current "Deleted user"
+			}
+			DisabledBox "Disabled box"
+			{
+				// f672ee23
+				:00_Current "Disabled box"
+			}
+			FixedBug "Fixed bug"
+			{
+				// 2639fbf0
+				:00_Current "Fixed bug"
+			}
+			GoldFace NLocalize/NShared/GoldFace
+			{
+				// c4394b77
+				:00_Current "Gold face"
+			}
+			GreenBox NLocalize/NShared/GreenBox
+			{
+				// 9afb6abc
+				:00_Current "Green box"
+			}
+			GreenCircle NLocalize/NShared/GreenCircle
+			{
+				// 39894005
+				:00_Current "Green circle"
+			}
+			GreyFace NLocalize/NShared/GreyFace
+			{
+				// 9c4fe7e8
+				:00_Current "Grey face"
+			}
+			GreyGroup NLocalize/NShared/GreyGroup
+			{
+				// 26688566
+				:00_Current "Grey group"
+			}
+			Group NLocalize/NShared/Group
+			{
+				// 453f04af
+				:00_Current "Group"
+			}
+			HighPriorityBox "High priority box"
+			{
+				// f16c3bed
+				:00_Current "High priority box"
+			}
+			Icon NLocalize/NShared/Icon
+			{
+				// 9d40d14b
+				:00_Current "Icon"
+			}
+			ItemIcon "Item icon"
+			{
+				// 0df0945a
+				:00_Current "Item icon"
+			}
+			ItemName "Item name"
+			{
+				// 0df34972
+				:00_Current "Item name"
+			}
+			LightGreyGroup NLocalize/NShared/LightGreyGroup
+			{
+				// ac742fbe
+				:00_Current "Light grey group"
+			}
+			Locked "Locked"
+			{
+				// f88c5c14
+				:00_Current "Locked"
+			}
+			LowPriorityBox "Low priority box"
+			{
+				// 897392df
+				:00_Current "Low priority box"
+			}
+			MagentaBox NLocalize/NShared/MagentaBox
+			{
+				// 7f80de28
+				:00_Current "Magenta box"
+			}
+			MagentaCircle NLocalize/NShared/MagentaCircle
+			{
+				// cb390bf1
+				:00_Current "Magenta circle"
+			}
+			MediumPriorityBox "Medium priority box"
+			{
+				// 3bc0a98e
+				:00_Current "Medium priority box"
+			}
+			NewBug "New bug"
+			{
+				// fc8c038a
+				:00_Current "New bug"
+			}
+			Ok NLocalize/NShared/Ok2
+			{
+				// 7572c7dc
+				:00_Current "Ok"
+			}
+			OrangeBox NLocalize/NShared/OrangeBox
+			{
+				// 7ef58a87
+				:00_Current "Orange box"
+			}
+			OrangeCircle NLocalize/NShared/OrangeCircle
+			{
+				// 64b24ff0
+				:00_Current "Orange circle"
+			}
+			OrangeFace NLocalize/NShared/OrangeFace
+			{
+				// 5da8cf0d
+				:00_Current "Orange face"
+			}
+			Pipeline "Pipeline"
+			{
+				// 4e280fb8
+				:00_Current "Pipeline"
+			}
+			PleaseSelectAnIconFromTheList NLocalize/NShared/PleaseSelectAnIconFromTheList
+			{
+				// 9d6dd365
+				:00_Current "Please select an icon from the list!"
+			}
+			Plus "Plus"
+			{
+				// 9d44cf06
+				:00_Current "Plus"
+			}
+			Progress "Progress"
+			{
+				// 00c674d7
+				:00_Current "Progress"
+			}
+			Project NLocalize/NShared/Project
+			{
+				// 45d8e579
+				:00_Current "Project"
+			}
+			ReOpenBug "Reopen bug"
+			{
+				// 7805d8e9
+				:00_Current "Reopen bug"
+			}
+			RedBox NLocalize/NShared/RedBox
+			{
+				// 05d63a26
+				:00_Current "Red box"
+			}
+			RedCircle NLocalize/NShared/RedCircle
+			{
+				// 5fdfcf2f
+				:00_Current "Not done"
+			}
+			RemoveResources NLocalize/NShared/RemoveResources
+			{
+				// d898742b
+				:00_Current "Remove users"
+			}
+			Report "Report"
+			{
+				// 05dd8e7e
+				:00_Current "Report"
+			}
+			Step "Step"
+			{
+				// 9d46941e
+				:00_Current "Step"
+			}
+			TheNameOfTheItemMustBeAtLeast2CharactersLong NLocalize/NShared/TheNameOfTheItemMustBeAtLeast2CharactersLong
+			{
+				// 9a39ea09
+				:00_Current "The name of the item must be at least 2 characters long!"
+			}
+			ToAutoAssignResourcesToThisItemClickHere "To auto assign users to this item click here:"
+			{
+				// 6c01c6d2
+				:00_Current "To auto assign users to this item click here:"
+			}
+			ToRemoveAutoAssignFromThisItemClickHere "To remove auto assign from this item click here:"
+			{
+				// 2a1bc456
+				:00_Current "To remove auto assign from this item click here:"
+			}
+			Unlocked "Unlocked"
+			{
+				// 63afd257
+				:00_Current "Unlocked"
+			}
+			VerifiedBug "Verified bug"
+			{
+				// 6149180e
+				:00_Current "Verified bug"
+			}
+			VeryHighPriorityBox "Very high priority box"
+			{
+				// 84780993
+				:00_Current "Very high priority box"
+			}
+			VeryLowPriorityBox "Very low priority box"
+			{
+				// 11c943c5
+				:00_Current "Very low priority box"
+			}
+			WhenThisDropListItemSelectedOnATaskItemBugIt "When this drop list item selected on a task/item/bug it can be auto assigned to a set of users/groups."
+			{
+				// 422ca8b0
+				:00_Current "When this drop list item selected on a task/item/bug it can be auto assigned to a set of users/groups."
+			}
+			WhiteBox NLocalize/NShared/WhiteBox
+			{
+				// 67b17bec
+				:00_Current "White box"
+			}
+			Workflow "Workflow"
+			{
+				// 96e5f55d
+				:00_Current "Workflow"
+			}
+			YellowBox NLocalize/NShared/YellowBox
+			{
+				// 572b1307
+				:00_Current "Yellow box"
+			}
+			YellowCircle NLocalize/NShared/YellowCircle
+			{
+				// 97a10870
+				:00_Current "Yellow circle"
+			}
+		}
+	}
+}
+

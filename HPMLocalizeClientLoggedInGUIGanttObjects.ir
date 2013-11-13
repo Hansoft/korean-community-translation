@@ -1,0 +1,1154 @@
+﻿BurndownChartModeIdealDays NLocalize/NShared/IdealDays2
+{
+	// e98038ab
+	:00_Current "estimated days"
+}
+BurndownChartModeIdealHours "estimated hours"
+{
+	// 19d74cab
+	:00_Current "estimated hours"
+}
+BurndownChartModePoints NLocalize/NShared/Points2
+{
+	// 1e7170b8
+	:00_Current "points"
+}
+BurndownChartModeWorkRemaining "work remaining"
+{
+	// 0dda28b8
+	:00_Current "work remaining"
+}
+BurndownUnitFromModeIdealDays NLocalize/NShared/IdealDays
+{
+	// 5ded40cd
+	:00_Current "Estimated days"
+}
+BurndownUnitFromModeIdealHours "Estimated hours"
+{
+	// 1be5590d
+	:00_Current "Estimated hours"
+}
+BurndownUnitFromModePoints NLocalize/NShared/Points
+{
+	// 05f49c1a
+	:00_Current "Points"
+}
+BurndownUnitFromModeWorkHours "Work hours"
+{
+	// e124b6f1
+	:00_Current "Work hours"
+}
+ShortBurndownUnitFromModeIdealDays NLocalize/NShared/IdealDays2
+{
+	// e2ef2c7d
+	:00_Current "estimated days"
+}
+ShortBurndownUnitFromModeIdealHours "estimated hours"
+{
+	// 4124babd
+	:00_Current "estimated hours"
+}
+ShortBurndownUnitFromModePoints NLocalize/NShared/Points2
+{
+	// 52e6a5ca
+	:00_Current "points"
+}
+ShortBurndownUnitFromModeWorkHours NLocalize/NShared/Hours
+{
+	// 6626a2a1
+	:00_Current "hours"
+}
+namespace NAutoItem
+{
+	AllProjectMembers NLocalize/NShared/AllProjectMembers
+	{
+		// 1cfc1575
+		:00_Current "All project members"
+	}
+	AllocatedToThisX "Allocated to this {0}"
+	{
+		// 66174f96
+		// 0 text - Default name for sprint or user supplied name
+		:00_Current "Allocated to this {0}"
+	}
+	AlsoShowingIdealDaysBurndown NLocalize/NShared/AlsoShowingIdealDaysBurndown
+	{
+		// cd5c17e7
+		:00_Current "Also showing estimated days burndown"
+	}
+	AlsoShowingIdealHoursBurndown "Also showing estimated hours burndown"
+	{
+		// 75d34d87
+		:00_Current "Also showing estimated hours burndown"
+	}
+	AlsoShowingPointsBurndown NLocalize/NShared/AlsoShowingPointsBurndown
+	{
+		// ab7ae014
+		:00_Current "Also showing Points burndown"
+	}
+	AlsoShowingWorkRemainingBurndown NLocalize/NShared/AlsoShowingWorkRemainingBurndown
+	{
+		// 3c2b8374
+		:00_Current "Also showing Work remaining burndown"
+	}
+	BacklogItems "[$0='backlog story','Backlog stories',{0,cc}s]"
+    // This need to be fixed with support for real if-then-elses in the next release
+	{
+		// 4b7b312f
+		// 0 text - Default name of backlog item text or user defined replacement
+		:00_Current "[$0='backlog story','Backlog stories',{0,cc}s]"
+	}
+	BurndownChart "{0,cc}"
+	{
+		// e90cd9db
+		// 0 text - Default name of burndown chart text or user defined replacement
+		:00_Current "{0,cc}"
+	}
+	BurndownForResource "{0,cc} for user {1}"
+	{
+		// ebb8fa18
+		// 0 text - Burndown mode: Work remaining, Ideal days, Points
+		// 1 text - User group, Developers
+		:00_Current "{0,cc} for user {1}"
+	}
+
+	BurndownForResourceGroup "{0,cc} for user group {1}"
+	{
+		// 65a63fc5
+		// 0 text - Burndown mode: Work remaining, Ideal days, Points
+		// 1 text - User group, Developers
+		:00_Current "{0,cc} for user group {1}"
+	}
+
+	BurndownOnNumberOfItems "{0,cc} on {1} [NHelpers::Pluralize($0,'item')]"
+	{
+		// d3234a06
+		// 0 text - Burndown mode: Work remaining, Ideal days, Points
+		// 1 integer - number of items
+		:00_Current "{0,cc} on {1} [NHelpers::Pluralize($0,'item')]"
+	}
+	BurndownchartAndMoreDataInChart NLocalize/NShared/And
+	{
+		// 68cdf5a4
+		:00_Current " and "
+	}
+	CompareToSprint "Compare to {0} {1}"
+	{
+		// cc2bc9e4
+		// 0 text - sprint name
+		// 1 text - sprint description
+		:00_Current "Compare to {0} {1}"
+	}	
+	ComparedToSprint "Compared to {0} {1}"
+	{
+		// d6145668
+		// 0 text - sprint name
+		// 1 text - sprint description
+		:00_Current "Compared to {0} {1}"
+	}	
+
+	HoursRemaining "{0,fe0,fn2} [NHelpers::Pluralize($0,'hour')] work remaining"
+	{
+		// a13a7805
+		// 0 decimal - Number of hours
+		:00_Current "{0,fe0,fn2} [NHelpers::Pluralize($0,'hour')] work remaining"
+	}
+
+	HoursVelocity "{0,fe0,fn1,n+} [NHelpers::Pluralize($0,'hour')] per day"
+	{
+		// 95871fba
+		// 0 decimal - Number of hours
+		:00_Current "{0,fe0,fn1,n+} [NHelpers::Pluralize($0,'hour')] per day"
+	}	
+
+	HoursVelocityZeroHoursPerDay "+-0.0 hours per day"
+	{
+		// a16781f0
+		:00_Current "+-0.0 hours per day"
+	}
+	HoursZeroHoursPerDay "0 hours per day"
+	{
+		// 9e2c1ba1
+		:00_Current "0 hours per day"
+	}
+	IdealDays NLocalize/NShared/IdealDays
+	{
+		// a3ca528a
+		:00_Current "Estimated days"
+	}
+	IdealDaysBurndown "Estimated days burndown"
+	{
+		// 9e533fb9
+		:00_Current "Estimated days burndown"
+	}
+	IdealDaysCompleted "{0,fe0,fn1} of {1,fe0,fn1} [NHelpers::Pluralize($0,'day')] done"
+	{
+		// d7ff06c7
+		// 0 decimal - Number of days completed
+		// 1 decimal - Total number of days
+		:00_Current "{0,fe0,fn1} of {1,fe0,fn1} [NHelpers::Pluralize($0,'day')] done"
+	}
+
+	IdealDaysVelocity "{0,fe0,fn1,n+} [NHelpers::Pluralize($0,'day')] per day"
+	{
+		// 35e693b9
+		// 0 decimal - Number of ideal days
+		:00_Current "{0,fe0,fn1,n+} [NHelpers::Pluralize($0,'day')] per day"
+	}	
+
+	IdealDaysVelocityZeroIdealDaysPerDay "+-0.0 days per day"
+	{
+		// 9f706fce
+		:00_Current "+-0.0 days per day"
+	}
+	IdealDaysZeroIdealDaysPerDay "0 days per day"
+	{
+		// ccdc4aff
+		:00_Current "0 days per day"
+	}
+	IdealHours "Estimated hours"
+	{
+		// 1d64a26a
+		:00_Current "Estimated hours"
+	}
+	IdealHoursBurndown "Estimated hours burndown"
+	{
+		// 65af6f99
+		:00_Current "Estimated hours burndown"
+	}
+	IdealHoursCompleted "{0,fe0,fn1} of {1,fe0,fn1} [NHelpers::Pluralize($0,'hour')] done"
+	{
+		// 8ae132a7
+		// 0 decimal - Number of hours completed
+		// 1 decimal - Total number of hours
+		:00_Current "{0,fe0,fn1} of {1,fe0,fn1} [NHelpers::Pluralize($0,'hour')] done"
+	}
+	MoreDataInBurndown "More data"
+	{
+		// b4d7748d
+		:00_Current "More data"
+	}
+	People "People:"
+	{
+		// 18621b9f
+		:00_Current "People:"
+	}
+	Points NLocalize/NShared/Points
+	{
+		// 1913bef7
+		:00_Current "Points"
+	}
+	PointsBurndown "Points burndown"
+	{
+		// 6544c926
+		:00_Current "Points burndown"
+	}
+	PointsCompleted "{0} of {1} [NHelpers::Pluralize($0,'point')] done"
+	{
+		// 7d21bdd4
+		// 0 integer - Number of completed points
+		// 1 integer - Total number of points
+		:00_Current "{0} of {1} [NHelpers::Pluralize($0,'point')] done"
+	}
+
+	PointsVelocity "{0,fe0,fn1,n+} [NHelpers::Pluralize($0,'point')] per day"
+	{
+		// fcd81d26
+		// 0 decimal - Number of points
+		:00_Current "{0,fe0,fn1,n+} [NHelpers::Pluralize($0,'point')] per day"
+	}	
+
+	PointsVelocityZeroPointsPerDay "+-0.0 points per day"
+	{
+		// e3c1b9c8
+		:00_Current "+-0.0 points per day"
+	}
+	PointsZeroPointsPerDay "0 points per day"
+	{
+		// 0100dd99
+		:00_Current "0 points per day"
+	}
+	ReceivingNewBurndownData "Receiving new burndown data"
+	{
+		// 1cee3169
+		:00_Current "Receiving new burndown data"
+	}
+	ReleaseBurndownChart "{0,cc} burndown"
+	{
+		// 090d581c
+		// 0 text - Burndown mode: Work remaining, Ideal days, Points
+		:00_Current "{0,cc} burndown"
+	}	
+
+	SprintBurndownChart "{0,cc} burndown"
+	{
+		// df1dbe7b
+		// 0 text - Burndown mode: Work remaining, Ideal days, Points
+		:00_Current "{0,cc} burndown"
+	}	
+
+	Total NLocalize/NShared/Total
+	{
+		// 46dc8d1e
+		:00_Current "Total"
+	}
+	TotalWorkRemainingInThisXXHours "Total work remaining in this {0}: {1,fe0,fn2} [NHelpers::Pluralize($1,'hour')] "
+	{
+		// daf8c30b
+		// 0 text - Default name for sprint or custom name
+		// 1 decimal - Number of hours
+		:00_Current "Total work remaining in this {0}: {1,fe0,fn2} [NHelpers::Pluralize($1,'hour')] "
+	}
+	WorkChangedNegativelyInSprint NLocalize/NShared/XChangedNegativelyInX
+	{
+		// 12cab676
+		// 0 text - Unit name of burndown mode: hours, points, days
+		// 1 text - Sprint custom name
+		:00_Current "{0,cc} changed negatively in {1}"
+	}
+
+	WorkChangedPositivlyInSprint NLocalize/NShared/XChangedPositivelyInX
+	{
+		// 240e3211
+		// 0 text - Unit name of burndown mode: hours, points, days
+		// 1 text - Sprint custom name
+		:00_Current "{0,cc} changed positively in {1}"
+	}
+
+	WorkCreatedInSprint NLocalize/NShared/XCreatedInX
+	{
+		// d457d6ac
+		// 0 text - Unit name of burndown mode: hours, points, days
+		// 1 text - Sprint custom name
+		:00_Current "{0,cc} created in {1}"
+	}
+
+	WorkDeletedInSprint NLocalize/NShared/XDeletedInX
+	{
+		// 64c30f4b
+		// 0 text - Unit name of burndown mode: hours, points, days
+		// 1 text - Sprint custom name
+		:00_Current "{0} deleted in {1}"
+	}
+
+	WorkRemaining NLocalize/NShared/WorkRemaining
+	{
+		// b14c1a17
+		:00_Current "Work remaining"
+	}
+	WorkRemainingBurndown "Work remaining burndown"
+	{
+		// 81364446
+		:00_Current "Work remaining burndown"
+	}
+	WorkRemainingOfCapacity "{0,fe0,fn2} of {1}"
+	{
+		// db41955a
+		// 0 decimal - Number of hours
+		// 1 integer - Number of hours
+		:00_Current "{0,fe0,fn2} of {1}"
+	}
+	WorkXPercentOfYourTimeOnThisX " (Work {0}% of your time on this {1})"
+	{
+		// 1e0b0be6
+		// 0 integer - Percentage of time number
+		// 1 text - Default name for sprint or custom name
+		:00_Current " (Work {0}% of your time on this {1})"
+	}
+	XBurndownchartEmpty "{0} (empty)"
+	{
+		// 851f6462
+		// 0 text - Title of a chart.
+		:00_Current "{0} (empty)"
+	}
+	XHoursOverallocated " (+ {0,fe0,fn2} [NHelpers::Pluralize($0,'hour')] over-allocated)"
+	{
+		// 628f32e8
+		// 0 decimal - Number of hours
+		:00_Current " (+ {0,fe0,fn2} [NHelpers::Pluralize($0,'hour')] over-allocated)"
+	}
+}
+namespace NBlock
+// Labels and messages for My work, empty QA, Backlog and project, Summary rows, Find selections
+{
+	BacklogName NLocalize/NShared/X2
+	{
+		// 82237571
+		// 0 text - Default name of backlog or user defined name
+		:00_Current "{0,cc}"
+	}
+	BugsAssignedToYou "Bugs assigned to you"
+	{
+		// b6cdf5bc
+		:00_Current "Bugs assigned to you"
+	}
+	BugsImportedViaXML "Bugs imported via XML"
+	{
+		// 074705a3
+		:00_Current "Bugs imported via XML"
+	}
+	BugsInThisProject "Bugs in this project"
+	{
+		// 6b0a3b74
+		:00_Current "Bugs in this project"
+	}
+	ClickHereToCreateANewTask ">> Click here to create a new task"
+	{
+		// 71c771bc
+		:00_Current ">> Click here to create a new task"
+	}
+	ClickHereToCreateANewX ">> Click here to create a new {0}"
+	{
+		// b2074b01
+		// 0 text - Default name for sprint or backlog item or custom names
+		:00_Current ">> Click here to create a new {0}"
+	}
+	LimitedVisibility " (Limited visibility)"
+	{
+		// 206108ed
+		:00_Current " (Limited visibility)"
+	}
+	NewBugsReportedByMe "New bugs reported by me"
+	{
+		// de85556a
+		:00_Current "New bugs reported by me"
+	}
+	ProjectSchedule "{0,cc}"
+	{
+		// cd965641
+		// 0 text - Custom "Project schedule" string.
+		:00_Current "{0,cc}"
+	}
+	SprintSprintName "{0,cc} {1}"
+	{
+		// 3c25dcfe
+		// 0 text - Sprint
+		// 1 text - Name of a sprint
+		:00_Current "{0,cc} {1}"
+	}
+	TasksAssignedToYou "Tasks assigned to you, "
+	{
+		// 2c60a991
+		:00_Current "Tasks assigned to you, "
+	}
+	TasksAssignedToYouStartedX "Tasks assigned to you, started {0}"
+	{
+		// 12c5dc40
+		// 0 text - Formatted date
+		:00_Current "Tasks assigned to you, started {0}"
+	}
+	TasksAssignedToYouStartsToday "Tasks assigned to you, starts today"
+	{
+		// 71007813
+		:00_Current "Tasks assigned to you, starts today"
+	}
+	TasksAssignedToYouStartsX "Tasks assigned to you, starts {0}"
+	{
+		// d20600aa
+		// 0 text - Formatted date
+		:00_Current "Tasks assigned to you, starts {0}"
+	}
+	UndoneRedoneBugs "Undone/redone bugs"
+	{
+		// b8146cf4
+		:00_Current "Undone/redone bugs"
+	}
+	WorkRemaining "{0,fe0,fn2}h"
+	{
+		// 84eb2cfa
+		// 0 decimal - Work remaining number
+		:00_Current "{0,fe0,fn2}h"
+	}
+
+	X "{0}"
+	{
+		// 6667f415
+		// 0 integer - Summary number
+		:00_Current "{0}"
+	}
+	XBugs "{0} [NHelpers::Pluralize($0,'bug')]"
+	{
+		// 82e42706
+		// 0 integer - Number of bugs
+		:00_Current "{0} [NHelpers::Pluralize($0,'bug')]"
+	}
+	XD NLocalize/NShared/XD
+	{
+		// 336676f9
+		// 0 decimal - Estimated effort number
+		:00_Current "{0,fe1,fn2}d"
+	}
+	XD2 "{0,fe0,fn2}d"
+	{
+		// a035564b
+		// 0 decimal - Duration number
+		:00_Current "{0,fe0,fn2}d"
+	}
+	XH "{0}h"
+	{
+		// 336676fd
+		// 0 decimal - Work remaining number
+		:00_Current "{0}h"
+	}
+	XIntegerHours "{0} [NHelpers::Pluralize($0,'hour')]"
+	{
+		// da581014
+		// 0 integer - Number of hours
+		:00_Current "{0} [NHelpers::Pluralize($0,'hour')]"
+	}
+	XItems "{0} [NHelpers::Pluralize($0,'item')]"
+	{
+		// dfe71e17
+		// 0 integer - Number of items
+		:00_Current "{0} [NHelpers::Pluralize($0,'item')]"
+	}
+	XPoints NLocalize/NShared/XNHelpersPluralize0Point
+	{
+		// ecc6b932
+		// 0 integer - Number of points
+		:00_Current "{0} [NHelpers::Pluralize($0,'point')]"
+	}
+}
+namespace NPlanned
+{
+	BacklogItem NLocalize/NShared/BacklogItem
+	{
+		// d3122336
+		:00_Current "Backlog item"
+	}
+	Bug NLocalize/NShared/Bug
+	{
+		// fbaf3412
+		:00_Current "Bug"
+	}
+	Milestone "{0,cc}"
+	{
+		// 64001604
+		// 0 text - Default name of milestone type or custom name
+		:00_Current "{0,cc}"
+	}
+	NoName NLocalize/NShared/NoName
+	{
+		// 4961dcf2
+		:00_Current "(No name)"
+	}
+	NotSet NLocalize/NShared/NotSet
+	{
+		// 497676d1
+		:00_Current "(Not set)"
+	}
+	ScheduledTask NLocalize/NShared/ScheduledTask
+	{
+		// b09e60d8
+		:00_Current "Scheduled task"
+	}
+	Sprint NLocalize/NShared/Sprint
+	{
+		// 5531a074
+		:00_Current "Sprint"
+	}
+	SubProject NLocalize/NShared/SubProject
+	{
+		// e44bb595
+		:00_Current "Sub project"
+	}
+	WorkXPercent NLocalize/NShared/WorkX
+	{
+		// f7bdea00
+		// 0 integer - Allocation percent
+		:00_Current " (work {0}%)"
+	}
+	XD " +{0}d"
+	{
+		// 4d71ecf0
+		// 0 integer
+		:00_Current " +{0}d"
+	}
+	XD2 " {0}d"
+	{
+		// fbaf8b22
+		// 0 integer
+		:00_Current " {0}d"
+	}
+	XD3 "{0,fe1,fn2}d"
+	{
+		// fbaf8b23
+		// 0 decimal - Total number of ideal days
+		:00_Current "{0,fe1,fn2}d"
+	}
+	XD4 "{0}d"
+	{
+		// fbaf8b24
+		// 0 integer - Duration in days number
+		:00_Current "{0}d"
+	}
+	XH " +{0}h"
+	{
+		// 4d71ecf4
+		// 0 integer - Duration in hours
+		:00_Current " +{0}h"
+	}
+	XH2 "{0}h"
+	{
+		// fbaf8ba6
+		// 0 integer - Duration in hours number
+		:00_Current "{0}h"
+	}
+	XH3 "{0,fe1,fn2}h"
+	{
+		// fbaf8ba7
+		// 0 decimal - Total number of ideal hours
+		:00_Current "{0,fe1,fn2}h"
+	}
+	XHDecimal "{0,fe0,fn2}h"
+	{
+		// e89b6783
+		// 0 decimal - Duration in hours
+		:00_Current "{0,fe0,fn2}h"
+	}
+
+	XPoints NLocalize/NShared/XNHelpersPluralize0Point
+	{
+		// 316d8189
+		// 0 integer - Number of points
+		:00_Current "{0} [NHelpers::Pluralize($0,'point')]"
+	}
+	XofXTasksDone " - {0} of {1} tasks done"
+	{
+		// b690f785
+		// 0 integer - The number of tasks done
+		// 1 integer - The total number of tasks
+		:00_Current " - {0} of {1} tasks done"
+	}
+}
+namespace NPlannedAgileRelated
+{
+	YouAreNotAllowedToChangeAssignedResourceOnThis "You are not allowed to change assigned user on this agile {0}"
+	{
+		// 0be72eb9
+		// 0 text - Default name of task type or custom name
+		:00_Current "You are not allowed to change assigned user on this agile {0}"
+	}
+	YouAreNotAllowedToPrioritiseThisXYouMustBeA NLocalize/NShared/YouAreNotAllowedToPrioritiseThisXYouMustBeAMemberX
+	{
+		// 487459f0
+		// 0 text - Default name of sprint type or custom name
+		// 1 text - Default name of sprint type or custom name
+		:00_Current "You are not allowed to prioritise this {0}. You must be a member of the {1} or have delegated rights."
+	}
+	YouAreNotAllowedToSetPriorityOnAXInMyWorkGoTo "You are not allowed to set priority on a {0} in To do list. Go to the project view instead."
+	{
+		// 9621cce5
+		// 0 text - Default name of sprint backlog item type or custom name
+		:00_Current "You are not allowed to set priority on a {0} in To do list. Go to the project view instead."
+	}
+	YouCanOnlySetPriorityOnAX "You can only set priority on a {0}"
+	{
+		// 5bdbff6c
+		// 0 text - Default name of sprint backlog item type or custom name
+		:00_Current "You can only set priority on a {0}"
+	}
+}
+namespace NPlannedListDraw
+// Labels and messages on items
+{
+	And NLocalize/NShared/And
+	{
+		// 65053d51
+		:00_Current " and "
+	}
+	Archived NLocalize/NShared/Archived
+	{
+		// 90ee8de4
+		:00_Current "Archived"
+	}
+	BoundToPipeline "(Bound to pipeline)"
+	{
+		// 64bf7c0f
+		:00_Current "(Bound to pipeline)"
+	}
+	BoundToSprint NLocalize/NShared/BoundToX
+	{
+		// c14d2df9
+		// 0 text - Default name of sprint type or custom name
+		:00_Current "(Bound to {0})"
+	}
+	BoundToXX "(Bound to {0} {1})"
+	{
+		// d5a18009
+		// 0 text - Default name of sprint type or custom name
+		// 1 text - Name of task
+		:00_Current "(Bound to {0} {1})"
+	}
+	BreakDownPipelineTaskInsert "(Click Insert to break down)"
+	{
+		// 61f580d9
+		:00_Current "(Click Insert to break down)"
+	}
+	CanStartNow "Can start now: "
+	{
+		// e4ae4592
+		:00_Current "Can start now: "
+	}
+	CannotStartNow "Cannot start now: "
+	{
+		// 26721b43
+		:00_Current "Cannot start now: "
+	}
+	CommittedToSchedule "(Committed to schedule)"
+	{
+		// 3b14f914
+		:00_Current "(Committed to schedule)"
+	}
+	CompletedTask "Completed task: "
+	{
+		// ec14aaee
+		:00_Current "Completed task: "
+	}
+	DefauPipelineIsX "Default pipeline is '{0}'"
+	{
+		// fa42fc2d
+		// 0 text - Name of workflow
+		:00_Current "Default pipeline is '{0}'"
+	}
+	DefauWorkflowIsX "Default workflow is '{0}'"
+	{
+		// 63cd3bb2
+		// 0 text - Name of workflow
+		:00_Current "Default workflow is '{0}'"
+	}
+	DefectPipelineTaskPleaseDelete " Defect pipeline task - Please delete - "
+	{
+		// df3d76bf
+		:00_Current " Defect pipeline task - Please delete - "
+	}
+	DelegatedTo "Delegated to: "
+	{
+		// 454490c0
+		:00_Current "Delegated to: "
+	}
+	Deleted "- deleted"
+	{
+		// 87cfe795
+		:00_Current "- deleted"
+	}
+	DeletedPipeline NLocalize/NShared/DeletedPipeline
+	{
+		// 710c958b
+		:00_Current "Deleted pipeline"
+	}
+	DetailedDescription NLocalize/NShared/DetailedDescription2
+	{
+		// 13fd1e9e
+		:00_Current "Detailed description:"
+	}
+	GhostResource NLocalize/NShared/GhostResource
+	{
+		// a39b324b
+		:00_Current "Ghost user"
+	}
+	HideBurndownOnMilestone "Hide burndown"
+	{
+		// 02ca3c74
+		:00_Current "Hide burndown"
+	}
+	LockedForUse "- locked for use"
+	{
+		// e5769b44
+		:00_Current "- locked for use"
+	}
+	NewlyAssignedTask "(New)"
+	{
+		// a41f938e
+		:00_Current "(New)"
+	}
+	NextPipelineTasks "Next pipeline tasks: "
+	{
+		// 7d6bb179
+		:00_Current "Next pipeline tasks: "
+	}
+	NoName NLocalize/NShared/NoName
+	{
+		// 42df4b1c
+		:00_Current "(No name)"
+	}
+	NoResourceSet NLocalize/NShared/NoResourceSet
+	{
+		// ed2c6a8f
+		:00_Current "(Not assigned)"
+	}
+	None NLocalize/NShared/None
+	{
+		// 05b40e4e
+		:00_Current "None"
+	}
+	NotAvailableInProjectHistory "(Not available in project history)"
+	{
+		// 3ad4d2f0
+		:00_Current "(Not available in project history)"
+	}
+	NotSet NLocalize/NShared/NotSet
+	{
+		// 42f3e4fb
+		:00_Current "(Not set)"
+	}
+	OldVersion NLocalize/NShared/OldVersion
+	{
+		// 7d873cc3
+		:00_Current "Old version"
+	}
+	OnXX NLocalize/NShared/OnXX
+	{
+		// 05b4938b
+		// 0 text - Formatted date
+		// 1 text - Formatted time
+		:00_Current "{0} - {1} - "
+	}
+	PipelineDeleted "Pipeline deleted"
+	{
+		// dd11bdcb
+		:00_Current "Pipeline deleted"
+	}
+	PipelineTasksDone "{0} of {1} tasks done"
+	{
+		// 27eac280
+		// 0 integer - Number of pipeline tasks
+		// 1 integer - Number of pipeline tasks
+		:00_Current "{0} of {1} tasks done"
+	}
+	SelectNewPipeline " - Select new pipeline, kanban or workflow "
+	{
+		// 0cad59de
+		:00_Current " - Select new pipeline, kanban or workflow "
+	}
+	SelectPipelineKanbanWorkflow "(Select Pipeline, Kanban or Workflow)"
+	{
+		// a76ba77a
+		:00_Current "(Select Pipeline, Kanban or Workflow)"
+	}
+	SelectWorkflow "(Select workflow)"
+	{
+		// 2c8ff0f9
+		:00_Current "(Select workflow)"
+	}
+	ShowBurndownOnMilestone "Show burndown"
+	{
+		// 00bbca7b
+		:00_Current "Show burndown"
+	}
+	SprintName NLocalize/NShared/X3
+	{
+		// 16dd9e3f
+		// 0 text - Default name of sprint type or custom name
+		:00_Current "{0,cc}"
+	}
+	SprintNameStartDateEndDate "{0,cc} {1} - {2}"
+	{
+		// 73bf5260
+		// 0 text - Sprint
+		// 1 text - Sprint start date
+		// 2 text - Sprint end date
+		:00_Current "{0,cc} {1} - {2}"
+	}
+	ThisBugIsHidden "This bug is hidden"
+	{
+		// d768387c
+		:00_Current "This bug is hidden"
+	}
+	ThisItemIsCompletedNextPipelineTasksAre "This item is completed. Next pipeline tasks are: "
+	{
+		// 74297871
+		:00_Current "This item is completed. Next pipeline tasks are: "
+	}
+	ThisTaskIsInWorkflowProcessX "This task is in workflow process {0}"
+	{
+		// 489f604e
+		// 0 text - Workflow name
+		:00_Current "This task is in workflow process {0}"
+	}
+	Unknown NLocalize/NShared/Unknown
+	{
+		// b95f220e
+		:00_Current "Unknown"
+	}
+	UnknownStatus "Unknown status "
+	{
+		// 406668f2
+		:00_Current "Unknown status "
+	}
+	UpdatingPipelineToNewestVersion "Updating pipeline to newest version..."
+	{
+		// 423a762f
+		:00_Current "Updating pipeline to newest version..."
+	}
+	UserStory NLocalize/NShared/UserStory2
+	{
+		// 6473fc1e
+		:00_Current "User story:"
+	}
+	VisibleTo "Visible to: "
+	{
+		// c019df4f
+		:00_Current "Visible to: "
+	}
+	WaitingForPreviousPipelineTasks "Waiting for previous pipeline tasks: "
+	{
+		// 65cc92f1
+		:00_Current "Waiting for previous pipeline tasks: "
+	}
+	WorkRemainingHours "{0,fe0,fn2}h"
+	{
+		// 4c7e9d8c
+		// 0 decimal - Number of hours
+		:00_Current "{0,fe0,fn2}h"
+	}
+	WorkRemainingHoursCompare " > {0,fe0,fn2}h"
+	{
+		// 56aa7173
+		// 0 decimal - Number of hours
+		:00_Current " > {0,fe0,fn2}h"
+	}
+	WorkXPercent NLocalize/NShared/WorkX
+	{
+		// 8223cfaa
+		// 0 integer - Allocation percent
+		:00_Current " (work {0}%)"
+	}
+	XD " > {0}d"
+	{
+		// 6faad61a
+		// 0 integer - Duration number
+		:00_Current " > {0}d"
+	}
+	XD2 NLocalize/NShared/XD
+	{
+		// 6505998c
+		// 0 decimal - Estimated effort number
+		:00_Current "{0,fe1,fn2}d"
+	}
+	XD3 NLocalize/NShared/XD2
+	{
+		// 6505998d
+		// 0 integer - Duration in days
+		:00_Current "{0}d"
+	}
+	XDNotDone " {0,fe1,fn2}d not done"
+	{
+		// 72932071
+		// 0 decimal - Ideal days
+		:00_Current " {0,fe1,fn2}d not done"
+	}
+	XDOriginal " {0,fe1,fn2}d original"
+	{
+		// 80f50a0f
+		// 0 decimal - Estimated effort
+		:00_Current " {0,fe1,fn2}d original"
+	}
+	XDeleted "{0} - deleted"
+	{
+		// fad23cad
+		// 0 text - User name
+		:00_Current "{0} - deleted"
+	}
+	XH " > {0}h"
+	{
+		// 6faad61e
+		// 0 integer - Number of hours
+		:00_Current " > {0}h"
+	}
+	XH2 "[[{0}h]"
+	{
+		// 65059a10
+		// 0 integer - Number of hours
+		:00_Current "[[{0}h]"
+	}
+	XH2Decimal "[[{0,fe0,fn2}h]"
+	{
+		// b0ddbd1f
+		// 0 decimal - Number of hours
+		:00_Current "[[{0,fe0,fn2}h]"
+	}
+	XH3 "{0}h"
+	{
+		// 65059a11
+		// 0 decimal - Number of hours
+		:00_Current "{0}h"
+	}
+	XH3DurationHours "{0}h"
+	{
+		// aca6aa88
+		// 0 integer - Number of hours
+		:00_Current "{0}h"
+	}
+	XHDecimal " > {0}h"
+	{
+		// 09611d6d
+		// 0 decimal - Number of hours
+		:00_Current " > {0}h"
+	}
+	XHNotDone " {0,fe1,fn2}h not done"
+	{
+		// 239a73f5
+		// 0 decimal - Ideal hours
+		:00_Current " {0,fe1,fn2}h not done"
+	}
+	XHOriginal " {0,fe1,fn2}h original"
+	{
+		// 52e6ce13
+		// 0 decimal - Estimated effort in hours
+		:00_Current " {0,fe1,fn2}h original"
+	}
+	XIDX "{0,cc} ID: {1}"
+	{
+		// 05b8e2fb
+		// 0 text - Default name for backlog type or custom name
+		// 1 text - Name of cell value
+		:00_Current "{0,cc} ID: {1}"
+	}
+	XLockedForUse "{0} - locked for use"
+	{
+		// 0831df5c
+		// 0 text - User name
+		:00_Current "{0} - locked for use"
+	}
+	XNotDone " {0} not done"
+	{
+		// 146ac9ed
+		// 0 integer - Number of points not done
+		:00_Current " {0} not done"
+	}
+	XOriginal " {0} original"
+	{
+		// 5dc1e30b
+		// 0 text - Original points or custom integer or decimal value
+		:00_Current " {0} original"
+	}
+	XPoints NLocalize/NShared/XNHelpersPluralize0Point
+	{
+		// 5a98b4f3
+		// 0 integer - Number of points
+		:00_Current "{0} [NHelpers::Pluralize($0,'point')]"
+	}
+	XSumOtherView " {0} sum"
+	{
+		// 3e0e95a8
+		// 0 text - Sum of values from corresponding view
+		:00_Current " {0} sum"
+	}
+	XXWrote "{0}{1} wrote:"
+	{
+		// 6b94a17f
+		// 0 text - Formatted text with date and time
+		// 1 text - User name
+		:00_Current "{0}{1} wrote:"
+	}
+	_0h NLocalize/NShared/H
+	{
+		// 6505b4f5
+		:00_Current "0h"
+	}
+}
+namespace NPlannedQARelated
+// Balloon messages when violating status requirements in bug workflow
+{
+	BeforeGoingFromStatusXToXYouMustFillInThisData "Before going from status '{0}' to '{1}' you must fill in this data:"
+	{
+		// e08e19af
+		// 0 text - Workflow status name
+		// 1 text - Workflow status name
+		:00_Current "Before going from status '{0}' to '{1}' you must fill in this data:"
+	}
+	BeforeSettingAnotherStatusOrResourceYouMust "Before setting another status or user you must fill in this data:"
+	{
+		// 75e9005c
+		:00_Current "Before setting another status or user you must fill in this data:"
+	}
+	Comment "* Comment"
+	{
+		// 4148a11a
+		:00_Current "* Comment"
+	}
+	CommentsNewSinceLastWorkflowStatusChange "* Comments (new since last workflow status change)"
+	{
+		// 06cf2d22
+		:00_Current "* Comments (new since last workflow status change)"
+	}
+	DetailedDescription "* Detailed description"
+	{
+		// a12a1727
+		:00_Current "* Detailed description"
+	}
+	StepsToReproduce "* Steps to reproduce"
+	{
+		// 9b707da2
+		:00_Current "* Steps to reproduce"
+	}
+	UserStory "* User story"
+	{
+		// 3a520567
+		:00_Current "* User story"
+	}
+}
+namespace NPlannedTimeDraw
+{
+	GhostResource NLocalize/NShared/GhostResource
+	{
+		// 1346733e
+		:00_Current "Ghost user"
+	}
+	SprintName NLocalize/NShared/X3
+	{
+		// 75784c12
+		// 0 text - Default name of sprint type or custom name
+		:00_Current "{0,cc}"
+	}
+	WorkXPercent "(work {0}%)"
+	{
+		// f2213e3d
+		// 0 integer - Allocation percent
+		:00_Current "(work {0}%)"
+	}
+}
+namespace NPlannedWorkflowRelated
+{
+	NoName NLocalize/NShared/NoName
+	{
+		// 6612e86e
+		:00_Current "(No name)"
+	}
+	XByX "{0} by {1}"
+	{
+		// 5e60ecdb
+		// 0 text - e.g. Task
+		// 1 text - e.g. User
+		:00_Current "{0} by {1}"
+	}
+}
+namespace NResourceAllocationBlock
+{
+	GhostResource NLocalize/NShared/GhostResource
+	{
+		// 98c83f98
+		:00_Current "Ghost user"
+	}
+	GroupAverage "Group average"
+	{
+		// 45f1e953
+		:00_Current "Group average"
+	}
+	Hours "hours >"
+	{
+		// a178753c
+		:00_Current "hours >"
+	}
+}
+namespace NPlannedReference
+{
+	SprintName NLocalize/NShared/X3
+	{
+		// f22595a4
+		// 0 text - Default name of sprint type or custom name
+		:00_Current "{0,cc}"
+	}
+}
+

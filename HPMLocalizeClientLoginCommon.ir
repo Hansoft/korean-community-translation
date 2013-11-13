@@ -1,0 +1,274 @@
+﻿namespace NContext
+{
+	namespace NLogin
+    // Login messages
+	{
+		AFileTransferredHadWrongCRCPleaseTryToConnect "A file transferred had wrong CRC please try to connect again."
+		{
+			// f32fe338
+			:00_Current "A file transferred had wrong CRC please try to connect again."
+		}
+		YouAreTryingToConnectToADemoServerWithTheNon "You are trying to connect to a demo server with the non demo version of the client. This is not allowed."
+		{
+			// 797baee6
+			:00_Current "You are trying to connect to a demo server with the non demo version of the client. This is not allowed."
+		}
+	}
+	namespace NLoginApp
+    // Login messages
+	{
+		ClickToConnect "Click to connect"
+		{
+			// de2b1693
+			:00_Current "Click to connect"
+		}
+		CouldNotFindASuitablePlaceToWriteSyncFilesTo "The program could not find a suitable place to write sync files, neither in the program directory nor in the users’ AppData folder.\n"\
+		                                             "\n"\
+		                                             "Please contact your administrator."
+		{
+			// 8eb9fd49
+			:00_Current "The program could not find a suitable place to write sync files, neither in the program directory nor in the users’ AppData folder.\n"\
+			            "\n"\
+			            "Please contact your administrator."
+		}
+		CouldNotSyncTheProgramBecauseAccessWasDenied "Could not upgrade the program because access was denied.\n"\
+		                                             "\n"\
+		                                             "Please contact your administrator."
+		{
+			// cb34c27c
+			:00_Current "Could not upgrade the program because access was denied.\n"\
+			            "\n"\
+			            "Please contact your administrator."
+		}
+		CouldNotSyncTheProgramBecauseAnErrorOccurred "Could not upgrade the program because an error occurred:\n"\
+		                                             "\n"\
+		                                             "{0}\n"\
+		                                             "\n"\
+		                                             "Please contact your administrator."
+		{
+			// 16f7d606
+			// 0 text - The errors reported from operating system
+			:00_Current "Could not upgrade the program because an error occurred:\n"\
+			            "\n"\
+			            "{0}\n"\
+			            "\n"\
+			            "Please contact your administrator."
+		}
+		CouldNotUpgradeClientExecutableFile "Could not upgrade client executable file. Retry?\n"\
+		                                    "\n"\
+		                                    "Errors reported were:\n"\
+		                                    "{0}"
+		{
+			// a06b4dd1
+			// 0 text - The errors reported from operating system
+			:00_Current "Could not upgrade client executable file. Retry?\n"\
+			            "\n"\
+			            "Errors reported were:\n"\
+			            "{0}"
+		}
+		ErrorLoadingClientDll "Error loading client dll"
+		{
+			// d057f583
+			:00_Current "Error loading client dll"
+		}
+		ExitAll "Log out & exit all"
+		{
+			// e89e7253
+			:00_Current "Log out & exit all"
+		}
+		HansoftError NLocalize/NShared/HansoftProjectManagerError
+		{
+			// 9e113cbd
+			:00_Current "Hansoft Error"
+		}
+		HansoftInformation NLocalize/NShared/HansoftProjectManagerInformation
+		{
+			// 369f59b9
+			:00_Current "Hansoft Information"
+		}
+		HansoftProjectManager "Hansoft Project Manager"
+		{
+			// cc0baa65
+			:00_Current "Hansoft Project Manager"
+		}
+		HansoftProjectManagerClient NLocalize/NShared/HansoftProjectManagerClient
+		{
+			// 97846ac4
+			:00_Current "Hansoft Client"
+		}
+		HansoftProjectManagerClientError "Hansoft Error"
+		{
+			// fb2ad6ee
+			:00_Current "Hansoft Error"
+		}
+		HansoftWarning NLocalize/NShared/HansoftProjectManagerWarning
+		{
+			// a9434ec9
+			:00_Current "Hansoft Warning"
+		}
+		NewConnection "New connection"
+		{
+			// cc4f8a5a
+			:00_Current "New connection"
+		}
+		RecentConnections "Recent connections"
+		{
+			// 4c7734a4
+			:00_Current "Recent connections"
+		}
+		ServerGoingOffline "Server going offline"
+		{
+			// 07fea12e
+			:00_Current "Server going offline"
+		}
+		TheClientModuleNeedsANewerVersionOfThe "The client module needs a newer version of the executable to run,\n"\
+		                                       "please install the latest version of Hansoft Client."
+		{
+			// d12a62b3
+			:00_Current "The client module needs a newer version of the executable to run,\n"\
+			            "please install the latest version of Hansoft Client."
+		}
+		ThisVersionOfTheClientIsIncompatibleWithThe "This version of the client is incompatible with the software running on the server.\n"\
+		                                            "To connect to this server you need Version 4.326 or earlier of the client.\n"\
+		                                            "Please install the specified version of Hansoft Client."
+		{
+			// 46c63283
+			:00_Current "This version of the client is incompatible with the software running on the server.\n"\
+			            "To connect to this server you need Version 4.326 or earlier of the client.\n"\
+			            "Please install the specified version of Hansoft Client."
+		}
+		ThisVersionOfTheClientIsIncompatibleWithThe2 "This version of the client is incompatible with the software running on the server.\n"\
+		                                             "To connect to this server you need Version 4.203 or earlier of the client.\n"\
+		                                             "Please install the specified version of Hansoft Client."
+		{
+			// 1f8c8315
+			:00_Current "This version of the client is incompatible with the software running on the server.\n"\
+			            "To connect to this server you need Version 4.203 or earlier of the client.\n"\
+			            "Please install the specified version of Hansoft Client."
+		}
+		ThisVersionOfTheClientIsIncompatibleWithThe3 "This version of the client is incompatible with the software running on the server.\n"\
+		                                             "To connect to this server you need Version 2.401 of the client.\n"\
+		                                             "Please install the specified version Hansoft Client."
+		{
+			// 1f8c8316
+			:00_Current "This version of the client is incompatible with the software running on the server.\n"\
+			            "To connect to this server you need Version 2.401 of the client.\n"\
+			            "Please install the specified version Hansoft Client."
+		}
+		XBracketX "{0} ({1})"
+		{
+			// e43e93cc
+			// 0 text - A name of an authentication plugin
+			// 1 text - A name of a part of an authentication plugin
+			:00_Current "{0} ({1})"
+		}
+		XOnXX "{0} on {1}:{2}"
+		{
+			// 21709105
+			// 0 text - Database name
+			// 1 text - Server name
+			// 2 number - Internet port number
+			:00_Current "{0} on {1}:{2}"
+		}
+		namespace NCrashDumps
+		{
+			CustomMessage	"{0}\r\n"\
+			             	"\r\n"\
+			             	"{1}\r\n"\
+			             	"{2}\r\n"\
+			             	"\r\n"\
+			             	"Also please save the following crash log file for future reference:\r\n"\
+			             	"\r\n"\
+			             	"{3}"
+			{
+				// 5ba8f9f7
+				// 0 text - Message.
+				// 1 text - FileName
+				// 2 text - FileNameDumpMini
+				// 3 text - FileNameDump
+				:00_Current "{0}\r\n"\
+				            "\r\n"\
+				            "{1}\r\n"\
+				            "{2}\r\n"\
+				            "\r\n"\
+				            "Also please save the following crash log file for future reference:\r\n"\
+				            "\r\n"\
+				            "{3}"
+			}
+			StdMessageCanContinue 	"{0} has encountered an unhandled exception. Please send the following crash log files to {1} along with a description of what you were doing when the program crashed.\r\n"\
+			                      	"\r\n"\
+			                      	"{2}\r\n"\
+			                      	"{3}\r\n"\
+			                      	"\r\n"\
+			                      	"Also please save the following crash log file for future reference:\r\n"\
+			                      	"\r\n"\
+			                      	"{4}\r\n"\
+			                      	"\r\n"\
+			                      	"Do you want to continue execution?"
+			{
+				// a8b699de
+				// 0 text - Program Name
+				// 1 text - Support e-mail
+				// 2 text - FileName
+				// 3 text - FileNameDumpMini
+				// 4 text - FileNameDump
+				:00_Current "{0} has encountered an unhandled exception. Please send the following crash log files to {1} along with a description of what you were doing when the program crashed.\r\n"\
+				            "\r\n"\
+				            "{2}\r\n"\
+				            "{3}\r\n"\
+				            "\r\n"\
+				            "Also please save the following crash log file for future reference:\r\n"\
+				            "\r\n"\
+				            "{4}\r\n"\
+				            "\r\n"\
+				            "Do you want to continue execution?"
+			}
+			StdMessageNoContinue	"{0} has encountered an unhandled exception. Please send the following crash log files to {1} along with a description of what you were doing when the program crashed.\r\n"\
+			                    	"\r\n"\
+			                    	"{2}\r\n"\
+			                    	"{3}\r\n"\
+			                    	"\r\n"\
+			                    	"Also please save the following crash log file for future reference:\r\n"\
+			                    	"\r\n"\
+			                    	"{4}\r\n"\
+			                    	""
+			{
+				// 1a646089
+				// 0 text - Program Name
+				// 1 text - Support e-mail
+				// 2 text - FileName
+				// 3 text - FileNameDumpMini
+				// 4 text - FileNameDump
+				:00_Current "{0} has encountered an unhandled exception. Please send the following crash log files to {1} along with a description of what you were doing when the program crashed.\r\n"\
+				            "\r\n"\
+				            "{2}\r\n"\
+				            "{3}\r\n"\
+				            "\r\n"\
+				            "Also please save the following crash log file for future reference:\r\n"\
+				            "\r\n"\
+				            "{4}\r\n"\
+				            ""
+			}
+			Title "Crash Dump"
+			{
+				// 036566f9
+				:00_Current "Crash Dump"
+			}
+		}
+
+	}
+	namespace NLoginCom
+    // Login messages
+	{
+		FailedToConnectToDatabase "Failed to connect to database."
+		{
+			// 9378bec8
+			:00_Current "Failed to connect to database."
+		}
+		TheSpecifiedDatabaseDoesNotExist "The specified database does not exist."
+		{
+			// bd57a8c9
+			:00_Current "The specified database does not exist."
+		}
+	}
+}

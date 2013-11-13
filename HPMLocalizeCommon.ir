@@ -1,0 +1,3157 @@
+﻿namespace NDatabaseFunctions
+{
+	DefauAutomaticBackup NLocalize/NShared/DefaultAutomaticBackup
+	{
+		// 3fbace82
+		:00_Current "Default Automatic Backup"
+	}
+	DefauAutomaticFullBackup NLocalize/NShared/DefaultAutomaticFullBackup
+	{
+		// 7301a955
+		:00_Current "Default Automatic Full Backup"
+	}
+	DefauAutomaticIntegrityCheck NLocalize/NShared/DefaultAutomaticIntegrityCheck
+	{
+		// 026c5d69
+		:00_Current "Default Automatic Integrity Check"
+	}
+	FullCalendarName NLocalize/NShared/XX2
+	{
+		// 73bd810e
+		// 0 text - country name
+		// 1 text - list of regions in the country where the calendar applies
+		:00_Current "{0} ({1})"
+	}
+	HighPriority NLocalize/NShared/HighPriority
+	{
+		// 40dd20a2
+		:00_Current "High priority"
+	}
+	InconsistenciesWereFixedInTheDispositionOfOne "Inconsistencies were fixed in the disposition of one or more projects in the database. You should make sure that everything is ok in the schedules of all projects and contact support@hansoft.com."
+	{
+		// 4877ccd8
+		:00_Current "Inconsistencies were fixed in the disposition of one or more projects in the database. You should make sure that everything is ok in the schedules of all projects and contact support@hansoft.com."
+	}
+	LowPriority NLocalize/NShared/LowPriority
+	{
+		// 6e2e4d14
+		:00_Current "Low priority"
+	}
+	MediumPriority NLocalize/NShared/MediumPriority
+	{
+		// d8f5f163
+		:00_Current "Medium priority"
+	}
+	NewScheduledTask NLocalize/NShared/NewScheduledTask
+	{
+		// 8591e70e
+		:00_Current "New scheduled task"
+	}
+	PipelineWorkflowStatisticsWereUpdated "Pipeline/workflow statistics were updated."
+	{
+		// 161c6c56
+		:00_Current "Pipeline/workflow statistics were updated."
+	}
+	ProcessTransactionLog "Process transaction log"
+	{
+		// d893e167
+		:00_Current "Process transaction log"
+	}
+	ScheduledPriorityTag "Scheduled Priority Tag"
+	{
+		// 11032f2f
+		:00_Current "Scheduled Priority Tag"
+	}
+	Server "Server"
+	{
+		// bd254737
+		:00_Current "Server"
+	}
+	TimeReportRowNonProjectComment "Non project comment"
+	{
+		// 93f6d9b8
+		:00_Current "Non project comment"
+	}
+	TimeReportRowTravelAllowances "Travel allowances"
+	{
+		// 4c0cfbfa
+		:00_Current "Travel allowances"
+	}
+	TimeReportRowTravelKilometers "Travel kilometers"
+	{
+		// fff97470
+		:00_Current "Travel kilometers"
+	}
+	TimeReportRowTravelTime "Travel time"
+	{
+		// b1a0e3c0
+		:00_Current "Travel time"
+	}
+	WorkTimeReportActiviyType "Work"
+	{
+		// a65c4489
+		:00_Current "Work"
+	}
+	namespace NDB
+	{
+		namespace NGeneral
+		{
+            // This is NOT the name of the columns in Hansoft, it is a list of what you can do a report on when Editing a report
+			ActivityName NLocalize/NShared/ActivityName
+			{
+				// 27d33bcc
+				:00_Current "Activity name"
+			}
+			BudgetedWork NLocalize/NShared/BudgetedWork
+			{
+				// 0996a4a5
+				:00_Current "Budgeted work"
+			}
+			BugPriority NLocalize/NShared/BugPriority
+			{
+				// 222a7e3e
+				:00_Current "Bug priority"
+			}
+			BugStatus "Status Workflow"
+			{
+				// 538de420
+				:00_Current "Status Workflow"
+			}
+			CCNewCommentsTo NLocalize/NShared/CCNewCommentsTo
+			{
+				// dc614057
+				:00_Current "CC new comments to"
+			}
+			Category NLocalize/NShared/Category
+			{
+				// 50a09b7c
+				:00_Current "Category"
+			}
+			Comments NLocalize/NShared/Comments
+			{
+				// 768b78e4
+				:00_Current "Comments"
+			}
+			CommittedToSprint "Committed to sprint"
+			{
+				// eb75aae7
+				:00_Current "Committed to sprint"
+			}
+			Confidence NLocalize/NShared/Confidence
+			{
+				// 214ed92c
+				:00_Current "Confidence"
+			}
+			DatabaseID NLocalize/NShared/DatabaseID
+			{
+				// beb02760
+				:00_Current "Database ID"
+			}
+			Description NLocalize/NShared/Description
+			{
+				// eb062002
+				:00_Current "Description"
+			}
+			DetailedDescription NLocalize/NShared/DetailedDescription
+			{
+				// 781daede
+				:00_Current "Detailed description"
+			}
+			Duration NLocalize/NShared/Duration
+			{
+				// 3b838324
+				:00_Current "Duration"
+			}
+			EarnedValue NLocalize/NShared/EarnedValue
+			{
+				// 1c5089aa
+				:00_Current "Earned value"
+			}
+			Empty ""
+			{
+				// bd5f0ded
+				:00_Current ""
+			}
+			EstimatedIdealDays NLocalize/NShared/EstimatedIdealDays
+			{
+				// 70f5284e
+				:00_Current "Estimated days"
+			}
+			EstimatedIdealHours "Estimated hours"
+			{
+				// 8fea30ae
+				:00_Current "Estimated hours"
+			}
+			Finish NLocalize/NShared/Finish
+			{
+				// 6b4c4a3f
+				:00_Current "Finish"
+			}
+			GeneralConditionArchived "General condition - Archived"
+			{
+				// de881669
+				:00_Current "General condition - Archived"
+			}
+			GeneralConditionAssignedToMe "General condition - Assigned to me"
+			{
+				// 726bbdc6
+				:00_Current "General condition - Assigned to me"
+			}
+			GeneralConditionCriticalPath "Scheduled condition - Critical path"
+			{
+				// a8e1b9fb
+				:00_Current "Scheduled condition - Critical path"
+			}
+			GeneralConditionDeleted "General condition - Deleted"
+			{
+				// 8267f37a
+				:00_Current "General condition - Deleted"
+			}
+			GeneralConditionHasResources "General condition - Has users"
+			{
+				// b257661a
+				:00_Current "General condition - Has users"
+			}
+			GeneralConditionHasSubItems "General condition - Has sub items"
+			{
+				// 702b558b
+				:00_Current "General condition - Has sub items"
+			}
+			GeneralConditionMilestoneOverdue "General condition - Milestone/release overdue"
+			{
+				// 014cf26d
+				:00_Current "General condition - Milestone/release overdue"
+			}
+			GeneralConditionNotAssigned "General condition - Not assigned"
+			{
+				// 30b64ba2
+				:00_Current "General condition - Not assigned"
+			}
+			GeneralConditionOngoingWork "General condition - Ongoing work"
+			{
+				// 2dedd757
+				:00_Current "General condition - Ongoing work"
+			}
+			GeneralConditionOutOfOfficeTask "General condition - Out of office task"
+			{
+				// 823abdcf
+				:00_Current "General condition - Out of office task"
+			}
+			GeneralConditionUserStory "General condition - User story"
+			{
+				// 653e9543
+				:00_Current "General condition - User story"
+			}
+			Hyperlink NLocalize/NShared/Hyperlink
+			{
+				// 9e2a8334
+				:00_Current "Hyperlink"
+			}
+			ID NLocalize/NShared/ID
+			{
+				// 1a51dc6b
+				:00_Current "ID"
+			}
+			ImmediateParentSubProject "Immediate parent sub project"
+			{
+				// 65103758
+				:00_Current "Immediate parent sub project"
+			}
+			ImmediateSubItems "Immediate sub items"
+			{
+				// 8fe66e99
+				:00_Current "Immediate sub items"
+			}
+			ItemName NLocalize/NShared/ItemName
+			{
+				// 6e438bee
+				:00_Current "Item name"
+			}
+			ItemStatus "Status completion"
+			{
+				// 1a5196f1
+				:00_Current "Status completion"
+			}
+			ItemType NLocalize/NShared/ItemType
+			{
+				// 6e473caf
+				:00_Current "Item type"
+			}
+			LastCommentedOn NLocalize/NShared/LastCommentedOn
+			{
+				// 41fd944b
+				:00_Current "Last commented on"
+			}
+			LastReadComments NLocalize/NShared/LastReadComments
+			{
+				// bdee6b34
+				:00_Current "Last read comments"
+			}
+			LastUpdatedOn NLocalize/NShared/LastUpdatedOn
+			{
+				// 3d553c16
+				:00_Current "Last updated on"
+			}
+			LeafSubItems "Leaf sub items"
+			{
+				// c431c342
+				:00_Current "Leaf sub items"
+			}
+			LinkedToTaskItemBug NLocalize/NShared/LinkedToTaskItemBug
+			{
+				// 9ac0a6f8
+				:00_Current "Linked to item"
+			}
+			MilestoneReleaseTag "Milestone / release tag"
+			{
+				// 18a9b22b
+				:00_Current "Milestone / release tag"
+			}
+			OriginallyCreatedBy NLocalize/NShared/OriginallyCreatedBy
+			{
+				// 0fd8d90b
+				:00_Current "Originally created by"
+			}
+			OriginallyReportedBy NLocalize/NShared/OriginallyReportedBy
+			{
+				// b62a6b38
+				:00_Current "Originally reported by"
+			}
+			ParentSubProjects "Parent sub projects"
+			{
+				// 365d743c
+				:00_Current "Parent sub projects"
+			}
+			PipelineAndKanbanTasksCanStartNow "Pipeline and Kanban tasks - Can start now"
+			{
+				// 79a0a5ac
+				:00_Current "Pipeline and Kanban tasks - Can start now"
+			}
+			PipelinesKanbansWorkflows "Pipeline, Kanban or Workflow"
+			{
+				// 1c7e34b3
+				:00_Current "Pipeline, Kanban or Workflow"
+			}
+			Points NLocalize/NShared/Points
+			{
+				// 8309cb1b
+				:00_Current "Points"
+			}
+			Predecessor NLocalize/NShared/Predecessor
+			{
+				// f5e02b9d
+				:00_Current "Predecessor"
+			}
+			PriorityTag NLocalize/NShared/PriorityTag
+			{
+				// e66c52fc
+				:00_Current "Priority tag"
+			}
+			ProductBacklogPriority "Product backlog priority"
+			{
+				// 8255b634
+				:00_Current "Product backlog priority"
+			}
+			Project NLocalize/NShared/Project
+			{
+				// ebacc875
+				:00_Current "Project"
+			}
+			ReleaseTag "Release tag"
+			{
+				// 99f8c53b
+				:00_Current "Release tag"
+			}
+			ResourceName NLocalize/NShared/ResourceName
+			{
+				// c90e9fc7
+				:00_Current "User name"
+			}
+			ResourceTag NLocalize/NShared/ResourceTag
+			{
+				// 442754a2
+				:00_Current "Assign tag"
+			}
+			Resources "Assigned to"
+			{
+				// b45e1159
+				:00_Current "Assigned to"
+			}
+			Risk NLocalize/NShared/Risk
+			{
+				// f6403f37
+				:00_Current "Risk"
+			}
+			ScheduledConditionCompleted "Scheduled condition - Completed"
+			{
+				// ac7afc53
+				:00_Current "Scheduled condition - Completed"
+			}
+			ScheduledConditionInProgress "Scheduled condition - In progress"
+			{
+				// bd3f6d02
+				:00_Current "Scheduled condition - In progress"
+			}
+			ScheduledConditionIncomplete "Scheduled condition - Incomplete"
+			{
+				// 5b28c486
+				:00_Current "Scheduled condition - Incomplete"
+			}
+			ScheduledConditionNotStartedYet "Scheduled condition - Not started yet"
+			{
+				// 45126d50
+				:00_Current "Scheduled condition - Not started yet"
+			}
+			ScheduledConditionOverdue "Scheduled condition - Overdue"
+			{
+				// 4fbd5690
+				:00_Current "Scheduled condition - Overdue"
+			}
+			SearchChangeHistory "Search change history"
+			{
+				// 387c8fec
+				:00_Current "Search change history"
+			}
+			Severity NLocalize/NShared/Severity
+			{
+				// 4d571cb9
+				:00_Current "Severity"
+			}
+			SprintPriority "Sprint priority"
+			{
+				// 06e86460
+				:00_Current "Sprint priority"
+			}
+			Start NLocalize/NShared/Start
+			{
+				// be5ffb8c
+				:00_Current "Start"
+			}
+			Status "Status"
+			{
+				// 8a5f7622
+				:00_Current "Status"
+			}
+			StepsToReproduce NLocalize/NShared/StepsToReproduce
+			{
+				// ec4158b9
+				:00_Current "Steps to reproduce"
+			}
+			SubItems "Sub items"
+			{
+				// ec5a14ea
+				:00_Current "Sub items"
+			}
+			SubProjectPath NLocalize/NShared/SubProjectPath
+			{
+				// 507f62cc
+				:00_Current "Sub project path"
+			}
+			Successor NLocalize/NShared/Successor
+			{
+				// 00356678
+				:00_Current "Successor"
+			}
+			TaskInternalSDK "Task internal SDK"
+			{
+				// 7485a950
+				:00_Current "Task internal SDK"
+			}
+			TaskRefInternalSDK "Task ref internal SDK"
+			{
+				// b1755dcd
+				:00_Current "Task ref internal SDK"
+			}
+			UserStory NLocalize/NShared/UserStory
+			{
+				// cc573c5e
+				:00_Current "User story"
+			}
+			WorkPriority "Work priority"
+			{
+				// 06b63703
+				:00_Current "Work priority"
+			}
+			WorkRemaining NLocalize/NShared/WorkRemaining
+			{
+				// d9be95bb
+				:00_Current "Work remaining"
+			}
+		}
+		namespace NProject
+        // Default names for custom columns
+		{
+			CustomColumn1 "Custom Column 1"
+			{
+				// d60e37b1
+				:00_Current "Custom Column 1"
+			}
+			CustomColumn2 "Custom Column 2"
+			{
+				// d60e37b2
+				:00_Current "Custom Column 2"
+			}
+			ProjectDisplayNameBacklog "{0} ({1,cc})"
+			{
+				// 76392478
+				// 0 text - The name of the main project
+				// 1 text - The custom name of the backlog
+				:00_Current "{0} ({1,cc})"
+			}
+			ProjectDisplayNameQA "{0} (QA)"
+			{
+				// 27d514b7
+				// 0 text - The name of the main project
+				:00_Current "{0} (QA)"
+			}
+		}
+	}
+	namespace NTasks
+	{
+		ACommentHasBeenEdited "A comment has been edited on {0} {1} {2}"
+		{
+			// 26710c5c
+			// 0 text - item type
+			// 1 text - pipeline name
+			// 2 text - task name
+			:00_Current "A comment has been edited on {0} {1} {2}"
+		}
+		ACommentHasBeenPosted "A comment has been posted on {0} {1} {2}"
+		{
+			// 40e6549c
+			// 0 text - item type
+			// 1 text - pipeline name
+			// 2 text - task name
+			:00_Current "A comment has been posted on {0} {1} {2}"
+		}
+		Bug "bug"
+		{
+			// 76b9d521
+			:00_Current "bug"
+		}
+		BugSetToStatus "The bug - {0} has been set to status '{1}' by {2}"
+		{
+			// 4ae79ef4
+			// 0 text - bug name
+			// 1 text - status description
+			// 2 text - user name
+			:00_Current "The bug - {0} has been set to status '{1}' by {2}"
+		}
+		CommentedOnTask "({0}) {1} has commented on {2} \"{3}\""
+		{
+			// c078362f
+			// 0 text - project name
+			// 1 text - user name
+			// 2 text - task type
+			// 3 text - task name
+			:00_Current "({0}) {1} has commented on {2} \"{3}\""
+		}
+		HasCompletedTask "{0} has completed \"{1}\""
+		{
+			// f87491af
+			// 0 text - user name
+			// 1 text - task name
+			:00_Current "{0} has completed \"{1}\""
+		}
+		Item "item"
+		{
+			// 4df84bd2
+			:00_Current "item"
+		}
+		ItemHasBeenCompleted "The {0} - {1} {2} has been completed by {3}."
+		{
+			// 562f32e5
+			// 0 text - item type
+			// 1 text - pipeline name
+			// 2 text - task name
+			// 3 text - user name
+			:00_Current "The {0} - {1} {2} has been completed by {3}."
+		}
+		ItemSetToStatus "The item - {0} has been set to status '{1}' by {2}"
+		{
+			// 64b3e505
+			// 0 text - bug name
+			// 1 text - status description
+			// 2 text - user name
+			:00_Current "The item - {0} has been set to status '{1}' by {2}"
+		}
+		NoName NLocalize/NShared/NoName
+		{
+			// b87d17a1
+			:00_Current "(No name)"
+		}
+		OnDateUserWrote NLocalize/NShared/OnXXXWrote
+		{
+			// 4496fb6e
+			// 0 text - date
+			// 1 text - time
+			// 2 text - user name
+			:00_Current "On {0} - {1} {2} wrote:"
+		}
+		PipelineTaskCanStart "This means that your pipeline task can now start:{0} {1}."
+		{
+			// 2e0da2ac
+			// 0 text - pipeline name
+			// 1 text - task name
+			:00_Current "This means that your pipeline task can now start:{0} {1}."
+		}
+		PipelineTaskCompletedBy "The pipeline task {0} {1} has been completed by {2}."
+		{
+			// 114db5a4
+			// 0 text - pipeline name
+			// 1 text - task name
+			// 2 text - user name
+			:00_Current "The pipeline task {0} {1} has been completed by {2}."
+		}
+		StatusSetOnBug "({0}) {1} has set status '{2}' on {3}"
+		{
+			// 1e93012e
+			// 0 text - project name
+			// 1 text - user name
+			// 2 text - status description
+			// 3 text - bug name
+			:00_Current "({0}) {1} has set status '{2}' on {3}"
+		}
+		SubProjectPathAndTaskName "{0}{1}"
+		{
+			// bfd78358
+			// 0 text - sub project path
+			// 1 text - task name
+			:00_Current "{0}{1}"
+		}
+		Task NLocalize/NShared/Task2
+		{
+			// 4dfe04f6
+			:00_Current "task"
+		}
+		TaskCanNowStartInPipeline "({0}) Task {1} can now start in pipeline {2}"
+		{
+			// 8d752a17
+			// 0 text - project name
+			// 1 text - task name
+			// 2 text - pipeline name
+			:00_Current "({0}) Task {1} can now start in pipeline {2}"
+		}
+		Unknown NLocalize/NShared/Unknown
+		{
+			// e2b67f33
+			:00_Current "Unknown"
+		}
+		XCanStartPipelineTask "This means that {0} now can start with pipeline task : {1} {2}."
+		{
+			// f9a22e64
+			// 0 text - list of users
+			// 1 text - pipeline name
+			// 2 text - task name
+			:00_Current "This means that {0} now can start with pipeline task : {1} {2}."
+		}
+		YouCanNowStartWithTaskInPipeline "({0}) You can now start with task {1} in pipeline {2}"
+		{
+			// 21fd6510
+			// 0 text - project name
+			// 1 text - task name
+			// 2 text - pipeline name
+			:00_Current "({0}) You can now start with task {1} in pipeline {2}"
+		}
+	}
+	namespace NFind
+	{
+        // Strings related to find functionality including report creation
+		AfterDate NLocalize/NShared/AfterDate
+		{
+			// 6b11356e
+			:00_Current "After date"
+		}
+		AllImmediateSubItems NLocalize/NShared/AllImmediateSubItems
+		{
+			// 75f21d32
+			:00_Current "All immediate sub items"
+		}
+		AllLeafSubItems NLocalize/NShared/AllLeafSubItems
+		{
+			// f1c6ae3b
+			:00_Current "All leaf sub items"
+		}
+		AllOfSelectedNoOther "All of selected, no other"
+		{
+			// d33c0bf4
+			:00_Current "All of selected, no other"
+		}
+		AllOfSelectedSomeOther "All of selected, some other"
+		{
+			// b976832b
+			:00_Current "All of selected, some other"
+		}
+		AllPreviousSubProjects NLocalize/NShared/AllPreviousSubProjects
+		{
+			// 3632fac8
+			:00_Current "All previous sub projects"
+		}
+		AllProjectMembers NLocalize/NShared/AllProjectMembers
+		{
+			// fbd6d679
+			:00_Current "All project members"
+		}
+		AllSubItems NLocalize/NShared/AllSubItems
+		{
+			// 77266b63
+			:00_Current "All sub items"
+		}
+		AnyImmediateSubItem NLocalize/NShared/AnyImmediateSubItem
+		{
+			// d0eebf2e
+			:00_Current "Any immediate sub item"
+		}
+		AnyLeafSubItem NLocalize/NShared/AnyLeafSubItem
+		{
+			// e45de5b7
+			:00_Current "Any leaf sub item"
+		}
+		AnyOfSelected "Any of selected"
+		{
+			// 9f6a5864
+			:00_Current "Any of selected"
+		}
+		AnyOfSelectedNoOther "Any of selected, no other"
+		{
+			// 4c109423
+			:00_Current "Any of selected, no other"
+		}
+		AnyOfSelectedSomeOther "Any of selected, some other"
+		{
+			// b98dd31a
+			:00_Current "Any of selected, some other"
+		}
+		AnyPreviousSubProject NLocalize/NShared/AnyPreviousSubProject
+		{
+			// 8d4811c4
+			:00_Current "Any previous sub project"
+		}
+		AnySubItem NLocalize/NShared/AnySubItem
+		{
+			// addd7e5f
+			:00_Current "Any sub item"
+		}
+		AtLeastAllOfSelected "At least all of selected"
+		{
+			// a03660c3
+			:00_Current "At least all of selected"
+		}
+		BacklogItem NLocalize/NShared/BacklogItem
+		{
+			// 49695740
+			:00_Current "Backlog item"
+		}
+		BacklogItems "backlog items"
+		{
+			// 76943fb3
+			:00_Current "backlog items"
+		}
+		BeforeDate NLocalize/NShared/BeforeDate
+		{
+			// 7537b1af
+			:00_Current "Before date"
+		}
+		Bug NLocalize/NShared/Bug
+		{
+			// 63fffe1c
+			:00_Current "Bug"
+		}
+		Bugs "bugs"
+		{
+			// e3ffc20f
+			:00_Current "bugs"
+		}
+		CharacterNotExpectedHere "Character not expected here."
+		{
+			// 2b4657b2
+			:00_Current "Character not expected here."
+		}
+		CharacterXIsNotValidHere "Character '{0,sj1}' is not valid here"
+		{
+			// 7f53ab24
+			// 0 text - The character that is not valid
+			:00_Current "Character '{0,sj1}' is not valid here"
+		}
+		ColumnXHasNoDropListItemNamedX "Column '{0}' has no drop list item named '{1}'."
+		{
+			// c640327a
+			// 0 text - The name of the column
+			// 1 text - The name of the drop list item that does not exist in the column
+			:00_Current "Column '{0}' has no drop list item named '{1}'."
+		}
+		ColumnXIsNoDropListColumn "Column '{0}' is no single choice custom column."
+		{
+			// b2cd20dc
+			// 0 text - The name of the column that is not a drop list column
+			:00_Current "Column '{0}' is no single choice custom column."
+		}
+		ColumnXIsNoMultiDropListColumn "Column '{0}' is no multiple choices custom column."
+		{
+			// b296f027
+			// 0 text - The name of the column that is not a drop list column
+			:00_Current "Column '{0}' is no multiple choices custom column."
+		}
+		CommittedToX "Committed to {0}"
+		{
+			// e05e751f
+			// 0 text - Default name of sprint type or custom name
+			:00_Current "Committed to {0}"
+		}
+		Condition NLocalize/NShared/Condition
+		{
+			// d19f9545
+			:00_Current "Condition"
+		}
+		ConnectionDistance " {0,n+}d"
+		{
+			// f4e0db19
+			// 0 integer - The number of days between the tasks that are connected
+			:00_Current " {0,n+}d"
+		}
+		Contains NLocalize/NShared/Contains
+		{
+			// b221ccdd
+			:00_Current "Contains"
+		}
+		ContainsCaseSensitive NLocalize/NShared/ContainsCaseSensitive
+		{
+			// a8cc0b33
+			:00_Current "Contains (case sensitive)"
+		}
+		CouldNotFindMatching "Could not find matching \""
+		{
+			// 31e825b2
+			:00_Current "Could not find matching \""
+		}
+		CouldNotFindMatching2 "Could not find matching )"
+		{
+			// 6eecdc24
+			:00_Current "Could not find matching )"
+		}
+		CouldNotFindMatchingInTag "Could not find matching } in tag"
+		{
+			// 966445a5
+			:00_Current "Could not find matching } in tag"
+		}
+		CouldNotRecognizeXAsABacklogCategory "Could not recognise '{0}' as a backlog category."
+		{
+			// fe13f8aa
+			// 0 text - A name that could not be recognized as a backlog catagory
+			:00_Current "Could not recognise '{0}' as a backlog category."
+		}
+		CouldNotRecognizeXAsAConfidenceLevel "Could not recognise '{0}' as a confidence level."
+		{
+			// d1f05d3f
+			// 0 text - A name that could not be recognized as a confidence level
+			:00_Current "Could not recognise '{0}' as a confidence level."
+		}
+		CouldNotRecognizeXAsAPriority "Could not recognise '{0}' as a priority."
+		{
+			// 7fdf9dbb
+			// 0 text - A name that could not be recognized as a priority
+			:00_Current "Could not recognise '{0}' as a priority."
+		}
+		CouldNotRecognizeXAsARisk "Could not recognise '{0}' as a risk."
+		{
+			// 82fdfeb2
+			// 0 text - A name that could not be recognized as a risk
+			:00_Current "Could not recognise '{0}' as a risk."
+		}
+		CouldNotRecognizeXAsASeverity "Could not recognise '{0}' as a severity."
+		{
+			// 798e21b4
+			// 0 text - A name that could not be recognized as a severity
+			:00_Current "Could not recognise '{0}' as a severity."
+		}
+		CouldNotRecognizeXAsAnItemStatus "Could not recognise '{0}' as an status."
+		{
+			// cbafb7ba
+			// 0 text - A name that could not be recognized as an status
+			:00_Current "Could not recognise '{0}' as an status."
+		}
+		CouldNotRecognizeXAsAnItemType "Could not recognise '{0}' as an item type."
+		{
+			// 82e49738
+			// 0 text - A name that could not be recognized as an item type
+			:00_Current "Could not recognise '{0}' as an item type."
+		}
+		DateCondition "Date condition"
+		{
+			// 5be8dfc3
+			:00_Current "Date condition"
+		}
+		DecimalCustomColumn "{0,fe1,fn2}"
+		{
+			// a34949b6
+			// 0 decimal - The value of the custom column
+			:00_Current "{0,fe1,fn2}"
+		}
+		DecimalCustomColumnWithUnit "{0,fe1,fn2}[$1!='', {1}]"
+		{
+			// 1c1dbed2
+			// 0 decimal - The value of the custom column
+			// 1 text - The unit for the value
+			:00_Current "{0,fe1,fn2}[$1!='', {1}]"
+		}
+		DecimalCustomColumnWithUnitAndOriginal "{0,fe1,fn2}[$1!='', {1}] {2,fe1,fn2}[$1!='', {1}] original"
+		{
+			// 3cced79a
+			// 0 decimal - The value of the custom column
+			// 1 text - The unit for the value
+			// 2 decimal - The original value (as opposed to summation of children that is in parameter 0)
+			:00_Current "{0,fe1,fn2}[$1!='', {1}] {2,fe1,fn2}[$1!='', {1}] original"
+		}
+		Description NLocalize/NShared/Description
+		{
+			// 0a9e2b62
+			:00_Current "Description"
+		}
+		DurationDays "{0}"
+		{
+			// 9cd8e2f5
+			// 0 integer - The number of days
+			:00_Current "{0}"
+		}
+		DurationDaysWithAllocation "{0} (work {1}%)"
+		{
+			// bb56ee97
+			// 0 integer - The number of days
+			// 1 integer - The allocation percent
+			:00_Current "{0} (work {1}%)"
+		}
+		DurationDaysWithUnit "{0}d"
+		{
+			// 3ed62711
+			// 0 integer - The number of days
+			:00_Current "{0}d"
+		}
+		DurationDaysWithUnitWithAllocation "{0}d (work {1}%)"
+		{
+			// 690b33b3
+			// 0 integer - The number of days
+			// 1 integer - The allocation percent
+			:00_Current "{0}d (work {1}%)"
+		}
+		DurationHours NLocalize/NShared/X4
+		{
+			// 38454035
+			// 0 integer - The number of hours
+			:00_Current "{0}"
+		}
+		DurationHoursWithAllocation "{0} (work {1}%)"
+		{
+			// a87d7bd7
+			// 0 integer - The number of hours
+			// 1 integer - The allocation percent
+			:00_Current "{0} (work {1}%)"
+		}
+		DurationHoursWithUnit NLocalize/NShared/XH
+		{
+			// da6bc451
+			// 0 integer - The number of hours
+			:00_Current "{0}h"
+		}
+		DurationHoursWithUnitWithAllocation "{0}h (work {1}%)"
+		{
+			// c58b00f3
+			// 0 integer - The number of hours
+			// 1 integer - The allocation percent
+			:00_Current "{0}h (work {1}%)"
+		}
+		Empty ""
+		{
+			// 642a114d
+			:00_Current ""
+		}
+		Empty2 "-"
+		{
+			// e96c3b1f
+			:00_Current "-"
+		}
+		EndsWith NLocalize/NShared/EndsWith
+		{
+			// 26401004
+			:00_Current "Ends with"
+		}
+		EndsWithCaseSensitive NLocalize/NShared/EndsWithCaseSensitive
+		{
+			// 3387f5ba
+			:00_Current "Ends with (case sensitive)"
+		}
+		EqualsTo "Equals to"
+		{
+			// 339c6a4c
+			:00_Current "Equals to"
+		}
+		EqualsToCaseSensitive "Equals to (case sensitive)"
+		{
+			// 54b6c502
+			:00_Current "Equals to (case sensitive)"
+		}
+		FirstIsAnyOfSelected "First is any of selected"
+		{
+			// 6d60d448
+			:00_Current "First is any of selected"
+		}
+		FromTodayToXDaysInTheFuture NLocalize/NShared/FromTodayToXDaysInTheFuture
+		{
+			// 99c0e452
+			:00_Current "From today to X days in the future"
+		}
+		FromTodayToXHoursInTheFuture NLocalize/NShared/FromTodayToXHoursInTheFuture
+		{
+			// 6e9d1ed2
+			:00_Current "From today to X hours in the future"
+		}
+		FromTodayToXMinutesInTheFuture NLocalize/NShared/FromTodayToXMinutesInTheFuture
+		{
+			// f94a8566
+			:00_Current "From today to X minutes in the future"
+		}
+		FromTodayToXMonthsInTheFuture NLocalize/NShared/FromTodayToXMonthsInTheFuture
+		{
+			// 715c75ba
+			:00_Current "From today to X months in the future"
+		}
+		FromTodayToXWeeksInTheFuture NLocalize/NShared/FromTodayToXWeeksInTheFuture
+		{
+			// e55330e0
+			:00_Current "From today to X weeks in the future"
+		}
+		FromTodayToXYearsInTheFuture NLocalize/NShared/FromTodayToXYearsInTheFuture
+		{
+			// 3c55d8a5
+			:00_Current "From today to X years in the future"
+		}
+		FromXDaysInThePastToToday NLocalize/NShared/FromXDaysInThePastToToday
+		{
+			// 56baed8f
+			:00_Current "From X days in the past to today"
+		}
+		FromXHoursInThePastToToday NLocalize/NShared/FromXHoursInThePastToToday
+		{
+			// 33dea78f
+			:00_Current "From X hours in the past to today"
+		}
+		FromXMinutesInThePastToToday NLocalize/NShared/FromXMinutesInThePastToToday
+		{
+			// 676cf9a3
+			:00_Current "From X minutes in the past to today"
+		}
+		FromXMonthsInThePastToToday NLocalize/NShared/FromXMonthsInThePastToToday
+		{
+			// c7ad6ef7
+			:00_Current "From X months in the past to today"
+		}
+		FromXWeeksInThePastToToday NLocalize/NShared/FromXWeeksInThePastToToday
+		{
+			// 69d8325d
+			:00_Current "From X weeks in the past to today"
+		}
+		FromXYearsInThePastToToday NLocalize/NShared/FromXYearsInThePastToToday
+		{
+			// cb237d42
+			:00_Current "From X years in the past to today"
+		}
+		GeneralConditionMilestoneOverdue "General condition - {0,cc} overdue"
+		{
+			// 37b5d9cd
+			// 0 text - Default name of sprint type or custom name
+			:00_Current "General condition - {0,cc} overdue"
+		}
+		GeneralConditionMilestoneOverduePortfolioFind "General condition - Milestone / release overdue"
+		{
+			// c907fd4c
+			:00_Current "General condition - Milestone / release overdue"
+		}
+		GeneralHour NLocalize/NShared/X4
+		{
+			// 19c0127a
+			// 0 integer - The number of hours
+			:00_Current "{0}"
+		}
+		GeneralHourWithUnit NLocalize/NShared/XH
+		{
+			// 10230b96
+			// 0 integer - The number of hours
+			:00_Current "{0}h"
+		}
+		GreaterThan NLocalize/NShared/GreaterThan
+		{
+			// 289e47d3
+			:00_Current "Greater than"
+		}
+		GreaterThanCaseSensitive NLocalize/NShared/GreaterThanCaseSensitive
+		{
+			// 53f625e9
+			:00_Current "Greater than (case sensitive)"
+		}
+		GreaterThanEqual NLocalize/NShared/GreaterThanEqual
+		{
+			// caf3b3eb
+			:00_Current "Greater than equal"
+		}
+		GreaterThanEqualCaseSensitive NLocalize/NShared/GreaterThanEqualCaseSensitive
+		{
+			// fec07901
+			:00_Current "Greater than equal (case sensitive)"
+		}
+		ImmediatePreviousSubProject NLocalize/NShared/ImmediatePreviousSubProject
+		{
+			// f8534dcb
+			:00_Current "Immediate previous sub project"
+		}
+		InDateRange NLocalize/NShared/InDateRange
+		{
+			// 1ce707c0
+			:00_Current "In date range"
+		}
+		InRange NLocalize/NShared/InRange
+		{
+			// 4b0848c2
+			:00_Current "In range"
+		}
+		IntegerCustomColumn "{0}"
+		{
+			// fb8673b5
+			// 0 integer - The value of the custom column
+			:00_Current "{0}"
+		}
+		IntegerCustomColumnWithUnit "{0}[$1!='', {1}]"
+		{
+			// 576877d1
+			// 0 integer - The value of the custom column
+			// 1 text - The unit for the value
+			:00_Current "{0}[$1!='', {1}]"
+		}
+		IntegerCustomColumnWithUnitAndOriginal "{0}[$1!='', {1}] {2}[$1!='', {1}] original"
+		{
+			// 43609339
+			// 0 integer - The value of the custom column
+			// 1 text - The unit for the value
+			// 2 integer - The original value (as opposed to summation of children that is in parameter 0)
+			:00_Current "{0}[$1!='', {1}] {2}[$1!='', {1}] original"
+		}
+		InternalErrorProjectHasNoQASection "Internal error. Project has no QA section"
+		{
+			// b635d31c
+			:00_Current "Internal error. Project has no QA section"
+		}
+		InternalErrorQASectionHasNoWorkflow "Internal error. QA section has no workflow"
+		{
+			// fdaa8b60
+			:00_Current "Internal error. QA section has no workflow"
+		}
+		InternalErrorXColumnNotFound "Internal error: '{0}' column not found."
+		{
+			// b1346dd8
+			// 0 text - The name of the column tha twas not found
+			:00_Current "Internal error: '{0}' column not found."
+		}
+		InvalidDateFormatIsYYYYMMDDOrYYYYWWWD "Invalid date. Format is YYYY[[-MM[[-DD]]]] or YYYY[[-'W'WW-[[D]]]]"
+		{
+			// 81c0ff7c
+			:00_Current "Invalid date. Format is YYYY[[-MM[[-DD]]]] or YYYY[[-'W'WW-[[D]]]]"
+		}
+		InvalidDateModifierFormatIsNowXYMDExampleNow1Y "Invalid date modifier. Format is Now[[(+,-)X(Y,M,D)]. Example: Now-1Y or Now+2.5M"
+		{
+			// ca8a8a37
+			:00_Current "Invalid date modifier. Format is Now[[(+,-)X(Y,M,D)]. Example: Now-1Y or Now+2.5M"
+		}
+		InvalidDateModifierTypeFormatIsNowXYMDWHms "Invalid date modifier type. Format is Now[[(+,-)X(Y,M,D,W,H,m,S)]]. Example: Now-1Y or Now+2.5M"
+		{
+			// ef9d9fee
+			:00_Current "Invalid date modifier type. Format is Now[[(+,-)X(Y,M,D,W,H,m,S)]]. Example: Now-1Y or Now+2.5M"
+		}
+		InvalidDateModifierValueFormatIsNowXYMDWHms "Invalid date modifier value. Format is Now[[(+,-)X(Y,M,D,W,H,m,S)]]. Example: Now-1Y or Now+2.5M"
+		{
+			// 7e7fabe9
+			:00_Current "Invalid date modifier value. Format is Now[[(+,-)X(Y,M,D,W,H,m,S)]]. Example: Now-1Y or Now+2.5M"
+		}
+		InvalidFloatValueX "Invalid float value: {0}"
+		{
+			// 7348c250
+			// 0 text - The value that is not a valid float number
+			:00_Current "Invalid float value: {0}"
+		}
+		InvalidHourSpecifiedFormatIsNowXYMDWHmsHHMMSS "Invalid hour specified. Format is Now[[(+,-)X(Y,M,D,W,H,m,S)]]:HH:MM:SS"
+		{
+			// af624939
+			:00_Current "Invalid hour specified. Format is Now[[(+,-)X(Y,M,D,W,H,m,S)]]:HH:MM:SS"
+		}
+		InvalidHourSpecifiedFormatIsYYYYMMDDHHMMSSOr "Invalid hour specified. Format is YYYY[[-MM[[-DD]]]]:HH:MM:SS or YYYY[[-'W'WW-[[D]]]]:HH:MM:SS"
+		{
+			// dd14480b
+			:00_Current "Invalid hour specified. Format is YYYY[[-MM[[-DD]]]]:HH:MM:SS or YYYY[[-'W'WW-[[D]]]]:HH:MM:SS"
+		}
+		InvalidMinuteSpecifiedFormatIsNowXYMDWHms "Invalid minute specified. Format is Now[[(+,-)X(Y,M,D,W,H,m,S)]:HH:MM:SS"
+		{
+			// 7712497d
+			:00_Current "Invalid minute specified. Format is Now[[(+,-)X(Y,M,D,W,H,m,S)]:HH:MM:SS"
+		}
+		InvalidMinuteSpecifiedFormatIsYYYYMMDDHHMMSSOr "Invalid minute specified. Format is YYYY[[-MM[[-DD]]:HH:MM:SS or YYYY[[-'W'WW-[[D]]]]:HH:MM:SS"
+		{
+			// 96a6f4df
+			:00_Current "Invalid minute specified. Format is YYYY[[-MM[[-DD]]:HH:MM:SS or YYYY[[-'W'WW-[[D]]]]:HH:MM:SS"
+		}
+		InvalidOperatorX "Invalid operator: {0}"
+		{
+			// f5a259e9
+			// 0 text - The name of the invalid find operator
+			:00_Current "Invalid operator: {0}"
+		}
+		InvalidPrefixXForTypeXValidPrefixesAreRGP "Invalid prefix '{0}' for type '{1}'. Valid prefixes are: R, G, P"
+		{
+			// ca13d123
+			// 0 text - The name of the invalid type prefix
+			// 1 text - The type name
+			:00_Current "Invalid prefix '{0}' for type '{1}'. Valid prefixes are: R, G, P"
+		}
+		InvalidPrefixXForTypeXValidPrefixesAreSTMBIATs "Invalid prefix '{0}' for type '{1}'. Valid prefixes are: ST, M, BI, AT, S, SP, B"
+		{
+			// b88de881
+			// 0 text - The name of the invalid type prefix
+			// 1 text - The type name
+			:00_Current "Invalid prefix '{0}' for type '{1}'. Valid prefixes are: ST, M, BI, AT, S, SP, B"
+		}
+		InvalidSecondSpecifiedFormatIsNowXYMDWHms "Invalid second specified. Format is Now[[(+,-)X(Y,M,D,W,H,m,S)]]:HH:MM:SS"
+		{
+			// ebf14bc7
+			:00_Current "Invalid second specified. Format is Now[[(+,-)X(Y,M,D,W,H,m,S)]]:HH:MM:SS"
+		}
+		InvalidSecondSpecifiedFormatIsYYYYMMDDHHMMSSOr "Invalid second specified. Format is YYYY[[-MM[[-DD]]]]:HH:MM:SS or YYYY[[-'W'WW-[[D]]]]:HH:MM:SS"
+		{
+			// 45d4f569
+			:00_Current "Invalid second specified. Format is YYYY[[-MM[[-DD]]]]:HH:MM:SS or YYYY[[-'W'WW-[[D]]]]:HH:MM:SS"
+		}
+		InvalidTimeFormatFormatIsNowXYMDWHmsHHMMSS "Invalid time format. Format is Now[[(+,-)X(Y,M,D,W,H,m,S)]]:HH:MM:SS"
+		{
+			// 9a7b8687
+			:00_Current "Invalid time format. Format is Now[[(+,-)X(Y,M,D,W,H,m,S)]]:HH:MM:SS"
+		}
+		InvalidTimeFormatFormatIsYYYYMMDDHHMMSSOrYYYYW "Invalid time format. Format is YYYY[[-MM[[-DD]]]]:HH:MM:SS or YYYY[[-'W'WW-[[D]]]]:HH:MM:SS"
+		{
+			// 621a1434
+			:00_Current "Invalid time format. Format is YYYY[[-MM[[-DD]]]]:HH:MM:SS or YYYY[[-'W'WW-[[D]]]]:HH:MM:SS"
+		}
+		InvalidTypeXSpecified "Invalid type '{0}' specified."
+		{
+			// c94dd26b
+			// 0 text - The name of the invalid type
+			:00_Current "Invalid type '{0}' specified."
+		}
+		InvalidWeekSpecified "Invalid week specified."
+		{
+			// 62ac901d
+			:00_Current "Invalid week specified."
+		}
+		LessThan NLocalize/NShared/LessThan
+		{
+			// 0a3c7500
+			:00_Current "Less than"
+		}
+		LessThanCaseSensitive NLocalize/NShared/LessThanCaseSensitive
+		{
+			// 1abf9436
+			:00_Current "Less than (case sensitive)"
+		}
+		LessThanEqual NLocalize/NShared/LessThanEqual
+		{
+			// c06e2538
+			:00_Current "Less than equal"
+		}
+		LessThanEqualCaseSensitive NLocalize/NShared/LessThanEqualCaseSensitive
+		{
+			// b63bdf6e
+			:00_Current "Less than equal (case sensitive)"
+		}
+		LoggedInResource NLocalize/NShared/LoggedInResource
+		{
+			// 31197f2f
+			:00_Current "(Logged in user)"
+		}
+		Milestone "Release"
+		{
+			// 3e06bf8e
+			:00_Current "Release"
+		}
+		MilestoneTag "{0,cc} tag"
+		{
+			// 3151af0a
+			// 0 text - Default name of milestone type or custom name
+			:00_Current "{0,cc} tag"
+		}
+		Milestones "releases"
+		{
+			// fedeb1c1
+			:00_Current "releases"
+		}
+		NoClosingParenthesisFound "No closing parenthesis found."
+		{
+			// 4dd01b8c
+			:00_Current "No closing parenthesis found."
+		}
+		NoColumnNamedXFound "No column named '{0}' found."
+		{
+			// c222be42
+			// 0 text - The name of the invalid column
+			:00_Current "No column named '{0}' found."
+		}
+		NoColumnWithHashXFound "No column with hash '0x{0,nfh,sj8,sf0}' found."
+		{
+			// d3afa4dd
+			// 0 integer - The hash name of the invalid column
+			:00_Current "No column with hash '0x{0,nfh,sj8,sf0}' found."
+		}
+		NoMatchingForParenthesis "No matching '(' for parenthesis"
+		{
+			// d1b4df53
+			:00_Current "No matching '(' for parenthesis"
+		}
+		NoName NLocalize/NShared/NoName
+		{
+			// fe7be2bc
+			:00_Current "(No name)"
+		}
+		NoProjectFoundToMatchThePipelineWorkflow "No project found to match the pipeline/workflow against, please specify project."
+		{
+			// 8d46cd90
+			:00_Current "No project found to match the pipeline/workflow against, please specify project."
+		}
+		NoProjectFoundToMatchTheWorkflowAgainstPlease "No project found to match the workflow against, please specify project."
+		{
+			// ccb7c79b
+			:00_Current "No project found to match the workflow against, please specify project."
+		}
+		NoSuchColumnX "No such column: {0}"
+		{
+			// 783ccdf4
+			// 0 text - The name of the invalid column
+			:00_Current "No such column: {0}"
+		}
+		NoXWithNameXExist "No {0} with name '{1}' exist."
+		{
+			// ed060675
+			// 0 text - An invalid type
+			// 1 text - The name of the invalid type
+			:00_Current "No {0} with name '{1}' exist."
+		}
+		NoneOfSelected "None of selected"
+		{
+			// db19df4c
+			:00_Current "None of selected"
+		}
+		NoneOfSelectedOrSomeOther "One or more not selected or some other"
+		{
+			// 814091c3
+			:00_Current "One or more not selected or some other"
+		}
+		NoneOfSelectedSomeOther "None of selected, some other"
+		{
+			// bba79f02
+			:00_Current "None of selected, some other"
+		}
+		NonfirstAreAnyOfSelected "Non-first are any of selected"
+		{
+			// 8e30370f
+			:00_Current "Non-first are any of selected"
+		}
+		NotContaining "Not containing"
+		{
+			// 79835339
+			:00_Current "Not containing"
+		}
+		NotContainingCaseSensitive "Not containing (case sensitive)"
+		{
+			// 8f0c070f
+			:00_Current "Not containing (case sensitive)"
+		}
+		NotEqualTo "Not equal to"
+		{
+			// 7bfb070a
+			:00_Current "Not equal to"
+		}
+		NotEqualToCaseSensitive "Not equal to (case sensitive)"
+		{
+			// e29da680
+			:00_Current "Not equal to (case sensitive)"
+		}
+		NotSet NLocalize/NShared/NotSet
+		{
+			// fe907c9b
+			:00_Current "(Not set)"
+		}
+		NumericalCondition "Numerical condition"
+		{
+			// b9d71125
+			:00_Current "Numerical condition"
+		}
+		OnDate NLocalize/NShared/OnDate
+		{
+			// 00b977f9
+			:00_Current "On date"
+		}
+		OnOrAfterDate NLocalize/NShared/OnOrAfterDate
+		{
+			// c8eed2ac
+			:00_Current "On or after date"
+		}
+		OnOrBeforeDate NLocalize/NShared/OnOrBeforeDate
+		{
+			// 8ec8f6ad
+			:00_Current "On or before date"
+		}
+		Project "project"
+		{
+			// 714623d5
+			:00_Current "project"
+		}
+		ProjectMembers "ProjectMembers"
+		{
+			// 343018a0
+			:00_Current "ProjectMembers"
+		}
+		ProjectXNotFound "Project '{0}' not found."
+		{
+			// 89c64a9a
+			// 0 text - Name of non existing project
+			:00_Current "Project '{0}' not found."
+		}
+		ProjectXNotFoundOrInAccessible "Project '{0}' not found or in accessible."
+		{
+			// d2f2b400
+			// 0 text - Name of unaccessible project
+			:00_Current "Project '{0}' not found or in accessible."
+		}
+		Resource "user"
+		{
+			// 93915386
+			:00_Current "user"
+		}
+		ResourceGroup "user group"
+		{
+			// 5035adf3
+			:00_Current "user group"
+		}
+		ResourceName "{0}"
+		{
+			// dba81727
+			// 0 text - The user name
+
+			// Used for first user
+			:00_Current "{0}"
+		}
+		ResourceNameAppend "; {0}"
+		{
+			// cf05c85f
+			// 0 text - The user name
+
+			// Used for subsequent users allocated to task appended after each other
+			:00_Current "; {0}"
+		}
+		ResourceNameWithPercent "{0} [[{1}%]"
+		{
+			// 552ab354
+			// 0 text - The user name
+			// 1 integer - The number of percent the user is allocated to task
+
+			// Used for first user
+			:00_Current "{0} [[{1}%]"
+		}
+		ResourceNameWithPercentAppend "; {0} [[{1}%]"
+		{
+			// e70a124c
+			// 0 text - The user name
+			// 1 integer - The number of percent the user is allocated to task
+
+			// Used for subsequent users allocated to task appended after each other
+			:00_Current "; {0} [[{1}%]"
+		}
+		ResourceOrResourceGroup "user or user group"
+		{
+			// 99b2b99c
+			:00_Current "user or user group"
+		}
+		ScheduledTask NLocalize/NShared/ScheduledTask
+		{
+			// 1992bf62
+			:00_Current "Scheduled task"
+		}
+		ScheduledTasks "scheduled tasks"
+		{
+			// 4beaac15
+			:00_Current "scheduled tasks"
+		}
+		SpaceIsNotAllowedHere "Space is not allowed here"
+		{
+			// a511c143
+			:00_Current "Space is not allowed here"
+		}
+		Sprint NLocalize/NShared/Sprint
+		{
+			// 0a4ba63e
+			:00_Current "Sprint"
+		}
+		Sprints "sprints"
+		{
+			// 53c06e71
+			:00_Current "sprints"
+		}
+		StartsWith NLocalize/NShared/StartsWith
+		{
+			// dc8db75b
+			:00_Current "Starts with"
+		}
+		StartsWithCaseSensitive NLocalize/NShared/StartsWithCaseSensitive
+		{
+			// 07609271
+			:00_Current "Starts with (case sensitive)"
+		}
+		SubProject NLocalize/NShared/SubProject
+		{
+			// ff27905f
+			:00_Current "Sub project"
+		}
+		SubProjects "sub projects"
+		{
+			// e4199cb2
+			:00_Current "sub projects"
+		}
+		SyntaxError "Syntax error"
+		{
+			// 9925572f
+			:00_Current "Syntax error"
+		}
+		TaskWithDatabaseIDXDoesNotExist "Task with database ID '{0}' does not exist."
+		{
+			// c9387230
+			// 0 text - A database ID that does not exist
+			:00_Current "Task with database ID '{0}' does not exist."
+		}
+		Tasks NLocalize/NShared/Tasks
+		{
+			// 6532f7e4
+			:00_Current "tasks"
+		}
+		TextCondition "Text condition"
+		{
+			// 67b8434a
+			:00_Current "Text condition"
+		}
+		TheBugWorkflowDoesNotHaveAStatusNamedX "The bug workflow does not have a status named '{0}'."
+		{
+			// 7bb9db5a
+			// 0 text - The name of an unknown bug workflow status
+			:00_Current "The bug workflow does not have a status named '{0}'."
+		}
+		WorkRemaining "{0,fe0,fn2}"
+		{
+			// 3f86f91b
+			// 0 decimal - The number of hours
+			:00_Current "{0,fe0,fn2}"
+		}
+		WorkRemainingWithUnit "{0,fe0,fn2}h"
+		{
+			// abb30337
+			// 0 decimal - The number of hours
+			:00_Current "{0,fe0,fn2}h"
+		}
+		WorkflowPipelineXDoesNotExist "Workflow/Pipeline '{0}' does not exist."
+		{
+			// ecf3c7b0
+			// 0 text - The name of an unknown workflow/pipeline
+			:00_Current "Workflow/Pipeline '{0}' does not exist."
+		}
+		WorkflowXDoesNotExist "Workflow '{0}' does not exist."
+		{
+			// 79ccb5fa
+			// 0 text - The name of a non existing workflow
+			:00_Current "Workflow '{0}' does not exist."
+		}
+		WorkflowXDoesNotHaveAStatusNamedX "Workflow '{0}' does not have a status named '{1}'."
+		{
+			// 06219c93
+			// 0 text - The name of a workflow
+			// 1 text - The name of a status that does not exist in workflow
+			:00_Current "Workflow '{0}' does not have a status named '{1}'."
+		}
+		X "{0}"
+		{
+			// 97f3c6b6
+			// 0 text
+			:00_Current "{0}"
+		}
+		XEstimatedEffort "{0,fe1,fn2}"
+		{
+			// 289dab1c
+			// 0 decimal - The estimated effort in days
+			:00_Current "{0,fe1,fn2}"
+		}
+		XEstimatedEffortWithUnit "{0,fe1,fn2}d"
+		{
+			// 45d82638
+			// 0 decimal - The estimated effort in days
+			:00_Current "{0,fe1,fn2}d"
+		}
+		XIsAPipelineNotAWorkflow "'{0}' is a pipeline, not a workflow."
+		{
+			// a0134796
+			// 0 text - The name of a pipeline
+			:00_Current "'{0}' is a pipeline, not a workflow."
+		}
+		XPoints "{0}"
+		{
+			// 89c84093
+			// 0 integer - The number of points
+			:00_Current "{0}"
+		}
+		XPointsWithUnit "{0} [NHelpers::Pluralize($0,'point')]"
+		{
+			// c4a042af
+			// 0 integer - The number of points
+			:00_Current "{0} [NHelpers::Pluralize($0,'point')]"
+		}
+		XPriority "{0,cc} priority"
+		{
+			// 03da4c38
+			// 0 text - A priority number
+			:00_Current "{0,cc} priority"
+		}
+		XTypeDoesNotUsePrefixesX "'{0}' type does not use prefixes ('{1}')."
+		{
+			// dbf3379f
+			// 0 text - Name of a type
+			// 1 text - An invalid prefix
+			:00_Current "'{0}' type does not use prefixes ('{1}')."
+		}
+		XTypeTakesAtLeastOneParamColumnDropSelection "'{0}' type takes at least one parameter (Column, [[DropSelections...]])."
+		{
+			// 51b7d6ba
+			// 0 text - Name of a type
+			:00_Current "'{0}' type takes at least one parameter (Column, [[DropSelections...]])."
+		}
+		XTypeTakesOneOrTwoParametersProjectBugStatus "'{0}' type takes one or two parameters ([[Project]], BugStatus)."
+		{
+			// d485f93a
+			// 0 text - Name of a type
+			:00_Current "'{0}' type takes one or two parameters ([[Project]], BugStatus)."
+		}
+		XTypeTakesOneOrTwoParametersProjectWorkflow "'{0}' type takes one or two parameters ([[Project]], Workflow/Pipeline)."
+		{
+			// cc9311b3
+			// 0 text - Name of a type
+			:00_Current "'{0}' type takes one or two parameters ([[Project]], Workflow/Pipeline)."
+		}
+		XTypeTakesOneParameterColumnName "'{0}' type takes one parameter (ColumnName)."
+		{
+			// d2cecde2
+			// 0 text - Name of a type
+			:00_Current "'{0}' type takes one parameter (ColumnName)."
+		}
+		XTypeTakesOneParameterProject "'{0}' type takes one parameter (Project)."
+		{
+			// ef0d2aea
+			// 0 text - Name of a type
+			:00_Current "'{0}' type takes one parameter (Project)."
+		}
+		XTypeTakesOneParameterText "'{0}' type takes one parameter (Text)."
+		{
+			// ee1eb638
+			// 0 text - Name of a type
+			:00_Current "'{0}' type takes one parameter (Text)."
+		}
+		XTypeTakesOneParameterX "'{0}' type takes one parameter ({1})."
+		{
+			// 35dc620b
+			// 0 text - Name of a type
+			// 1 text - A type specification
+			:00_Current "'{0}' type takes one parameter ({1})."
+		}
+		XTypeTakesTwoOrThreeParametersProjectWorkflow "'{0}' type takes two or three parameters ([[Project]], Workflow, Status)."
+		{
+			// f1c461a9
+			// 0 text - Name of a type
+			:00_Current "'{0}' type takes two or three parameters ([[Project]], Workflow, Status)."
+		}
+		XTypeTakesTwoParametersColumnDropSelection "'{0}' type takes two parameters (Column, DropSelection)."
+		{
+			// 53d7e127
+			// 0 text - Name of a type
+			:00_Current "'{0}' type takes two parameters (Column, DropSelection)."
+		}
+		XTypeTakesTwoParametersFromDateToDate "'{0}' type takes two parameters (FromDate, ToDate)."
+		{
+			// 9a588911
+			// 0 text - Name of a type
+			:00_Current "'{0}' type takes two parameters (FromDate, ToDate)."
+		}
+		XX "{0} - {1}"
+		{
+			// 966c9dce
+			// 0 text - Name of a workflow
+			// 1 text - Name of a workflow status
+			:00_Current "{0} - {1}"
+		}
+		XX2 "{0} >> {1}"
+		{
+			// 640057c0
+			// 0 text - Name of a pipeline
+			// 1 text - Name of task in pipeline that can start now
+			:00_Current "{0} >> {1}"
+		}
+		XX3 "{0} - {1}"
+		{
+			// 640057c1
+			// 0 text - Name of a workflow
+			// 1 text - Name of task in pipeline that can start now
+			:00_Current "{0} - {1}"
+		}
+		XXOfXTasksDone "{0} - {1} of {2} tasks done"
+		{
+			// b575e507
+			// 0 text - Name of a pipeline
+			// 1 integer - Nubmer of tasks in pipeline that are done
+			// 2 integer - Total number of tasks in pipeline
+			:00_Current "{0} - {1} of {2} tasks done"
+		}
+	}
+
+	namespace NTaskTreeCache
+    // Log file error messages used when checking the validity of the task tree.
+	{
+		NoName NLocalize/NShared/NoName
+		{
+			// 00b054b2
+			:00_Current "(No name)"
+		}
+		namespace NDebug
+		{
+			ABugWasDetectedInTheDispositionChecking "A bug was detected in the disposition checking algorithm. Please contact support@hansoft.com and report this bug.\r\n"\
+			                                        "\r\n"\
+			                                        "Path: {0}({1}): {2}\r\n"\
+			                                        "\r\n"\
+			                                        "Reason: {3}\r\n"\
+			                                        ""
+			{
+				// 4942b50d
+				// 0 text - Internal file name
+				// 1 integer - Internal line number
+				// 2 text - Internal message
+				// 3 text - Error reason
+				:00_Current "A bug was detected in the disposition checking algorithm. Please contact support@hansoft.com and report this bug.\r\n"\
+				            "\r\n"\
+				            "Path: {0}({1}): {2}\r\n"\
+				            "\r\n"\
+				            "Reason: {3}\r\n"\
+				            ""
+			}
+			TheDispositionInAScheduleHasBecomeInvalid "The disposition in a schedule has become invalid. Please contact support@hansoft.com and report this bug.\r\n"\
+			                                          "\r\n"\
+			                                          "To make the disposition valid again, take the database offline and online again.\r\n"\
+			                                          "\r\n"\
+			                                          "Failure path: {0}({1}): {2}\r\n"\
+			                                          "\r\n"\
+			                                          "Reason: {3}\r\n"\
+			                                          ""
+			{
+				// 9ef0c581
+				// 0 text - Internal file name
+				// 1 integer - Internal line number
+				// 2 text - Internal message
+				// 3 text - Error reason
+				:00_Current "The disposition in a schedule has become invalid. Please contact support@hansoft.com and report this bug.\r\n"\
+				            "\r\n"\
+				            "To make the disposition valid again, take the database offline and online again.\r\n"\
+				            "\r\n"\
+				            "Failure path: {0}({1}): {2}\r\n"\
+				            "\r\n"\
+				            "Reason: {3}\r\n"\
+				            ""
+			}
+		}
+	}
+	namespace NUsersProjects
+    // Entries in drop down lists for Hansofts's default columns
+    // Default names for the method template entries in the 'Create new project' dialog
+    // 
+	{
+		A "A"
+		{
+			// 787798da
+			:00_Current "A"
+		}
+		ABug "A Bug"
+		{
+			// 0ce94ad8
+			:00_Current "A Bug"
+		}
+		Assigned NLocalize/NShared/Assigned
+		{
+			// 5b5cd3e7
+			:00_Current "Assigned"
+		}
+		B "B"
+		{
+			// 787798db
+			:00_Current "B"
+		}
+		BBug "B Bug"
+		{
+			// 0ce9d739
+			:00_Current "B Bug"
+		}
+		BacklogCategory "Backlog category"
+		{
+			// 268e14ea
+			:00_Current "Backlog category"
+		}
+		BacklogItem "backlog item"
+		{
+			// b2b96f3b
+			:00_Current "backlog item"
+		}
+		BacklogItem2 NLocalize/NShared/BacklogItem
+		{
+			// 09e756cd
+			:00_Current "Backlog item"
+		}
+		BacklogItem3 "Backlog Item"
+		{
+			// 09e756ce
+			:00_Current "Backlog Item"
+		}
+		BacklogStory "backlog story"
+		{
+			// 0a9c774d
+			:00_Current "backlog story"
+		}
+		Blocked NLocalize/NShared/Blocked
+		{
+			// 27d9730d
+			:00_Current "Blocked"
+		}
+		Boolean "Boolean"
+		{
+			// 2eddc259
+			:00_Current "Boolean"
+		}
+		Bug NLocalize/NShared/Bug
+		{
+			// 74c14b17
+			:00_Current "Bug"
+		}
+		BugA "Bug (A)"
+		{
+			// 0ceaae38
+			:00_Current "Bug (A)"
+		}
+		BugA2 "Bug A"
+		{
+			// aa40756a
+			:00_Current "Bug A"
+		}
+		BugA3 "BugA"
+		{
+			// aa40756b
+			:00_Current "BugA"
+		}
+		BugB "Bug (B)"
+		{
+			// 0ceaae39
+			:00_Current "Bug (B)"
+		}
+		BugB2 "Bug B"
+		{
+			// aa40758b
+			:00_Current "Bug B"
+		}
+		BugB3 "BugB"
+		{
+			// aa40758c
+			:00_Current "BugB"
+		}
+		BugC "Bug (C)"
+		{
+			// 0ceaae3a
+			:00_Current "Bug (C)"
+		}
+		BugC2 "Bug C"
+		{
+			// aa4075ac
+			:00_Current "Bug C"
+		}
+		BugC3 "BugC"
+		{
+			// aa4075ad
+			:00_Current "BugC"
+		}
+		BugD "Bug (D)"
+		{
+			// 0ceaae3b
+			:00_Current "Bug (D)"
+		}
+		BugD2 "Bug D"
+		{
+			// aa4075cd
+			:00_Current "Bug D"
+		}
+		BugD3 "BugD"
+		{
+			// aa4075ce
+			:00_Current "BugD"
+		}
+		BugStatus NLocalize/NShared/BugStatus
+		{
+			// 45cf74bb
+			:00_Current "Status"
+		}
+		BurndownChart "burndown chart"
+		{
+			// 74fdbb9a
+			:00_Current "burndown chart"
+		}
+		C "C"
+		{
+			// 787798dc
+			:00_Current "C"
+		}
+		CBug "C Bug"
+		{
+			// 0cea639a
+			:00_Current "C Bug"
+		}
+		Closed NLocalize/NShared/Closed
+		{
+			// f406ad73
+			:00_Current "Closed"
+		}
+		Column "Column"
+		{
+			// f43b5b67
+			:00_Current "Column"
+		}
+		Complete "Complete"
+		{
+			// f279dbf2
+			:00_Current "Complete"
+		}
+		Completed NLocalize/NShared/Completed
+		{
+			// 41b55a96
+			:00_Current "Completed"
+		}
+		Confidence NLocalize/NShared/Confidence
+		{
+			// 5bc27d27
+			:00_Current "Confidence"
+		}
+		CustomColumnDropSelection "Single choice custom column"
+		{
+			// d3f8d3dd
+			:00_Current "Single choice custom column"
+		}
+		CustomColumnMultiDropSelection "Multiple choices custom column"
+		{
+			// 852f1ce8
+			:00_Current "Multiple choices custom column"
+		}
+		D "D"
+		{
+			// 787798dd
+			:00_Current "D"
+		}
+		DBug "D Bug"
+		{
+			// 0ceaeffb
+			:00_Current "D Bug"
+		}
+		Days "Days"
+		{
+			// 0ceb746a
+			:00_Current "Days"
+		}
+		DeaUserConfigWasUnsuccessfulForUserXX "Delta user config was unsuccessful for user: {0}({1})"
+		{
+			// 9d769cdc
+			// 0 text - User name
+			// 1 integer - User ID
+			:00_Current "Delta user config was unsuccessful for user: {0}({1})"
+		}
+		Defined "Defined"
+		{
+			// b0da4aa8
+			:00_Current "Defined"
+		}
+		Deleted NLocalize/NShared/Deleted
+		{
+			// b144c5b0
+			:00_Current "Deleted"
+		}
+		Enhance "Enhance"
+		{
+			// 12f2c2cb
+			:00_Current "Enhance"
+		}
+		Enhancement "Enhancement"
+		{
+			// 011ab1df
+			:00_Current "Enhancement"
+		}
+		FeatureItem "feature item"
+		{
+			// f9558e54
+			:00_Current "feature item"
+		}
+		FeatureList "feature list"
+		{
+			// f9570681
+			:00_Current "feature list"
+		}
+		FirstStep "First step"
+		{
+			// 9e093f3d
+			:00_Current "First step"
+		}
+		FirstTask "First task"
+		{
+			// 9e097c94
+			:00_Current "First task"
+		}
+		High "High"
+		{
+			// 0cedc599
+			:00_Current "High"
+		}
+		HighConfidence "High confidence"
+		{
+			// a1ff8147
+			:00_Current "High confidence"
+		}
+		HighPriority NLocalize/NShared/HighPriority
+		{
+			// 244a7e1b
+			:00_Current "High priority"
+		}
+		HighRisk "High risk"
+		{
+			// b347af12
+			:00_Current "High risk"
+		}
+		Hours "Hours"
+		{
+			// aaaa004a
+			:00_Current "Hours"
+		}
+		InProgress NLocalize/NShared/InProgress
+		{
+			// f9c593a5
+			:00_Current "In progress"
+		}
+		Item NLocalize/NShared/Item
+		{
+			// 0cee8088
+			:00_Current "Item"
+		}
+		ItemStatus NLocalize/NShared/ItemStatus
+		{
+			// 54c53aec
+			:00_Current "Status"
+		}
+		ItemType NLocalize/NShared/ItemType
+		{
+			// e9fba5ea
+			:00_Current "Item type"
+		}
+		Items NLocalize/NShared/Items
+		{
+			// aabe91fb
+			:00_Current "Items"
+		}
+		Iteration "iteration"
+		{
+			// 360292e8
+			:00_Current "iteration"
+		}
+		IterationItem "iteration item"
+		{
+			// c98bc977
+			:00_Current "iteration item"
+		}
+		IterationStory "iteration story"
+		{
+			// fbba1909
+			:00_Current "iteration story"
+		}
+		LastTask "Last task"
+		{
+			// 195520e0
+			:00_Current "Last task"
+		}
+		Low "Low"
+		{
+			// 74c174eb
+			:00_Current "Low"
+		}
+		LowConfidence "Low confidence"
+		{
+			// 452bff19
+			:00_Current "Low confidence"
+		}
+		LowPriority NLocalize/NShared/LowPriority
+		{
+			// 10395f6d
+			:00_Current "Low priority"
+		}
+		LowRisk "Low risk"
+		{
+			// 3126b764
+			:00_Current "Low risk"
+		}
+		Med "Med"
+		{
+			// 74c177cf
+			:00_Current "Med"
+		}
+		Medium NLocalize/NShared/Medium
+		{
+			// 0ad5679a
+			:00_Current "Medium"
+		}
+		MediumConfidence "Medium confidence"
+		{
+			// 9cb65888
+			:00_Current "Medium confidence"
+		}
+		MediumPriority NLocalize/NShared/MediumPriority
+		{
+			// 4d30911c
+			:00_Current "Medium priority"
+		}
+		MediumRisk "Medium risk"
+		{
+			// c0426993
+			:00_Current "Medium risk"
+		}
+		Milestone "Milestone"
+		{
+			// deea9cc9
+			:00_Current "Milestone"
+		}
+		New NLocalize/NShared/New
+		{
+			// 74c17c23
+			:00_Current "New"
+		}
+		No NLocalize/NShared/No
+		{
+			// 876ab636
+			:00_Current "No"
+		}
+		NoCategorySet NLocalize/NShared/NoCategorySet
+		{
+			// 9a710880
+			:00_Current "(No category set)"
+		}
+		NoConfidenceSet NLocalize/NShared/NoConfidenceSet
+		{
+			// 4cea8630
+			:00_Current "(No confidence set)"
+		}
+		NoItemStatusSet NLocalize/NShared/NoItemStatusSet
+		{
+			// 26bc29d5
+			:00_Current "(No status set)"
+		}
+		NoPrioritySet NLocalize/NShared/NoPrioritySet
+		{
+			// 1ef92f44
+			:00_Current "(No priority set)"
+		}
+		NoRiskSet NLocalize/NShared/NoRiskSet
+		{
+			// 14d71a5b
+			:00_Current "(No risk set)"
+		}
+		NoSeveritySet NLocalize/NShared/NoSeveritySet
+		{
+			// 2a455c9d
+			:00_Current "(No severity set)"
+		}
+		None NLocalize/NShared/None
+		{
+			// 0cf12a49
+			:00_Current "None"
+		}
+		Normal NLocalize/NShared/Normal
+		{
+			// 0de74102
+			:00_Current "Normal"
+		}
+		NotDone NLocalize/NShared/NotDone
+		{
+			// cadd52f0
+			:00_Current "Not done"
+		}
+		Number "Number"
+		{
+			// 0e50e7e2
+			:00_Current "Number"
+		}
+		PipelineEntry "Pipeline entry"
+		{
+			// a26521e1
+			:00_Current "Pipeline entry"
+		}
+		Points NLocalize/NShared/Points
+		{
+			// 128ca996
+			:00_Current "Points"
+		}
+		Priority NLocalize/NShared/Priority
+		{
+			// cf5d01fb
+			:00_Current "Priority"
+		}
+		ProductBacklog "product backlog"
+		{
+			// b05e1e2d
+			:00_Current "product backlog"
+		}
+		Project NLocalize/NShared/Project
+		{
+			// 6b8b7650
+			:00_Current "Project"
+		}
+		ProjectSchedule "schedule"
+		{
+			// e1974c1d
+			:00_Current "schedule"
+		}
+		Release "release"
+		{
+			// e6f3c93a
+			:00_Current "release"
+		}
+		Release2 "Release"
+		{
+			// c56cf0ac
+			:00_Current "Release"
+		}
+		Reopen NLocalize/NShared/ReOpen
+		{
+			// 168556a2
+			:00_Current "Re-open"
+		}
+		ReportNewBug NLocalize/NShared/ReportNewBug
+		{
+			// 0724197d
+			:00_Current "Report new bug"
+		}
+		Req "Req"
+		{
+			// 74c18d21
+			:00_Current "Req"
+		}
+		Requirement "Requirement"
+		{
+			// d20f984a
+			:00_Current "Requirement"
+		}
+		Resolved "Resolved"
+		{
+			// d67c173d
+			:00_Current "Resolved"
+		}
+		Resources NLocalize/NShared/Resources
+		{
+			// a69fa1f4
+			:00_Current "Users"
+		}
+		Risk NLocalize/NShared/Risk
+		{
+			// 0cf342f2
+			:00_Current "Risk"
+		}
+		Scheduled "Scheduled"
+		{
+			// db52616a
+			:00_Current "Scheduled"
+		}
+		ScheduledTask NLocalize/NShared/ScheduledTask
+		{
+			// 1748c21d
+			:00_Current "Scheduled task"
+		}
+		Set "Set"
+		{
+			// 74c19165
+
+			// Set as in the the clock has been set. The value has been set.
+			:00_Current "Set"
+		}
+		SevA "SevA"
+		{
+			// 0cf3be88
+			:00_Current "SevA"
+		}
+		SevB "SevB"
+		{
+			// 0cf3be89
+			:00_Current "SevB"
+		}
+		SevC "SevC"
+		{
+			// 0cf3be8a
+			:00_Current "SevC"
+		}
+		SevD "SevD"
+		{
+			// 0cf3be8b
+			:00_Current "SevD"
+		}
+		Severity NLocalize/NShared/Severity
+		{
+			// c90b85f4
+			:00_Current "Severity"
+		}
+		SeverityA NLocalize/NShared/SeverityA
+		{
+			// ea7c44b5
+			:00_Current "Severity A"
+		}
+		SeverityB NLocalize/NShared/SeverityB
+		{
+			// ea7c44b6
+			:00_Current "Severity B"
+		}
+		SeverityC NLocalize/NShared/SeverityC
+		{
+			// ea7c44b7
+			:00_Current "Severity C"
+		}
+		SeverityD NLocalize/NShared/SeverityD
+		{
+			// ea7c44b8
+			:00_Current "Severity D"
+		}
+		Sprint "sprint"
+		{
+			// 19a31559
+			:00_Current "sprint"
+		}
+		Sprint2 NLocalize/NShared/Sprint
+		{
+			// 4e05c0ab
+			:00_Current "Sprint"
+		}
+		SprintBacklogItem "sprint backlog item"
+		{
+			// 2282ef1b
+			:00_Current "sprint backlog item"
+		}
+		SubProject NLocalize/NShared/SubProject
+		{
+			// bc8714fa
+			:00_Current "Sub project"
+		}
+		Task NLocalize/NShared/Task2
+		{
+			// 0cf439ac
+			:00_Current "task"
+		}
+		Tech "Tech"
+		{
+			// 0cf4489d
+			:00_Current "Tech"
+		}
+		TechnologyUpgrade "Technology upgrade"
+		{
+			// 5d28a83d
+			:00_Current "Technology upgrade"
+		}
+		Time NLocalize/NShared/Time
+		{
+			// 0cf45ae8
+			:00_Current "Time"
+		}
+		ToBeDeleted NLocalize/NShared/ToBeDeleted
+		{
+			// a0394fda
+			:00_Current "To be deleted"
+		}
+		Undefined "Undefined"
+		{
+			// b7541b0b
+			:00_Current "Undefined"
+		}
+		Unset "Unset"
+		{
+			// ab94a848
+			:00_Current "Unset"
+		}
+		ValueDefined "Value defined"
+		{
+			// 27adb2a5
+			:00_Current "Value defined"
+		}
+		ValueSet "Value set"
+		{
+			// 43ae82e2
+			:00_Current "Value set"
+		}
+		Verified NLocalize/NShared/Verified
+		{
+			// 84be2d87
+			:00_Current "Verified"
+		}
+		VeryHigh "Very high"
+		{
+			// 85cf427f
+			:00_Current "Very high"
+		}
+		VeryHighPriority "Very high priority"
+		{
+			// dcb58101
+			:00_Current "Very high priority"
+		}
+		VeryLow "Very low"
+		{
+			// 1b53ed11
+			:00_Current "Very low"
+		}
+		VeryLowPriority "Very low priority"
+		{
+			// c83c9d93
+			:00_Current "Very low priority"
+		}
+		WorkflowCompleted "Workflow completed"
+		{
+			// 11095091
+			:00_Current "Workflow completed"
+		}
+		WorkflowEntry "Workflow entry"
+		{
+			// 977d56a6
+			:00_Current "Workflow entry"
+		}
+		WorkflowPipelineAndStatus "Workflow/pipeline (and status)"
+		{
+			// 88682301
+			:00_Current "Workflow/pipeline (and status)"
+		}
+		XPoints "{0} [NHelpers::Pluralize($0,'point')]"
+		{
+			// 840d930e
+			// 0 integer - The number of user story points
+			:00_Current "{0} [NHelpers::Pluralize($0,'point')]"
+		}
+		Years "Years"
+		{
+			// abd7cffd
+			:00_Current "Years"
+		}
+		Yes NLocalize/NShared/Yes2
+		{
+			// 74c1aaea
+			:00_Current "Yes"
+		}
+	}
+}
+namespace NDisconnectMessages
+{
+	CRCErrorInIncomingPacket "CRC error in incoming packet"
+	{
+		// 016c8499
+		:00_Current "CRC error in incoming packet"
+	}
+	CleanDisconnect "Clean disconnect"
+	{
+		// 8f4cd001
+		:00_Current "Clean disconnect"
+	}
+	ClearServerConnection "Clear server connection"
+	{
+		// ebaf6d82
+		:00_Current "Clear server connection"
+	}
+	ClientServerVersionMismatch "Client server version mismatch"
+	{
+		// 15a00666
+		:00_Current "Client server version mismatch"
+	}
+	CorruptedPacketCRCCheck "Corrupted packet - client CRC signature is incorrect compared to the actual packet"
+	{
+		// b1388c3a
+		:00_Current "Corrupted packet - client CRC signature is incorrect compared to the actual packet"
+	}
+	CorruptedPacketPacketTooSmall "Corrupted packet - the size of the packet received by the client was too small (less than 6 bytes)"
+	{
+		// cf202f27
+		:00_Current "Corrupted packet - the size of the packet received by the client was too small (less than 6 bytes)"
+	}
+	DisconnectOfflineInitialSyncNotFinished "Disconnect when going offline: Initial sync not yet finished"
+	{
+		// d346fa83
+		:00_Current "Disconnect when going offline: Initial sync not yet finished"
+	}
+	DisconnectOfflineNoData "Disconnect when going offline: No data received timeout"
+	{
+		// 641fd178
+		:00_Current "Disconnect when going offline: No data received timeout"
+	}
+	DisconnectOfflineNotAuthorized "Disconnect when going offline: Connection not yet authorised"
+	{
+		// f7356e11
+		:00_Current "Disconnect when going offline: Connection not yet authorised"
+	}
+	DisconnectOfflineSDKConnection "Disconnect when going offline: SDK connection"
+	{
+		// 68768db3
+		:00_Current "Disconnect when going offline: SDK connection"
+	}
+	ErrorInRSyncProtocol "Error in rsync protocol: {0}"
+	{
+		// 9ff0d2f6
+		// 0 text - The error reported
+		:00_Current "Error in rsync protocol: {0}"
+	}
+	KeepaliveTimeout "Keepalive timeout"
+	{
+		// 70270611
+		:00_Current "Keepalive timeout"
+	}
+	OldClientServerVersion "Old client server version"
+	{
+		// e4560c6f
+		:00_Current "Old client server version"
+	}
+	SDKForcedLogout "SDK forced logout: {0}"
+	{
+		// dc8b76e3
+		// 0 text - The reason for the logout
+		:00_Current "SDK forced logout: {0}"
+	}
+	ShareForcedLogout "Share forced logout: {0}"
+	{
+		// 1d709834
+		// 0 text - The reason for the logout
+		:00_Current "Share forced logout: {0}"
+	}
+	SocketClosed "Socket closed"
+	{
+		// 1fa7b617
+		:00_Current "Socket closed"
+	}
+	SocketStateBroken "Socket state broken"
+	{
+		// 7d21d71f
+		:00_Current "Socket state broken"
+	}
+}
+namespace NSDKTest
+// No need to translate these, only used internally in unit testing
+{
+	Arg0 "Arg"
+	{
+		// e030527e
+		:00_Current "Arg"
+	}
+	Arg1 "Arg {0}"
+	{
+		// e030527f
+		// 0 any
+		:00_Current "Arg {0}"
+	}
+	Arg2 "Arg {0} {1}"
+	{
+		// e0305280
+		// 0 any
+		// 1 any
+		:00_Current "Arg {0} {1}"
+	}
+	Arg3 "Arg {0} {1} {2}"
+	{
+		// e0305281
+		// 0 any
+		// 1 any
+		// 2 any
+		:00_Current "Arg {0} {1} {2}"
+	}
+	Arg4 "Arg {0} {1} {2} {3}"
+	{
+		// e0305282
+		// 0 any
+		// 1 any
+		// 2 any
+		// 3 any
+		:00_Current "Arg {0} {1} {2} {3}"
+	}
+	Arg5 "Arg {0} {1} {2} {3} {4}"
+	{
+		// e0305283
+		// 0 any
+		// 1 any
+		// 2 any
+		// 3 any
+		// 4 any
+		:00_Current "Arg {0} {1} {2} {3} {4}"
+	}
+	Arg6 "Arg {0} {1} {2} {3} {4} {5}"
+	{
+		// e0305284
+		// 0 any
+		// 1 any
+		// 2 any
+		// 3 any
+		// 4 any
+		// 5 any
+		:00_Current "Arg {0} {1} {2} {3} {4} {5}"
+	}
+	Arg7 "Arg {0} {1} {2} {3} {4} {5} {6}"
+	{
+		// e0305285
+		// 0 any
+		// 1 any
+		// 2 any
+		// 3 any
+		// 4 any
+		// 5 any
+		// 6 any
+		:00_Current "Arg {0} {1} {2} {3} {4} {5} {6}"
+	}
+	Arg8 "Arg {0} {1} {2} {3} {4} {5} {6} {7}"
+	{
+		// e0305286
+		// 0 any
+		// 1 any
+		// 2 any
+		// 3 any
+		// 4 any
+		// 5 any
+		// 6 any
+		// 7 any
+		:00_Current "Arg {0} {1} {2} {3} {4} {5} {6} {7}"
+	}
+}
+namespace NServerInstall
+{
+	AdministratorAccountPassword "Administrator password"
+	{
+		// fd93d461
+		:00_Current "Administrator password"
+	}
+	AreYouSureYouWantToExitWithConfiguring "Are you sure you want to exit without configuring the server?"
+	{
+		// 02c7e75f
+		:00_Current "Are you sure you want to exit without configuring the server?"
+	}
+	Browse "Browse"
+	{
+		// 04908eb2
+		:00_Current "Browse"
+	}
+	ConfigureEmailOptions "Configure"
+	{
+		// a93c8c96
+		:00_Current "Configure"
+	}
+	CopyingFiles "Copying files..."
+	{
+		// 81cd47ac
+		:00_Current "Copying files..."
+	}
+	DatabaseConfiguration "Database configuration"
+	{
+		// a2e2c30d
+		:00_Current "Database configuration"
+	}
+	DatabaseHostname "Hostname"
+	{
+		// 0e44b374
+		:00_Current "Hostname"
+	}
+	DefaultDatabaseName "Company projects"
+	{
+		// e236e99b
+		:00_Current "Company projects"
+	}
+	DefaultServerName "My Company"
+	{
+		// 0ff6575d
+		:00_Current "My Company"
+	}
+	DoYouWantToInstallTheServerAsLocalUser "In order to install with your current configuration you must be able to run as an administrator. Do you want to install the Hansoft server as a local user into your local Applications directory?"
+	{
+		// 5d3e6f1a
+		:00_Current "In order to install with your current configuration you must be able to run as an administrator. Do you want to install the Hansoft server as a local user into your local Applications directory?"
+	}
+	EmailOptions "Email options"
+	{
+		// df4c0cf4
+		:00_Current "Email options"
+	}
+	ErrorLaunchingClientProcess "Error launching client process: {0}"
+	{
+		// 496cfda1
+		// 0 text - Command line
+		:00_Current "Error launching client process: {0}"
+	}
+	ErrorLaunchingServerProcess "Error launching server process: {0}"
+	{
+		// ecc867b9
+		// 0 text - Command line
+		:00_Current "Error launching server process: {0}"
+	}
+	FailedToAddServerService "Failed to add server service. The errors reported were: {0}"
+	{
+		// c04b4499
+		// 0 text - Error message
+		:00_Current "Failed to add server service. The errors reported were: {0}"
+	}
+	FailedToCreateServerConfig "Failed to create server configuration. The errors reported were: {0}"
+	{
+		// 148bbea9
+		// 0 text - Error message
+		:00_Current "Failed to create server configuration. The errors reported were: {0}"
+	}
+	FailedToInstallServerFiles "Failed to install server files. The errors reported were: {0}"
+	{
+		// 7fdb6509
+		// 0 text - Error message
+		:00_Current "Failed to install server files. The errors reported were: {0}"
+	}
+	FailedToLaunchClient "Failed to launch the client application. The errors reported were: {0}\r\n"\
+	                     "Do you want to try again?"
+	{
+		// 4060e542
+		// 0 text - Error message
+		:00_Current "Failed to launch the client application. The errors reported were: {0}\r\n"\
+		            "Do you want to try again?"
+	}
+
+	FailedToStartServerService "Failed to start server service. The errors reported were: {0}"
+	{
+		// b529c67e
+		// 0 text - Error message
+		:00_Current "Failed to start server service. The errors reported were: {0}"
+	}
+	FailedToStopServerService "Failed to stop server service. The errors reported were: {0}"
+	{
+		// e2614a96
+		// 0 text - Error message
+		:00_Current "Failed to stop server service. The errors reported were: {0}"
+	}
+	HansoftServerSetup "Hansoft Server setup"
+	{
+		// 1902639b
+		:00_Current "Hansoft Server setup"
+	}
+	HansoftTrial "Hansoft Trial"
+	{
+		// a98ac94f
+		:00_Current "Hansoft Trial"
+	}
+	InstallClientIntoApplications "Copy Hansoft client to Applications"
+	{
+		// 13155f17
+		:00_Current "Copy Hansoft client to Applications"
+	}
+	Name "Name"
+	{
+		// 459ca4e1
+		:00_Current "Name"
+	}
+	NotificationsEmail "Notifications email"
+	{
+		// e643ace2
+		:00_Current "Notifications email"
+	}
+	Password "Admin password"
+	{
+		// 42f94a53
+		:00_Current "Admin password"
+	}
+	PasswordConfirm "Confirm password"
+	{
+		// e224d721
+		:00_Current "Confirm password"
+	}
+	PleaseWaitWhileTheServerIsInstalled "Please wait while the server is installed."
+	{
+		// ced1d17c
+		:00_Current "Please wait while the server is installed."
+	}
+	RunServiceAsUser "Run service as user"
+	{
+		// 808ab539
+		:00_Current "Run service as user"
+	}
+	ServerConfiguration "Server configuration"
+	{
+		// 27a2184f
+		:00_Current "Server configuration"
+	}
+	ServerInstallDirectory "Install directory"
+	{
+		// 8d8c5223
+		:00_Current "Install directory"
+	}
+	ServerInstallLocation "Server install location"
+	{
+		// 37c33827
+		:00_Current "Server install location"
+	}
+	ServerInstallLocationInTrial "Advanced options - server install location"
+	{
+		// dd1ec79a
+		:00_Current "Advanced options - server install location"
+	}
+	ServerPort "Port"
+	{
+		// 955a8b1c
+		:00_Current "Port"
+	}
+	ServerSetup "Server setup"
+	{
+		// 40dcc568
+		:00_Current "Server setup"
+	}
+	ServiceName "Service name"
+	{
+		// 53012172
+		:00_Current "Service name"
+	}
+	TheDatabaseAdminPasswordsMustMatch "The database admin password does not match"
+	{
+		// f0c6097b
+		:00_Current "The database admin password does not match"
+	}
+	TheServerAdminPasswordsMustMatch "The server admin password does not match"
+	{
+		// 8340a4fd
+		:00_Current "The server admin password does not match"
+	}
+	WelcomeToHansoftTrialSetup "Welcome to the Hansoft Trial setup. Within the trial you also install a Hansoft Server and we want to give a few options before starting."
+	{
+		// 6a83e18f
+		:00_Current "Welcome to the Hansoft Trial setup. Within the trial you also install a Hansoft Server and we want to give a few options before starting."
+	}
+	WelcomeToServerSetup "Welcome to the Hansoft Server setup. In just a few moments Hansoft users will be able to connect to this Hansoft Server."
+	{
+		// 001ef3f7
+		:00_Current "Welcome to the Hansoft Server setup. In just a few moments Hansoft users will be able to connect to this Hansoft Server."
+	}
+	XError "{0}"
+	{
+		// 34b54d42
+		// 0 text - Error message
+		:00_Current "{0}"
+	}
+	XXError "{0}\r\n"\
+	        "{1}"
+	{
+		// f482b79a
+		// 0 text - Error message
+		// 1 text - Error message
+		:00_Current "{0}\r\n"\
+		            "{1}"
+	}
+	YouMustSpecifyADatabaseName "You must specify a database name"
+	{
+		// 5680f270
+		:00_Current "You must specify a database name"
+	}
+	YouMustSpecifyALocationToInstallTheServer "You must specify a location to install the server"
+	{
+		// 86788225
+		:00_Current "You must specify a location to install the server"
+	}
+	YouMustSpecifyAServerName "You must specify a server name"
+	{
+		// 5f0e26f2
+		:00_Current "You must specify a server name"
+	}
+	YouMustSpecifyAServerPort "You must specify a server port"
+	{
+		// 5f0f7bf6
+		:00_Current "You must specify a server port"
+	}
+	YouMustSpecifyAServiceName "You must specify a service name"
+	{
+		// 53542d8c
+		:00_Current "You must specify a service name"
+	}
+	YouMustSpecifyAUserToRun "You must specify a user to run the service as"
+	{
+		// 12c0a4d1
+		:00_Current "You must specify a user to run the service as"
+	}
+	YouNeedToRunAsAdminToInstall "You need to run as an administrator to install the server to this location."
+	{
+		// e3cc9c48
+		:00_Current "You need to run as an administrator to install the server to this location."
+	}
+}
+namespace NResetAdminPassword
+{
+	Aborted "Aborted."
+	{
+		// 57ffc752
+		:00_Current "Aborted."
+	}
+	AreYouSureYouWantToExitWithoutResetting "Are you sure you want to exit without resetting the server admin password?"
+	{
+		// 62293942
+		:00_Current "Are you sure you want to exit without resetting the server admin password?"
+	}
+	ErrorLaunchingClient "Error launching client: "
+	{
+		// 07e0db93
+		:00_Current "Error launching client: "
+	}
+	PleaseEnterPassword "Please enter password: "
+	{
+		// 7b5b84bc
+		:00_Current "Please enter password: "
+	}
+	PleaseReenterPassword "Please re-enter password: "
+	{
+		// 63e417f3
+		:00_Current "Please re-enter password: "
+	}
+	ResetAdminPassword "Reset Server Admin Password"
+	{
+		// ad562090
+		:00_Current "Reset Server Admin Password"
+	}
+	ThePasswordsDoNotMatch "The passwords do not match."
+	{
+		// 6e2ef009
+		:00_Current "The passwords do not match."
+	}
+}
+namespace NInstallConsole
+{
+	Aborted "Aborted."
+	{
+		// af77195d
+		:00_Current "Aborted."
+	}
+	CouldNotSetUserAndGroup "Could not set user and group on directory {0}. Try to run the install as an admin user"
+	{
+		// 2b6b4ecf
+		// 0 text - Program directory
+		:00_Current "Could not set user and group on directory {0}. Try to run the install as an admin user"
+	}
+	DatabaseAdminPasswordsDoNotMatch "The database admin passwords do not match."
+	{
+		// 2178d091
+		:00_Current "The database admin passwords do not match."
+	}
+	InvalidName "The entered name is invalid. Names can only begin with lower case letters or an underscore, followed by lower case letters, digits, underscores or dashes. They can end with a dollar sign."
+	{
+		// da0a18a4
+		:00_Current "The entered name is invalid. Names can only begin with lower case letters or an underscore, followed by lower case letters, digits, underscores or dashes. They can end with a dollar sign."
+	}
+	PleaseEnterDatabaseAdminPassword "Please enter database admin password: "
+	{
+		// 3e4402e5
+		:00_Current "Please enter database admin password: "
+	}
+	PleaseEnterDatabaseName "Please enter database name [[{0}]: "
+	{
+		// 855fb20a
+		// 0 text - Default database name
+		:00_Current "Please enter database name [[{0}]: "
+	}
+	PleaseEnterRunAsGroup "Please enter group to run service [[{0}]: "
+	{
+		// b0bce4ea
+		// 0 text - Default user group
+		:00_Current "Please enter group to run service [[{0}]: "
+	}
+	PleaseEnterRunAsUser "Please enter user to run service [[{0}]: "
+	{
+		// ee1ced7c
+		// 0 text - Default user name
+		:00_Current "Please enter user to run service [[{0}]: "
+	}
+	PleaseEnterServerAdminPassword "Please enter server admin password: "
+	{
+		// 95946b27
+		:00_Current "Please enter server admin password: "
+	}
+	PleaseEnterServerHostname "Please enter server hostname [[{0}]: "
+	{
+		// 13ca136a
+		// 0 text - Default server hostname
+		:00_Current "Please enter server hostname [[{0}]: "
+	}
+	PleaseEnterServerName "Please enter server name [[{0}]: "
+	{
+		// f024380c
+		// 0 text - Default server name
+		:00_Current "Please enter server name [[{0}]: "
+	}
+	PleaseEnterServerPort "Please enter server port [[{0}]: "
+	{
+		// f0258d10
+		// 0 text - Default server port
+		:00_Current "Please enter server port [[{0}]: "
+	}
+	PleaseEnterServiceName "Please enter service name [[{0}]: "
+	{
+		// 072c61e6
+		// 0 text - Default service name
+		:00_Current "Please enter service name [[{0}]: "
+	}
+	PleaseReenterDatabaseAdminPassword "Please re-enter database admin password: "
+	{
+		// 02129e3c
+		:00_Current "Please re-enter database admin password: "
+	}
+	PleaseReenterServerAdminPassword "Please re-enter server admin password: "
+	{
+		// 958644be
+		:00_Current "Please re-enter server admin password: "
+	}
+	RootRequired "Warning: Installing system-wide service requires root priviledges."
+	{
+		// d0ab48a1
+		:00_Current "Warning: Installing system-wide service requires root priviledges."
+	}
+	ServerAdminPasswordsDoNotMatch "The server admin passwords do not match."
+	{
+		// c8a0e993
+		:00_Current "The server admin passwords do not match."
+	}
+}
+namespace NUpgradeConsole
+{
+	Aborted "Aborted."
+	{
+		// d1d67bae
+		:00_Current "Aborted."
+	}
+	CouldNotSetPermissions "Could not set permissions on directory {0}. Try to run as an admin user"
+	{
+		// 5f56081d
+		// 0 text - Program directory
+		:00_Current "Could not set permissions on directory {0}. Try to run as an admin user"
+	}
+}
+namespace NServerConfigHelperTool
+{
+	AreYouSureYouWantToRestart "Are you sure you want to restart the server?"
+	{
+		// 428bcab0
+		:00_Current "Are you sure you want to restart the server?"
+	}
+	AreYouSureYouWantToUninstall "Are you sure you want to uninstall the server?"
+	{
+		// b1f041a5
+		:00_Current "Are you sure you want to uninstall the server?"
+	}
+	Cancel "Cancel"
+	{
+		// db6411e3
+		:00_Current "Cancel"
+	}
+	Error "Error"
+	{
+		// e009d4a7
+		:00_Current "Error"
+	}
+	ErrorLaunching "Error launching {0}"
+	{
+		// ad4fbe00
+		// 0 text - Executable + Command line arguments
+		:00_Current "Error launching {0}"
+	}
+	ErrorReadingServiceMode "Error reading service mode file: {0}"
+	{
+		// 847d08b7
+		// 0 text - The error reported
+		:00_Current "Error reading service mode file: {0}"
+	}
+	ErrorReadingServiceName "Error reading service name file: {0}"
+	{
+		// 847d5ab3
+		// 0 text - The error reported
+		:00_Current "Error reading service name file: {0}"
+	}
+	FailedToDelete "Failed to delete {0}: {1}"
+	{
+		// e2b59338
+		// 0 text - The filename
+		// 1 text - The error reported
+		:00_Current "Failed to delete {0}: {1}"
+	}
+	FailedToLocateServiceName "Unable to locate server service name to associate with"
+	{
+		// 9dad1def
+		:00_Current "Unable to locate server service name to associate with"
+	}
+	FailedToQuit "Failed to quit"
+	{
+		// b17c64c8
+		:00_Current "Failed to quit"
+	}
+	FailedToRestart "Failed to restart"
+	{
+		// 6f9de34a
+		:00_Current "Failed to restart"
+	}
+	FailedToUninstall "Failed to uninstall server"
+	{
+		// 6beae8bf
+		:00_Current "Failed to uninstall server"
+	}
+	HansoftServerConfigTool "Hansoft Server Config Tool"
+	{
+		// 793f621b
+		:00_Current "Hansoft Server Config Tool"
+	}
+	HansoftServerConfigToolX "Hansoft Server Config Tool ({0})"
+	{
+		// a12ba5d3
+		// 0 text - Service name of server this config tool belongs to
+		:00_Current "Hansoft Server Config Tool ({0})"
+	}
+	Hide "Hide"
+	{
+		// 35571e97
+		:00_Current "Hide"
+	}
+	No "No"
+	{
+		// 1226669a
+		:00_Current "No"
+	}
+	OK "OK"
+	{
+		// 12266697
+		:00_Current "OK"
+	}
+	RestartServer "Restart server"
+	{
+		// 2c460479
+		:00_Current "Restart server"
+	}
+	ServerToolServiceError "Error adding Server Config Tool service"
+	{
+		// 94e5146d
+		:00_Current "Error adding Server Config Tool service"
+	}
+	UninstallServer "Uninstall server"
+	{
+		// bcad6bae
+		:00_Current "Uninstall server"
+	}
+	Yes "Yes"
+	{
+		// 56f367ce
+		:00_Current "Yes"
+	}
+}

@@ -1,0 +1,1322 @@
+﻿CloseFind "Close find"
+{
+	// 82e1d674
+	:00_Current "Close find"
+}
+Find NLocalize/NShared/Find
+{
+	// 8b897b3e
+	:00_Current "Find"
+}
+NameProjectHistorySave "Name the project history save (optional)"
+{
+	// abb78c76
+	:00_Current "Name the project history save (optional)"
+}
+ReportsCannotBeCreatedOrAccessedInThisView "Reports cannot be created or accessed in this view"
+{
+	// c0da3e14
+	:00_Current "Reports cannot be created or accessed in this view"
+}
+TheProjectScheduleHasBeenSavedInTheHistory "The project schedule has been saved in the history archive"
+{
+	// c897cfb5
+	:00_Current "The project schedule has been saved in the history archive"
+}
+TheXHasBeenSavedInTheHistoryArchive "The {0} has been saved in the history archive"
+{
+	// 4a21d3eb
+	// 0 text - Default name of backlog type or custom name
+	:00_Current "The {0} has been saved in the history archive"
+}
+ThisHasToBeEnabledSpecificallyForYouUnder "This has to be enabled specifically for you under Administration / Projects by your project manager or administrator."
+{
+	// 78009c80
+	:00_Current "This has to be enabled specifically for you under Administration / Projects by your project manager or administrator."
+}
+ThisHasToBeEnabledSpecificallyForYouUnder2 "This has to be enabled specifically for you under Administration / Projects."
+{
+	// 78142cb2
+	:00_Current "This has to be enabled specifically for you under Administration / Projects."
+}
+YouDoCurrentlyNotHaveThePermissionToSaveThe "You do currently not have the permission to save the project in the history archive"
+{
+	// d869a527
+	:00_Current "You do currently not have the permission to save the project in the history archive"
+}
+YouDoCurrentlyNotHaveThePermissionToSetProject "You do currently not have the permission to set project history auto-save options.\n"\
+                                               "\n"\
+                                               "This has to be enabled specifically for you under Administration / Projects by your project manager or administrator."
+{
+	// b5bded5a
+	:00_Current "You do currently not have the permission to set project history auto-save options.\n"\
+	            "\n"\
+	            "This has to be enabled specifically for you under Administration / Projects by your project manager or administrator."
+}
+YouDoCurrentlyNotHaveThePermissionToView "You do currently not have the permission to view project history."
+{
+	// 6589c4d2
+	:00_Current "You do currently not have the permission to view project history."
+}
+namespace NConfiguration
+// Labels, messages and tooltips for main toolbar, menus and right click menus
+{
+	ActivityName NLocalize/NShared/ActivityName
+	{
+		// ad07bee0
+		:00_Current "Activity name"
+	}
+	BreakDownIntoXs "Break down"
+	{
+		// b2238454
+		:00_Current "Break down"
+	}
+	Budgeted NLocalize/NShared/Budgeted
+	{
+		// 3f224076
+		:00_Current "Budgeted"
+	}
+	BudgetedWork NLocalize/NShared/BudgetedWork
+	{
+		// 8ecb27b9
+		:00_Current "Budgeted work"
+	}
+	BugStatus NLocalize/NShared/BugStatus
+	{
+		// dcb71fb4
+		:00_Current "Status"
+	}
+	CreateAndShareReports "Create and share Reports..."
+	{
+		// 326ea43b
+		:00_Current "Create and share Reports..."
+	}
+	CreatesANewAgileXBelowThisX "Creates a new item below this item"
+	{
+		// c7959a07
+		:00_Current "Creates a new item below this item"
+	}
+	Delete NLocalize/NShared/Delete
+	{
+		// c67d3165
+		:00_Current "Delete"
+	}
+	DeletesSelectedDel "Deletes selected (Del)"
+	{
+		// f30aa9d6
+		:00_Current "Deletes selected (Del)"
+	}
+	Description NLocalize/NShared/Description
+	{
+		// 636c9096
+		:00_Current "Description"
+	}
+	Duration NLocalize/NShared/Duration
+	{
+		// 37e99c38
+		:00_Current "Duration"
+	}
+	Earned NLocalize/NShared/Earned
+	{
+		// c88d66a1
+		:00_Current "Earned"
+	}
+	EarnedValue NLocalize/NShared/EarnedValue
+	{
+		// 94b6fa3e
+		:00_Current "Earned value"
+	}
+	Find NLocalize/NShared/Find
+	{
+		// d4765913
+		:00_Current "Find"
+	}
+	FindActivitiesCtrlF "Find activities"
+	{
+		// d61b93c3
+		:00_Current "Find activities"
+	}
+	FindActivitiesInTheGanttViewCtrlF "Find activities in the gantt view"
+	{
+		// 8bf8f094
+		:00_Current "Find activities in the gantt view"
+	}
+	FindItemsCtrlF "Find items"
+	{
+		// 7e05b7d0
+		:00_Current "Find items"
+	}
+	FindResourcesCtrlF "Find users"
+	{
+		// ffaf2869
+		:00_Current "Find users"
+	}
+	Finish NLocalize/NShared/Finish
+	{
+		// cb710e53
+		:00_Current "Finish"
+	}
+	GoToInProjectView "Go to in project view"
+	{
+		// 383a5634
+		:00_Current "Go to in project view"
+	}
+	ID NLocalize/NShared/ID
+	{
+		// a9afb67f
+		:00_Current "ID"
+	}
+	Insert "   Insert:"
+	{
+		// d2cdaf87
+		:00_Current "   Insert:"
+	}
+	InsertTask NLocalize/NShared/ScheduledTask
+	{
+		// d9c7d6ba
+		:00_Current "Scheduled task"
+	}
+	InsertX "{0,cc}"
+	{
+		// 2c83a0bf
+		// 0 text - Default name of release type, backlog item type or custom name
+		:00_Current "{0,cc}"
+	}
+	InsertsANewTaskCtrlN "Inserts a new task"
+	{
+		// a2a385db
+		:00_Current "Inserts a new task"
+	}
+	InsertsANewXCtrlU "Inserts a new {0}"
+	{
+		// c3a66bc7
+		// 0 text - Default name of backlog item type or custom name
+		:00_Current "Inserts a new {0}"
+	}
+	InsertsAX "Inserts a {0}"
+	{
+		// 5bef4813
+		// 0 text - Default name of sprint type or custom name
+		:00_Current "Inserts a {0}"
+	}
+	InsertsAXCtrlM "Inserts a {0}"
+	{
+		// 4e0c44d5
+		// 0 text - Default name of release/milestone type or custom name
+		:00_Current "Inserts a {0}"
+	}
+	InsertsAXIntoXCtrlN "Inserts a {0} into {1}"
+	{
+		// c09f6a88
+		// 0 text - Default name of backlog item type or custom name
+		// 1 text - Default name of sprint type or custom name
+		:00_Current "Inserts a {0} into {1}"
+	}
+	ItemName NLocalize/NShared/ItemName
+	{
+		// 6aa9a502
+		:00_Current "Item name"
+	}
+	More NLocalize/NShared/More2
+	{
+		// d47a49c5
+		:00_Current "More.."
+	}
+	MoreActions "More actions"
+	{
+		// d67db276
+		:00_Current "More actions"
+	}
+	MyPersonalWallMode "My personal board mode"
+	{
+		// fac438d1
+		:00_Current "My personal board mode"
+	}
+	Predecessor NLocalize/NShared/Predecessor
+	{
+		// 6e469c31
+		:00_Current "Predecessor"
+	}
+	Print "Print"
+	{
+		// 63fb4c5f
+		:00_Current "Print"
+	}
+	PrintThisViewCtrlP "Print this view"
+	{
+		// c5bae077
+		:00_Current "Print this view"
+	}
+	Redo NLocalize/NShared/Redo
+	{
+		// d47cdb5c
+		:00_Current "Redo"
+	}
+	Remove NLocalize/NShared/Remove
+	{
+		// e7262160
+		:00_Current "Remove"
+	}
+	RemoveFromXItemsWillBeReturnedToTheX "Remove from {0,cc} and return to {1,cc}"
+	{
+		// e869f8b2
+		// 0 text - Default name of sprint type or custom name
+		// 1 text - Default name of backlog type or custom name
+		:00_Current "Remove from {0,cc} and return to {1,cc}"
+	}
+	ReportNewBug NLocalize/NShared/ReportNewBug
+	{
+		// e66c0dd6
+		:00_Current "Report new bug"
+	}
+	ReportTimeOn NLocalize/NShared/ReportTimeOn
+	{
+		// f4ae77da
+		:00_Current "Report time on"
+	}
+	ReportTimeOnSelectedTask "Report time on selected task"
+	{
+		// 85c2d756
+		:00_Current "Report time on selected task"
+	}
+	ReportXIsSharedToYouByX "Report '{0}' is shared to you by {1}"
+	{
+		// a74a7c2c
+		// 0 text - Report name
+		// 1 text - User name
+		:00_Current "Report '{0}' is shared to you by {1}"
+	}
+	Reports "   Reports:"
+	{
+		// cc208841
+		:00_Current "   Reports:"
+	}
+	ReportsANewBugCtrlN "Reports a new bug"
+	{
+		// 7af3a28d
+		:00_Current "Reports a new bug"
+	}
+	ResourceName NLocalize/NShared/ResourceName
+	{
+		// 4e4322db
+		:00_Current "User name"
+	}
+	Resources "Assigned to"
+	{
+		// 3d874ced
+		:00_Current "Assigned to"
+	}
+	Return "Return"
+	{
+		// e72a1112
+		:00_Current "Return"
+	}
+	Show "Show"
+	{
+		// d47d75f3
+		:00_Current "Show"
+	}
+	ShowXX NLocalize/NShared/ShowXX
+	{
+		// e9b2ca63
+		// 0 text - Default name of sprint type or custom name
+		// 1 text - Default name of burndown chart type or custom name
+		:00_Current "Show {0} {1}"
+	}
+	ShowsXInProjectView "Shows {0} in project view"
+	{
+		// 3266e347
+		// 0 text - Default name of burndown chart type or custom name
+		:00_Current "Shows {0} in project view"
+	}
+	Start NLocalize/NShared/Start
+	{
+		// 64328d20
+		:00_Current "Start"
+	}
+	Status "Status"
+	{
+		// ea843a36
+		:00_Current "Status"
+	}
+	Successor NLocalize/NShared/Successor
+	{
+		// 895ea20c
+		:00_Current "Successor"
+	}
+	TaskInternalSDK "Task internal SDK"
+	{
+		// a51a43e4
+		:00_Current "Task internal SDK"
+	}
+	TaskRefInternalSDK "Task ref internal SDK"
+	{
+		// 5e4cdfe1
+		:00_Current "Task ref internal SDK"
+	}
+	ThereIsNothingToRedo NLocalize/NShared/ThereIsNothingToRedo
+	{
+		// 5193efea
+		:00_Current "There is nothing to redo"
+	}
+	ThereIsNothingToUndo NLocalize/NShared/ThereIsNothingToUndo
+	{
+		// 5195bb56
+		:00_Current "There is nothing to undo"
+	}
+	Timesheet "Timesheet"
+	{
+		// f22cdb5a
+		:00_Current "Timesheet"
+	}
+	Undo NLocalize/NShared/Undo
+	{
+		// d47ea6c8
+		:00_Current "Undo"
+	}
+	Value NLocalize/NShared/Value
+	{
+		// 645e9a8f
+		:00_Current "value"
+	}
+	WallModeX "board mode: {0}"
+	{
+		// ae41961f
+		// 0 text - Name of wall mode
+		:00_Current "board mode: {0}"
+	}
+	Work NLocalize/NShared/Work
+	{
+		// d47fc595
+		:00_Current "work"
+	}
+	WorkRemaining NLocalize/NShared/WorkRemaining
+	{
+		// 05837b4f
+		:00_Current "Work remaining"
+	}
+	X "{0,cc}"
+	{
+		// 05245aea
+		// 0 text - Default name of backlog item type, sprint type, release type or custom name
+		:00_Current "{0,cc}"
+	}
+	ZoomIn "Zoom in"
+	{
+		// fa8565ee
+		:00_Current "Zoom in"
+	}
+	ZoomInTheGanttViewCtrlMouseWheelUp "Zoom in the gantt view (ctrl + mouse wheel up)"
+	{
+		// 0afb84e0
+		:00_Current "Zoom in the gantt view (ctrl + mouse wheel up)"
+	}
+	ZoomInTheTimeViewCtrlMouseWheelUp "Zoom in the time view (ctrl + mouse wheel up)"
+	{
+		// 0f81ba91
+		:00_Current "Zoom in the time view (ctrl + mouse wheel up)"
+	}
+	ZoomOut "Zoom out"
+	{
+		// 4b323e8f
+		:00_Current "Zoom out"
+	}
+	ZoomOutTheGanttViewCtrlMouseWheelDown "Zoom out the gantt view (ctrl + mouse wheel down)"
+	{
+		// 74a47654
+		:00_Current "Zoom out the gantt view (ctrl + mouse wheel down)"
+	}
+	ZoomOutTheTimeViewCtrlMouseWheelDown "Zoom out the time view (ctrl + mouse wheel down)"
+	{
+		// d5bfd425
+		:00_Current "Zoom out the time view (ctrl + mouse wheel down)"
+	}
+}
+namespace NCut
+// Message shown when someone with delegated right to a subproject tries to cut that subproject
+{
+	OnlyAMainProjectManagerCanCutADelegatedSub "Only a main manager can cut a delegated sub project."
+	{
+		// c8755948
+		:00_Current "Only a main manager can cut a delegated sub project."
+	}
+	YouCannotCutASubProjectThatHasBeenDelegatedTo "You cannot cut a sub project that has been delegated to you."
+	{
+		// 72234bbd
+		:00_Current "You cannot cut a sub project that has been delegated to you."
+	}
+}
+namespace NDeleteItems
+// Delete activity messages
+{
+	AreYouSureYouWantToDeleteTheSelectedActivity "Are you sure you want to delete the selected activity?"
+	{
+		// e6df3ea7
+		:00_Current "Are you sure you want to delete the selected activity?"
+	}
+	AreYouSureYouWantToDeleteTheXSelected "Are you sure you want to delete the {0} selected [$0!=1,'activities',activity']?"
+	{
+		// c9b4f6b2
+		// 0 integer - Number of selected activities
+		:00_Current "Are you sure you want to delete the {0} selected [$0!=1,'activities',activity']?"
+	}
+	AreYouSureYouWantToRemoveTheSelectedItemsThe "Are you sure you want to remove the selected items?\n"\
+	                                             "\n"\
+	                                             "The items will be returned to the {0}."
+	{
+		// 9133f718
+		// 0 text - Default name of backlog type or custom name
+		:00_Current "Are you sure you want to remove the selected items?\n"\
+		            "\n"\
+		            "The items will be returned to the {0}."
+	}
+	GoToItemsInAHeirarchyToDeleteKanbanItems "Go to the schedule, or the {0}, to delete Kanban items."
+	{
+		// 8f68e344
+		// 0 text - Product backlog
+		:00_Current "Go to the schedule, or the {0}, to delete Kanban items."
+	}
+	YouCanDeleteASubProjectItemThatHasBeen "You can't delete a sub project/item that has been delegated to you. Only a main manager can do that."
+	{
+		// e0b0cf69
+		:00_Current "You can't delete a sub project/item that has been delegated to you. Only a main manager can do that."
+	}
+	YouCannotDeleteASingleBacklogItemInTheKanbanView "You cannot delete a single {0} or task in the Kanban board view."
+	{
+		// 05004185
+		// 0 text - Sprint backlog item
+		:00_Current "You cannot delete a single {0} or task in the Kanban board view."
+	}
+}
+namespace NImportExport
+// Import and export messages
+// More..>Export and import
+{
+	HansoftWasUnableToImportTheXMLFileThisCanBeOf "Hansoft was unable to import the XML file, this can be of several reasons:\n"\
+	                                              "\n"\
+	                                              "* You did try to import Microsoft Project XML as Hansoft XML. Click on 'More import/export options' and select 'Import Microsoft Project XML'.\n"\
+	                                              "\n"\
+	                                              "* The file was not compatible with the Hansoft XML format.\n"\
+	                                              "   You cannot create a XML file from scratch in for example Microsoft Excel and import to Hansoft.\n"\
+	                                              "\n"\
+	                                              "* The file did not contain any activies or other relevant data to Hansoft.\n"\
+	                                              "\n"\
+	                                              "* The file did contain illegal XML characters."
+	{
+		// e00167c2
+		:00_Current "Hansoft was unable to import the XML file, this can be of several reasons:\n"\
+		            "\n"\
+		            "* You did try to import Microsoft Project XML as Hansoft XML. Click on 'More import/export options' and select 'Import Microsoft Project XML'.\n"\
+		            "\n"\
+		            "* The file was not compatible with the Hansoft XML format.\n"\
+		            "   You cannot create a XML file from scratch in for example Microsoft Excel and import to Hansoft.\n"\
+		            "\n"\
+		            "* The file did not contain any activies or other relevant data to Hansoft.\n"\
+		            "\n"\
+		            "* The file did contain illegal XML characters."
+	}
+	HansoftXMLFilesX "Hansoft XML files {0}"
+	{
+		// 6dd99e86
+		// 0 text - .xml file extension
+		:00_Current "Hansoft XML files {0}"
+	}
+	MicrosoftProjectXMLFilesX "Microsoft Project XML files {0}"
+	{
+		// 8b0a8500
+		// 0 text - .xml file extension
+		:00_Current "Microsoft Project XML files {0}"
+	}
+	SpreadsheetX NLocalize/NShared/SpreadsheetX
+	{
+		// 712f6727
+		// 0 text - .xlsx file extension
+		:00_Current "Spreadsheet {0}"
+	}
+	TestTrackProXMLFilesX "TestTrack Pro XML files {0}"
+	{
+		// a071bd99
+		// 0 text - .xml file extension
+		:00_Current "TestTrack Pro XML files {0}"
+	}
+	TextFilesX "Text files {0}"
+	{
+		// ee7337a7
+		// 0 text - .txt file extension
+		:00_Current "Text files {0}"
+	}
+	XMLFilesX NLocalize/NShared/XMLFilesX
+	{
+		// f022fcf3
+		// 0 text - .xml file extension
+		:00_Current "XML files {0}"
+	}
+	YouCannotCreateDeleteIndentOrInOtherWaysChange NLocalize/NShared/YouCannotCreateDeleteIndentOrInOtherWaysChange
+	{
+		// f0a465c4
+		:00_Current "You cannot create, delete, indent or in other ways change the disposition in report mode"
+	}
+	YouCannotImportXMLDataInWallOrSortedViewPlease "You cannot import XML data into the board or sorted view. Please go to the hierarchy view."
+	{
+		// ad563dcb
+		:00_Current "You cannot import XML data into the board or sorted view. Please go to the hierarchy view."
+	}
+	YouDoNotHaveThePermissionToImportXMLHere "You do not have the permission to import XML here because of settings in the bug workflow"
+	{
+		// 7c8a6399
+		:00_Current "You do not have the permission to import XML here because of settings in the bug workflow"
+	}
+	YouDoNotHaveThePermissionToImportXMLToThis "You do not have the permission to import XML to this project!\n"\
+	                                           "\n"\
+	                                           "Either you have to be a main manager or have a sub project delegated to you."
+	{
+		// e55431d0
+		:00_Current "You do not have the permission to import XML to this project!\n"\
+		            "\n"\
+		            "Either you have to be a main manager or have a sub project delegated to you."
+	}
+	YouDoNotHaveThePermissionToImportXMLToThis2 "You do not have the permission to import XML to this project"
+	{
+		// 8fda6c02
+		:00_Current "You do not have the permission to import XML to this project"
+	}
+}
+namespace NInsert
+// Insert operation messages
+{
+	EitherYouHaveToBeAMainProjectManagerOrHaveASub NLocalize/NShared/EitherYouHaveToBeAMainProjectManagerOrHaveASub
+	{
+		// ec6e9463
+		:00_Current "Either you have to be a main manager or have a sub project/item delegated to you."
+	}
+	GoToItemsInAHeirarchyToCreateKanbanItems "Go to the schedule or the {0} to create Kanban items."
+	{
+		// eff55965
+		// 0 text - Product backlog
+		:00_Current "Go to the schedule or the {0} to create Kanban items."
+	}
+	PleaseReviewAndEditThePipelineAndEnable "Please review and edit the pipeline and enable functionality for breaking down pipeline tasks."
+	{
+		// d03c1a05
+		:00_Current "Please review and edit the pipeline and enable functionality for breaking down pipeline tasks."
+	}
+	SelectWhichUsersToInsert "Select which individuals to show allocation on"
+	{
+		// 9a66494c
+		:00_Current "Select which individuals to show allocation on"
+	}
+	ShowIndividualAllocationOn "Show individual allocation on"
+	{
+		// 0bd2253c
+		:00_Current "Show individual allocation on"
+	}
+	YouAreNotAllowedToInsertDeleteOrEditItemsIn "You are not allowed to insert, delete or edit items in this {0}"
+	{
+		// d1b8d028
+		// 0 text - Default name of sprint type or custom name
+		:00_Current "You are not allowed to insert, delete or edit items in this {0}"
+	}
+	YouAreNotAllowedToWorkOnTheVirtualWallInThisX NLocalize/NShared/YouAreNotAllowedToWorkOnTheVirtualWallInThisXYouX
+	{
+		// 6fd95f5f
+		// 0 text - Default name of sprint type or custom name
+		// 1 text - Default name of sprint type or custom name
+		:00_Current "You are not allowed to work on the virtual board in this {0}. You must be a member of the {1} or have delegated rights."
+	}
+	YouCanDoNotHaveAnyPermissionToCreateAnAgile "You can't/do not have any permission to create an agile item here"
+	{
+		// 7aa1361f
+		:00_Current "You can't/do not have any permission to create an agile item here"
+	}
+	YouCannotCreateDeleteIndentOrInOtherWaysChange NLocalize/NShared/YouCannotCreateDeleteIndentOrInOtherWaysChange
+	{
+		// a85b0bbc
+		:00_Current "You cannot create, delete, indent or in other ways change the disposition in report mode"
+	}
+	YouCannotInsertASingleItemOrTask "You cannot insert a single {0} or task in the Kanban board view."
+	{
+		// 8117dc8a
+		// 0 text - Sprint backlog item
+		:00_Current "You cannot insert a single {0} or task in the Kanban board view."
+	}
+	YouCannotInsertAnItemHereInThePipeline "You cannot insert an item here in the pipeline!"
+	{
+		// 658dfe94
+		:00_Current "You cannot insert an item here in the pipeline!"
+	}
+	YouCannotInsertNewItemsInItemsPrioritisedMode "You cannot insert new items into the priority view. Go to the schedule or the board if you want to insert new items."
+	{
+		// 81cb163c
+		:00_Current "You cannot insert new items into the priority view. Go to the schedule or the board if you want to insert new items."
+	}
+	YouDoNotHaveAnyPermissionToCreateAnAgileXHere "You do not have any permission to create an agile {0} here because you are not a member of this {1}"
+	{
+		// 4f9288e9
+		// 0 text - Default name of task type or custom name
+		// 1 text - Default name of sprint type or custom name
+		:00_Current "You do not have any permission to create an agile {0} here because you are not a member of this {1}"
+	}
+	YouDoNotHavePermissionToInsertAnItemBelowThe "You do not have permission to insert an item below the pipeline"
+	{
+		// 14d4340d
+		:00_Current "You do not have permission to insert an item below the pipeline"
+	}
+	YouDoNotHaveThePermissionToInsertThisTypeOf "You do not have the permission to insert this type of item here!"
+	{
+		// 7afa7f45
+		:00_Current "You do not have the permission to insert this type of item here!"
+	}
+	YouMustSelectAXBeforeYouInsertAX "You must select a {0} before you insert a {1}."
+	{
+		// 5dc8730c
+		// 0 text - Default name of sprint type or custom name
+		// 1 text - Default name of sprint backlog item type or custom name
+		:00_Current "You must select a {0} before you insert a {1}."
+	}
+}
+namespace NPaste
+// Paste operation messages
+{
+	EitherKeepPipelinesInTheProjectScheduleOr "Either keep pipelines in the project schedule or commit them from the {0}."
+	{
+		// 34acc8c3
+		// 0 text - Default name of backlog type or custom name
+		:00_Current "Either keep pipelines in the project schedule or commit them from the {0}."
+	}
+	EitherYouHaveToBeAMainProjectManagerOrHaveASub NLocalize/NShared/EitherYouHaveToBeAMainProjectManagerOrHaveASub
+	{
+		// 4eb401eb
+		:00_Current "Either you have to be a main manager or have a sub project/item delegated to you."
+	}
+	FailedToAttachScreenshotBitmapClipboardFormat "Failed to attach screenshot (bitmap clipboard format not compatible)"
+	{
+		// 7d684d68
+		:00_Current "Failed to attach screenshot (bitmap clipboard format not compatible)"
+	}
+	ItIsNotRecommendedThatYouMoveAnEntirePipeline "It is not recommended that you move an entire pipeline into the {0}."
+	{
+		// a21508d5
+		// 0 text - Default name of backlog type or custom name
+		:00_Current "It is not recommended that you move an entire pipeline into the {0}."
+	}
+	NoTasksWerePastedBecauseTheTextClipboardIs "No tasks were pasted because the text clipboard is empty"
+	{
+		// 52737498
+		:00_Current "No tasks were pasted because the text clipboard is empty"
+	}
+	OneScreenshotHaveBeenAttachedAsAPNGPortable "One screenshot have been attached as a PNG (Portable Network Graphics) file"
+	{
+		// b6389906
+		:00_Current "One screenshot have been attached as a PNG (Portable Network Graphics) file"
+	}
+	PleaseReviewAndEditThePipelineAndIfPossible "Please review and edit the pipeline and if possible enable functionality for breaking down pipeline tasks."
+	{
+		// 619614d6
+		:00_Current "Please review and edit the pipeline and if possible enable functionality for breaking down pipeline tasks."
+	}
+	Screenshot "Screenshot"
+	{
+		// b179d475
+		:00_Current "Screenshot"
+	}
+	XActivitiesWherePastedBasedOnTextClipbard "{0} [$0!=1,'activities',activity'] where pasted (based on text clipbard)"
+	{
+		// 2de4c402
+		// 0 integer - Number of pasted activites
+		:00_Current "{0} [$0!=1,'activities',activity'] where pasted (based on text clipbard)"
+	}
+	YouCanOnlyPasteAWholePipelineOfTypeXHere "You can only paste a whole pipeline of type '{0}' here!"
+	{
+		// 01ef4e8e
+		// 0 text - Pipeline name
+		:00_Current "You can only paste a whole pipeline of type '{0}' here!"
+	}
+	YouCanOnlyPasteItemsWithAWorkflowOfTypeXHere "You can only paste items with a workflow of type '{0}' here!"
+	{
+		// 9020a972
+		// 0 text - Workflow name
+		:00_Current "You can only paste items with a workflow of type '{0}' here!"
+	}
+	YouCannotCreateDeleteIndentOrInOtherWaysChange NLocalize/NShared/YouCannotCreateDeleteIndentOrInOtherWaysChange
+	{
+		// 0aa07944
+		:00_Current "You cannot create, delete, indent or in other ways change the disposition in report mode"
+	}
+	YouCannotPasteItemsHere "You cannot paste items here!"
+	{
+		// 09b4d75a
+		:00_Current "You cannot paste items here!"
+	}
+	YouCannotPasteItemsInItemsPrioritisedModeGoTo "You cannot paste items in priority view"
+	{
+		// 5e90aa9b
+		:00_Current "You cannot paste items in priority view"
+	}
+	YouCannotPasteItemsInProjectHistory "You cannot paste items in project history"
+	{
+		// aad5bf16
+		:00_Current "You cannot paste items in project history"
+	}
+	YouCannotPasteNewItems "You cannot paste new items in Kanban board mode"
+	{
+		// 425d5760
+		:00_Current "You cannot paste new items in Kanban board mode"
+	}
+	YouDoNotHaveAnyPermissionToReportNewBugsPlease NLocalize/NShared/YouDoNotHaveAnyPermissionToReportNewBugsPlease
+	{
+		// efb87541
+		:00_Current "You do not have any permission to report new bugs. Please check the bug workflow."
+	}
+	YouDoNotHaveThePermissionToPasteItemsOfThis "You do not have the permission to paste items of this type here!"
+	{
+		// 579dac55
+		:00_Current "You do not have the permission to paste items of this type here!"
+	}
+}
+namespace NProxies
+// Commit task from backlog messages
+{
+	CannotDoThisActionRightNowBecauseHansoftIs "Cannot do this action right now because Hansoft is waiting for data from the server. Please try again soon."
+	{
+		// 3b55dc89
+		:00_Current "Cannot do this action right now because Hansoft is waiting for data from the server. Please try again soon."
+	}
+	PleaseReviewAndEditThePipelines NLocalize/NShared/PleaseReviewAndEditThePipelinesKanbansAndWorkflows
+	{
+		// 26193c93
+		:00_Current "Please review and edit the pipelines, kanbans and workflows instead."
+	}
+	SomeOfTheItemYouHaveSelected "Some of the items you have selected are hidden and have already been committed to a {0} in the project view."
+	{
+		// 08247427
+		// 0 text - Default name of sprint type or custom name
+		:00_Current "Some of the items you have selected are hidden and have already been committed to a {0} in the project view."
+	}
+	SomeOfTheItemYouHaveSelected2 "Use the Show menu to show the already committed items and deselect them and try again."
+	{
+		// 0cb2f939
+		:00_Current "Use the Show menu to show the already committed items and deselect them and try again."
+	}
+	TheXYouHaveSelectedHasAlreadyBeenCommittedToAX "The {0} you have selected has already been committed to a {1} in the project view."
+	{
+		// 329386a1
+		// 0 text - Default name of backlog item type or custom name
+		// 1 text - Default name of sprint type or custom name
+		:00_Current "The {0} you have selected has already been committed to a {1} in the project view."
+	}
+	YouCanEitherBatchEditCommittedToXInTheActivity "You can either batch edit committed to {0} in the activity details window or drag from {1} to {2} in the project view."
+	{
+		// da4ad4c2
+		// 0 text - Default name of sprint type or custom name
+		// 1 text - Default name of sprint type or custom name
+		// 2 text - Default name of sprint type or custom name
+		:00_Current "You can either batch edit committed to {0} in the activity details window or drag from {1} to {2} in the project view."
+	}
+	YouCanOnlyCommitItemsWithPipelineTypeXToThis "You can only commit items with pipeline type '{0}' to this pipeline task"
+	{
+		// 6e7d2d67
+		// 0 text - Pipeline name
+		:00_Current "You can only commit items with pipeline type '{0}' to this pipeline task"
+	}
+	YouCanOnlyCommitItemsWithWorkflowTypeXToThis "You can only commit items with workflow type '{0}' to this pipeline task"
+	{
+		// e67d21ec
+		// 0 text - Workflow name
+		:00_Current "You can only commit items with workflow type '{0}' to this pipeline task"
+	}
+	YouCanOnlyCommitItemsWithoutSubItemsAndWith "You can only commit items without sub items and with workflow type '{0}' to this pipeline task"
+	{
+		// ecc95eaf
+		// 0 text - Workflow name
+		:00_Current "You can only commit items without sub items and with workflow type '{0}' to this pipeline task"
+	}
+	YouCanOnlyCommitItemsWithoutSubItemsAndWith2 "You can only commit items without sub items and with pipeline type '{0}' to this pipeline task"
+	{
+		// 85f534c1
+		// 0 text - Pipeline name
+		:00_Current "You can only commit items without sub items and with pipeline type '{0}' to this pipeline task"
+	}
+	YouCannotCommitAnItemInto "You cannot commit an item into the auto generated pipeline!"
+	{
+		// 64ecbb05
+		:00_Current "You cannot commit an item into the auto generated pipeline!"
+	}
+	YouCommitAnItemWhenAReportIsActiveInTheProject "You commit an item when a report is active in the project view"
+	{
+		// b815f19e
+		:00_Current "You commit an item when a report is active in the project view"
+	}
+}
+namespace NTaskRelated
+// Messages after task operations
+{
+	AddANewLinkToAnotherItem "Add a new link to another item"
+	{
+		// 8f0b21b3
+		:00_Current "Add a new link to another item"
+	}
+	AddResources NLocalize/NShared/AddResources
+	{
+		// e961f112
+		:00_Current "Add users"
+	}
+	AllocateTo "Allocate to"
+	{
+		// 80ddb1b6
+		:00_Current "Allocate to"
+	}
+	AllocateToSprintAllocateResorcesTo "Allocate to {0}"
+	{
+		// 20df2e04
+		// 0 text - Sprint
+		:00_Current "Allocate to {0}"
+	}
+	AllocateToSprintAllocatedTo NLocalize/NShared/AllocatedTo
+	{
+		// 9d7a2402
+		:00_Current "Allocated to"
+	}
+	AllocateToSprintRemoveAllocation "Remove allocation"
+	{
+		// 304f7d4a
+		:00_Current "Remove allocation"
+	}
+	AreYouSureYouHaveFilledInAllDataBefore "Are you sure you have filled in all data before reassigning the selected tasks?\n"\
+	                                       "\n"\
+	                                       "The selected tasks will be removed from your \n"\
+	                                       "To do list (the action cannot be undone)."
+	{
+		// d1fe1090
+		:00_Current "Are you sure you have filled in all data before reassigning the selected tasks?\n"\
+		            "\n"\
+		            "The selected tasks will be removed from your \n"\
+		            "To do list (the action cannot be undone)."
+	}
+	AreYouSureYouHaveFilledInAllDataBefore2 "Are you sure you have filled in all data before reassigning the selected bugs?\n"\
+	                                        "\n"\
+	                                        "The selected bugs will be removed from your \n"\
+	                                        "To do list (the action cannot be undone)."
+	{
+		// 11c022c2
+		:00_Current "Are you sure you have filled in all data before reassigning the selected bugs?\n"\
+		            "\n"\
+		            "The selected bugs will be removed from your \n"\
+		            "To do list (the action cannot be undone)."
+	}
+	AreYouSureYouWantToDisconnectTheSelected "Are you sure you want to disconnect the selected activities?"
+	{
+		// 5cecccb0
+		:00_Current "Are you sure you want to disconnect the selected activities?"
+	}
+	AtLeastOnItemMustBeSelectedBeforeViewing "At least on item must be selected before viewing selected only"
+	{
+		// 2f19a36d
+		:00_Current "At least on item must be selected before viewing selected only"
+	}
+	CannotTagBecauseAnItemCommittedToASprintWithA "Cannot tag because an item committed to a sprint with a different {0} tag exists"
+	{
+		// a31d64ca
+		// 0 text - Default name of milestone type or custom name
+		:00_Current "Cannot tag because an item committed to a sprint with a different {0} tag exists"
+	}
+	ChangePassword "Change password"
+	{
+		// 8e2acd47
+		:00_Current "Change password"
+	}
+	ChangingYourPassword "Changing your password..."
+	{
+		// 30c465cf
+		:00_Current "Changing your password..."
+	}
+	ConfirmNewPassword NLocalize/NShared/ConfirmNewPassword
+	{
+		// 2b8da819
+		:00_Current "Confirm new password"
+	}
+	D "d"
+	{
+		// 681e11d2
+		:00_Current "d"
+	}
+	Day "day"
+	{
+		// e7e9db4c
+		:00_Current "day"
+	}
+	DefineWorkingHours "Define working hours"
+	{
+		// 9c8fafcb
+		:00_Current "Define working hours"
+	}
+	DelegateToResourcesOrGroups "Delegate to"
+	{
+		// d81ac208
+		:00_Current "Delegate to"
+	}
+	DelegatedTo "Delegated to"
+	{
+		// 09b6f390
+		:00_Current "Delegated to"
+	}
+	FailedToChangePassword "Failed to change password"
+	{
+		// f9ba7b4f
+		:00_Current "Failed to change password"
+	}
+	Friday NLocalize/NShared/Friday
+	{
+		// c96089ed
+		:00_Current "Friday"
+	}
+	H "h"
+	{
+		// 681e11d6
+		:00_Current "h"
+	}
+	Hour "hour"
+	{
+		// e527b1cc
+		:00_Current "hour"
+	}
+	MarkWorkingDays "Mark working days"
+	{
+		// 3f10d3ab
+		:00_Current "Mark working days"
+	}
+	Monday NLocalize/NShared/Monday
+	{
+		// d9811ab6
+		:00_Current "Monday"
+	}
+	NewPassword NLocalize/NShared/NewPassword
+	{
+		// 3b5fd46b
+		:00_Current "New password"
+	}
+	OldPassword "Old password"
+	{
+		// 37ca1e80
+		:00_Current "Old password"
+	}
+	OnAtLeastOneOfTheItemsYourAreLinkingFromOrTo "On at least one of the items your are linking from or to you must have permission to edit"
+	{
+		// e48cc2de
+		:00_Current "On at least one of the items your are linking from or to you must have permission to edit"
+	}
+	OnlyAMainProjectManagerHasPermissionToDoThat "Only a main manager has permission to do that."
+	{
+		// fb738cb4
+		:00_Current "Only a main manager has permission to do that."
+	}
+	OnlyTasksUnderTheScheduledSubProjectsWasLinked "Only tasks under the scheduled sub projects was linked (you cannot link scheduled sub projects to [NHelpers::Pluralize(2,$0)] directly)"
+	{
+		// cecb435c
+		// 0 text - Default name of milestone type or custom name
+		:00_Current "Only tasks under the scheduled sub projects was linked (you cannot link scheduled sub projects to [NHelpers::Pluralize(2,$0)] directly)"
+	}
+	OverrideOptions "When combining with other out of office tasks"
+	{
+		// f526ef9a
+		:00_Current "When combining with other out of office tasks"
+	}
+	OverrideProjectCalendarWorkingDays "Override project calendar working days"
+	{
+		// f4627791
+		:00_Current "Override project calendar working days"
+	}
+	OverrideProjectCalendarWorkingHours "Override project calendar working hours"
+	{
+		// 81016851
+		:00_Current "Override project calendar working hours"
+	}
+	Overrides "Overrides"
+	{
+		// d0550281
+		:00_Current "Overrides"
+	}
+	PleaseEnterAHyperlink "Please enter a hyperlink"
+	{
+		// 07511c9d
+		:00_Current "Please enter a hyperlink"
+	}
+	PleaseWaitWhileScheduled "Please wait while scheduled tasks are moved back as far as possible"
+	{
+		// 6329c3a7
+		:00_Current "Please wait while scheduled tasks are moved back as far as possible"
+	}
+	PleaseWaitWhileScheduledTasksAreMoved "Please wait while scheduled tasks are moved"
+	{
+		// ca5ff660
+		:00_Current "Please wait while scheduled tasks are moved"
+	}
+	ReassigningBugsInMyWork "Reassigning bugs in To do list"
+	{
+		// ea4ff419
+		:00_Current "Reassigning bugs in To do list"
+	}
+	ReassigningTasksInMyWork "Reassigning tasks in To do list"
+	{
+		// 94dd782e
+		:00_Current "Reassigning tasks in To do list"
+	}
+	RemoveAllLinks "Remove all links"
+	{
+		// 89fc4096
+		:00_Current "Remove all links"
+	}
+	RemoveResources NLocalize/NShared/RemoveResources
+	{
+		// 7d526db7
+		:00_Current "Remove users"
+	}
+	RemoveThisLink "Remove this link"
+	{
+		// daa86022
+		:00_Current "Remove this link"
+	}
+	Saturday NLocalize/NShared/Saturday
+	{
+		// a149e55b
+		:00_Current "Saturday"
+	}
+	SelectDayOfWeekToDefineWorkingHoursFor "Select day of week to define working hours for"
+	{
+		// 4b989334
+		:00_Current "Select day of week to define working hours for"
+	}
+	SelectedItemsHasBeenReassignedToX "Selected items have been reassigned to:"
+	{
+		// 93747e4f
+		:00_Current "Selected items have been reassigned to:"
+	}
+	SetLeadLagTimeInDaysBetweenActivities "Set lead/lag time (in days) between activities:"
+	{
+		// a0d0b9fa
+		:00_Current "Set lead/lag time (in days) between activities:"
+	}
+	Sunday NLocalize/NShared/Sunday
+	{
+		// e7eca182
+		:00_Current "Sunday"
+	}
+	TheActiveReportDoesAllowUsingFindOrView "The active report does allow using Find or View selected only (check report settings)"
+	{
+		// 4ce9fe54
+		:00_Current "The active report does allow using Find or View selected only (check report settings)"
+	}
+	TheSelectedItemsWereSuccessfullyLinkedToEach "The selected items were successfully linked to each other"
+	{
+		// 1b5e271d
+		:00_Current "The selected items were successfully linked to each other"
+	}
+	Thursday NLocalize/NShared/Thursday
+	{
+		// aa82cf02
+		:00_Current "Thursday"
+	}
+	To "to"
+	{
+		// 6be04e91
+		:00_Current "to"
+	}
+	ToAllocateResources "To allocate users to [NHelpers::Pluralize($1,$0)] click here:"
+	{
+		// ad5dfc91
+		// 0 text - Sprint
+		// 1 integer - Number of selected sprints
+		:00_Current "To allocate users to [NHelpers::Pluralize($1,$0)] click here:"
+	}
+	ToDelegateToAResourceOrGroupClickHere "To delegate to a user or group click here:"
+	{
+		// 47555fd0
+		:00_Current "To delegate to a user or group click here:"
+	}
+	ToMakeThisItemVisibleToResourcesOrGroupsClick "To make this item visible to users or groups click here:"
+	{
+		// 4c1aeae9
+		:00_Current "To make this item visible to users or groups click here:"
+	}
+	ToRemoveAllocatedResources "To remove users from [NHelpers::Pluralize($1,$0)] click here:"
+	{
+		// e789a003
+		// 0 text - Sprint
+		// 1 integer - Number of selected sprints
+		:00_Current "To remove users from [NHelpers::Pluralize($1,$0)] click here:"
+	}
+	ToRemoveDelegationForAResourceOrGroupClickHere "To remove delegation for a user or group click here:"
+	{
+		// 6295a823
+		:00_Current "To remove delegation for a user or group click here:"
+	}
+	ToRemoveVisibillityClickHere "To remove visibillity click here:"
+	{
+		// afc8abdd
+		:00_Current "To remove visibillity click here:"
+	}
+	Tuesday NLocalize/NShared/Tuesday
+	{
+		// 31e075cd
+		:00_Current "Tuesday"
+	}
+	TypeYourOldPasswordAndNewPassword "Type your old password and new password. "
+	{
+		// ee292c01
+		:00_Current "Type your old password and new password. "
+	}
+	UseLongestWorkHours "Select the most working hours for each day"
+	{
+		// c5336f2b
+		:00_Current "Select the most working hours for each day"
+	}
+	UseShortestWorkingHours "Select the fewest working hours for each day"
+	{
+		// ac325549
+		:00_Current "Select the fewest working hours for each day"
+	}
+	UseUnionForFreeDays "Combine free days"
+	{
+		// 7c19d5fe
+		:00_Current "Combine free days"
+	}
+	UseUnionForWorkingDays "Combine working days"
+	{
+		// a6d6135d
+		:00_Current "Combine working days"
+	}
+	ViewSelectedOnlyIsNotPossibleInThisView "View selected only is not possible in this view"
+	{
+		// a1d8f60c
+		:00_Current "View selected only is not possible in this view"
+	}
+	VisibleTo "Visible to"
+	{
+		// 1ff54e1f
+		:00_Current "Visible to"
+	}
+	VisibleToResourcesOrGroups "Visible to"
+	{
+		// 8fc1a77b
+		:00_Current "Visible to"
+	}
+	Wednesday NLocalize/NShared/Wednesday
+	{
+		// 6ca4c512
+		:00_Current "Wednesday"
+	}
+	WorkFrom "work from"
+	{
+		// 828961c5
+		:00_Current "work from"
+	}
+	XCalendarSettings "{0} calendar settings"
+	{
+		// 42bce0b1
+		// 0 text - "Vacation" text
+		:00_Current "{0} calendar settings"
+	}
+	XMembersAreNowAllowedToInsertDeleteOrEditItems "{0,cc} members are now allowed to insert, delete or edit items"
+	{
+		// dbd03559
+		// 0 text - Default name of sprint type or custom name
+		:00_Current "{0,cc} members are now allowed to insert, delete or edit items"
+	}
+	XMembersWithoutDirectDelegatedRightsAreNowNOT "{0,cc} members (without direct delegated rights) are now NOT allowed to insert, delete or edit items"
+	{
+		// 8a8edd2d
+		// 0 text - Default name of sprint type or custom name
+		:00_Current "{0,cc} members (without direct delegated rights) are now NOT allowed to insert, delete or edit items"
+	}
+	XTaskFailedToMove "The {0} [NHelpers::Pluralize($0,'task')] that failed to move [$0!=1,'have','has'] been seleted"
+	{
+		// c1253518
+		// 0 integer - The number of tasks that failed to move
+		:00_Current "The {0} [NHelpers::Pluralize($0,'task')] that failed to move [$0!=1,'have','has'] been seleted"
+	}
+	XTaskFailedToMoveBack "{0} [NHelpers::Pluralize($0,'task')] that failed to move back as far as possible [$0!=1,'have','has'] been seleted"
+	{
+		// 8c8fdbe9
+		// 0 integer - The number of tasks that failed to move
+		:00_Current "{0} [NHelpers::Pluralize($0,'task')] that failed to move back as far as possible [$0!=1,'have','has'] been seleted"
+	}
+	XTaskWasMoved "{0} [NHelpers::Pluralize($0,'task')] or sub [NHelpers::Pluralize($0,'project')] were moved back"
+	{
+		// c401b7bf
+		// 0 integer - The number of tasks that were moved
+		:00_Current "{0} [NHelpers::Pluralize($0,'task')] or sub [NHelpers::Pluralize($0,'project')] were moved back"
+	}
+	YouAreRestrictedToAddOrRemoveResourcesFromThis "You are restricted to add or remove users from this bug"
+	{
+		// c3d8b89e
+		:00_Current "You are restricted to add or remove users from this bug"
+	}
+	YouCanAllocateToSpecificResources "You can allocate people to selected [NHelpers::Pluralize($2,$0)]. If no one are allocated, all project members will be allocated to the [NHelpers::Pluralize($2,$1)]."
+	{
+		// e964dd46
+		// 0 text - Sprint
+		// 1 text - Sprint
+		// 2 integer - Number of selected sprints
+		:00_Current "You can allocate people to selected [NHelpers::Pluralize($2,$0)]. If no one are allocated, all project members will be allocated to the [NHelpers::Pluralize($2,$1)]."
+	}
+	YouCanDelegateASubProjectItemToOtherResources "You can delegate a sub project/item to people allocated to this project. They can then simultaneously make any kind of change to the delegated part."
+	{
+		// 3aa55649
+		:00_Current "You can delegate a sub project/item to people allocated to this project. They can then simultaneously make any kind of change to the delegated part."
+	}
+	YouCanDoNotHaveAnyPermissionCreateANewXUnder "You can't/do not have any permission create a new {0} under this item"
+	{
+		// ee88498b
+		// 0 text - Default name of task type or custom name
+		:00_Current "You can't/do not have any permission create a new {0} under this item"
+	}
+	YouCanMakeASubProjectOrItemVisibleToOther "You can make a sub project or item visible to other people. They must have the project profile setting 'Limited visibillity' set to 'Yes' under Administration / Projects to be affected by this."
+	{
+		// ac8b68e0
+		:00_Current "You can make a sub project or item visible to other people. They must have the project profile setting 'Limited visibillity' set to 'Yes' under Administration / Projects to be affected by this."
+	}
+	YouCanOnlySetTheDurationOfAnXTaskInWholeDays "You can only set the duration of an {0} task in whole days"
+	{
+		// 9a247ec8
+		// 0 text - "Vacation" text
+		:00_Current "You can only set the duration of an {0} task in whole days"
+	}
+	YouCanOnlySortItemsWhenYouAreInItemsInA "You can only sort items when you are in hierarchy view"
+	{
+		// 49e1eba1
+		:00_Current "You can only sort items when you are in hierarchy view"
+	}
+	YouCannotChangeTheResourceTagOnABacklogItem "You cannot change the Assign tag on a backlog item committed as a scheduled task"
+	{
+		// fc0ce7f9
+		:00_Current "You cannot change the Assign tag on a backlog item committed as a scheduled task"
+	}
+	YouCannotHaveHourDurationOnOutOfOfficeTasks "You cannot have {0} tasks with hour duration. Specify duration in days before setting {1} status on them."
+	{
+		// bd16f032
+		// 0 text - "Vacation" text
+		// 1 text - "Vacation" text
+		:00_Current "You cannot have {0} tasks with hour duration. Specify duration in days before setting {1} status on them."
+	}
+	YouCannotSetDelegationOnASubProjectOrItem "You cannot set delegation on a sub project or item delegated to you."
+	{
+		// a5b9cc05
+		:00_Current "You cannot set delegation on a sub project or item delegated to you."
+	}
+	YouCannotSetTheVisibillitySettingsOnTheSub "You cannot set the visibillity settings on the sub project/item delegated to you."
+	{
+		// d8e4aca8
+		:00_Current "You cannot set the visibillity settings on the sub project/item delegated to you."
+	}
+	YouHaveOnlySelectedItemsAgileOrBugsThatCannot "You have only selected items (agile or bugs) that cannot be sorted in time. Please select scheduled items instead."
+	{
+		// 1a84c944
+		:00_Current "You have only selected items (agile or bugs) that cannot be sorted in time. Please select scheduled items instead."
+	}
+	YouMustDisconnectTheSelectedTasksBeforeSetting "You must disconnect the selected tasks before setting {0} status on them. Do you want to do that now?"
+	{
+		// 6d40535f
+		// 0 text - "Vacation" text
+		:00_Current "You must disconnect the selected tasks before setting {0} status on them. Do you want to do that now?"
+	}
+}
+

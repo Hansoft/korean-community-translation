@@ -1,0 +1,1232 @@
+﻿namespace NDatabase
+{
+	namespace NComContext
+    //
+    // Low level authentication/login information and error messages.
+    // Shown during login to Hansoft.
+    //
+	{
+		AClientConnectionAttemptedToResetThePasswordOf "A client connection attempted to reset the password of an unrelated user ID"
+		{
+			// e6addfa3
+			:00_Current "A client connection attempted to reset the password of an unrelated user ID"
+		}
+		AnUnauthenticatedConnectionAttemptingToSet "An unauthenticated connection attempting to set password"
+		{
+			// 0598abcd
+			:00_Current "An unauthenticated connection attempting to set password"
+		}
+		AuthenticationViaChannelXOfUserXFailedWithResu "Authentication (via channel \"{0}\") of user \"{1}\" failed with ResultCode: {2}."
+		{
+			// 7f14ee79
+			// 0 text - The name of the authentication channel
+			// 1 text - Name of authenticating user
+			// 2 integer - The error result code
+			:00_Current "Authentication (via channel \"{0}\") of user \"{1}\" failed with ResultCode: {2}."
+		}
+		ClientXConnectionWasClosedCleanLogout "Client ({0}) connection was closed: Clean logout."
+		{
+			// e92a3fa5
+			// 0 text - The name of the user logging out
+			:00_Current "Client ({0}) connection was closed: Clean logout."
+		}
+		ClientXConnectionWasClosedTheReasonWasX "Client ({0}) connection was closed: The reason was: {1}"
+		{
+			// b1124ff4
+			// 0 text - The name of the user that was logged in
+			// 1 text - The reason for the disconnection
+			:00_Current "Client ({0}) connection was closed: The reason was: {1}"
+		}
+		ClientXConnectionWasClosedTheReasonWasXX "Client ({0}) connection was closed: The reason was: {1} ({2})"
+		{
+			// d35c4ecc
+			// 0 text - The name of the user that was logged in
+			// 1 text - The reason for the disconnection (the Hansoft disconnect reason)
+			// 2 text - The reason for the disconnection (from operating system)
+			:00_Current "Client ({0}) connection was closed: The reason was: {1} ({2})"
+		}
+		DestinationConnectionNotFoundForAn "Destination connection not found for an authentication result packet"
+		{
+			// 47d6cdb1
+			:00_Current "Destination connection not found for an authentication result packet"
+		}
+		DestinationConnectionNotFoundForAuthentication "Destination connection not found for authentication request forwarding"
+		{
+			// 6fd7ae22
+			:00_Current "Destination connection not found for authentication request forwarding"
+		}
+		DroppingSystemPacket "Dropping system packet"
+		{
+			// e5d6571c
+			:00_Current "Dropping system packet"
+		}
+		InvalidSizeOfProposedNewPassword "Invalid size of proposed new password"
+		{
+			// c1767e7c
+			:00_Current "Invalid size of proposed new password"
+		}
+		NoRemoteUserIDFoundForGuestIDRequesting "No remote User ID found for guest ID requesting password change"
+		{
+			// a17a8b10
+			:00_Current "No remote User ID found for guest ID requesting password change"
+		}
+		ReceivedChallengeResponseToUnknownChallenge "Received challenge response to unknown challenge"
+		{
+			// 88d73bab
+			:00_Current "Received challenge response to unknown challenge"
+		}
+		RemoteUserXNotFoundInGuestServersDBViaChannelX "Remote user {0} not found in guest server's DB (via channel \"{1}\"), username: \"{2}\"."
+		{
+			// 993edf4c
+			// 0 integer - The user ID of the remote user
+			// 1 text - The communication channel name
+			// 2 text - The user name
+			:00_Current "Remote user {0} not found in guest server's DB (via channel \"{1}\"), username: \"{2}\"."
+		}
+		RemovingAbandonedTimedoutAuthentication "Removing abandoned timed-out authentication challenge"
+		{
+			// 1ec4068a
+			:00_Current "Removing abandoned timed-out authentication challenge"
+		}
+		SDKClientAttemptedToRegisterChannelXAs "SDK client attempted to register channel {0} as credential check provider but lacks permissions to do so"
+		{
+			// c9584c92
+			// 0 text - The name of the communication channel the SDK tried to register
+			:00_Current "SDK client attempted to register channel {0} as credential check provider but lacks permissions to do so"
+		}
+		SDKClientAttemptedToRegisterChannelXAs2 "SDK client attempted to register channel {0} as authentication provider but lacks permissions to do so"
+		{
+			// f461df04
+			// 0 text - The name of the communication channel the SDK tried to register
+			:00_Current "SDK client attempted to register channel {0} as authentication provider but lacks permissions to do so"
+		}
+		ServerXXXXX "Server {0}.{1}.{2}.{3}:{4}"
+		{
+			// 20463a8b
+			// 0 integer - The first byte of the server IP address
+			// 1 integer - The second byte of the server IP address
+			// 2 integer - The third byte of the server IP address
+			// 3 integer - The fourth byte of the server IP address
+			// 4 integer - The port number of the server
+			:00_Current "Server {0}.{1}.{2}.{3}:{4}"
+		}
+		Unknown NLocalize/NShared/Unknown
+		{
+			// 2d499d8c
+			:00_Current "Unknown"
+		}
+	}
+
+	namespace NStatisticsSampling
+	{
+		Server "Server"
+		{
+			// 84387875
+			:00_Current "Server"
+		}
+		StartingTrendsSampling "Starting trends sampling"
+		{
+			// 758ba6d5
+			:00_Current "Starting trends sampling"
+		}
+		TrendsSamplingFinished "Trends sampling finished in {0,fe1} seconds."
+		{
+			// 747292f3
+			// 0 number - The number of seconds it took to sample trends
+			:00_Current "Trends sampling finished in {0,fe1} seconds."
+		}
+	}
+
+	namespace NProjectHistory
+	{
+		ProjectHistorySamplingFinished "Saved project history snapshots in {0,fe1} seconds."
+		{
+			// 9c9bceaf
+			// 0 number - The number of seconds it took to sample trends
+			:00_Current "Saved project history snapshots in {0,fe1} seconds."
+		}
+		Server "Server"
+		{
+			// a81cb458
+			:00_Current "Server"
+		}
+		StartingProjectHistorySampling "Saving project history snapshots"
+		{
+			// 33186591
+			:00_Current "Saving project history snapshots"
+		}
+	}
+
+	namespace NConnection
+	// Low level communication messages.
+	{
+		FailedToProcessIncomingPacketTheErrorWasX "Failed to process incoming packet. The error was: {0}"
+		{
+			// e7929809
+			// 0 text - The error message for the communication failure
+			:00_Current "Failed to process incoming packet. The error was: {0}"
+		}
+
+		FailedToProcessIncomingPacketThePacketWasCorrupt "Failed to process incoming packet. The packet was corrupt."
+		{
+			// 2df976ae
+			:00_Current "Failed to process incoming packet. The packet was corrupt."
+		}
+	}
+	namespace NContext
+    // Database check, restore and backup messages. Also handles share connect and disconnect messages.
+    // Shown in log files and in dialogs associated with database operations
+	{
+		AccessDenied "Access denied. The remote share has been deleted or the ticket needs to be reimported."
+		{
+			// 35804bb8
+			:00_Current "Access denied. The remote share has been deleted or the ticket needs to be reimported."
+		}
+		BackupFailureTryingToCreateTheDestination "Backup failure trying to create the destination backup folder. The error reported was: {0}"
+		{
+			// 18834272
+			// 0 text - The backup failure error message
+			:00_Current "Backup failure trying to create the destination backup folder. The error reported was: {0}"
+		}
+		ErrorTryingToWriteToTransactionLogSomeRecent "Error trying to write to transaction log. Some recent changes have been lost. The database will now go offline. After the file access error has been fixed the database must be put online manually.\r\n"\
+		                                             "\r\n"\
+		                                             "The error reported was:\r\n"\
+		                                             "{0}"
+		{
+			// 9033a792
+			// 0 text - The file access error message
+			:00_Current "Error trying to write to transaction log. Some recent changes have been lost. The database will now go offline. After the file access error has been fixed the database must be put online manually.\r\n"\
+			            "\r\n"\
+			            "The error reported was:\r\n"\
+			            "{0}"
+		}
+		FailedToBackupDatabaseDueToExceptionXTriedTo "Failed to backup database due to exception: {0} \n"\
+		                                             "\n"\
+		                                             "Tried to backup to: {1}\n"\
+		                                             "\n"\
+		                                             "This failure cannot be recovered from. The database will now go offline. Please contact support@hansoft.com BEFORE taking the database online again."
+		{
+			// 460d6db3
+			// 0 text - The backup failure error message
+			// 1 text - The database backup location
+			:00_Current "Failed to backup database due to exception: {0} \n"\
+			            "\n"\
+			            "Tried to backup to: {1}\n"\
+			            "\n"\
+			            "This failure cannot be recovered from. The database will now go offline. Please contact support@hansoft.com BEFORE taking the database online again."
+		}
+		FailedToBackupDatabaseToX "Failed to backup database to: {0}"
+		{
+			// 230abc2b
+			// 0 text - The database backup location
+			:00_Current "Failed to backup database to: {0}"
+		}
+		FailedToBackupDatabaseToXThisFailureCannotBe "Failed to backup database to: {0}\n"\
+		                                             "This failure cannot be recovered from. The database will now go offline. Please contact support@hansoft.com BEFORE taking the database online again."
+		{
+			// a6abe4f5
+			// 0 text - The database backup location
+			:00_Current "Failed to backup database to: {0}\n"\
+			            "This failure cannot be recovered from. The database will now go offline. Please contact support@hansoft.com BEFORE taking the database online again."
+		}
+		FailedToCheckTheDatabase "Failed to check the database."
+		{
+			// a5fea039
+			:00_Current "Failed to check the database."
+		}
+		FailedToCheckTheDatabaseThisFailureCannotBe "Failed to check the database.\n"\
+		                                            "This failure cannot be recovered from. The database will now go offline. Please contact support@hansoft.com BEFORE taking the database online again."
+		{
+			// fe31d243
+			:00_Current "Failed to check the database.\n"\
+			            "This failure cannot be recovered from. The database will now go offline. Please contact support@hansoft.com BEFORE taking the database online again."
+		}
+		HansoftShareDisconnected "Hansoft Share disconnected"
+		{
+			// fd829e96
+			:00_Current "Hansoft Share disconnected"
+		}
+		HansoftShareReconnected "Hansoft Share reconnected"
+		{
+			// c04743cd
+			:00_Current "Hansoft Share reconnected"
+		}
+		MessageFrom "{0}: {1}"
+		{
+			// 66b69416
+			// 0 text - Who says
+			// 1 text - message
+			:00_Current "{0}: {1}"
+		}
+		PerformingBackupVersionControlXIncrementalX "Performing backup: VersionControl: {0} Incremental: {1} CheckDatabase: {2}"
+		{
+			// 0acb3535
+			// 0 integer - Displays 1 if version control files are backed up, 0 otherwise
+			// 1 integer - Displays 1 if the backup is incremental, 0 otherwise
+			// 2 integer - Displays 1 if the integrity of the database is checked, 0 otherwise
+			:00_Current "Performing backup: VersionControl: {0} Incremental: {1} CheckDatabase: {2}"
+		}
+		PerformingDatabaseCheck "Performing database check."
+		{
+			// c45e1989
+			:00_Current "Performing database check."
+		}
+		ProcessingOfXTookExcessiveTimeXSeconds "Processing of '{0}' took excessive time: {1,fe10} seconds."
+		{
+			// a234dd69
+			// 0 text - The name of the task to process
+			// 1 decimal - The time in seconds it took to process task
+			:00_Current "Processing of '{0}' took excessive time: {1,fe10} seconds."
+		}
+		ShareDbGuidConflict "A database with this database GUID already exists in the share network."
+		{
+			// 93fe2ed1
+			:00_Current "A database with this database GUID already exists in the share network."
+		}
+		ShareDeletedInfo "Share deleted in remote side. All users imported from this share has been locked.\n"\
+		                 ""
+		{
+			// 792db233
+			:00_Current "Share deleted in remote side. All users imported from this share has been locked.\n"\
+			            ""
+		}
+		ShareDisconnectMessage "Hansoft Share {0} (connected to {1}:{2}) has been disconnected.\n"\
+		                       "\n"\
+		                       "{3}"
+		{
+			// e3c6f8ff
+			// 0 text - name of share
+			// 1 text - internet address
+			// 2 integer - internet port
+			// 3 text - Detailed description
+			:00_Current "Hansoft Share {0} (connected to {1}:{2}) has been disconnected.\n"\
+			            "\n"\
+			            "{3}"
+		}
+		ShareDisconnectReasonTag "Reason: {0} "
+		{
+			// cf40167e
+			// 0 text - explanation of what went wrong
+			:00_Current "Reason: {0} "
+		}
+		ShareIncompleteConfiguration "Incomplete configuration."
+		{
+			// 1894a898
+			:00_Current "Incomplete configuration."
+		}
+		ShareLicenseViolation "Licence violation."
+		{
+			// ef6323a8
+			:00_Current "Licence violation."
+		}
+		ShareNetworkError "Network error."
+		{
+			// 34f42644
+			:00_Current "Network error."
+		}
+		ShareParallelConnection "Multiple connections to the same database or different databases with the same database GUID."
+		{
+			// 78617cad
+			:00_Current "Multiple connections to the same database or different databases with the same database GUID."
+		}
+		ShareReconnectMessage "Hansoft Share {0} (connected to {1}:{2}) was previously disconnected and has now been reconnected."
+		{
+			// f345e2f6
+			// 0 text - name of share
+			// 1 text - internet address
+			// 2 integer - internet port
+			:00_Current "Hansoft Share {0} (connected to {1}:{2}) was previously disconnected and has now been reconnected."
+		}
+		ShareReestablishNote "{0}If connection is not re-established within two weeks, users imported from this share will be locked."
+		{
+			// 40ea433c
+			// 0 text - Optional reason for failure
+			:00_Current "{0}If connection is not re-established within two weeks, users imported from this share will be locked."
+		}
+		ShareVersionMissmatch "Version mismatch between connected servers."
+		{
+			// f3263d9f
+			:00_Current "Version mismatch between connected servers."
+		}
+		TheDatabaseWasBackedUpToX "The database was backed up to: {0}"
+		{
+			// 93b74f38
+			// 0 text - The database backup location
+			:00_Current "The database was backed up to: {0}"
+		}
+		TheDatabaseWasSuccessfullyChecked "The database was successfully checked."
+		{
+			// 18e2722a
+			:00_Current "The database was successfully checked."
+		}
+	}
+  
+	namespace NContextMessageServices
+	// Strings used in work updated emails.
+	{
+		Bug NLocalize/NShared/Bug
+		{
+			// a41b1504
+			:00_Current "Bug"
+		}
+		BugStatusX "status: {0}"
+		{
+			// ba0dc9c0
+			// 0 text - The status of the bug
+			:00_Current "status: {0}"
+		}
+		Deleted "Deleted:"
+		{
+			// 2b1bbe1d
+			:00_Current "Deleted:"
+		}
+		HasBeenRenamedToX "renamed to \"{0}\""
+		{
+			// eee22d33
+			// 0 text - The new name of the renamed task
+			:00_Current "renamed to \"{0}\""
+		}
+		ItIsXDaysLeftToMilestone "It is {0} [NHelpers::Pluralize($0,'day')] left to {1} ({2}) in {3}."
+		{
+			// 9400f6a6
+			// 0 integer - The number of days left
+			// 1 text - The name of a milestone
+			// 2 text - Milestone date
+			// 3 text - The name of a project
+			:00_Current "It is {0} [NHelpers::Pluralize($0,'day')] left to {1} ({2}) in {3}."
+		}
+		Item NLocalize/NShared/Item
+		{
+			// 27818815
+			:00_Current "Item"
+		}
+		New "New:"
+		{
+			// a41b4610
+			:00_Current "New:"
+		}
+		NoName NLocalize/NShared/NoName
+		{
+			// 194670a4
+			:00_Current "(No name)"
+		}
+		NoResourceSet NLocalize/NShared/NoResourceSet
+		{
+			// b0710717
+			:00_Current "(Not assigned)"
+		}
+		NowAssignedTo "assigned to: {0}"
+		{
+			// 61c5e00b
+			// 0 text - user name
+			:00_Current "assigned to: {0}"
+		}
+		OnXXXWrote "\tOn {0} - {1} {2} wrote:"
+		{
+			// 26312f3c
+			// 0 text - The date the comment was written
+			// 1 text - The time the comment was written
+			// 2 text - The user that wrote the comment
+			:00_Current "\tOn {0} - {1} {2} wrote:"
+		}
+		ProjectSpecificEmailSubject NLocalize/NShared/XX
+		{
+			// 0f4c94db
+			// 0 text - Project name
+			// 1 text - Subject
+			:00_Current "({0}) {1}"
+		}
+		RegisterDescription "{0}{1}{2}[$3='',,', ']{3}"
+		{
+			// 1cdc7f8f
+			// 0 text - Time
+			// 1 text - Remaining
+			// 2 text - Status
+			// 3 text - Workflow Status
+			:00_Current "{0}{1}{2}[$3='',,', ']{3}"
+		}
+		RemovedFromMyWork "Removed from To do list:"
+		{
+			// 7b157a55
+			:00_Current "Removed from To do list:"
+		}
+		Renamed "Renamed:"
+		{
+			// 60ecf262
+			:00_Current "Renamed:"
+		}
+		Task NLocalize/NShared/Task
+		{
+			// 27874139
+			:00_Current "Task"
+		}
+		TaskNoRegisterDescription "{0} - {1}{2}, {3}"
+		{
+			// 560db4ff
+			// 0 text - item type
+			// 1 text - project
+			// 2 text - task
+			// 3 text - assigned to
+			:00_Current "{0} - {1}{2}, {3}"
+		}
+		TaskRegisterDescription "{0} - {1}{2}, {3}, {4}"
+		{
+			// 998cbb62
+			// 0 text - item type
+			// 1 text - project
+			// 2 text - task
+			// 3 text - description
+			// 4 text - assigned to
+			:00_Current "{0} - {1}{2}, {3}, {4}"
+		}
+		TheTask "The task {0}{1} has been completed by {2}."
+		{
+			// 0136b71a
+			// 0 text - project
+			// 1 text - task
+			// 2 text - The name of the user that completed task
+			:00_Current "The task {0}{1} has been completed by {2}."
+		}
+		ThisEmailWasAutomaticallyGeneratedByHansoft "\r\n"\
+		                                            "\r\n"\
+		                                            "This e-mail was automatically generated by Hansoft Project Server."
+		{
+			// 4bd48a27
+			:00_Current "\r\n"\
+			            "\r\n"\
+			            "This e-mail was automatically generated by Hansoft Project Server."
+		}
+		ThisEmailWasAutomaticallyGeneratedByHansoft2 "\r\n"\
+		                                             "This e-mail was automatically generated by Hansoft Project Server."
+		{
+			// c665cf39
+			:00_Current "\r\n"\
+			            "This e-mail was automatically generated by Hansoft Project Server."
+		}
+		ThisTaskIsAPredecessorToYourTask "This task is a predecessor to your task {0}{1}."
+		{
+			// b6ded9f2
+			// 0 text - project
+			// 1 text - task name
+			:00_Current "This task is a predecessor to your task {0}{1}."
+		}
+		Updated "Updated:"
+		{
+			// 60cf904d
+			:00_Current "Updated:"
+		}
+		WorkRemainingNotSet "(Work remaining not set)"
+		{
+			// 728a13c0
+			:00_Current "(Work remaining not set)"
+		}
+		WorkflowStatusX "workflow status: {0}"
+		{
+			// c4d0393d
+			// 0 text - The current status of the workflow
+			:00_Current "workflow status: {0}"
+		}
+		WorkingDays "{0} - {1}, {2} working day(s)"
+		{
+			// ca335858
+			// 0 text - start date
+			// 1 text - end date
+			// 2 text - duration
+			:00_Current "{0} - {1}, {2} working day(s)"
+		}
+		XDaysLeftTo " {0} [NHelpers::Pluralize($0,'day')] left to {1}"
+		{
+			// 83858a5d
+			// 0 integer - The number of days left to deadline
+			// 1 text - Milestone name
+			:00_Current " {0} [NHelpers::Pluralize($0,'day')] left to {1}"
+		}
+		XHasCompletedX "{0} has completed \"{1}\""
+		{
+			// 7800478f
+			// 0 text - The name of the user that has completed task
+			// 1 text - The name task the user has completed
+			:00_Current "{0} has completed \"{1}\""
+		}
+		XHasUpdatedProjectX "{0} has updated project {1}"
+		{
+			// 6647d490
+			// 0 text - The name of the user that has updated project
+			// 1 text - The name of the project
+			:00_Current "{0} has updated project {1}"
+		}
+		XHasUpdatedProjectXWithTheFollowingChanges "{0} has updated project '{1}' with the following changes:"
+		{
+			// 7e433597
+			// 0 text - The name of the user that has updated project
+			// 1 text - The name of the project
+			:00_Current "{0} has updated project '{1}' with the following changes:"
+		}
+		XHoursRemaining "{0,fe0,fn2} [NHelpers::Pluralize($0,'hour')] remaining"
+		{
+			// 90418889
+			// 0 decimal - The number of hours remaining
+			:00_Current "{0,fe0,fn2} [NHelpers::Pluralize($0,'hour')] remaining"
+		}
+		XInX " ({0}) in {1}."
+		{
+			// 27890bed
+			// 0 text - The name of a milestone
+			// 1 text - The name of a project
+			:00_Current " ({0}) in {1}."
+		}
+		YourWorkInProjectXHasBeenUpdated "Your work in project '{0}' has been updated"
+		{
+			// 7683a05b
+			// 0 text - The name of a project
+			:00_Current "Your work in project '{0}' has been updated"
+		}
+		YourWorkInProjectXHasBeenUpdatedWithThe "Your work in project '{0}' has been updated with the following changes:"
+		{
+			// ebfc3098
+			// 0 text - The name of a project
+			:00_Current "Your work in project '{0}' has been updated with the following changes:"
+		}
+	}
+
+	namespace NContextMessageServicesPR
+	// Strings used in QA and project report emails.
+	{
+		AndXMoreMilestones "and {0} more [NHelpers::Pluralize($0,'milestone')]..."
+		{
+			// 8b927809
+			// 0 integer - The number of milestones
+			:00_Current "and {0} more [NHelpers::Pluralize($0,'milestone')]..."
+		}
+		AndXMoreResources "and {0} more [NHelpers::Pluralize($0,'user')]..."
+		{
+			// bc6be201
+			// 0 integer - The number of resources
+			:00_Current "and {0} more [NHelpers::Pluralize($0,'user')]..."
+		}
+		AndXMoreTasks "and {0} more [NHelpers::Pluralize($0,'task')]..."
+		{
+			// b117b12c
+			// 0 integer - The number of tasks
+			:00_Current "and {0} more [NHelpers::Pluralize($0,'task')]..."
+		}
+		BugStatusSummaryForResourceGroupX "Status summary for user group '{0}':"
+		{
+			// 8a8cfd8c
+			// 0 text - The name of a resoucre group
+			:00_Current "Status summary for user group '{0}':"
+		}
+		BugStatusSummaryForThisProject "Status summary for this project:"
+		{
+			// 90a0208e
+			:00_Current "Status summary for this project:"
+		}
+		BugsInTotal "{0} [NHelpers::Pluralize($0,'bug')] in total"
+		{
+			// 350c8c74
+			// 0 integer - number of bugs
+			:00_Current "{0} [NHelpers::Pluralize($0,'bug')] in total"
+		}
+		DailyProjectReport "Daily project report"
+		{
+			// 311a308e
+			:00_Current "Daily project report"
+		}
+		DailyQAReport "Daily QA report"
+		{
+			// 7d2c8fa9
+			:00_Current "Daily QA report"
+		}
+		Empty ""
+		{
+			// 54938817
+			:00_Current ""
+		}
+		EndsOn "{1}{2} ends {0}"
+		{
+			// e71005af
+			// 0 text - delivery date
+			// 1 text - The name of a project
+			// 2 text - task name
+			:00_Current "{1}{2} ends {0}"
+		}
+		HundredDaysBehind "{0} days behind, {1}{2}"
+		{
+			// dabe646d
+			// 0 integer - days behind == 100+
+			// 1 text - The name of a project
+			// 2 text - task name
+			:00_Current "{0} days behind, {1}{2}"
+		}
+		MilestoneHasDeliveryDateBut "{0} has a delivery date on {1} but: {2}{3}"
+		{
+			// 4c12d021
+			// 0 text - milestone name
+			// 1 text - delivery date
+			// 2 text - The name of a project
+			// 3 text - task name
+			:00_Current "{0} has a delivery date on {1} but: {2}{3}"
+		}
+		OneDayBehind "{0}    day behind, {1}{2}"
+		{
+			// 8cb751d2
+			// 0 integer - days behind == 1
+			// 1 text - The name of a project
+			// 2 text - task name
+			:00_Current "{0}    day behind, {1}{2}"
+		}
+		ProjectSpecificEmailSubject NLocalize/NShared/XX
+		{
+			// bfa9803d
+			// 0 text - Project name
+			// 1 text - Subject
+			:00_Current "({0}) {1}"
+		}
+		T0BugsHasStatusX "\t0 bugs has status '{0}'"
+		{
+			// 8528cbd5
+			// 0 text - A status
+			:00_Current "\t0 bugs has status '{0}'"
+		}
+		TenDaysBehind "{0}  days behind, {1}{2}"
+		{
+			// 123afbea
+			// 0 integer - days behind == 10-99
+			// 1 text - The name of a project
+			// 2 text - task name
+			:00_Current "{0}  days behind, {1}{2}"
+		}
+		TheseResourcesAreBehindSchedule "These users are behind schedule:"
+		{
+			// 5bc82a2b
+			:00_Current "These users are behind schedule:"
+		}
+		TheseTasksAreOverdue "These tasks are overdue:"
+		{
+			// adf073f9
+			:00_Current "These tasks are overdue:"
+		}
+		TheseTasksEndsAfterTheirMilestoneDelivery "These tasks ends after their {0} delivery:"
+		{
+			// 563dec53
+			// 0 text - Default name of milestone type or custom name
+			:00_Current "These tasks ends after their {0} delivery:"
+		}
+		ThisIsAProjectReportForXItsPurposeIsToGetYour "This is a project report for {0}. Its purpose is to get your attention on possible problems with tasks, users and deliveries."
+		{
+			// b32af83b
+			// 0 text - The name of the project to give report for
+			:00_Current "This is a project report for {0}. Its purpose is to get your attention on possible problems with tasks, users and deliveries."
+		}
+		ThisIsAQAReportForXItsPurposeIsToShow "This is a QA report for {0}. Its purpose is to show statistics related to quality assurance."
+		{
+			// 86d85b88
+			// 0 text - The name of the project to give report for
+			:00_Current "This is a QA report for {0}. Its purpose is to show statistics related to quality assurance."
+		}
+		TwoDaysBehind "{0}   days behind, {1}{2}"
+		{
+			// 08b441fd
+			// 0 integer - days behind == 2-9
+			// 1 text - The name of a project
+			// 2 text - task name
+			:00_Current "{0}   days behind, {1}{2}"
+		}
+		WeeklyProjectReport "Weekly project report"
+		{
+			// 03f6cfac
+			:00_Current "Weekly project report"
+		}
+		WeeklyQAReport "Weekly QA report"
+		{
+			// f623c407
+			:00_Current "Weekly QA report"
+		}
+		WhereofSeverityA "-      whereof severity A: {0} [NHelpers::Pluralize($0,'bug')]"
+		{
+			// a8f525b4
+			// 0 integer - number of bugs
+			:00_Current "-      whereof severity A: {0} [NHelpers::Pluralize($0,'bug')]"
+		}
+		WhereofSeverityB "-      whereof severity B: {0} [NHelpers::Pluralize($0,'bug')]"
+		{
+			// a8f525b5
+			// 0 integer - number of bugs
+			:00_Current "-      whereof severity B: {0} [NHelpers::Pluralize($0,'bug')]"
+		}
+		WhereofSeverityC "-      whereof severity C: {0} [NHelpers::Pluralize($0,'bug')]"
+		{
+			// a8f525b6
+			// 0 integer - number of bugs
+			:00_Current "-      whereof severity C: {0} [NHelpers::Pluralize($0,'bug')]"
+		}
+		WhereofSeverityD "-      whereof severity D: {0} [NHelpers::Pluralize($0,'bug')]"
+		{
+			// a8f525b7
+			// 0 integer - number of bugs
+			:00_Current "-      whereof severity D: {0} [NHelpers::Pluralize($0,'bug')]"
+		}
+		XBugsHasStatusX "\t{0} [NHelpers::Pluralize($0,'bug')] [NHelpers::HasOrHave($0)] status '{1}'"
+		{
+			// 314fbf29
+			// 0 integer - The number of bugs
+			// 1 text - A workflow status name
+			:00_Current "\t{0} [NHelpers::Pluralize($0,'bug')] [NHelpers::HasOrHave($0)] status '{1}'"
+		}
+		XBugsInTotal "{0} bugs in total"
+		{
+			// 1a2beacc
+			// 0 integer - The number of bugs
+			:00_Current "{0} bugs in total"
+		}
+		XIsXDaysBehind "{0} is {1} [NHelpers::Pluralize($1,'day')] behind:"
+		{
+			// 8aed6f6f
+			// 0 text - The name of the late task
+			// 1 integer - The number of days task is behind
+			:00_Current "{0} is {1} [NHelpers::Pluralize($1,'day')] behind:"
+		}
+	}
+
+	namespace NContextTaskHistory
+	// Change history error log messages.
+	{
+		AnExceptionOccurredDuringRetryOfProcessingA "An exception occurred during retry of processing a change history save command ({0}). Giving up on processing command. The error was: {1}"
+		{
+			// 217aafc9
+			// 0 text - The file name to save change history in
+			// 1 text - The error message
+			:00_Current "An exception occurred during retry of processing a change history save command ({0}). Giving up on processing command. The error was: {1}"
+		}
+		AnExceptionOccurredProcessingAChangeHistory "An exception occurred processing a change history save command ({0}). Removing change history for task in question and retrying. The error was: {1}"
+		{
+			// eca34e6d
+			// 0 text - The file name to save change history in
+			// 1 text - The error message
+			:00_Current "An exception occurred processing a change history save command ({0}). Removing change history for task in question and retrying. The error was: {1}"
+		}
+		AnExceptionOccurredProcessingAChangeHistory2 "An exception occurred processing a change history entry rename command ({0} -> {1}). Please contact support@hansoft.com. The error was: {2}"
+		{
+			// 810d1c3f
+			// 0 text - The old name of the change history file
+			// 1 text - The new name of the change history file
+			// 2 text - The error message
+			:00_Current "An exception occurred processing a change history entry rename command ({0} -> {1}). Please contact support@hansoft.com. The error was: {2}"
+		}
+		AnExceptionOccurredProcessingAChangeHistory3 "An exception occurred processing a change history column rename command ({0}). Please contact support@hansoft.com. The error was: {1}"
+		{
+			// 810d1c40
+			// 0 text - The file name of the save change history
+			// 1 text - The error message
+			:00_Current "An exception occurred processing a change history column rename command ({0}). Please contact support@hansoft.com. The error was: {1}"
+		}
+	}
+
+	namespace NDBManagerContext
+	// Administration database and transaction log file messages.
+	{
+		ACorruptEntryWasFoundInTheTransactionLog "A corrupt entry was found in the transaction log. Stopping processing of further packets in the transaction log. The transaction log will be reset."
+		{
+			// 0f6c83e7
+			:00_Current "A corrupt entry was found in the transaction log. Stopping processing of further packets in the transaction log. The transaction log will be reset."
+		}
+		AnErrorWasEncounteredWhenUpgradingTheDatabase "An error was encountered when upgrading the database. The following error log was generated when upgrading the database:\r\n"\
+		                                              "{0}"
+		{
+			// 4f135d27
+			// 0 text - The error message
+			:00_Current "An error was encountered when upgrading the database. The following error log was generated when upgrading the database:\r\n"\
+			            "{0}"
+		}
+		AnErrorWasFoundInTheDatabaseAndWasFixedSome "An error was found in the database and was fixed. Some data might be missing. The following error log was generated:\r\n"\
+		                                            "{0}"
+		{
+			// f36d9dad
+			// 0 text - The error message
+			:00_Current "An error was found in the database and was fixed. Some data might be missing. The following error log was generated:\r\n"\
+			            "{0}"
+		}
+		AnErrorWasFoundInTheDatabaseThatCouldNotBe "An error was found in the database that could not be fixed. The following error log was generated when rebuilding the database:\r\n"\
+		                                           "{0}"
+		{
+			// 8fd0c6ab
+			// 0 text - The error message
+			:00_Current "An error was found in the database that could not be fixed. The following error log was generated when rebuilding the database:\r\n"\
+			            "{0}"
+		}
+		AnErrorWasFoundInTheDatabaseThatCouldNotBe2 "An error was found in the database that could not be fixed. The following error log was generated:\r\n"\
+		                                            "{0}"
+		{
+			// 89e99c3d
+			// 0 text - The error message
+			:00_Current "An error was found in the database that could not be fixed. The following error log was generated:\r\n"\
+			            "{0}"
+		}
+		AnErrorWasFoundWhenCheckingTheDatabaseAFixOf "An error was found when checking the database. A fix of the database will now be performed. The following log was generated when checking the database:\r\n"\
+		                                             "{0}"
+		{
+			// ee3c5a1f
+			// 0 text - The error message
+			:00_Current "An error was found when checking the database. A fix of the database will now be performed. The following log was generated when checking the database:\r\n"\
+			            "{0}"
+		}
+		BackupFailureTryingCopyTheOldProjectsDatabase "Backup failure trying copy the old projects database to the backup location. The error reported was: {0}"
+		{
+			// 59de7d93
+			// 0 text - The error message
+			:00_Current "Backup failure trying copy the old projects database to the backup location. The error reported was: {0}"
+		}
+		BackupFailureTryingToCopyCurrentChanged "Backup failure trying to copy current changed documents to backup destination. The error reported was: {0}"
+		{
+			// 17e8b1a4
+			// 0 text - The error message
+			:00_Current "Backup failure trying to copy current changed documents to backup destination. The error reported was: {0}"
+		}
+		BackupFailureTryingToCopyCurrentProject "Backup failure trying to copy current project database to backup destination. The error reported was: {0}"
+		{
+			// 18ec7a91
+			// 0 text - The error message
+			:00_Current "Backup failure trying to copy current project database to backup destination. The error reported was: {0}"
+		}
+		BackupFailureTryingToCopyFilesToBackupTheError "Backup failure trying to copy files to backup. The error reported was: {0}"
+		{
+			// d79f548e
+			// 0 text - The error message
+			:00_Current "Backup failure trying to copy files to backup. The error reported was: {0}"
+		}
+		BackupFailureTryingToCreateNewDatabaseFileThe "Backup failure trying to create new database file. The error reported was: {0}"
+		{
+			// e6cebcd0
+			// 0 text - The error message
+			:00_Current "Backup failure trying to create new database file. The error reported was: {0}"
+		}
+		BackupFailureTryingToDumpTheDatabase "Backup failure trying to dump the database."
+		{
+			// 8d60a9c8
+			:00_Current "Backup failure trying to dump the database."
+		}
+		BackupFailureTryingToDumpTheDatabaseTheError "Backup failure trying to dump the database. The error reported was: {0}"
+		{
+			// d12e9333
+			// 0 text - The error message
+			:00_Current "Backup failure trying to dump the database. The error reported was: {0}"
+		}
+		BackupFailureTryingToFinishTheBackupBackup "Backup failure trying to finish the backup. Backup chain might now be invalid. You might need to create another full backup. The error reported was: {0}"
+		{
+			// f6515b6a
+			// 0 text - The error message
+			:00_Current "Backup failure trying to finish the backup. Backup chain might now be invalid. You might need to create another full backup. The error reported was: {0}"
+		}
+		BackupFailureTryingToMoveTheOldDatabaseToThe "Backup failure trying to move the old database to the backup location. The error reported was: {0}"
+		{
+			// 7540278c
+			// 0 text - The error message
+			:00_Current "Backup failure trying to move the old database to the backup location. The error reported was: {0}"
+		}
+		BackupFailureTryingToOpenBackupDestinationFile "Backup failure trying to open backup destination file. The error reported was: {0}"
+		{
+			// d98dcb66
+			// 0 text - The error message
+			:00_Current "Backup failure trying to open backup destination file. The error reported was: {0}"
+		}
+		BackupFailureTryingToRemoveTheLastSavedBackup "Backup failure trying to remove the last saved backup location. Backup chain is now invalid. You need to create another full backup. The error reported was: {0}"
+		{
+			// 8d050448
+			// 0 text - The error message
+			:00_Current "Backup failure trying to remove the last saved backup location. Backup chain is now invalid. You need to create another full backup. The error reported was: {0}"
+		}
+		BackupFailureTryingToRenameTheNewDatabaseFile "Backup failure trying to rename the new database file. The error reported was: {0}"
+		{
+			// 777bcd74
+			// 0 text - The error message
+			:00_Current "Backup failure trying to rename the new database file. The error reported was: {0}"
+		}
+		BackupFailureTryingToSaveLastBackupDestination "Backup failure trying to save last backup destination. The error reported was: {0}"
+		{
+			// 1317e717
+			// 0 text - The error message
+			:00_Current "Backup failure trying to save last backup destination. The error reported was: {0}"
+		}
+		CouldNotMoveTransactionLogToBackupLocationThe "{0}Could not move transaction log to backup location. The error was: {1}\n"\
+		                                              "Will now try to move it to a location in the same directory:\n"\
+		                                              "{2}\n"\
+		                                              ""
+		{
+			// bd9f5738
+			// 0 text - Any previous error message
+			// 1 text - The error message
+			// 2 text - The new file name
+			:00_Current "{0}Could not move transaction log to backup location. The error was: {1}\n"\
+			            "Will now try to move it to a location in the same directory:\n"\
+			            "{2}\n"\
+			            ""
+		}
+		CouldNotOpenDatabaseFileTheErrorWasX "Could not open database file. The error was:\r\n"\
+		                                     "{0}"
+		{
+			// 29b4df1b
+			// 0 text - The error message
+			:00_Current "Could not open database file. The error was:\r\n"\
+			            "{0}"
+		}
+		CouldNotReadTransactionLogTheErrorWasX "Could not read transaction log. The error was: {0}"
+		{
+			// fdc8d578
+			// 0 text - The error message
+			:00_Current "Could not read transaction log. The error was: {0}"
+		}
+		FailedToFlushTheTransactionLogTheErrorWasX "{0}Failed to flush the transaction log. The error was: {1}"
+		{
+			// 8d2f919f
+			// 0 text - Any previous error message
+			// 1 text - The error message
+			:00_Current "{0}Failed to flush the transaction log. The error was: {1}"
+		}
+		FailedToLoadTheDatabaseFile "Failed to load the database file."
+		{
+			// 6b9be8dc
+			:00_Current "Failed to load the database file."
+		}
+		FailedToMoveTheTransactionLogEvenWhileDoingIt "{0}Failed to move the transaction log even while doing it to the same directory. The error was: {1}\n"\
+		                                              ""
+		{
+			// 9ab8ec7b
+			// 0 text - Any previous error message
+			// 1 text - The error message
+			:00_Current "{0}Failed to move the transaction log even while doing it to the same directory. The error was: {1}\n"\
+			            ""
+		}
+		LogTSXsXBXX "LogTS({0} s, {1} b): {2} {3}"
+		{
+			// 7817971c
+			// 0 decimal - Time in seconds
+			// 1 integer - Size in bits
+			// 2 text - Debug text
+			// 3 text - Extra info
+			:00_Current "LogTS({0} s, {1} b): {2} {3}"
+		}
+		SevereErrorsWasFoundWhenCheckingTheDatabaseA "Severe errors was found when checking the database. A rebuild of the database will now be performed. This could take a considerable time. The following log was generated when checking the database:\r\n"\
+		                                             "{0}"
+		{
+			// eac62271
+			// 0 text - Error message
+			:00_Current "Severe errors was found when checking the database. A rebuild of the database will now be performed. This could take a considerable time. The following log was generated when checking the database:\r\n"\
+			            "{0}"
+		}
+		SevereErrorsWereFoundInTheDatabaseAndWere "Severe errors were found in the database and were successfully fixed. Some data might be missing. The old broken FS was saved as '{0}'.  The following error log was generated when rebuilding the database:\r\n"\
+		                                          "{1}"
+		{
+			// f8d9d887
+			// 0 text - File name of saved broken database
+			// 1 text - Error log message
+			:00_Current "Severe errors were found in the database and were successfully fixed. Some data might be missing. The old broken FS was saved as '{0}'.  The following error log was generated when rebuilding the database:\r\n"\
+			            "{1}"
+		}
+		TheDatabaseCouldNotBeCheckedBecauseOf "The database could not be checked because of insufficient memory. Runtime errors could occur if the database is not consistent. Consider running the Hansoft service on a 64 bit operating system to increase the available virtual memory space."
+		{
+			// 67e8a297
+			:00_Current "The database could not be checked because of insufficient memory. Runtime errors could occur if the database is not consistent. Consider running the Hansoft service on a 64 bit operating system to increase the available virtual memory space."
+		}
+		TheDatabaseCouldNotBeCheckedBecauseOf2 "The database could not be checked because of insufficient memory. Runtime errors could occur if the database is not consistent. Consider increasing the amount of physical memory in the server, or increase the size of the page file."
+		{
+			// 64fcf5a9
+			:00_Current "The database could not be checked because of insufficient memory. Runtime errors could occur if the database is not consistent. Consider increasing the amount of physical memory in the server, or increase the size of the page file."
+		}
+		TheDatabaseIsFileWasGeneratedByANewerVersionOf "The database file was generated by a newer version of the server. The server cannot be downgraded without restoring to a backup made with the same or an older version of the server."
+		{
+			// 038370e2
+			:00_Current "The database file was generated by a newer version of the server. The server cannot be downgraded without restoring to a backup made with the same or an older version of the server."
+		}
+		TheDatabaseIsProtected "The database file was saved with password protection. This is not supported in Hansoft 7 and later. To unprotect the database, please load and backup the database in Hansoft 6.7"
+		{
+			// 0792c4ba
+			:00_Current "The database file was saved with password protection. This is not supported in Hansoft 7 and later. To unprotect the database, please load and backup the database in Hansoft 6.7"
+		}
+		TheDatabaseVersionIsOldAndAUpgradeWillNowBe "The database version is old and a upgrade will now be performed. The following log was generated when checking the database:\r\n"\
+		                                            "{0}"
+		{
+			// 574996e4
+			// 0 text - Log message
+			:00_Current "The database version is old and a upgrade will now be performed. The following log was generated when checking the database:\r\n"\
+			            "{0}"
+		}
+		TheDatabaseVersionWasUpgradedTheFollowingLog "The database version was upgraded. The following log was generated:\r\n"\
+		                                             "{0}"
+		{
+			// d165e6c5
+			// 0 text - Log message
+			:00_Current "The database version was upgraded. The following log was generated:\r\n"\
+			            "{0}"
+		}
+		TheServerNeedsToResetTheTransactionLogToBring "The server needs to reset the transaction log to bring the database online, but was unable to do so because of an error during backup. This means the database will remain offline until the backup error is fixed and the database is manually brought online again."
+		{
+			// 76e87fa9
+			:00_Current "The server needs to reset the transaction log to bring the database online, but was unable to do so because of an error during backup. This means the database will remain offline until the backup error is fixed and the database is manually brought online again."
+		}
+		TheTransactionLogDoesNotMatchTheCurrently "The transaction log does not match the currently loading database. The database will not go online until this error has been corrected. Please contact support@hansoft.com for support."
+		{
+			// df6f52f9
+			:00_Current "The transaction log does not match the currently loading database. The database will not go online until this error has been corrected. Please contact support@hansoft.com for support."
+		}
+		TheTransactionLogOfTheCurrentlyLoadingDatabase "The transaction log of the currently loading database is from a previous version of the Hansoft server. This means that the changes in the transaction log will not be processed and thus lost.\r\n"\
+		                                               "\r\n"\
+		                                               "Normally this isn't a problem as the database file + transaction log is the same as the next backups database file. If you need the changes in this transaction log you need to load the database in the correct version of the Hansoft server and then create a new backup from there so the transaction log is reset. All changes are then contained in the database file and can be used in the newest version of the Hansoft server.\r\n"\
+		                                               "\r\n"\
+		                                               "The database version in this transaction log is: {0,nfh}\r\n"\
+		                                               "\r\n"\
+		                                               "If you need to match this version against a specific Hansoft server version, please contact support@hansoft.com"
+		{
+			// b74d6338
+			// 0 integer - The version number of the database
+			:00_Current "The transaction log of the currently loading database is from a previous version of the Hansoft server. This means that the changes in the transaction log will not be processed and thus lost.\r\n"\
+			            "\r\n"\
+			            "Normally this isn't a problem as the database file + transaction log is the same as the next backups database file. If you need the changes in this transaction log you need to load the database in the correct version of the Hansoft server and then create a new backup from there so the transaction log is reset. All changes are then contained in the database file and can be used in the newest version of the Hansoft server.\r\n"\
+			            "\r\n"\
+			            "The database version in this transaction log is: {0,nfh}\r\n"\
+			            "\r\n"\
+			            "If you need to match this version against a specific Hansoft server version, please contact support@hansoft.com"
+		}
+		TransactionLogContainsAPacketThatWasGenerated "Transaction log contains a packet that was generated by a newer version of the server. The server cannot be downgraded without restoring to a backup made with the same or an older version of the server."
+		{
+			// 895e9ec9
+			:00_Current "Transaction log contains a packet that was generated by a newer version of the server. The server cannot be downgraded without restoring to a backup made with the same or an older version of the server."
+		}
+		UnrecoverableBackupFailureTryingToFinishBackup "Unrecoverable backup failure trying to finish backup. The error reported was: {0}"
+		{
+			// bd27c8c0
+			// 0 text - Error message
+			:00_Current "Unrecoverable backup failure trying to finish backup. The error reported was: {0}"
+		}
+		UnrecoverableBackupFailureTryingToFinishThe "Unrecoverable backup failure trying to finish the backup. The error reported was: {0}"
+		{
+			// f24cf98b
+			// 0 text - Error message
+			:00_Current "Unrecoverable backup failure trying to finish the backup. The error reported was: {0}"
+		}
+		UnrecoverableBackupFailureTryingToFlushThe "Unrecoverable backup failure trying to flush the transaction log. The error reported was: {0}"
+		{
+			// 1e50d96c
+			// 0 text - Error message
+			:00_Current "Unrecoverable backup failure trying to flush the transaction log. The error reported was: {0}"
+		}
+		UnrecoverableBackupFailureTryingToResetThe "Unrecoverable backup failure trying to reset the transaction log. The error reported was: {0}"
+		{
+			// 10ee16ed
+			// 0 text - Error message
+			:00_Current "Unrecoverable backup failure trying to reset the transaction log. The error reported was: {0}"
+		}
+	}
+
+	namespace NProtocol
+	// Log messages for incoming package statistics and failed logins
+	{
+		LogDBXsXBXX "LogDB({0} s, {1} b): {2} {3}"
+		{
+			// 2b618467
+			// 0 decimal - Time in seconds
+			// 1 integer - Size in bits
+			// 2 text - Debug text
+			// 3 text - Extra info
+			:00_Current "LogDB({0} s, {1} b): {2} {3}"
+		}
+		LogRQXsXBXX "LogRQ({0} s, {1} b): {2} {3}"
+		{
+			// 99a4b804
+			// 0 decimal - Time in seconds
+			// 1 integer - Size in bits
+			// 2 text - Debug text
+			// 3 text - Extra info
+			:00_Current "LogRQ({0} s, {1} b): {2} {3}"
+		}
+		UnexpectedCustomAuthTryingToCompleteLoginFor "Unexpected: custom auth trying to complete login for Admin or SDK account"
+		{
+			// 4b28a165
+			:00_Current "Unexpected: custom auth trying to complete login for Admin or SDK account"
+		}
+		UnexpectedTryingToCompleteLoginForLockedOr "Unexpected: trying to complete login for locked or inactive account"
+		{
+			// 07e5388b
+			:00_Current "Unexpected: trying to complete login for locked or inactive account"
+		}
+		UnexpectedTryingToCompleteLoginViaChannelXWith "Unexpected: trying to complete login (via Channel \"{0}\") with unknown User ID {1}"
+		{
+			// d1ceb31e
+			// 0 text - The name of the communication channel
+			// 1 integer - The ID of the user trying to login
+			:00_Current "Unexpected: trying to complete login (via Channel \"{0}\") with unknown User ID {1}"
+		}
+		UnexpectedTryingToCompleteLoginWithAKeyOfSizeX "Unexpected: trying to complete login with a key of size {0}"
+		{
+			// 24ebe99f
+			// 0 integer - The size of the login key
+			:00_Current "Unexpected: trying to complete login with a key of size {0}"
+		}
+	}
+
+	namespace NVersionControlContext
+	// Messages for system version control file creation and errors
+	{
+		AutomaticRename "Automatic rename"
+		{
+			// 88bf28a3
+			:00_Current "Automatic rename"
+		}
+		CannotMoveDirectoryIntoSelf "Cannot move file or directory into itself: {0}"
+		{
+			// 8bc66277
+			// 0 text - The server file path
+			:00_Current "Cannot move file or directory into itself: {0}"
+		}
+		DefauDeletedProjectsFolderCreated "Default deleted projects folder created"
+		{
+			// fa59abde
+			:00_Current "Default deleted projects folder created"
+		}
+		DefauProjectFolderCreated "Default project folder created"
+		{
+			// da5f29f4
+			:00_Current "Default project folder created"
+		}
+		DefauProjectsFolderCreated "Default projects folder created"
+		{
+			// 066fad47
+			:00_Current "Default projects folder created"
+		}
+		DefauSDKFolderCreated "Default SDK folder created"
+		{
+			// 278ca67f
+			:00_Current "Default SDK folder created"
+		}
+		DefauTranslationsFolderCreated "Default Translations folder created"
+		{
+			// b1b871bf
+			:00_Current "Default Translations folder created"
+		}
+		DefaultAvatarsFolderCreated "Default Avatars folder created"
+		{
+			// f99b6b4f
+			:00_Current "Default Avatars folder created"
+		}
+		DefaultPersonalFolderCreated "Default Personal folder created"
+		{
+			// cc15d4e1
+			:00_Current "Default Personal folder created"
+		}
+		DeletedProjects "Deleted Projects"
+		{
+			// 7c3b0365
+			:00_Current "Deleted Projects"
+		}
+		DestinationIsNotADirectory "Destination is not a directory: {0}"
+		{
+			// 1aac7809
+			// 0 text - Destination directory name
+			:00_Current "Destination is not a directory: {0}"
+		}
+		MovedToDeletedProjects NLocalize/NShared/MovedToDeletedProjects
+		{
+			// 212ed163
+			:00_Current "Moved to deleted projects"
+		}
+	}
+}

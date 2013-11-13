@@ -1,0 +1,1365 @@
+﻿namespace NLogin
+// Login messages
+{
+	AuthenticationFailedDueToNetworkProblems "Authentication failed due to network problems"
+	{
+		// 17643bb3
+		:00_Current "Authentication failed due to network problems"
+	}
+	ChangingPassword "Changing password..."
+	{
+		// 208f4871
+		:00_Current "Changing password..."
+	}
+	ChangingYourPassword "Changing your password."
+	{
+		// 5619fbe0
+		:00_Current "Changing your password."
+	}
+	Continue "Continue"
+	{
+		// 32d94fc4
+		:00_Current "Continue"
+	}
+	FailedToChangePassword "Failed to change password"
+	{
+		// cacdd9a0
+		:00_Current "Failed to change password"
+	}
+	ForceExit "Exit now"
+	{
+		// f75b0bc8
+		:00_Current "Exit now"
+	}
+	ForciblyLoggingYouOut "Forcibly logging you out."
+	
+
+	{
+		// e08b1d35
+		:00_Current "Forcibly logging you out."
+	}
+	GoBack NLocalize/NShared/GoBack
+	{
+		// 5354d606
+		:00_Current "Back"
+	}
+	HansoftPasswordbasedAuthentication "Hansoft password-based authentication:\r\n"\
+	                                   ""
+	{
+		// f285dfc4
+		:00_Current "Hansoft password-based authentication:\r\n"\
+		            ""
+	}
+	HansoftPasswordbasedAuthenticationHasBeen "Hansoft password-based authentication has been disabled for this user"
+	{
+		// 16a8649a
+		:00_Current "Hansoft password-based authentication has been disabled for this user"
+	}
+	IncorrectUserNameOrPassword "Incorrect user name or password"
+	{
+		// 208aa2dc
+		:00_Current "Incorrect user name or password"
+	}
+	LoggingOut "Logging out..."
+	{
+		// 1441879e
+		:00_Current "Logging out..."
+	}
+	LoggingYouOut "Logging you out."
+	{
+		// 99e7ba1b
+		:00_Current "Logging you out."
+	}
+	Login NLocalize/NShared/Login
+	{
+		// b54e2738
+		:00_Current "Sign in"
+	}
+	LoginOptions "Login options"
+	{
+		// 764bf344
+		:00_Current "Login options"
+	}
+	LoginTitle NLocalize/NShared/Login
+	{
+		// b80b041a
+		:00_Current "Sign in"
+	}
+	Options NLocalize/NShared/Options2
+	{
+		// 2ba4058b
+		:00_Current "Options"
+	}
+	PasswordChanged "Password changed"
+	{
+		// 256bc23c
+		:00_Current "Password changed"
+	}
+	PleaseWaitWhileHansoftChecksYourCredentials "Please wait while Hansoft checks your credentials"
+	{
+		// 00a1b7a8
+		:00_Current "Please wait while Hansoft checks your credentials"
+	}
+	SavingDatabaseCache "Saving database cache..."
+	{
+		// fa875750
+		:00_Current "Saving database cache..."
+	}
+	SelectProjectDatabase "Database"
+	{
+		// 24c5cd4b
+		:00_Current "Database"
+	}
+	TheDatabaseXSpecifiedInTheURLDoesNotExistOn "The database '{0}' specified in the URL does not exist on this server"
+	{
+		// 4af54cea
+		// 0 text - The name of a database
+		:00_Current "The database '{0}' specified in the URL does not exist on this server"
+	}
+	ThisUserIsNotAllowedToLoginToProjectServer "This user is not allowed to login to the project server."
+	{
+		// c5710038
+		:00_Current "This user is not allowed to login to the project server."
+	}
+	UnknownLoginFailure "Unknown login failure."
+	{
+		// d7884090
+		:00_Current "Unknown login failure."
+	}
+	UsingSavedPassword "Using saved password"
+	{
+		// 64b1198b
+		:00_Current "Using saved password"
+	}
+	YouMustSpecifyADatabaseToLogIn "You must specify a database to log in."
+	{
+		// 572f744a
+		:00_Current "You must specify a database to log in."
+	}
+	YouMustSpecifyANameAndPasswordToLogIn "You must specify a name and password to log in."
+	{
+		// b52a505c
+		:00_Current "You must specify a name and password to log in."
+	}
+	YouMustSpecifyAPasswordForUserAccountX "You must specify a password for user account {0}."
+	{
+		// 8f190dd7
+		// 0 text - A username
+		:00_Current "You must specify a password for user account {0}."
+	}
+	YourName "User name"
+	{
+		// 90a27fef
+		:00_Current "User name"
+	}
+	YourPassword "Password"
+	{
+		// 0471fc61
+		:00_Current "Password"
+	}
+	YourPasswordHasBeenChangedSuccessfully "Your password has been changed successfully."
+	{
+		// 19688be6
+		:00_Current "Your password has been changed successfully."
+	}
+}
+namespace NClientLoginOptions
+// Strings for the Connect options dialog. 
+// Available by pressing Options hyperlink button in Connect and Login window.
+{
+	Cancel NLocalize/NShared/Cancel2
+	{
+		// 6a7f78f0
+		:00_Current "Cancel"
+	}
+	ConnectToThisServerOnStartup "Connect to server on startup"
+	{
+		// 9c37c776
+		:00_Current "Connect to server on startup"
+	}
+	GroupTitleGeneral "General:"
+	{
+		// 5f53b1d7
+		:00_Current "General:"
+	}
+	GroupTitleLanguage "Language:"
+	{
+		// b34ff7fd
+		:00_Current "Language:"
+	}
+	GroupTitleSecurity "Security:"
+	{
+		// 4458d3f1
+		:00_Current "Security:"
+	}
+	LoginAutomaticallySkipThisPage "Login automatically (skip this page)"
+	{
+		// 906b16a8
+		:00_Current "Login automatically (skip this page)"
+	}
+	ManageServerCertificates "Manage stored trusted server certificates"
+	{
+		// 23e0dae0
+		:00_Current "Manage stored trusted server certificates"
+	}
+	Ok NLocalize/NShared/Ok2
+	{
+		// 11964f44
+		:00_Current "Ok"
+	}
+	SaveAHistoryOfLoginNames "Save a history of login names"
+	{
+		// d6e33eae
+		:00_Current "Save a history of login names"
+	}
+	SaveAHistoryOfProjectServerAddresses "Save a history of project server addresses"
+	{
+		// b57429ed
+		:00_Current "Save a history of project server addresses"
+	}
+	SaveYourPassword "Save your password"
+	{
+		// 9e26fedb
+		:00_Current "Save your password"
+	}
+	StartHansoftProjectManagerWhenComputerStarts "Start Hansoft when computer starts"
+	{
+		// 09613b9f
+		:00_Current "Start Hansoft when computer starts"
+	}
+	XOperatingSystemDefault NLocalize/NShared/XFromOperatingSystem
+	{
+		// 9ee75295
+		// 0 text - The name of the language set in the operating system
+		:00_Current "{0} (From operating system)"
+	}
+}
+namespace NClientLoginSecurity
+// Manage trusted server certificates dialog
+{
+	AreYouSureYouWantToRemoveCertificate "Are you sure you want to remove the selected certificate from the list of trusted server certificates?"
+	{
+		// b8040a15
+		:00_Current "Are you sure you want to remove the selected certificate from the list of trusted server certificates?"
+	}
+	Certificate "Certificate"
+	{
+		// 71484c79
+		:00_Current "Certificate"
+	}
+	ManageCertificates "Manage trusted server certificates"
+	{
+		// b73a0755
+		:00_Current "Manage trusted server certificates"
+	}
+	RemoveCertificate "Remove"
+	{
+		// 2ea6fbc7
+		:00_Current "Remove"
+	}
+	ViewCertificate "View"
+	{
+		// 140c3154
+		:00_Current "View"
+	}
+}
+namespace NPasswordExpired
+// Password expire dialog.
+{
+	And " and "
+	{
+		// 79ef889d
+		:00_Current " and "
+	}
+	Change "Change"
+	{
+		// 36b69a30
+		:00_Current "Change"
+	}
+	ChangePassword "Change password"
+	{
+		// 540ec043
+		:00_Current "Change password"
+	}
+	ConfirmNewPassword "Confirm new password"
+	{
+		// 57eab915
+		:00_Current "Confirm new password"
+	}
+	ConfirmYourNewPassword "Confirm your new password"
+	{
+		// 0bb0e724
+		:00_Current "Confirm your new password"
+	}
+	Contain ", contain "
+	{
+		// 1ecc6cd6
+		:00_Current ", contain "
+	}
+	CurrentPassword "Current password"
+	{
+		// 4230eea0
+		:00_Current "Current password"
+	}
+	EnterYourCurrentPassword "Enter your current password"
+	{
+		// 5aa7ba0d
+		:00_Current "Enter your current password"
+	}
+	EnterYourNewPassword "Enter your new password"
+	{
+		// a8ec65d4
+		:00_Current "Enter your new password"
+	}
+	GoBack NLocalize/NShared/GoBack
+	{
+		// 4078b0b1
+		:00_Current "Back"
+	}
+	NewPassword "New password"
+	{
+		// dfe448e7
+		:00_Current "New password"
+	}
+	PasswordExpired "Password expired"
+	{
+		// fce7b14e
+		:00_Current "Password expired"
+	}
+	TheNewPasswordDoesNotMeetThePasswordPolicy "The new password does not meet the password policy:"
+	{
+		// 1027d8b3
+		:00_Current "The new password does not meet the password policy:"
+	}
+	TheNewPasswordMustBeAtLeastXCharactersLong "At least {0} characters long."
+	{
+		// a6010bee
+		// 0 integer - Number of characters
+		:00_Current "At least {0} characters long."
+	}
+	TheNewPasswordMustContainAtLeastXAlphabeticCharacters "At least {0} alphabetic characters."
+	{
+		// fc6d6b50
+		// 0 integer - Number of characters
+		:00_Current "At least {0} alphabetic characters."
+	}
+	TheNewPasswordMustContainAtLeastXLowerCaseCharacters "At least {0} lower case characters."
+	{
+		// e0dd7c08
+		// 0 integer - Number of characters
+		:00_Current "At least {0} lower case characters."
+	}
+	TheNewPasswordMustContainAtLeastXNumbers "At least {0} numbers."
+	{
+		// bcda6ddf
+		// 0 integer - Number of characters
+		:00_Current "At least {0} numbers."
+	}
+	TheNewPasswordMustContainAtLeastXSymbols "At least {0} symbols."
+	{
+		// 471269ec
+		// 0 integer - Number of characters
+		:00_Current "At least {0} symbols."
+	}
+	TheNewPasswordMustContainAtLeastXUpperCaseCharacters "At least {0} upper case characters."
+	{
+		// 02ac086b
+		// 0 integer - Number of characters
+		:00_Current "At least {0} upper case characters."
+	}
+
+	ThePasswordContainsTooFewAlphabeticLetters "The password contains too few alphabetic letters."
+	{
+		// 26776e01
+		:00_Current "The password contains too few alphabetic letters."
+	}
+	ThePasswordContainsTooFewLowerCaseLetters "The password contains too few lower case letters."
+	{
+		// 11423ff9
+		:00_Current "The password contains too few lower case letters."
+	}
+	ThePasswordContainsTooFewNumbers "The password contains too few numbers."
+	{
+		// 2e52ffed
+		:00_Current "The password contains too few numbers."
+	}
+	ThePasswordContainsTooFewSymbols "The password contains too few symbols."
+	{
+		// b88afbfa
+		:00_Current "The password contains too few symbols."
+	}
+	ThePasswordContainsTooFewUpperCaseLetters "The password contains too few upper case letters."
+	{
+		// 83a66f3c
+		:00_Current "The password contains too few upper case letters."
+	}
+	ThePasswordIsTooShort "The password is too short."
+	{
+		// bbf7e4fc
+		:00_Current "The password is too short."
+	}
+	ThePasswordsDoNotMatchMakeSureThatYouTypeThe "The passwords do not match. Make sure that you type the same password twice."
+	{
+		// 3b6f3ab0
+		:00_Current "The passwords do not match. Make sure that you type the same password twice."
+	}
+	XAlphabeticLetters "{0} alphabetic [NHelpers::Pluralize($0,'letter')]"
+	{
+		// 1ad885b2
+		// 0 integer - Number of letters
+		:00_Current "{0} alphabetic [NHelpers::Pluralize($0,'letter')]"
+	}
+	XLowerCaseLetters "{0} lower case [NHelpers::Pluralize($0,'letter')]"
+	{
+		// cb16a58a
+		// 0 integer - Number of letters
+		:00_Current "{0} lower case [NHelpers::Pluralize($0,'letter')]"
+	}
+	XNewLineDashX "{0}\n"\
+	              "- {1}"
+	{
+		// e44fb3ec
+		// 0 text - A line of text
+		// 1 text - A line of text
+		:00_Current "{0}\n"\
+		            "- {1}"
+	}
+
+
+	XNewLineTabX "{0}\n"\
+	             "\t{1}"
+	{
+		// d0a654e3
+		// 0 text - A line of text
+		// 1 text - A line of text
+		:00_Current "{0}\n"\
+		            "\t{1}"
+	}
+	XNumbers "{0} [NHelpers::Pluralize($0,'number')]"
+	{
+		// 7d54965e
+		// 0 integer - Number of numbers
+		:00_Current "{0} [NHelpers::Pluralize($0,'number')]"
+	}
+	XSymbols "{0} [NHelpers::Pluralize($0,'symbol')]"
+	{
+		// 078c926b
+		// 0 integer - Number of symbols
+		:00_Current "{0} [NHelpers::Pluralize($0,'symbol')]"
+	}
+	XUpperCaseLetters "{0} upper case [NHelpers::Pluralize($0,'letter')]"
+	{
+		// 3d7ad4cd
+		// 0 integer - Number of letters
+		:00_Current "{0} upper case [NHelpers::Pluralize($0,'letter')]"
+	}
+	YourPasswordHasExpiredAndYouNeedToChangeItThe "Your password has expired and you need to change it. The password needs to be at least {0} [NHelpers::Pluralize($0,'character')] long"
+	{
+		// 0837bb8c
+		// 0 integer - Number of charactes
+		:00_Current "Your password has expired and you need to change it. The password needs to be at least {0} [NHelpers::Pluralize($0,'character')] long"
+	}
+}
+namespace NLogout
+// Messages shown when synchronizing data from server.
+{
+	AreYouSureYouWantToLogoutNowYouMayLoseOr "Are you sure you want to logout now? You may lose or destroy project data"
+	{
+		// 35011894
+		:00_Current "Are you sure you want to logout now? You may lose or destroy project data"
+	}
+	IWantToLogOutNowAndMayLoseData "I want to log out now and may lose data"
+	{
+		// ec368dfb
+		:00_Current "I want to log out now and may lose data"
+	}
+	LoggingOutTitle "Logging out"
+	{
+		// b65cf721
+		:00_Current "Logging out"
+	}
+	SyncronizingProjectData "Syncronising project data..."
+	{
+		// 2137c99e
+		:00_Current "Syncronising project data..."
+	}
+}
+namespace NClientMain
+// Labels and messages for Connect window.
+{
+	ADifferentVersionOfHansoftIsRequired "A different version of Hansoft is required before you can continue. Download it now?"
+	{
+		// 78f8812d
+		:00_Current "A different version of Hansoft is required before you can continue. Download it now?"
+	}
+	ANewerVersionOfHansoftHasBeenDownloaded "A newer version of Hansoft has been downloaded and is required before you can continue. Update now?"
+	{
+		// 4ca011f1
+		:00_Current "A newer version of Hansoft has been downloaded and is required before you can continue. Update now?"
+	}
+	Address "Hansoft server"
+	{
+		// 0c48a9b0
+		:00_Current "Hansoft server"
+	}
+	AdminStatusConnect "Hansoft Server Administrator - Connect to the server"
+	{
+		// 15b8b821
+		:00_Current "Hansoft Server Administrator - Connect to the server"
+	}
+	AdminStatusConnectError "Hansoft Server Administrator - {0}"
+	{
+		// f007066b
+		// 0 text - Error message
+		:00_Current "Hansoft Server Administrator - {0}"
+	}
+	AdminStatusConnectTip NLocalize/NShared/HansoftProjectServerAdministratorOffline
+	{
+		// 3fb143ce
+		:00_Current "Hansoft Server Administrator - Offline"
+	}
+	AdminStatusLogin "Hansoft Server Administrator - {0}"
+	{
+		// eb7fa690
+		// 0 text - The name of the server
+		:00_Current "Hansoft Server Administrator - {0}"
+	}
+	AdminStatusLostConnection NLocalize/NShared/HansoftProjectServerAdministratorOffline
+	{
+		// cfa85029
+		:00_Current "Hansoft Server Administrator - Offline"
+	}
+	AdminStatusOnline "Hansoft Server Administrator - {0} - {1} - {2}"
+	{
+		// 6264983c
+		// 0 text - The name of the server
+		// 1 text - The name of the logged in user
+		// 2 text - The version of the hansoft server/client
+		:00_Current "Hansoft Server Administrator - {0} - {1} - {2}"
+	}
+	AdminStatusOnlineTip "Hansoft Server Administrator - {0}"
+	{
+		// 4b5ff209
+		// 0 text - The name of the logged in user
+		:00_Current "Hansoft Server Administrator - {0}"
+	}
+	AnotherClientIsCurrentlyUpdating "Another client on this machine is currently updating. Please wait while that completes."
+	{
+		// e91ee57a
+		:00_Current "Another client on this machine is currently updating. Please wait while that completes."
+	}
+	AreYouSureYouWantToExitTheProgram "Are you sure you want to exit the program?"
+	{
+		// 17b3688b
+		:00_Current "Are you sure you want to exit the program?"
+	}
+	AuthenticationTimedOut "Authentication timed out."
+	{
+		// d9e8d635
+		:00_Current "Authentication timed out."
+	}
+	Cancel "Cancel"
+	{
+		// af833950
+		:00_Current "Cancel"
+	}
+	CancelConnection "Cancel"
+	{
+		// 9bf996c0
+		:00_Current "Cancel"
+	}
+	CancellingConnection "Cancelling connection..."
+	{
+		// 5fda016a
+		:00_Current "Cancelling connection..."
+	}
+	CancellingLogIn "Cancelling log in..."
+	{
+		// 85680813
+		:00_Current "Cancelling log in..."
+	}
+	CertificateDetails "Certificate Details"
+	{
+		// fb189ed3
+		:00_Current "Certificate Details"
+	}
+	ClientLibraryHasAnInvalidInterface "Client library has an invalid interface."
+	{
+		// 238efe81
+		:00_Current "Client library has an invalid interface."
+	}
+	ClientLibraryIsTheWrongVersion "Client library is the wrong version."
+	{
+		// 62ce90ee
+		:00_Current "Client library is the wrong version."
+	}
+	ClientMustBeRestartedManuallyDueToElevation "You need to restart the Hansoft client to connect to the server."
+	{
+		// cb1855f2
+		:00_Current "You need to restart the Hansoft client to connect to the server."
+	}
+	ClientVersionRejectedByServer "The client is not using the same version of Hansoft as the server."
+	{
+		// 48ee7667
+		:00_Current "The client is not using the same version of Hansoft as the server."
+	}
+	Closing "Closing"
+	{
+		// b9ae1279
+		:00_Current "Closing"
+	}
+	Connect NLocalize/NShared/Connect
+	{
+		// c098a394
+		:00_Current "Connect"
+	}
+	ConnectOptions "Connect options"
+	{
+		// 751b7020
+		:00_Current "Connect options"
+	}
+	ConnectTitle NLocalize/NShared/Connect
+	{
+		// 77dd99f6
+		:00_Current "Connect"
+	}
+	Connecting "Connecting..."
+	{
+		// 734cb852
+		:00_Current "Connecting..."
+	}
+	ConnectionToServerTimedOut "Connection to server timed out."
+	{
+		// 4fd8879f
+		:00_Current "Connection to server timed out."
+	}
+	ConnectionWasRefused "Failed to complete server trust verification. This could occur as a result of your certificate not being trusted by the server. The reported errors were: {0}"
+	{
+		// 724a3d53
+		// 0 text - Error messages
+		:00_Current "Failed to complete server trust verification. This could occur as a result of your certificate not being trusted by the server. The reported errors were: {0}"
+	}
+	Continue "Continue"
+	{
+		// d41c09ef
+		:00_Current "Continue"
+	}
+	CouldNotConnectToServer "Could not connect to server."
+	{
+		// d6c4a6d6
+		:00_Current "Could not connect to server."
+	}
+	CouldNotCreateHansoftClientInterface "Could not create Hansoft client interface."
+	{
+		// ef7bb169
+		:00_Current "Could not create Hansoft client interface."
+	}
+	DatabaseDoesNotExist "Database does not exist."
+	{
+		// 37583488
+		:00_Current "Database does not exist."
+	}
+	DatabaseIsNotOnline "Database is not currently online."
+	{
+		// 5144d6d1
+		:00_Current "Database is not currently online."
+	}
+	DisconnectedFromServer "Disconnected from server."
+	{
+		// 14e05448
+		:00_Current "Disconnected from server."
+	}
+	Exit "Exit"
+	{
+		// 1eba2224
+		:00_Current "Exit"
+	}
+	FailedToConnect "Failed to connect."
+	{
+		// 3f85069c
+		:00_Current "Failed to connect."
+	}
+	FailedToConnectToServerMakeSureThatYouHave "Failed to connect to server!\n"\
+	                                           "\n"\
+	                                           "Make sure that you have typed in a valid\n"\
+	                                           "project server address and port."
+	{
+		// a1157aa5
+		:00_Current "Failed to connect to server!\n"\
+		            "\n"\
+		            "Make sure that you have typed in a valid\n"\
+		            "project server address and port."
+	}
+	FailedToDownloadRequiredFiles "Failed to download required files."
+	{
+		// 9311a17e
+		:00_Current "Failed to download required files."
+	}
+	FailedToDownloadRequiredFilesX "Failed to download required files.\n"\
+	                               "{0}"
+	{
+		// f545d196
+		// 0 text - Error messages
+		:00_Current "Failed to download required files.\n"\
+		            "{0}"
+	}
+	FailedToGetListOfAvailableDatabases "Failed to get the list of available databases."
+	{
+		// 04721fcc
+		:00_Current "Failed to get the list of available databases."
+	}
+	FailedToGetListOfFilesToDownload "Failed to get the list of files to download."
+	{
+		// f39d9df1
+		:00_Current "Failed to get the list of files to download."
+	}
+	FailedToLoad "Failed to load."
+	{
+		// c6a5d172
+		:00_Current "Failed to load."
+	}
+	FailedToLoadClientLibrary1 "Failed to load client library. (1)"
+	{
+		// e115a317
+		:00_Current "Failed to load client library. (1)"
+	}
+	FailedToLoadClientLibrary2	"Failed to load client library. (2)"
+	{
+		// e115a318
+		:00_Current "Failed to load client library. (2)"
+	}
+	FailedToLoadHansoftPlugins "Failed to load Hansoft plugins."
+	{
+		// 02b6d127
+		:00_Current "Failed to load Hansoft plugins."
+	}
+	FailedToLogin "Failed to login."
+	{
+		// 9b601a4b
+		:00_Current "Failed to login."
+	}
+	FailedToOpenDatabase "Failed to open database."
+	{
+		// ca854b19
+		:00_Current "Failed to open database."
+	}
+	FailedToPassConnectionToClient "Failed to pass the connection to the client application."
+	{
+		// ffa8b59b
+		:00_Current "Failed to pass the connection to the client application."
+	}
+	FailedToStartTheRequiredVersionOfHansoftX	"Hansoft Failed to start the required version of Hansoft.\n"\
+	                                         	"{0}"
+	{
+		// c18b94c8
+		// 0 text - Error message
+		:00_Current "Hansoft Failed to start the required version of Hansoft.\n"\
+		            "{0}"
+	}
+	FailedToSync "Failed to sync."
+	{
+		// c6a9d44f
+		:00_Current "Failed to sync."
+	}
+	FailedToVerifyServer "Failed to verify the server's certificate. The reported errors were: {0}"
+	{
+		// 9fd7737e
+		// 0 text - Error messages
+		:00_Current "Failed to verify the server's certificate. The reported errors were: {0}"
+	}
+	HansoftDoesNotHavePermissions "Hansoft does not have permissions to write to {0} on your computer."
+	{
+		// 01651b59
+		// 0 text - Directory
+		:00_Current "Hansoft does not have permissions to write to {0} on your computer."
+	}
+	HansoftFailedToLogin "Hansoft failed to login.\n"\
+	                     "Please verify that you are using the correct username and password."
+	{
+		// e18d11fe
+		:00_Current "Hansoft failed to login.\n"\
+		            "Please verify that you are using the correct username and password."
+	}
+	HansoftFailedToLoginX "Hansoft failed to login.\n"\
+	                      "{0}"
+	{
+		// 132f5216
+		// 0 text - Error message.
+		:00_Current "Hansoft failed to login.\n"\
+		            "{0}"
+	}
+
+	HansoftIsConnectingToTheServer "Connecting..."
+	{
+		// 6170869c
+		:00_Current "Connecting..."
+	}
+	HansoftIsLoading "Loading..."
+	{
+		// 8f0a0977
+		:00_Current "Loading..."
+	}
+	HansoftIsLoggingYouIn "Logging you in..."
+	{
+		// 158ba414
+		:00_Current "Logging you in..."
+	}
+	HansoftIsSyncingRequiredFiles "Syncing required files..."
+	{
+		// bac7e4a8
+		:00_Current "Syncing required files..."
+	}
+	HansoftVersion "Hansoft {0}"
+	{
+		// 67e8af83
+		// 0 text - Version number
+		:00_Current "Hansoft {0}"
+	}
+	Initializing "Initializing"
+	{
+		// c4d9a0d5
+		:00_Current "Initializing"
+	}
+	Loading "Loading..."
+	{
+		// 74741e68
+		:00_Current "Loading..."
+	}
+	LogInCancelled "Log in cancelled."
+	{
+		// 2c2a56de
+		:00_Current "Log in cancelled."
+	}
+	LogOut "Sign out"
+	{
+		// c57ad464
+		:00_Current "Sign out"
+	}
+	LoggedOut "Logged out"
+	{
+		// 36840a74
+		:00_Current "Logged out"
+	}
+	LoggingIn "Logging in..."
+	{
+		// 36d248a8
+		:00_Current "Logging in..."
+	}
+	No "No"
+	{
+		// b908df87
+		:00_Current "No"
+	}
+	NoSavedPasswordFound "No saved password found."
+	{
+		// 935ccfa9
+		:00_Current "No saved password found."
+	}
+	NoSavedUserInformationFound "No saved user information found."
+	{
+		// 5485c17b
+		:00_Current "No saved user information found."
+	}
+	OpenHansoft "Open Hansoft"
+	{
+		// 4b7c93ef
+		:00_Current "Open Hansoft"
+	}
+	Options NLocalize/NShared/Options2
+	{
+		// 5f12a656
+		:00_Current "Options"
+	}
+	PlatformNotSupportedByServer "The server you are connecting to does not support your platform and architecture."
+	{
+		// 0b3221d8
+		:00_Current "The server you are connecting to does not support your platform and architecture."
+	}
+	PleaseFillInTheProjectServerAddressFieldBefore "Please fill in the project server address field before connecting!"
+	{
+		// 9dcaf6ee
+		:00_Current "Please fill in the project server address field before connecting!"
+	}
+	PleaseVerifyTrust	"Please verify that you trust {0}."
+	{
+		// 533b4a7b
+		// 0 text - Server address
+		:00_Current "Please verify that you trust {0}."
+	}
+	Port NLocalize/NShared/Port
+	{
+		// 1ec0052f
+		:00_Current "Port"
+	}
+	ReadMoreAboutCertificates "Troubleshooting and more information"
+	{
+		// 02b9d4ca
+		:00_Current "Troubleshooting and more information"
+	}
+	Reconnecting "Reconnecting..."
+	{
+		// e3b232a9
+		:00_Current "Reconnecting..."
+	}
+	RememberTrustDecision "Always trust this certificate"
+	{
+		// 5044d509
+		:00_Current "Always trust this certificate"
+	}
+	ReportedErrorsWere "The following errors were reported:"
+	{
+		// 8513a77f
+		:00_Current "The following errors were reported:"
+	}
+	RestartingHansoft "Restarting Hansoft"
+	{
+		// 29ee74a0
+		:00_Current "Restarting Hansoft"
+	}
+	SavedPasswordMissing "Saved password is missing."
+	{
+		// 9c145eaa
+		:00_Current "Saved password is missing."
+	}
+	ServerAdministrator "Server Administrator"
+	{
+		// 10e2b902
+		:00_Current "Server Administrator"
+	}
+	ServerDoesNotSupportSSL "The server does not support trust verification and could not be trusted."
+	{
+		// 7654644c
+		:00_Current "The server does not support trust verification and could not be trusted."
+	}
+	ServerIsNotTrusted "Trust verification"
+	{
+		// 58944ff9
+		:00_Current "Trust verification"
+	}
+	ServerIsUsingAnIncompatibleVersion "Server is using an incompatible version of Hansoft."
+	{
+		// 9cc88b4f
+		:00_Current "Server is using an incompatible version of Hansoft."
+	}
+	StatusConnect "Hansoft - Connect to the project server"
+	{
+		// 401d8ef8
+		:00_Current "Hansoft - Connect to the project server"
+	}
+	StatusLogin "Hansoft - Logon to {0}"
+	{
+		// d842dba7
+		// 0 text - The name of the server
+		:00_Current "Hansoft - Logon to {0}"
+	}
+	StatusLogout "Hansoft - Log out from {0}"
+	{
+		// e09e6b68
+		// 0 text - The name of the server
+		:00_Current "Hansoft - Log out from {0}"
+	}
+	StatusLostConnection "Hansoft - Offline"
+	{
+		// 54ca2f20
+		:00_Current "Hansoft - Offline"
+	}
+	StatusOnline "Hansoft - {0} - {1} - {2}"
+	{
+		// e78e7033
+		// 0 text - The name of the server
+		// 1 text - The name of the logged in user
+		// 2 text - The version of the hansoft server/client
+		:00_Current "Hansoft - {0} - {1} - {2}"
+	}
+	StatusOnlineTip "Hansoft - {0}"
+	{
+		// a255daa0
+		// 0 text - The name of the logged in user
+		:00_Current "Hansoft - {0}"
+	}
+	StatusSync "Hansoft - {0}"
+	{
+		// ef4bda2b
+		// 0 text - The name of the server
+		:00_Current "Hansoft - {0}"
+	}
+	Syncing "Syncing"
+	{
+		// a78a1025
+		:00_Current "Syncing"
+	}
+	TheProjectServerYouAreTryingToConnectToXX "The project server you are trying to connect to has a database protocol version of {0} while your client has database protocol version of {1}. You need a client with the same database version as the project server. Contact support@hansoft.com for further help."
+	{
+		// 1e9d9deb
+		// 0 text - server database protocol version
+		// 1 text - client database protocol version
+		:00_Current "The project server you are trying to connect to has a database protocol version of {0} while your client has database protocol version of {1}. You need a client with the same database version as the project server. Contact support@hansoft.com for further help."
+	} 
+	TheServerCertificateIsNotTrusted	"Hansoft could not verify the trust of {0}. There were errors validating the certificate."
+	{
+		// c356707d
+		// 0 text - Server address
+		:00_Current "Hansoft could not verify the trust of {0}. There were errors validating the certificate."
+	}
+	TheServerDoesNotHaveAnyDatabasesConfigured "The server does not have any databases configured.\n"\
+	                                           "\n"\
+	                                           "Contact your administrator."
+	{
+		// da620b78
+		:00_Current "The server does not have any databases configured.\n"\
+		            "\n"\
+		            "Contact your administrator."
+	}
+	TheServerHasIndicatedItDoesNotSupportSSL "{0} has indicated that it does not support trust verification, and may be running a version earlier than 7.0. Do you still want to connect?"
+	{
+		// 42affb0b
+		// 0 text - Server address
+		:00_Current "{0} has indicated that it does not support trust verification, and may be running a version earlier than 7.0. Do you still want to connect?"
+	}
+	TheTimeOnTheServerYouAreTryingToConnectToDiffersBy "The times set on the server and your local machine differ by more than 48 hours. You are not permitted to login to the database."
+	{
+		// 53ea42ef
+		:00_Current "The times set on the server and your local machine differ by more than 48 hours. You are not permitted to login to the database."
+	}
+	TheTimeSetOnTheServerYouArTryingToConnectToX "The times set on the server and your local machine differ by[$0!=0, {0} [NHelpers::Pluralize($0,'hour')]][$1!=0, {1} [NHelpers::Pluralize($1,'minute')]].\r\n"\
+	                                             "\r\n"\
+	                                             "To avoid problems ensure that the time and timezone are set up correctly on your server and local computer."
+	{
+		// ff077c30
+		// 0 integer - Number of hours difference from server
+		// 1 integer - Number of minutes difference from server
+		:00_Current "The times set on the server and your local machine differ by[$0!=0, {0} [NHelpers::Pluralize($0,'hour')]][$1!=0, {1} [NHelpers::Pluralize($1,'minute')]].\r\n"\
+		            "\r\n"\
+		            "To avoid problems ensure that the time and timezone are set up correctly on your server and local computer."
+	}
+	ThisHansoftSessionIsClosing "This Hansoft session is closing. Please wait."
+	{
+		// 68fb6aa4
+		:00_Current "This Hansoft session is closing. Please wait."
+	}
+	UpdatingHansoft "Updating Hansoft"
+	{
+		// 599dc9f9
+		:00_Current "Updating Hansoft"
+	}
+	UpgradeRequired "Upgrade required"
+	{
+		// f22c0933
+		:00_Current "Upgrade required"
+	}
+	ViewCertificateDetails "View certificate details"
+	{
+		// b5a8b94e
+		:00_Current "View certificate details"
+	}
+	ViewValidationErrors "View certificate errors"
+	{
+		// 10bd978d
+		:00_Current "View certificate errors"
+	}
+	Waiting "Waiting..."
+	{
+		// a3260bfd
+		:00_Current "Waiting..."
+	}
+	Yes "Yes"
+	{
+		// da24fe5b
+		:00_Current "Yes"
+	}
+	YesITrustThis "I trust this server"
+	{
+		// 131a263e
+		:00_Current "I trust this server"
+	}
+}
+namespace NLC
+// Strings for Connect window.
+{
+	AReconnectionAttemptWillBeMadeIn10Seconds "A reconnection attempt will be made in 10 seconds..."
+	{
+		// 8e672079
+		:00_Current "A reconnection attempt will be made in 10 seconds..."
+	}
+	AReconnectionAttemptWillBeMadeInXSeconds "A reconnection attempt will be made in {0} [NHelpers::Pluralize($0,'second')]..."
+	{
+		// f07d2d50
+		// 0 integer - Number of seconds
+		:00_Current "A reconnection attempt will be made in {0} [NHelpers::Pluralize($0,'second')]..."
+	}
+	ChangeProjectServer "Change project server"
+	{
+		// a2325589
+		:00_Current "Change project server"
+	}
+	ConnectionRestoredPleaseWait "Connection restored. Please wait."
+	{
+		// c3d1bedc
+		:00_Current "Connection restored. Please wait."
+	}
+	DownloadingSoftwareComponentsPleaseWait "Downloading software components. Please wait."
+	{
+		// c0db550b
+		:00_Current "Downloading software components. Please wait."
+	}
+	FailedToReconnect "Failed to reconnect..."
+	{
+		// 013d163e
+		:00_Current "Failed to reconnect..."
+	}
+	LostConnection "Lost connection"
+	{
+		// 0f797807
+		:00_Current "Lost connection"
+	}
+	ReconnectNow "Reconnect now"
+	{
+		// b3ef4d0a
+		:00_Current "Reconnect now"
+	}
+	ReconnectReasonAttemptCountdown "{0}\r\n"\
+	                                "\r\n"\
+	                                "{1}"
+	{
+		// 271a347e
+		// 0 text - disconnect reason
+		// 1 text - reconnection countdown message
+		:00_Current "{0}\r\n"\
+		            "\r\n"\
+		            "{1}"
+	}
+	TryingToReconnect "Trying to reconnect..."
+	{
+		// b8969316
+		:00_Current "Trying to reconnect..."
+	}
+	TryingToReconnect2 "Trying to reconnect.."
+	{
+		// cb68f608
+		:00_Current "Trying to reconnect.."
+	}
+	YourComputerHasLostTheNetworkConnectionToThe "Your computer has lost the network connection to the project server. Please check if you are you properly connected to your project server through your Local Network, Wireless Network or Internet."
+	{
+		// 1e4c51d0
+		:00_Current "Your computer has lost the network connection to the project server. Please check if you are you properly connected to your project server through your Local Network, Wireless Network or Internet."
+	}
+	YourComputerHasLostTheNetworkConnectionToTheReason "Your computer has lost the network connection to the project server. The reason given was: {0}"
+	{
+		// 267844f8
+		// 0 text - disconnect reason
+		:00_Current "Your computer has lost the network connection to the project server. The reason given was: {0}"
+	}
+}
+namespace NServerAdminLogin
+// Labels for Server Administrator login window.
+{
+	Administrator "Administrator"
+	{
+		// 8f1f3d60
+		:00_Current "Administrator"
+	}
+	AdministratorPassword "Administrator password"
+	{
+		// a7bf9373
+		:00_Current "Administrator password"
+	}
+	GoBack NLocalize/NShared/GoBack
+	{
+		// f68c4606
+		:00_Current "Back"
+	}
+	Login NLocalize/NShared/Login
+	{
+		// 17579738
+		:00_Current "Sign in"
+	}
+	LoginOptions "Login options"
+	{
+		// e1576344
+		:00_Current "Login options"
+	}
+	Options NLocalize/NShared/Options2
+	{
+		// 35c9758b
+		:00_Current "Options"
+	}
+}
+namespace NSync
+{
+	StopSynchronizationAndLogOut "Stop synchronisation and log out"
+	{
+		// 3709d748
+		:00_Current "Stop synchronisation and log out"
+	}
+	SynchronizingTitle "Synchronising"
+	{
+		// 26b44a3a
+		:00_Current "Synchronising"
+	}
+	SyncronizingProjectData "Synchronising project data..."
+	{
+		// f066f321
+		:00_Current "Synchronising project data..."
+	}
+}
+namespace NDllDownload
+// String shown when client DLL is downloaded during login.
+{
+	Downloading "Downloading..."
+	{
+		// ecef4c90
+		:00_Current "Downloading..."
+	}
+	DownloadingTitle "Upgrading"
+	{
+		// f8714072
+		:00_Current "Upgrading"
+	}
+	DownloadingXOfXMiBDoneXXRemaining "Downloading new Hansoft version.\n"\
+	                                  "{0,fe1} of {1,fe1} MiB done. {2,sl2,fe0,sf0}:{3,sj2,fe0,sf0} remaining."
+	{
+		// 2699c99d
+		// 0 decimal - Number of MiBs downloaded
+		// 1 decimal - Total number of MiBs
+		// 2 decimal - Number of minutes remaining
+		// 3 decimal - Number of seconds remaining
+		:00_Current "Downloading new Hansoft version.\n"\
+		            "{0,fe1} of {1,fe1} MiB done. {2,sl2,fe0,sf0}:{3,sj2,fe0,sf0} remaining."
+	}
+	StopDownloadAndDisconnect "Stop download and disconnect"
+	{
+		// 326e1cb5
+		:00_Current "Stop download and disconnect"
+	}
+}
+namespace NNewLoginLayout
+// Strings for Login window.
+{
+	Port NLocalize/NShared/Port
+	{
+		// 5b8fdf6c
+		:00_Current "Port"
+	}
+	ProjectServerAddress "Project server address"
+	{
+		// a658b85b
+		:00_Current "Project server address"
+	}
+}
+namespace NLicenseInformationPopupLogin
+// License upgrade messages.
+{
+	ANewerVersionOfHansoftIsAvailableFromThe "A newer version of Hansoft is available from the project server. It is recommended that you upgrade.\n"\
+	                                         "\n"\
+	                                         "If the desired project server is secure please click 'Upgrade' otherwise click 'Cancel'"
+	{
+		// 9f45891e
+		:00_Current "A newer version of Hansoft is available from the project server. It is recommended that you upgrade.\n"\
+		            "\n"\
+		            "If the desired project server is secure please click 'Upgrade' otherwise click 'Cancel'"
+	}
+	Cancel NLocalize/NShared/Cancel2
+	{
+		// e7ff56a2
+		:00_Current "Cancel"
+	}
+	Continue "Continue"
+	{
+		// 1c14c3c1
+		:00_Current "Continue"
+	}
+	CouldNotConnect "Could not connect to server"
+	{
+		// 5599752e
+		:00_Current "Could not connect to server"
+	}
+	CouldNotConnectToTheServerInfoText "Hansoft was unable to connect to the server because the server is not responding.\n"\
+	                                   "\n"\
+	                                   "This can occur when:\n"\
+	                                   "\n"\
+	                                   "* Server is busy (e.g. backing up the database).\n"\
+	                                   "\n"\
+	                                   "* Problems with your network connection.\n"\
+	                                   "\n"\
+	                                   "* Active directory integration is not responding."
+	{
+		// 03006e3a
+		:00_Current "Hansoft was unable to connect to the server because the server is not responding.\n"\
+		            "\n"\
+		            "This can occur when:\n"\
+		            "\n"\
+		            "* Server is busy (e.g. backing up the database).\n"\
+		            "\n"\
+		            "* Problems with your network connection.\n"\
+		            "\n"\
+		            "* Active directory integration is not responding."
+	}
+	CouldNotLogin "Login not permitted"
+	{
+		// 7a03bc5d
+		:00_Current "Login not permitted"
+	}
+	HansoftProjectManagerLicenseInformation "Hansoft Licence Information"
+	{
+		// eee39c8a
+		:00_Current "Hansoft Licence Information"
+	}
+	LicenseInformation NLocalize/NShared/LicenceInformation
+	{
+		// 37786485
+		:00_Current "Licence information"
+	}
+	NetworkError "Network error"
+	{
+		// db0b2570
+		:00_Current "Network error"
+	}
+	Upgrade "Upgrade"
+	{
+		// 74094e64
+		:00_Current "Upgrade"
+	}
+	UpgradeAvailable "Upgrade available"
+	{
+		// 7c0a7565
+		:00_Current "Upgrade available"
+	}
+	UpgradeNeeded "Upgrade needed"
+	{
+		// a45aae69
+		:00_Current "Upgrade needed"
+	}
+	Warning "Time difference"
+	{
+		// ebc565d2
+		:00_Current "Time difference"
+	}
+	YouHaveBeenDisconnectedBecauseDataTransmitted "You have been disconnected because data transmitted on your physical network has been corrupted. Please contact your network administrator and check your network hardware."
+	{
+		// 384cb8cb
+		:00_Current "You have been disconnected because data transmitted on your physical network has been corrupted. Please contact your network administrator and check your network hardware."
+	}
+	YourHansoftNeedsToBeUpgradedToVersionXInOrderTo "Your Hansoft needs to be upgraded to version {0} in order to continue.\n"\
+	                                                "\n"\
+	                                                "If the desired project server is secure please click 'Upgrade' otherwise click 'Cancel'"
+	{
+		// fba31a9a
+		// 0 text - Version number
+		:00_Current "Your Hansoft needs to be upgraded to version {0} in order to continue.\n"\
+		            "\n"\
+		            "If the desired project server is secure please click 'Upgrade' otherwise click 'Cancel'"
+	}
+	YourLicenseHasBecomeInvalidBecauseItHasExpired "Your licence has become invalid because it has expired or because a larger amount of user accounts are in use than allowed by your licence.\n"\
+	                                               "\n"\
+	                                               "If you want to access and change project data, please login as \"Administrator\".\n"\
+	                                               "\n"\
+	                                               "If you want to upgrade/change your current licence, please use the Hansoft Server Administrator (contact your network administrator)."
+	{
+		// 249019fe
+		:00_Current "Your licence has become invalid because it has expired or because a larger amount of user accounts are in use than allowed by your licence.\n"\
+		            "\n"\
+		            "If you want to access and change project data, please login as \"Administrator\".\n"\
+		            "\n"\
+		            "If you want to upgrade/change your current licence, please use the Hansoft Server Administrator (contact your network administrator)."
+	}
+}

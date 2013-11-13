@@ -1,0 +1,848 @@
+﻿namespace NDragAndTooltips
+// Tooltips and message balloons for main window
+{
+	ActivitiesInThisPeriod "Activities in this period:"
+	{
+		// fa8302f9
+		:00_Current "Activities in this period:"
+	}
+	Agile "Agile:"
+	{
+		// bd66b654
+		:00_Current "Agile:"
+	}
+	AsScheduledTasks "as scheduled tasks."
+	{
+		// a6b93f1d
+		:00_Current "as scheduled tasks."
+	}
+	AverageVelocityXDays "Average velocity ({0} days):"
+	{
+		// e8980225
+		// 0 integer - Number of days. Burndown chart tooltip
+		:00_Current "Average velocity ({0} days):"
+	}
+	BurndownModeTooipDayInformation "{0,cc} day information"
+	{
+		// 22dcce95
+		// 0 text - Burndown chart title name
+		:00_Current "{0,cc} day information"
+	}	
+	BurndownModeTooipPrediction "{0,cc} prediction"
+	{
+		// 53a09862
+		// 0 text - Burndown chart title name
+		:00_Current "{0,cc} prediction"
+	}	
+
+	BurndownModeTooipThisDay "{0,cc} this day:"
+	{
+		// f553a747
+		// 0 text - Burndown mode: Work remaining, Ideal days, Points
+		:00_Current "{0,cc} this day:"
+	}	
+
+	BurndownTooipPredictedEndDate "Predicted end date:"
+	{
+		// 18671255
+		:00_Current "Predicted end date:"
+	}
+	BurndownTooipPredictedTypeOfBurndown "Predicted {0}:"
+	{
+		// 7b4baba6
+		// 0 text - Burndown mode: Work remaining, Ideal days, Points
+		:00_Current "Predicted {0}:"
+	}	
+
+	BurndownTooipPredictedVelocity "Predicted velocity:"
+	{
+		// 3690ac2f
+		:00_Current "Predicted velocity:"
+	}
+	Calendar "Calendar:"
+	{
+		// 00ceb72c
+		:00_Current "Calendar:"
+	}
+	ChangeEnd "Change end"
+	{
+		// 5631a9cf
+		:00_Current "Change end"
+	}
+	ChangeStart "Change start"
+	{
+		// aa43fd46
+		:00_Current "Change start"
+	}
+	ClickHereToFollowLinkX "Click here to follow link '{0}'"
+	{
+		// a61c0018
+		// 0 text - Hyperlink. Shown in tooltip.
+		:00_Current "Click here to follow link '{0}'"
+	}
+	CompensatedHoliday "Compensated Holiday"
+	{
+		// 832d8c2f
+		:00_Current "Compensated Holiday"
+	}
+	Completed "Completed:"
+	{
+		// 6cbee78f
+		:00_Current "Completed:"
+	}
+	CurrentPV "Current PV:"
+	{
+		// 7b5da6fb
+		:00_Current "Current PV:"
+	}
+	Date "Date:"
+	{
+		// 9161c110
+		:00_Current "Date:"
+	}
+	DateIsAXInX "Date is a {0} in {1}"
+	{
+		// 84424194
+		// 0 text - Day of week, Monday, Tuesday, etc
+		// 1 text - Month, January, February, etc
+		:00_Current "Date is a {0} in {1}"
+	}
+	Day "Day:"
+	{
+		// 8086d750
+		:00_Current "Day:"
+	}
+	DayDuration "Day duration:"
+	{
+		// 91344136
+		:00_Current "Day duration:"
+	}
+	DayMarker "Day marker:"
+	{
+		// 3ef7ec72
+		:00_Current "Day marker:"
+	}
+	DropItems "Drop items"
+	{
+		// 3d83f209
+		:00_Current "Drop items"
+	}
+	DropItemsIntoProjectSchedule "Drop items into project schedule"
+	{
+		// 077016e7
+		:00_Current "Drop items into project schedule"
+	}
+	DurationXWeeksAndXDays "Duration: {0} [NHelpers::Pluralize($0,'week')] and {1} [NHelpers::Pluralize($1,'day')]"
+	{
+		// 17f4fa4b
+		// 0 integer - Duration in number of weeks
+		// 1 integer - Duration in number of days
+		:00_Current "Duration: {0} [NHelpers::Pluralize($0,'week')] and {1} [NHelpers::Pluralize($1,'day')]"
+	}
+	End "End:"
+	{
+		// 8086dd29
+		:00_Current "End:"
+	}
+	EnglishName "English name:"
+	{
+		// 6ba7a89d
+		:00_Current "English name:"
+	}
+	HistoricPV "Historic PV:"
+	{
+		// 233e9edd
+		:00_Current "Historic PV:"
+	}
+	HolidayOrObservance "Holiday or Observance"
+	{
+		// a9fed265
+		:00_Current "Holiday or Observance"
+	}
+	HourDuration "Hour duration:"
+	{
+		// 79789836
+		:00_Current "Hour duration:"
+	}
+	IdealLineDiff "Ideal line velocity"
+	{
+		// 084057d2
+		:00_Current "Ideal line velocity"
+	}
+	IdealLineThisDay "Ideal line this day"
+	{
+		// 1df55aaf
+		:00_Current "Ideal line this day"
+	}
+	InaccessibleProject "[[Inaccessible project]"
+	{
+		// 10a82c4e
+		:00_Current "[[Inaccessible project]"
+	}
+	InaccessibleProject2 "Inaccessible project"
+	{
+		// 25adb640
+		:00_Current "Inaccessible project"
+	}
+	Information NLocalize/NShared/Information
+	{
+		// 77c70778
+		:00_Current "Information"
+	}
+	IntoX "Into {0}:"
+	{
+		// bdfb8024
+		// 0 text - Can be the default text for sprint (or iteration depending on project style) or a user defined name for sprint
+		:00_Current "Into {0}:"
+	}
+	LeftClickForMoreDetailedInfo "Click for more detailed info"
+	{
+		// 64827425
+		:00_Current "Click for more detailed info"
+	}
+	MilestoneInformation "{0,cc} information"
+	{
+		// 66bdb8e8
+		// 0 text - Default name of milestone type or custom name
+		:00_Current "{0,cc} information"
+	}
+	Move "Move"
+	{
+		// 9166ec49
+		:00_Current "Move"
+	}
+	MoveMilestone "Move {0}"
+	{
+		// c6ef4999
+		// 0 text - Default name of milestone type or custom name
+		:00_Current "Move {0}"
+	}
+	Name "Name:"
+	{
+		// 91673bf3
+		:00_Current "Name:"
+	}
+	No NLocalize/NShared/No2
+	{
+		// 9f0bd94f
+		:00_Current "No"
+	}
+	NoInformationAvailable "No information available"
+	{
+		// 48c41c76
+		:00_Current "No information available"
+	}
+	NoName NLocalize/NShared/NoName
+	{
+		// 89125970
+		:00_Current "(No name)"
+	}
+	OccursFromXToX "occurs from {0} to {1}"
+	{
+		// 06126c48
+		// 0 text - From date in selected date format
+		// 1 text - To date in selected date format
+		:00_Current "occurs from {0} to {1}"
+	}
+	PipelineXHasBeenDeletedLeftClickForMoreInfo "Pipeline '{0}' has been deleted. Left click for more info."
+	{
+		// 1d1f7984
+		// 0 text - Name of a pipeline
+		:00_Current "Pipeline '{0}' has been deleted. Left click for more info."
+	}
+	PlannedValue "Planned value:"
+	{
+		// 1fe7c5b1
+		:00_Current "Planned value:"
+	}
+	PlannedValue2 "Planned value"
+	{
+		// 1ce07c03
+		:00_Current "Planned value"
+	}
+	PotentialAllocationOfXX "Potential allocation of {0}: {1}"
+	{
+		// 7576754d
+		// 0 text - Can be the default text for sprint (or iteration depending on project style) or a user defined name for sprint
+		// 1 text - Name of a task
+		:00_Current "Potential allocation of {0}: {1}"
+	}
+	Predicted "Predicted:"
+	{
+		// 97cef366
+		:00_Current "Predicted:"
+	}
+	ScheduledBy "Scheduled by:"
+	{
+		// 0d111c1e
+		:00_Current "Scheduled by:"
+	}
+	Scheduling "Scheduling:"
+	{
+		// d1d9cd78
+		:00_Current "Scheduling:"
+	}
+	SprintTaskName "{0,cc}: {1}"
+	{
+		// d549bcc6
+		// 0 text - Sprint
+		// 1 text - Name of a task
+		:00_Current "{0,cc}: {1}"
+	}
+	Start "Start:"
+	{
+		// beb36f20
+		:00_Current "Start:"
+	}
+	SubProjectInformation "Sub project information"
+	{
+		// 632ffb99
+		:00_Current "Sub project information"
+	}
+	TaskInformation "Task information"
+	{
+		// d111664b
+		:00_Current "Task information"
+	}
+	ThereIsANewerVersionAvailableOfPipelineXLeft "There is a newer version available of pipeline '{0}'. Left click for more info."
+	{
+		// 92320efd
+		// 0 text - Namme of a pipeline
+		:00_Current "There is a newer version available of pipeline '{0}'. Left click for more info."
+	}
+	ThisAreaIsBeingEditedBySomeoneInYourTeam "This area is being edited by someone in your team"
+	{
+		// 7e3e9131
+		:00_Current "This area is being edited by someone in your team"
+	}
+	ThisDay "This day:"
+	{
+		// 6ad89d88
+		:00_Current "This day:"
+	}
+	ThisMilestoneHasIncompleteActivitiesItemsItThatHasPassedTheDateOfX "This {1} has incomplete activities/items linked to it that has passed the date of {0}.\n"\
+	                                                                   "Click on the flag to show these activities."
+	{
+		// 411865d3
+		// 0 text - Date in the selected date format
+		// 1 text - Default name of milestone type or custom name
+		:00_Current "This {1} has incomplete activities/items linked to it that has passed the date of {0}.\n"\
+		            "Click on the flag to show these activities."
+	}
+
+	ThisResourceIsOverallocatedWith "This user is over-allocated with:"
+	{
+		// ffa063ef
+		:00_Current "This user is over-allocated with:"
+	}
+	ThisXIsOverallocatedWith "This {0} is over-allocated with:"
+	{
+		// 30ce2a9f
+		// 0 text - Can be the default text for sprint (or iteration depending on project style) or a user defined name for sprint
+		:00_Current "This {0} is over-allocated with:"
+	}
+	TotalWorkRemaining "Total work remaining:"
+	{
+		// cd7229d3
+		:00_Current "Total work remaining:"
+	}
+	TotalWorkThatCanBeAssigned "Total work that can be assigned:"
+	{
+		// 79713551
+		:00_Current "Total work that can be assigned:"
+	}
+	Unnamed NLocalize/NShared/Unnamed
+	{
+		// c623189a
+		:00_Current "(unnamed)"
+	}
+	VelocityThisDay "Velocity this day:"
+	{
+		// 9cfe1bd7
+		:00_Current "Velocity this day:"
+	}
+	Warning NLocalize/NShared/Warning
+	{
+		// 4213f508
+		:00_Current "Warning"
+	}
+	WeekDuration "Week duration:"
+	{
+		// b20bd344
+		:00_Current "Week duration:"
+	}
+	XDays "{0} [NHelpers::Pluralize($0,'day')]"
+	{
+		// bef3985b
+		// 0 integer - Number of days
+		:00_Current "{0} [NHelpers::Pluralize($0,'day')]"
+	}
+	XHours "{0} [NHelpers::Pluralize($0,'hour')]"
+	{
+		// 9db6a25b
+		// 0 integer - Number of hours
+		:00_Current "{0} [NHelpers::Pluralize($0,'hour')]"
+	}
+	XHoursEqualsXDays "{0,fe0,fn2} [NHelpers::Pluralize($0,'hour')] (equals ~{1,fe0,fn1} [NHelpers::Pluralize($1,'day')])"
+	{
+		// 503a10cf
+		// 0 decimal - Number of hours
+		// 1 decimal - Number of days
+		:00_Current "{0,fe0,fn2} [NHelpers::Pluralize($0,'hour')] (equals ~{1,fe0,fn1} [NHelpers::Pluralize($1,'day')])"
+	}
+	XHoursEqualsXDaysOfWhichXHoursAreUnassigned "{0,fe0,fn2} [NHelpers::Pluralize($0,'hour')] (equals ~{1,fe0,fn1} [NHelpers::Pluralize($1,'day')]) of which {2,fe0,fn2} [NHelpers::Pluralize($2,'hour')] are unassigned"
+	{
+		// 73431e09
+		// 0 decimal - Total number of hours
+		// 1 decimal - Total number of days
+		// 2 decimal - Number of unassigned hours
+		:00_Current "{0,fe0,fn2} [NHelpers::Pluralize($0,'hour')] (equals ~{1,fe0,fn1} [NHelpers::Pluralize($1,'day')]) of which {2,fe0,fn2} [NHelpers::Pluralize($2,'hour')] are unassigned"
+	}
+	XHoursOfWorkRemains "{0,fe0,fn2} [NHelpers::Pluralize($0,'hour')] of work remains"
+	{
+		// b6be3ee2
+		// 0 decimal - Number of work remaining hours
+		:00_Current "{0,fe0,fn2} [NHelpers::Pluralize($0,'hour')] of work remains"
+	}
+	XInformation "{0,cc} information"
+	{
+		// e7428310
+		// 0 text - The default text for release or a user defined name for release
+		:00_Current "{0,cc} information"
+	}
+	XIsWorkingHere "   {0} is working here   "
+	{
+		// 675758ab
+		// 0 text - Name of a user
+		:00_Current "   {0} is working here   "
+	}
+	XPercentAllocationOfX "{0}% allocation of {1}"
+	{
+		// 8f57ed4e
+		// 0 integer - The number of percent a user is allocated
+		// 1 text - Name of a user
+		:00_Current "{0}% allocation of {1}"
+	}
+	XPercentOfScheduledTasksAreCompleted "{0,fe1}% of scheduled tasks are completed"
+	{
+		// 40ff6d1c
+		// 0 decimal - The number of percent of scheduled tasks that are complete
+		:00_Current "{0,fe1}% of scheduled tasks are completed"
+	}
+	XTask "{0} task: "
+	{
+		// befc5d9d
+		// 0 text - Out of office text
+		:00_Current "{0} task: "
+	}
+	XTaskInformation "{0} task information"
+	{
+		// 4290ede3
+		// 0 text - Out of office text
+		:00_Current "{0} task information"
+	}
+	XTotals "{0,cc} totals"
+	{
+		// 70880021
+		// 0 text - Can be user name or sprint text
+		:00_Current "{0,cc} totals"
+	}
+	XWeeksAndXDays "{0} [NHelpers::Pluralize($0,'week')]"
+	{
+		// 664fd3e5
+		// 0 integer - Number of weeks
+		:00_Current "{0} [NHelpers::Pluralize($0,'week')]"
+	}
+	Yes NLocalize/NShared/Yes2
+	{
+		// 80873123
+		:00_Current "Yes"
+	}
+	YouCantAccessThisTaskItem "You can't access this task/item"
+	{
+		// ba265a01
+		:00_Current "You can't access this task/item"
+	}
+}
+namespace NFinish
+{
+	NoBugsFound "No bugs were found. Use different keywords and/or conditions and try again."
+	{
+		// aaa97dae
+		:00_Current "No bugs were found. Use different keywords and/or conditions and try again."
+	}
+	NoBugsHaveBeenReported "No bugs have been reported in this project."
+	{
+		// a085fd15
+		:00_Current "No bugs have been reported in this project."
+	}
+	NoBugsHaveBeenReportedReportNew "No bugs have been reported in this project. Click on 'Report new bug' on the toolbar to start reporting bugs."
+	{
+		// 0afcc4bb
+		:00_Current "No bugs have been reported in this project. Click on 'Report new bug' on the toolbar to start reporting bugs."
+	}
+	NoItemsHaveBeenCreated "No items have been created in this view. Click on {0,cc} on the toolbar to start creating them."
+	{
+		// ba911b99
+		// 0 text - Sprint backlog item or Scheduled task
+		:00_Current "No items have been created in this view. Click on {0,cc} on the toolbar to start creating them."
+	}
+	NoItemsHaveBeenCreatedNoPermission "No items have been created in this view. You must be delegated or a main project manager to insert items."
+	{
+		// 80c976df
+		:00_Current "No items have been created in this view. You must be delegated or a main project manager to insert items."
+	}
+	NoSprintsVisibleInSorted "No sprints/iterations are currently visible. Click on 'Show' on the toolbar to make them visible again."
+	{
+		// fdd4feea
+		:00_Current "No sprints/iterations are currently visible. Click on 'Show' on the toolbar to make them visible again."
+	}
+	PleaseSpecifyCondition "Please specify keywords and/or conditions to show bugs in this view."
+	{
+		// 6bcc5e38
+		:00_Current "Please specify keywords and/or conditions to show bugs in this view."
+	}
+	ReportNewBug "Report new bug"
+	{
+		// 12c614e8
+		:00_Current "Report new bug"
+	}
+	SomeItemsHidden "Some items have been hidden. Click here to show all items."
+	{
+		// e3486ac6
+		:00_Current "Some items have been hidden. Click here to show all items."
+	}
+	StartFinding "Start finding bugs by entering keywords and selecting conditions. Press F1 or click on 'Help' to get more information."
+	{
+		// 78200191
+		:00_Current "Start finding bugs by entering keywords and selecting conditions. Press F1 or click on 'Help' to get more information."
+	}
+	YouHaveNotReportedBugsYet "You have not reported any bugs yet. Click on '{0}' on the toolbar to start reporting bugs."
+	{
+		// e925b8de
+		// 0 text - Report new bug
+		:00_Current "You have not reported any bugs yet. Click on '{0}' on the toolbar to start reporting bugs."
+	}
+	YouHaveNotSelectedAVirtualWallYet "You have not selected a virtual board yet. Select a virtual board in the board toolbar."
+	{
+		// e9d9a929
+		:00_Current "You have not selected a virtual board yet. Select a virtual board in the board toolbar."
+	}
+}
+namespace NScrollbars
+{
+	SelectedXOfXItems "Selected: {0} of {1} [NHelpers::Pluralize($1,'item')]"
+	{
+		// 0abbd96a
+		// 0 integer - Selected number of items
+		// 1 integer - Total number of items
+		:00_Current "Selected: {0} of {1} [NHelpers::Pluralize($1,'item')]"
+	}
+	SelectedXOfXTotalXOfXTasksDone "Selected {0} of {1} - total {2} of {3} - tasks done"
+	{
+		// 6828495d
+		// 0 integer - Number of selected items done
+		// 1 integer - Total number of selected items
+		// 2 integer - Number of items done in total.
+		// 3 integer - Number of items in total.
+		:00_Current "Selected {0} of {1} - total {2} of {3} - tasks done"
+	}
+	XOfX2X "{0} of {1} {2}"
+	{
+		// f47a7b49
+		// 0 integer - Selected number of items in integer custom column
+		// 1 integer - Total number of items in integer custom column
+		// 2 text - Quantity name or similar
+		:00_Current "{0} of {1} {2}"
+	}
+	XOfX2X2 "{0} of {1}{2}"
+	{
+		// 83c9e49b
+		// 0 integer - Selected number of items in integer custom column
+		// 1 integer - Total number of items in integer custom column
+		// 2 text - Single character unit
+		:00_Current "{0} of {1}{2}"
+	}
+
+	XOfXD "{0,fe1,fn2} of {1,fe1,fn2}d"
+	{
+		// 1eae60e3
+		// 0 decimal - Selected estimated effort
+		// 1 decimal - Total estimated effort
+		:00_Current "{0,fe1,fn2} of {1,fe1,fn2}d"
+	}
+	XOfXD2 "{0,fe0,fn2} of {1,fe0,fn2}d"
+	{
+		// f47a7d75
+		// 0 decimal - Select total duration days
+		// 1 decimal - Total toatl duration days
+		:00_Current "{0,fe0,fn2} of {1,fe0,fn2}d"
+	}
+	XOfXH "{0} of {1}h"
+	{
+		// 1eae60e7
+		// 0 integer - Selected work remaining
+		// 1 integer - Total work remaining
+		:00_Current "{0} of {1}h"
+	}
+	XOfXHDecimals "{0,fe0,fn2} of {1,fe0,fn2}h"
+	{
+		// c2270f49
+		// 0 decimal - Selected work remaining
+		// 1 decimal - Total work remaining
+		:00_Current "{0,fe0,fn2} of {1,fe0,fn2}h"
+	}
+	XOfXHDecimals2 "{0,fe1,fn2} of {1,fe1,fn2}h"
+	{
+		// 0708f89b
+		// 0 decimal - Selected estimated effort
+		// 1 decimal - Total estimated effort
+		:00_Current "{0,fe1,fn2} of {1,fe1,fn2}h"
+	}
+	XOfXHours "{0} of {1} [NHelpers::Pluralize($1,'hour')]"
+	{
+		// 9f715b50
+		// 0 integer - Selected total work or earned value
+		// 1 integer - Total total work or earned value
+		:00_Current "{0} of {1} [NHelpers::Pluralize($1,'hour')]"
+	}
+	XOfXPoints "{0} of {1} [NHelpers::Pluralize($1,'point')]"
+	{
+		// a03f655c
+		// 0 integer - Selected number of points
+		// 1 integer - Total number of points
+		:00_Current "{0} of {1} [NHelpers::Pluralize($1,'point')]"
+	}
+	XOfXX "{0,fe1,fn2} of {1,fe1,fn2} {2}"
+	{
+		// 1eae60f7
+		// 0 decimal - Selected number of items in decimal custom column
+		// 1 decimal - Total number of items in decimal custom column
+		// 2 text - Quantity name or similar
+		:00_Current "{0,fe1,fn2} of {1,fe1,fn2} {2}"
+	}
+	XOfXX2 "{0,fe1,fn2} of {1,fe1,fn2}{2}"
+	{
+		// f47a8009
+		// 0 decimal - Selected number of items in decimal custom column
+		// 1 decimal - Total number of items in decimal custom column
+		// 2 text - Single character unit
+		:00_Current "{0,fe1,fn2} of {1,fe1,fn2}{2}"
+	}
+}
+namespace NTimeScale
+{
+	WP1sj2sf0 "W{0,sj2,sf0}"
+	{
+		// c11065ca
+		// 0 integer - Week of year number
+		:00_Current "W{0,sj2,sf0}"
+	}
+	XQuarter1 "{0} Q1"
+	{
+		// 6afeaea7
+		// 0 text - Year as text.
+		:00_Current "{0} Q1"
+	}
+	XQuarter2 "{0} Q2"
+	{
+		// 6afeaea8
+		// 0 text - Year as text.
+		:00_Current "{0} Q2"
+	}
+	XQuarter3 "{0} Q3"
+	{
+		// 6afeaea9
+		// 0 text - Year as text.
+		:00_Current "{0} Q3"
+	}
+	XQuarter4 "{0} Q4"
+	{
+		// 6afeaeaa
+		// 0 text - Year as text.
+		:00_Current "{0} Q4"
+	}
+}
+namespace NWall
+// Labels and tooltips for Wall mode view
+{
+	AllXKanbans "All {0} kanbans"
+	{
+		// 40f9c162
+		// 0 text - Kanban custom name
+		:00_Current "All {0} kanbans"
+	}
+	ClickRightToPanAcross "Click right to pan across"
+	{
+		// 6eb85804
+		:00_Current "Click right to pan across"
+	}
+	ClickToSelect NLocalize/NShared/ClickToSelect2
+	{
+		// 5c06187c
+		:00_Current "Click to select"
+	}
+	ClickToSelectSprint "Click to select {0}"
+	{
+		// 5134ba9c
+		// 0 text - Sprint
+		:00_Current "Click to select {0}"
+	}
+	EstimatedIdealDaysXDays "Estimated days: {0,fe1,fn2} [NHelpers::Pluralize($0,'day')]"
+	{
+		// 1eccd1ac
+		// 0 decimal - Estimated days
+		:00_Current "Estimated days: {0,fe1,fn2} [NHelpers::Pluralize($0,'day')]"
+	}
+	GridSizeHeight "Grid height"
+	{
+		// a4e30dad
+		:00_Current "Grid height"
+	}
+	GridSizeTitle "Select grid size for this project"
+	{
+		// b0855116
+		:00_Current "Select grid size for this project"
+	}
+	GridSizeTitleKanban "Select Kanban grid size for this project"
+	{
+		// c10b7921
+		:00_Current "Select Kanban grid size for this project"
+	}
+	GridSizeWarning "Are you sure you want to change grid size?\n"\
+	                "\n"\
+	                "This will affect card stacking and positions in all views and configurations for this project"
+	{
+		// bb40672a
+		:00_Current "Are you sure you want to change grid size?\n"\
+		            "\n"\
+		            "This will affect card stacking and positions in all views and configurations for this project"
+	}
+	GridSizeWidth "Grid width"
+	{
+		// b0bb5794
+		:00_Current "Grid width"
+	}
+	GroupSummaryIdealDays "Days: {0,fe1,fn2}"
+	{
+		// 33a81e5e
+		// 0 decimal - Estimated days
+		:00_Current "Days: {0,fe1,fn2}"
+	}
+	GroupSummaryPoints "Points: {0}"
+	{
+		// d47cfb4b
+		// 0 integer - Number of points
+		:00_Current "Points: {0}"
+	}
+	GroupSummaryUserIsAllocatedWithWork "{0,fe0,fn2}h of {1,fe0,fn2}h allocated"
+	{
+		// f603bcb1
+		// 0 decimal - Work remaining in hours
+		// 1 decimal - Total hours allocates
+		:00_Current "{0,fe0,fn2}h of {1,fe0,fn2}h allocated"
+	}
+	GroupSummaryWorkInProgressMaxWIP "WIP: {0} of max {1}"
+	{
+		// caba4733
+		// 0 integer - Current number of Kanban work in progress
+		// 1 integer - Max number of Kanban work in progress
+		:00_Current "WIP: {0} of max {1}"
+	}
+	GroupSummaryWorkInProgressWIP "WIP: {0}"
+	{
+		// 8e5ef58d
+		// 0 integer - Current number of Kanban work in progress
+		:00_Current "WIP: {0}"
+	}
+	GroupSummaryWorkRemaining "Work remaining: {0,fe0,fn2}"
+	{
+		// 5013afeb
+		// 0 decimal - Work remaining
+		:00_Current "Work remaining: {0,fe0,fn2}"
+	}
+	KanbanGroupLargeTextBeforeCustomNameOfKanban "Kanban"
+	{
+		// e6de43ca
+		:00_Current "Kanban"
+	}
+	KanbanTaskAlreadyCompleted "This item is already complete"
+	{
+		// c9a8c910
+		:00_Current "This item is already complete"
+	}
+	KanbanTaskCanStartNow "Can start now"
+	{
+		// f9e83de5
+		:00_Current "Can start now"
+	}
+	KanbanTaskCompleteToContinue "Complete to continue"
+	{
+		// bfaaabd2
+		:00_Current "Complete to continue"
+	}
+	KanbanTaskHasBeenCompleted "Has been completed"
+	{
+		// 9902f644
+		:00_Current "Has been completed"
+	}
+	KanbanWaitingForOtherItems "Waiting for other items before continuing here"
+	{
+		// d093281c
+		:00_Current "Waiting for other items before continuing here"
+	}
+	KanbansWithinSprint "{0} kanbans within {1}"
+	{
+		// 63102784
+		// 0 text - Kanban custom name
+		// 1 text - Sprint name
+		:00_Current "{0} kanbans within {1}"
+	}
+	NoSprintIsCurrentlySelected "(No {0} is currently selected)"
+	{
+		// dba6a0dd
+		// 0 text - Sprint
+		:00_Current "(No {0} is currently selected)"
+	}
+	None "None"
+	{
+		// 689c8a83
+		:00_Current "None"
+	}
+	PointsX "Points: {0}"
+	{
+		// d8b10aa8
+		// 0 integer - Summary of points
+		:00_Current "Points: {0}"
+	}
+	SelectedXItems "Selected: {0} [NHelpers::Pluralize($0,'item')]"
+	{
+		// 33482936
+		// 0 integer - Number of selected items
+		:00_Current "Selected: {0} [NHelpers::Pluralize($0,'item')]"
+	}
+	SprintDateRange "{0,cc} {1}"
+	{
+		// 6488d99e
+		// 0 text - Sprint
+		// 1 text - Date range
+		:00_Current "{0,cc} {1}"
+	}
+	Unknown NLocalize/NShared/Unknown
+	{
+		// 57632e23
+		:00_Current "Unknown"
+	}
+	WallView "board view"
+	{
+		// 35ba8c5e
+		:00_Current "board view"
+	}
+	WorkRemainingX "Work remaining: {0,fe0,fn2}"
+	{
+		// 0d40e7a8
+		// 0 decimal - Summary of work remaining
+		:00_Current "Work remaining: {0,fe0,fn2}"
+	}
+}
+

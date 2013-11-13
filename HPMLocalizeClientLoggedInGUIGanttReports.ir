@@ -1,0 +1,1224 @@
+﻿AddResources NLocalize/NShared/AddResources
+{
+	// c15b407e
+	:00_Current "Add users"
+}
+AreYouSureYouWantToDeleteThisReportTemplate "Are you sure you want to delete this report?"
+{
+	// 6c8d77eb
+	:00_Current "Are you sure you want to delete this report?"
+}
+BecauseOfPermissionsYouCanOnlyShareReportsTo "Because of permissions, you can only share reports to yourself. The reports will be visible on the main toolbar."
+{
+	// c4993c59
+	:00_Current "Because of permissions, you can only share reports to yourself. The reports will be visible on the main toolbar."
+}
+Close NLocalize/NShared/Close2
+{
+	// 0c1cc390
+	:00_Current "Close"
+}
+CreateNewReport "Create new report"
+{
+	// 057a6b54
+	:00_Current "Create new report"
+}
+CreateProjectReportsAndShareThemWithOther "Create project reports and share them with other co-workers."
+{
+	// bdad3c06
+	:00_Current "Create project reports and share them with other co-workers."
+}
+CreateProjectReportsAndShareThemWithOtherTeam "Create project reports and share them with other team members."
+{
+	// 0a87996d
+	:00_Current "Create project reports and share them with other team members."
+}
+CreateProjectReportsHereDisplayThemOnTheMain "Create project reports here. Display them on the main toolbar for easy access."
+{
+	// 7ab7f4ff
+	:00_Current "Create project reports here. Display them on the main toolbar for easy access."
+}
+CreateProjectReportsHereYouMustBeAMainProject "Create project reports here. You must be a main manager to share reports."
+{
+	// 2e38f802
+	:00_Current "Create project reports here. You must be a main manager to share reports."
+}
+CreateProjectReportsHereYouMustBeAn "Create project reports here. You must be an administrator to share reports."
+{
+	// 09759dd4
+	:00_Current "Create project reports here. You must be an administrator to share reports."
+}
+CreatedBy NLocalize/NShared/CreatedBy
+{
+	// ec04522d
+	:00_Current "Created by"
+}
+Delete NLocalize/NShared/Delete
+{
+	// 9189d44d
+	:00_Current "Delete"
+}
+Duplicate NLocalize/NShared/Duplicate
+{
+	// 8ce77055
+	:00_Current "Duplicate"
+}
+EditGenerateAndExport "Edit, generate and export"
+{
+	// 422824e0
+	:00_Current "Edit, generate and export"
+}
+EmailedDailyToX "Emailed daily to {0}"
+{
+	// 69df1c39
+	// 0 text - E-mail address to send report to
+	:00_Current "Emailed daily to {0}"
+}
+EmailedWeeklyToX "Emailed weekly to {0}"
+{
+	// c4f0da37
+	// 0 text - E-mail address to send report to
+	:00_Current "Emailed weekly to {0}"
+}
+FindReports "Find reports"
+{
+	// 0ef3c1ca
+	:00_Current "Find reports"
+}
+GenerateReport "Generate"
+{
+	// 8e64c101
+	:00_Current "Generate"
+}
+GoToTrainingVideosForReportsOnHansoftse "Go to training videos for reports on <a href=http://www.hansoft.com/videos/reportintroduction>Hansoft.com</a>"
+{
+	// 8b98eeb7
+	:00_Current "Go to training videos for reports on <a href=http://www.hansoft.com/videos/reportintroduction>Hansoft.com</a>"
+}
+HiddenReport "Hidden on toolbar - {0}"
+{
+	// 1de71462
+	// 0 text - Shared to people information
+	:00_Current "Hidden on toolbar - {0}"
+}
+HideReportOnToolbar "Hide on toolbar"
+{
+	// 2ea4b280
+	:00_Current "Hide on toolbar"
+}
+More NLocalize/NShared/More3
+{
+	// 36b112ad
+	:00_Current "More.."
+}
+NotSharedAndNotMailedOut "Not shared and not mailed out."
+{
+	// 6975448a
+	:00_Current "Not shared and not mailed out."
+}
+RemoveResources NLocalize/NShared/RemoveResources
+{
+	// aa3895a3
+	:00_Current "Remove users"
+}
+Rename NLocalize/NShared/Rename
+{
+	// b23313f2
+	:00_Current "Rename"
+}
+ReportName "Report name"
+{
+	// 17b86497
+	:00_Current "Report name"
+}
+Reports NLocalize/NShared/Reports
+{
+	// f8c18829
+	:00_Current "Reports"
+}
+ShareOnToolbar "Share on toolbar"
+{
+	// c5c3d4dd
+	:00_Current "Share on toolbar"
+}
+ShareReport "Share report"
+{
+	// 5b603c69
+	:00_Current "Share report"
+}
+SharedTo "Shared to"
+{
+	// c15497f4
+	:00_Current "Shared to"
+}
+SharedToX "Shared to {0}"
+{
+	// ebe796cc
+	// 0 text - Name of user group report is shared to
+	:00_Current "Shared to {0}"
+}
+SharedToYouBy "Shared to you by {0}"
+{
+	// 307f0e0c
+	// 0 text - Name of user group report is shared to
+	:00_Current "Shared to you by {0}"
+}
+ShowReportOnToolbar "Show on toolbar"
+{
+	// 050a5507
+	:00_Current "Show on toolbar"
+}
+ToRemoveSharingClickHere "To remove sharing click here:"
+{
+	// 76693ea1
+	:00_Current "To remove sharing click here:"
+}
+ToShareAReportOnTheToolbarClickHere "To share a report on the toolbar click here:"
+{
+	// 58ce1ac8
+	:00_Current "To share a report on the toolbar click here:"
+}
+TrainingVideos "Training Videos:"
+{
+	// df4b45a0
+	:00_Current "Training Videos:"
+}
+TransferOwnershipToMeMenu "Transfer ownership to me"
+{
+	// df711d48
+	:00_Current "Transfer ownership to me"
+}
+TransferOwnershipToYou "Are you sure you want to transfer ownership of this report to you?"
+{
+	// 91c3357e
+	:00_Current "Are you sure you want to transfer ownership of this report to you?"
+}
+YouCanShareReportsWithOtherCoworkersTheReports "You can share reports with other co-workers. The reports will be visible on the main toolbar."
+{
+	// a3a7de18
+	:00_Current "You can share reports with other co-workers. The reports will be visible on the main toolbar."
+}
+namespace NEditReport
+// Edit, generate and export report dialog
+// More..>Reports and trends>Create and share reports, Edit report
+{
+	ConvertToExcludingCriteria "Convert to excluding criteria"
+	{
+		// 78e6a5d3
+		:00_Current "Convert to excluding criteria"
+	}
+	ConvertToFindCriteria "Convert to find criteria"
+	{
+		// 55274a11
+		:00_Current "Convert to find criteria"
+	}
+	CriteriasMustBeConnectedWithinTheSameScope "Criterias must be connected within the same scope"
+	{
+		// 7cf31f56
+		:00_Current "Criterias must be connected within the same scope"
+	}
+	Delete NLocalize/NShared/Delete
+	{
+		// 11dd04cc
+		:00_Current "Delete"
+	}
+	DeleteConnection NLocalize/NShared/DeleteConnection
+	{
+		// 9e34ed3c
+		:00_Current "Delete connection"
+	}
+	Disconnect NLocalize/NShared/Disconnect
+	{
+		// b22bc563
+		:00_Current "Disconnect"
+	}
+	DoYouWantToSaveYourChangesBeforeClosing "Do you want to save your changes before closing?"
+	{
+		// 517f85ff
+		:00_Current "Do you want to save your changes before closing?"
+	}
+	ScopeObjectsCannotBeConnectedThisWay "Scope objects cannot be connected this way"
+	{
+		// 20a2dfa3
+		:00_Current "Scope objects cannot be connected this way"
+	}
+	YouAreNotAllowedToConnectXToX "You are not allowed to connect '{0}' to '{1}'."
+	{
+		// 85dcfa67
+		// 0 text - Name of first criteria in edit report
+		// 1 text - Name of second criteria in edit report
+		:00_Current "You are not allowed to connect '{0}' to '{1}'."
+	}
+	YouAreNotAllowedToConnectXToXIfXAlreadyIs "You are not allowed to connect '{0}' to '{1}' if '{2}' already is connected to '{3}'."
+	{
+		// e3d349cc
+		// 0 text - Name of first criteria in edit report (no loops allowed)
+		// 1 text - Name of second criteria in edit report (no loops allowed)
+		// 2 text - Name of first criteria in edit report (no loops allowed)
+		// 3 text - Name of second criteria in edit report (no loops allowed)
+		:00_Current "You are not allowed to connect '{0}' to '{1}' if '{2}' already is connected to '{3}'."
+	}
+	namespace NEditCondition
+    // Labels for edit conditions
+	{
+		AfterDate NLocalize/NShared/AfterDate
+		{
+			// 78a7fd93
+			:00_Current "After date"
+		}
+		BeforeDate NLocalize/NShared/BeforeDate
+		{
+			// 35a77e74
+			:00_Current "Before date"
+		}
+		ContainingThisKeyword "Containing this keyword:"
+		{
+			// d829956a
+			:00_Current "Containing this keyword:"
+		}
+		Contains NLocalize/NShared/Contains
+		{
+			// 7c3da462
+			:00_Current "Contains"
+		}
+		ContainsCaseSensitive NLocalize/NShared/ContainsCaseSensitive
+		{
+			// 7f8b32d8
+			:00_Current "Contains (case sensitive)"
+		}
+		CustomReportQuery "Custom report query:"
+		{
+			// 6acbcd30
+			:00_Current "Custom report query:"
+		}
+		CustomReportQuery2 NLocalize/NShared/CustomReportQuery
+		{
+			// c4457362
+			:00_Current "Custom report query"
+		}
+		DAYS "DAYS"
+		{
+			// d19ad8b4
+			:00_Current "DAYS"
+		}
+		DateCondition "Date condition: "
+		{
+			// 6a413268
+			:00_Current "Date condition: "
+		}
+		DoesNotContain "Does not contain"
+		{
+			// 4dbf074b
+			:00_Current "Does not contain"
+		}
+		DoesNotContainCaseSensitive "Does not contain (case sensitive)"
+		{
+			// 7e304861
+			:00_Current "Does not contain (case sensitive)"
+		}
+		DropListOperator "Drop list operator"
+		{
+			// bb796aa0
+			:00_Current "Drop list operator"
+		}
+		EndsWith NLocalize/NShared/EndsWith
+		{
+			// f05be789
+			:00_Current "Ends with"
+		}
+		EndsWithCaseSensitive NLocalize/NShared/EndsWithCaseSensitive
+		{
+			// 0a471d5f
+			:00_Current "Ends with (case sensitive)"
+		}
+		Equals "Equals"
+		{
+			// a97d3b0e
+			:00_Current "Equals"
+		}
+		EqualsCaseSensitive "Equals (case sensitive)"
+		{
+			// 6c154104
+			:00_Current "Equals (case sensitive)"
+		}
+		ExactMatch NLocalize/NShared/ExactMatch
+		{
+			// b107ce45
+			:00_Current "Exact match"
+		}
+		ExactlyMatchingThisKeyword "Exactly matching this keyword:"
+		{
+			// c958a865
+			:00_Current "Exactly matching this keyword:"
+		}
+		FindItemsWithThisKeyword "Find items with this keyword:"
+		{
+			// 6465e51f
+			:00_Current "Find items with this keyword:"
+		}
+		From "From:"
+		{
+			// d19cc4d7
+			:00_Current "From:"
+		}
+		FromDate "From date:"
+		{
+			// 29b84e15
+			:00_Current "From date:"
+		}
+		FromTodayToXDaysInTheFuture NLocalize/NShared/FromTodayToXDaysInTheFuture
+		{
+			// 004a73b7
+			:00_Current "From today to X days in the future"
+		}
+		FromTodayToXHoursInTheFuture NLocalize/NShared/FromTodayToXHoursInTheFuture
+		{
+			// a6589ad7
+			:00_Current "From today to X hours in the future"
+		}
+		FromTodayToXMinutesInTheFuture NLocalize/NShared/FromTodayToXMinutesInTheFuture
+		{
+			// 0dd516ab
+			:00_Current "From today to X minutes in the future"
+		}
+		FromTodayToXMonthsInTheFuture NLocalize/NShared/FromTodayToXMonthsInTheFuture
+		{
+			// a087725f
+			:00_Current "From today to X months in the future"
+		}
+		FromTodayToXWeeksInTheFuture NLocalize/NShared/FromTodayToXWeeksInTheFuture
+		{
+			// 1d0eace5
+			:00_Current "From today to X weeks in the future"
+		}
+		FromTodayToXYearsInTheFuture NLocalize/NShared/FromTodayToXYearsInTheFuture
+		{
+			// 741154aa
+			:00_Current "From today to X years in the future"
+		}
+		FromXDaysInThePastToToday NLocalize/NShared/FromXDaysInThePastToToday
+		{
+			// 425f5fb4
+			:00_Current "From X days in the past to today"
+		}
+		FromXHoursInThePastToToday NLocalize/NShared/FromXHoursInThePastToToday
+		{
+			// 94115e54
+			:00_Current "From X hours in the past to today"
+		}
+		FromXMinutesInThePastToToday NLocalize/NShared/FromXMinutesInThePastToToday
+		{
+			// 9f2875a8
+			:00_Current "From X minutes in the past to today"
+		}
+		FromXMonthsInThePastToToday NLocalize/NShared/FromXMonthsInThePastToToday
+		{
+			// 2e36fe5c
+			:00_Current "From X months in the past to today"
+		}
+		FromXWeeksInThePastToToday NLocalize/NShared/FromXWeeksInThePastToToday
+		{
+			// ca0ae922
+			:00_Current "From X weeks in the past to today"
+		}
+		FromXYearsInThePastToToday NLocalize/NShared/FromXYearsInThePastToToday
+		{
+			// 2b563407
+			:00_Current "From X years in the past to today"
+		}
+		GreaterThan NLocalize/NShared/GreaterThan
+		{
+			// f707ad38
+			:00_Current "Greater than"
+		}
+		GreaterThanCaseSensitive NLocalize/NShared/GreaterThanCaseSensitive
+		{
+			// 3c12676e
+			:00_Current "Greater than (case sensitive)"
+		}
+		GreaterThanEqual NLocalize/NShared/GreaterThanEqual
+		{
+			// 879d4070
+			:00_Current "Greater than equal"
+		}
+		GreaterThanEqualCaseSensitive NLocalize/NShared/GreaterThanEqualCaseSensitive
+		{
+			// 2deb75a6
+			:00_Current "Greater than equal (case sensitive)"
+		}
+		HOURS "HOURS"
+		{
+			// 0545edb4
+			:00_Current "HOURS"
+		}
+		InDateRange NLocalize/NShared/InDateRange
+		{
+			// eb506d25
+			:00_Current "In date range"
+		}
+		InRange NLocalize/NShared/InRange
+		{
+			// 0394c3a7
+			:00_Current "In range"
+		}
+		ItemsWithThisKeyword NLocalize/NShared/ItemsWithThisKeyword
+		{
+			// 1a67c15e
+			:00_Current "(Items with this keyword)"
+		}
+		ItemsWithThisKeyword2 "Items with this keyword"
+		{
+			// 675fed50
+			:00_Current "Items with this keyword"
+		}
+		LessThan NLocalize/NShared/LessThan
+		{
+			// d4584c85
+			:00_Current "Less than"
+		}
+		LessThanCaseSensitive NLocalize/NShared/LessThanCaseSensitive
+		{
+			// f17ebbdb
+			:00_Current "Less than (case sensitive)"
+		}
+		LessThanEqual NLocalize/NShared/LessThanEqual
+		{
+			// cec677dd
+			:00_Current "Less than equal"
+		}
+		LessThanEqualCaseSensitive NLocalize/NShared/LessThanEqualCaseSensitive
+		{
+			// 166e9633
+			:00_Current "Less than equal (case sensitive)"
+		}
+		MINUTES "MINUTES"
+		{
+			// e0df6dc8
+			:00_Current "MINUTES"
+		}
+		MONTHS "MONTHS"
+		{
+			// b9a9a01c
+			:00_Current "MONTHS"
+		}
+		NotEquals "Not equals"
+		{
+			// 66ade77f
+			:00_Current "Not equals"
+		}
+		NotEqualsCaseSensitive "Not equals (case sensitive)"
+		{
+			// 6556dd15
+			:00_Current "Not equals (case sensitive)"
+		}
+		NumericalCondition "Numerical condition: "
+		{
+			// 4715d2ea
+			:00_Current "Numerical condition: "
+		}
+		OnCriteriaFindOn "On criteria, find on:"
+		{
+			// 7c732bd1
+			:00_Current "On criteria, find on:"
+		}
+		OnDate NLocalize/NShared/OnDate
+		{
+			// c07faa3e
+			:00_Current "On date"
+		}
+		OnOrAfterDate NLocalize/NShared/OnOrAfterDate
+		{
+			// d7472551
+			:00_Current "On or after date"
+		}
+		OnOrBeforeDate NLocalize/NShared/OnOrBeforeDate
+		{
+			// 682b9df2
+			:00_Current "On or before date"
+		}
+		Scope "Scope:"
+		{
+			// 0618655d
+			:00_Current "Scope:"
+		}
+		ScopeName "Scope name:"
+		{
+			// 7c823c7e
+			:00_Current "Scope name:"
+		}
+		SelectCondition "Select condition: "
+		{
+			// b3db7a8a
+			:00_Current "Select condition: "
+		}
+		SelectCondition2 NLocalize/NShared/SelectCondition
+		{
+			// 2f4acbfc
+			:00_Current "Select condition:"
+		}
+		SelectCondition3 "Select condition"
+		{
+			// 2f4acbfd
+			:00_Current "Select condition"
+		}
+		SelectDate "Select date.."
+		{
+			// e031cd81
+			:00_Current "Select date.."
+		}
+		SelectScope "Select scope"
+		{
+			// e77bf27d
+			:00_Current "Select scope"
+		}
+		SelectX "Select '{0}'"
+		{
+			// f23536fb
+			// 0 text - Name of current selected column name (when editing conditions in repory edit)
+			:00_Current "Select '{0}'"
+		}
+		SelectedX "Selected '{0}':"
+		{
+			// 545f2644
+			// 0 text - Name of current selected column name (when editing conditions in repory edit)
+			:00_Current "Selected '{0}':"
+		}
+		SpecifyChoice "Specify choice:"
+		{
+			// 146b4a61
+			:00_Current "Specify choice:"
+		}
+		StartsWith NLocalize/NShared/StartsWith
+		{
+			// 9cfd8420
+			:00_Current "Starts with"
+		}
+		StartsWithCaseSensitive NLocalize/NShared/StartsWithCaseSensitive
+		{
+			// 8a883756
+			:00_Current "Starts with (case sensitive)"
+		}
+		StartsWithThisKeyword "Starts with this keyword:"
+		{
+			// d07baabd
+			:00_Current "Starts with this keyword:"
+		}
+		TextCondition "Text condition: "
+		{
+			// 761095ef
+			:00_Current "Text condition: "
+		}
+		TextCondition2 "Text condition:"
+		{
+			// 38235401
+			:00_Current "Text condition:"
+		}
+		To "To:"
+		{
+			// 3b327526
+			:00_Current "To:"
+		}
+		ToDate "To date:"
+		{
+			// cc3b8de4
+			:00_Current "To date:"
+		}
+		Unknown NLocalize/NShared/Unknown
+		{
+			// a11b2893
+			:00_Current "Unknown"
+		}
+		WEEKS "WEEKS"
+		{
+			// 064f9c82
+			:00_Current "WEEKS"
+		}
+		X "{0}:"
+		{
+			// 01cb39db
+			// 0 text - Label text on the three bottom selectors in the edit template window
+			:00_Current "{0}:"
+		}
+		YEARS "YEARS"
+		{
+			// 0673bd67
+			:00_Current "YEARS"
+		}
+	}
+	namespace NFunctions
+    // Labels and messages edit report dialog
+	{
+		Advanced NLocalize/NShared/Advanced
+		{
+			// 6736b025
+			:00_Current "Advanced"
+		}
+		AdvancedModeOff "Advanced mode: Off"
+		{
+			// 07cfaaa5
+			:00_Current "Advanced mode: Off"
+		}
+		AdvancedModeOnMoreCriteriaAndOperators "Advanced mode on (more criteria and operators)"
+		{
+			// 0992347f
+			:00_Current "Advanced mode on (more criteria and operators)"
+		}
+		AfterDate NLocalize/NShared/AfterDate
+		{
+			// 9627db3f
+			:00_Current "After date"
+		}
+		AllBugs "All bugs"
+		{
+			// cf32aa39
+			:00_Current "All bugs"
+		}
+		AllImmediateSubItems NLocalize/NShared/AllImmediateSubItems
+		{
+			// 9926de63
+			:00_Current "All immediate sub items"
+		}
+		AllItems "All items"
+		{
+			// b60607aa
+			:00_Current "All items"
+		}
+		AllLeafSubItems NLocalize/NShared/AllLeafSubItems
+		{
+			// b6d0accc
+			:00_Current "All leaf sub items"
+		}
+		AllPreviousSubProjects NLocalize/NShared/AllPreviousSubProjects
+		{
+			// f99ccc39
+			:00_Current "All previous sub projects"
+		}
+		AllSubItems NLocalize/NShared/AllSubItems
+		{
+			// c27dc974
+			:00_Current "All sub items"
+		}
+		AnyImmediateSubItem NLocalize/NShared/AnyImmediateSubItem
+		{
+			// f1079e3f
+			:00_Current "Any immediate sub item"
+		}
+		AnyLeafSubItem NLocalize/NShared/AnyLeafSubItem
+		{
+			// 37e9d628
+			:00_Current "Any leaf sub item"
+		}
+		AnyPreviousSubProject NLocalize/NShared/AnyPreviousSubProject
+		{
+			// 1714f915
+			:00_Current "Any previous sub project"
+		}
+		AnySubItem NLocalize/NShared/AnySubItem
+		{
+			// 3bc8de50
+			:00_Current "Any sub item"
+		}
+		AreYouSureYouWantToDeleteTheCurrentWorkflowAnd NLocalize/NShared/AreYouSureYouWantToDeleteTheCurrentWorkflowAnd
+		{
+			// 2b4d1ee2
+			:00_Current "Are you sure you want to delete the current workflow and replace with the default workflow?"
+		}
+		AreYouSureYouWantToDeleteTheSelectedFind "Are you sure you want to delete the selected find criteria?"
+		{
+			// 52cab1bb
+			:00_Current "Are you sure you want to delete the selected find criteria?"
+		}
+		AreYouSureYouWantToDeleteTheSelectedScope "Are you sure you want to delete the selected scope?"
+		{
+			// ad08e394
+			:00_Current "Are you sure you want to delete the selected scope?"
+		}
+		BeforeDate NLocalize/NShared/BeforeDate
+		{
+			// 032311a0
+			:00_Current "Before date"
+		}
+		Close NLocalize/NShared/Close
+		{
+			// 5cb7b4c5
+			:00_Current "Close"
+		}
+		Contains NLocalize/NShared/Contains
+		{
+			// 7d227c8e
+			:00_Current "Contains"
+		}
+		ContainsX "Contains: {0}"
+		{
+			// 21720ea6
+			// 0 text - Label if date condition is contains
+			:00_Current "Contains: {0}"
+		}
+		ConvertTextQueryToReport "Convert text query to report"
+		{
+			// 2bb37cea
+			:00_Current "Convert text query to report"
+		}
+		CreateExcludingCriteria "Create excluding criteria"
+		{
+			// d13cd599
+			:00_Current "Create excluding criteria"
+		}
+		CreateFindCriteria "Create find criteria"
+		{
+			// 81090617
+			:00_Current "Create find criteria"
+		}
+		CustomReportQuery NLocalize/NShared/CustomReportQuery
+		{
+			// 487496dc
+			:00_Current "Custom report query"
+		}
+		DateRangeXToX "Date range: {0} to {1}"
+		{
+			// c8e864ad
+			// 0 text - From date in criteria if date condition is date range
+			// 1 text - To date in criteria if date condition is date range
+			:00_Current "Date range: {0} to {1}"
+		}
+		Delete NLocalize/NShared/Delete
+		{
+			// f582ec22
+			:00_Current "Delete"
+		}
+		DeleteDel NLocalize/NShared/DeleteDel
+		{
+			// 9fbf3f97
+			:00_Current "Delete (Del)"
+		}
+		Disconnect NLocalize/NShared/Disconnect
+		{
+			// 3a8167b9
+			:00_Current "Disconnect"
+		}
+		EditGenerateAndExportX "Edit, generate and export '{0}'"
+		{
+			// 7fbce30d
+			// 0 text - Report name (in window header of report edit window)
+			:00_Current "Edit, generate and export '{0}'"
+		}
+		ExportReportResus "Export report results"
+		{
+			// c57e9b9f
+			:00_Current "Export report results"
+		}
+		ExportReportResusAsHansoftXMLCtrlE "Export report results as Hansoft XML"
+		{
+			// 00666af1
+			:00_Current "Export report results as Hansoft XML"
+		}
+		ExportReportResusAsSpreadsheetXls "Export report results as spreadsheet (.xlsx)"
+		{
+			// 516d1962
+			:00_Current "Export report results as spreadsheet (.xlsx)"
+		}
+		ExportReportResusAsTabSeparatedText "Export report results as tab separated text"
+		{
+			// 8b214248
+			:00_Current "Export report results as tab separated text"
+		}
+		FromTodayToXDaysInTheFuture "From today to {0} [NHelpers::Pluralize($0,'day')] in the future"
+		{
+			// 748c4463
+			// 0 integer - Number of days (in criteria)
+			:00_Current "From today to {0} [NHelpers::Pluralize($0,'day')] in the future"
+		}
+		FromTodayToXHoursInTheFuture "From today to {0} [NHelpers::Pluralize($0,'hour')] in the future"
+		{
+			// a2d48103
+			// 0 integer - Number of hours (in criteria)
+			:00_Current "From today to {0} [NHelpers::Pluralize($0,'hour')] in the future"
+		}
+		FromTodayToXMinutesInTheFuture "From today to {0} [NHelpers::Pluralize($0,'minute')] in the future"
+		{
+			// 18e337d7
+			// 0 integer - Number of minutes (in criteria)
+			:00_Current "From today to {0} [NHelpers::Pluralize($0,'minute')] in the future"
+		}
+		FromTodayToXMonthsInTheFuture "From today to {0} [NHelpers::Pluralize($0,'month')] in the future"
+		{
+			// 2c801e0b
+			// 0 integer - Number of months (in criteria)
+			:00_Current "From today to {0} [NHelpers::Pluralize($0,'month')] in the future"
+		}
+		FromTodayToXWeeksInTheFuture "From today to {0} [NHelpers::Pluralize($0,'week')] in the future"
+		{
+			// 198a9311
+			// 0 integer - Number of weeks (in criteria)
+			:00_Current "From today to {0} [NHelpers::Pluralize($0,'week')] in the future"
+		}
+		FromTodayToXYearsInTheFuture "From today to {0} [NHelpers::Pluralize($0,'year')] in the future"
+		{
+			// 708d3ad6
+			// 0 integer - Number of years (in criteria)
+			:00_Current "From today to {0} [NHelpers::Pluralize($0,'year')] in the future"
+		}
+		FromXDaysInThePastToToday "From {0} [NHelpers::Pluralize($0,'day')] in the past to today"
+		{
+			// 405d1560
+			// 0 integer - Number of days (in criteria)
+			:00_Current "From {0} [NHelpers::Pluralize($0,'day')] in the past to today"
+		}
+		FromXHoursInThePastToToday "From {0} [NHelpers::Pluralize($0,'hour')] in the past to today"
+		{
+			// 51c5c980
+			// 0 integer - Number of hours (in criteria)
+			:00_Current "From {0} [NHelpers::Pluralize($0,'hour')] in the past to today"
+		}
+		FromXMinutesInThePastToToday "From {0} [NHelpers::Pluralize($0,'minute')] in the past to today"
+		{
+			// 9ba45bd4
+			// 0 integer - Number of minutes (in criteria)
+			:00_Current "From {0} [NHelpers::Pluralize($0,'minute')] in the past to today"
+		}
+		FromXMonthsInThePastToToday "From {0} [NHelpers::Pluralize($0,'month')] in the past to today"
+		{
+			// a278cf08
+			// 0 integer - Number of months (in criteria)
+			:00_Current "From {0} [NHelpers::Pluralize($0,'month')] in the past to today"
+		}
+		FromXWeeksInThePastToToday "From {0} [NHelpers::Pluralize($0,'week')] in the past to today"
+		{
+			// 87bf544e
+			// 0 integer - Number of weeks (in criteria)
+			:00_Current "From {0} [NHelpers::Pluralize($0,'week')] in the past to today"
+		}
+		FromXYearsInThePastToToday "From {0} [NHelpers::Pluralize($0,'year')] in the past to today"
+		{
+			// e90a9f33
+			// 0 integer - Number of years (in criteria)
+			:00_Current "From {0} [NHelpers::Pluralize($0,'year')] in the past to today"
+		}
+		GroupByX "Group by '{0}'"
+		{
+			// 17875c8f
+			// 0 text - Column name (in sort and group report by menu)
+			:00_Current "Group by '{0}'"
+		}
+		GroupReportByMain "Group report by - Main"
+		{
+			// cdc27ad8
+			:00_Current "Group report by - Main"
+		}
+		GroupReportBySub "Group report by - Sub"
+		{
+			// 34c7f13d
+			:00_Current "Group report by - Sub"
+		}
+		HansoftFailedToConvertTheTextToAReportThe "Hansoft failed to convert the text to a report. The reason was:\n"\
+		                                          "\n"\
+		                                          "{0}.\n"\
+		                                          "\n"\
+		                                          "A custom query criteria was created where your text is stored."
+		{
+			// 90997af2
+			// 0 text - Fail message
+			:00_Current "Hansoft failed to convert the text to a report. The reason was:\n"\
+			            "\n"\
+			            "{0}.\n"\
+			            "\n"\
+			            "A custom query criteria was created where your text is stored."
+		}
+		ImmediatePreviousSubProject NLocalize/NShared/ImmediatePreviousSubProject
+		{
+			// d31eaddc
+			:00_Current "Immediate previous sub project"
+		}
+		InAllProjects "In all projects"
+		{
+			// c8299949
+			:00_Current "In all projects"
+		}
+		InProjectX "In project {0}"
+		{
+			// ca808f15
+			// 0 text - Name of project (In All bugs criteria)
+			:00_Current "In project {0}"
+		}
+		ItemsWithThisKeyword NLocalize/NShared/ItemsWithThisKeyword
+		{
+			// 65a63b8a
+			:00_Current "(Items with this keyword)"
+		}
+		More NLocalize/NShared/More2
+		{
+			// 50683142
+			:00_Current "More.."
+		}
+		NoCustomQueryIsSet "(No custom query is set)"
+		{
+			// 47d16cc5
+			:00_Current "(No custom query is set)"
+		}
+		NoScopeSet "(No scope set)"
+		{
+			// 95ba1232
+			:00_Current "(No scope set)"
+		}
+		NothingSelected "(Nothing selected)"
+		{
+			// 90e2786f
+			:00_Current "(Nothing selected)"
+		}
+		OnDate NLocalize/NShared/OnDate
+		{
+			// 0fb8876a
+			:00_Current "On date"
+		}
+		OnOrAfterDate NLocalize/NShared/OnOrAfterDate
+		{
+			// 4795f8fd
+			:00_Current "On or after date"
+		}
+		OnOrBeforeDate NLocalize/NShared/OnOrBeforeDate
+		{
+			// e254e71e
+			:00_Current "On or before date"
+		}
+		PrintThisReport "Print this report"
+		{
+			// 52eed0f0
+			:00_Current "Print this report"
+		}
+		RangeXToX "Range: {0,fe2} to {1,fe2}"
+		{
+			// eb0e99af
+			// 0 decimal - From float number in range
+			// 1 decimal - To float number in range
+			:00_Current "Range: {0,fe2} to {1,fe2}"
+		}
+		RangeXToX2 "Range: {0} to {1}"
+		{
+			// 4ce1cfc1
+			// 0 integer - From number in range
+			// 1 integer - From number in range
+			:00_Current "Range: {0} to {1}"
+		}
+		Redo NLocalize/NShared/Redo
+		{
+			// 506ac2d9
+			:00_Current "Redo"
+		}
+		RedoLastActionCtrlY NLocalize/NShared/RedoLastActionCtrlY
+		{
+			// e3870db9
+			:00_Current "Redo last action"
+		}
+		ReportSettings "Report settings"
+		{
+			// 997211bc
+			:00_Current "Report settings"
+		}
+		ReportedBugs "Reported bugs"
+		{
+			// 5f8c7765
+			:00_Current "Reported bugs"
+		}
+		ReportedItems "Reported items"
+		{
+			// 51997a56
+			:00_Current "Reported items"
+		}
+		Save NLocalize/NShared/Save
+		{
+			// 506b407e
+			:00_Current "Save"
+		}
+		ScopeEnd "Scope end"
+		{
+			// a7935080
+			:00_Current "Scope end"
+		}
+		ScopeStart "Scope start"
+		{
+			// daaa1437
+			:00_Current "Scope start"
+		}
+		ScopeX "Scope: {0}"
+		{
+			// 185dee81
+			// 0 text - Name of scop (Currently not used)
+			:00_Current "Scope: {0}"
+		}
+		SelectVisibleReportColumns NLocalize/NShared/SelectVisibleReportColumns
+		{
+			// 7a89459a
+			:00_Current "Select visible report columns"
+		}
+		SettingsForReport "Settings for report"
+		{
+			// 699d2043
+			:00_Current "Settings for report"
+		}
+		SortAndGroupReportBy "Sort and group report by"
+		{
+			// 072aaf6e
+			:00_Current "Sort and group report by"
+		}
+		SortAscendingAToZ "Sort ascending (A to Z)"
+		{
+			// 762e1aa1
+			:00_Current "Sort ascending (A to Z)"
+		}
+		SortByX "Sort by '{0}'"
+		{
+			// 405190ea
+			// 0 text - Column name (in sort and group report by menu in edit report window)
+			:00_Current "Sort by '{0}'"
+		}
+		SortDescendingZToA "Sort descending (Z to A)"
+		{
+			// f85393c9
+			:00_Current "Sort descending (Z to A)"
+		}
+		SortReportByFirst "Sort report by - First"
+		{
+			// efa756d6
+			:00_Current "Sort report by - First"
+		}
+		SortReportBySecond "Sort report by - Second"
+		{
+			// 029494aa
+			:00_Current "Sort report by - Second"
+		}
+		Undo NLocalize/NShared/Undo
+		{
+			// 506c8e45
+			:00_Current "Undo"
+		}
+		UndoLastActionCtrlZ NLocalize/NShared/UndoLastActionCtrlZ
+		{
+			// 54dd73a6
+			:00_Current "Undo last action"
+		}
+		WhenTheReportIsActiveUsersCanContinueToUseFind "When the report is active users can continue to use Find"
+		{
+			// 96068dd0
+			:00_Current "When the report is active users can continue to use Find"
+		}
+		XBugs "{0} [NHelpers::Pluralize($0,'bug')]"
+		{
+			// 5e1cc778
+			// 0 integer - Number of bugs (in criteria)
+			:00_Current "{0} [NHelpers::Pluralize($0,'bug')]"
+		}
+		XItems "{0} [NHelpers::Pluralize($0,'item')]"
+		{
+			// 2233ccc9
+			// 0 integer - Number of items (in criteria)
+			:00_Current "{0} [NHelpers::Pluralize($0,'item')]"
+		}
+	}
+	namespace NPaint
+	{
+		CanReachReported "Can't reach 'Reported'"
+		{
+			// 62d1c16c
+			:00_Current "Can't reach 'Reported'"
+		}
+		ColumnOrItemDataIsNot "Column or item data is not"
+		{
+			// 71942e77
+			:00_Current "Column or item data is not"
+		}
+		VisibleOrIsDeleted "visible or is deleted."
+		{
+			// 17ed5134
+			:00_Current "visible or is deleted."
+		}
+		XInXOut "{0} in - {1} out"
+		{
+			// 6fe64991
+			// 0 integer - Number of incoming items to criteria
+			// 1 integer - Number of outgoing items from criteria
+			:00_Current "{0} in - {1} out"
+		}
+	}
+	namespace NQueryPreview
+	{
+		GeneratedFromFindCriterias "Generated from find criterias:"
+		{
+			// efa5ef38
+			:00_Current "Generated from find criterias:"
+		}
+		ReportQuery "Report query"
+		{
+			// d827f060
+			:00_Current "Report query"
+		}
+	}
+	namespace NSelectColumns
+	{
+		Both NLocalize/NShared/Both
+		{
+			// 646acec4
+			:00_Current "Both"
+		}
+		Cancel NLocalize/NShared/Cancel2
+		{
+			// 2bae0f3d
+			:00_Current "Cancel"
+		}
+		ChooseColumns "Choose columns.."
+		{
+			// c8ea3659
+			:00_Current "Choose columns.."
+		}
+		ColumnName NLocalize/NShared/ColumnName
+		{
+			// 694a1646
+			:00_Current "Column name"
+		}
+		MoveDown "Move down"
+		{
+			// 526befe6
+			:00_Current "Move down"
+		}
+		MoveUp "Move up"
+		{
+			// 44036613
+			:00_Current "Move up"
+		}
+		No NLocalize/NShared/No
+		{
+			// bc63c6f4
+			:00_Current "No"
+		}
+		Ok NLocalize/NShared/Ok2
+		{
+			// bc63c711
+			:00_Current "Ok"
+		}
+		SelectText "Select the columns that should be visible in the report. If you select no columns, all columns will be visible in the report."
+		{
+			// 368f4bbc
+			:00_Current "Select the columns that should be visible in the report. If you select no columns, all columns will be visible in the report."
+		}
+		SelectVisibleColumns "Select visible columns:"
+		{
+			// 29913c86
+			:00_Current "Select visible columns:"
+		}
+		SelectVisibleReportColumns NLocalize/NShared/SelectVisibleReportColumns
+		{
+			// 69ac2902
+			:00_Current "Select visible report columns"
+		}
+		VisibleYesNo NLocalize/NShared/VisibleYesNo
+		{
+			// 80ca4093
+			:00_Current "Visible yes/no"
+		}
+		Yes NLocalize/NShared/Yes
+		{
+			// 48dcd368
+			:00_Current "Yes"
+		}
+	}
+}
+

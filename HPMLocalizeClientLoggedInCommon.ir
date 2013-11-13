@@ -1,0 +1,780 @@
+﻿namespace NDllInterfaceImp
+// Messages shown during logout in the logging out dialog.
+{
+	EndingThisSessionWithTheProjectServerPlease "Ending this session with the project server. Please wait..."
+	{
+		// daeea6b7
+		:00_Current "Ending this session with the project server. Please wait..."
+	}
+	HansoftProjectManagerClient NLocalize/NShared/HansoftProjectManagerClient
+	{
+		// 85998b45
+		:00_Current "Hansoft Client"
+	}
+	PerformingRequestedOperationsXProjectTasksLeft "Performing requested operations: {0} project [NHelpers::Pluralize($0,'task')] left to be connected or changed"
+	{
+		// 1047d6b0
+		// 0 integer - Number of tasks
+		:00_Current "Performing requested operations: {0} project [NHelpers::Pluralize($0,'task')] left to be connected or changed"
+	}
+	PerformingRequestedOperationsXXOrMoreProject "Performing requested operations {0}: {1} or more project tasks left to copy, destroy or create"
+	{
+		// a72205ab
+		// 0 integer - Number of requested operations
+		// 1 integer - Number of tasks left to copy
+		:00_Current "Performing requested operations {0}: {1} or more project tasks left to copy, destroy or create"
+	}
+	SDKSettingsChangeYouNeedToLoginAgain "SDK settings change, you need to login again!"
+	{
+		// ba15b4cf
+		:00_Current "SDK settings change, you need to login again!"
+	}
+	YouWereForcefullyLoggedOutFromTheServer "You were forcefully logged out from the server!"
+	{
+		// 1241ba82
+		:00_Current "You were forcefully logged out from the server!"
+	}
+	YourUserAccountHasBeenDisabledOnTheServer "Your user account has been disabled on the server!"
+	{
+		// a22bba3f
+		:00_Current "Your user account has been disabled on the server!"
+	}
+	YourUserAccountHasBeenRemovedFromTheServer "Your user account has been removed from the server!"
+	{
+		// 3bf8b1d0
+		:00_Current "Your user account has been removed from the server!"
+	}
+	YourUserAccountIsInUseOnAnotherComputer "Your user account is in use on another computer!"
+	{
+		// 2ac8a719
+		:00_Current "Your user account is in use on another computer!"
+	}
+}
+namespace NPMCContext
+{
+	namespace NCalendar
+	namespace NCom
+    // Used in dialog during synchronization of database during login.
+	{
+		DeterminingWhatToDownload "Determining what to download."
+		{
+			// 16179d94
+			:00_Current "Determining what to download."
+		}
+	}
+	namespace NComProtocol
+    // Messages shown during database syncronization. Visible in login dialog and warning messages.
+	{
+		DeterminingWhatToDownloadStageXofX "Determining what to download.\n"\
+		                                   "[NHelpers::FormatFileSize($0)] network traffic."
+		{
+			// 4799365f
+			// 0 decimal - Number of compressed network traffic in bytes
+			:00_Current "Determining what to download.\n"\
+			            "[NHelpers::FormatFileSize($0)] network traffic."
+		}
+		DownloadingXOfXMiBDoneXMiBNetworkTraffic "Downloading. {0,fe1} of {1,fe1} MiB done.\n"\
+		                                         "[NHelpers::FormatFileSize($2)] network traffic."
+		{
+			// 5be90853
+			// 0 decimal - Number of MiBs downloaded
+			// 1 decimal - Total number of MiBs
+			// 2 decimal - Number of compressed network traffic in bytes
+			:00_Current "Downloading. {0,fe1} of {1,fe1} MiB done.\n"\
+			            "[NHelpers::FormatFileSize($2)] network traffic."
+		}
+		DownloadingXOfXMiBDoneXXRemainingXMiBNetwork "Downloading. {0,fe1} of {1,fe1} MiB done. {2,sl2,fe0,sf0}:{3,sj2,fe0,sf0} remaining\n"\
+		                                             "[NHelpers::FormatFileSize($4)] network traffic."
+		{
+			// 9cda9dbe
+			// 0 decimal - Number of MiBs downloaded
+			// 1 decimal - Total number of MiBs
+			// 2 decimal - Number of minutes remaining
+			// 3 decimal - Number of seconds remaining
+			// 4 decimal - Number of compressed network traffic in bytes
+			:00_Current "Downloading. {0,fe1} of {1,fe1} MiB done. {2,sl2,fe0,sf0}:{3,sj2,fe0,sf0} remaining\n"\
+			            "[NHelpers::FormatFileSize($4)] network traffic."
+		}
+		ExceptionInRSyncProtocol "An error occurred in the synchronisation protocol: {0}"
+		{
+			// daa0a748
+			// 0 text - The error message
+			:00_Current "An error occurred in the synchronisation protocol: {0}"
+		}
+		FinishingLogin "Finishing login..."
+		{
+			// defa3279
+			:00_Current "Finishing login..."
+		}
+		LoadingDatabase "Loading database..."
+		{
+			// be255974
+			:00_Current "Loading database..."
+		}
+		SynchronizingProjectData "Synchronising project data..."
+		{
+			// fe79ba07
+			:00_Current "Synchronising project data..."
+		}
+		TheProjectServerYouAreTryingToConnectToXX "The project server you are trying to connect to has a database protocol version of {0} while your client has database protocol version of {1}. You need a client with the same database version as the project server. Contact support@hansoft.com for further help."
+		{
+			// 445dec02
+			// 0 text - server database protocol version
+			// 1 text - client database protocol version
+			:00_Current "The project server you are trying to connect to has a database protocol version of {0} while your client has database protocol version of {1}. You need a client with the same database version as the project server. Contact support@hansoft.com for further help."
+		}
+		TheTimeSetOnTheServerYouArTryingToConnectToX "The times set on the server and your local machine differ by[$0!=0, {0} [NHelpers::Pluralize($0,'hour')]][$1!=0, {1} [NHelpers::Pluralize($1,'minute')]].\r\n"\
+		                                             "\r\n"\
+		                                             "To avoid problems ensure that the time and timezone are set up correctly on your server and local computer."
+		{
+			// 7799a6e7
+			// 0 integer - Number of hours difference from server
+			// 1 integer - Number of minutes difference from server
+			:00_Current "The times set on the server and your local machine differ by[$0!=0, {0} [NHelpers::Pluralize($0,'hour')]][$1!=0, {1} [NHelpers::Pluralize($1,'minute')]].\r\n"\
+			            "\r\n"\
+			            "To avoid problems ensure that the time and timezone are set up correctly on your server and local computer."
+		}
+		WaitingForOtherClientsToFinishSyncingThereAre "Waiting for other clients to finish syncing. There are currently {0} [NHelpers::Pluralize($0,'client')] in queue."
+		{
+			// fade8ebe
+			// 0 integer - Number of clients in queue
+			:00_Current "Waiting for other clients to finish syncing. There are currently {0} [NHelpers::Pluralize($0,'client')] in queue."
+		}
+	}
+	namespace NCustomize
+	{
+		namespace NTimesheets
+        // Strings used in the actual timesheet report. Administration>More..>Make a timesheet report
+		{
+			AdministrativeTime "Administrative time"
+			{
+				// 3c7e97fe
+				:00_Current "Administrative time"
+			}
+			Allowances "allowance(s)"
+			{
+				// 721ccf54
+				:00_Current "allowance(s)"
+			}
+			ConsuancyFees "consultancy fees"
+			{
+				// 63226f21
+				:00_Current "consultancy fees"
+			}
+			Hours NLocalize/NShared/Hours
+			{
+				// 15b5773c
+				:00_Current "hours"
+			}
+			HoursAndMinutes "hours and minutes"
+			{
+				// 5809dcb4
+				:00_Current "hours and minutes"
+			}
+			Illness "Illness"
+			{
+				// 9e45bec5
+				:00_Current "Illness"
+			}
+			InternalCost "internal cost"
+			{
+				// c0037c01
+				:00_Current "internal cost"
+			}
+			OfficialStatutoryHoliday "Official/statutory holiday"
+			{
+				// f337ee11
+				:00_Current "Official/statutory holiday"
+			}
+			Recruitment "Recruitment"
+			{
+				// 9a212afd
+				:00_Current "Recruitment"
+			}
+			TravelledKilometers "travelled kilometres"
+			{
+				// b118dc6d
+				:00_Current "travelled kilometres"
+			}
+			UnutilisedOverTimeCompensation "Unutilised over time compensation"
+			{
+				// 29f1370c
+				:00_Current "Unutilised over time compensation"
+			}
+			VacationAnnualHoliday "Vacation/annual holiday"
+			{
+				// 453f9dc9
+				:00_Current "Vacation/annual holiday"
+			}
+			Work "Work"
+			{
+				// 94157aee
+				:00_Current "Work"
+			}
+			XAllowances "{0} [NHelpers::Pluralize($0,'allowance')]"
+			{
+				// 09197b0c
+				// 0 number - Number of allowances
+				:00_Current "{0} [NHelpers::Pluralize($0,'allowance')]"
+			}
+			XHour "{0} / hour"
+			{
+				// 16c18361
+				// 0 text - Cost formatted with currency
+				:00_Current "{0} / hour"
+			}
+			XHours "{0,fe*1} [NHelpers::Pluralize($0,'hour')][NHelpers::Ignore($1)]"
+			{
+				// eef1eff4
+				// 0 number - Number of hours
+				// 1 integer - Number of decimal places.
+				:00_Current "{0,fe*1} [NHelpers::Pluralize($0,'hour')][NHelpers::Ignore($1)]"
+			}
+			XHoursXMinutes "{0} [NHelpers::Pluralize($0,'hour')] {1} [NHelpers::Pluralize($1,'minute')]"
+			{
+				// dee86c11
+				// 0 integer - Number of hours
+				// 1 integer - Number of minutes
+				:00_Current "{0} [NHelpers::Pluralize($0,'hour')] {1} [NHelpers::Pluralize($1,'minute')]"
+			}
+			XInConsuancyFees "{0} in consultancy fees"
+			{
+				// 094e2bd0
+				// 0 text - Total cost number formatted with currency
+				:00_Current "{0} in consultancy fees"
+			}
+			XInInternalCost "{0} in internal cost"
+			{
+				// 9e42ded0
+				// 0 text - Internal cost number formatted with currency
+				:00_Current "{0} in internal cost"
+			}
+			XOfNonProjectTime "{0} of non project time"
+			{
+				// bdae1549
+				// 0 text - Number of non project time
+				:00_Current "{0} of non project time"
+			}
+			XOfProjectTime "{0} of project time"
+			{
+				// 000d729e
+				// 0 text - Number of project time
+				:00_Current "{0} of project time"
+			}
+			XOfTravelTime "{0} of travel time"
+			{
+				// 2d78b295
+				// 0 text - Number of travel time
+				:00_Current "{0} of travel time"
+			}
+			XTotal "{0} total"
+			{
+				// efcb0f87
+				// 0 text - Some quantity text.
+				:00_Current "{0} total"
+			}
+			XTravelledKilometers "{0,fe*1} travelled [NHelpers::Pluralize($0,'kilometre')][NHelpers::Ignore($1)]"
+			{
+				// da1e3725
+				// 0 number - Number of travelled kilometers
+				// 1 integer - Number of decimal places.
+				:00_Current "{0,fe*1} travelled [NHelpers::Pluralize($0,'kilometre')][NHelpers::Ignore($1)]"
+			}
+			XX "{0,fe2,fn2}"
+			{
+				// 5d76439b
+				// 0 decimal - Number of minutes
+				:00_Current "{0,fe2,fn2}"
+			}
+		}
+	}
+	namespace NMainGui
+    // Assorted messages for error, warning and information dialogs.
+	{
+		AFileWithIDXWasNotFound "Could not find a file with ID {0} in document management."
+		{
+			// 2027aff4
+			// 0 integer - The identifier of the document to open
+			:00_Current "Could not find a file with ID {0} in document management."
+		}
+		HansoftCouldNotLocateTheReport "Hansoft could not locate the report in the URL.\n"\
+		                               "\n"\
+		                               "The project, user or report may have been deleted."
+		{
+			// 09f759ea
+			:00_Current "Hansoft could not locate the report in the URL.\n"\
+			            "\n"\
+			            "The project, user or report may have been deleted."
+		}
+		HansoftCouldNotLocateTheTaskItemOrBugInURLXThe "Hansoft could not locate the task, item or bug in URL: {0}\n"\
+		                                               "\n"\
+		                                               "The task, item or bug may have been deleted or you do not have the permission to view it.\n"\
+		                                               "\n"\
+		                                               "The task item or bug may also be automatically hidden in To do list(check Showing: on the toolbar) or in the project view (check Options)."
+		{
+			// 6cedef72
+			// 0 text - URL
+			:00_Current "Hansoft could not locate the task, item or bug in URL: {0}\n"\
+			            "\n"\
+			            "The task, item or bug may have been deleted or you do not have the permission to view it.\n"\
+			            "\n"\
+			            "The task item or bug may also be automatically hidden in To do list(check Showing: on the toolbar) or in the project view (check Options)."
+		}
+		InternalErrorWhileChangingPasswordPlease "Internal error while changing password, please contact support@hansoft.com"
+		{
+			// 82a92426
+			:00_Current "Internal error while changing password, please contact support@hansoft.com"
+		}
+		InvalidURLX "Invalid URL: {0}"
+		{
+			// d44be38c
+			// 0 text - URL
+			:00_Current "Invalid URL: {0}"
+		}
+		Kr "kr"
+		{
+			// 61e28bf7
+			:00_Current "kr"
+		}
+		SavingDatabaseCache "Saving database cache."
+		{
+			// 0025676b
+			:00_Current "Saving database cache."
+		}
+		ShouldReadOrEditDocumentHereX "Should read or edit document here: {0}"
+		{
+			// 36c00e07
+			// 0 text - Path to documents
+			:00_Current "Should read or edit document here: {0}"
+		}
+		ThePasswordYouHaveTypedHaveBeenUsedBefore "The password you have typed have been used before, please type a new password."
+		{
+			// 719fac97
+			:00_Current "The password you have typed have been used before, please type a new password."
+		}
+		Warning NLocalize/NShared/Warning
+		{
+			// d8bbcd10
+			:00_Current "Warning"
+		}
+		WouldYouLikeToOpenThisDocumentX "Would you like to open this document?\n"\
+		                                "\n"\
+		                                " {0}"
+		{
+			// ad7fb06b
+			// 0 text - Path to document
+			:00_Current "Would you like to open this document?\n"\
+			            "\n"\
+			            " {0}"
+		}
+		WrongOldPasswordMakeSureThatYouTypeYourOld "Wrong old password. Make sure that you type your old password correctly."
+		{
+			// df136ef4
+			:00_Current "Wrong old password. Make sure that you type your old password correctly."
+		}
+		YouDoNotHavePermissionToChangeYourPassword "You do not have permission to change your password, please contact your administrator."
+		{
+			// 875b0cf3
+			:00_Current "You do not have permission to change your password, please contact your administrator."
+		}
+	}
+	namespace NProjectHistory
+    // Project history. Progess messages when downloading entries.
+	{
+		DownloadingEntryForDateX "Downloading Entry for date {0}"
+		{
+			// 2d04e81e
+			// 0 text - Formatted date
+			:00_Current "Downloading Entry for date {0}"
+		}
+		DownloadingProjectHistory "Downloading Project History"
+		{
+			// ac4f7cd8
+			:00_Current "Downloading Project History"
+		}
+	}
+	namespace NServerControlCom
+    // Processes incoming packets from server and displays message dialogs.
+	{
+		TheVersionOfTheServerYouAreTryingToConnectTo "The version of the server you are trying to connect to does not match the client version"
+		{
+			// f7c6577d
+			:00_Current "The version of the server you are trying to connect to does not match the client version"
+		}
+		WrongUserNameOrPassword "Wrong user name or password!"
+		{
+			// 112a14c8
+			:00_Current "Wrong user name or password!"
+		}
+	}
+	namespace NVersionControl
+    // Version control part of documents system.
+	{
+		Added "Added"
+		{
+			// d9ace3e9
+			:00_Current "Added"
+		}
+		AddingFiles "Adding files"
+		{
+			// 068b9a71
+			:00_Current "Adding files"
+		}
+		CheckOutFiles "Check out files"
+		{
+			// 5ccfee00
+			:00_Current "Check out files"
+		}
+		CheckingInFiles "Checking in files"
+		{
+			// fac2445d
+			:00_Current "Checking in files"
+		}
+		CreatingDirectories NLocalize/NShared/CreatingDirectories
+		{
+			// 664df4e1
+			:00_Current "Creating directories"
+		}
+		DefauDeletedProjectsDirectoryCreated "Default deleted projects folder created"
+		{
+			// b012aa4a
+			:00_Current "Default deleted projects folder created"
+		}
+		DefauGlobalDirectoryCreated "Default global folder created"
+		{
+			// 0293461a
+			:00_Current "Default global folder created"
+		}
+		DefauProjectFolderUpdated "Default project folder updated"
+		{
+			// da30c0f6
+			:00_Current "Default project folder updated"
+		}
+		DefauProjectsDirectoryCreated "Default projects folder created"
+		{
+			// 589e4673
+			:00_Current "Default projects folder created"
+		}
+		DefauSDKDirectoryCreated "Default SDK folder created"
+		{
+			// b6aed8cb
+			:00_Current "Default SDK folder created"
+		}
+		DefauTranslationsDirectoryCreated "Default translations folder created"
+		{
+			// 9cf7796b
+			:00_Current "Default translations folder created"
+		}
+		DefaultAvatarsFolderCreated "Default avatars folder created"
+		{
+			// 28ecbf42
+			:00_Current "Default avatars folder created"
+		}
+		DefaultPrivateFolderCreated "Default personal folder created"
+		{
+			// fb3f67ab
+			:00_Current "Default personal folder created"
+		}
+		DefaultProjectDirectoryCreated "Default project folder created"
+		{
+			// 4f79bf00
+			:00_Current "Default project folder created"
+		}
+		DeletingFiles NLocalize/NShared/DeletingFiles
+		{
+			// a4d7d4d6
+			:00_Current "Deleting files"
+		}
+		DeletingVersionsFromFile "Deleting versions from file"
+		{
+			// dc7e79b0
+			:00_Current "Deleting versions from file"
+		}
+		DirectoryCreated "Directory created"
+		{
+			// a0f13464
+			:00_Current "Directory created"
+		}
+		DownloadingFileTree "Downloading file tree"
+		{
+			// 653b685d
+			:00_Current "Downloading file tree"
+		}
+		DownloadingFileX "Downloading file: {0}"
+		{
+			// fba84da5
+			// 0 text - Path to file
+			:00_Current "Downloading file: {0}"
+		}
+		DownloadingFiles NLocalize/NShared/DownloadingFiles
+		{
+			// fba84dc0
+			:00_Current "Downloading files"
+		}
+		EditFileActions "Edit file actions"
+		{
+			// 4bd8a4ce
+			:00_Current "Edit file actions"
+		}
+		FileCheckedIn "File checked in"
+		{
+			// 13ca5575
+			:00_Current "File checked in"
+		}
+		FileCreated "File created"
+		{
+			// d6396fef
+			:00_Current "File created"
+		}
+		FileDeleted "File deleted"
+		{
+			// 0561798e
+			:00_Current "File deleted"
+		}
+		FileDoesNotExist "File does not exist"
+		{
+			// a80c7360
+			:00_Current "File does not exist"
+		}
+		FileReadded "File readded"
+		{
+			// 3a48ee20
+			:00_Current "File readded"
+		}
+		FileRestored "File restored"
+		{
+			// ae8b557f
+			:00_Current "File restored"
+		}
+		GettingFileHistory "Getting file history"
+		{
+			// a0757e5b
+			:00_Current "Getting file history"
+		}
+		Modified "Modified"
+		{
+			// 6947a4f8
+			:00_Current "Modified"
+		}
+		MovedToDeletedProjects NLocalize/NShared/MovedToDeletedProjects
+		{
+			// 235c2176
+			:00_Current "Moved to deleted projects"
+		}
+		ReadFileActions "Read file actions"
+		{
+			// 478b4f24
+			:00_Current "Read file actions"
+		}
+		Readded "Readded"
+		{
+			// 1731eb20
+			:00_Current "Readded"
+		}
+		Removed "Removed"
+		{
+			// 181165e9
+			:00_Current "Removed"
+		}
+		RenamedFrom "Renamed from"
+		{
+			// c0f33287
+			:00_Current "Renamed from"
+		}
+		RenamedMovedFile "Renamed/moved file"
+		{
+			// a7b49d6e
+			:00_Current "Renamed/moved file"
+		}
+		RenamedTo "Renamed to"
+		{
+			// 8db1b6d6
+			:00_Current "Renamed to"
+		}
+		RenamingMovingFiles "Renaming / moving files"
+		{
+			// d7acc32b
+			:00_Current "Renaming / moving files"
+		}
+		RestoringFiles NLocalize/NShared/RestoringFiles
+		{
+			// 70a4c187
+			:00_Current "Restoring files"
+		}
+		RevertingFiles "Discarding changes for files"
+		{
+			// 2828d040
+			:00_Current "Discarding changes for files"
+		}
+		RolledBackToVersionX "Rolled back to version {0}"
+		{
+			// 83dbbc8b
+			// 0 text - Version number
+			:00_Current "Rolled back to version {0}"
+		}
+		RollingBackFile NLocalize/NShared/RollingBackFile
+		{
+			// e3c2a13f
+			:00_Current "Rolling back file"
+		}
+		SettingPermissionsOnFiles "Setting permissions on files"
+		{
+			// 309a0301
+			:00_Current "Setting permissions on files"
+		}
+		TranslationAlreadyExistsOnDisk "The translation already exists on disk. It could be that the translation is checked out in another database or server."
+		{
+			// cdb45190
+			:00_Current "The translation already exists on disk. It could be that the translation is checked out in another database or server."
+		}
+		TranslationCheckIn NLocalize/NShared/CheckingInTranslations
+		{
+			// 1b46973b
+			:00_Current "Checking in translations"
+		}
+		TranslationCheckOut NLocalize/NShared/CheckingOutTranslations
+		{
+			// 8419997c
+			:00_Current "Checking out translations"
+		}
+		TranslationCreate NLocalize/NShared/CreatingTranslation
+		{
+			// 94ed5efa
+			:00_Current "Creating translation"
+		}
+		TranslationCustomNameInvalidControlCharacters "Translation name cannot contain characters between 1 and 31."
+		{
+			// a401554a
+			:00_Current "Translation name cannot contain characters between 1 and 31."
+		}
+		TranslationCustomNameInvalidEmpty "Translation name cannot be empty."
+		{
+			// f7b71038
+			:00_Current "Translation name cannot be empty."
+		}
+		TranslationCustomNameInvalidEndWithCharater "Translation name cannot end with end with a '{0}' character."
+		{
+			// 0e472086
+			// 0 text - The character that is in error
+			:00_Current "Translation name cannot end with end with a '{0}' character."
+		}
+		TranslationCustomNameInvalidEndWithSpace "Translation name cannot end with a space."
+		{
+			// 484c7ca8
+			:00_Current "Translation name cannot end with a space."
+		}
+		TranslationCustomNameInvalidSpecificCharacter "Translation name cannot contain a '{0}' character."
+		{
+			// 4a1133bc
+			// 0 text - The character that is in error
+			:00_Current "Translation name cannot contain a '{0}' character."
+		}
+		TranslationCustomNameInvalidSpecificWord "Translation name cannot contain '{0}' alone or with dots on both or either sides."
+		{
+			// 47eec5cb
+			// 0 text - The word that is in error. Will be one of: CON, PRN, AUX, NUL, COM1, COM2, COM3, COM4, COM5, COM6, COM7, COM8, COM9, LPT1, LPT2, LPT3, LPT4, LPT5, LPT6, LPT7, LPT8, LPT9
+			:00_Current "Translation name cannot contain '{0}' alone or with dots on both or either sides."
+		}
+		TranslationDelete NLocalize/NShared/DeletingTranslations
+		{
+			// 965b30b9
+			:00_Current "Deleting translations"
+		}
+		TranslationDeletingVersions "Deleting versions from translation"
+		{
+			// c544e48b
+			:00_Current "Deleting versions from translation"
+		}
+		TranslationRename NLocalize/NShared/RenamingTranslation
+		{
+			// b704705e
+			:00_Current "Renaming translation"
+		}
+		TranslationRevert NLocalize/NShared/DiscardingChangesFromTranslations
+		{
+			// b708e51e
+			:00_Current "Discarding changes from translations"
+		}
+		TranslationRollBack NLocalize/NShared/RollingBackTranslation
+		{
+			// 87ad8390
+			:00_Current "Rolling back translation"
+		}
+		TranslationSetPermissions NLocalize/NShared/SettingPermissionsForTranslations
+		{
+			// 4137cece
+			:00_Current "Setting permissions for translations"
+		}
+		Unknown NLocalize/NShared/Unknown
+		{
+			// 13d9b107
+			:00_Current "Unknown"
+		}
+		UploadingFile "Uploading file: {0}"
+		{
+			// 7c33717a
+			// 0 text - The file that is uploading to the server
+			:00_Current "Uploading file: {0}"
+		}
+		WaitingForServerToFinishDeletingFiles "Waiting for server to finish deleting files"
+		{
+			// 108b888b
+			:00_Current "Waiting for server to finish deleting files"
+		}
+		WaitingForServerToFinishDeletingVersionsFrom "Waiting for server to finish deleting versions from file"
+		{
+			// 86a08845
+			:00_Current "Waiting for server to finish deleting versions from file"
+		}
+		WaitingForServerToFinishProcessingFileCheckout "Waiting for server to finish processing file checkout"
+		{
+			// d432b7df
+			:00_Current "Waiting for server to finish processing file checkout"
+		}
+		WaitingForServerToFinishProcessingFileRenames "Waiting for server to finish processing file renames"
+		{
+			// 99ffd674
+			:00_Current "Waiting for server to finish processing file renames"
+		}
+		WaitingForServerToFinishRestoringFiles "Waiting for server to finish restoring files"
+		{
+			// 52ceebdc
+			:00_Current "Waiting for server to finish restoring files"
+		}
+		WaitingForServerToFinishRollingBackFile "Waiting for server to finish rolling back file"
+		{
+			// 0b321634
+			:00_Current "Waiting for server to finish rolling back file"
+		}
+		WaitingForServerToProcessTheCommand "Waiting for server to process the command"
+		{
+			// 38102d2a
+			:00_Current "Waiting for server to process the command"
+		}
+		X "{0}"
+		{
+			// 2f397b4f
+			// 0 text - Version numbers
+			:00_Current "{0}"
+		}
+	}
+
+	namespace NCalender
+	{
+		FullCalendarName NLocalize/NShared/XX2
+		{
+			// b6a241bc
+			// 0 text - country name
+			// 1 text - list of regions in the country where the calendar applies
+			:00_Current "{0} ({1})"
+		}
+	}
+}
+namespace NPMCObjectActivity
+{
+	Unknown NLocalize/NShared/Unknown
+	{
+		// 92d8aae2
+		:00_Current "Unknown"
+	}
+}
