@@ -3974,7 +3974,7 @@ namespace NMyWork
 		// 0 integer - Number of days
 		:00_Current "{0} [NHelpers::Pluralize($0,'day')] ago"
 	}
-	NewsFeedHoursAgo "{0} [NHelpers::Pluralize($0,'hour')] 시간 전
+	NewsFeedHoursAgo "{0} [NHelpers::Pluralize($0,'hour')] 시간 전"
 		// 09ef7212
 		// 0 integer - Number of hours
 		:00_Current "{0} [NHelpers::Pluralize($0,'hour')] ago"
