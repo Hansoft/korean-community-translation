@@ -10,7 +10,7 @@
 		// 1cfb43cf - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/ATransitionBetweenTwoStatusesCanBeLimitedToA
 		:00_Current "A transition between two statuses can be limited to a set of users and groups."
 	}
-	Action "Action"
+	Action "행위"
 	{
 		// 4cbfc667
 
@@ -19,7 +19,7 @@
 		// c60b552a - NLocalize/NClient/NGui/NVersionControl/NVersionHistory/Action
 		:00_Current "Action"
 	}
-	ActivityName "Activity name"
+	ActivityName "활동(activity) 이름"
 	{
 		// 2fe4c897
 
@@ -28,7 +28,7 @@
 		// 27d33bcc - NLocalize/NDatabaseFunctions/NDB/NGeneral/ActivityName
 		:00_Current "Activity name"
 	}
-	AddFiles "Add Files"
+	AddFiles "파일 추가"
 	{
 		// a0f60fe5
 
@@ -40,7 +40,7 @@
 		// 42e32913 - NLocalize/NClient/NGui/NVersionControl/AddFiles
 		:00_Current "Add Files"
 	}
-	AddResouces "Add users"
+	AddResouces "사용자 추가"
 	{
 		// 7e26261b
 
@@ -49,7 +49,7 @@
 		// fd1e272a - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/NCreateEditProfile/ProfileResourcesAddResources
 		:00_Current "Add users"
 	}
-	AddResources "Add users"
+	AddResources "사용자 추가"
 	{
 		// 42f3194d
 
@@ -68,7 +68,7 @@
 		// c15b407e - NLocalize/NClient/NGui/NGantt/NReports/AddResources
 		:00_Current "Add users"
 	}
-	Administrators "Administrators"
+	Administrators "관리자"
 	{
 		// 7b74ff7d
 
@@ -77,7 +77,7 @@
 		// 9f53d30b - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Administrators
 		:00_Current "Administrators"
 	}
-	Advanced "Advanced"
+	Advanced "고급"
 	{
 		// ccde185f
 
@@ -86,7 +86,7 @@
 		// 6736b025 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/Advanced
 		:00_Current "Advanced"
 	}
-	AfterDate "After date"
+	AfterDate "이후 날짜"
 	{
 		// b0bc4ab9
 
@@ -96,7 +96,7 @@
 		// 6b11356e - NLocalize/NDatabaseFunctions/NFind/AfterDate
 		:00_Current "After date"
 	}
-	AgileRelated "Agile related"
+	AgileRelated "애자일 관련"
 	{
 		// b7a036ec
 
@@ -105,7 +105,7 @@
 		// 22550f34 - NLocalize/NClient/NGui/NGlobalTrends/AgileRelated
 		:00_Current "Agile related"
 	}
-	AgileTheyAreUserStories "General - Flagged as User story"
+	AgileTheyAreUserStories "일반 - 사용자 스토리로 설정"
 	{
 		// 7161e145
 
@@ -114,7 +114,7 @@
 		// 5c729ee4 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/AgileTheyAreUserStories
 		:00_Current "General - Flagged as User story"
 	}
-	AllImmediateSubItems "All immediate sub items"
+	AllImmediateSubItems "모든 이후 하위 항목들"
 	{
 		// 48b26d9d
 
@@ -123,7 +123,7 @@
 		// 75f21d32 - NLocalize/NDatabaseFunctions/NFind/AllImmediateSubItems
 		:00_Current "All immediate sub items"
 	}
-	AllLeafSubItems "All leaf sub items"
+	AllLeafSubItems "모든 마지막 하위 항목들"
 	{
 		// 9ffd4fc6
 
@@ -132,7 +132,7 @@
 		// f1c6ae3b - NLocalize/NDatabaseFunctions/NFind/AllLeafSubItems
 		:00_Current "All leaf sub items"
 	}
-	AllPreviousSubProjects "All previous sub projects"
+	AllPreviousSubProjects "모든 이전 하위 프로젝트들"
 	{
 		// ba4911f3
 
@@ -141,7 +141,7 @@
 		// 3632fac8 - NLocalize/NDatabaseFunctions/NFind/AllPreviousSubProjects
 		:00_Current "All previous sub projects"
 	}
-	AllProjectMembers "All project members"
+	AllProjectMembers "모든 프로젝트 멤버들"
 	{
 		// 123c06c4
 
@@ -157,7 +157,7 @@
 		// fbd6d679 - NLocalize/NDatabaseFunctions/NFind/AllProjectMembers
 		:00_Current "All project members"
 	}
-	AllSubItems "All sub items"
+	AllSubItems "모든 하위 항목들"
 	{
 		// d3ebff6e
 
@@ -166,7 +166,7 @@
 		// 77266b63 - NLocalize/NDatabaseFunctions/NFind/AllSubItems
 		:00_Current "All sub items"
 	}
-	AllocatedTo "Allocated to"
+	AllocatedTo "에게 할당"
 	{
 		// 4233b655
 
@@ -175,7 +175,7 @@
 		// 9d7a2402 - NLocalize/NClient/NGui/NGantt/NCommands/NTaskRelated/AllocateToSprintAllocatedTo
 		:00_Current "Allocated to"
 	}
-	Allocation "Allocation"
+	Allocation "할당"
 	{
 		// 0201a3af
 
@@ -184,7 +184,7 @@
 		// 7d05c63f - NLocalize/NClient/NGui/NResourceAllocationView/Allocation
 		:00_Current "Allocation"
 	}
-	AlsoShowingIdealDaysBurndown "Also showing estimated days burndown"
+	AlsoShowingIdealDaysBurndown "예상일 번다운도 보이기"
 	{
 		// d33d39d6
 
@@ -193,7 +193,7 @@
 		// cd5c17e7 - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/AlsoShowingIdealDaysBurndown
 		:00_Current "Also showing estimated days burndown"
 	}
-	AlsoShowingPointsBurndown "Also showing Points burndown"
+	AlsoShowingPointsBurndown "점수 번다운도 보이기"
 	{
 		// 8882b063
 
@@ -202,7 +202,7 @@
 		// ab7ae014 - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/AlsoShowingPointsBurndown
 		:00_Current "Also showing Points burndown"
 	}
-	AlsoShowingWorkRemainingBurndown "Also showing Work remaining burndown"
+	AlsoShowingWorkRemainingBurndown "잔여 작업 번다운도 보이기"
 	{
 		// b09a04e3
 
@@ -211,7 +211,7 @@
 		// 3c2b8374 - NLocalize/NClient/NGui/NGantt/NObjects/NAutoItem/AlsoShowingWorkRemainingBurndown
 		:00_Current "Also showing Work remaining burndown"
 	}
-	And " and "
+	And " 그리고 "
 	{
 		// bec3b1fc
 
@@ -220,7 +220,7 @@
 		// 65053d51 - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/And
 		:00_Current " and "
 	}
-	And2 "and"
+	And2 "그리고"
 	{
 		// 9739f1ae
 
@@ -229,7 +229,7 @@
 		// c62afa98 - NLocalize/NClient/NGui/NGantt/NQA/NTopWindow/And
 		:00_Current "and"
 	}
-	AnyImmediateSubItem "Any immediate sub item"
+	AnyImmediateSubItem "이후 하위 항목"
 	{
 		// 15612e39
 
@@ -238,7 +238,7 @@
 		// d0eebf2e - NLocalize/NDatabaseFunctions/NFind/AnyImmediateSubItem
 		:00_Current "Any immediate sub item"
 	}
-	AnyLeafSubItem "Any leaf sub item"
+	AnyLeafSubItem "마지막 하위 항목"
 	{
 		// 183101e2
 
@@ -247,7 +247,7 @@
 		// e45de5b7 - NLocalize/NDatabaseFunctions/NFind/AnyLeafSubItem
 		:00_Current "Any leaf sub item"
 	}
-	AnyPreviousSubProject "Any previous sub project"
+	AnyPreviousSubProject "이전 하위 프로젝트"
 	{
 		// b8126f8f
 
@@ -256,7 +256,7 @@
 		// 8d4811c4 - NLocalize/NDatabaseFunctions/NFind/AnyPreviousSubProject
 		:00_Current "Any previous sub project"
 	}
-	AnySubItem "Any sub item"
+	AnySubItem "하위 항목"
 	{
 		// a8eb3d0a
 
@@ -265,7 +265,7 @@
 		// addd7e5f - NLocalize/NDatabaseFunctions/NFind/AnySubItem
 		:00_Current "Any sub item"
 	}
-	Archived "Archived"
+	Archived "보관"
 	{
 		// d6b7a56f
 
@@ -302,7 +302,7 @@
 		// c8fedc8d - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/AreYouSureYouWantToDeleteThisRule
 		:00_Current "Are you sure you want to delete this rule?"
 	}
-	AssignToResourcesGroups " Assign to users/groups"
+	AssignToResourcesGroups " 사용자/그룹에 할당"
 	{
 		// cc4a790c
 
@@ -311,7 +311,7 @@
 		// 18c95895 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/AssignToResourcesGroups
 		:00_Current " Assign to users/groups"
 	}
-	Assigned "Assigned"
+	Assigned "할당"
 	{
 		// 491549f7
 
@@ -320,7 +320,7 @@
 		// 5b5cd3e7 - NLocalize/NDatabaseFunctions/NUsersProjects/Assigned
 		:00_Current "Assigned"
 	}
-	AttachDocuments "Attach documents"
+	AttachDocuments "문서 첨부"
 	{
 		// 2e6803b0
 
@@ -332,7 +332,7 @@
 		// c32df6ad - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/AttachDocuments
 		:00_Current "Attach documents"
 	}
-	AutoAssignedTo "Auto assigned to"
+	AutoAssignedTo "에게 자동 할당"
 	{
 		// a712cc73
 
@@ -341,7 +341,7 @@
 		// 72e5b88c - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/PopupAssignAutoAssignTo
 		:00_Current "Auto assigned to"
 	}
-	AvailableResources "Available users"
+	AvailableResources "가용한 사용자들"
 	{
 		// d69d5fc5
 
@@ -350,7 +350,7 @@
 		// 947c0e41 - NLocalize/NClient/NGui/NGantt/NFloatingSelection/AvailableResources
 		:00_Current "Available users"
 	}
-	BacklogItem "Backlog item"
+	BacklogItem "백로그 항목"
 	{
 		// a62eeb4b
 
@@ -361,7 +361,7 @@
 		// 09e756cd - NLocalize/NDatabaseFunctions/NUsersProjects/BacklogItem2
 		:00_Current "Backlog item"
 	}
-	BeforeDate "Before date"
+	BeforeDate "이전 날짜"
 	{
 		// 7045705a
 
@@ -371,7 +371,7 @@
 		// 7537b1af - NLocalize/NDatabaseFunctions/NFind/BeforeDate
 		:00_Current "Before date"
 	}
-	Blocked "Blocked"
+	Blocked "제한"
 	{
 		// 4653671d
 
@@ -381,7 +381,7 @@
 		// 27d9730d - NLocalize/NDatabaseFunctions/NUsersProjects/Blocked
 		:00_Current "Blocked"
 	}
-	Blue "Blue"
+	Blue "파란"
 	{
 		// 973a77f1
 
@@ -390,7 +390,7 @@
 		// 1f0230fc - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/Blue
 		:00_Current "Blue"
 	}
-	BlueBox "Blue box"
+	BlueBox "파란 상자"
 	{
 		// 46c065da
 
@@ -401,7 +401,7 @@
 		// 326b5363 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/BlueBox
 		:00_Current "Blue box"
 	}
-	BlueCircle "Blue circle"
+	BlueCircle "파란 원"
 	{
 		// 0880ce63
 
@@ -410,7 +410,7 @@
 		// daf41edc - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/BlueCircle
 		:00_Current "Blue circle"
 	}
-	BlueFace "Blue face"
+	BlueFace "파란 얼굴"
 	{
 		// 1ecf14c0
 
@@ -419,7 +419,7 @@
 		// 5511f2f9 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/BlueFace
 		:00_Current "Blue face"
 	}
-	Both "Both"
+	Both "모두"
 	{
 		// 973a8496
 
@@ -433,7 +433,7 @@
 		// 646acec4 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NSelectColumns/Both
 		:00_Current "Both"
 	}
-	BoundToX "(Bound to {0})"
+	BoundToX "({0}에 한정)"
 	{
 		// 0670e51c
 		// 0 text - Default name of sprint type or custom name
@@ -443,7 +443,7 @@
 		// c14d2df9 - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/BoundToSprint
 		:00_Current "(Bound to {0})"
 	}
-	Box "Box ?"
+	Box "상자 ?"
 	{
 		// bec3b672
 
@@ -452,7 +452,7 @@
 		// 23cb8d0b - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/Box
 		:00_Current "Box ?"
 	}
-	Budgeted "Budgeted"
+	Budgeted "한정"
 	{
 		// ac2906ad
 
@@ -461,7 +461,7 @@
 		// 3704ccca - NLocalize/NClient/NGui/NGantt/NDataImport/NProjectHistory/Budgeted
 		:00_Current "Budgeted"
 	}
-	BudgetedWork "Budgeted work"
+	BudgetedWork "한정된 작업"
 	{
 		// 11a83170
 
@@ -471,7 +471,7 @@
 		// 0996a4a5 - NLocalize/NDatabaseFunctions/NDB/NGeneral/BudgetedWork
 		:00_Current "Budgeted work"
 	}
-	Bug "Bug"
+	Bug "버그"
 	{
 		// bec3b727
 
@@ -483,7 +483,7 @@
 		// a41b1504 - NLocalize/NServer/NDatabase/NContextMessageServices/Bug
 		:00_Current "Bug"
 	}
-	BugPriority "Bug priority"
+	BugPriority "버그 우선순위"
 	{
 		// 9e881da9
 
@@ -492,7 +492,7 @@
 		// 222a7e3e - NLocalize/NDatabaseFunctions/NDB/NGeneral/BugPriority
 		:00_Current "Bug priority"
 	}
-	BugStatus "Status"
+	BugStatus "상태"
 	{
 		// ea96accb
 
@@ -505,7 +505,7 @@
 		// 45cf74bb - NLocalize/NDatabaseFunctions/NUsersProjects/BugStatus
 		:00_Current "Status"
 	}
-	CCNewCommentsTo "CC new comments to"
+	CCNewCommentsTo "에게 새로운 의견 참조"
 	{
 		// 84069d42
 
@@ -515,7 +515,7 @@
 		// dc614057 - NLocalize/NDatabaseFunctions/NDB/NGeneral/CCNewCommentsTo
 		:00_Current "CC new comments to"
 	}
-	CalendarHasBeenChangedAndScheduleAdjustedAccordingly "Calendar has been changed and schedule adjusted accordingly"
+	CalendarHasBeenChangedAndScheduleAdjustedAccordingly "캘린더를 변경했습니다. 일정을 조정합니다."
 	{
 		// c00b88a6
 
@@ -524,7 +524,7 @@
 		// 33fc5d44 - NLocalize/NClient/NGui/NGantt/NUndoRedo/NClasses/CalendarHasBeenChangedAndScheduleAdjusted
 		:00_Current "Calendar has been changed and schedule adjusted accordingly"
 	}
-	Cancel "Cancel"
+	Cancel "취소"
 	{
 		// 5142818f
 
@@ -533,7 +533,7 @@
 		// c2642e70 - NLocalize/NClient/NGui/NGantt/NReport/NMailTo/Cancel
 		:00_Current "Cancel"
 	}
-	Cancel2 "Cancel"
+	Cancel2 "취소"
 	{
 		// 7992b3a1
 
@@ -597,7 +597,7 @@
 		// e7ff56a2 - NLocalize/NClient/NLogin/NGui/NLicenseInformationPopupLogin/Cancel
 		:00_Current "Cancel"
 	}
-	Category "Category"
+	Category "카테고리"
 	{
 		// ba0d7ac7
 
@@ -608,7 +608,7 @@
 		// 50a09b7c - NLocalize/NDatabaseFunctions/NDB/NGeneral/Category
 		:00_Current "Category"
 	}
-	Check "Done"
+	Check "완료"
 	{
 		// 7e991927
 
@@ -619,7 +619,7 @@
 		// 36691070 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/Check
 		:00_Current "Done"
 	}
-	CheckedOutByX "Checked out by {0}"
+	CheckedOutByX "{0}이 체크아웃"
 	{
 		// f61d899b
 		// 0 text - User name
@@ -630,7 +630,7 @@
 		// f9cc3f5f - NLocalize/NClient/NGui/NVersionControl/NFunctions/CheckedOutByX
 		:00_Current "Checked out by {0}"
 	}
-	CheckingInTranslations "Checking in translations"
+	CheckingInTranslations "변환 체크인"
 	{
 		// ccf9355e
 
@@ -639,7 +639,7 @@
 		// 1b46973b - NLocalize/NClient/NPMCContext/NVersionControl/TranslationCheckIn
 		:00_Current "Checking in translations"
 	}
-	CheckingOutTranslations "Checking out translations"
+	CheckingOutTranslations "변환 체크아웃"
 	{
 		// 0719ed3f
 
@@ -648,7 +648,7 @@
 		// 8419997c - NLocalize/NClient/NPMCContext/NVersionControl/TranslationCheckOut
 		:00_Current "Checking out translations"
 	}
-	ClickHereToCloseTheReportAndRestoreTheView "Close"
+	ClickHereToCloseTheReportAndRestoreTheView "닫기"
 	{
 		// 5c9d4e7c
 
@@ -657,7 +657,7 @@
 		// cffebf98 - NLocalize/NClient/NGui/NGantt/NQA/NTopWindow/ClickHereToCloseTheReportAndRestoreTheView
 		:00_Current "Close"
 	}
-	ClickHereToSelectResourcesOrGroups "Click here to select users or groups"
+	ClickHereToSelectResourcesOrGroups "사용자나 그룹을 선택하기 위해 여기를 클릭하세요"
 	{
 		// edfc08d2
 
@@ -666,7 +666,7 @@
 		// e98ddc47 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/ClickHereToSelectResourcesOrGroups
 		:00_Current "Click here to select users or groups"
 	}
-	ClickToSelect "-- Click to select --"
+	ClickToSelect "'-- 선택을 위해 클릭 --"
 	{
 		// 75ee9712
 
@@ -675,7 +675,7 @@
 		// b9b9698e - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/NCreateRule/ClickToSelect
 		:00_Current "-- Click to select --"
 	}
-	ClickToSelect2 "Click to select"
+	ClickToSelect2 "선택을 위해 클릭"
 	{
 		// 33c17984
 
@@ -684,7 +684,7 @@
 		// 5c06187c - NLocalize/NClient/NGui/NGantt/NViewRender/NWall/ClickToSelect
 		:00_Current "Click to select"
 	}
-	Close "Close"
+	Close "닫기"
 	{
 		// 7e9b773f
 
@@ -697,7 +697,7 @@
 		// 8b3413ce - NLocalize/NClient/NGui/NMain/NLocalizationErrorConsole/Close
 		:00_Current "Close"
 	}
-	Close2 "Close"
+	Close2 "닫기"
 	{
 		// 520a5f51
 
@@ -729,7 +729,7 @@
 		// 5b7eb9a2 - NLocalize/NClient/NGui/NVersionControl/NVersionHistory/Close
 		:00_Current "Close"
 	}
-	Closed "Closed"
+	Closed "닫음"
 	{
 		// 520a5f83
 
@@ -738,7 +738,7 @@
 		// f406ad73 - NLocalize/NDatabaseFunctions/NUsersProjects/Closed
 		:00_Current "Closed"
 	}
-	ColumnName "Column name"
+	ColumnName "컬럼명"
 	{
 		// 4d936198
 
@@ -747,7 +747,7 @@
 		// 694a1646 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NSelectColumns/ColumnName
 		:00_Current "Column name"
 	}
-	Comment "Comment"
+	Comment "의견"
 	{
 		// 9a2e503c
 
@@ -757,7 +757,7 @@
 		// 4216278a - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Comment
 		:00_Current "Comment"
 	}
-	CommentNew "Comment (new)"
+	CommentNew "의견 (신규)"
 	{
 		// bf6e9006
 
@@ -767,7 +767,7 @@
 		// a4f6747b - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/CommentNew
 		:00_Current "Comment (new)"
 	}
-	Comments "Comments"
+	Comments "의견"
 	{
 		// dff8582f
 
@@ -778,7 +778,7 @@
 		// 768b78e4 - NLocalize/NDatabaseFunctions/NDB/NGeneral/Comments
 		:00_Current "Comments"
 	}
-	Completed "Completed"
+	Completed "완료함"
 	{
 		// e67c92a6
 
@@ -789,7 +789,7 @@
 		// 41b55a96 - NLocalize/NDatabaseFunctions/NUsersProjects/Completed
 		:00_Current "Completed"
 	}
-	Condition "Condition"
+	Condition "조건"
 	{
 		// 174aaa90
 
@@ -798,7 +798,7 @@
 		// d19f9545 - NLocalize/NDatabaseFunctions/NFind/Condition
 		:00_Current "Condition"
 	}
-	Confidence "Confidence"
+	Confidence "확인"
 	{
 		// 9970b737
 
@@ -812,7 +812,7 @@
 		// 5bc27d27 - NLocalize/NDatabaseFunctions/NUsersProjects/Confidence
 		:00_Current "Confidence"
 	}
-	ConfirmNewPassword "Confirm new password"
+	ConfirmNewPassword "새로운 비밀번호를 입력하세요"
 	{
 		// 8508d094
 
@@ -821,7 +821,7 @@
 		// 674d7c0d - NLocalize/NClient/NGui/NUsers/ConfirmNewPassword
 		:00_Current "Confirm new password"
 	}
-	Connect "Connect"
+	Connect "연결"
 	{
 		// 9a40f3b3
 
@@ -830,7 +830,7 @@
 		// 77dd99f6 - NLocalize/NClient/NLogin/NGui/NClientMain/ConnectTitle
 		:00_Current "Connect"
 	}
-	Contains "Contains"
+	Contains "포함"
 	{
 		// e2c9e4c8
 
@@ -840,7 +840,7 @@
 		// b221ccdd - NLocalize/NDatabaseFunctions/NFind/Contains
 		:00_Current "Contains"
 	}
-	ContainsCaseSensitive "Contains (case sensitive)"
+	ContainsCaseSensitive "포함 (대소문자 구분)"
 	{
 		// d39668fe
 
@@ -849,7 +849,7 @@
 		// a8cc0b33 - NLocalize/NDatabaseFunctions/NFind/ContainsCaseSensitive
 		:00_Current "Contains (case sensitive)"
 	}
-	ConvertGhostResources "Convert ghost users"
+	ConvertGhostResources "유령 사용자를 변환"
 	{
 		// 743f3eca
 
@@ -858,7 +858,7 @@
 		// 3e7341f2 - NLocalize/NClient/NGui/NGantt/NGhostResourceModePopup/ConvertGhostResources
 		:00_Current "Convert ghost users"
 	}
-	ConvertQAAccounts "Convert QA accounts"
+	ConvertQAAccounts "QA 계정 변환"
 	{
 		// edda3f7c
 
@@ -867,7 +867,7 @@
 		// 067aeea4 - NLocalize/NClient/NGui/NGantt/NGhostResourceModePopup/ConvertQAAccounts
 		:00_Current "Convert QA accounts"
 	}
-	CopyAsHyperlink "Copy as hyperlink"
+	CopyAsHyperlink "하이퍼링크로 복사"
 	{
 		// ec735f8e
 
@@ -876,7 +876,7 @@
 		// 1e85106b - NLocalize/NClient/NGui/NVersionControl/NCommands/CopyAsHyperlink
 		:00_Current "Copy as hyperlink"
 	}
-	CreateCustomTemplate "Create custom template"
+	CreateCustomTemplate "커스터마이징 템플릿 생성"
 	{
 		// 8207e294
 
@@ -885,7 +885,7 @@
 		// 48f2ee06 - NLocalize/NClient/NGui/NCreateProject/CreateCustomTemplate
 		:00_Current "Create custom template"
 	}
-	CreateNewPreset "Create new preset"
+	CreateNewPreset "새로운 사전 설정 생성"
 	{
 		// 26cfba3a
 
@@ -894,7 +894,7 @@
 		// f5f4e2e3 - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/ToolbarCreateNew
 		:00_Current "Create new preset"
 	}
-	CreateNewResource "Create new user"
+	CreateNewResource "새로운 사용자 생성"
 	{
 		// 29de662f
 
@@ -903,7 +903,7 @@
 		// 860f0688 - NLocalize/NClient/NGui/NUsers/CreateNewResource
 		:00_Current "Create new user"
 	}
-	CreatePipelineKanban "Create Pipeline / Kanban"
+	CreatePipelineKanban "파이프라인 / 칸반 생성"
 	{
 		// 38ce13de
 
@@ -912,7 +912,7 @@
 		// 3a4b6996 - NLocalize/NClient/NGui/NGantt/NConfigPipelineTool/NCreateWorkflow/CreatePipelineKanban
 		:00_Current "Create Pipeline / Kanban"
 	}
-	CreateRule "Create rule"
+	CreateRule "규칙 생성"
 	{
 		// 4162e9b5
 
@@ -921,7 +921,7 @@
 		// b97c5048 - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/CreateRule
 		:00_Current "Create rule"
 	}
-	CreatedBy "Created by"
+	CreatedBy "가 생성함"
 	{
 		// 2103455c
 
@@ -932,7 +932,7 @@
 		// ec04522d - NLocalize/NClient/NGui/NGantt/NReports/CreatedBy
 		:00_Current "Created by"
 	}
-	CreatingDirectories "Creating directories"
+	CreatingDirectories "디렉토리 생성중"
 	{
 		// 81ce9313
 
@@ -941,7 +941,7 @@
 		// 664df4e1 - NLocalize/NClient/NPMCContext/NVersionControl/CreatingDirectories
 		:00_Current "Creating directories"
 	}
-	CreatingTranslation "Creating translation"
+	CreatingTranslation "변환 생성중"
 	{
 		// 4a044625
 
@@ -950,7 +950,7 @@
 		// 94ed5efa - NLocalize/NClient/NPMCContext/NVersionControl/TranslationCreate
 		:00_Current "Creating translation"
 	}
-	CustomProjectColumns "Custom project columns"
+	CustomProjectColumns "프로젝트 컬럼 커스터마이징"
 	{
 		// 1603369c
 
@@ -959,7 +959,7 @@
 		// b70fd6e4 - NLocalize/NClient/NGui/NGlobalTrends/CustomProjectColumns
 		:00_Current "Custom project columns"
 	}
-	CustomReportQuery "Custom report query"
+	CustomReportQuery "보고서 쿼리 커스터마이징"
 	{
 		// 2f55e056
 
@@ -968,7 +968,7 @@
 		// 487496dc - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/CustomReportQuery
 		:00_Current "Custom report query"
 	}
-	CustomTrendTypes "Custom trend types"
+	CustomTrendTypes "트렌드 유형 커스터마이징"
 	{
 		// 8bbde616
 
@@ -977,7 +977,7 @@
 		// 7a35a25e - NLocalize/NClient/NGui/NGlobalTrends/CustomTrendTypes
 		:00_Current "Custom trend types"
 	}
-	CustomiseTimesheets "Customise timesheets"
+	CustomiseTimesheets "타임시트 커스터마이징"
 	{
 		// 73f3b100
 
@@ -987,7 +987,7 @@
 		// 9ecdcb99 - NLocalize/NClient/NGui/NUsers/CustomiseTimesheets
 		:00_Current "Customise timesheets"
 	}
-	DataMustBeFilledIn "Data must be filled in"
+	DataMustBeFilledIn "데이터를 채워야 합니다."
 	{
 		// 46cd2cda
 
@@ -998,7 +998,7 @@
 		// d4d8b64f - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditWorkflowTransition/DataMustBeFilledIn
 		:00_Current "Data must be filled in"
 	}
-	DatabaseID "Database ID"
+	DatabaseID "데이터베이스 ID"
 	{
 		// 36d2056b
 
@@ -1007,7 +1007,7 @@
 		// beb02760 - NLocalize/NDatabaseFunctions/NDB/NGeneral/DatabaseID
 		:00_Current "Database ID"
 	}
-	Databases "Databases"
+	Databases "데이터베이스"
 	{
 		// 66827c71
 
@@ -1016,7 +1016,7 @@
 		// f9a39bb5 - NLocalize/NClient/NGui/NServerAdmin/NServerAdmin/Databases
 		:00_Current "Databases"
 	}
-	Date "Date"
+	Date "날짜"
 	{
 		// 973b61c7
 
@@ -1027,7 +1027,7 @@
 		// e3be63ca - NLocalize/NClient/NGui/NVersionControl/NVersionHistory/Date
 		:00_Current "Date"
 	}
-	Days "days"
+	Days "일"
 	{
 		// 973b627a
 
@@ -1036,7 +1036,7 @@
 		// 67a7e6e9 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/MaxDays
 		:00_Current "days"
 	}
-	DefaultAutomaticBackup "Default Automatic Backup"
+	DefaultAutomaticBackup "기본 자동 백업"
 	{
 		// e50110eb
 
@@ -1045,7 +1045,7 @@
 		// 9a8c3361 - NLocalize/NServer/NServer/NContext/DefauAutomaticBackup
 		:00_Current "Default Automatic Backup"
 	}
-	DefaultAutomaticFullBackup "Default Automatic Full Backup"
+	DefaultAutomaticFullBackup "기본 자동 전체 백업"
 	{
 		// fd04f83e
 
@@ -1054,7 +1054,7 @@
 		// efa865b4 - NLocalize/NServer/NServer/NContext/DefauAutomaticFullBackup
 		:00_Current "Default Automatic Full Backup"
 	}
-	DefaultAutomaticIntegrityCheck "Default Automatic Integrity Check"
+	DefaultAutomaticIntegrityCheck "기본 자동 무결성 점검"
 	{
 		// 69def8d2
 
@@ -1063,7 +1063,7 @@
 		// b2c83148 - NLocalize/NServer/NServer/NContext/DefauAutomaticIntegrityCheck
 		:00_Current "Default Automatic Integrity Check"
 	}
-	Delete "Delete"
+	Delete "삭제"
 	{
 		// 53defddc
 
@@ -1080,7 +1080,7 @@
 		// 0b62236a - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Delete
 		:00_Current "Delete"
 	}
-	DeleteConnection "Delete connection"
+	DeleteConnection "연결 삭제"
 	{
 		// 978d7a4c
 
@@ -1089,7 +1089,7 @@
 		// 9e34ed3c - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/DeleteConnection
 		:00_Current "Delete connection"
 	}
-	DeleteDel "Delete (Del)"
+	DeleteDel "삭제 (Del)"
 	{
 		// ba53af11
 
@@ -1098,7 +1098,7 @@
 		// 9fbf3f97 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NFunctions/DeleteDel
 		:00_Current "Delete (Del)"
 	}
-	DeleteThisAndUpdateItems "Delete this and update items..."
+	DeleteThisAndUpdateItems "다음 삭제 후 항목 변경…"
 	{
 		// de5786cc
 
@@ -1107,7 +1107,7 @@
 		// 63283f45 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NApplyWindow/DeleteThisAndUpdateItems2
 		:00_Current "Delete this and update items..."
 	}
-	Deleted "Deleted"
+	Deleted "삭제함"
 	{
 		// cfbeb9c0
 
@@ -1118,7 +1118,7 @@
 		// b144c5b0 - NLocalize/NDatabaseFunctions/NUsersProjects/Deleted
 		:00_Current "Deleted"
 	}
-	DeletedPipeline "Deleted pipeline"
+	DeletedPipeline "삭제한 파이프라인"
 	{
 		// 6c9462b6
 
@@ -1127,7 +1127,7 @@
 		// 710c958b - NLocalize/NClient/NGui/NGantt/NObjects/NPlannedListDraw/DeletedPipeline
 		:00_Current "Deleted pipeline"
 	}
-	DeletingFiles "Deleting files"
+	DeletingFiles "파일 삭제중"
 	{
 		// 60123588
 
@@ -1136,7 +1136,7 @@
 		// a4d7d4d6 - NLocalize/NClient/NPMCContext/NVersionControl/DeletingFiles
 		:00_Current "Deleting files"
 	}
-	DeletingTranslations "Deleting translations"
+	DeletingTranslations "변환 삭제중"
 	{
 		// 299f7f37
 
@@ -1145,7 +1145,7 @@
 		// 965b30b9 - NLocalize/NClient/NPMCContext/NVersionControl/TranslationDelete
 		:00_Current "Deleting translations"
 	}
-	Description "Description"
+	Description "내용"
 	{
 		// 6763bf6d
 
@@ -1163,7 +1163,7 @@
 		// 0a9e2b62 - NLocalize/NDatabaseFunctions/NFind/Description
 		:00_Current "Description"
 	}
-	DetailedAccessAndRestrictionRules "Detailed access and restriction rules"
+	DetailedAccessAndRestrictionRules "세부적인 접근 및 제약 규칙"
 	{
 		// ea87694b
 
@@ -1172,7 +1172,7 @@
 		// 6c75d35a - NLocalize/NClient/NGui/NGantt/NQAWorkflowInfoPopup/DetailedAccessAndRestrictionRules
 		:00_Current "Detailed access and restriction rules"
 	}
-	DetailedDescription "Detailed description"
+	DetailedDescription "세부적인 내용"
 	{
 		// fbad8949
 
@@ -1186,7 +1186,7 @@
 		// 781daede - NLocalize/NDatabaseFunctions/NDB/NGeneral/DetailedDescription
 		:00_Current "Detailed description"
 	}
-	DetailedDescription2 "Detailed description:"
+	DetailedDescription2 "세부적인 내용:"
 	{
 		// 715eb29b
 
@@ -1195,7 +1195,7 @@
 		// d6647195 - NLocalize/NClient/NGui/NGantt/NPrintPage/DetailedDescription
 		:00_Current "Detailed description:"
 	}
-	DiscardFileChanges "Discard file changes"
+	DiscardFileChanges "파일 변환 제거"
 	{
 		// e7b2919c
 
@@ -1204,7 +1204,7 @@
 		// 8d1f7159 - NLocalize/NClient/NGui/NVersionControl/NCommands/DiscardFileChanges
 		:00_Current "Discard file changes"
 	}
-	DiscardingChangesFromTranslations "Discarding changes from translations"
+	DiscardingChangesFromTranslations "변환에서 변경 내용 제거"
 	{
 		// bf5d34b0
 
@@ -1213,7 +1213,7 @@
 		// b708e51e - NLocalize/NClient/NPMCContext/NVersionControl/TranslationRevert
 		:00_Current "Discarding changes from translations"
 	}
-	Disconnect "Disconnect"
+	Disconnect "끊음"
 	{
 		// a7a3c673
 
@@ -1237,7 +1237,7 @@
 		            "\n"\
 		            "Choose 'No' to just remove them."
 	}
-	DocumentName "Document name"
+	DocumentName "문서명"
 	{
 		// a3a62b69
 
@@ -1246,7 +1246,7 @@
 		// 8937b786 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/DocumentName
 		:00_Current "Document name"
 	}
-	DownloadingFiles "Downloading files"
+	DownloadingFiles "파일 다운로드중"
 	{
 		// d9a84932
 
@@ -1255,7 +1255,7 @@
 		// fba84dc0 - NLocalize/NClient/NPMCContext/NVersionControl/DownloadingFiles
 		:00_Current "Downloading files"
 	}
-	DownloadingReport "Downloading report..."
+	DownloadingReport "보고서 다운로드중…"
 	{
 		// 2a69515b
 
@@ -1264,7 +1264,7 @@
 		// b7c1c6f8 - NLocalize/NClient/NGui/NProjectPeriodReport/DownloadingReport
 		:00_Current "Downloading report..."
 	}
-	Duplicate "Duplicate"
+	Duplicate "중복"
 	{
 		// c1e66384
 
@@ -1275,7 +1275,7 @@
 		// 8ce77055 - NLocalize/NClient/NGui/NGantt/NReports/Duplicate
 		:00_Current "Duplicate"
 	}
-	Duration "Duration"
+	Duration "기간"
 	{
 		// a4f0626f
 
@@ -1284,7 +1284,7 @@
 		// 3b838324 - NLocalize/NDatabaseFunctions/NDB/NGeneral/Duration
 		:00_Current "Duration"
 	}
-	EMail "E-mail"
+	EMail "이메일"
 	{
 		// 7eae6bb1
 
@@ -1293,7 +1293,7 @@
 		// 5ef68aaa - NLocalize/NClient/NGui/NUsers/Email
 		:00_Current "E-mail"
 	}
-	EMailNotificationsTo "E-mail notifications to"
+	EMailNotificationsTo "에게 이메일 통지"
 	{
 		// dabf770e
 
@@ -1302,14 +1302,14 @@
 		// 48419bad - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/PopupEmailNotificationsToTitle
 		:00_Current "E-mail notifications to"
 	}
-	Earned "Earned"
+	Earned "획득함"
 	{
 		// 55ef3318
 
 		// Shared by:
 		// c88d66a1 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Earned
 		// 37f8cdf5 - NLocalize/NClient/NGui/NGantt/NDataImport/NProjectHistory/Earned
-		:00_Current "Earned"
+		:00_Current "획득 가치"
 	}
 	EarnedValue "Earned value"
 	{
@@ -1320,7 +1320,7 @@
 		// 1c5089aa - NLocalize/NDatabaseFunctions/NDB/NGeneral/EarnedValue
 		:00_Current "Earned value"
 	}
-	Edit "Edit"
+	Edit "편집"
 	{
 		// 973bf98f
 
@@ -1331,7 +1331,7 @@
 		// 1ad57d71 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NFunctions/Edit
 		:00_Current "Edit"
 	}
-	Edit2 "Edit"
+	Edit2 "편집"
 	{
 		// 7ebb2ba1
 
@@ -1340,7 +1340,7 @@
 		// 04239cf0 - NLocalize/NClient/NGui/NCommentEditor/Edit
 		:00_Current "Edit"
 	}
-	EditCustomTemplate "Edit custom template"
+	EditCustomTemplate "커스터마이징 템플릿 편집"
 	{
 		// 49044f86
 
@@ -1349,7 +1349,7 @@
 		// fe71d678 - NLocalize/NClient/NGui/NCreateProject/EditCustomTemplate
 		:00_Current "Edit custom template"
 	}
-	EditFile "Edit file"
+	EditFile "파일 편집"
 	{
 		// 60d4588f
 
@@ -1358,7 +1358,7 @@
 		// 2529f80c - NLocalize/NClient/NGui/NVersionControl/NCommands/EditFile
 		:00_Current "Edit file"
 	}
-	EditPreset "Edit preset"
+	EditPreset "사전 설정 편집"
 	{
 		// ff3f9d82
 
@@ -1367,7 +1367,7 @@
 		// 09965eab - NLocalize/NClient/NGui/NGantt/NManageUserViewProfiles/ToolbarEdit
 		:00_Current "Edit preset"
 	}
-	EditProject "Edit project"
+	EditProject "프로젝트 편집"
 	{
 		// e7e351a6
 
@@ -1376,7 +1376,7 @@
 		// be3142b7 - NLocalize/NClient/NGui/NProjects/EditProject
 		:00_Current "Edit project"
 	}
-	EditResource "Edit user"
+	EditResource "사용자 편집"
 	{
 		// ddd43b77
 
@@ -1385,7 +1385,7 @@
 		// 048006a3 - NLocalize/NClient/NGui/NUsers/EditResources
 		:00_Current "Edit user"
 	}
-	EditRule "Edit rule"
+	EditRule "규칙 편집"
 	{
 		// 60db2027
 
@@ -1394,7 +1394,7 @@
 		// 3a3d7523 - NLocalize/NClient/NGui/NGantt/NQA/NDetailedAccessAndRestrictionRules/NCreateRule/EditRule
 		:00_Current "Edit rule"
 	}
-	EditWorkflowStatus "Edit workflow status"
+	EditWorkflowStatus "워크플로우 상태 편집"
 	{
 		// abe3930e
 
@@ -1412,7 +1412,7 @@
 		// 4eb401eb - NLocalize/NClient/NGui/NGantt/NCommands/NPaste/EitherYouHaveToBeAMainProjectManagerOrHaveASub
 		:00_Current "Either you have to be a main manager or have a sub project/item delegated to you."
 	}
-	EndToEnd "end to end"
+	EndToEnd "마지막에서 마지막"
 	{
 		// 54c3bf7a
 
@@ -1421,7 +1421,7 @@
 		// 3cb0ee03 - NLocalize/NClient/NGui/NGantt/NLinkActivitiesByNumber/EndToEnd
 		:00_Current "end to end"
 	}
-	EndToStart "end to start"
+	EndToStart "마지막에서 시작"
 	{
 		// 95b229b1
 
@@ -1430,7 +1430,7 @@
 		// 2da51e7a - NLocalize/NClient/NGui/NGantt/NLinkActivitiesByNumber/EndToStart
 		:00_Current "end to start"
 	}
-	EndsWith "Ends with"
+	EndsWith "로 종료"
 	{
 		// 56e827ef
 
@@ -1439,7 +1439,7 @@
 		// 26401004 - NLocalize/NDatabaseFunctions/NFind/EndsWith
 		:00_Current "Ends with"
 	}
-	EndsWithCaseSensitive "Ends with (case sensitive)"
+	EndsWithCaseSensitive "로 종료 (대소문자 구분)"
 	{
 		// 5e525385
 
@@ -1448,7 +1448,7 @@
 		// 3387f5ba - NLocalize/NDatabaseFunctions/NFind/EndsWithCaseSensitive
 		:00_Current "Ends with (case sensitive)"
 	}
-	Error "Error"
+	Error "에러"
 	{
 		// 7ec2fed3
 
@@ -1457,7 +1457,7 @@
 		// c767dea6 - NLocalize/NServer/NPMSWin32/NServiceMain/Error
 		:00_Current "Error"
 	}
-	ErrorInReportQuery "Error in report query: "
+	ErrorInReportQuery "보고서 질의에서 에러: "
 	{
 		// 36a63edc
 
@@ -1466,7 +1466,7 @@
 		// fe379bf8 - NLocalize/NClient/NGui/NGantt/NQA/NTopWindow/ErrorInReportQuery
 		:00_Current "Error in report query: "
 	}
-	EstimatedIdealDays "Estimated days"
+	EstimatedIdealDays "예상 일자"
 	{
 		// 656de159
 
@@ -1476,7 +1476,7 @@
 		// 70f5284e - NLocalize/NDatabaseFunctions/NDB/NGeneral/EstimatedIdealDays
 		:00_Current "Estimated days"
 	}
-	Everyone "Everyone"
+	Everyone "모두"
 	{
 		// c10fdbb6
 
@@ -1485,7 +1485,7 @@
 		// 65f29cc4 - NLocalize/NClient/NGui/NVersionControl/NAccessRights/Everyone
 		:00_Current "Everyone"
 	}
-	ExactMatch "Exact match"
+	ExactMatch "정확한 일치"
 	{
 		// eba5c02b
 
@@ -1494,7 +1494,7 @@
 		// b107ce45 - NLocalize/NClient/NGui/NGantt/NReports/NEditReport/NEditCondition/ExactMatch
 		:00_Current "Exact match"
 	}
-	Export "Export"
+	Export "내보내기"
 	{
 		// 578e53eb
 
@@ -1503,7 +1503,7 @@
 		// 653f9189 - NLocalize/NClient/NGui/NGantt/NWindowMainToolbarCommands/ExportData
 		:00_Current "Export"
 	}
-	ExportThisViewAsXML "Export this view as XML"
+	ExportThisViewAsXML "지금 뷰를 XML로 내보내기"
 	{
 		// d8bb9b83
 
@@ -1546,7 +1546,7 @@
 		// 9f8e5185 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/FileDeletedOrWithRestrictedAccess
 		:00_Current "(file deleted or with restricted access)"
 	}
-	Find "Find"
+	Find "찾기"
 	{
 		// 973c9bca
 
@@ -1555,7 +1555,7 @@
 		// d4765913 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Find
 		:00_Current "Find"
 	}
-	FindByKeywords "Find by keywords"
+	FindByKeywords "키워드로 찾기"
 	{
 		// 0197f2bd
 
@@ -1565,7 +1565,7 @@
 		// 812f21d9 - NLocalize/NClient/NGui/NGantt/NQA/NTopWindow/FindByKeywords
 		:00_Current "Find by keywords"
 	}
-	FindFiles "Find files"
+	FindFiles "파일 찾기"
 	{
 		// e8b5a9fd
 
@@ -1574,7 +1574,7 @@
 		// 37bf391a - NLocalize/NClient/NGui/NVersionControl/NCommands/FindFiles
 		:00_Current "Find files"
 	}
-	Finish "Finish"
+	Finish "끝내기"
 	{
 		// 58d2daca
 
@@ -1583,7 +1583,7 @@
 		// 6b4c4a3f - NLocalize/NDatabaseFunctions/NDB/NGeneral/Finish
 		:00_Current "Finish"
 	}
-	Finish2 "Finish"
+	Finish2 "끝내기"
 	{
 		// 732e343c
 
@@ -1592,7 +1592,7 @@
 		// da354bfd - NLocalize/NClient/NGui/NGantt/NActivateGhostResources/Finish
 		:00_Current "Finish"
 	}
-	Friday "Friday"
+	Friday "금요일"
 	{
 		// 5972e1e8
 
@@ -1604,7 +1604,7 @@
 		// ca948ec9 - NLocalize/NClient/NGui/NGantt/NReport/NMailTo/Friday
 		:00_Current "Friday"
 	}
-	FromClipboard "From clipboard"
+	FromClipboard "클립보드에서"
 	{
 		// 3aa395cd
 
@@ -1613,7 +1613,7 @@
 		// 5dd3964e - NLocalize/NClient/NGui/NCommentEditor/FromClipboard
 		:00_Current "From clipboard"
 	}
-	FromDisk "From disk"
+	FromDisk "디스크에서"
 	{
 		// 9044b068
 
@@ -1623,7 +1623,7 @@
 		// c142b605 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/FromDisk
 		:00_Current "From disk"
 	}
-	FromTodayToXDaysInTheFuture "From today to X days in the future"
+	FromTodayToXDaysInTheFuture "현재 기준 X 일자 늘임"
 	{
 		// 268b2e5d
 
@@ -1632,7 +1632,7 @@
 		// 99c0e452 - NLocalize/NDatabaseFunctions/NFind/FromTodayToXDaysInTheFuture
 		:00_Current "From today to X days in the future"
 	}
-	FromTodayToXHoursInTheFuture "From today to X hours in the future"
+	FromTodayToXHoursInTheFuture "현재 기준 X 시간 늘임"
 	{
 		// 94b0aa3d
 
@@ -1641,7 +1641,7 @@
 		// 6e9d1ed2 - NLocalize/NDatabaseFunctions/NFind/FromTodayToXHoursInTheFuture
 		:00_Current "From today to X hours in the future"
 	}
-	FromTodayToXMinutesInTheFuture "From today to X minutes in the future"
+	FromTodayToXMinutesInTheFuture "현재 기준 X 분 늘임"
 	{
 		// f26e9791
 
@@ -1650,7 +1650,7 @@
 		// f94a8566 - NLocalize/NDatabaseFunctions/NFind/FromTodayToXMinutesInTheFuture
 		:00_Current "From today to X minutes in the future"
 	}
-	FromTodayToXMonthsInTheFuture "From today to X months in the future"
+	FromTodayToXMonthsInTheFuture "현재 기준 X 개월 늘임"
 	{
 		// 59e16e85
 
@@ -1659,7 +1659,7 @@
 		// 715c75ba - NLocalize/NDatabaseFunctions/NFind/FromTodayToXMonthsInTheFuture
 		:00_Current "From today to X months in the future"
 	}
-	FromTodayToXWeeksInTheFuture "From today to X weeks in the future"
+	FromTodayToXWeeksInTheFuture "현재 기준 X 주차 늘임"
 	{
 		// 0b66bc4b
 
@@ -1668,7 +1668,7 @@
 		// e55330e0 - NLocalize/NDatabaseFunctions/NFind/FromTodayToXWeeksInTheFuture
 		:00_Current "From today to X weeks in the future"
 	}
-	FromTodayToXYearsInTheFuture "From today to X years in the future"
+	FromTodayToXYearsInTheFuture "현재 기준 X 년수 늘임"
 	{
 		// 62696410
 
@@ -1677,7 +1677,7 @@
 		// 3c55d8a5 - NLocalize/NDatabaseFunctions/NFind/FromTodayToXYearsInTheFuture
 		:00_Current "From today to X years in the future"
 	}
-	FromWithinHansoft "From within Hansoft"
+	FromWithinHansoft "Hansoft 내에서"
 	{
 		// 3e212603
 
@@ -1687,7 +1687,7 @@
 		// 1c2fcc40 - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/FromWithinHansoft
 		:00_Current "From within Hansoft"
 	}
-	FromXDaysInThePastToToday "From X days in the past to today"
+	FromXDaysInThePastToToday "현재 기준 X 일자 줄임"
 	{
 		// 77c538da
 
@@ -1696,7 +1696,7 @@
 		// 56baed8f - NLocalize/NDatabaseFunctions/NFind/FromXDaysInThePastToToday
 		:00_Current "From X days in the past to today"
 	}
-	FromXHoursInThePastToToday "From X hours in the past to today"
+	FromXHoursInThePastToToday "현재 기준 X 시간 줄임"
 	{
 		// 76325c3a
 
@@ -1705,7 +1705,7 @@
 		// 33dea78f - NLocalize/NDatabaseFunctions/NFind/FromXHoursInThePastToToday
 		:00_Current "From X hours in the past to today"
 	}
-	FromXMinutesInThePastToToday "From X minutes in the past to today"
+	FromXMinutesInThePastToToday "현재 기준 X 분 줄임"
 	{
 		// 8d80850e
 
@@ -1714,7 +1714,7 @@
 		// 676cf9a3 - NLocalize/NDatabaseFunctions/NFind/FromXMinutesInThePastToToday
 		:00_Current "From X minutes in the past to today"
 	}
-	FromXMonthsInThePastToToday "From X months in the past to today"
+	FromXMonthsInThePastToToday "현재 기준 X 개월 줄임"
 	{
 		// 5477b902
 
@@ -1723,7 +1723,7 @@
 		// c7ad6ef7 - NLocalize/NDatabaseFunctions/NFind/FromXMonthsInThePastToToday
 		:00_Current "From X months in the past to today"
 	}
-	FromXToX "From {0} to {1}"
+	FromXToX "{0}에서 {1}로"
 	{
 		// 904f4e10
 		// 0 text - Formatted date
@@ -1734,7 +1734,7 @@
 		// 94cd505d - NLocalize/NClient/NGui/NResourcePeriodReport/NExport/FromXToX
 		:00_Current "From {0} to {1}"
 	}
-	FromXWeeksInThePastToToday "From X weeks in the past to today"
+	FromXWeeksInThePastToToday "현재 기준 X 주차 줄임"
 	{
 		// ac2be708
 
@@ -1743,7 +1743,7 @@
 		// 69d8325d - NLocalize/NDatabaseFunctions/NFind/FromXWeeksInThePastToToday
 		:00_Current "From X weeks in the past to today"
 	}
-	FromXYearsInThePastToToday "From X years in the past to today"
+	FromXYearsInThePastToToday "현재 기준 X 년수 줄임"
 	{
 		// 0d7731ed
 
@@ -1752,7 +1752,7 @@
 		// cb237d42 - NLocalize/NDatabaseFunctions/NFind/FromXYearsInThePastToToday
 		:00_Current "From X years in the past to today"
 	}
-	GeneralPipelineTasksThatCanStartNow "General - Pipeline tasks that can start now"
+	GeneralPipelineTasksThatCanStartNow "일반 - 현재 시작할 수 있는 파이프라인 작업"
 	{
 		// fd199228
 
@@ -1761,7 +1761,7 @@
 		// d053f292 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/PipelineTasksTheyCanStartNow
 		:00_Current "General - Pipeline tasks that can start now"
 	}
-	GeneralTheyAreArchived "General - Archived"
+	GeneralTheyAreArchived "일반 - 저장"
 	{
 		// b0b1891f
 
@@ -1770,7 +1770,7 @@
 		// 79c18ede - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/GeneralTheyAreArchived
 		:00_Current "General - Archived"
 	}
-	GeneralTheyAreNotAssigned "General - Not assigned"
+	GeneralTheyAreNotAssigned "일반 - 할당하지 않음"
 	{
 		// 7d264a98
 
@@ -1779,7 +1779,7 @@
 		// 6f5cebf7 - NLocalize/NClient/NGui/NGantt/NGlobalFindTopWindow/GeneralTheyAreNotAssigned
 		:00_Current "General - Not assigned"
 	}
-	GhostResource "Ghost user"
+	GhostResource "유령 사용자"
 	{
 		// d9e7b8b6
 
@@ -1789,7 +1789,7 @@
 		// 98c83f98 - NLocalize/NClient/NGui/NGantt/NObjects/NResourceAllocationBlock/GhostResource
 		:00_Current "Ghost user"
 	}
-	GhostResourceMode "Ghost user mode"
+	GhostResourceMode "유령 사용자 모드"
 	{
 		// 840d425b
 
@@ -1798,7 +1798,7 @@
 		// 89c9743f - NLocalize/NClient/NGui/NGantt/NWindowMainToolbarCommands/GhostResourceMode
 		:00_Current "Ghost user mode"
 	}
-	GhostResourceName "Ghost user name"
+	GhostResourceName "유령 사용자 이름"
 	{
 		// 840d9457
 
@@ -1807,7 +1807,7 @@
 		// cc332e0d - NLocalize/NClient/NGui/NMiscDialogs/GhostResourceName
 		:00_Current "Ghost user name"
 	}
-	GoBack "Back"
+	GoBack "이전"
 	{
 		// 5b7c51b0
 
@@ -1817,7 +1817,7 @@
 		// f68c4606 - NLocalize/NClient/NLogin/NGui/NServerAdminLogin/GoBack
 		:00_Current "Back"
 	}
-	GoToTheDocumentInTheDocumentsTabInHansoft "Go to the document in the 'Documents' tab in Hansoft"
+	GoToTheDocumentInTheDocumentsTabInHansoft "Hansoft에서 '문서' 탭의 문서로 이동"
 	{
 		// 2747da4d
 
@@ -1826,7 +1826,7 @@
 		// 56f4478a - NLocalize/NClient/NGui/NGantt/NDocumentAttachments/GoToTheDocumentInTheDocumentsTabInHansoft
 		:00_Current "Go to the document in the 'Documents' tab in Hansoft"
 	}
-	GoldFace "Gold face"
+	GoldFace "황금 얼굴"
 	{
 		// 8df66d3e
 
@@ -1835,7 +1835,7 @@
 		// c4394b77 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/GoldFace
 		:00_Current "Gold face"
 	}
-	GreaterThan "Greater than"
+	GreaterThan "보다 큰"
 	{
 		// 8563dbde
 
@@ -1844,7 +1844,7 @@
 		// 289e47d3 - NLocalize/NDatabaseFunctions/NFind/GreaterThan
 		:00_Current "Greater than"
 	}
-	GreaterThanCaseSensitive "Greater than (case sensitive)"
+	GreaterThanCaseSensitive "보다 큰 (대소문자 구분)"
 	{
 		// 35eeb3d4
 
@@ -1853,7 +1853,7 @@
 		// 53f625e9 - NLocalize/NDatabaseFunctions/NFind/GreaterThanCaseSensitive
 		:00_Current "Greater than (case sensitive)"
 	}
-	GreaterThanEqual "Greater than equal"
+	GreaterThanEqual "보다 크거나 같은"
 	{
 		// 3ffe86d6
 
@@ -1862,7 +1862,7 @@
 		// caf3b3eb - NLocalize/NDatabaseFunctions/NFind/GreaterThanEqual
 		:00_Current "Greater than equal"
 	}
-	GreaterThanEqualCaseSensitive "Greater than equal (case sensitive)"
+	GreaterThanEqualCaseSensitive "보다 크거나 같은 (대소문자 구분)"
 	{
 		// e74571cc
 
@@ -1871,7 +1871,7 @@
 		// fec07901 - NLocalize/NDatabaseFunctions/NFind/GreaterThanEqualCaseSensitive
 		:00_Current "Greater than equal (case sensitive)"
 	}
-	Green "Green"
+	Green "녹색"
 	{
 		// 7ee6f73a
 
@@ -1880,7 +1880,7 @@
 		// ffa5d1a5 - NLocalize/NClient/NGui/NGantt/NInteraction/NRightClickMenus/Green
 		:00_Current "Green"
 	}
-	GreenBox "Green box"
+	GreenBox "녹색 상자"
 	{
 		// 64b88c83
 
@@ -1891,7 +1891,7 @@
 		// c5c12b2c - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/GreenBox
 		:00_Current "Green box"
 	}
-	GreenCircle "Green circle"
+	GreenCircle "녹색 원"
 	{
 		// 18abe06c
 
@@ -1900,7 +1900,7 @@
 		// 39894005 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/GreenCircle
 		:00_Current "Green circle"
 	}
-	GreyFace "Grey face"
+	GreyFace "회색 얼굴"
 	{
 		// 660d09af
 
@@ -1909,7 +1909,7 @@
 		// 9c4fe7e8 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/GreyFace
 		:00_Current "Grey face"
 	}
-	GreyGroup "Grey group"
+	GreyGroup "회색 그룹"
 	{
 		// 27c9e00d
 
@@ -1918,7 +1918,7 @@
 		// 26688566 - NLocalize/NClient/NGui/NGantt/NCustomize/NProjectColumns/NCreateColumn/NCreateItem/GreyGroup
 		:00_Current "Grey group"
 	}
-	Group "Group"
+	Group "그룹"
 	{
 		// 7ee723d6
 
@@ -1936,7 +1936,7 @@
 		// 0b2bf9ec - NLocalize/NClient/NGui/NGantt/NPrintPage/_0h
 		:00_Current "0h"
 	}
-	HansoftProjectManagerClient "Hansoft Client"
+	HansoftProjectManagerClient "Hansoft 클라이언트"
 	{
 		// e185798d
 
@@ -1947,7 +1947,7 @@
 		// 97846ac4 - NLocalize/NClient/NLogin/NContext/NLoginApp/HansoftProjectManagerClient
 		:00_Current "Hansoft Client"
 	}
-	HansoftProjectManagerError "Hansoft Error"
+	HansoftProjectManagerError "Hansoft 에러"
 	{
 		// a9e5dcd8
 
@@ -1956,7 +1956,7 @@
 		// 9e113cbd - NLocalize/NClient/NLogin/NContext/NLoginApp/HansoftError
 		:00_Current "Hansoft Error"
 	}
-	HansoftProjectManagerInformation "Hansoft Information"
+	HansoftProjectManagerInformation "Hansoft 정보"
 	{
 		// 55d06214
 
@@ -1965,7 +1965,7 @@
 		// 369f59b9 - NLocalize/NClient/NLogin/NContext/NLoginApp/HansoftInformation
 		:00_Current "Hansoft Information"
 	}
-	HansoftProjectManagerWarning "Hansoft Warning"
+	HansoftProjectManagerWarning "Hansoft 주의"
 	{
 		// fcc061a4
 
@@ -1974,7 +1974,7 @@
 		// a9434ec9 - NLocalize/NClient/NLogin/NContext/NLoginApp/HansoftWarning
 		:00_Current "Hansoft Warning"
 	}
-	HansoftProjectServerAdministratorOffline "Hansoft Server Administrator - Offline"
+	HansoftProjectServerAdministratorOffline "Hansoft Server Administrator - 오프라인"
 	{
 		// 51ff99ae
 
@@ -1983,7 +1983,7 @@
 		// cfa85029 - NLocalize/NClient/NLogin/NGui/NClientMain/AdminStatusLostConnection
 		:00_Current "Hansoft Server Administrator - Offline"
 	}
-	Hierarchy "Hierarchy"
+	Hierarchy "계층"
 	{
 		// 3f780128
 
@@ -1992,7 +1992,7 @@
 		// dca011f1 - NLocalize/NClient/NGui/NProjectConnection/HierarchyView
 		:00_Current "Hierarchy"
 	}
-	HighPriority "High priority"
+	HighPriority "높은 우선순위"
 	{
 		// 866f7c2b
 
@@ -2001,7 +2001,7 @@
 		// 244a7e1b - NLocalize/NDatabaseFunctions/NUsersProjects/HighPriority
 		:00_Current "High priority"
 	}
-	Hours "hours"
+	Hours "시간"
 	{
 		// 7ef7b05a
 
@@ -2010,7 +2010,7 @@
 		// 15b5773c - NLocalize/NClient/NPMCContext/NCustomize/NTimesheets/Hours
 		:00_Current "hours"
 	}
-	Hours2 "hours"
+	Hours2 "시간"
 	{
 		// 5dedbbcc
 
@@ -2020,7 +2020,7 @@
 		// 5cf4c2a9 - NLocalize/NClient/NGui/NGantt/NQA/NWorkflow/NEditPipelineStatus/MaxHours
 		:00_Current "hours"
 	}
-	Hyperlink "Hyperlink"
+	Hyperlink "하이퍼링크"
 	{
 		// 35334bdf
 

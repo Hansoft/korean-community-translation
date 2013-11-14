@@ -3926,17 +3926,17 @@ namespace NMessageBox
 namespace NMyPlannedTasks
 // Sub texts for My work section.
 {
-	MyPlannedActivities "My planned activities"
+	MyPlannedActivities "내가 계획한 활동(activity)"
 	{
 		// 8e1f899b
 		:00_Current "My planned activities"
 	}
-	ThisTaskIsUnlockedSoYouCanMakeChanges "This task is unlocked so you can make changes"
+	ThisTaskIsUnlockedSoYouCanMakeChanges "해당 작업은 잠겨있지 않으며 변경 가능"
 	{
 		// bc61be62
 		:00_Current "This task is unlocked so you can make changes"
 	}
-	XMyWork "{0} - My Work"
+	XMyWork "{0} - 내 작업"
 	{
 		// 4c0499bf
 		// 0 text - User name
@@ -3953,112 +3953,111 @@ namespace NMyWork
 		// 1 text - Name of column in second project
 		:00_Current "{0} / {1}"
 	}
-	AvailableUsers "Available"
+	AvailableUsers "사용 가능"
 	{
 		// 8fd0324c
 		:00_Current "Available"
 	}
-	FindToDolist "Find"
+	FindToDolist "검색"
 	{
 		// 6639058c
 		:00_Current "Find"
 	}
-	MyPlannedTasks "My planned tasks"
+	MyPlannedTasks "내가 계획한 작업(task)"
 	{
 		// 4887db47
 		:00_Current "My planned tasks"
 	}
-	NewsFeedDaysAgo "{0} [NHelpers::Pluralize($0,'day')] ago"
+	NewsFeedDaysAgo "{0} [NHelpers::Pluralize($0,'day')] 일 전"
 	{
 		// 10dd3c12
 		// 0 integer - Number of days
 		:00_Current "{0} [NHelpers::Pluralize($0,'day')] ago"
 	}
-	NewsFeedHoursAgo "{0} [NHelpers::Pluralize($0,'hour')] ago"
-	{
+	NewsFeedHoursAgo "{0} [NHelpers::Pluralize($0,'hour')] 시간 전
 		// 09ef7212
 		// 0 integer - Number of hours
 		:00_Current "{0} [NHelpers::Pluralize($0,'hour')] ago"
 	}
 
-	NewsFeedMinutesAgo "{0} [NHelpers::Pluralize($0,'minute')] ago"
+	NewsFeedMinutesAgo "{0} [NHelpers::Pluralize($0,'minute')] 분 전"
 	{
 		// 12e6cba6
 		// 0 integer - Number of minutes
 		:00_Current "{0} [NHelpers::Pluralize($0,'minute')] ago"
 	}
 
-	NewsFeedOptions "Filter news feed"
+	NewsFeedOptions "새로운 피드 필터링"
 	{
 		// 823c0816
 		:00_Current "Filter news feed"
 	}
-	NewsFeedOptionsAutomatic "Exclude sprints/iterations I am not a member of"
+	NewsFeedOptionsAutomatic "내가 속하지 않은 스프린트/반복 제외"
 	{
 		// ed183d3d
 		:00_Current "Exclude sprints/iterations I am not a member of"
 	}
-	NewsFeedOptionsCustom "Only on items I am assigned"
+	NewsFeedOptionsCustom "나에게만 할당된 항목"
 	{
 		// 53732171
 		:00_Current "Only on items I am assigned"
 	}
-	NewsFeedOptionsFilteringTypes "Include news types"
+	NewsFeedOptionsFilteringTypes "새로운 유형 포함"
 	{
 		// 3d994b6f
 		:00_Current "Include news types"
 	}
-	NewsFeedOptionsFilteringUsers "Filter incoming news"
+	NewsFeedOptionsFilteringUsers "새로 등록된 뉴스 필터링"
 	{
 		// 3da7ec8c
 		:00_Current "Filter incoming news"
 	}
-	NewsFeedOptionsSelect "Only from these users"
+	NewsFeedOptionsSelect "다음 사용자들로부터 온 것만"
 	{
 		// 77a00b76
 		:00_Current "Only from these users"
 	}
-	NewsFeedOptionsSelectDetailedInfo "Only news from selected people and groups will be shown in the feed"
+	NewsFeedOptionsSelectDetailedInfo "피드에 선택한 사람들과 그룹들로부터 온 뉴스만 보이기"
 	{
 		// 7c6645fe
 		:00_Current "Only news from selected people and groups will be shown in the feed"
 	}
-	NewsFeedOptionsShowComments "Comments"
+	NewsFeedOptionsShowComments "내용"
 	{
 		// b59c465d
 		:00_Current "Comments"
 	}
-	NewsFeedOptionsShowCompletionStatus "Completion status"
+	NewsFeedOptionsShowCompletionStatus "완료 상태"
 	{
 		// 3f751115
 		:00_Current "Completion status"
 	}
-	NewsFeedOptionsShowPriorityChanges "Priority changes"
+	NewsFeedOptionsShowPriorityChanges "우선순위 변경"
 	{
 		// 1d42d232
 		:00_Current "Priority changes"
 	}
-	NewsFeedOptionsShowWorkflwoStatus "Workflow status"
+	NewsFeedOptionsShowWorkflwoStatus "워크플로우 상태"
 	{
 		// df217036
 		:00_Current "Workflow status"
 	}
-	NewsfeedCommentedOn "Commented"
+	NewsfeedCommentedOn "의견달기"
 	{
 		// 773dd6c3
 		:00_Current "Commented"
 	}
-	NewsfeedFilterOptions "Filter"
+	NewsfeedFilterOptions "필터링"
 	{
 		// 4919e9bc
 		:00_Current "Filter"
 	}
-	NewsfeedRetreivingNewsFeed "Retreiving news feed history"
+	NewsfeedRetreivingNewsFeed "뉴스 피드 이력 조회"
 	{
 		// fe49993a
 		:00_Current "Retreiving news feed history"
 	}
-	NewsfeedSentMessageTo "Sent message to {0}"
+	NewsfeedSentMessageTo "{0}에게 메시지 전송됨"
 	{
 		// 85addf8c
 		// 0 text - Resource group name
@@ -4070,7 +4069,7 @@ namespace NMyWork
 		// 0 text - Status text
 		:00_Current "{0}"
 	}
-	NewsfeedTitle "News feed"
+	NewsfeedTitle "뉴스 피드"
 	{
 		// 9879dc8c
 		:00_Current "News feed"
@@ -4082,57 +4081,57 @@ namespace NMyWork
 		// 1 text - Workflow container name
 		:00_Current "{0} - {1}"
 	}
-	ProjectView "Project view"
+	ProjectView "프로젝트 뷰"
 	{
 		// 7e1d55cb
 		:00_Current "Project view"
 	}
-	SelectedUsers "Selected"
+	SelectedUsers "선택됨"
 	{
 		// ac42cdf4
 		:00_Current "Selected"
 	}
-	TodoListAccumulatedTime "Time spent"
+	TodoListAccumulatedTime "시간 경과"
 	{
 		// d5d9a722
 		:00_Current "Time spent"
 	}
-	TodoListBugs "Bugs"
+	TodoListBugs "버그/에러"
 	{
 		// 4a9d963c
 		:00_Current "Bugs"
 	}
-	TodoListDescription "Description"
+	TodoListDescription "내용"
 	{
 		// 4a77eaef
 		:00_Current "Description"
 	}
-	TodoListDue "Timeline"
+	TodoListDue "타임라인"
 	{
 		// aced8929
 		:00_Current "Timeline"
 	}
-	TodoListNew "New"
+	TodoListNew "새로"
 	{
 		// acedb1b5
 		:00_Current "New"
 	}
-	TodoListOptions "Options"
+	TodoListOptions "옵션"
 	{
 		// 51d1b0f7
 		:00_Current "Options"
 	}
-	TodoListPriority "Priority"
+	TodoListPriority "우선순위"
 	{
 		// f90382cd
 		:00_Current "Priority"
 	}
-	TodoListScheduledTasks "Scheduled tasks"
+	TodoListScheduledTasks "일정이 설정된 작업"
 	{
 		// 922d5c82
 		:00_Current "Scheduled tasks"
 	}
-	TodoListShow "Show"
+	TodoListShow "보여주기"
 	{
 		// 4aa6b26c
 		:00_Current "Show"
@@ -4151,27 +4150,27 @@ namespace NMyWork
 		// 2 text - Duration
 		:00_Current "{0} - {1} - {2}"
 	}
-	TodoListStatus "Status"
+	TodoListStatus "상태"
 	{
 		// 8fee78ef
 		:00_Current "Status"
 	}
-	TodoListTimesheet "Timesheet"
+	TodoListTimesheet "타임시트"
 	{
 		// b9bbcb73
 		:00_Current "Timesheet"
 	}
-	TodoListTitle "To do list"
+	TodoListTitle "해야할 목록"
 	{
 		// 9f8fb90d
 		:00_Current "To do list"
 	}
-	TodoListWhiteboard "Whiteboard"
+	TodoListWhiteboard "화이트보드"
 	{
 		// 396b5714
 		:00_Current "Whiteboard"
 	}
-	TodoListWorkRemaining "Work remaining / Timeline"
+	TodoListWorkRemaining "잔여 작업 / 타임라인"
 	{
 		// dccecfe8
 		:00_Current "Work remaining / Timeline"
@@ -4183,58 +4182,58 @@ namespace NMyWork
 		// 1 text - Due
 		:00_Current "{0,fe0,fn2}h / {1}"
 	}
-	TooltipAlwaysOnTop "Set window on top"
+	TooltipAlwaysOnTop "창을 위에 위치"
 	{
 		// 59e12e45
 		:00_Current "Set window on top"
 	}
-	TooltipChangeOrientation "Change orientation to Vertical or Horizontal"
+	TooltipChangeOrientation "수평 혹은 수직으로 변경"
 	{
 		// c18acd36
 		:00_Current "Change orientation to Vertical or Horizontal"
 	}
-	TooltipCloseWindow "Close"
+	TooltipCloseWindow "닫기"
 	{
 		// 1a519912
 		:00_Current "Close"
 	}
-	TooltipHideNewsFeed "Hide News feed"
+	TooltipHideNewsFeed "뉴스 피드 숨기기"
 	{
 		// 5aa449cf
 		:00_Current "Hide News feed"
 	}
-	TooltipMaximizeWindow "Maximise"
+	TooltipMaximizeWindow "최대화"
 
 	{
 		// 30e18440
 		:00_Current "Maximise"
 	}
-	TooltipMinimizeWindow "Minimise"
+	TooltipMinimizeWindow "최소화"
 	{
 		// c2582a7e
 		:00_Current "Minimise"
 	}
-	TooltipNotOnTop "Set window to not be on top"
+	TooltipNotOnTop "창을 위에 위치하지 않기"
 	{
 		// 354f6245
 		:00_Current "Set window to not be on top"
 	}
-	TooltipPopInWindow "Pop in window"
+	TooltipPopInWindow "새창 띄우기"
 	{
 		// 52a227a2
 		:00_Current "Pop in window"
 	}
-	TooltipPopOutWindow "Pop out window"
+	TooltipPopOutWindow "새창 닫기"
 	{
 		// 65a56c83
 		:00_Current "Pop out window"
 	}
-	WhiteboardFormat "Format"
+	WhiteboardFormat "형식"
 	{
 		// a20a39cb
 		:00_Current "Format"
 	}
-	WhiteboardTitle "Whiteboard"
+	WhiteboardTitle "화이트보드"
 	{
 		// 1566ffa4
 		:00_Current "Whiteboard"
@@ -4331,22 +4330,22 @@ namespace NProjectConnection
 		// dd7f67f1
 		:00_Current "Navigation Menu"
 	}
-	NoReportCreated "No reports created or shared to you"
+	NoReportCreated "나에게 생성되거나 공유된 보고서가 없음"
 	{
 		// 0a9d5f08
 		:00_Current "No reports created or shared to you"
 	}
-	Planning "Planning"
+	Planning "계획"
 	{
 		// 30f682ee
 		:00_Current "Planning"
 	}
-	PortfolioAllocations "Allocations"
+	PortfolioAllocations "할당"
 	{
 		// 5b904d4e
 		:00_Current "Allocations"
 	}
-	PortfolioFind "Find"
+	PortfolioFind "찾기"
 	{
 		// 83232c96
 		:00_Current "Find"
@@ -4368,14 +4367,14 @@ namespace NProjectConnection
 		// 0 text - Custom backlog name
 		:00_Current "{0,cc}"
 	}
-	ProductBacklogLinkTooltip "Opens {0,cc} {1}"
+	ProductBacklogLinkTooltip "{0,cc} {1} 열기"
 	{
 		// 1ecbace4
 		// 0 text - Custom backlog name
 		// 1 text - Keyboard shortcut name
 		:00_Current "Opens {0,cc} {1}"
 	}
-	ProductBacklogPrio "Priority"
+	ProductBacklogPrio "우선순위"
 	{
 		// a15888c5
 		:00_Current "Priority"
@@ -4386,7 +4385,7 @@ namespace NProjectConnection
 		// 0 text - Custom "project schedule" string
 		:00_Current "{0,cc}"
 	}
-	QualityAssurance "Quality assurance"
+	QualityAssurance "품질 보증"
 	{
 		// e6676565
 		:00_Current "Quality assurance"
@@ -4397,43 +4396,43 @@ namespace NProjectConnection
 		// 0 text - Name of report
 		:00_Current "{0,cc}"
 	}
-	ReportsTitle "Reports:"
+	ReportsTitle "보고서:"
 	{
 		// 75087ac8
 		:00_Current "Reports:"
 	}
-	ResourceAllocationViewMenuGroups "Groups"
+	ResourceAllocationViewMenuGroups "그룹"
 	{
 		// 5f94ef95
 		:00_Current "Groups"
 	}
-	ResourceAllocationViewMenuProjects "Projects"
+	ResourceAllocationViewMenuProjects "프로젝트"
 	{
 		// e6125a5f
 		:00_Current "Projects"
 	}
-	ResourceAllocationViewMenuUsers "Users"
+	ResourceAllocationViewMenuUsers "사용자"
 	{
 		// 78404b67
 		:00_Current "Users"
 	}
-	ScheduleAgile "Agile Schedule"
+	ScheduleAgile "애자일 일정"
 	{
 		// 47a97ce6
 		:00_Current "Agile Schedule"
 	}
-	ScheduleGantt "Gantt Schedule"
+	ScheduleGantt "간트 일정"
 	{
 		// 4812dc02
 		:00_Current "Gantt Schedule"
 	}
-	SprintPriority "{0,cc} priority"
+	SprintPriority "{0,cc} 우선순위"
 	{
 		// 66f419b9
 		// 0 text - Custom sprint name
 		:00_Current "{0,cc} priority"
 	}
-	WallView "Board"
+	WallView "보드"
 	{
 		// 717a1c82
 		:00_Current "Board"
@@ -4788,7 +4787,7 @@ namespace NProjects
 		            "\n"\
 		            "Go down to 'Settings for members of {0}' and select a main manager."
 	}
-	AddRemoveResourcesToProject "Add/remove users to project"
+	AddRemoveResourcesToProject "프로젝트 사용자 추가/제거"
 	{
 		// 32013466
 		:00_Current "Add/remove users to project"
@@ -4805,17 +4804,17 @@ namespace NProjects
 		// 0 text - Project name
 		:00_Current "Are you sure you want to delete project {0} and all associated activities? This operation cannot be undone."
 	}
-	CanAccessProjectHistory "Can access project history"
+	CanAccessProjectHistory "프로젝트 이력에 접근 가능"
 	{
 		// 5d7a9047
 		:00_Current "Can access project history"
 	}
-	ConsuancyFee "Consultancy fee"
+	ConsuancyFee "컨설턴트 요금"
 	{
 		// 83436f7d
 		:00_Current "Consultancy fee"
 	}
-	CreateNewProject "Create new project"
+	CreateNewProject "새로운 프로젝트 생성"
 	{
 		// 22cb490f
 		:00_Current "Create new project"
@@ -4831,7 +4830,7 @@ namespace NProjects
 		// 29e62311
 		:00_Current "Customise timesheets"
 	}
-	DeleteProject "Delete project"
+	DeleteProject "프로젝트 삭제"
 	{
 		// 67d556a4
 		:00_Current "Delete project"
@@ -4839,14 +4838,14 @@ namespace NProjects
 	DoYouWantToAddResourcesToThisProjectNow "Do you want to add users to this project now?"
 	{
 		// 66d2a251
-		:00_Current "Do you want to add users to this project now?"
+		:00_Current "지금 다음 프로젝트 사용자를 추가하시겠습니까?"
 	}
 	EditProject NLocalize/NShared/EditProject
 	{
 		// be3142b7
 		:00_Current "Edit project"
 	}
-	EditUserTimesheet "Edit user timesheet"
+	EditUserTimesheet "사용자 타임시트 편집"
 	{
 		// b864d047
 		:00_Current "Edit user timesheet"
@@ -4866,32 +4865,32 @@ namespace NProjects
 		// 39a6656f
 		:00_Current "Integration settings"
 	}
-	InternalCost "Internal cost"
+	InternalCost "내부 비용"
 	{
 		// e32e9a90
 		:00_Current "Internal cost"
 	}
-	IsAMainProjectManager "Is a main manager"
+	IsAMainProjectManager "주 관리자입니까"
 	{
 		// 0a8086ce
 		:00_Current "Is a main manager"
 	}
-	ItsRecommendedThatYouCreateResourcesBefore "It's recommended that you create users before projects. Do you want to continue anyway?"
+	ItsRecommendedThatYouCreateResourcesBefore "프로젝트 전에 사용자를 먼저 추가하는게 좋습니다. 계속 진행하시겠습니까?"
 	{
 		// eb5bedfd
 		:00_Current "It's recommended that you create users before projects. Do you want to continue anyway?"
 	}
-	LimitedVisibility "Limited visibility"
+	LimitedVisibility "권한 제한"
 	{
 		// 8099e7aa
 		:00_Current "Limited visibility"
 	}
-	MainProjectManagerHasNotBeenSelected "Main manager has not been selected"
+	MainProjectManagerHasNotBeenSelected "주 관리자를 선택하지 않았습니다."
 	{
 		// 5c91b2a1
 		:00_Current "Main manager has not been selected"
 	}
-	MainProjectManagers "Main manager(s)"
+	MainProjectManagers "주 관리자"
 	{
 		// 6ee4f4c4
 		:00_Current "Main manager(s)"
@@ -4901,7 +4900,7 @@ namespace NProjects
 		// 1be6d55d
 		:00_Current "Make a timesheet report"
 	}
-	MemberName "Member name"
+	MemberName "멤버 이름"
 	{
 		// 874aa553
 		:00_Current "Member name"
@@ -4921,12 +4920,12 @@ namespace NProjects
 		// 31dc1237
 		:00_Current "No"
 	}
-	NoProjectSelected "(No project selected)"
+	NoProjectSelected "(프로젝트를 선택하지 않음)"
 	{
 		// 03be9b97
 		:00_Current "(No project selected)"
 	}
-	NumberOfMembers "Number of members"
+	NumberOfMembers "멤버수"
 	{
 		// 1c0ae323
 		:00_Current "Number of members"
@@ -4942,13 +4941,13 @@ namespace NProjects
 		// 0 text - Database name
 		:00_Current "Projects at {0}"
 	}
-	SettingsForMembersOfX "Settings for members of {0}"
+	SettingsForMembersOfX "{0} 멤버에 대한 설정"
 	{
 		// f557fc6a
 		// 0 text - Project name
 		:00_Current "Settings for members of {0}"
 	}
-	XMLFilesX "XML files {0}"
+	XMLFilesX "{0} XML 파일"
 	{
 		// 16d2da76
 		// 0 text - .xml file extension
@@ -14304,37 +14303,37 @@ namespace NPMCContext
 	namespace NVisual
     // Texts used in title in all error, info, question and warning dialogs
 	{
-		ActivitySettings "Activity settings"
+		ActivitySettings "활동 설정"
 		{
 			// fc019724
 			:00_Current "Activity settings"
 		}
-		AdvancedSettings "Advanced"
+		AdvancedSettings "고급"
 		{
 			// 28363b8d
 			:00_Current "Advanced"
 		}
-		BatchEdit "Batch edit"
+		BatchEdit "배치 편집"
 		{
 			// 0a0e5dae
 			:00_Current "Batch edit"
 		}
-		BugSettings "Bug"
+		BugSettings "버그/에러"
 		{
 			// f1560835
 			:00_Current "Bug"
 		}
-		BugsAssignedToYou "Bugs assigned to you:"
+		BugsAssignedToYou "나에게 할당된 버그/에러"
 		{
 			// 640d2085
 			:00_Current "Bugs assigned to you:"
 		}
-		CommentSettings "Comment"
+		CommentSettings "의견"
 		{
 			// 597dacca
 			:00_Current "Comment"
 		}
-		DocumentsSettings "Documents"
+		DocumentsSettings "문서"
 		{
 			// 65067709
 			:00_Current "Documents"
@@ -14349,12 +14348,12 @@ namespace NPMCContext
 			// 9bc25bdf
 			:00_Current "Hansoft Information"
 		}
-		HansoftProjectServerAdminitrator "Hansoft Server Administrator"
+		HansoftProjectServerAdminitrator "Hansweiko(Hansoft) 서버 관리자"
 		{
 			// 9aeef8d5
 			:00_Current "Hansoft Server Administrator"
 		}
-		HansoftQuestion "Hansoft Question"
+		HansoftQuestion "Hansweiko(Hansoft) 질문"
 		{
 			// aad40c51
 			:00_Current "Hansoft Question"
@@ -14364,17 +14363,17 @@ namespace NPMCContext
 			// f2df2def
 			:00_Current "Hansoft Warning"
 		}
-		ItemSettings "Item settings"
+		ItemSettings "항목 설정"
 		{
 			// 9b6a2446
 			:00_Current "Item settings"
 		}
-		MyTimesheet "My timesheet"
+		MyTimesheet "내 타임시트"
 		{
 			// a9a9b7f4
 			:00_Current "My timesheet"
 		}
-		ScheduledTask "Scheduled task"
+		ScheduledTask "일정이 설정된 작업"
 		{
 			// 4726218a
 			:00_Current "Scheduled task"
@@ -14385,12 +14384,12 @@ namespace NPMCContext
 			// 0 text - Name of selected item
 			:00_Current "{0,cc}"
 		}
-		SubProject "Sub project"
+		SubProject "하위 프로젝트"
 		{
 			// 7161e387
 			:00_Current "Sub project"
 		}
-		TasksAssignedToYou "Tasks assigned to you:"
+		TasksAssignedToYou "나에게 할당된 작업:"
 		{
 			// 81852d7a
 			:00_Current "Tasks assigned to you:"
