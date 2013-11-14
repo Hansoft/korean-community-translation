@@ -3439,7 +3439,7 @@ namespace NColumns
 		// 34d8313c
 		:00_Current "Estimated days"
 	}
-	EstimatedIdealHours "Estimated hours"
+	EstimatedIdealHours "예상 시간"
 	{
 		// d02e575c
 		:00_Current "Estimated hours"
@@ -3519,12 +3519,12 @@ namespace NColumns
 		// 8e778427
 		:00_Current "Severity"
 	}
-	Status "Status"
+	Status "상태"
 	{
 		// e3c32a10
 		:00_Current "Status"
 	}
-	StepsToReproduce "Steps to reproduce"
+	StepsToReproduce "복제 단계들"
 	{
 		// 6c514e27
 		:00_Current "Steps to reproduce"
@@ -8505,12 +8505,12 @@ namespace NSelect
 		// 6495213b
 		:00_Current "Please review and edit the pipelines and workflows instead."
 	}
-	SelectAStartDateForThisActivity "Select a start date for this activity..."
+	SelectAStartDateForThisActivity "해당 활동에 대한 시작 일자 선택…"
 	{
 		// 77cdc3c4
 		:00_Current "Select a start date for this activity..."
 	}
-	SelectAnEndDateForThisActivity "Select an end date for this activity..."
+	SelectAnEndDateForThisActivity "해당 활동에 대한 종료 일자 선택…"
 	{
 		// 54fccd1b
 		:00_Current "Select an end date for this activity..."
@@ -8581,7 +8581,7 @@ namespace NDraggingItemsUpDown
 namespace NSprintResourceUsageDetails
 // Labels for mouse over balloon message shown over users in project schedule
 {
-	Bug "(Bug)"
+	Bug "(버그/에러)"
 	{
 		// e176c9ac
 		:00_Current "(Bug)"
@@ -8591,7 +8591,7 @@ namespace NSprintResourceUsageDetails
 		// 1a5d3f04
 		:00_Current "Close"
 	}
-	HoursNotSet "(hours not set)"
+	HoursNotSet "(설정되지 않은 시간)"
 	{
 		// de4cdedc
 		:00_Current "(hours not set)"
@@ -8601,7 +8601,7 @@ namespace NSprintResourceUsageDetails
 		// d55cd8de
 		:00_Current "Item name"
 	}
-	ItemStatus "Status"
+	ItemStatus "상태"
 	{
 		// acf1dfe1
 		:00_Current "Status"
@@ -8647,7 +8647,7 @@ namespace NSprintResourceUsageDetails
 		// 105d78ab
 		:00_Current "Work remaining"
 	}
-	WorkRemainingForX "Work remaining for {0}"
+	WorkRemainingForX "{0}에 대해 남아있는 작업"
 	{
 		// 7e981fea
 		// 0 text - User name
@@ -9817,7 +9817,7 @@ namespace NWallFunctions
 		// 0 text - Default name of sprint type or custom name
 		:00_Current "<No {0} is currently ongoing that you are a member of>"
 	}
-	OngoingSprints "Ongoing {0} that I'm a member of"
+	OngoingSprints "내가 참여한 진행 중인 {0}"
 	{
 		// 717c41f8
 		// 0 text - Default name of sprint type or custom name
@@ -9851,22 +9851,22 @@ namespace NWallFunctions
 		// e2d47631
 		:00_Current "Some of the selected items does already belong to a group. Please move all selected items to a free area."
 	}
-	WallViewNavigationBoardMode "Columns:"
+	WallViewNavigationBoardMode "컬럼:"
 	{
 		// 964af3dc
 		:00_Current "Columns:"
 	}
-	WallViewNavigationBoardRows "Lanes:"
+	WallViewNavigationBoardRows "레인:"
 	{
 		// 964db442
 		:00_Current "Lanes:"
 	}
-	WallViewNavigationSelect "Select"
+	WallViewNavigationSelect "선택"
 	{
 		// 0901976f
 		:00_Current "Select"
 	}
-	WallViewNavigationSettings "Settings:"
+	WallViewNavigationSettings "설정:"
 	{
 		// 63812240
 		:00_Current "Settings:"
@@ -10021,119 +10021,119 @@ namespace NPlannedReference
 namespace NWindowMainToolbarCommands
 // Labels for main toolbar and main toolbar menus
 {
-	AutoSort "Auto sort "
+	AutoSort "자동 정렬 "
 	{
 		// bc9eeeee
 		:00_Current "Auto sort "
 	}
-	CalendarSettings "Calendar settings..."
+	CalendarSettings "달력 설정…"
 	{
 		// 2a9509b8
 		:00_Current "Calendar settings..."
 	}
-	ChangeAvatar "Change my avatar..."
+	ChangeAvatar "내 아바타 변경…"
 	{
 		// 9b91dd52
 		:00_Current "Change my avatar..."
 	}
-	ChangeMyPassword "Change my password..."
+	ChangeMyPassword "비밀번호 변경..."
 	{
 		// f258cdcc
 		:00_Current "Change my password..."
 	}
-	CloseTheActiveReportByClickingHereAgain "Close the active report by clicking here again"
+	CloseTheActiveReportByClickingHereAgain "다시 클릭하여 활성화된 보고서 닫기"
 	{
 		// 7dfe43df
 		:00_Current "Close the active report by clicking here again"
 	}
-	ConvertGhostResourcesToNormalResources "Convert ghost users to normal users"
+	ConvertGhostResourcesToNormalResources "유령 사용자를 일반 사용자로 변경"
 	{
 		// 202e9c95
 		:00_Current "Convert ghost users to normal users"
 	}
-	CreateDeleteOrEditGhostResources "Manage ghost users"
+	CreateDeleteOrEditGhostResources "유령 사용자 관리"
 	{
 		// 1187fc5b
 		:00_Current "Manage ghost users"
 	}
-	CustomGroups "Custom groups"
+	CustomGroups "그룹 커스터마이징"
 	{
 		// 3c8ebe48
 		:00_Current "Custom groups"
 	}
-	CustomisationAndSettings "Customisation and settings"
+	CustomisationAndSettings "커스터마이징 / 세팅"
 	{
 		// 960d36e3
 		:00_Current "Customisation and settings"
 	}
-	CustomiseBugWorkflowCtrlShiftW "Customise bug workflow..."
+	CustomiseBugWorkflowCtrlShiftW "버그 워크플로우 커스터마이징…"
 	{
 		// 01d8d36c
 		:00_Current "Customise bug workflow..."
 	}
-	CustomiseExtraColumns "Customise extra columns..."
+	CustomiseExtraColumns "추가 컬럼 커스터마이징…"
 	{
 		// 9dfd538e
 		:00_Current "Customise extra columns..."
 	}
-	CustomiseExtraColumnsFindingBugsEtc "Customise project (quality assurance)..."
+	CustomiseExtraColumnsFindingBugsEtc "프로젝트 (품질 보증) 커스터마이징…"
 	{
 		// 2687203a
 		:00_Current "Customise project (quality assurance)..."
 	}
-	CustomiseProject "Customise project..."
+	CustomiseProject "프로젝트 커스터마이징…"
 	{
 		// ee990b40
 		:00_Current "Customise project..."
 	}
-	CustomiseProjectIntegrationSettings "Customise project integration settings..."
+	CustomiseProjectIntegrationSettings "프로젝트 통합 설정 커스터마이징…"
 	{
 		// 9c0975b5
 		:00_Current "Customise project integration settings..."
 	}
-	CustomiseQAIntegrationSettings "Customise QA integration settings..."
+	CustomiseQAIntegrationSettings "QA 통합 설정 커스터마이징…"
 	{
 		// 3c0183f0
 		:00_Current "Customise QA integration settings..."
 	}
-	CustomiseX "Customise project ({0})..."
+	CustomiseX "프로젝트 ({0}) 커스터마이징…"
 	{
 		// 3df439e1
 		// 0 text - Default name of backlog type or custom name
 		:00_Current "Customise project ({0})..."
 	}
-	CustomiseXIntegrationSettings "Customise {0} integration settings..."
+	CustomiseXIntegrationSettings "{0} 통합 설정 커스터마이징…"
 	{
 		// 767e0eb6
 		// 0 text - Default name of backlog type or custom name
 		:00_Current "Customise {0} integration settings..."
 	}
-	DetailedAccessAndRestrictionRules "Detailed access and restriction rules..."
+	DetailedAccessAndRestrictionRules "세부적인 접근/권한 규칙…"
 	{
 		// 6692e32f
 		:00_Current "Detailed access and restriction rules..."
 	}
-	DisplayNetworkStats "Display network stats"
+	DisplayNetworkStats "네트워크 상태 표시"
 	{
 		// efa7301c
 		:00_Current "Display network stats"
 	}
-	EmailSettings "E-mail settings..."
+	EmailSettings "이메일 설정…"
 	{
 		// 06bd0ea6
 		:00_Current "E-mail settings..."
 	}
-	EnterGhostResourceMode "Enter ghost user mode"
+	EnterGhostResourceMode "유령 사용자 모드 입력"
 	{
 		// f371a37d
 		:00_Current "Enter ghost user mode"
 	}
-	ExitGhostResourceMode "Exit ghost user mode"
+	ExitGhostResourceMode "유령 사용자 모드 나가기"
 	{
 		// b6ab9c99
 		:00_Current "Exit ghost user mode"
 	}
-	ExportAndImport "Export and import"
+	ExportAndImport "내보내기/가져오기"
 	{
 		// a26b911d
 		:00_Current "Export and import"
@@ -10148,32 +10148,32 @@ namespace NWindowMainToolbarCommands
 		// 89c9743f
 		:00_Current "Ghost user mode"
 	}
-	ImportHansoftXMLCtrlI "Import Hansoft XML"
+	ImportHansoftXMLCtrlI "Hansoft XML 가져오기"
 	{
 		// 367bff6a
 		:00_Current "Import Hansoft XML"
 	}
-	ImportMicrosoftProjectXML "Import Microsoft Project XML"
+	ImportMicrosoftProjectXML "MS Project XML 가져오기"
 	{
 		// 66c6c126
 		:00_Current "Import Microsoft Project XML"
 	}
-	ImportTestTrackProXML "Import TestTrack Pro XML"
+	ImportTestTrackProXML "TestTrack Pro XML 가져오기"
 	{
 		// 3beb1a7f
 		:00_Current "Import TestTrack Pro XML"
 	}
-	LogOut "Sign out"
+	LogOut "로그아웃"
 	{
 		// ef88d507
 		:00_Current "Sign out"
 	}
-	ManageUserViewProfiles "Manage user view presets..."
+	ManageUserViewProfiles "사용자 뷰 사전 설정 관리..."
 	{
 		// dd81af34
 		:00_Current "Manage user view presets..."
 	}
-	MenuMoreMenuActionPipelinesKanbansWorkflows "Pipelines, Kanbans and Workflows..."
+	MenuMoreMenuActionPipelinesKanbansWorkflows "파이프라인, 칸반, 워크플로우…"
 	{
 		// ddcd2a9d
 		:00_Current "Pipelines, Kanbans and Workflows..."
@@ -10183,7 +10183,7 @@ namespace NWindowMainToolbarCommands
 		// 530235e9
 		:00_Current "Pipelines, Kanbans and Workflows"
 	}
-	MenuWallViewKanbanWallModes "Kanban board modes"
+	MenuWallViewKanbanWallModes "칸반 보드 모드"
 	{
 		// 1b2ae180
 		:00_Current "Kanban board modes"
@@ -10193,14 +10193,14 @@ namespace NWindowMainToolbarCommands
 		// 0e9c2f59
 		:00_Current "<No kanbans have been created>"
 	}
-	MenuWallViewKanbanWallModesSelectKanban "Kanban '{0}'"
+	MenuWallViewKanbanWallModesSelectKanban "칸반 '{0}'"
 	{
 		// 7bf6c3eb
 		// 0 text - Name of Kanban
 		:00_Current "Kanban '{0}'"
 	}
 
-	MenuWallViewSprintWallModeGroupByColumn "Group by column '{0}'"
+	MenuWallViewSprintWallModeGroupByColumn "'{0}' 컬럼으로 그룹핑"
 	{
 		// ad821958
 		// 0 text - Name of column
@@ -10213,37 +10213,37 @@ namespace NWindowMainToolbarCommands
 		// 0 text - Default name of sprint type or custom name
 		:00_Current "{0,cc} board modes"
 	}
-	MenuZoomViewIn "Zoom view In"
+	MenuZoomViewIn "뷰 확대"
 	{
 		// 48b5fd79
 		:00_Current "Zoom view In"
 	}
-	MenuZoomViewOut "Zoom view Out"
+	MenuZoomViewOut "뷰 축소"
 	{
 		// 5f75c77a
 		:00_Current "Zoom view Out"
 	}
-	MenuZoomViewReset "Zoom view 100%"
+	MenuZoomViewReset "뷰 100% 보기"
 	{
 		// 14331aa5
 		:00_Current "Zoom view 100%"
 	}
-	MyPersonalIntegrationOptions "My personal integration options..."
+	MyPersonalIntegrationOptions "나의 개인 통합 설정…"
 	{
 		// 55c8e767
 		:00_Current "My personal integration options..."
 	}
-	MyPersonalOptionsCtrlO "My personal options..."
+	MyPersonalOptionsCtrlO "나의 개인 설정…"
 	{
 		// 6fd1b687
 		:00_Current "My personal options..."
 	}
-	MyTrends "My trends..."
+	MyTrends "나의 트렌드…."
 	{
 		// b938eaa3
 		:00_Current "My trends..."
 	}
-	PipelinesKanbansAndWorkflows "Pipelines, kanbans and workflows"
+	PipelinesKanbansAndWorkflows "파이프라인, 칸반, 워크플로우"
 	{
 		// 1ffe9135
 		:00_Current "Pipelines, kanbans and workflows"
@@ -10253,86 +10253,86 @@ namespace NWindowMainToolbarCommands
 		// d90e2056
 		:00_Current "Project history"
 	}
-	ProjectHistoryAutosaveOptions "Project history auto-save options"
+	ProjectHistoryAutosaveOptions "프로젝트 이력 자동 저장 옵션"
 	{
 		// 6adc71aa
 		:00_Current "Project history auto-save options"
 	}
-	ProjectHistoryAutosaveOptionsForBothSchedule "Project history auto-save options (for both schedule and {0})"
+	ProjectHistoryAutosaveOptionsForBothSchedule "프로젝트 이력 자동 저장 옵션 (일정과 {0} 모두)"
 	{
 		// e86d8ecb
 		// 0 text - Default name of backlog type or custom name
 		:00_Current "Project history auto-save options (for both schedule and {0})"
 	}
-	ReportsAndTrends "Reports and trends"
+	ReportsAndTrends "보고서와 트렌드"
 	{
 		// df385b1f
 		:00_Current "Reports and trends"
 	}
-	SaveProjectScheduleInProjectHistoryCtrlK "Save a snapshot in the project history"
+	SaveProjectScheduleInProjectHistoryCtrlK "프로젝트 이력의 스냅샷 저장"
 	{
 		// f2ab4700
 		:00_Current "Save a snapshot in the project history"
 	}
-	SaveXInProjectHistoryCtrlK "Save {0} in project history"
+	SaveXInProjectHistoryCtrlK "프로젝트 이력에 {0} 저장"
 	{
 		// 12d9cf14
 		// 0 text - Default name of backlog type or custom name
 		:00_Current "Save {0} in project history"
 	}
-	ScreenshotToolCtrlShiftM "Screenshot tool..."
+	ScreenshotToolCtrlShiftM "스크린샷 도구…"
 	{
 		// 5c6a7d09
 		:00_Current "Screenshot tool..."
 	}
-	Sort "Sort "
+	Sort "정렬 "
 	{
 		// 3b012635
 		:00_Current "Sort "
 	}
-	SwitchToAgileInterfaceCtrlW "Switch to Agile interface"
+	SwitchToAgileInterfaceCtrlW "애자일 화면으로 변경"
 	{
 		// 17fc87a1
 		:00_Current "Switch to Agile interface"
 	}
-	SwitchToLanguageXX "Switch to language '{0} - {1}'"
+	SwitchToLanguageXX "언어를 '{0} - {1}'로 변경"
 	{
 		// 70885b16
 		// 0 text - Language name
 		// 1 text - Lanugage ID
 		:00_Current "Switch to language '{0} - {1}'"
 	}
-	SwitchToTaskSchedulingInterfaceCtrlW "Switch to Gantt scheduling interface"
+	SwitchToTaskSchedulingInterfaceCtrlW "간트 스케쥴링 화면으로 변경"
 	{
 		// 451dd978
 		:00_Current "Switch to Gantt scheduling interface"
 	}
-	Tools "Tools"
+	Tools "도구"
 	{
 		// 9b37f7fe
 		:00_Current "Tools"
 	}
-	Trends "Trends..."
+	Trends "트랜드…"
 	{
 		// 0267cc7d
 		:00_Current "Trends..."
 	}
-	ViewBugWorkflowCtrlShiftW "View bug workflow..."
+	ViewBugWorkflowCtrlShiftW "버그/에러 처리 워크플로우 보기…"
 	{
 		// 4ca8648b
 		:00_Current "View bug workflow..."
 	}
-	ViewPipelinesKanbansAndWorkflowsShortcut "View pipelines, kanbans and workflows..."
+	ViewPipelinesKanbansAndWorkflowsShortcut "파이프라인, 칸반, 워크플로우 보기…"
 	{
 		// 7bb9762c
 		:00_Current "View pipelines, kanbans and workflows..."
 	}
-	ViewProjectScheduleHistoryCtrlJ "View project schedule history"
+	ViewProjectScheduleHistoryCtrlJ "프로젝트 일정 이력 보기"
 	{
 		// 49d1029d
 		:00_Current "View project schedule history"
 	}
-	ViewXHistoryCtrlJ "View {0} history"
+	ViewXHistoryCtrlJ "{0} 이력 보기"
 	{
 		// 28687f31
 		// 0 text - Default name of backlog type or custom name
@@ -10344,25 +10344,25 @@ namespace NWindowMainToolbarCommands
 		// 0 text - Default name of backlog type or custom name
 		:00_Current "{0,cc} history"
 	}
-	XTasksByDescription "{0}tasks by description"
+	XTasksByDescription "내용 기준의 {0}작업"
 	{
 		// 67af2c0a
 		// 0 text - Sort or auto-sort text
 		:00_Current "{0}tasks by description"
 	}
-	XTasksByDuration "{0}tasks by duration"
+	XTasksByDuration "기간 기준의 {0}작업"
 	{
 		// 8d40cc2c
 		// 0 text - Sort or auto-sort text
 		:00_Current "{0}tasks by duration"
 	}
-	XTasksByFinishDate "{0}tasks by finish date"
+	XTasksByFinishDate "종료일 기준의 {0}작업"
 	{
 		// 272ff285
 		// 0 text - Sort or auto-sort text
 		:00_Current "{0}tasks by finish date"
 	}
-	XTasksByStartDate "{0}tasks by start date"
+	XTasksByStartDate "시작일 기준의 {0}작업"
 	{
 		// 27584152
 		// 0 text - Sort or auto-sort text
@@ -10403,104 +10403,104 @@ namespace NWindowPopupCallbackMessages
 }
 namespace NShowHideItems
 {
-	ShowAccuTimeInToDoList "Show {0} column"
+	ShowAccuTimeInToDoList "{0} 컬럼 보기"
 	{
 		// 123dde3d
 		// 0 text - Time spent custom name
 		:00_Current "Show {0} column"
 	}
-	ShowAccuTimeInToDoListMenu "Show Time spent in To do list"
+	ShowAccuTimeInToDoListMenu "해야할 목록에서 소요된 시간 보기"
 	{
 		// 9e78aa32
 		:00_Current "Show Time spent in To do list"
 	}
-	ShowArchivedItems "Show Archived items"
+	ShowArchivedItems "저장된 항목 보기"
 	{
 		// 055d72b1
 		:00_Current "Show Archived items"
 	}
-	ShowBugs "Show Bugs"
+	ShowBugs "버그/에러 보기"
 	{
 		// 9443f77a
 		:00_Current "Show Bugs"
 	}
-	ShowCompletedTasks "Show Completed items"
+	ShowCompletedTasks "완료된 항목 보기"
 	{
 		// ff3e77ec
 		:00_Current "Show Completed items"
 	}
-	ShowCompletedTasksThatHasAWorkflow "Show Completed items that have a workflow"
+	ShowCompletedTasksThatHasAWorkflow "워크플로우를 가진 완료된 항목 보기"
 	{
 		// 92849b35
 		:00_Current "Show Completed items that have a workflow"
 	}
-	ShowDetailedDescriptionText "Show Detailed description in list"
+	ShowDetailedDescriptionText "목록에서 상세 내용 보기"
 	{
 		// 2a884e2e
 		:00_Current "Show Detailed description in list"
 	}
-	ShowItemDetailsWindow "Show Item details window"
+	ShowItemDetailsWindow "항목 상세 창 보기"
 	{
 		// e0227596
 		:00_Current "Show Item details window"
 	}
-	ShowItemsAssignedToMeOnly "Show Assigned to me only"
+	ShowItemsAssignedToMeOnly "나에게만 할당된 내용 보기"
 	{
 		// 98f18b90
 		:00_Current "Show Assigned to me only"
 	}
-	ShowItemsCommittedToX "Show Committed items"
+	ShowItemsCommittedToX "커밋된 항목 보기"
 	{
 		// 25700b0c
 		:00_Current "Show Committed items"
 	}
-	ShowItemsDelegatedToMeOnly "Show Editable by me only"
+	ShowItemsDelegatedToMeOnly "나만 수정 가능한 내용 보기"
 	{
 		// 18841e01
 		:00_Current "Show Editable by me only"
 	}
-	ShowLastCommentMade "Show Last comment in list"
+	ShowLastCommentMade "목록에서 최근 의견 보기"
 	{
 		// 91303907
 		:00_Current "Show Last comment in list"
 	}
-	ShowOngoingAndFutureXsThatIMAMemberOfOrHave "Show Ongoing and future {0}s that I'm a member of only"
+	ShowOngoingAndFutureXsThatIMAMemberOfOrHave "내가 참여한 진행 혹은 미래의 {0}들 보기"
 	{
 		// 3c0e888d
 		// 0 text - Default name of sprint type or custom name
 		:00_Current "Show Ongoing and future {0}s that I'm a member of only"
 	}
-	ShowOnlyFourWeeks "Show Only four weeks of scheduled tasks"
+	ShowOnlyFourWeeks "일정 수립된 작업들 중에 4주만 보기"
 	{
 		// 1c296166
 		:00_Current "Show Only four weeks of scheduled tasks"
 	}
-	ShowPipelineTasksThatCannotStart "Show Pipeline tasks that cannot start"
+	ShowPipelineTasksThatCannotStart "시작할 수 없는 파이프라인 작업 보기"
 	{
 		// 18dddd27
 		:00_Current "Show Pipeline tasks that cannot start"
 	}
-	ShowPriorityInToDoList "Show Priority column"
+	ShowPriorityInToDoList "우선순위 컬럼 보기"
 	{
 		// c94ce494
 		:00_Current "Show Priority column"
 	}
-	ShowPriorityInToDoListMenu "Show Priority in To do list"
+	ShowPriorityInToDoListMenu "해야할 목록에서 우선순위 보기"
 	{
 		// b7c10409
 		:00_Current "Show Priority in To do list"
 	}
-	ShowTasks "Show Tasks"
+	ShowTasks "작업 보기"
 	{
 		// 1dfddaaf
 		:00_Current "Show Tasks"
 	}
-	ShowTimelineViewInMyWork "Show Timeline view"
+	ShowTimelineViewInMyWork "타임라인 뷰 보기"
 	{
 		// 8289ce9b
 		:00_Current "Show Timeline view"
 	}
-	ShowUserStoryText "Show User stories in list"
+	ShowUserStoryText "목록에서 사용자 스토리 보기"
 	{
 		// e76ce9ee
 		:00_Current "Show User stories in list"

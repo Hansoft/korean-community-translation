@@ -1,51 +1,51 @@
 ﻿namespace NDialogButtonBox
 {
-	Abort "Abort"
+	Abort "중지"
 	{
 		// 46ce31ef
 		:00_Current "Abort"
 	}
-	Apply "Apply"
+	Apply "적용"
 	{
 		// 46d5e2bd
 		:00_Current "Apply"
 	}
-	Cancel "Cancel"
+	Cancel "취소"
 	{
 		// 252bdadd
 		:00_Current "Cancel"
 	}
-	Close "Close"
+	Close "닫기"
 	{
 		// 46f7decd
 		:00_Current "Close"
 	}
-	CloseWithoutSaving "Close without Saving"
+	CloseWithoutSaving "저장하지 않고 닫기"
 	{
 		// 0a522b29
 		:00_Current "Close without Saving"
 	}
-	Discard "Discard"
+	Discard "삭제"
 	{
 		// 2aa522f1
 		:00_Current "Discard"
 	}
-	DontSave "Don't Save"
+	DontSave "저장하지 않기"
 	{
 		// 42a8d01b
 		:00_Current "Don't Save"
 	}
-	Ignore "Ignore"
+	Ignore "무시"
 	{
 		// 3397965b
 		:00_Current "Ignore"
 	}
-	No "No"
+	No "아니오"
 	{
 		// 188cc294
 		:00_Current "No"
 	}
-	NoToAll "No to All"
+	NoToAll "모두 아니오"
 	{
 		// 383f8a50
 		:00_Current "No to All"
@@ -55,42 +55,42 @@
 		// 188cc291
 		:00_Current "OK"
 	}
-	Open "Open"
+	Open "열기"
 	{
 		// 6ec855a9
 		:00_Current "Open"
 	}
-	Reset "Reset"
+	Reset "재설정"
 	{
 		// 480386fa
 		:00_Current "Reset"
 	}
-	RestoreDefaults "Restore Defaults"
+	RestoreDefaults "기본값으로 복원"
 	{
 		// 45ae2c13
 		:00_Current "Restore Defaults"
 	}
-	Retry "Retry"
+	Retry "재시도"
 	{
 		// 48038ced
 		:00_Current "Retry"
 	}
-	Save "Save"
+	Save "저장"
 	{
 		// 6eca4986
 		:00_Current "Save"
 	}
-	SaveAll "Save All"
+	SaveAll "모두 저장"
 	{
 		// 9adc469f
 		:00_Current "Save All"
 	}
-	Yes "Yes"
+	Yes "예"
 	{
 		// 2a254308
 		:00_Current "Yes"
 	}
-	YesToAll "Yes to All"
+	YesToAll "모두 예"
 	{
 		// abbe7344
 		:00_Current "Yes to All"

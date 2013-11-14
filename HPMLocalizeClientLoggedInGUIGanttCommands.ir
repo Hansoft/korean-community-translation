@@ -1,4 +1,4 @@
-﻿CloseFind "Close find"
+﻿CloseFind "검색 닫기"
 {
 	// 82e1d674
 	:00_Current "Close find"
@@ -66,7 +66,7 @@ namespace NConfiguration
 		// ad07bee0
 		:00_Current "Activity name"
 	}
-	BreakDownIntoXs "Break down"
+	BreakDownIntoXs "분기"
 	{
 		// b2238454
 		:00_Current "Break down"
@@ -86,12 +86,12 @@ namespace NConfiguration
 		// dcb71fb4
 		:00_Current "Status"
 	}
-	CreateAndShareReports "Create and share Reports..."
+	CreateAndShareReports "보고서 생성 후 공유…"
 	{
 		// 326ea43b
 		:00_Current "Create and share Reports..."
 	}
-	CreatesANewAgileXBelowThisX "Creates a new item below this item"
+	CreatesANewAgileXBelowThisX "해당 항목 밑에 새로운 항목 생성"
 	{
 		// c7959a07
 		:00_Current "Creates a new item below this item"
@@ -101,7 +101,7 @@ namespace NConfiguration
 		// c67d3165
 		:00_Current "Delete"
 	}
-	DeletesSelectedDel "Deletes selected (Del)"
+	DeletesSelectedDel "선택 항목 삭제 (삭제)"
 	{
 		// f30aa9d6
 		:00_Current "Deletes selected (Del)"
@@ -131,22 +131,22 @@ namespace NConfiguration
 		// d4765913
 		:00_Current "Find"
 	}
-	FindActivitiesCtrlF "Find activities"
+	FindActivitiesCtrlF "활동(activity) 검색"
 	{
 		// d61b93c3
 		:00_Current "Find activities"
 	}
-	FindActivitiesInTheGanttViewCtrlF "Find activities in the gantt view"
+	FindActivitiesInTheGanttViewCtrlF "간트 뷰에서 활동(activity) 검색"
 	{
 		// 8bf8f094
 		:00_Current "Find activities in the gantt view"
 	}
-	FindItemsCtrlF "Find items"
+	FindItemsCtrlF "항목 검색"
 	{
 		// 7e05b7d0
 		:00_Current "Find items"
 	}
-	FindResourcesCtrlF "Find users"
+	FindResourcesCtrlF "사용자 검색"
 	{
 		// ffaf2869
 		:00_Current "Find users"
@@ -156,7 +156,7 @@ namespace NConfiguration
 		// cb710e53
 		:00_Current "Finish"
 	}
-	GoToInProjectView "Go to in project view"
+	GoToInProjectView "프로젝트 뷰로 이동"
 	{
 		// 383a5634
 		:00_Current "Go to in project view"
@@ -166,7 +166,7 @@ namespace NConfiguration
 		// a9afb67f
 		:00_Current "ID"
 	}
-	Insert "   Insert:"
+	Insert "   삽입:"
 	{
 		// d2cdaf87
 		:00_Current "   Insert:"
@@ -182,30 +182,30 @@ namespace NConfiguration
 		// 0 text - Default name of release type, backlog item type or custom name
 		:00_Current "{0,cc}"
 	}
-	InsertsANewTaskCtrlN "Inserts a new task"
+	InsertsANewTaskCtrlN "새로운 작업 추가"
 	{
 		// a2a385db
 		:00_Current "Inserts a new task"
 	}
-	InsertsANewXCtrlU "Inserts a new {0}"
+	InsertsANewXCtrlU "새로운 {0} 추가"
 	{
 		// c3a66bc7
 		// 0 text - Default name of backlog item type or custom name
 		:00_Current "Inserts a new {0}"
 	}
-	InsertsAX "Inserts a {0}"
+	InsertsAX "{0} 추가"
 	{
 		// 5bef4813
 		// 0 text - Default name of sprint type or custom name
 		:00_Current "Inserts a {0}"
 	}
-	InsertsAXCtrlM "Inserts a {0}"
+	InsertsAXCtrlM "{0} 추가"
 	{
 		// 4e0c44d5
 		// 0 text - Default name of release/milestone type or custom name
 		:00_Current "Inserts a {0}"
 	}
-	InsertsAXIntoXCtrlN "Inserts a {0} into {1}"
+	InsertsAXIntoXCtrlN "{0}를(을) {1}에 추가"
 	{
 		// c09f6a88
 		// 0 text - Default name of backlog item type or custom name
@@ -225,9 +225,9 @@ namespace NConfiguration
 	MoreActions "More actions"
 	{
 		// d67db276
-		:00_Current "More actions"
+		:00_Current "더 많은 행위(action)"
 	}
-	MyPersonalWallMode "My personal board mode"
+	MyPersonalWallMode "나의 보드 모드"
 	{
 		// fac438d1
 		:00_Current "My personal board mode"
@@ -237,12 +237,12 @@ namespace NConfiguration
 		// 6e469c31
 		:00_Current "Predecessor"
 	}
-	Print "Print"
+	Print "인쇄"
 	{
 		// 63fb4c5f
 		:00_Current "Print"
 	}
-	PrintThisViewCtrlP "Print this view"
+	PrintThisViewCtrlP "해당 뷰 인쇄"
 	{
 		// c5bae077
 		:00_Current "Print this view"
@@ -274,7 +274,7 @@ namespace NConfiguration
 		// f4ae77da
 		:00_Current "Report time on"
 	}
-	ReportTimeOnSelectedTask "Report time on selected task"
+	ReportTimeOnSelectedTask "선택한 작업에 대한 보고 시간"
 	{
 		// 85c2d756
 		:00_Current "Report time on selected task"
@@ -286,12 +286,12 @@ namespace NConfiguration
 		// 1 text - User name
 		:00_Current "Report '{0}' is shared to you by {1}"
 	}
-	Reports "   Reports:"
+	Reports "   보고서:"
 	{
 		// cc208841
 		:00_Current "   Reports:"
 	}
-	ReportsANewBugCtrlN "Reports a new bug"
+	ReportsANewBugCtrlN "새로운 에러/버그 보고"
 	{
 		// 7af3a28d
 		:00_Current "Reports a new bug"
@@ -301,17 +301,17 @@ namespace NConfiguration
 		// 4e4322db
 		:00_Current "User name"
 	}
-	Resources "Assigned to"
+	Resources "할당"
 	{
 		// 3d874ced
 		:00_Current "Assigned to"
 	}
-	Return "Return"
+	Return "리턴"
 	{
 		// e72a1112
 		:00_Current "Return"
 	}
-	Show "Show"
+	Show "보여주기"
 	{
 		// d47d75f3
 		:00_Current "Show"
@@ -323,7 +323,7 @@ namespace NConfiguration
 		// 1 text - Default name of burndown chart type or custom name
 		:00_Current "Show {0} {1}"
 	}
-	ShowsXInProjectView "Shows {0} in project view"
+	ShowsXInProjectView "프로젝트 뷰에서 {0} 보기"
 	{
 		// 3266e347
 		// 0 text - Default name of burndown chart type or custom name
@@ -334,7 +334,7 @@ namespace NConfiguration
 		// 64328d20
 		:00_Current "Start"
 	}
-	Status "Status"
+	Status "상태"
 	{
 		// ea843a36
 		:00_Current "Status"
@@ -379,7 +379,7 @@ namespace NConfiguration
 		// 645e9a8f
 		:00_Current "value"
 	}
-	WallModeX "board mode: {0}"
+	WallModeX "보드 모드: {0}"
 	{
 		// ae41961f
 		// 0 text - Name of wall mode

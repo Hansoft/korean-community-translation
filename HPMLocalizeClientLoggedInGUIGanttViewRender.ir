@@ -723,13 +723,13 @@ namespace NWall
 		// b0bb5794
 		:00_Current "Grid width"
 	}
-	GroupSummaryIdealDays "Days: {0,fe1,fn2}"
+	GroupSummaryIdealDays "일수: {0,fe1,fn2}"
 	{
 		// 33a81e5e
 		// 0 decimal - Estimated days
 		:00_Current "Days: {0,fe1,fn2}"
 	}
-	GroupSummaryPoints "Points: {0}"
+	GroupSummaryPoints "점수: {0}"
 	{
 		// d47cfb4b
 		// 0 integer - Number of points
@@ -755,38 +755,38 @@ namespace NWall
 		// 0 integer - Current number of Kanban work in progress
 		:00_Current "WIP: {0}"
 	}
-	GroupSummaryWorkRemaining "Work remaining: {0,fe0,fn2}"
+	GroupSummaryWorkRemaining "잔여 작업: {0,fe0,fn2}"
 	{
 		// 5013afeb
 		// 0 decimal - Work remaining
 		:00_Current "Work remaining: {0,fe0,fn2}"
 	}
-	KanbanGroupLargeTextBeforeCustomNameOfKanban "Kanban"
+	KanbanGroupLargeTextBeforeCustomNameOfKanban "칸반"
 	{
 		// e6de43ca
 		:00_Current "Kanban"
 	}
-	KanbanTaskAlreadyCompleted "This item is already complete"
+	KanbanTaskAlreadyCompleted "해당 항목은 이미 완료됨"
 	{
 		// c9a8c910
 		:00_Current "This item is already complete"
 	}
-	KanbanTaskCanStartNow "Can start now"
+	KanbanTaskCanStartNow "지금 시작 가능"
 	{
 		// f9e83de5
 		:00_Current "Can start now"
 	}
-	KanbanTaskCompleteToContinue "Complete to continue"
+	KanbanTaskCompleteToContinue "계속해서 완료"
 	{
 		// bfaaabd2
 		:00_Current "Complete to continue"
 	}
-	KanbanTaskHasBeenCompleted "Has been completed"
+	KanbanTaskHasBeenCompleted "완료되었음"
 	{
 		// 9902f644
 		:00_Current "Has been completed"
 	}
-	KanbanWaitingForOtherItems "Waiting for other items before continuing here"
+	KanbanWaitingForOtherItems "여기서 계속하기 전에 다른 항목에 대해 대기"
 	{
 		// d093281c
 		:00_Current "Waiting for other items before continuing here"
@@ -798,24 +798,24 @@ namespace NWall
 		// 1 text - Sprint name
 		:00_Current "{0} kanbans within {1}"
 	}
-	NoSprintIsCurrentlySelected "(No {0} is currently selected)"
+	NoSprintIsCurrentlySelected "(아무런 {0}가 현재 선택되지 않음)"
 	{
 		// dba6a0dd
 		// 0 text - Sprint
 		:00_Current "(No {0} is currently selected)"
 	}
-	None "None"
+	None "없음"
 	{
 		// 689c8a83
 		:00_Current "None"
 	}
-	PointsX "Points: {0}"
+	PointsX "점수: {0}"
 	{
 		// d8b10aa8
 		// 0 integer - Summary of points
 		:00_Current "Points: {0}"
 	}
-	SelectedXItems "Selected: {0} [NHelpers::Pluralize($0,'item')]"
+	SelectedXItems "선택: {0} [NHelpers::Pluralize($0,'item')]"
 	{
 		// 33482936
 		// 0 integer - Number of selected items
@@ -836,9 +836,9 @@ namespace NWall
 	WallView "board view"
 	{
 		// 35ba8c5e
-		:00_Current "board view"
+		:00_Current "보드 뷰"
 	}
-	WorkRemainingX "Work remaining: {0,fe0,fn2}"
+	WorkRemainingX "남아있는 작업: {0,fe0,fn2}"
 	{
 		// 0d40e7a8
 		// 0 decimal - Summary of work remaining

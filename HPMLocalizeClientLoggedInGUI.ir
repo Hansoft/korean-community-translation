@@ -2912,64 +2912,64 @@ namespace NLicenseInformationPopup
 namespace NMain
 // Messages shown after actions in main window.
 {
-	AdvancedView "Detailed view"
+	AdvancedView "상세뷰"
 	{
 		// f1c324a6
 		:00_Current "Detailed view"
 	}
-	AreYouSureYouWantToLogOutFromThisSession "Are you sure you want to log out from this session?"
+	AreYouSureYouWantToLogOutFromThisSession "현재 상태에서 로그아웃 하시겠습니까?"
 	{
 		// 429b82ad
 		:00_Current "Are you sure you want to log out from this session?"
 	}
-	AskToUploadAvatarWhenHavingNone "We notice that you haven't uploaded an avatar. Click here to do that now."
+	AskToUploadAvatarWhenHavingNone "아바타를 수정하지 않았습니다. 여기를 클릭해서 아바타를 바꿔보세요."
 	{
 		// 084c849a
 		:00_Current "We notice that you haven't uploaded an avatar. Click here to do that now."
 	}
-	CouldNotGetProjectHistoryEntryTheErrorWas "Could not get Project History Entry. The error was: {0}."
+	CouldNotGetProjectHistoryEntryTheErrorWas "프로젝트 이력을 조회할 수 없습니다. 에러 : {0}"
 	{
 		// 01173dce
 		// 0 text - Error message
 		:00_Current "Could not get Project History Entry. The error was: {0}."
 	}
-	CouldNotGetProjectHistoryTheErrorWas "Could not get Project History. The error was: {0}."
+	CouldNotGetProjectHistoryTheErrorWas "프로젝트 이력을 조회할 수 없습니다. 에러 : {0}"
 	{
 		// 587fac3c
 		// 0 text - Error message
 		:00_Current "Could not get Project History. The error was: {0}."
 	}
-	CreatingUserInterface "Logging in..."
+	CreatingUserInterface "로그인 중…"
 	{
 		// 06b9b4d2
 		:00_Current "Logging in..."
 	}
-	DashboardView "Overview"
+	DashboardView "개요"
 	{
 		// 9c918538
 		:00_Current "Overview"
 	}
-	ExitHansoft "Exit"
+	ExitHansoft "나가기"
 	{
 		// 6c7b3fe2
 		:00_Current "Exit"
 	}
-	Failed "failed"
+	Failed "실패"
 	{
 		// d1644ada
 		:00_Current "failed"
 	}
-	FileNotFound "file not found"
+	FileNotFound "파일을 찾을 수 없습니다."
 	{
 		// 5f484362
 		:00_Current "file not found"
 	}
-	FinalizingUserInterface "Finalizing user interface..."
+	FinalizingUserInterface "사용자 인터페이스 종료중…"
 	{
 		// 9c54e2f0
 		:00_Current "Finalizing user interface..."
 	}
-	HansoftForumRegistration "Hansoft Forum Registration"
+	HansoftForumRegistration "Hansoft 포럼 등록"
 	{
 		// dccdc42c
 		:00_Current "Hansoft Forum Registration"
@@ -2987,24 +2987,24 @@ namespace NMain
 	HansoftHelpMenuGoToForum "Go to Hansoft Web Forum"
 	{
 		// 59c4d3c8
-		:00_Current "Go to Hansoft Web Forum"
+		:00_Current "Hansoft 웹 포럼 가기"
 	}
-	HansoftHelpMenuManual "Hansoft Help Manual"
+	HansoftHelpMenuManual "Hansoft 도움말 매뉴얼"
 	{
 		// 3ccafb64
 		:00_Current "Hansoft Help Manual"
 	}
-	HansoftHelpMenuRegister "Register on Hansoft Web Forum"
+	HansoftHelpMenuRegister "Hansoft 웹 포럼 등록"
 	{
 		// 5b864bab
 		:00_Current "Register on Hansoft Web Forum"
 	}
-	HansoftHelpMenuSupport "Contact support@hansoft.com"
+	HansoftHelpMenuSupport "support@hansoft.com로 연락"
 	{
 		// d2d0b0e3
 		:00_Current "Contact support@hansoft.com"
 	}
-	HansoftHelpMenuTrainigVideos "Hansoft Training Videos"
+	HansoftHelpMenuTrainigVideos "Hansoft 교육 영상"
 	{
 		// ef032c5e
 		:00_Current "Hansoft Training Videos"
@@ -3019,12 +3019,12 @@ namespace NMain
 		// 50944019
 		:00_Current "Hansoft Client"
 	}
-	HansoftSystemAdministrationGuide "Hansoft System Admin Guide"
+	HansoftSystemAdministrationGuide "Hansoft 시스템 관리자 가이드"
 	{
 		// 2166baa1
 		:00_Current "Hansoft System Admin Guide"
 	}
-	Help "Help"
+	Help "도움말"
 	{
 		// 57a5575e
 		:00_Current "Help"
@@ -3039,49 +3039,49 @@ namespace NMain
 		// e05f03af
 		:00_Current "Sign out"
 	}
-	MaximizePane "Maximise Navigation Pane"
+	MaximizePane "네비게이션 창 최대화"
 	{
 		// 6bb4a9dd
 		:00_Current "Maximise Navigation Pane"
 	}
-	MinimizePane "Minimise Navigation Pane"
+	MinimizePane "네비게이션 창 최소화"
 	{
 		// 6e30a89b
 		:00_Current "Minimise Navigation Pane"
 	}
-	MyPersonalOptions "My personal options..."
+	MyPersonalOptions "나의 개인 옵션…"
 	{
 		// 5efda16b
 		:00_Current "My personal options..."
 	}
-	Navigation "Navigation"
+	Navigation "네비게이션"
 	{
 		// 6b553b25
 		:00_Current "Navigation"
 	}
-	NewConnection "New connection"
+	NewConnection "새로운 연결"
 	{
 		// c2717eef
 		:00_Current "New connection"
 	}
-	NormalizePane "Set Navigation Pane to normal size"
+	NormalizePane "일반적인 크기로 네비게이션 창 설정"
 	{
 		// 33b708aa
 		:00_Current "Set Navigation Pane to normal size"
 	}
-	OnlineXXXXX "Online {0}{1}"
+	OnlineXXXXX "온라인 {0}{1}"
 	{
 		// 252e3092
 		// 0 text - XTasksItemsOrChangesInMotion text
 		// 1 text - Optional Network statistics
 		:00_Current "Online {0}{1}"
 	}
-	ProcessingProjects "Processing projects..."
+	ProcessingProjects "프로젝트 진행중…"
 	{
 		// c84edb5c
 		:00_Current "Processing projects..."
 	}
-	ServerBusy "Server busy"
+	ServerBusy "서버 바쁨"
 	{
 		// 8597af0f
 		:00_Current "Server busy"
@@ -3091,7 +3091,7 @@ namespace NMain
 		// 90e2090f
 		:00_Current "Show network status"
 	}
-	SignOut "Sign out"
+	SignOut "로그아웃"
 	{
 		// f9288dbe
 		:00_Current "Sign out"
@@ -3110,7 +3110,7 @@ namespace NMain
 		// 2 text - The version of the hansoft server/client
 		:00_Current "Hansoft - {0} - {1} - {2}"
 	}
-	Succeeded "succeeded"
+	Succeeded "성공"
 	{
 		// ac8c5c3a
 		:00_Current "succeeded"
@@ -3318,7 +3318,7 @@ namespace NMain
 			// cd6281c6
 			:00_Current "Do not show this welcome screen again"
 		}
-		PleaseContact "Please contact support@hansoft.com if you encounter any problems"
+		PleaseContact "문제가 있으신가요, support@hansoft.com로 연락주세요"
 		{
 			// 06f68343
 			:00_Current "Please contact support@hansoft.com if you encounter any problems"
@@ -3343,7 +3343,7 @@ namespace NMain
 			// 4371d300
 			:00_Current "Web presentation of new Hansoft 7 features with screenshots"
 		}
-		WelcomeToHansoftSixFive "Welcome to Hansoft 7"
+		WelcomeToHansoftSixFive "Hansoft 7.0에 환영합니다."
 		{
 			// 4987fb1d
 			:00_Current "Welcome to Hansoft 7"
@@ -3352,58 +3352,58 @@ namespace NMain
 	namespace NSync
     // Strings for main top tabs.
 	{
-		AdministrationF7 "{0} Administration (F7)"
+		AdministrationF7 "{0} 관리 (F7)"
 		{
 			// 9ea5d1f2
 			// 0 text - Database name
 			:00_Current "{0} Administration (F7)"
 		}
-		Badge "App badge counter"
+		Badge "앱 배지 카운터"
 		{
 			// ec0eed62
 			:00_Current "App badge counter"
 		}
-		BadgeCountGroup "Add unread messages from groups"
+		BadgeCountGroup "읽지 않은 그룹 메시지 추가"
 		{
 			// 69099058
 			:00_Current "Add unread messages from groups"
 		}
-		BadgeCountPerson "Add unread messages from users"
+		BadgeCountPerson "읽지 않은 사용자 메시지 추가"
 		{
 			// 9e506762
 			:00_Current "Add unread messages from users"
 		}
-		ChatBehaviour "Undocked chats"
+		ChatBehaviour "채팅창 띄우기"
 		{
 			// aa3e6974
 			:00_Current "Undocked chats"
 		}
-		ChatGroup "Groups"
+		ChatGroup "그룹"
 		{
 			// 2a79f73c
 			:00_Current "Groups"
 		}
-		ChatOffline "Offline"
+		ChatOffline "오프라인"
 		{
 			// fc00d992
 			:00_Current "Offline"
 		}
-		ChatOnline "Online"
+		ChatOnline "온라인"
 		{
 			// 8c17e9b4
 			:00_Current "Online"
 		}
-		ChatRooms "Chat rooms"
+		ChatRooms "채팅방"
 		{
 			// 2b3f5e9f
 			:00_Current "Chat rooms"
 		}
-		DoNotDisturb "Do not disturb"
+		DoNotDisturb "방해하지 마세요"
 		{
 			// b32d63d0
 			:00_Current "Do not disturb"
 		}
-		Documents "Documents"
+		Documents "문서"
 		{
 			// b3b55a61
 			:00_Current "Documents"
@@ -3421,129 +3421,129 @@ namespace NMain
 			// 1 decimal - Percent complete
 			:00_Current "{1,fe1}% {0} (downloading)"
 		}
-		FindPeople "Find people"
+		FindPeople "사람 검색"
 		{
 			// 3e1c2035
 			:00_Current "Find people"
 		}
-		GettingOldMessages "Retrieving old messages"
+		GettingOldMessages "지난 메시지 조회"
 		{
 			// 501651f8
 			:00_Current "Retrieving old messages"
 		}
-		HansoftChat "{0} - Hansoft Chat"
+		HansoftChat "{0} - Hansoft 채팅"
 		{
 			// 18c4c1e2
 			// 0 text - Name of chat room
 			:00_Current "{0} - Hansoft Chat"
 		}
-		HansoftExit "Exit"
+		HansoftExit "나가기"
 		{
 			// 18c61fbc
 			:00_Current "Exit"
 		}
-		HansoftHelp "Help"
+		HansoftHelp "도움말"
 		{
 			// 18c7746b
 			:00_Current "Help"
 		}
-		HansoftOptions "Options"
+		HansoftOptions "옵션"
 		{
 			// ac4cdcee
 			:00_Current "Options"
 		}
-		HideSection "Hide"
+		HideSection "숨기기"
 		{
 			// 51d6b2de
 			:00_Current "Hide"
 		}
-		MyWork "My to do"
+		MyWork "내 작업"
 		{
 			// 8940a7d8
 			:00_Current "My to do"
 		}
-		MyWorkF5 "My Work (F5)"
+		MyWorkF5 "나의 작업 (F5)"
 		{
 			// dc0a0713
 			:00_Current "My Work (F5)"
 		}
-		OpenChatsStaysOnTop "Stay on top by default"
+		OpenChatsStaysOnTop "기본으로 앞에 띄우기"
 		{
 			// 02d93198
 			:00_Current "Stay on top by default"
 		}
-		OpenChatsUndocked "Open chats undocked"
+		OpenChatsUndocked "열려진 채팅창 띄우기"
 		{
 			// bd390aa1
 			:00_Current "Open chats undocked"
 		}
-		PlaySoundsPersons "In person to person chats"
+		PlaySoundsPersons "개인 채팅에서"
 		{
 			// 97277f2b
 			:00_Current "In person to person chats"
 		}
-		PlaySoundsRooms "In group chats"
+		PlaySoundsRooms "그룹 채팅에서"
 		{
 			// f8c76551
 			:00_Current "In group chats"
 		}
-		PortfolioAllocations "Portfolio"
+		PortfolioAllocations "포트폴리오"
 		{
 			// 235d6766
 			:00_Current "Portfolio"
 		}
-		PortfolioAllocationsF8 "Portfolio Allocations (F8)"
+		PortfolioAllocationsF8 "포트폴리오 할당 (F8)"
 		{
 			// 7054e224
 			:00_Current "Portfolio Allocations (F8)"
 		}
-		PortfolioFind "Portfolio Find"
+		PortfolioFind "포트폴리오 검색"
 		{
 			// c5f3f1ae
 			:00_Current "Portfolio Find"
 		}
-		ProjectX "Project {0}"
+		ProjectX "{0} 프로젝트"
 		{
 			// bd91f41e
 			// 0 text - Project name
 			:00_Current "Project {0}"
 		}
-		Projects "Projects"
+		Projects "프로젝트"
 		{
 			// bd91f439
 			:00_Current "Projects"
 		}
-		Settings "Settings"
+		Settings "설정"
 		{
 			// a6037be0
 			:00_Current "Settings"
 		}
-		ShowSection "Show"
+		ShowSection "보여주기"
 		{
 			// a6c1be65
 			:00_Current "Show"
 		}
-		ThisQAAccountIsNotConnectedToAnyProject "(No projects available)"
+		ThisQAAccountIsNotConnectedToAnyProject "(사용 가능한 프로젝트 없음)"
 		{
 			// eb74f1e8
 			:00_Current "(No projects available)"
 		}
-		ToDoList "To do list"
+		ToDoList "해야할 목록"
 		{
 			// 23a99ce1
 			:00_Current "To do list"
 		}
-		UnnamedDatabase "(Unnamed database)"
+		UnnamedDatabase "(명명하지 않은 데이터베이스)"
 		{
 			// 110e8d4c
 			:00_Current "(Unnamed database)"
 		}
-		UseAlternativeEnterKeyBehaviour "Enter key sends message"
+		UseAlternativeEnterKeyBehaviour "메시지 전송을 위해 엔터키를 입력하세요"
 		{
 			// 59106487
 			:00_Current "Enter key sends message"
 		}
-		XAdministration "Administration"
+		XAdministration "관리"
 		{
 			// 29af77ad
 			:00_Current "Administration"
@@ -3902,7 +3902,7 @@ namespace NMainHelpers
 namespace NMessageBox
 // Button labels for confirm dialogs.
 {
-	DontShowThisMessageAgain "Don't show this message again"
+	DontShowThisMessageAgain "이 메시지 다시 보지 않기"
 	{
 		// 33298b51
 		:00_Current "Don't show this message again"
@@ -14399,7 +14399,7 @@ namespace NPMCContext
 }
 namespace NCommentEditor
 {
-	AddAComment "Add a comment..."
+	AddAComment "의견 추가…"
 	{
 		// fd91b0e7
 		:00_Current "Add a comment..."

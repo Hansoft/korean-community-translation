@@ -3,7 +3,7 @@
 	// e98038ab
 	:00_Current "estimated days"
 }
-BurndownChartModeIdealHours "estimated hours"
+BurndownChartModeIdealHours "예상 시간"
 {
 	// 19d74cab
 	:00_Current "estimated hours"
@@ -13,7 +13,7 @@ BurndownChartModePoints NLocalize/NShared/Points2
 	// 1e7170b8
 	:00_Current "points"
 }
-BurndownChartModeWorkRemaining "work remaining"
+BurndownChartModeWorkRemaining "잔여 작업"
 {
 	// 0dda28b8
 	:00_Current "work remaining"
@@ -23,7 +23,7 @@ BurndownUnitFromModeIdealDays NLocalize/NShared/IdealDays
 	// 5ded40cd
 	:00_Current "Estimated days"
 }
-BurndownUnitFromModeIdealHours "Estimated hours"
+BurndownUnitFromModeIdealHours "예상 시간"
 {
 	// 1be5590d
 	:00_Current "Estimated hours"
@@ -33,7 +33,7 @@ BurndownUnitFromModePoints NLocalize/NShared/Points
 	// 05f49c1a
 	:00_Current "Points"
 }
-BurndownUnitFromModeWorkHours "Work hours"
+BurndownUnitFromModeWorkHours "작업 시간"
 {
 	// e124b6f1
 	:00_Current "Work hours"
@@ -43,7 +43,7 @@ ShortBurndownUnitFromModeIdealDays NLocalize/NShared/IdealDays2
 	// e2ef2c7d
 	:00_Current "estimated days"
 }
-ShortBurndownUnitFromModeIdealHours "estimated hours"
+ShortBurndownUnitFromModeIdealHours "예상 시간"
 {
 	// 4124babd
 	:00_Current "estimated hours"
@@ -377,38 +377,38 @@ namespace NBlock
 		// 0 text - Default name of backlog or user defined name
 		:00_Current "{0,cc}"
 	}
-	BugsAssignedToYou "Bugs assigned to you"
+	BugsAssignedToYou "할당된 에러/버그"
 	{
 		// b6cdf5bc
 		:00_Current "Bugs assigned to you"
 	}
-	BugsImportedViaXML "Bugs imported via XML"
+	BugsImportedViaXML "XML에서 가져온 에러/버그"
 	{
 		// 074705a3
 		:00_Current "Bugs imported via XML"
 	}
-	BugsInThisProject "Bugs in this project"
+	BugsInThisProject "해당 프로젝트의 버그"
 	{
 		// 6b0a3b74
 		:00_Current "Bugs in this project"
 	}
-	ClickHereToCreateANewTask ">> Click here to create a new task"
+	ClickHereToCreateANewTask ">> 새로운 작업을 생성하려면 여기를 클릭하세요"
 	{
 		// 71c771bc
 		:00_Current ">> Click here to create a new task"
 	}
-	ClickHereToCreateANewX ">> Click here to create a new {0}"
+	ClickHereToCreateANewX ">> 새로운 {0}를(을) 생성하려면 여기를 클릭하세요"
 	{
 		// b2074b01
 		// 0 text - Default name for sprint or backlog item or custom names
 		:00_Current ">> Click here to create a new {0}"
 	}
-	LimitedVisibility " (Limited visibility)"
+	LimitedVisibility " (권한 제한)"
 	{
 		// 206108ed
 		:00_Current " (Limited visibility)"
 	}
-	NewBugsReportedByMe "New bugs reported by me"
+	NewBugsReportedByMe "나에게 보고된 새로운 에러/버그"
 	{
 		// de85556a
 		:00_Current "New bugs reported by me"
@@ -426,29 +426,29 @@ namespace NBlock
 		// 1 text - Name of a sprint
 		:00_Current "{0,cc} {1}"
 	}
-	TasksAssignedToYou "Tasks assigned to you, "
+	TasksAssignedToYou "나에게 할당된 작업, "
 	{
 		// 2c60a991
 		:00_Current "Tasks assigned to you, "
 	}
-	TasksAssignedToYouStartedX "Tasks assigned to you, started {0}"
+	TasksAssignedToYouStartedX "{0} 부터 시작된 나에게 할당된 작업"
 	{
 		// 12c5dc40
 		// 0 text - Formatted date
 		:00_Current "Tasks assigned to you, started {0}"
 	}
-	TasksAssignedToYouStartsToday "Tasks assigned to you, starts today"
+	TasksAssignedToYouStartsToday "오늘 시작하는 나에게 할당된 작업"
 	{
 		// 71007813
 		:00_Current "Tasks assigned to you, starts today"
 	}
-	TasksAssignedToYouStartsX "Tasks assigned to you, starts {0}"
+	TasksAssignedToYouStartsX "{0}에 시작하는 나에게 할당된 작업"
 	{
 		// d20600aa
 		// 0 text - Formatted date
 		:00_Current "Tasks assigned to you, starts {0}"
 	}
-	UndoneRedoneBugs "Undone/redone bugs"
+	UndoneRedoneBugs "처리되지 않은/재처리된 버그"
 	{
 		// b8146cf4
 		:00_Current "Undone/redone bugs"
@@ -613,7 +613,7 @@ namespace NPlanned
 		// 0 integer - Number of points
 		:00_Current "{0} [NHelpers::Pluralize($0,'point')]"
 	}
-	XofXTasksDone " - {0} of {1} tasks done"
+	XofXTasksDone " - {1} 작업들 중에 {0} 처리 완료"
 	{
 		// b690f785
 		// 0 integer - The number of tasks done
@@ -1051,34 +1051,34 @@ namespace NPlannedListDraw
 namespace NPlannedQARelated
 // Balloon messages when violating status requirements in bug workflow
 {
-	BeforeGoingFromStatusXToXYouMustFillInThisData "Before going from status '{0}' to '{1}' you must fill in this data:"
+	BeforeGoingFromStatusXToXYouMustFillInThisData "'{0}' 상태에서 '{1}' 상태로 변경하기 전에 이 정보를 입력해야 합니다:"
 	{
 		// e08e19af
 		// 0 text - Workflow status name
 		// 1 text - Workflow status name
 		:00_Current "Before going from status '{0}' to '{1}' you must fill in this data:"
 	}
-	BeforeSettingAnotherStatusOrResourceYouMust "Before setting another status or user you must fill in this data:"
+	BeforeSettingAnotherStatusOrResourceYouMust "또 다른 상태나 사용자를 설정하기 전에 이 정보를 입력해야 합니다:"
 	{
 		// 75e9005c
 		:00_Current "Before setting another status or user you must fill in this data:"
 	}
-	Comment "* Comment"
+	Comment "* 의견"
 	{
 		// 4148a11a
 		:00_Current "* Comment"
 	}
-	CommentsNewSinceLastWorkflowStatusChange "* Comments (new since last workflow status change)"
+	CommentsNewSinceLastWorkflowStatusChange "* 의견 (마지막 워크플로우 상태 변경 이래로 최근)"
 	{
 		// 06cf2d22
 		:00_Current "* Comments (new since last workflow status change)"
 	}
-	DetailedDescription "* Detailed description"
+	DetailedDescription "* 상세 내용"
 	{
 		// a12a1727
 		:00_Current "* Detailed description"
 	}
-	StepsToReproduce "* Steps to reproduce"
+	StepsToReproduce "* 복제 단계들"
 	{
 		// 9b707da2
 		:00_Current "* Steps to reproduce"
@@ -1086,7 +1086,7 @@ namespace NPlannedQARelated
 	UserStory "* User story"
 	{
 		// 3a520567
-		:00_Current "* User story"
+		:00_Current "* 사용자 스토리"
 	}
 }
 namespace NPlannedTimeDraw
@@ -1102,7 +1102,7 @@ namespace NPlannedTimeDraw
 		// 0 text - Default name of sprint type or custom name
 		:00_Current "{0,cc}"
 	}
-	WorkXPercent "(work {0}%)"
+	WorkXPercent "(작업 {0}%)"
 	{
 		// f2213e3d
 		// 0 integer - Allocation percent
@@ -1116,7 +1116,7 @@ namespace NPlannedWorkflowRelated
 		// 6612e86e
 		:00_Current "(No name)"
 	}
-	XByX "{0} by {1}"
+	XByX "{1} 로 인한 {0}"
 	{
 		// 5e60ecdb
 		// 0 text - e.g. Task
@@ -1131,7 +1131,7 @@ namespace NResourceAllocationBlock
 		// 98c83f98
 		:00_Current "Ghost user"
 	}
-	GroupAverage "Group average"
+	GroupAverage "그룹 평균"
 	{
 		// 45f1e953
 		:00_Current "Group average"
@@ -1139,7 +1139,7 @@ namespace NResourceAllocationBlock
 	Hours "hours >"
 	{
 		// a178753c
-		:00_Current "hours >"
+		:00_Current "시간 >"
 	}
 }
 namespace NPlannedReference
