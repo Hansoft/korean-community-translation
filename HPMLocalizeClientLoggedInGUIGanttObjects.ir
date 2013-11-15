@@ -1083,10 +1083,10 @@ namespace NPlannedQARelated
 		// 9b707da2
 		:00_Current "* Steps to reproduce"
 	}
-	UserStory "* User story"
+	UserStory "* 사용자 스토리"
 	{
 		// 3a520567
-		:00_Current "* 사용자 스토리"
+		:00_Current "* User story"
 	}
 }
 namespace NPlannedTimeDraw
@@ -1136,10 +1136,10 @@ namespace NResourceAllocationBlock
 		// 45f1e953
 		:00_Current "Group average"
 	}
-	Hours "hours >"
+	Hours "시간 >"
 	{
 		// a178753c
-		:00_Current "시간 >"
+		:00_Current "hours >"
 	}
 }
 namespace NPlannedReference

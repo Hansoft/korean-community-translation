@@ -1309,7 +1309,7 @@
 		// Shared by:
 		// c88d66a1 - NLocalize/NClient/NGui/NGantt/NCommands/NConfiguration/Earned
 		// 37f8cdf5 - NLocalize/NClient/NGui/NGantt/NDataImport/NProjectHistory/Earned
-		:00_Current "획득 가치"
+		:00_Current "Earned"
 	}
 	EarnedValue "Earned value"
 	{

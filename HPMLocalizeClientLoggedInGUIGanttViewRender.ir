@@ -833,10 +833,10 @@ namespace NWall
 		// 57632e23
 		:00_Current "Unknown"
 	}
-	WallView "board view"
+	WallView "보드 뷰"
 	{
 		// 35ba8c5e
-		:00_Current "보드 뷰"
+		:00_Current "board view"
 	}
 	WorkRemainingX "남아있는 작업: {0,fe0,fn2}"
 	{

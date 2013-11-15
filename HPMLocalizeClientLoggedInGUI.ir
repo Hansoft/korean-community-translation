@@ -2984,10 +2984,10 @@ namespace NMain
 		            "\n"\
 		            "Please contact solutions@hansoft.com and we would be happy to issue an evaluation licence for your whole team. This will give you access to the forum and also full support during your evaluation period."
 	}
-	HansoftHelpMenuGoToForum "Go to Hansoft Web Forum"
+	HansoftHelpMenuGoToForum "Hansoft 웹 포럼 가기"
 	{
 		// 59c4d3c8
-		:00_Current "Hansoft 웹 포럼 가기"
+		:00_Current "Go to Hansoft Web Forum"
 	}
 	HansoftHelpMenuManual "Hansoft 도움말 매뉴얼"
 	{
@@ -4837,10 +4837,10 @@ namespace NProjects
 		// 67d556a4
 		:00_Current "Delete project"
 	}
-	DoYouWantToAddResourcesToThisProjectNow "Do you want to add users to this project now?"
+	DoYouWantToAddResourcesToThisProjectNow "지금 다음 프로젝트 사용자를 추가하시겠습니까?"
 	{
 		// 66d2a251
-		:00_Current "지금 다음 프로젝트 사용자를 추가하시겠습니까?"
+		:00_Current "Do you want to add users to this project now?"
 	}
 	EditProject NLocalize/NShared/EditProject
 	{

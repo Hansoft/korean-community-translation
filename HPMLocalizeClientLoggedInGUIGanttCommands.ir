@@ -222,10 +222,10 @@ namespace NConfiguration
 		// d47a49c5
 		:00_Current "More.."
 	}
-	MoreActions "More actions"
+	MoreActions "더 많은 행위(action)"
 	{
 		// d67db276
-		:00_Current "더 많은 행위(action)"
+		:00_Current "More actions"
 	}
 	MyPersonalWallMode "나의 보드 모드"
 	{
