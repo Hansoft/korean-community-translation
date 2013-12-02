@@ -14,7 +14,7 @@ Translation for Hansoft (www.hansoft.com).
 
 2. Supported versions
 ---------------------
-Currently there are no .hcl files available.
+7.5003
 
 3. Other files
 ------------
@@ -43,13 +43,13 @@ HPMLocalizeServerServer.ir
 HPMLocalizeShared.ir
 MainLocalization.ir
 
-
-6. List of contributors
+4. List of contributors
 -----------------------
 Chung-Hun Lee (NexTree)
 Oliver Shin (Hansoft)
+Johan Karlsson (Hansoft)
 
-7. Instructions to submit bugs and patches
+5. Instructions to submit bugs and patches
 ------------------------------------------
 You are very welcome to contribute to this community translation.
 
