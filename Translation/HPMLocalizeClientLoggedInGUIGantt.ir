@@ -3411,7 +3411,7 @@ namespace NColumns
 		// 91c102ea
 		:00_Current "Category"
 	}
-	CommittedToX "Committed to {0}"
+	CommittedToX "{0} 에 커밋"
 	{
 		// ee876c2d
 		// 0 text - Default name of sprint type or custom name
@@ -3545,7 +3545,7 @@ namespace NColumns
 		// 0 text - Default name of sprint or backlog type or custom name
 		:00_Current "{0,cc} priority"
 	}
-	XTag "{0,cc} tag"
+	XTag "{0,cc} 태그"
 	{
 		// cdad0e40
 		// 0 text - Default name of release type or custom name

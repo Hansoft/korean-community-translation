@@ -467,7 +467,7 @@ namespace NActivityDetailsWindow
 			// 9e44111a
 			:00_Current "Estimated hours"
 		}
-		LinkedTo "Linked to"
+		LinkedTo "연결"
 		{
 			// 7559aec4
 			:00_Current "Linked to"
@@ -507,12 +507,12 @@ namespace NActivityDetailsWindow
 			// a230182d
 			:00_Current "Nothing set"
 		}
-		PipeFlow "Pipeline / Workflow"
+		PipeFlow "파이프라인 / 워크플로우"
 		{
 			// 2a8de650
 			:00_Current "Pipeline / Workflow"
 		}
-		Priority "Priority"
+		Priority "우선순위"
 		{
 			// cfd2f64c
 			:00_Current "Priority"
@@ -579,7 +579,7 @@ namespace NActivityDetailsWindow
 			// d1852c5e
 			:00_Current "Attach or drag Files here"
 		}
-		AttachFile "Attach files"
+		AttachFile "첨부파일"
 		{
 			// 6b3daee9
 			:00_Current "Attach files"
@@ -737,7 +737,7 @@ namespace NActivityDetailsWindow
 			// 1e421581
 			:00_Current "Open folder and go to the file on my computer"
 		}
-		Organize "Organise"
+		Organize "구성"
 		{
 			// 8104c853
 			:00_Current "Organise"
@@ -3974,9 +3974,8 @@ namespace NMyWork
 		// 0 integer - Number of days
 		:00_Current "{0} [NHelpers::Pluralize($0,'day')] ago"
 	}
-	
 	NewsFeedHoursAgo "{0} [NHelpers::Pluralize($0,'hour')] 시간 전"
-	{	
+	{
 		// 09ef7212
 		// 0 integer - Number of hours
 		:00_Current "{0} [NHelpers::Pluralize($0,'hour')] ago"
@@ -7710,7 +7709,7 @@ namespace NUsers
 		            "\n"\
 		            "This action cannot be undone."
 	}
-	ChangeAvatar "Change Avatar..."
+	ChangeAvatar "아바타 변경…"
 	{
 		// 3a052ea7
 		:00_Current "Change Avatar..."
@@ -7809,7 +7808,7 @@ namespace NUsers
 		// 3f1a0d4a
 		:00_Current "Delete prior to (YYYY-MM-DD)"
 	}
-	DeleteResources "Delete users"
+	DeleteResources "사용자 삭제"
 	{
 		// a47b8bd0
 		:00_Current "Delete users"
@@ -7947,7 +7946,7 @@ namespace NUsers
 		// 0 text - Time that the user last did something
 		:00_Current "Offline. Last activity: {0}"
 	}
-	OnlineX "Online {0}"
+	OnlineX "{0} 온라인"
 	{
 		// fba688bf
 		// 0 text - Version number
@@ -8417,12 +8416,12 @@ namespace NVersionControl
 		// 0 integer - Number of files
 		:00_Current "Found {0} [NHelpers::Pluralize($0,'file')].."
 	}
-	GoBack "Go Back"
+	GoBack "뒤로"
 	{
 		// a355475e
 		:00_Current "Go Back"
 	}
-	GoForward "Go Forward"
+	GoForward "앞으로"
 	{
 		// dc004e42
 		:00_Current "Go Forward"
@@ -8564,7 +8563,7 @@ namespace NVersionControl
 		// 7bb2a1e3
 		:00_Current "My personal document options"
 	}
-	Organize "Organize"
+	Organize "구성"
 	{
 		// 6d16e336
 		:00_Current "Organize"
@@ -8619,7 +8618,7 @@ namespace NVersionControl
 		// 4766fc3b
 		:00_Current "Root"
 	}
-	ShowDeletedFiles "Show deleted files"
+	ShowDeletedFiles "삭제 파일 조회"
 	{
 		// 8eccfb82
 		:00_Current "Show deleted files"
@@ -9730,7 +9729,7 @@ namespace NVersionControl
 			// c07f9f2f
 			:00_Current "Folder Details"
 		}
-		GlobalDocuments "Global documents"
+		GlobalDocuments "전역 문서"
 		{
 			// 7bcf07d0
 			:00_Current "Global documents"
@@ -9755,7 +9754,7 @@ namespace NVersionControl
 			// 9bd546c6
 			:00_Current "Location"
 		}
-		Places "Places"
+		Places "장소"
 		{
 			// 1502e8a5
 			:00_Current "Places"
@@ -11453,6 +11452,11 @@ namespace NPerforceIntegration
 		{
 			// d203e6c4
 			:00_Current "Set how the Perforce integration should write comments on a changelist update"
+		}
+		DisableComments "Disable comments"
+		{
+			// 045fff4d
+			:00_Current "Disable comments"
 		}
 		DisableHistory "Disable history"
 		{

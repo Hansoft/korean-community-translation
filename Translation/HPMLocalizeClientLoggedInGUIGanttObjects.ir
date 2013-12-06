@@ -223,12 +223,12 @@ namespace NAutoItem
 		// 1 decimal - Total number of hours
 		:00_Current "{0,fe0,fn1} of {1,fe0,fn1} [NHelpers::Pluralize($0,'hour')] done"
 	}
-	MoreDataInBurndown "More data"
+	MoreDataInBurndown "더 많은 데이터"
 	{
 		// b4d7748d
 		:00_Current "More data"
 	}
-	People "People:"
+	People "사람:"
 	{
 		// 18621b9f
 		:00_Current "People:"

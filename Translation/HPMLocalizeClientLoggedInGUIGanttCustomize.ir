@@ -423,12 +423,27 @@ namespace NPathSetup
 		// f40e8351
 		:00_Current "I want all project members to be able to comment on all items"
 	}
+	ImportData "Import data"
+	{
+		// c18a65de
+		:00_Current "Import data"
+	}
+	ImportDataDescription "Users can import data into all areas they are allowed to edit, including sections they have been delegated. Restricting this ability limits the import functionality to Main Managers."
+	{
+		// e8dc96a2
+		:00_Current "Users can import data into all areas they are allowed to edit, including sections they have been delegated. Restricting this ability limits the import functionality to Main Managers."
+	}
 	OnScheduledActivitiesAndItemsYouCanShowASub "On scheduled activities and items you can show a sub project/item path when the sub project/item itself is not visible. This will affect To do list, Find, Find all and Limited Visibility. For example, an assigned task may be displayed just 'Task A' in My work but with sub project/item path turned on it can be displayed as \n"\
 	                                            "'Sub project A: Task B'."
 	{
 		// 86d2d71c
 		:00_Current "On scheduled activities and items you can show a sub project/item path when the sub project/item itself is not visible. This will affect To do list, Find, Find all and Limited Visibility. For example, an assigned task may be displayed just 'Task A' in My work but with sub project/item path turned on it can be displayed as \n"\
 		            "'Sub project A: Task B'."
+	}
+	ProjectMembersCanImport "Users can import data into their editable sections of the project"
+	{
+		// 40e6b478
+		:00_Current "Users can import data into their editable sections of the project"
 	}
 	SelectSubProjectItemPathDepth "Select sub project/item path depth:"
 	{

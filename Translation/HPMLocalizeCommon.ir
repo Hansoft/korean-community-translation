@@ -327,7 +327,7 @@
 				// 79a0a5ac
 				:00_Current "Pipeline and Kanban tasks - Can start now"
 			}
-			PipelinesKanbansWorkflows "Pipeline, Kanban or Workflow"
+			PipelinesKanbansWorkflows "파이프라인, 칸반, 워크플로우"
 			{
 				// 1c7e34b3
 				:00_Current "Pipeline, Kanban or Workflow"
@@ -347,7 +347,7 @@
 				// e66c52fc
 				:00_Current "Priority tag"
 			}
-			ProductBacklogPriority "Product backlog priority"
+			ProductBacklogPriority "제품 백로그 우선순위"
 			{
 				// 8255b634
 				:00_Current "Product backlog priority"
@@ -2213,7 +2213,7 @@
 			// cf5d01fb
 			:00_Current "Priority"
 		}
-		ProductBacklog "product backlog"
+		ProductBacklog "제품 백로그"
 		{
 			// b05e1e2d
 			:00_Current "product backlog"
@@ -2228,7 +2228,7 @@
 			// e1974c1d
 			:00_Current "schedule"
 		}
-		Release "release"
+		Release "릴리즈"
 		{
 			// e6f3c93a
 			:00_Current "release"
@@ -2335,7 +2335,7 @@
 			// ea7c44b8
 			:00_Current "Severity D"
 		}
-		Sprint "sprint"
+		Sprint "스프린트"
 		{
 			// 19a31559
 			:00_Current "sprint"
@@ -2345,7 +2345,7 @@
 			// 4e05c0ab
 			:00_Current "Sprint"
 		}
-		SprintBacklogItem "sprint backlog item"
+		SprintBacklogItem "스프린트 백로그 항목"
 		{
 			// 2282ef1b
 			:00_Current "sprint backlog item"

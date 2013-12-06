@@ -395,7 +395,7 @@ namespace NDetailedAccessAndRestrictionRules
 namespace NTopWindow
 // Labels shown in top part of QA section
 {
-	AllBugsInThisProject "All bugs in this project"
+	AllBugsInThisProject "프로젝트 내 모든 버그"
 	{
 		// 031f2fd5
 		:00_Current "All bugs in this project"
