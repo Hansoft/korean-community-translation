@@ -15,6 +15,7 @@ Translation for Hansoft (www.hansoft.com).
 2. Supported versions
 ---------------------
 7.5003
+7.5013
 
 3. Other files
 ------------

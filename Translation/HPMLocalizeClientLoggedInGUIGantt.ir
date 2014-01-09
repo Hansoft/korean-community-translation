@@ -10021,6 +10021,11 @@ namespace NPlannedReference
 namespace NWindowMainToolbarCommands
 // Labels for main toolbar and main toolbar menus
 {
+	AddRemoveUsersToProject "Add / remove users to project..."
+	{
+		// 90ab7ef0
+		:00_Current "Add / remove users to project..."
+	}
 	AutoSort "자동 정렬 "
 	{
 		// bc9eeeee

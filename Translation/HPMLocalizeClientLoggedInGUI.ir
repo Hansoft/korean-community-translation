@@ -838,6 +838,11 @@ namespace NAddProjectMembers
 		// 1 text - Project name
 		:00_Current "Are you sure you want to disconnect {0} from {1}?"
 	}
+	AreYouSureYouWantToRemove "Are you sure you want to remove yourself from this project? (Not recommended)"
+	{
+		// dcb69df7
+		:00_Current "Are you sure you want to remove yourself from this project? (Not recommended)"
+	}
 	AvailableResources "Available users"
 	{
 		// d80c9bf7
@@ -4102,6 +4107,12 @@ namespace NMyWork
 		// 4a9d963c
 		:00_Current "Bugs"
 	}
+	TodoListDefaultSort "{0} (default)"
+	{
+		// 75c717b8
+		// 0 text - Column name
+		:00_Current "{0} (default)"
+	}
 	TodoListDescription "내용"
 	{
 		// 4a77eaef
@@ -4125,7 +4136,7 @@ namespace NMyWork
 	TodoListPriority "우선순위"
 	{
 		// f90382cd
-		:00_Current "Priority"
+		:00_Current "Sort on"
 	}
 	TodoListScheduledTasks "일정이 설정된 작업"
 	{
@@ -4136,6 +4147,16 @@ namespace NMyWork
 	{
 		// 4aa6b26c
 		:00_Current "Show"
+	}
+	TodoListSortAscending "Sort Ascending"
+	{
+		// faeb28ff
+		:00_Current "Sort Ascending"
+	}
+	TodoListSortDescending "Sort Descending"
+	{
+		// 1b7e5847
+		:00_Current "Sort Descending"
 	}
 	TodoListSprint "{0,cc}"
 	{

@@ -492,6 +492,16 @@ namespace NImportExport
 // Import and export messages
 // More..>Export and import
 {
+	CreatNewItemsOnly "Create all items again"
+	{
+		// 499c08b4
+		:00_Current "Create all items again"
+	}
+	Hansoft "Hansoft"
+	{
+		// ff00434a
+		:00_Current "Hansoft"
+	}
 	HansoftWasUnableToImportTheXMLFileThisCanBeOf "Hansoft was unable to import the XML file, this can be of several reasons:\n"\
 	                                              "\n"\
 	                                              "* You did try to import Microsoft Project XML as Hansoft XML. Click on 'More import/export options' and select 'Import Microsoft Project XML'.\n"\
@@ -501,9 +511,10 @@ namespace NImportExport
 	                                              "\n"\
 	                                              "* The file did not contain any activies or other relevant data to Hansoft.\n"\
 	                                              "\n"\
-	                                              "* The file did contain illegal XML characters."
+	                                              "Error from XML importer was: {0}"
 	{
 		// e00167c2
+		// 0 text - Error text
 		:00_Current "Hansoft was unable to import the XML file, this can be of several reasons:\n"\
 		            "\n"\
 		            "* You did try to import Microsoft Project XML as Hansoft XML. Click on 'More import/export options' and select 'Import Microsoft Project XML'.\n"\
@@ -513,7 +524,9 @@ namespace NImportExport
 		            "\n"\
 		            "* The file did not contain any activies or other relevant data to Hansoft.\n"\
 		            "\n"\
-		            "* The file did contain illegal XML characters."
+		            "* The file did contain illegal XML characters.\n"\
+		            "\n"\
+		            "Error from XML importer was: {0}"
 	}
 	HansoftXMLFilesX "Hansoft XML files {0}"
 	{
@@ -544,6 +557,22 @@ namespace NImportExport
 		// ee7337a7
 		// 0 text - .txt file extension
 		:00_Current "Text files {0}"
+	}
+	UpdateExistingOnly "Update existing items"
+
+	{
+		// 37fd4127
+		:00_Current "Update existing items"
+	}
+	WhenImporting "Items in the XML file already exist in Hansoft. Would you like to update only the existing items, or create all items again?\n"\
+	              "\n"\
+	              "Warning: this operation cannot be undone."
+
+	{
+		// 38a60382
+		:00_Current "Items in the XML file already exist in Hansoft. Would you like to update only the existing items, or create all items again?\n"\
+		            "\n"\
+		            "Warning: this operation cannot be undone."
 	}
 	XMLFilesX NLocalize/NShared/XMLFilesX
 	{
