@@ -16,6 +16,7 @@ Translation for Hansoft (www.hansoft.com).
 ---------------------
 7.5003
 7.5013
+7.5052
 
 3. Other files
 ------------
